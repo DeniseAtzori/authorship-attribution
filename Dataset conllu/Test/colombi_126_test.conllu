@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'amore aveva tanto osservato, compulsato, ragionato intorno a lei, che si era fatto uggioso come un vecchio pedante;
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	tanto	tanto	ADV	B	_	5	advmod	_	_
+5	osservato	osservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	compulsato	compulsare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	ragionato	ragionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+10	intorno	intorno	ADV	B	_	12	case	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+18	uggioso	uggioso	ADJ	A	Gender=Masc|Number=Sing	17	xcomp	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	pedante	pedante	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = ed ella sentiva il bisogno di rimettergli la benda tradizionale, di restituirgli le sue ali svolazzanti, la sua giovanile cecità.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	rimettergli	_	_	_	_	_	_	_	_
+7	rimetter	rimettere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	benda	benda	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	tradizionale	tradizionale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	restituirgli	_	_	_	_	_	_	_	_
+14	restituir	restituire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+15	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	ali	ali	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+19	svolazzanti	svolazzante	ADV	B	_	14	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+23	giovanile	giovanile	ADJ	A	Number=Sing	24	amod	_	_
+24	cecità	cecità	NOUN	S	Gender=Fem	14	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Era un errore, povera donna; ma e l'altro?
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	errore	errore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	povera	povero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	conj	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Tutti gli eccessi conducono all'errore.
+1	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	eccessi	eccesso	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	conducono	condurre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	errore	errore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

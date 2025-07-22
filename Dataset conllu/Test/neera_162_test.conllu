@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ero, in certi istanti, vile.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	istanti	istante	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	vile	vile	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Quando l'angoscia mi stringeva più terribile mi veniva la pazza tentazione di domandargli una tregua, di muoverlo a pietà per il mio cuore che sanguinava.
+1	Quando	quando	SCONJ	CS	_	5	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	stringeva	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	terribile	terribile	ADJ	A	Number=Sing	5	xcomp	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	pazza	pazzo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	tentazione	tentazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	domandargli	_	_	_	_	_	_	_	_
+14	domandar	domandare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	tregua	tregua	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	muoverlo	_	_	_	_	_	_	_	_
+20	muover	muovere	VERB	V	VerbForm=Inf	17	acl	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	pietà	pietà	NOUN	S	Gender=Fem	20	obl	_	_
+24	per	per	ADP	E	_	27	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	sanguinava	sanguinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Mi pareva che gli avrei io chiesto scusa pur di rivedere il suo bel sorriso di un tempo e sentirmelo vicino con quella muta palpitazione delle fibre che tradisce la simpatia.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	gli	gli	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	avrei	avere	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	chiesto	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	scusa	scusare	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9	pur	pure	ADV	B	_	11	mark	_	_
+10	di	di	ADP	E	_	9	fixed	_	_
+11	rivedere	rivedere	VERB	V	VerbForm=Inf	7	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	bel	bello	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	sentirmelo	sentirmelare	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+21	vicino	vicino	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	con	con	ADP	E	_	25	case	_	_
+23	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+24	muta	muto	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	palpitazione	palpitazione	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+26-27	delle	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	fibre	fibra	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	tradisce	tradire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	simpatia	simpatia	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

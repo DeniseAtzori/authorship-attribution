@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nulla vi dirò di me.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	3	nsubj	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	dirò	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Sarebbe troppo duro rammentare quello che io provai, dinanzi a tale complicazione nel nostro amore.
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	troppo	troppo	ADV	B	_	3	advmod	_	_
+3	duro	duro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	rammentare	rammentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	provai	provare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	dinanzi	dinanzi	ADV	B	_	13	case	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	tale	tale	DET	DD	Number=Sing|PronType=Dem	13	det	_	_
+13	complicazione	complicazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ricordo solamente di essere trabalzata, in quei tempi, dai sentimenti più limpidi, alti e luminosi, alle vittorie della passione più oscure e più contristanti:
+1	Ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solamente	solo	ADV	B	_	1	advmod	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	trabalzata	trabalzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11-12	dai	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	limpidi	limpido	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	alti	alto	ADJ	A	Gender=Masc|Number=Plur	15	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	luminosi	luminoso	ADJ	A	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	vittorie	vittorie	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	passione	passione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	oscure	oscuro	ADV	B	_	26	advmod	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31	contristanti	contristante	ADJ	A	Number=Plur	28	conj	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = ricordo che io ho sentito, per Giustino Morelli e per me, insieme, il disprezzo più profondo e l'ira più cieca.
+1	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	Giustino	Giustino	PROPN	SP	_	5	obl	_	_
+9	Morelli	Morelli	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	insieme	insieme	ADV	B	_	5	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	disprezzo	disprezzo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	ira	ira	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	cieca	cieco	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

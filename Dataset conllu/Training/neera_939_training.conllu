@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Eleganti pantere, piccoli leoni mansueti gli si avvicinano lambendogli le mani.
+1	Eleganti	Elegante	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	pantere	pantero	NOUN	S	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	leoni	leone	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+6	mansueti	mansueto	ADJ	A	Number=Plur	5	amod	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	avvicinano	avvicinare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	lambendogli	_	_	_	_	_	_	_	_
+10	lambendo	lambere	VERB	V	VerbForm=Ger	9	advcl	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	mani	mano	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Schiere di fanciulli sorridenti lo circondano, lo invitano a giuocare ed egli giuoca ed è felice.
+1	Schiere	Schiere	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	fanciulli	fanciullo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+4	sorridenti	sorridente	ADJ	A	Number=Plur	3	amod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	circondano	circondare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	invitano	invitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	giuocare	giuocare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	ed	e	CCONJ	CC	_	14	cc	_	_
+13	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	giuoca	giuocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	ed	e	CCONJ	CC	_	17	cc	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	felice	felice	ADJ	A	Number=Sing	6	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Tutto intorno a lui è bellezza, luce, armonia, bontà.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+2	intorno	intorno	ADV	B	_	4	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	bellezza	bellezzo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	luce	luce	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	armonia	armonia	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	bontà	bontà	NOUN	S	Gender=Fem	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Come mai egli si ritrova solo, piangendo, in una via deserta sotto la pioggia, sotto le raffiche?
+1	Come	come	ADP	E	_	5	mark	_	_
+2	mai	mai	ADV	B	_	5	advmod	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	ritrova	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	solo	solo	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	piangendo	piangere	VERB	V	VerbForm=Ger	5	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	via	via	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	deserta	deserto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	sotto	sotto	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	sotto	sotto	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	raffiche	raffica	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ...
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

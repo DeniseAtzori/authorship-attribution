@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Infelicissimo amore!
+1	Infelicissimo	Infelicissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	amod	_	_
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Immediatamente Giovanni Serra provò il confuso avvilimento della sua caduta e Clara la delusione della sua prepotenza sentimentale.
+1	Immediatamente	immediatamente	ADV	B	_	4	advmod	_	_
+2	Giovanni	Giovanni	PROPN	SP	_	4	nsubj	_	_
+3	Serra	serra	PROPN	SP	_	2	flat:name	_	_
+4	provò	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	confuso	confuso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	avvilimento	avvilimento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	Clara	Clara	PROPN	SP	_	11	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	prepotenza	prepotenza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	sentimentale	sentimentale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Passata l'ebbrezza singolare e pur triste della grande serata, ella si trovò di fronte a Serra, nella condizione tormentosa e misera, di una donna che ama troppo, che vuole amar troppo e che, sovra tutto, pensa e dice di amar troppo, mentre non è riamata abbastanza.
+1	Passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ebbrezza	ebbrezza	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	singolare	singolare	ADJ	A	Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	pur	pure	ADV	B	_	7	advmod	_	_
+7	triste	triste	ADJ	A	Gender=Fem|Number=Plur	4	conj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	serata	serata	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	fronte	fronte	NOUN	S	Number=Sing	15	obl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Serra	serra	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+24	tormentosa	tormentoso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	misera	misero	ADJ	A	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	15	punct	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	donna	donna	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	troppo	troppo	ADV	B	_	32	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	32	punct	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+36	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	amar	amare	VERB	V	VerbForm=Inf	30	acl:relcl	_	_
+38	troppo	troppo	ADV	B	_	37	advmod	_	_
+39	e	e	CCONJ	CC	_	45	cc	_	_
+40	che	che	PRON	PR	PronType=Rel	45	nsubj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	sovra	sovrare	ADP	E	_	43	case	_	_
+43	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	45	obl	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	pensa	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	37	conj	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+48	di	di	ADP	E	_	49	mark	_	_
+49	amar	amare	VERB	V	VerbForm=Inf	47	xcomp	_	_
+50	troppo	troppo	ADV	B	_	49	advmod	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	49	punct	_	_
+52	mentre	mentre	SCONJ	CS	_	55	mark	_	_
+53	non	non	ADV	BN	PronType=Neg	55	advmod	_	_
+54	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux	_	_
+55	riamata	riamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	47	advcl	_	_
+56	abbastanza	abbastanza	ADV	B	_	55	advmod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

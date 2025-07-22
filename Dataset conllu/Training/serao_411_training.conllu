@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi anche Gasparre aveva abbandonata Maria, malgrado si dicesse che Candida, detta per diminutivo Canituccia, fosse figlia di lui.
+1	Poi	poi	ADV	B	_	5	advmod	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	Gasparre	Gasparre	PROPN	SP	_	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	abbandonata	abbandonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	Maria	Maria	PROPN	SP	_	5	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	malgrado	malgrado	SCONJ	CS	_	10	mark	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	dicesse	dire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+11	che	che	SCONJ	CS	_	20	mark	_	_
+12	Candida	Candidare	PROPN	SP	_	20	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	diminutivo	diminutivo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	Canituccia	Canituccia	PROPN	SP	_	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+20	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	10	ccomp	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = È certo che quella Maria, dopo essere stata un mese a Sessa, aveva lasciato Canituccia e se n’era andata, chi diceva a Capua, chi diceva a Napoli, a far vita disonesta.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	certo	certo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	16	mark	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	Maria	Maria	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	dopo	dopo	SCONJ	CS	_	11	mark	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	11	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mese	mese	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Sessa	Sessa	PROPN	SP	_	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+17	Canituccia	Canituccia	PROPN	SP	_	16	obj	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	se	se	SCONJ	CS	_	22	mark	_	_
+20	n’	no	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	16	punct	_	_
+24	chi	chi	PRON	PR	PronType=Rel	16	obj	_	_
+25	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	Capua	Capua	PROPN	SP	_	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	chi	chi	PRON	PR	PronType=Rel	25	nsubj	_	_
+30	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	Napoli	Napoli	PROPN	SP	_	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	30	punct	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	far	fare	VERB	V	VerbForm=Inf	30	xcomp	_	_
+36	vita	vita	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+37	disonesta	disonesto	ADJ	A	Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

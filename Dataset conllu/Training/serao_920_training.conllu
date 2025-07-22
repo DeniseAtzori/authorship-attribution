@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella fu, in questo, perfettissima:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	perfettissima	perfettissimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = giacchè lasciò svolgersi quell'alta consolazione spirituale, senza avere l'aria di sospingerla, di provocarla, di goderne come di un trionfo:
+1	giacchè	giacché	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	obj	_	_
+2	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	svolgersi	_	_	_	_	_	_	_	_
+3	svolger	svolgere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	quell'	quello	DET	DD	Number=Sing|PronType=Dem	7	det	_	SpaceAfter=No
+6	alta	alto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	consolazione	consolazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+8	spirituale	spirituale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11	avere	avere	VERB	V	VerbForm=Inf	3	advcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	aria	aria	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	sospingerla	_	_	_	_	_	_	_	SpaceAfter=No
+15	sospinger	sospingere	VERB	V	VerbForm=Inf	13	acl	_	_
+16	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19-20	provocarla	_	_	_	_	_	_	_	SpaceAfter=No
+19	provocar	provocare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+20	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	goderne	goderna	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+24	come	come	ADP	E	_	27	case	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	trionfo	trionfo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = e quando lo spettacolo finì, si levò in piedi, pian piano, prendendo il suo mantello.
+1	e	e	CCONJ	CC	_	8	cc	_	_
+2	quando	quando	SCONJ	CS	_	5	mark	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	finì	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	levò	levare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	pian	pian	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	piano	piano	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	prendendo	prendere	VERB	V	VerbForm=Ger	8	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	mantello	mantello	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Egli fu più lesto di lei:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	lesto	lesto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = ed ella sentì che mentre l'aiutava ad indossarlo, le sue mani tremavano.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	mentre	mentre	SCONJ	CS	_	7	mark	_	_
+6	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+7	aiutava	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+8	ad	a	ADP	E	_	9	mark	_	_
+9-10	indossarlo	_	_	_	_	_	_	_	SpaceAfter=No
+9	indossar	indossare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	mani	mano	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+15	tremavano	tremare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Allora, ella ebbe un pensiero orgoglioso, muliebre.
+1	Allora	allora	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	orgoglioso	orgoglioso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	muliebre	muliebra	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Pensò:
+1	Pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+

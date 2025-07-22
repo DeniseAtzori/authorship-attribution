@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Avrebbe voluto che fosse stato certo alla prima che non c'era nessuna speranza clandestina da fondare su di lei ma che l'amasse ugualmente.
+1	Avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+6	certo	certo	ADV	B	_	9	advmod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	2	ccomp	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	SpaceAfter=No
+13	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
+14	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+16	clandestina	clandestinare	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	da	da	ADP	E	_	18	mark	_	_
+18	fondare	fondare	VERB	V	VerbForm=Inf	15	acl	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	di	di	ADP	E	_	19	fixed	_	_
+21	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+22	ma	ma	CCONJ	CC	_	25	cc	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+25	amasse	amare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+26	ugualmente	ugualmente	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Non era libera?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	libera	libero	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Non erano liberi tutti e due?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	due	due	NUM	N	NumType=Card	4	conj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = L'idea che quel sentimento che l'agitava tutta non trovasse altro riscontro nel cuore di lui fuorchè la speranza ignobile d'un'avventura galante, l'offendeva.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	19	mark	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+8	agitava	agitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	trovasse	trovare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+12	altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
+13	riscontro	riscontro	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+19	fuorchè	fuorché	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	ignobile	ignobile	ADJ	A	Number=Sing	21	amod	_	_
+23	d'	di	ADP	E	_	25	case	_	SpaceAfter=No
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+26	galante	galante	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	offendeva	offendere	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli girava dapertutto, cercando il Sella o il Crispi:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	girava	girare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	dapertutto	dapertutto	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	cercando	cercare	VERB	V	VerbForm=Ger	2	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Sella	Sella	PROPN	SP	_	5	obj	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Crispi	Crispi	PROPN	SP	_	7	conj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = ma l'aula era vuota e fredda, sotto il lucernario, co' suoi banchi ancora coperti delle fodere di tela estive, coi suoi tappeti di un color polvere, orlati di azzurro, avendo l'aria di un pozzo profondo e umido, con una luce altissima che vi pioveva, quasi filtrando attraverso un velo d'acqua.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aula	aula	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	sotto	sotto	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lucernario	lucernario	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	co'	coco	ADP	E	_	15	case	_	_
+14	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+16	ancora	ancora	ADV	B	_	17	advmod	_	_
+17	coperti	coperto	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	fodere	fodera	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	tela	tela	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	estive	estivo	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	15	punct	_	_
+25-26	coi	_	_	_	_	_	_	_	_
+25	con	con	ADP	E	_	28	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	tappeti	tappeto	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	color	colore	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32	polvere	polvero	NOUN	S	Gender=Fem|Number=Sing	31	compound	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	5	punct	_	_
+34	orlati	orlare	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	azzurro	azzurro	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	34	punct	_	_
+38	avendo	avere	VERB	V	VerbForm=Ger	34	advcl	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
+40	aria	aria	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	pozzo	pozzo	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+44	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	umido	umido	ADJ	A	Gender=Masc|Number=Sing	44	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	38	punct	_	_
+48	con	con	ADP	E	_	50	case	_	_
+49	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	luce	luce	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+51	altissima	alto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	50	amod	_	_
+52	che	che	PRON	PR	PronType=Rel	54	nsubj	_	_
+53	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	54	expl	_	_
+54	pioveva	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	54	punct	_	_
+56	quasi	quasi	ADV	B	_	57	advmod	_	_
+57	filtrando	filtrare	VERB	V	VerbForm=Ger	54	advcl	_	_
+58	attraverso	attraverso	ADP	E	_	60	case	_	_
+59	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	velo	velo	NOUN	S	Gender=Masc|Number=Sing	57	obl	_	_
+61	d'	di	ADP	E	_	62	case	_	SpaceAfter=No
+62	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	60	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

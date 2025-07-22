@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il suo modo di amare esclusivo e violento le interdiceva i facili conforti, le comode sostituzioni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	amare	amare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	esclusivo	esclusivo	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	violento	violento	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+9	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+10	interdiceva	interdicere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	facili	facile	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	conforti	conforto	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	comode	comode	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+17	sostituzioni	sostituzione	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = In chiesa, aprendo il suo libro di preghiere, fu particolarmente attratta da queste parole di un gran santo:
+1	In	in	ADP	E	_	2	case	_	_
+2	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	aprendo	aprire	VERB	V	VerbForm=Ger	13	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	libro	libro	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	preghiere	preghiera	NOUN	S	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+12	particolarmente	particolarmente	ADV	B	_	13	advmod	_	_
+13	attratta	attrattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	16	det	_	_
+16	parole	parola	NOUN	S	Gender=Fem|Number=Plur	13	obl:agent	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	gran	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	santo	santo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 3
+# text = “Adiratevi e non peccate„.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Adiratevi	Adirare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	peccate	peccare	ADJ	A	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+6	„	„	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Era dunque permessa, secondo i modi ed i casi, anche l'ira?
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	dunque	dunque	ADV	B	_	3	advmod	_	_
+3	permessa	permettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	secondo	secondo	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	modi	modo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	casi	caso	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	anche	anche	ADV	B	_	14	advmod	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ira	ira	NOUN	S	Gender=Fem|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = anche lo sdegno amaro, profondo, che solleva il cuore in certe ore della vita e lo spinge alla rivolta come se volesse liberarsi ad un tratto da catene secolari che lo opprimono?
+1	anche	anche	ADV	B	_	3	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	amaro	amaro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	solleva	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	ore	ora	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vita	vita	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	spinge	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	rivolta	rivolta	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	come	come	ADV	B	_	27	advmod	_	_
+25	se	se	SCONJ	CS	_	27	mark	_	_
+26	volesse	volere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27-28	liberarsi	_	_	_	_	_	_	_	_
+27	liberar	liberare	VERB	V	VerbForm=Inf	20	advcl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29	ad	a	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+32	da	da	ADP	E	_	33	case	_	_
+33	catene	catena	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
+34	secolari	secolare	ADJ	A	Number=Plur	33	amod	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+36	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
+37	opprimono	opprimere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+38	?	?	PUNCT	FS	_	27	punct	_	SpacesAfter=\n
+

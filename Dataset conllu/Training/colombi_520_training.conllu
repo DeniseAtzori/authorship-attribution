@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il nonno aveva parlato serio serio e concitato;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	serio	serio	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	serio	serio	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	concitato	concitato	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = e però la piccola brigata trovò che la fola di quel giorno non era punto dilettevole, e si disperse, brontolando un pochino.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	però	però	ADV	B	_	6	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	brigata	brigata	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	15	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fola	fola	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	ccomp	_	_
+16	dilettevole	dilettevole	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	disperse	disperdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	brontolando	brontolare	VERB	V	VerbForm=Ger	20	advcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	pochino	pochino	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ma Maria che aveva indovinato a chi la dedicasse il nonno, gli strinse la mano in silenzio;
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2	Maria	Maria	PROPN	SP	_	14	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	indovinato	indovinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	obl	_	_
+8	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	dedicasse	dedicare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	strinse	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mano	mano	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 4
+# text = e tutti e due tennero dietro collo sguardo a Roberto, che cacciate le mani in tasca, e col capo chino sul petto, si allontanò lento e pensoso, e scomparve senza voltarsi.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	tennero	tennero	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	dietro	dietro	ADP	E	_	7	case	_	_
+7	collo	collo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	sguardo	sguardo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Roberto	Roberto	PROPN	SP	_	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	cacciate	cacciare	VERB	V	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	mani	mano	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	tasca	tasca	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	col	_	_	_	_	_	_	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	capo	capo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+23	chino	chare	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	sul	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	petto	petto	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	allontanò	allontanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+30	lento	lento	ADJ	A	Gender=Masc|Number=Sing	29	xcomp	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	pensoso	pensoso	ADJ	A	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	scomparve	scomparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+36	senza	senza	ADP	E	_	37	mark	_	_
+37-38	voltarsi	_	_	_	_	_	_	_	SpaceAfter=No
+37	voltar	voltarre	VERB	V	VerbForm=Inf	35	advcl	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+39	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

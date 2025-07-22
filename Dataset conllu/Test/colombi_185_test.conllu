@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Giungemmo a Milano sull'imbrunire.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Giungemmo	Giungemmo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Milano	Milano	PROPN	SP	_	2	obl	_	_
+5-6	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+5	su	su	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	imbrunire	imbrunire	VERB	V	VerbForm=Inf	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Bisogna aver provato a sentirsi un simile inganno sulla coscienza, per comprendere l'angoscia di quel momento.
+1	Bisogna	bisognare	PROPN	SP	_	3	nsubj	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	sentirsi	_	_	_	_	_	_	_	_
+5	sentir	sentire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	simile	simile	ADJ	A	Number=Sing	9	amod	_	_
+9	inganno	inganno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	comprendere	comprendere	VERB	V	VerbForm=Inf	5	advcl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	momento	momento	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Non mi ero premunita, come le donne da commedia o da romanzo, di un denso velo per coprirmi il volto.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+3	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	premunita	premunire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	commedia	commedia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	denso	denso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+18	velo	velo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20-21	coprirmi	_	_	_	_	_	_	_	_
+20	coprir	coprire	VERB	V	VerbForm=Inf	17	acl	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	volto	volto	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Faceva un caldo soffocante; ero vestita di chiaro, con un cappello tondo.
+1	Faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	soffocante	soffocante	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	7	punct	_	_
+6	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	chiaro	chiaro	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+14	tondo	tondo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Chiunque m'avesse veduta una volta poteva riconoscermi.
+1	Chiunque	chiunque	PRON	PR	Number=Sing|PronType=Rel	8	nsubj	_	_
+2	m'	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	SpaceAfter=No
+3	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	veduta	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+7	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	riconoscermi	riconoscermo	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Allo scalo c'era un mondo di gente coll'occhio intento ai nuovi arrivati, per cercare fra essi le persone che aspettavano.
+1-2	Allo	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	scalo	scalo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	gente	gente	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	coll'	collo	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+12	intento	intento	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	arrivati	arrivato	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	cercare	cercare	VERB	V	VerbForm=Inf	5	advcl	_	_
+20	fra	fra	ADP	E	_	21	case	_	_
+21	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	persone	persona	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	aspettavano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

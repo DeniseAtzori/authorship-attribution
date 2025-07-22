@@ -1,0 +1,156 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una inchiesta era stata aperta e si sapeva che lo sbaglio veniva da lei.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	aperta	aperto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sbaglio	sbaglio	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = — Vero sbaglio?
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Vero	vero	PROPN	SP	_	0	root	_	_
+3	sbaglio	sbagliare	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = ...
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Vero sbaglio?
+1	Vero	vero	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	sbaglio	sbagliare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ...
+1	...	.	PUNCT	FF	_	0	root	_	_
+
+# sent_id = 6
+# text = — le chiedevano.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	chiedevano	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Una visione raccapricciante della Corte d'Assise e dei giudici le sfilò davanti.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	visione	visione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+3	raccapricciante	raccapricciante	ADJ	A	Number=Sing	2	amod	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Corte	corte	PROPN	SP	_	2	nmod	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	Assise	assise	PROPN	SP	_	6	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+13	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	sfilò	sfilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	davanti	davanti	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 8
+# text = Il cuore le si schiantava più che mai stritolato dalle invisibili mani; l'oscuro riso, fischiando, gridava:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	schiantava	schiantavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	più	più	ADV	B	_	5	advmod	_	_
+7	che	che	ADP	E	_	9	mark	_	_
+8	mai	mai	ADV	B	_	9	advmod	_	_
+9	stritolato	stritolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+10-11	dalle	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	invisibili	invisibile	ADJ	A	Number=Plur	13	amod	_	_
+13	mani	mano	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	17	punct	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	oscuro	oscuro	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	riso	riso	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	fischiando	fischiare	VERB	V	VerbForm=Ger	21	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	gridava	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 9
+# text = — Avvelenatrice.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Avvelenatrice	Avvelenatore	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = — E quella parola sorgeva dalle tenebre in caratteri di fuoco, si avanzava lampeggiando, la investiva, la copriva tutta.
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	E	e	CCONJ	CC	_	5	cc	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	parola	parola	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	sorgeva	sorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	dalle	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	tenebre	tenebra	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	caratteri	carattere	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	avanzava	avanzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+16	lampeggiando	lampeggiando	VERB	V	VerbForm=Ger	15	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	investiva	investiva	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	copriva	coprire	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+23	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Ora non era più una parola, era un volto:
+1	Ora	ora	ADV	B	_	6	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	più	più	ADV	B	_	6	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	parola	parola	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	volto	volto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 12
+# text = un terribile volto sconosciuto che somigliava a Elvira.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	terribile	terribile	ADJ	A	Number=Sing	3	amod	_	_
+3	volto	volto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	sconosciuto	sconosciuto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	somigliava	somigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Elvira	Elvira	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Questo qui, come vede, è il salotto, decente ed elegante, questa tappezzeria è tutto lavoro mio, di quando ero più giovane e non avevo tormenti pel capo: basta, non ne parliamo.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+3	qui	qui	ADV	B	_	10	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	come	come	SCONJ	CS	_	6	mark	_	_
+6	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	decente	decente	ADJ	A	Number=Sing	10	amod	_	_
+13	ed	e	CCONJ	CC	_	14	cc	_	_
+14	elegante	elegante	ADJ	A	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	tappezzeria	tappezzeria	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	20	det	_	_
+20	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	10	acl:relcl	_	_
+21	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	27	punct	_	_
+23	di	di	ADP	E	_	27	mark	_	_
+24	quando	quando	SCONJ	CS	_	23	fixed	_	_
+25	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	cop	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	giovane	giovane	ADJ	A	Number=Sing	20	amod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	conj	_	_
+31	tormenti	tormere	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+32-33	pel	_	_	_	_	_	_	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	capo	capo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	27	punct	_	_
+36	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	40	punct	_	_
+38	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+39	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	40	iobj	_	_
+40	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Qui vi è tutto, tappeto, tende; e il deputato Gagliardi non se ne sarebbe mai più andato, tanto vi si trovava bene, se gli elettori non gli avessero fatto il tiro di non rieleggerlo.
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	tende	tendere	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	25	punct	_	_
+10	e	e	CCONJ	CC	_	25	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+13	Gagliardi	Gagliardi	PROPN	SP	_	12	nmod	_	_
+14	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+15	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+17	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	mai	mai	ADV	B	_	19	advmod	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	andato	andare	ADJ	A	Gender=Masc|Number=Sing	25	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	tanto	tanto	ADV	B	_	25	advmod	_	_
+23	vi	vi	ADV	B	_	25	advmod	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+26	bene	bene	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	se	se	SCONJ	CS	_	34	mark	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	elettori	elettore	NOUN	S	Gender=Masc|Number=Plur	34	nsubj	_	_
+31	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+32	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	iobj	_	_
+33	avessero	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	aux	_	_
+34	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	tiro	tiro	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	di	di	ADP	E	_	39	mark	_	_
+38	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+39-40	rieleggerlo	_	_	_	_	_	_	_	SpaceAfter=No
+39	rielegger	rieleggere	VERB	V	VerbForm=Inf	36	acl	_	_
+40	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
+41	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma la vita politica è piena di questi dolori.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	politica	politico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	dolori.	dolori.	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ....».
+1	....	....	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

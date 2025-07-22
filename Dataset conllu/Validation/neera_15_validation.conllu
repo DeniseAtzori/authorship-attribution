@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo mio parente non lo avevo mai veduto.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	parente	parente	NOUN	S	Number=Sing	0	root	_	_
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+6	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	mai	mai	ADV	B	_	8	advmod	_	_
+8	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Egli era stato prima in collegio, poi all'estero;
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	prima	prima	ADV	B	_	6	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	collegio	collegio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	poi	poi	ADV	B	_	11	advmod	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	estero	estero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = ricordavo sua madre morta l'anno prima e che era una angelica creatura, ma di lui non avevo mai visto neppure un ritratto.
+1	ricordavo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	madre	madre	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	prima	prima	ADV	B	_	6	advmod	_	_
+8	e	e	CCONJ	CC	_	13	cc	_	_
+9	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	angelica	angelico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	21	punct	_	_
+15	ma	ma	CCONJ	CC	_	21	cc	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	21	aux	_	_
+20	mai	mai	ADV	B	_	21	advmod	_	_
+21	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+22	neppure	neppure	ADV	BN	PronType=Neg	24	advmod	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ritratto	ritratto	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Solo mi era giunta la fama del suo ingegno ed era questo che mi preoccupava un poco.
+1	Solo	solo	ADV	B	_	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	giunta	giungere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fama	fama	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	ingegno	ingegno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	ed	e	CCONJ	CC	_	13	cc	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	preoccupava	preoccupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	poco	poco	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Abituata ad una esistenza meschina, sempre sola col mio bimbo, con Pietro e colla vecchia Orsola, lontana da qualsiasi centro intellettuale, da qualsiasi parvenza di società, che cosa avrei detto a questo giovane culto e distinto?
+1	Abituata	Abituare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	36	advcl	_	_
+2	ad	a	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	meschina	meschino	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	sempre	sempre	ADV	B	_	8	advmod	_	_
+8	sola	solo	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+9-10	col	_	_	_	_	_	_	_	_
+9	con	con	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	Pietro	Pietro	PROPN	SP	_	1	obl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	colla	colla	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+18	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	Orsola	Orsola	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+24	centro	centro	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	intellettuale	intellettuale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	1	punct	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+29	parvenza	parvenza	NOUN	S	Gender=Fem|Number=Sing	1	obl:agent	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	società	società	NOUN	S	Gender=Fem	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	1	punct	_	_
+33	che	che	DET	DQ	PronType=Int	34	det	_	_
+34	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	_
+35	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	39	det	_	_
+39	giovane	giovane	NOUN	S	Number=Sing	36	obl	_	_
+40	culto	culto	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	distinto	distinto	ADJ	A	Gender=Masc|Number=Sing	40	conj	_	SpaceAfter=No
+43	?	?	PUNCT	FS	_	36	punct	_	SpacesAfter=\n
+

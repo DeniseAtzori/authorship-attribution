@@ -1,0 +1,133 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fu con un rispetto sacro che ruppe il primo dei cinque suggelli.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	sacro	sacro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	ruppe	rompere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	cinque	cinque	NUM	N	NumType=Card	13	nummod	_	_
+13	suggelli	suggello	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Pensò che forse il plico conteneva dei valori da rendere a qualcuno e che ella si faceva ministra di un tardivo dovere.
+1	Pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	forse	forse	ADV	B	_	6	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	plico	plico	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	conteneva	contenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	valori	valore	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	rendere	rendere	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obl	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+16	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+19	ministra	ministra	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	18	nsubj	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	tardivo	tardivo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Oh!
+1	Oh	oh	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = qualunque fosse stato l'obbligo se lo assumerebbe intero fino alle ultime conseguenze.
+1	qualunque	qualunque	SCONJ	CS	_	8	mark	_	_
+2	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	assumerebbe	assumere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	intero	intero	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	_
+10	fino	fino	ADV	B	_	14	case	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	14	amod	_	_
+14	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Sotto il calore di questa riflessione caddero prontamente gli altri suggelli ed Anna, respirando appena per l'intima attesa, ritirò dalla busta un fascicoletto di pagine scritte minutamente in aspetto di giornale più che di lettera, colla stessa calligrafia ignota della soprascritta e firmate con un segno convenzionale, inintelligibile.
+1	Sotto	sotto	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	calore	calore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	riflessione	riflessione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	caddero	cadderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	prontamente	pronto	ADV	B	_	7	advmod	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	altri	altro	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	suggelli	suggello	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	Anna	Anna	PROPN	SP	_	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	respirando	respirare	VERB	V	VerbForm=Ger	41	advcl	_	_
+16	appena	appena	ADV	B	_	15	advmod	_	_
+17	per	per	ADP	E	_	20	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+19	intima	intima	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	attesa	atteso	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	15	punct	_	_
+22	ritirò	ritirare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	15	conj	_	_
+23-24	dalla	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	busta	busta	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	fascicoletto	fascicoletto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+30	scritte	scrivere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+31	minutamente	minuto	ADV	B	_	33	advmod	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36	più	più	ADV	B	_	35	nmod	_	_
+37	che	che	ADP	E	_	39	case	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	15	punct	_	_
+41	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+42	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+43	calligrafia	calligrafia	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+44	ignota	ignoto	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+45-46	della	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	soprascritta	soprascritta	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+48	e	e	CCONJ	CC	_	49	cc	_	_
+49	firmate	firmare	NOUN	S	Gender=Fem|Number=Plur	47	conj	_	_
+50	con	con	ADP	E	_	52	case	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	segno	segno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+53	convenzionale	convenzionale	ADJ	A	Number=Sing	52	amod	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	55	punct	_	_
+55	inintelligibile	inintelligibile	ADJ	A	Number=Sing	53	conj	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Mi nascondevo il volto tra le mani, e ad occhi chiusi vedevo Massimo dinanzi a me, e sentivo il suo bacio.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	nascondevo	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	volto	volto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	tra	tra	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	mani	mano	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	ad	a	ADP	E	_	12	case	_	_
+12	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+13	chiusi	chiuso	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+15	Massimo	Massimo	PROPN	SP	_	14	obj	_	_
+16	dinanzi	dinanzi	ADV	B	_	18	case	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = O Dio!
+1	O	o	CCONJ	CC	_	2	cc	_	_
+2	Dio	Dio	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non era vero ch'egli non fosse temibile per me.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	ch'	perché	SCONJ	CS	_	8	mark	_	SpaceAfter=No
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	temibile	temibile	ADJ	A	Number=Sing	3	advcl	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ero d'una debolezza dinanzi a lui!
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	dinanzi	dinanzi	ADV	B	_	7	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Egli aveva l'energia che mancava a me; e quello sguardo d'aquila che penetra nell'anima.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	energia	energia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	mancava	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	11	punct	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	conj	_	_
+12	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	11	appos	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	aquila	aquila	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	penetra	penetrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17-18	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	in	in	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	anima	anima	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Con questo mi conosceva;
+1	Con	con	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = con quella mi dominava.
+1	con	con	ADP	E	_	2	case	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	obl	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	dominava	dominare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,124 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ebbene, ella strinse con Paolo Collemagno uno stranissimo patto, senza il quale ella non avrebbe mai consentito ad amarlo.
+1	Ebbene	ebbene	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	strinse	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	Paolo	Paolo	PROPN	SP	_	4	obl	_	_
+7	Collemagno	Collemagno	PROPN	SP	_	6	flat:name	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	stranissimo	strano	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	10	amod	_	_
+10	patto	patto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	senza	senza	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	quale	quale	PRON	PR	Number=Sing|PronType=Rel	19	obl	_	_
+15	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	mai	mai	ADV	B	_	19	advmod	_	_
+19	consentito	consentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+20	ad	a	ADP	E	_	21	case	_	_
+21	amarlo	amarlo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Aveva letto nel romanzo di Loti _Madame Crysanthème_ di quelle unioni coniugali, che gli ufficiali di marina celebrano con qualcuna di quelle donnine dai piccoli occhi sorpresi e dai piccoli piedi che non sanno camminare, e che durano tutto il tempo della loro dimora a Nagasaki o a Yokohama:
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Loti	Loto	PROPN	SP	_	5	nmod	_	_
+8	_Madame	_Madame	PROPN	SP	_	7	flat:name	_	_
+9	Crysanthème_	Crysanthème-	PROPN	SP	_	7	flat:name	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	unioni	unioni	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+13	coniugali	coniugale	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	marina	marina	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	celebrano	celebrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	qualcuna	qualcuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	20	obl	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+25	donnine	donnina	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26-27	dai	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	29	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+29	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+30	sorpresi	sorpreso	ADJ	A	Number=Plur	29	amod	_	_
+31	e	e	CCONJ	CC	_	35	cc	_	_
+32-33	dai	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	35	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+34	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	_
+35	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+36	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+37	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+38	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+39	camminare	camminare	VERB	V	VerbForm=Inf	38	xcomp	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	43	punct	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+43	durano	durare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+44	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	46	det:predet	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+47-48	della	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	50	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+49	loro	loro	DET	AP	Poss=Yes|PronType=Prs	50	det:poss	_	_
+50	dimora	dimora	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+51	a	a	ADP	E	_	52	case	_	_
+52	Nagasaki	Nagasaki	PROPN	SP	_	43	obl	_	_
+53	o	o	CCONJ	CC	_	55	cc	_	_
+54	a	a	ADP	E	_	55	case	_	_
+55	Yokohama	Yokohama	PROPN	SP	_	52	conj	_	SpaceAfter=No
+56	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = dopo, la nave da guerra riceve l'ordine di partire, gli sposi si separano, per non rivedersi mai più, senza lacrime e senza sospiri.
+1	dopo	dopo	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	nave	nave	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	riceve	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	partire	partire	VERB	V	VerbForm=Inf	9	acl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	sposi	sposo	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	separano	separare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	per	per	ADP	E	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20-21	rivedersi	_	_	_	_	_	_	_	_
+20	riveder	rivedere	VERB	V	VerbForm=Inf	16	advcl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	mai	mai	ADV	B	_	20	advmod	_	_
+23	più	più	ADV	B	_	20	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	7	punct	_	_
+25	senza	senza	ADP	E	_	26	case	_	_
+26	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	senza	senza	ADP	E	_	29	case	_	_
+29	sospiri	sospiro	NOUN	S	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

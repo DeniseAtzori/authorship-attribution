@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era una giornata serena dello scorso agosto.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	dello	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il cielo era tutto azzurro cupo, tranquillo, senza una nube bianchiccia o cinerea, che macchiasse di un'ombra nera le pendici rocciose dei monti; senza neppure quegli screzi rosei a tinte luminose e calde, che sono, sull'infinita serenità del cielo, come l'espressione dell'affetto sulla bellezza d'un volto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+5	azzurro	azzurro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	cupo	cupo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	tranquillo	tranquillo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	senza	senza	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	nube	nube	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+13	bianchiccia	bianchiccia	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	o	o	CCONJ	CC	_	15	cc	_	_
+15	cinerea	cinerea	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	macchiasse	macchiare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	nera	nero	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	pendici	pendice	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+25	rocciose	roccioso	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	monti	monte	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	33	punct	_	_
+30	senza	senza	ADP	E	_	33	case	_	_
+31	neppure	neppure	ADV	BN	PronType=Neg	33	advmod	_	_
+32	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	33	det	_	_
+33	screzi	screzo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+34	rosei	roseo	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	tinte	tinta	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	_
+37	luminose	luminoso	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	calde	calde	ADJ	A	Gender=Fem|Number=Plur	37	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	36	punct	_	_
+41	che	che	PRON	PR	PronType=Rel	47	nsubj	_	_
+42	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	47	punct	_	_
+44-45	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+44	su	su	ADP	E	_	47	case	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
+46	infinita	infinito	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	_
+47	serenità	serenità	NOUN	S	Gender=Fem	36	acl:relcl	_	_
+48-49	del	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	47	nmod	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	36	punct	_	_
+52	come	come	ADP	E	_	54	case	_	_
+53	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	54	det	_	SpaceAfter=No
+54	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+55-56	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+55	di	di	ADP	E	_	57	case	_	_
+56	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	57	det	_	_
+57	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	54	nmod	_	_
+58-59	sulla	_	_	_	_	_	_	_	_
+58	su	su	ADP	E	_	60	case	_	_
+59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	57	nmod	_	_
+61	d'	di	ADP	E	_	63	case	_	SpaceAfter=No
+62	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	volto	volto	NOUN	S	Gender=Masc|Number=Sing	60	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

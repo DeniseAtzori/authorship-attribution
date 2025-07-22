@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era chiaro;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = Dio voleva ch'io facessi come Tobia temendo più il suo ordine divino che le leggi umane.
+1	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	ch'	perché	SCONJ	CS	_	13	mark	_	SpaceAfter=No
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+5	facessi	facettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	advcl	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	Tobia	Tobia	PROPN	SP	_	5	obl	_	_
+8	temendo	temere	VERB	V	VerbForm=Ger	13	advcl	_	_
+9	più	più	ADV	B	_	8	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	divino	divare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+14	che	che	SCONJ	CS	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17	umane	umano	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Fu allora che mi proposi di fare ad ogni costo quanto mi aveva comandato la voce del morto;
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	allora	allora	ADV	B	_	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	proposi	proposare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	ad	a	ADP	E	_	10	case	_	_
+9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	costo	costo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	quanto	quanto	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+13	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	comandato	comandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	voce	voce	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	morto	morto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ed affinchè nè Seth nè altri potesse persuadermi del contrario, mi obbligai con un giuramento.
+1	ed	e	CCONJ	CC	_	15	cc	_	_
+2	affinchè	poiaffinché	SCONJ	CS	_	8	mark	_	_
+3	nè	nè	CCONJ	CC	_	4	cc	_	_
+4	Seth	Seth	PROPN	SP	_	8	nsubj	_	_
+5	nè	nè	CCONJ	CC	_	6	cc	_	_
+6	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	conj	_	_
+7	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8-9	persuadermi	_	_	_	_	_	_	_	_
+8	persuader	persuadere	VERB	V	VerbForm=Inf	15	advcl	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+15	obbligai	obbligare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	giuramento	giuramento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = Posi una mano sulla Bibbia e dissi forte:
+1	Posi	Poso	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mano	mano	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Bibbia	Bibbia	PROPN	SP	_	1	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	dissi	dissi	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+9	forte	forte	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+

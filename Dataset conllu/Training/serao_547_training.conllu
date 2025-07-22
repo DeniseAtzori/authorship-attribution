@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Però sembra così esile, così fragile che un nulla pare debba spezzarla.
+1	Però	però	ADV	B	_	2	advmod	_	_
+2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	così	così	ADV	B	_	4	advmod	_	_
+4	esile	esile	ADJ	A	Number=Sing	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	così	così	ADV	B	_	7	advmod	_	_
+7	fragile	fragile	ADJ	A	Number=Sing	2	conj	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+11	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+12	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13-14	spezzarla	_	_	_	_	_	_	_	SpaceAfter=No
+13	spezzar	spezzare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+14	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La sua carnagione è di un pallore trasparente che non è senza grazia, poichè si attribuisce a malattia, di cui ella sia convalescente o ad emozione di cui sia in preda:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	carnagione	carnagione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pallore	pallore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	trasparente	trasparente	ADJ	A	Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	senza	senza	ADP	E	_	13	case	_	_
+13	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	poichè	poiché	SCONJ	CS	_	17	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	attribuisce	attribuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	25	obl	_	_
+23	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	convalescente	convalescente	ADJ	A	Number=Sing	19	acl:relcl	_	_
+26	o	o	CCONJ	CC	_	28	cc	_	_
+27	ad	a	ADP	E	_	28	case	_	_
+28	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	cui	cui	PRON	PR	PronType=Rel	33	nmod	_	_
+31	sia	essere	CCONJ	CC	_	33	cc	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	preda	preda	NOUN	S	Gender=Fem|Number=Sing	28	acl:relcl	_	SpaceAfter=No
+34	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = mentre quel pallore è naturale, ella è in perfetto stato di salute e delle sue emozioni nessuno ha saputo mai nulla.
+1	mentre	mentre	SCONJ	CS	_	5	mark	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	pallore	pallore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	naturale	naturale	ADJ	A	Number=Sing	11	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	stato	stato	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	salute	salute	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	emozioni	emozioni	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+19	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+22	mai	mai	ADV	B	_	21	advmod	_	_
+23	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
+

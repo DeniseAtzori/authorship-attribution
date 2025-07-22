@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Entra nell’esercito vi si distingue, è decorato, ha incombenze onorevoli.
+1	Entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	distingue	distinguere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	decorato	decorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	incombenze	incombenza	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	onorevoli	onorevole	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Qui si dovrebbe far punto.
+1	Qui	qui	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Invece sempre per la violenza e l’alterigia dei suoi modi schiaffeggia un superiore, è arrestato, condannato.
+1	Invece	invece	ADV	B	_	2	advmod	_	_
+2	sempre	sempre	ADV	B	_	5	advmod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	alterigia	alterigia	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	modi	modo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	schiaffeggia	schiaffeggiare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Gli amici riescono a farlo fuggire.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	amici	amico	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	farlo	_	_	_	_	_	_	_	_
+5	far	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	fuggire	fuggire	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ripara in Tunisia, rifà la sua fortuna, è creato bey...
+1	Ripara	Riparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Tunisia	Tunisia	PROPN	SP	_	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	rifà	rifare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+12	bey...	bey.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = ma finisce all’ergastolo.
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	all’	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	ergastolo	ergastolo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Gravi, gravi assai questi problemi umani!
+1	Gravi	grave	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	gravi	grave	ADJ	A	Number=Plur	6	amod	_	_
+4	assai	assai	ADV	B	_	6	advmod	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7	umani	umano	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

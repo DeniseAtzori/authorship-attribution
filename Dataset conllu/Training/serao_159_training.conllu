@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Senti, Cristina, tu devi far questo per questa sera.
+1	--Senti	--Sento	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Cristina	Cristina	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+6	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	far	fare	VERB	V	VerbForm=Inf	1	conj	_	_
+8	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Io ho bisogno urgente di sapere quello che ho di buono, ancora, quello che debbo smettere e quanti vestiti nuovi mi sono di assoluta necessità.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	urgente	urgente	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	buono	buono	ADJ	A	Gender=Masc|Number=Sing	7	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	ancora	ancora	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+17	debbo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	smettere	smettere	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	quanti	quanto	PRON	PQ	Gender=Masc|Number=Plur|PronType=Int	18	conj	_	_
+21	vestiti	vestire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+22	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	21	xcomp	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+24	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	necessità	necessità	NOUN	S	Gender=Fem	21	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Va là, che vi sarà una larga parte per te:
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	là	là	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	acl:relcl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	larga	largo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = mi rammento di non aver conservata troppa roba.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	rammento	rammento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	conservata	conservare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	troppa	troppo	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	roba	roba	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Questa sera, Cristina....
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Cristina...	Cristina...	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

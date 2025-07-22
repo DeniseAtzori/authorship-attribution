@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ebbene, ora era venuto il momento di mostrarsi grato, di compensare benefizio per benefizio.
+1	Ebbene	Ebbene	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ora	ora	ADV	B	_	5	advmod	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	mostrarsi	_	_	_	_	_	_	_	_
+9	mostrar	mostrare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	grato	grato	ADJ	A	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	compensare	compensare	VERB	V	VerbForm=Inf	11	advcl	_	_
+15	benefizio	benefizio	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	benefizio	benefizio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Era venuta l'ora d'essere eroico.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	d'	di	ADP	E	_	7	mark	_	SpaceAfter=No
+6	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+7	eroico	eroico	ADJ	A	Gender=Masc|Number=Sing	4	acl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma non si trattava di buttarsi in Po, di ricevere un colpo di fucile nel petto, di quegli atti di devozione istantanei che si compiono in un eccitamento di passione e durante un attimo.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	trattava	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	buttarsi	_	_	_	_	_	_	_	_
+6	buttar	buttare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Po	Po	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	ricevere	ricevere	VERB	V	VerbForm=Inf	6	conj	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	fucile	fucile	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	petto	petto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
+23	atti	atto	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	devozione	devozione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	istantanei	istantaneo	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	compiono	compiere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	eccitamento	eccitamento	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	passione	passione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	_
+36	durante	durante	ADP	E	_	38	case	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

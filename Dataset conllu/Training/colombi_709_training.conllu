@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Rammentava una parentela numerosissima.
+1	Rammentava	Rammentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	parentela	parentela	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	numerosissima	numeroso	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Una serie di fratelli, di sorelle, tutti sposati a gente ricca e titolata;
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	serie	serie	NOUN	S	Gender=Fem	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	obl	_	_
+10	sposati	sposare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	gente	gente	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	titolata	titolata	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = zii e cugini che avevano palazzi e servitù numerosa, e carrozze e cavalli.
+1	zii	zio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	cugini	cugine	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+6	palazzi	palazzo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	servitù	servitù	NOUN	S	Gender=Fem	6	conj	_	_
+9	numerosa	numeroso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	carrozze	carrozza	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	cavalli	cavallo	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Aveva la manìa delle grandezze.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	manìa	manìa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	grandezze	grandezzo	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Di tutti quei personaggi, se pure esistevano, non si vedeva mai l'ombra.
+1	Di	di	ADP	E	_	4	case	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	pure	pure	ADV	B	_	8	advmod	_	_
+8	esistevano	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	mai	mai	ADV	B	_	12	advmod	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = O erano morti, o non pensavano punto a quella povera mummia.
+1	O	o	CCONJ	CC	_	3	cc	_	_
+2	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	morti	morire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	o	o	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	pensavano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+8	punto	punto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	obl	_	_
+11	povera	povero	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	mummia	mummia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

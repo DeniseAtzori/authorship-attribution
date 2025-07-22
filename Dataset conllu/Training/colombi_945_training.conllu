@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Io non penso a maritarmi, rispose l'Elena.
+1	--Io	--Io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	maritarmi	_	_	_	_	_	_	_	SpaceAfter=No
+5	maritar	maritare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Elena	Elena	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = E c'era un accento di malinconia così profonda in quelle semplici parole, che Vicenzino si sentì tutto turbato.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	accento	accento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	9	obl	_	_
+12	semplici	semplice	ADJ	A	Number=Plur	13	amod	_	_
+13	parole	parola	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	SCONJ	CS	_	18	mark	_	_
+16	Vicenzino	Vicenzino	PROPN	SP	_	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	_
+19	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	20	det	_	_
+20	turbato	turbato	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Essa lo aveva amato, aveva compreso il suo sacrificio, ed accettandolo pel bene de' suoi, s'era sacrificata con lui.
+1	Essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	sacrificio	sacrificio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13-14	accettandolo	_	_	_	_	_	_	_	_
+13	accettando	accettare	VERB	V	VerbForm=Ger	7	conj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15-16	pel	_	_	_	_	_	_	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	bene	bene	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+18-19	de'	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	22	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+20	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	SpaceAfter=No
+23	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	sacrificata	sacrificare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Quando uscì per ritirarsi, nel silenzio della strada buia, il giovane prete alzò le braccia al cielo e ringraziò Iddio per quella gioia.
+1	Quando	quando	SCONJ	CS	_	2	advmod	_	_
+2	uscì	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4-5	ritirarsi	_	_	_	_	_	_	_	SpaceAfter=No
+4	ritirar	ritirare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	strada	strada	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	buia	buio	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	giovane	giovane	ADJ	A	Number=Sing	17	amod	_	_
+17	prete	prete	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+18	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	ringraziò	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	_
+26	Iddio	Iddio	PROPN	SP	_	25	obj	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+29	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

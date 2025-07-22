@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così, camminò lungo le botteghe fulgidamente illuminate, guardando con occhio distratto le vetrine.
+1	Così	così	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	camminò	camminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	lungo	lungo	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	botteghe	bottega	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	fulgidamente	fulgidamente	ADV	B	_	8	advmod	_	_
+8	illuminate	illuminato	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	guardando	guardare	VERB	V	VerbForm=Ger	3	advcl	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	distratto	distrarre	NUM	N	NumType=Card	15	nummod	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	vetrine	vetrina	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Quanto si pentiva di essere stata così affettuosa e così dolce, con Giovanni Serra!
+1	Quanto	quanto	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	pentiva	pentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	8	mark	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	8	aux	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+7	così	così	ADV	B	_	8	advmod	_	_
+8	affettuosa	affettuoso	ADJ	A	Gender=Fem|Number=Sing	3	xcomp	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	dolce	dolce	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	Giovanni	Giovanni	PROPN	SP	_	3	obl	_	_
+15	Serra	serra	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = No, non avrebbe mai voluto apparirgli leggiera, frivola e schernitrice, come dieci anni prima;
+1	No	no	INTJ	I	Polarity=Neg	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	mai	mai	ADV	B	_	7	advmod	_	_
+6	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
+7-8	apparirgli	_	_	_	_	_	_	_	_
+7	apparir	apparire	VERB	V	VerbForm=Inf	0	root	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	leggiera	leggiera	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	frivola	frivola	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	schernitrice	schernitore	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	dieci	dieci	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+18	prima	prima	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = ma avrebbe dovuto trattarlo con disinvoltura, ecco, come se nulla fosse stato.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4-5	trattarlo	_	_	_	_	_	_	_	_
+4	trattar	trattare	VERB	V	VerbForm=Inf	0	root	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	disinvoltura	disinvoltura	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	ecco	ecco	ADV	B	_	4	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	come	come	ADV	B	_	15	advmod	_	_
+12	se	se	SCONJ	CS	_	15	mark	_	_
+13	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	_	_
+14	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

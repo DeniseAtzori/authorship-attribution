@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Oh! se ci fosse stato soltanto un leone, un piccolo leoncino...
+1	Oh	oh	INTJ	I	_	9	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+5	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+7	soltanto	soltanto	ADV	B	_	9	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	leone	leone	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	leoncino..	leoncino..	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Ma in quel circo di belle signore che mi guardavano bisbigliando fra loro, che nascondevano dietro il ventaglio il sorriso ironico delle loro labbra, ed intanto ridevano colla fronte, cogli occhi, con tutta la persona... oh! meglio tutti i ruggiti della fossa di Daniele che quel chiacchierìo sommesso e pungente, come il sibilo d'un branco di serpi.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	circo	circo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	belle	bello	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	signore	signore	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+10	guardavano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+11	bisbigliando	bisbigliare	VERB	V	VerbForm=Ger	10	advcl	_	_
+12	fra	fra	ADP	E	_	13	case	_	_
+13	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	nascondevano	nascondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+17	dietro	dietro	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ventaglio	ventaglio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+22	ironico	ironico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	loro	loro	DET	AP	Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	ed	e	CCONJ	CC	_	30	cc	_	_
+29	intanto	intanto	ADV	B	_	30	advmod	_	_
+30	ridevano	ridere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+31	colla	colla	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+32	fronte	fronto	NOUN	S	Number=Sing	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34-35	cogli	_	_	_	_	_	_	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	32	punct	_	_
+38	con	con	ADP	E	_	41	case	_	_
+39	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	41	det:predet	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	persona...	persona...	NOUN	S	_	32	nmod	_	_
+42	oh	oh	ADV	B	_	44	advmod	_	SpaceAfter=No
+43	!	!	PUNCT	FS	_	42	punct	_	_
+44	meglio	meglio	ADV	B	_	47	advmod	_	_
+45	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	47	det:predet	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	ruggiti	ruggito	NOUN	S	Gender=Masc|Number=Plur	41	nmod	_	_
+48-49	della	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	fossa	fossa	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	Daniele	Daniele	PROPN	SP	_	50	nmod	_	_
+53	che	che	PRON	PR	PronType=Rel	55	case	_	_
+54	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	55	det	_	_
+55	chiacchierìo	chiacchierìo	NOUN	S	Gender=Masc|Number=Sing	50	acl:relcl	_	_
+56	sommesso	sommesso	ADJ	A	Gender=Masc|Number=Sing	55	amod	_	_
+57	e	e	CCONJ	CC	_	58	cc	_	_
+58	pungente	pungente	ADJ	A	Number=Sing	56	conj	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	55	punct	_	_
+60	come	come	ADP	E	_	62	case	_	_
+61	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	sibilo	sibilo	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	_
+63	d'	di	ADP	E	_	65	case	_	SpaceAfter=No
+64	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	branco	branco	NOUN	S	Gender=Masc|Number=Sing	62	nmod	_	_
+66	di	di	ADP	E	_	67	case	_	_
+67	serpi	serpe	NOUN	S	Gender=Masc|Number=Plur	65	nmod	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

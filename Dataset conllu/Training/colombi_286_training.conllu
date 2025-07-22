@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ecco come andò la cosa:
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ci mettevamo sempre in parlatorio sul piccolo divano a destra dell'uscio.
+1	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	mettevamo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	9	nsubj	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	parlatorio	parlatorio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	piccolo	piccolo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	divano	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	destra	destra	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Una domenica vennero a sedere accanto a noi il babbo d'un mio compagno colla figliola, una giovinetta bionda, bellezza in erba, dicevo io;
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	vennero	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	sedere	sedere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	accanto	accanto	ADV	B	_	8	case	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+11	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	figliola	figliola	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	giovinetta	giovinetta	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+20	bionda	biondo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	bellezza	bellezzo	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	erba	erba	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	dicevo	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	conj	_	_
+27	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = sebbene la Margherita, colla impertinenza de' suoi quindici anni, protestasse che l'erba aveva avuto tempo di metter le spighe, perchè aveva ventidue anni.
+1	sebbene	sebbene	SCONJ	CS	_	5	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Margherita	Margherita	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+6	impertinenza	impertinenza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7-8	de'	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	11	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	quindici	quindici	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	protestasse	protestarre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	che	che	SCONJ	CS	_	18	mark	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	erba	erba	NOUN	S	Number=Sing	18	nsubj	_	_
+17	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	metter	mettere	VERB	V	VerbForm=Inf	19	acl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	spighe	spiga	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	18	punct	_	_
+25	perchè	perché	SCONJ	CS	_	26	mark	_	_
+26	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
+27	ventidue	ventidue	NUM	N	NumType=Card	28	nummod	_	_
+28	anni	anno	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Ma questa doveva essere una maldicenza atroce.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	maldicenza	maldicenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	atroce	atroce	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

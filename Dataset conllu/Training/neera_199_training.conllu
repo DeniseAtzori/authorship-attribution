@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutto il vostro essere si ribella, nevvero?
+1	Tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vostro	vostro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	ribella	ribellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	nevvero	nevvero	CCONJ	CC	_	6	advmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Avete consacrato la vita all’opera vostra, le avete dato il sangue migliore delle vostre vene;
+1	Avete	avere	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	consacrato	consacrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	opera	opera	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	12	iobj	_	_
+11	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	14	amod	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	vostre	vostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	vene	vena	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = quella divina giovinezza che per gli altri è tripudio e festa, fu per voi austera preparazione e fu tutta la vostra esistenza olocausto al culto del pensiero.
+1	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	divina	divinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	giovinezza	giovinezza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	obl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	tripudio	tripudio	ADJ	A	Gender=Masc|Number=Sing	3	advcl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	festa	festa	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	voi	vo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	austera	austero	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	preparazione	preparazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+18	e	e	CCONJ	CC	_	23	cc	_	_
+19	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+20	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	23	det:predet	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+24	olocausto	olocausto	ADV	B	_	27	advmod	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	culto	culto	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non la vanità vi mosse, non il contagio dell’esempio non la bramosia di lucro.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vanità	vanità	NOUN	S	Gender=Fem	5	nsubj	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
+5	mosse	muovere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	contagio	contagio	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+10-11	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	bramosia	bramosia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	lucro	lucro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

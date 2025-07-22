@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella entrò nella sua stanza e vi si chiuse, buttandosi pesantemente sopra una poltrona:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	vi	vi	ADV	B	_	10	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	chiuse	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	buttandosi	_	_	_	_	_	_	_	_
+12	buttando	buttare	VERB	V	VerbForm=Ger	10	advcl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	pesantemente	pesantemente	ADV	B	_	12	advmod	_	_
+15	sopra	sopra	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = si sentiva morire di tristezza, sentiva di essere disamorata, crudele con Ferrante, eppure non trovava ancora uno slancio di tenerezza, un impeto di passione per fargli dimenticare tutte quelle noie, quelle punture, quei disinganni, quelle amarezze.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	morire	morire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+8	di	di	ADP	E	_	10	mark	_	_
+9	essere	essere	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	disamorata	disamorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	crudele	crudele	ADJ	A	Number=Sing	10	conj	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	Ferrante	Ferrante	PROPN	SP	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	eppure	eppure	CCONJ	CC	_	18	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+19	ancora	ancora	ADV	B	_	18	advmod	_	_
+20	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	slancio	slancio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	passione	passione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	per	per	ADP	E	_	30	mark	_	_
+30-31	fargli	_	_	_	_	_	_	_	_
+30	far	fare	VERB	V	VerbForm=Inf	26	acl	_	_
+31	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	iobj	_	_
+32	dimenticare	dimenticare	VERB	V	VerbForm=Inf	30	ccomp	_	_
+33	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	34	det	_	_
+34	quelle	quei	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	32	obj	_	_
+35	noie	noia	ADV	B	_	37	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	34	nmod	_	_
+38	punture	puntura	ADV	BN	PronType=Neg	41	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	41	det	_	_
+41	disinganni	disinganno	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	41	punct	_	_
+43	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	41	nmod	_	_
+44	amarezze	amarezza	ADV	B	_	43	advmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

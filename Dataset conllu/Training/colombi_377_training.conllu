@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — L'altra lettera era scritta soltanto da quattro giorni.
+1	—	—	PUNCT	FF	_	6	punct	_	_
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	altra	altro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+6	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	soltanto	soltanto	ADV	B	_	10	advmod	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	quattro	quattro	NUM	N	NumType=Card	10	nummod	_	_
+10	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Erano poche parole.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Clelia era ammalata;
+1	Clelia	Clelia	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	ammalata	ammalare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = l'agitazione, l'incertezza in cui l'avevo lasciata, avevano abbattute le sue poche forze.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	agitazione	agitazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	incertezza	incertezza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+8	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	avevo	avere	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	lasciata	lasciare	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	abbattute	abbattere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+15	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	forze	forza	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Le era tornata la febbre, e si sentiva debolissima.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+10	debolissima	debole	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ma aveva sempre fede in me.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	fede	fede	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = E mi pregava di tornare, di tornar subito, se non volevo che morisse di cruccio.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	pregava	pregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	tornare	tornare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	tornar	tornare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+9	subito	subito	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	se	se	SCONJ	CS	_	15	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	cop	_	_
+14	che	che	SCONJ	CS	_	15	mark	_	_
+15	morisse	morire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	cruccio	cruccio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

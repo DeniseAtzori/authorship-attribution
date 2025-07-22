@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quella sera Roberto capitò a passar di là appunto in quel momento;
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	Roberto	Roberto	PROPN	SP	_	4	nsubj	_	_
+4	capitò	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	passar	passare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	là	là	ADV	B	_	6	advmod	_	_
+9	appunto	appunto	ADV	B	_	8	advmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = e vedendo che quei ragazzi, fra cui c'erano pure delle fanciulle, ed anche Maria, aspettavano la fola del nonno, si fermò anch'egli a qualche passo dalla poltrona venerabile.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	vedendo	vedere	VERB	V	VerbForm=Ger	29	advcl	_	_
+3	che	che	SCONJ	CS	_	21	mark	_	_
+4	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	fra	fra	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+11	pure	pure	ADV	B	_	10	advmod	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14-15	fanciulle	_	_	_	_	_	_	_	SpaceAfter=No
+14	fanciu	fanciu	NOUN	S	Gender=Masc	10	nmod	_	_
+15	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	ed	e	CCONJ	CC	_	19	cc	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	Maria	Maria	PROPN	SP	_	5	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	5	punct	_	_
+21	aspettavano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	fola	fola	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	fermò	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+30	anch'	anche	ADV	B	_	31	advmod	_	SpaceAfter=No
+31	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	34	det	_	_
+34	passo	passo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+35-36	dalla	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+38	venerabile	venerabile	ADJ	A	Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 3
+# text = Era stato congedato dal negozio;
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	congedato	congedare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = ma là fuori era sulla strada, area municipale, ed, a rigor di termini, nessuno poteva impedirgli di rimanervi.
+1	ma	ma	CCONJ	CC	_	21	cc	_	_
+2	là	là	ADV	B	_	4	advmod	_	_
+3	fuori	fuori	ADV	B	_	4	advmod	_	_
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	area	area	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+10	municipale	municipale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	ed	e	CCONJ	CC	_	15	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	rigor	rigore	VERB	V	VerbForm=Inf	4	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	termini	termine	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	_
+20	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21-22	impedirgli	_	_	_	_	_	_	_	_
+21	impedir	impedire	VERB	V	VerbForm=Inf	0	root	_	_
+22	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24-25	rimanervi	_	_	_	_	_	_	_	SpaceAfter=No
+24	rimaner	rimanere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+25	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	24	iobj	_	_
+26	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il fanciullo lesse in silenzio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	lesse	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Anna che lo osservava vide le sue labbra tremare e le sue guancie, che erano già pallide, farsi trasparenti.
+1	Anna	annare	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	osservava	osservare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+5	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+9	tremare	tremare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	guancie	guancia	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	già	già	ADV	B	_	18	advmod	_	_
+18	pallide	pallido	ADJ	A	Number=Sing	13	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20-21	farsi	_	_	_	_	_	_	_	_
+20	far	fare	VERB	V	VerbForm=Inf	18	conj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	trasparenti	trasparente	ADJ	A	Number=Plur	20	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Tutta presa d'ardore, Anna rilesse a voce quasi alta:
+1	Tutta	tutto	ADV	B	_	2	advmod	_	_
+2	presa	presa	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	Anna	Anna	PROPN	SP	_	7	nsubj	_	_
+7	rilesse	rilettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	voce	voce	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	quasi	quasi	ADV	B	_	11	advmod	_	_
+11	alta	alto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = “Io non amo inzaccherarmi le vesti col fango delle vie.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	inzaccherarmi	arma|inzaccherarme	ADJ	A	Number=Plur	4	xcomp	_	_
+6	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	vesti	vedere	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+8-9	col	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fango	fanire	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	vie	via	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Io voglio in puri abiti di festa attendere il giorno dell'avvenire„.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	puri	puro	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	abiti	abito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	festa	festa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	attendere	attendere	VERB	V	VerbForm=Inf	5	csubj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	„	„	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

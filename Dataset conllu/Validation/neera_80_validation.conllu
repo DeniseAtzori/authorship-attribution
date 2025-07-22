@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ritengo che ognuno di noi fosse intimamente contento di quella gita, ma la gioia di Alessio varcò tutti i confini.
+1	Ritengo	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nmod	_	_
+6	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	intimamente	intimo	ADV	B	_	8	advmod	_	_
+8	contento	contento	ADJ	A	Gender=Masc|Number=Sing	1	ccomp	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	gita	gita	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	_
+13	ma	ma	CCONJ	CC	_	18	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Alessio	Alessio	PROPN	SP	_	15	nmod	_	_
+18	varcò	varce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+19	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	21	det:predet	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	confini	confine	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Aveva visto una sol volta la Querciaia e gli era rimasta impressa nella memoria per i suoi folti boschi pieni di uccelli.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sol	solo	ADJ	A	_	5	amod	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Querciaia	Querciaio	PROPN	SP	_	2	obj	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+12	impressa	imprimere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	per	per	ADP	E	_	20	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+18	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+19	folti	folto	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	boschi	bosco	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+21	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	uccelli	uccello	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Egli però non credeva che si potessero prendere mettendo loro un granello di sale sulla coda, la qual cosa faceva dire a Pietro che i ragazzi del giorno d'oggi sono troppo furbi.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	però	però	ADV	B	_	4	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	credeva	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+7	potessero	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	prendere	prendere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+9	mettendo	mettere	VERB	V	VerbForm=Ger	8	advcl	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	iobj	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	granello	granello	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	sale	sale	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	coda	coda	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	qual	equale	DET	DQ	Number=Sing|PronType=Int	21	det	_	_
+21	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+23	dire	dire	VERB	V	VerbForm=Inf	22	ccomp	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Pietro	Pietro	PROPN	SP	_	23	obl	_	_
+26	che	che	SCONJ	CS	_	36	mark	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	36	nsubj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32	d'	di	ADP	E	_	33	case	_	SpaceAfter=No
+33	oggi	oggi	ADV	B	_	31	advmod	_	_
+34	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+35	troppo	troppo	ADV	B	_	36	advmod	_	_
+36	furbi	furbo	ADJ	A	Number=Plur	23	ccomp	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

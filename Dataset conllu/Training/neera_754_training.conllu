@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma più la giornata scemava volgendo alla fine, una inquietudine singolare si impossessò di lei.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	più	più	ADV	B	_	5	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	scemava	scemavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	volgendo	volgere	VERB	V	VerbForm=Ger	5	advcl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fine	fine	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	inquietudine	inquietudine	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	singolare	singolare	ADJ	A	Number=Sing	12	amod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	impossessò	impossessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Vedeva con ansia avanzarsi la sera.
+1	Vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4-5	avanzarsi	_	_	_	_	_	_	_	_
+4	avanzar	avanzarre	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Avrebbe egli mai proposto una seconda passeggiata nel bosco?
+1	Avrebbe	avere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	proposto	proporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bosco	bosco	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Questo pensiero che le sarebbe parso una profanazione dell’ora divina le riusciva intollerabile, sopratutto perchè Moena non sarebbe più stato Moena, quanto dire l’essere di tutte le finezze, di tutte le spiritualità.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	parso	parere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	profanazione	profanazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9-10	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	ora	ora	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	divina	divinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	riusciva	riusciva	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	intollerabile	intollerabile	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	sopratutto	sopratutto	ADV	B	_	24	advmod	_	_
+18	perchè	perché	SCONJ	CS	_	24	mark	_	_
+19	Moena	Moena	PROPN	SP	_	24	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+21	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	più	più	ADV	B	_	24	advmod	_	_
+23	stato	stato	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	cop	_	_
+24	Moena	Moena	PROPN	SP	_	12	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	quanto	quanto	ADV	B	_	27	advmod	_	_
+27	dire	dire	VERB	V	VerbForm=Inf	24	ccomp	_	_
+28	l’	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+29	essere	essere	AUX	V	VerbForm=Inf	33	cop	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	33	det:predet	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	finezze	finezza	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	di	di	ADP	E	_	38	case	_	_
+36	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	38	det:predet	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	spiritualità	spiritualità	NOUN	S	Gender=Fem	33	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	24	punct	_	SpacesAfter=\n
+

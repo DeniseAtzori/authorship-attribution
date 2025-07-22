@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Al mattino, ed appunto mentre il _police sergeant_ stava ricevendo quella deposizione, si presentò all'ufficio di polizia il _sexton_ per annunciare che la tomba della vedova Blounty sembrava essere stata aperta.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	17	punct	_	_
+5	ed	e	CCONJ	CC	_	17	cc	_	_
+6	appunto	appunto	ADV	B	_	17	advmod	_	_
+7	mentre	mentre	SCONJ	CS	_	12	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	_police	_police	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	sergeant_	ExtraSubj=Yes|sergeant_	PUNCT	FB	_	12	punct	_	_
+11	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	ricevendo	ricevere	VERB	V	VerbForm=Ger	17	advcl	_	_
+13	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	deposizione	deposizione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	presentò	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18-19	all'	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	_sexton_	_sexton-	PUNCT	FB	_	17	punct	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26	annunciare	annunciare	VERB	V	VerbForm=Inf	17	advcl	_	_
+27	che	che	SCONJ	CS	_	34	mark	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	34	nsubj	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	vedova	vedova	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	Blounty	Blounty	PROPN	SP	_	32	nmod	_	_
+34	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	ccomp	_	_
+35	essere	essere	AUX	VA	VerbForm=Inf	37	aux	_	_
+36	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	cop	_	_
+37	aperta	aprire	ADJ	A	Gender=Fem|Number=Sing	34	xcomp	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2
+# text = La cancellata di ferro che la circondava era intatta;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cancellata	cancellata	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	circondava	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+9	intatta	intattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = era bassa, ed i ladri potevano averla scavalcata;
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	ed	e	CCONJ	CC	_	8	cc	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ladri	ladro	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8-9	averla	_	_	_	_	_	_	_	_
+8	aver	avere	VERB	V	VerbForm=Inf	2	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	scavalcata	scavalcata	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ma la tavola di marmo che chiudeva l'ingresso del sepolcreto era stata sollevata;
+1	ma	ma	CCONJ	CC	_	15	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	marmo	marmo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	chiudeva	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sepolcreto	sepolcreto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+14	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	sollevata	sollevato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 5
+# text = o almeno s'era tentato di sollevarla, perchè si vedevano alcune scheggie staccate, al punto in cui era stata introdotta la leva fra le commessure.
+1	o	o	CCONJ	CC	_	5	cc	_	_
+2	almeno	almeno	ADV	B	_	5	advmod	_	_
+3	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	SpaceAfter=No
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	sollevarla	_	_	_	_	_	_	_	SpaceAfter=No
+7	sollevar	sollevare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	perchè	perché	SCONJ	CS	_	12	mark	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	vedevano	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+13	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	scheggie	scheggia	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+15	staccate	staccato	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	punto	punto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+23	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	introdotta	introdurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	leva	leva	NOUN	S	Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+27	fra	fra	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	commessure	commessura	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

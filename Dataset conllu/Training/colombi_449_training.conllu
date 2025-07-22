@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Anche tu, zia!
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Anche	anche	ADV	B	_	3	advmod	_	_
+3	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	zia	zia	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma ci opponiamo perchè Valeria è giovane e Leoni è vecchio.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+3	opponiamo	opponare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	perchè	perché	SCONJ	CS	_	7	mark	_	_
+5	Valeria	Valeria	PROPN	SP	_	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	giovane	giovane	ADJ	A	Number=Sing	3	advcl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	Leoni	Leoni	PROPN	SP	_	11	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Perchè Valeria è buona ed affettuosa, ed egli ha logorato quel poco che aveva di bontà e di sentimento negli attriti di una vita leggera.
+1	Perchè	perché	ADV	B	_	4	advmod	_	_
+2	Valeria	Valeria	PROPN	SP	_	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	buona	buono	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	ed	e	CCONJ	CC	_	6	cc	_	_
+6	affettuosa	affettuoso	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ed	e	CCONJ	CC	_	11	cc	_	_
+9	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	logorato	logorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	poco	poco	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	bontà	bontà	NOUN	S	Gender=Fem	15	obl	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+21-22	negli	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	attriti	attrito	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	leggera	leggero	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Perchè Valeria, che ha paura di rimaner zitellona e ridicola, e, senza la prospettiva del matrimonio non saprebbe cosa fare della sua attività e dei suoi entusiasmi, accetterà quel partito, tanto per maritarsi.
+1	Perchè	perché	ADV	B	_	2	advmod	_	_
+2	Valeria	Valeria	PROPN	SP	_	35	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	rimaner	rimanere	VERB	V	VerbForm=Inf	6	acl	_	_
+9	zitellona	zitellono	ADJ	A	Gender=Fem|Number=Sing	8	xcomp	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	ridicola	ridicolo	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	22	punct	_	_
+13	e	e	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	22	punct	_	_
+15	senza	senza	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	prospettiva	prospettiva	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	saprebbe	sapere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+23	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+24	fare	fare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	attività	attività	NOUN	S	Gender=Fem	24	obl	_	_
+29	e	e	CCONJ	CC	_	33	cc	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+32	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	entusiasmi	entusiasmo	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	2	punct	_	_
+35	accetterà	accettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+36	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	37	det	_	_
+37	partito	partito	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	35	punct	_	_
+39	tanto	tanto	ADV	B	_	41	advmod	_	_
+40	per	per	ADP	E	_	41	mark	_	_
+41-42	maritarsi	_	_	_	_	_	_	_	SpaceAfter=No
+41	maritar	maritare	VERB	V	VerbForm=Inf	35	advcl	_	_
+42	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	41	expl	_	_
+43	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 5
+# text = E poi s'accorgerà che non ama e non è amata, e sarà infelice.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	SpaceAfter=No
+4	accorgerà	accorgiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	_
+15	infelice	infelice	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

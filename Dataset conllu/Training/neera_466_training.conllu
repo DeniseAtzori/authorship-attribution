@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ah! non ditemi che a queste cose dovevo pensare prima; sarebbe una inutile crudeltà.
+1	Ah	ah	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	ditemi	ditema	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+9	dovevo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	pensare	pensare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+11	prima	prima	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	16	punct	_	SpacesAfter=\s\s\s
+13	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	inutile	inutile	ADJ	A	Number=Sing	16	amod	_	_
+16	crudeltà	crudeltà	NOUN	S	Gender=Fem	4	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Io spero piuttosto, spero fermamente, che un giorno mi darete ragione.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	piuttosto	piuttosto	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	fermamente	fermamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\s\s
+8	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	darete	daere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	2	acl:relcl	_	_
+13	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Allora parleremo del nostro amore come due buoni amici che hanno fatto un viaggio insieme e che dopo una lunga separazione si ritrovano e rammentano con dolcezza le ore passate.
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	parleremo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpacesAfter=\s\s\s
+7	come	come	ADP	E	_	10	case	_	_
+8	due	due	NUM	N	NumType=Card	10	nummod	_	_
+9	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	amici	amico	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	insieme	insieme	ADV	B	_	24	mark	_	_
+17	e	e	CCONJ	CC	_	16	cc	_	_
+18	che	che	PRON	PR	PronType=Rel	16	fixed	_	_
+19	dopo	dopo	ADP	E	_	22	case	_	SpacesAfter=\s\s\s
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	separazione	separazione	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	ritrovano	ritrovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	rammentano	rammentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	ore	ora	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	SpacesAfter=\s\s\s
+31	passate	passato	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

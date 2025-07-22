@@ -1,0 +1,134 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Se hai la forza, la clemenza,....
+1	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	3	mark	_	_
+3	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forza	forza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	clemenza,	clemenza,	X	X	_	0	root	_	SpaceAfter=No
+9	....	....	PUNCT	FF	_	8	punct	_	_
+
+# sent_id = 2
+# text = o la debolezza di perdonarmi, — conclusi, — vieni più presto questa sera.
+1	o	o	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	perdonarmi	arma|perdonarme	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	—	—	PUNCT	FF	_	8	punct	_	_
+8	conclusi	concluso	ADJ	A	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	—	—	PUNCT	FF	_	11	punct	_	_
+11	vieni	vieni	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	presto	presto	ADV	B	_	11	advmod	_	_
+14	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	sera	sera	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = La mamma ha invitato qualcuno perchè è la vigilia delle nostre nozze.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6	perchè	perché	SCONJ	CS	_	9	mark	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vigilia	vigilia	NOUN	S	Gender=Fem|Number=Sing	4	advcl	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Vieni prima degli altri.
+1	Vieni	Vieni	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	prima	prima	ADV	B	_	5	case	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	2	fixed	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Saremo soli; brucieremo quelle reliquie del mio disgraziato passato, e tutto l'avvenire sarà tuo.
+1	Saremo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	aux	_	_
+2	soli	solo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	_
+4	brucieremo	bruciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	reliquie	reliquio	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	11	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	disgraziato	disgraziato	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	passato	passato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	_
+13	e	e	CCONJ	CC	_	18	cc	_	_
+14	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	_
+15	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	cop	_	_
+18	tuo	tuo	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Se non ti vedrò venire di buon'ora a domandarmi quelle lettere, vorrà dire che non puoi perdonarmi, che non ti vedrò più.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	vedrò	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+5	venire	venire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	buon'	buono	ADJ	A	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	ora	ora	ADV	B	_	7	advmod	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	domandarmi	_	_	_	_	_	_	_	_
+10	domandar	domandare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+12	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
+13	lettere	lettere	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	vorrà	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	_
+16	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+17	che	che	SCONJ	CS	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	puoi	potere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+20	perdonarmi	arma|perdonarme	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	25	expl	_	_
+25	vedrò	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	20	acl:relcl	_	_
+26	più	più	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 7
+# text = Sia quel che Dio vuole di me; l'ho meritato.
+1	Sia	sia	CCONJ	CC	_	11	cc	_	_
+2	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	dislocated	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+4	Dio	dio	PROPN	SP	_	5	nsubj	_	_
+5	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+9	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	meritato	meritare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = »
+1	»	»	PUNCT	FB	_	0	root	_	SpacesAfter=\n
+

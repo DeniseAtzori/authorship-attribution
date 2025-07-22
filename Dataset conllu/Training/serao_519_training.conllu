@@ -1,0 +1,157 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un silenzio regnava, angoscioso.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	regnava	regnavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	angoscioso	angoscioso	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La conversazione, arrivata di nuovo alla passione, aveva perduto la placidezza e la soavità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conversazione	conversazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	passione	passione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	placidezza	placidezza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	soavità	soavità	NOUN	S	Gender=Fem	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Cesare tentava di ricominciare il discorso del bambino, ma anche questo si faceva scabroso:
+1	Cesare	Cesare	PROPN	SP	_	2	nsubj	_	_
+2	tentava	tentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	ricominciare	ricominciare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ma	ma	CCONJ	CC	_	15	cc	_	_
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	obj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+15	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+16	scabroso	scabroso	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = poichè a ogni momento, parlando di Paolo, appariva accanto la figura della madre, della giovane moglie tradita.
+1	poichè	poiché	ADV	B	_	4	advmod	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	parlando	parlare	VERB	V	VerbForm=Ger	10	advcl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Paolo	Paolo	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	appariva	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	accanto	accanto	ADV	B	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	figura	figura	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	madre	madre	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	giovane	giovane	ADJ	A	Number=Sing	21	amod	_	_
+21	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+22	tradita	tradire	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = E per rispetto alla donna che non amava più, per delicatezza verso quella che amava, non poteva pronunziare il nome della moglie innanzi all’amante.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	rispetto	rispetto	ADV	B	_	6	case	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+10	più	più	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	delicatezza	delicatezza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+14	verso	verso	ADP	E	_	15	case	_	_
+15	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	13	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	pronunziare	pronunziare	VERB	V	VerbForm=Inf	17	conj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	nome	nome	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	innanzi	innanzi	ADV	B	_	30	advmod	_	_
+28-29	all’	_	_	_	_	_	_	_	SpaceAfter=No
+28	a	a	ADP	E	_	30	case	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	amante	amante	NOUN	S	Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Taceva.
+1	Taceva	taceva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = D’improvviso, Flavia si rizzava in piedi, gli veniva accanto, e con quella sua dolcezza femminile piena di lusinghe, che ottiene tutto, gli diceva:
+1	D’	D’	ADP	E	_	2	case	_	SpaceAfter=No
+2	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Flavia	Flavia	PROPN	SP	_	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	rizzava	rizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+12	accanto	accanto	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	conj	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	femminile	femminile	ADJ	A	Number=Sing	18	amod	_	_
+20	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	lusinghe	lusinga	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	ottiene	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+29	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Ma sì.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	3	cc	_	_
+3	sì	sì	ADV	B	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Andate a dir codesto ad una signora di principii evangelici come la mamma!
+1	Andate	andare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	dir	dire	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	codesto	codesto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	ad	a	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	signora	signore	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	principii	principio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	evangelici	evangelico	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Lei ci vedeva il diavolo con tutti i sette peccati capitali a braccetto, dietro le quinte.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	diavolo	diavolo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	10	case	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	sette	sette	NUM	N	NumType=Card	10	nummod	_	_
+10	peccati	peccato	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+11	capitali	capitale	ADJ	A	Number=Plur	10	amod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	braccetto	braccetto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	dietro	dietro	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	quinte	quinto	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = E mi fece invece la sua brava proposta tutta morale di fare gli studi magistrali, prendere il diploma, e colla raccomandazione del sindaco e dello speziale, cercar di ottenere il posto di maestra comunale a Desio, presso Monza, dove il babbo aveva un villino, che noi si era venduto col resto.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	invece	invece	ADV	B	_	3	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	brava	bravo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	10	det	_	_
+10	morale	morale	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	studi	studio	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	magistrali	magistrale	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	prendere	prendere	VERB	V	VerbForm=Inf	10	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	diploma	diploma	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+23	raccomandazione	raccomandazione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28-29	dello	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	speziale	speziale	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	cercar	cercare	VERB	V	VerbForm=Inf	17	conj	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34	ottenere	ottenere	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	posto	posto	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+39	comunale	comunale	ADJ	A	Number=Sing	38	amod	_	_
+40	a	a	ADP	E	_	41	case	_	_
+41	Desio	Desio	PROPN	SP	_	34	obl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	34	punct	_	_
+43	presso	presso	ADP	E	_	44	case	_	_
+44	Monza	Monza	PROPN	SP	_	34	obl	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	dove	dove	ADV	B	_	49	advmod	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	49	nsubj	_	_
+49	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	acl:relcl	_	_
+50	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	villino	villino	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	51	punct	_	_
+53	che	che	PRON	PR	PronType=Rel	57	obj	_	_
+54	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	57	nsubj	_	_
+55	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	57	expl	_	_
+56	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	57	aux	_	_
+57	venduto	vendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	acl:relcl	_	_
+58-59	col	_	_	_	_	_	_	_	_
+58	con	con	ADP	E	_	60	case	_	_
+59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	resto	resto	NOUN	S	Gender=Masc|Number=Sing	57	obl	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

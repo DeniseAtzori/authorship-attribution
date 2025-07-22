@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Capisci, Cristina, che soltanto questa sera, io ho un po' di tempo, per questa rivista.
+1	--	--	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	Capisci	Capisce	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Cristina	Cristina	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+7	soltanto	soltanto	ADV	B	_	9	advmod	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	sera	sera	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	po'	poco	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	rivista	rivista	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Sono sola, non vado in teatro e dopo pranzo non verrà nessuna visita:
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	dopo	dopo	ADP	E	_	10	case	_	_
+10	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+13	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
+14	visita	visita	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = speriamolo!
+1-2	speriamolo	_	_	_	_	_	_	_	SpaceAfter=No
+1	speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Non vorrei esser disturbata in questa faccenda che è molto grave.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	esser	essere	AUX	VA	VerbForm=Inf	4	aux	_	_
+4	disturbata	disturbare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	faccenda	faccenda	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	grave	grave	ADJ	A	Number=Sing	7	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Nel caso, farai dire che sono uscita....
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	farai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	uscita...	uscita...	NUM	N	NumType=Card	6	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = debbo risolvere il mio grande affare e non voglio seccatori....
+1	debbo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	risolvere	risolvere	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	affare	affare	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	voglio	volere	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+10	seccatori...	seccatori.	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

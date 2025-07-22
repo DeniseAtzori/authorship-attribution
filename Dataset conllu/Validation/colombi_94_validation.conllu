@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «L'uomo, a cui sono fidanzata, non è un vecchio ricco ed acciaccoso che mi venga imposto tirannicamente da mio padre, e contro di cui io possa fare appello ai vostri sentimenti cavallereschi.
+1	«	«	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fidanzata	fidanzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	ed	e	CCONJ	CC	_	16	cc	_	_
+16	acciaccoso	acciaccoso	ADJ	A	Gender=Masc|Number=Sing	14	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj:pass	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+19	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	imposto	imporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+21	tirannicamente	tirannicamente	ADV	B	_	20	advmod	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	padre	padre	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	contro	contro	ADV	B	_	13	conj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	cui	cui	PRON	PR	PronType=Rel	32	obl	_	_
+30	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+31	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	fare	fare	VERB	V	VerbForm=Inf	27	acl:relcl	_	_
+33	appello	appello	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+34-35	ai	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	37	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+38	cavallereschi	cavalleresco	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = No; è un bel giovane povero come me; buono, nobile, intelligente.
+1	No	no	INTJ	I	Polarity=Neg	6	discourse	_	SpaceAfter=No
+2	;	;	PUNCT	FC	_	1	punct	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	bel	bello	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	giovane	giovane	NOUN	S	Number=Sing	0	root	_	_
+7	povero	povero	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	11	punct	_	_
+11	buono	buono	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	nobile	nobile	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	intelligente	intelligente	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Che io stessa scelsi, che amai;
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	scelsi	scelso	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+7	amai	amare	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = che amai con trasporto;
+1	che	che	SCONJ	CS	_	2	mark	_	_
+2	amai	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = per cui ho palpitato, ho pianto, ho gioito;
+1	per	per	ADP	E	_	2	case	_	_
+2	cui	cui	PRON	PR	PronType=Rel	4	obl	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	palpitato	palpitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	pianto	piangere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	gioito	gioire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 6
+# text = la cui parola d'amore mi scese soave all'anima; a cui mi fidanzai con delizia sognando un avvenire di felicità.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	cui	cui	DET	DR	PronType=Rel	3	det:poss	_	_
+3	parola	parola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	expl	_	_
+7	scese	scendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+8	soave	soave	ADV	B	_	7	advmod	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	anima	anima	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+16	fidanzai	fidanzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	delizia	delizia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	sognando	sognare	VERB	V	VerbForm=Ger	16	advcl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	felicità	felicità	NOUN	S	Gender=Fem	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non era ambizioso;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	ambizioso	ambizioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = il miraggio della gloria e della fortuna non lo tentava.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	miraggio	miraggio	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	tentava	tentavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Non era nemmeno uno spirito pratico, per cui facendosi la domanda:
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	nemmeno	nemmeno	ADV	BN	PronType=Neg	5	advmod	_	_
+4	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	pratico	pratico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+10-11	facendosi	_	_	_	_	_	_	_	_
+10	facendo	fare	VERB	V	VerbForm=Ger	5	acl:relcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = sarò io poeta?
+1	sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	poeta	poetare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = più che cercare una soluzione al problema del suo avvenire, ripeteva per intimo bisogno di dolcezza quelle parole misteriose che aveva udito pronunciare dalla persona a lui tanto cara, sembrandogli, se avesse potuto diventare poeta, di interpretarne il desiderio.
+1	più	più	ADV	B	_	14	advmod	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	cercare	cercare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	ripeteva	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	intimo	intimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	_
+17	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	21	det	_	_
+21	parole	parola	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+22	misteriose	misterioso	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+25	udito	udire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+26	pronunciare	pronunciare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+27-28	dalla	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	persona	persona	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	_
+32	tanto	tanto	ADV	B	_	33	advmod	_	_
+33	cara	caro	ADJ	A	Gender=Fem|Number=Sing	26	xcomp	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	14	punct	_	_
+35-36	sembrandogli	_	_	_	_	_	_	_	SpaceAfter=No
+35	sembrando	sembrare	VERB	V	VerbForm=Ger	14	advcl	_	_
+36	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	iobj	_	_
+37	,	,	PUNCT	FF	_	35	punct	_	_
+38	se	se	SCONJ	CS	_	41	mark	_	_
+39	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+40	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	aux	_	_
+41	diventare	diventare	VERB	V	VerbForm=Inf	14	ccomp	_	_
+42	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	41	xcomp	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	42	punct	_	_
+44	di	di	ADP	E	_	45	mark	_	_
+45-46	interpretarne	_	_	_	_	_	_	_	_
+45	interpretar	interpretare	VERB	V	VerbForm=Inf	42	acl	_	_
+46	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	45	iobj	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	45	obj	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

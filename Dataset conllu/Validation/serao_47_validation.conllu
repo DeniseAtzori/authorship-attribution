@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quel giorno bisognava resistere e non andare a Montecitorio.
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	resistere	resistere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	andare	andare	VERB	V	VerbForm=Inf	4	conj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Montecitorio	Montecitorio	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Non pioveva più, come per stanchezza di quella settimana di pioggia:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	pioveva	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = un fiato molle di acqua fluttuava ancora nell'aria, le strade erano fangose, il cielo tutto bianco di nuvole:
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fiato	fiato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	molle	molle	ADJ	A	Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	fluttuava	fluttuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	ancora	ancora	ADV	B	_	10	advmod	_	_
+8-9	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	in	in	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	aria	aria	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	strade	strada	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+14	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	fangose	fangoso	ADJ	A	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+19	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	nmod	_	_
+20	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = una gente smorta, chiusa nei soprabiti, coi calzoni arrovesciati sul collo del piede e col viso incerto di chi non si fida, girava per le vie.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+3	smorta	smorto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	chiusa	chiudere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	soprabiti	soprabito	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10-11	coi	_	_	_	_	_	_	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	calzoni	calzone	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+13	arrovesciati	arrovesciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	collo	collo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	piede	piede	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	col	_	_	_	_	_	_	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	viso	viso	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+24	incerto	incerto	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	chi	chi	PRON	PR	PronType=Rel	23	nmod	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl:impers	_	_
+29	fida	fidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	2	punct	_	_
+31	girava	girare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	vie	via	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\n
+

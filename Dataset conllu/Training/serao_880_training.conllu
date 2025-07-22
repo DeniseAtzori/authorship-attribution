@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --....
+1	-	-	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	...	...	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = pietoso--rispose Giorgio.
+1	pietoso	pietoso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Giorgio	Giorgio	PROPN	SP	_	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = --Quando la vita esteriore più mi ha inaridito tutte le fonti del sentimento, quando più mi sento un freddo egoista capace di sacrificare tutto al mio piacere, quando più mi corrode la pazza vanità e la folle ambizione, allora io lascio Roma, lascio Parigi, lascio Londra e vengo qui, solo, a guarirmi, a diventar più umano, più buono.
+1	--Quando	--Quare	VERB	V	VerbForm=Ger	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	esteriore	esteriore	ADJ	A	Number=Sing	3	amod	_	_
+5	più	più	ADV	B	_	8	advmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	inaridito	inaridire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+9	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	quando	quando	SCONJ	CS	_	19	mark	_	_
+17	più	più	ADV	B	_	19	advmod	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	expl	_	_
+19	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	egoista	egoista	ADJ	A	Number=Sing	21	amod	_	_
+23	capace	capace	ADJ	A	Number=Sing	21	amod	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	sacrificare	sacrificare	VERB	V	VerbForm=Inf	23	advcl	_	_
+26	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obj	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	25	punct	_	_
+32	quando	quando	SCONJ	CS	_	35	mark	_	_
+33	più	più	ADV	B	_	35	advmod	_	_
+34	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	35	iobj	_	_
+35	corrode	corrode	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	pazza	pazzo	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	_
+38	vanità	vanità	NOUN	S	Gender=Fem	35	nsubj	_	_
+39	e	e	CCONJ	CC	_	46	cc	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	folle	folle	ADJ	A	Number=Sing	42	amod	_	_
+42	ambizione	ambizione	NOUN	S	Gender=Fem|Number=Sing	46	nsubj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	42	punct	_	_
+44	allora	allora	ADV	B	_	46	advmod	_	_
+45	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	46	nsubj	_	_
+46	lascio	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	35	conj	_	_
+47	Roma	Roma	PROPN	SP	_	46	obj	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	47	punct	_	_
+49	lascio	lasciare	NOUN	S	Gender=Masc|Number=Sing	47	nmod	_	_
+50	Parigi	Parigi	PROPN	SP	_	49	nmod	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	52	punct	_	_
+52	lascio	lasciare	NOUN	S	Gender=Masc|Number=Sing	46	conj	_	_
+53	Londra	Londra	PROPN	SP	_	52	nmod	_	_
+54	e	e	CCONJ	CC	_	55	cc	_	_
+55	vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	46	conj	_	_
+56	qui	qui	ADV	B	_	55	advmod	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	58	punct	_	_
+58	solo	solo	ADV	B	_	46	conj	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	25	punct	_	_
+60	a	a	ADP	E	_	61	mark	_	_
+61-62	guarirmi	_	_	_	_	_	_	_	SpaceAfter=No
+61	guarir	guarire	VERB	V	VerbForm=Inf	25	xcomp	_	_
+62	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	61	obj	_	_
+63	,	,	PUNCT	FF	_	61	punct	_	_
+64	a	a	ADP	E	_	65	mark	_	_
+65	diventar	diventare	VERB	V	VerbForm=Inf	61	advcl	_	_
+66	più	più	ADV	B	_	67	advmod	_	_
+67	umano	umano	ADJ	A	Gender=Masc|Number=Sing	65	xcomp	_	SpaceAfter=No
+68	,	,	PUNCT	FF	_	70	punct	_	_
+69	più	più	ADV	B	_	70	advmod	_	_
+70	buono	buono	ADJ	A	Gender=Masc|Number=Sing	67	conj	_	SpaceAfter=No
+71	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Voi ridete di me, forse?
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	ridete	ridere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	forse	forse	ADV	B	_	2	advmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

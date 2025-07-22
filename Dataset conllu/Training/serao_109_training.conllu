@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Maria entrava nel parco dalla porta occidentale:
+1	Maria	Maria	PROPN	SP	_	2	nsubj	_	_
+2	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	parco	parco	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	porta	porta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	occidentale	occidentale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = al piccolissimo orologio che ella portava sempre seco, nella taschettina della giacchetta, sul petto, le ore di oro su fondo nero segnavano le quattro in punto.
+1-2	al	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	piccolissimo	piccolo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	4	amod	_	_
+4	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8	sempre	sempre	ADV	B	_	9	advmod	_	_
+9	seco	seco	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	taschettina	taschettina	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	giacchetta	giacchetta	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	petto	petto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	ore	ora	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	oro	oro	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	su	su	ADP	E	_	27	case	_	_
+27	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28	nero	nero	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	segnavano	segnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	quattro	quattro	NUM	N	NumType=Card	29	nsubj	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	punto	punto	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 3
+# text = Era sempre quella, l'ora del convegno quotidiano, ed ella si doveva frenare per non giungere mezz'ora, un quarto d'ora più presto.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	sempre	sempre	ADV	B	_	3	advmod	_	_
+3	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ora	ora	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	convegno	convegno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	quotidiano	quotidiano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	16	punct	_	_
+12	ed	e	CCONJ	CC	_	16	cc	_	_
+13	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj:pass	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
+15	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	frenare	frenare	VERB	V	VerbForm=Inf	3	conj	_	_
+17	per	per	ADP	E	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	giungere	giungere	VERB	V	VerbForm=Inf	16	advcl	_	_
+20	mezz'	mezzo	ADP	E	_	21	case	_	SpaceAfter=No
+21	ora	ora	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+25	d'	di	ADP	E	_	26	case	_	SpaceAfter=No
+26	ora	ora	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	presto	presto	ADV	B	_	26	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

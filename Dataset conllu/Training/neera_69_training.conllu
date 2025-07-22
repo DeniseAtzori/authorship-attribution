@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un mio avversario ebbe a dire una volta che per tre motivi soli si combatte il femminismo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	avversario	avversario	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	che	che	SCONJ	CS	_	15	mark	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	tre	tre	NUM	N	NumType=Card	12	nummod	_	_
+12	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+13	soli	solo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:pass	_	_
+15	combatte	combattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	femminismo	femminismo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Lo combatte il Governo per gelosia di potere, lo combatte l’uomo per gelosia di sesso, e lo combatte fra le donne, la donna ignorante.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	combatte	combattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	gelosia	gelosia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	potere	potere	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	combatte	combattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	gelosia	gelosia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	combatte	combattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+22	fra	fra	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	donne	donna	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	donna	donna	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+28	ignorante	ignorante	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Non appartenendo io dunque nè al Governo, nè al sesso forte, è chiaro come il sole che le mie opinioni provengono dalla mia ignoranza.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	appartenendo	appartenere	VERB	V	VerbForm=Ger	17	advcl	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	dunque	dunque	ADV	B	_	3	advmod	_	_
+5	nè	né	CCONJ	CC	_	8	cc	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	nè	né	CCONJ	CC	_	13	cc	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+14	forte	forte	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+18	come	come	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sole	sole	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	che	che	SCONJ	CS	_	25	mark	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	opinioni	opinione	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	_
+25	provengono	provenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+26-27	dalla	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	ignoranza	ignoranza	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 4
+# text = Ebbene, quale donna ignorante reclamo il diritto di aver paura della morte.
+1	Ebbene	ebbene	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quale	quale	DET	DQ	Number=Sing|PronType=Int	4	det	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	ignorante	ignorare	ADJ	A	Number=Sing	4	amod	_	_
+6	reclamo	reclamo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	aver	avere	VERB	V	VerbForm=Inf	8	acl	_	_
+11	paura	paura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	morte	morte	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

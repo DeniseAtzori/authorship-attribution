@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lo trovarono insieme, questo nome.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	trovarono	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	insieme	insieme	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	nome	nome	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Nelle sere di estate, presso la terrazza carica di gelsomini odoranti, essi avevano letto l'una accanto all'altro, con le teste che si toccavano, il libro di Pierre Loti: _Japoneries d'automne_.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	sere	sera	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	estate	estate	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	presso	presso	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	terrazza	terrazza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+10	carica	carico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	gelsomini	gelsomino	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	odoranti	odorante	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+16	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	una	uno	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	accanto	accanto	ADV	B	_	23	case	_	_
+21-22	all'	_	_	_	_	_	_	_	SpaceAfter=No
+21	a	a	ADP	E	_	20	fixed	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	17	punct	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	teste	testa	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+30	toccavano	toccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	17	punct	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	libro	libro	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	Pierre	Pierre	PROPN	SP	_	33	nmod	_	_
+36	Loti	Loto	PROPN	SP	_	35	flat:name	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	35	punct	_	_
+38	_Japoneries	_Japoneries	PROPN	SP	_	35	appos	_	_
+39	d'	di	ADP	E	_	40	case	_	SpaceAfter=No
+40	automne_	automne-	PUNCT	FB	_	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Era anche un ufficiale di marina, lo scrittore, e aveva lasciato nella patria delle persone care, eppure aveva amato il paese delle donne piccoline, degli uomini gialletti e delle casette che sì chiudono e si aprono come uno scatolino di domino.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ufficiale	ufficiale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	marina	marina	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	patria	patria	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	persone	persona	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	care	caro	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	eppure	eppure	CCONJ	CC	_	24	cc	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	paese	paese	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27-28	delle	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	donne	donna	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+30	piccoline	piccoline	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32-33	degli	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	_
+35	gialletti	gialletto	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37-38	delle	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	casette	casetta	NOUN	S	Gender=Fem|Number=Plur	29	conj	_	_
+40	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+41	sì	sì	ADV	B	_	42	advmod	_	_
+42	chiudono	chiudere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+43	e	e	CCONJ	CC	_	45	cc	_	_
+44	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	45	expl	_	_
+45	aprono	aprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	conj	_	_
+46	come	come	ADP	E	_	48	case	_	_
+47	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	scatolino	scatolino	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	_
+49	di	di	ADP	E	_	50	case	_	_
+50	domino	domino	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

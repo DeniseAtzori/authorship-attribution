@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Immaginate l'angoscia che provai a quella sentenza; volevo dire di no; che provassero ad ogni modo;
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Immaginate	immaginare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	provai	provare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+11	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	dire	dire	VERB	V	VerbForm=Inf	2	parataxis	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	no	no	ADV	BN	PronType=Neg	12	advmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	provassero	provasdere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+18	ad	a	ADP	E	_	20	case	_	_
+19	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	modo	modo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = che s'affrettassero...
+1	che	che	SCONJ	CS	_	3	mark	_	_
+2	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+3	affrettassero..	affrettassero	NOUN	S	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = E non potevo dir nulla.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+5	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La mia voce era morta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Intanto sentii una grande spossatezza invadermi le membra, mi mancarono sotto le gambe, e, se non m'avessero sorretto, sarei caduto.
+1	Intanto	intanto	ADV	B	_	2	advmod	_	_
+2	sentii	sentii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	grande	grande	ADJ	A	Number=Sing	5	amod	_	_
+5	spossatezza	spossatezza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	invadermi	_	_	_	_	_	_	_	_
+6	invader	invadere	VERB	V	VerbForm=Inf	5	acl	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	membra	membra	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+12	mancarono	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	sotto	sotto	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	e	e	CCONJ	CC	_	26	cc	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	26	punct	_	_
+19	se	se	SCONJ	CS	_	23	mark	_	_
+20	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+21	m'	mi	SCONJ	CS	_	23	mark	_	SpaceAfter=No
+22	avessero	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	sorretto	sorrettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Mi trascinarono fino alla poltrona del professore, dove mi adagiarono dicendo:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	trascinarono	trascinare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	fino	fino	ADV	B	_	6	case	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	professore	professore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	dove	dove	ADV	B	_	13	advmod	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	adagiarono	adagiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+14	dicendo	dire	VERB	V	VerbForm=Ger	13	advcl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

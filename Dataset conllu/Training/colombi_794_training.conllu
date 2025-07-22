@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Napoleone I a Sant'Elena era di certo più infelice de' suoi compagni, perchè era caduto da più alto, aveva goduto di più.
+1	Napoleone	Napoleone	PROPN	SP	_	10	nsubj	_	_
+2	I	primo	ADJ	NO	Number=Sing|NumType=Ord	1	flat:name	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Sant'	Sant'	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	Elena	Elena	PROPN	SP	_	4	flat:name	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	certo	certo	ADV	B	_	10	advmod	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	infelice	infelice	ADJ	A	Number=Sing	0	root	_	_
+11-12	de'	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	perchè	poiperché	SCONJ	CS	_	18	mark	_	_
+17	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	alto	alto	ADJ	A	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	10	punct	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	goduto	godere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	più	più	ADV	B	_	24	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = A noi stessi, questa sera danno piacere questi alari nuovi, ma domani la serata ci parrà più vuota perchè non avremo un'altra novità da gustare.
+1	A	a	ADP	E	_	2	case	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	obl	_	_
+3	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	sera	sera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+7	danno	danno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	7	xcomp	_	_
+9	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	alari	alare	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+11	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	_
+13	ma	ma	CCONJ	CC	_	18	cc	_	_
+14	domani	domani	ADV	B	_	18	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	serata	serata	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+18	parrà	parre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	conj	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	18	xcomp	_	_
+21	perchè	perché	SCONJ	CS	_	23	mark	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	avremo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	18	advcl	_	_
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+25	altra	altro	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	novità	novità	NOUN	S	Gender=Fem	23	obj	_	_
+27	da	da	ADP	E	_	28	mark	_	_
+28	gustare	gustare	VERB	V	VerbForm=Inf	26	acl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Qualunque cosa facciamo, non possiamo che trasportare da un giorno all'altro la poca gioia assegnata a ciascun giorno, e mangiare anticipatamente la rendita dei giorni futuri.
+1	Qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	possiamo	potere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	trasportare	trasportare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	poca	poco	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+18	assegnata	assegnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	ciascun	ciascuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
+21	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	mangiare	mangiare	VERB	V	VerbForm=Inf	8	conj	_	_
+25	anticipatamente	anticipatamente	ADV	B	_	24	advmod	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	rendita	rendita	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31	futuri	futuro	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

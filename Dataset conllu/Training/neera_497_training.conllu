@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Un bel cerotto l'educazione!
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	bel	bello	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	cerotto	cerotto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Pensare che si nasce costando tante sofferenze a nostra madre, che subito andiamo incontro noi stessi a mille mali;
+1	Pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	costando	costare	VERB	V	VerbForm=Ger	4	advcl	_	_
+6	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	sofferenze	sofferenza	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	madre	madre	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+13	subito	subito	ADV	B	_	14	advmod	_	_
+14	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+15	incontro	incontro	ADP	E	_	16	case	_	_
+16	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	obl	_	_
+17	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	mille	mille	NUM	N	NumType=Card	20	nummod	_	_
+20	mali	male	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = che mettiamo i denti con dolore, che lottiamo colla pertosse, col morbillo, con una filza di guai, che ci tocca di imparare l'alfabeto e poi l'abaco e poi la grammatica e altre diavolerie....
+1	che	che	SCONJ	CS	_	2	mark	_	_
+2	mettiamo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	denti	dente	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	lottiamo	lottare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10	colla	colla	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	pertosse	pertosso	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13-14	col	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	morbillo	morbillo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	filza	filza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	guai	guaio	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	25	iobj	_	_
+25	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	imparare	imparare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	alfabeto	alfabeto	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31	poi	poi	ADV	B	_	33	advmod	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	abaco	abaco	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35	poi	poi	ADV	B	_	37	advmod	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	grammatica	grammatica	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	37	conj	_	_
+40	diavolerie...	diavolerie.	PUNCT	FS	_	37	punct	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

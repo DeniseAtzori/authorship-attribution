@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I miei amici che aspirano alla riputazione di Don Giovanni sentenzierebbero senza dubbio, leggendo queste parole, che _tutte le donne dicono così_.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amici	amico	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	aspirano	aspirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	riputazione	riputazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Don	Don	PROPN	SP	_	8	nmod	_	_
+11	Giovanni	Giovanni	PROPN	SP	_	10	flat:name	_	_
+12	sentenzierebbero	sentenziare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	senza	senza	ADP	E	_	14	case	_	_
+14	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	leggendo	leggere	VERB	V	VerbForm=Ger	12	advcl	_	_
+17	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	parole	parola	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	_tutte	_tutto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	donne	donna	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+25	così_	così-	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Io ammiro che sappiano quel che dicono _tutte le donne_.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ammiro	ammirare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	sappiano	sappiare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	_tutte	_tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	donne_	donne-	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Quanto a me non lo so.
+1	Quanto	quanto	ADV	B	_	6	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ma so di certo che Fulvia doveva dirlo in modo differente dalle altre, perchè quelle parole, in bocca a lei, erano sincere, ed inspiravano rispetto.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	certo	certo	ADV	B	_	2	advmod	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	Fulvia	Fulvia	PROPN	SP	_	8	nsubj	_	_
+7	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8-9	dirlo	_	_	_	_	_	_	_	_
+8	dir	dire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	modo	modo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	differente	differente	ADJ	A	Number=Sing	11	amod	_	_
+13-14	dalle	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	perchè	perché	SCONJ	CS	_	27	mark	_	_
+18	quelle	quelle	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+19	parole	parola	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	sincere	sincere	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	ed	e	CCONJ	CC	_	30	cc	_	_
+30	inspiravano	inspirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	conj	_	_
+31	rispetto	rispetto	ADV	B	_	30	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

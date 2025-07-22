@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marco accolse quella domanda con gioia; provava un vero sollievo a quel ravvicinamento.
+1	Marco	Marco	PROPN	SP	_	2	nsubj	_	_
+2	accolse	accolso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	domanda	domandare	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	8	punct	_	_
+8	provava	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	vero	vero	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	sollievo	sollievo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	ravvicinamento	ravvicinamento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Infatti, circa due settimane dopo, il dottor Andreoni andò in casa Bellazio, si fece subito amico colla Maria e volle vedere tutti i bambini che trovò belli e floridi.
+1	Infatti	infatti	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	circa	circa	ADV	B	_	4	advmod	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+6	dopo	dopo	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	Andreoni	Andreoni	PROPN	SP	_	9	nmod	_	_
+11	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	Bellazio	Bellazio	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+18	subito	subito	ADV	B	_	17	advmod	_	_
+19	amico	amico	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	colla	colla	NOUN	S	Gender=Masc	19	compound	_	_
+21	Maria	Maria	PROPN	SP	_	20	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+24	vedere	vedere	VERB	V	VerbForm=Inf	23	ccomp	_	_
+25	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	27	det:predet	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+30	belli	bello	ADJ	A	Gender=Masc|Number=Plur	29	xcomp	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	floridi	florido	ADJ	A	Gender=Masc|Number=Plur	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Più li esaminava e più si metteva di buon umore.
+1	Più	più	ADV	B	_	3	advmod	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+3	esaminava	esaminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	più	più	ADV	B	_	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	buon	buono	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	umore	umore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,140 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La donna ritorna donde era partita;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ritorna	ritornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	donde	donde	SCONJ	CS	_	6	mark	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = strumento di piacere o macchina da fabbricar figli.
+1	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7	fabbricar	fabbricare	VERB	V	VerbForm=Inf	1	acl	_	_
+8	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ma che cosa le si offre per rialzarla di nuovo?
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	6	iobj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	offre	offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8-9	rialzarla	_	_	_	_	_	_	_	_
+8	rialzar	rialzarre	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Io lo domando ai femministi che si illudono di giovare alla donna aprendole biblioteche e circoli, cattedre ed urne o di consolare il suo cuore angosciato con un titolo accademico o di riempire il vuoto della sua esistenza con un seggio alla Camera.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	domando	domandare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	femministi	femminista	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	illudono	illudere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	giovare	giovare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	donna	donna	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	aprendole	_	_	_	_	_	_	_	_
+15	aprendo	aprire	VERB	V	VerbForm=Ger	3	advcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	biblioteche	biblioteca	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	circoli	circolo	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	cattedre	cattedre	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+22	ed	e	CCONJ	CC	_	23	cc	_	_
+23	urne	urnere	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+24	o	o	CCONJ	CC	_	26	cc	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	consolare	consolare	VERB	V	VerbForm=Inf	15	conj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+30	angosciato	angosciare	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+34	accademico	accademico	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	o	o	CCONJ	CC	_	37	cc	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	riempire	riempire	VERB	V	VerbForm=Inf	3	conj	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+40-41	della	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	43	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+42	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	43	det:poss	_	_
+43	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+44	con	con	ADP	E	_	46	case	_	_
+45	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	seggio	seggio	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+47-48	alla	_	_	_	_	_	_	_	_
+47	a	a	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Camera	Camera	PROPN	SP	_	46	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Può darsi che questa cosa orribile avvenga: “_una donna felice fuori della famiglia_„.
+1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	darsi	_	_	_	_	_	_	_	_
+2	dar	dare	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	che	che	SCONJ	CS	_	12	mark	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+7	orribile	orribile	ADJ	A	Number=Sing	12	amod	_	_
+8	avvenga	avvenire	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+10	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	_una	_uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	ccomp	_	_
+13	felice	felice	ADJ	A	Number=Sing	12	amod	_	_
+14	fuori	fuori	ADV	B	_	17	case	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	14	fixed	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	famiglia_	ExtraSubj=Yes|famiglia_	ADJ	NO	NumType=Ord	12	nmod	_	SpaceAfter=No
+18	„	„	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Ma allora o femministi il vostro trionfo segnerà la morte della donna.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	allora	allora	ADV	B	_	8	advmod	_	_
+3	o	o	CCONJ	CC	_	4	cc	_	_
+4	femministi	femminedere	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	trionfo	trionfo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	segnerà	segnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	morte	morte	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

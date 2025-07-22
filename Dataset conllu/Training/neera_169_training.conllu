@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Essa mi rimorde sopratutto quando odo fatti atroci commessi da giovani.
+1	Essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	rimorde	rimordere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sopratutto	sopratutto	ADV	B	_	3	advmod	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	odo	odo	SCONJ	CS	_	7	mark	_	_
+7	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	atroci	atroce	ADV	B	_	9	advmod	_	_
+9	commessi	commettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	giovani	giovane	NOUN	S	Number=Plur	9	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Egidio sarebbe ora appunto un giovane e qualche volta mi pare che se leggessi il suo nome tra gli accusati di un processo criminale avrei il coraggio di andare a difenderlo, di dire ai giudici e giurati:
+1	Egidio	Egidio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	ora	ora	ADV	B	_	6	advmod	_	_
+4	appunto	appunto	ADV	B	_	3	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giovane	giovane	NOUN	S	Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	che	che	SCONJ	CS	_	25	mark	_	_
+13	se	se	SCONJ	CS	_	14	mark	_	_
+14	leggessi	leggettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	nome	nome	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	tra	tra	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	accusati	accusare	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	processo	processo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	criminale	criminale	ADJ	A	Number=Sing	23	amod	_	_
+25	avrei	avere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	andare	andare	VERB	V	VerbForm=Inf	27	acl	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31-32	difenderlo	_	_	_	_	_	_	_	SpaceAfter=No
+31	difender	difendere	VERB	V	VerbForm=Inf	29	xcomp	_	_
+32	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	di	di	ADP	E	_	35	mark	_	_
+35	dire	dire	VERB	V	VerbForm=Inf	29	conj	_	_
+36-37	ai	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	giurati	giurare	NOUN	S	Gender=Masc|Number=Plur	38	conj	_	SpaceAfter=No
+41	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = Questo reo fu un fanciullo infelice!
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	reo	reo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	infelice	infelice	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = E se mi accuso oggi in pubblico, se rendo palese il mio rimorso è nella speranza di prevenirne altri ad altri, di salvare i nuovi infelici che nacquero dopo quell’infelice che io abbandonai.
+1	E	e	CCONJ	CC	_	18	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	accuso	accudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+5	oggi	oggi	ADV	B	_	4	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	se	se	SCONJ	CS	_	10	mark	_	_
+10	rendo	rendere	VERB	V	VerbForm=Ger	4	advcl	_	_
+11	palese	palese	ADJ	A	Number=Sing	10	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	rimorso	rimorso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	prevenirne	_	_	_	_	_	_	_	_
+20	prevenir	prevenire	VERB	V	VerbForm=Inf	18	acl	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+22	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	obj	_	_
+23	ad	a	ADP	E	_	24	case	_	_
+24	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	salvare	salvare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	27	obj	_	_
+30	infelici	infelice	ADJ	A	Number=Plur	29	amod	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	nacquero	nacquero	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	dopo	dopo	ADP	E	_	34	case	_	_
+34-35	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+34	qui	qui	ADV	B	_	32	advmod	_	_
+35	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	infelice	infelice	NOUN	S	Number=Sing	32	obj	_	_
+37	che	che	PRON	PR	PronType=Rel	39	obj	_	_
+38	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	39	nsubj	_	_
+39	abbandonai	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

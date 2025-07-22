@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quella parola mi richiamò vivissimo il mio proposito di suicidarmi;
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	parola	parola	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	richiamò	richiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	vivissimo	vivo	ADV	B	Degree=Abs	4	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	suicidarmi	_	_	_	_	_	_	_	SpaceAfter=No
+10	suicidar	suicidare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = l'orrore d'aver compreso in quel progetto orrendo la vita di mio figlio;
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	d'	di	ADP	E	_	5	mark	_	SpaceAfter=No
+4	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	orrendo	orrere	VERB	V	VerbForm=Ger	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vita	vita	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = e le lettere; le lettere disgraziate che mi avevano condotta a quel punto.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	3	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	disgraziate	disgraziato	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+10	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	condotta	condurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	punto	punto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = — Mi tornò al pensiero la scena di vergogna, tante volte temuta, di vedere quelle lettere, in cui sfogando i miei rimorsi avevo ripetutamente affermata la mia colpa, lette ad una ad una da Marco;
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	scena	scena	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+14	temuta	temuto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	vedere	vedere	VERB	V	VerbForm=Inf	3	advcl	_	_
+18	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+19	lettere	lettere	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	23	obl	_	_
+23	sfogando	sfogare	VERB	V	VerbForm=Ger	19	acl:relcl	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	rimorsi	rimorso	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+27	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	29	aux	_	_
+28	ripetutamente	ripetutamente	ADV	B	_	29	advmod	_	_
+29	affermata	affermare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	lette	lere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	32	acl	_	_
+35	ad	a	ADP	E	_	36	case	_	_
+36	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	34	obl	_	_
+37	ad	a	ADP	E	_	38	case	_	_
+38	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	36	nmod	_	_
+39	da	da	ADP	E	_	40	case	_	_
+40	Marco	Marco	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+41	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = e di udirlo dirmi:
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	udirlo	_	_	_	_	_	_	_	_
+3	udir	udir	VERB	V	VerbForm=Inf	0	root	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5-6	dirmi	_	_	_	_	_	_	_	SpaceAfter=No
+5	dir	dire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+7	:	:	PUNCT	FC	_	3	punct	_	SpacesAfter=\n
+

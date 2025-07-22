@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Finirono per credere ciascuno ad un risentimento che in realtà non esisteva nell'altro.
+1	Finirono	finire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	credere	credere	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	ad	a	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	risentimento	risentimento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	realtà	realtà	NOUN	S	Gender=Fem	12	obl	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	esisteva	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+13-14	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Cioè, esisteva, sì, nell'animo di Marco, un immenso rammarico per quella colpa della madre.
+1	Cioè	cioè	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	esisteva	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sì	sì	INTJ	I	Polarity=Pos	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7-8	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	in	in	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	animo	animo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Marco	Marco	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	immenso	immenso	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+15	rammarico	rammarico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	madre	madre	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Come mai aveva offuscata la sua bella riputazione di donna onesta?
+1	Come	come	ADP	E	_	4	mark	_	_
+2	mai	mai	ADV	B	_	4	advmod	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	offuscata	offuscare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	bella	bello	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	riputazione	riputazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	onesta	onesto	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = E chi era quell'uomo?
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	chi	chi	PRON	PQ	PronType=Int	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	quell'	quello	DET	DD	Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
+5	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ci pensava con fastidio, e non avrebbe voluto conoscerlo.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	fastidio	fastidio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux	_	_
+10-11	conoscerlo	_	_	_	_	_	_	_	SpaceAfter=No
+10	conoscer	conoscere	VERB	V	VerbForm=Inf	2	conj	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dora aveva un taccuino sulle ginocchia, e scriveva colla matita l'elenco delle persone da invitare.
+1	Dora	Dora	ADV	B	_	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	taccuino	taccuino	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	sulle	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	ginocchia	ginocchio	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	scriveva	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+11	colla	colla	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	matita	matire	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	elenco	elenco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18	da	da	ADP	E	_	19	mark	_	_
+19	invitare	invitare	VERB	V	VerbForm=Inf	17	acl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La zia le dettava una filza sterminata di nomi da signora, che Dora scriveva con indifferenza.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	zia	zia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	iobj	_	_
+4	dettava	dettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	filza	filza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	sterminata	sterminato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	signora	signore	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	Dora	Dora	ADV	B	_	15	advmod	_	_
+15	scriveva	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Finita quella litania femminile, cominciò un'altra litania più lunga di nomi maschili, che la signora continuava a dettare, come le si affacciavano alla memoria.
+1	Finita	finire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	litania	litania	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	femminile	femminile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	altra	altro	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	litania	litania	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14	maschili	maschile	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	signora	signore	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+19	continuava	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	dettare	dettare	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	come	come	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	obl	_	_
+26	affacciavano	affacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

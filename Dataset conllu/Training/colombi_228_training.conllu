@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La casa di Seth è più grande della mia e più ariosa perchè è fuori della città, ed io dovevo lasciare l'alloggio ed andare a stabilirmi con lui.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Seth	Seth	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	grande	grande	ADJ	A	Number=Sing	0	root	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	ariosa	arioso	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	_
+14	perchè	perché	SCONJ	CS	_	19	mark	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+16	fuori	fuori	ADV	B	_	19	case	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	16	fixed	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	città	città	NOUN	S	Gender=Fem	7	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	ed	e	CCONJ	CC	_	24	cc	_	_
+22	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+23	dovevo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	lasciare	lasciare	VERB	V	VerbForm=Inf	19	conj	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	ed	e	CCONJ	CC	_	28	cc	_	_
+28	andare	andare	VERB	V	VerbForm=Inf	24	conj	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30-31	stabilirmi	_	_	_	_	_	_	_	_
+30	stabilir	stabilire	VERB	V	VerbForm=Inf	28	xcomp	_	_
+31	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	30	obj	_	_
+32	con	con	ADP	E	_	33	case	_	_
+33	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ogni giorno quando avevo finito il mio lavoro, preparavo un po' di roba imballata, e la sera, quando Seth se ne andava, la portava a casa.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+3	quando	quando	SCONJ	CS	_	5	mark	_	_
+4	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	preparavo	preparare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	po'	poco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	roba	roba	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	imballata	imballato	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	28	punct	_	_
+17	e	e	CCONJ	CC	_	28	cc	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sera	sera	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	quando	quando	SCONJ	CS	_	25	mark	_	_
+22	Seth	Seth	PROPN	SP	_	25	nsubj	_	_
+23	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+24	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	25	iobj	_	_
+25	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+28	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	casa	casa	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Così si faceva lo sloggio senza spesa.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sloggio	sloggio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

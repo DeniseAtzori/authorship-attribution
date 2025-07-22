@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non riesco a trovare un paragone più nobile;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	trovare	trovare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	paragone	paragone	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	nobile	nobile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = in fondo però non arrossisco di eguagliarmi a così umili creature e questo confronto coi merciaioli mi fa sorridere.
+1	in	in	ADP	E	_	2	case	_	_
+2	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	però	però	ADV	B	_	5	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	arrossisco	arrossire	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	eguagliarmi	arma|eguagliarme	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	così	così	ADV	B	_	11	advmod	_	_
+10	umili	umile	ADJ	A	Number=Plur	11	amod	_	_
+11	creature	creatura	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+15-16	coi	_	_	_	_	_	_	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	merciaioli	merciaiolo	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+20	sorridere	sorridere	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = È uno strascico delle mie abitudini semplici, de' miei gusti modesti che non intendo di cambiare, anche ora che la mia mente si affaccia ad orizzonti più vasti.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	strascico	strascico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	abitudini	abitudine	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+8	semplici	semplice	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10-11	de'	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+14	modesti	modesto	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	intendo	intendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	cambiare	cambiare	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	3	punct	_	_
+21	anche	anche	ADV	B	_	22	advmod	_	_
+22	ora	ora	ADV	B	_	3	advmod	_	_
+23	che	che	SCONJ	CS	_	28	mark	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	mente	mente	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	affaccia	affacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+29	ad	a	ADP	E	_	30	case	_	_
+30	orizzonti	orizzonte	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	vasti	vasto	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ho trovato in me un'altra donna, è vero, ma questa non rinnega la donna primitiva.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	altra	altro	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	vero	vero	ADJ	A	Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	ma	ma	CCONJ	CC	_	15	cc	_	_
+13	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	15	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	rinnega	rinnegare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	donna	donna	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	primitiva	primitivo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Noi andiamo a pari, da buone sorelle.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	pari	pari	ADJ	A	_	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	buone	buono	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

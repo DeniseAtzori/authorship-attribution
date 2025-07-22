@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per qualche tempo, egli attirò schiette compassioni e false compassioni:
+1	Per	per	ADP	E	_	3	case	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	attirò	attiere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	schiette	schietto	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	compassioni	compassione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	false	falso	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	compassioni	compassione	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = il compatirlo, l'esecrare Luisa, fu di moda:
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2-3	compatirlo	_	_	_	_	_	_	_	SpaceAfter=No
+2	compatir	compatir	NOUN	S	Gender=Masc	11	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	appos	_	_
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	esecrare	esecrare	NOUN	S	Number=Sing	3	appos	_	_
+7	Luisa	Luisa	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	moda	moda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = poi, la gente s'infastidì di questo volto tetro;
+1	poi	poi	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	gente	gente	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+6	infastidì	infastidire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	volto	volto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	tetro	tetro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = e il ridicolo finì per affogarlo.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ridicolo	ridicolo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	finì	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6-7	affogarlo	_	_	_	_	_	_	_	SpaceAfter=No
+6	affogar	affogare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Vari dettero ragione a Luisa Cima;
+1	Vari	vario	PROPN	SP	_	2	nsubj	_	_
+2	dettero	dettero	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Luisa	Luisa	PROPN	SP	_	2	obl	_	_
+6	Cima	cima	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = era troppo noioso, troppo affliggente, Paolo Herz, ed ella aveva fatto benissimo a piantarlo.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	troppo	troppo	ADV	B	_	3	advmod	_	_
+3	noioso	noioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	troppo	troppo	ADV	B	_	6	advmod	_	_
+6	affliggente	affliggente	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Paolo	Paolo	PROPN	SP	_	3	conj	_	_
+9	Herz	Herz	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ed	e	CCONJ	CC	_	14	cc	_	_
+12	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+15	benissimo	bene	ADV	B	Degree=Abs	14	advmod	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17-18	piantarlo	_	_	_	_	_	_	_	SpaceAfter=No
+17	piantar	piantare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

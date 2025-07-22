@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non aveva il proposito di precipitarsi a' suoi piedi come faceva nei melodrammi nella sua qualità di tenore.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	precipitarsi	_	_	_	_	_	_	_	_
+6	precipitar	precipitare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	a	a	ADP	E	_	11	case	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	11	punct	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+12	come	come	SCONJ	CS	_	13	mark	_	_
+13	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+14-15	nei	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	melodrammi	melodrammo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	qualità	qualità	NOUN	S	Gender=Fem	13	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	tenore	tenore	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Anzi, appunto perchè era un cantante, s'impuntiva a non far nulla di melodrammatico, e per evitare ogni atteggiamento teatrale, si mostrava prosaico fino all'affettazione.
+1	Anzi	anzi	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	appunto	appunto	ADV	B	_	10	advmod	_	_
+4	perchè	poiperché	SCONJ	CS	_	7	mark	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cantante	cantante	NOUN	S	Number=Sing	10	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	SpaceAfter=No
+10	impuntiva	impuntire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	E	_	13	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	far	fare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+14	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	13	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	melodrammatico	melodrammatico	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	evitare	evitare	VERB	V	VerbForm=Inf	10	conj	_	_
+21	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	teatrale	teatrale	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl:impers	_	_
+26	mostrava	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+27	prosaico	prosaico	ADJ	A	Gender=Masc|Number=Sing	26	xcomp	_	_
+28	fino	fino	ADV	B	_	31	case	_	_
+29-30	all'	_	_	_	_	_	_	_	SpaceAfter=No
+29	a	a	ADP	E	_	28	fixed	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	affettazione	affettazione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Ma nella sua anima d'artista sentiva potentemente la poesia della vita.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	anima	anima	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	artista	artista	NOUN	S	Number=Sing	5	nmod	_	_
+8	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	potentemente	potentemente	ADV	B	_	8	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

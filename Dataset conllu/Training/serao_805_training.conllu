@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Perdere il treno, che miseria, che disgrazia ridicola, che tragedia buffa!
+1	Perdere	perdere	VERB	V	VerbForm=Inf	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	treno	treno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	miseria	miseria	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	disgrazia	disgraziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	ridicola	ridicolo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	case	_	_
+13	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	buffa	buffa	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Le pareva un'avventura così sciocca, così volgare che non sembrava possibile fosse capitata proprio a lei, nel momento supremo in cui si decideva la crisi del suo amore;
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	così	così	ADV	B	_	6	advmod	_	_
+6	sciocca	sciocco	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	volgare	volgare	VERB	V	VerbForm=Inf	2	conj	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
+13	possibile	possibile	ADJ	A	Number=Sing	12	xcomp	_	_
+14	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	capitata	capitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+16	proprio	proprio	ADV	B	_	18	advmod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	momento	momento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+23	supremo	supremo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	27	obl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	decideva	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	crisi	criso	NOUN	S	Gender=Fem	27	nsubj	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	amore	amore	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+34	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = era fremente di sdegno e di onta.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	fremente	fremente	ADV	B	_	4	advmod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	onta	onta	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Tanta forza di volontà, tanto impeto vincitore, tanto magnetismo trionfante di amore, tanta elettricità condensata...
+1	Tanta	tanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	2	det	_	_
+2	forza	forza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	volontà	volontà	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	tanto	tanto	ADV	B	_	7	advmod	_	_
+7	impeto	impeto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	vincitore	vincitore	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	tanto	tanto	ADV	B	_	11	advmod	_	_
+11	magnetismo	magnetismo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+12	trionfante	trionfante	ADJ	A	Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	amore	amore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	tanta	tanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	17	det	_	_
+17	elettricità	elettricità	NOUN	S	Gender=Fem	2	conj	_	_
+18	condensata...	condensata.	PUNCT	FS	_	0	root	_	SpacesAfter=\n
+

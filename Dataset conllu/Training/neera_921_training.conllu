@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Qualche cosa cambiava intorno a lei col movimento delle molecole d’aria che si spostano, movimento invisibile ma pure avvertito da una sensibilità amorosa che vigila.
+1	Qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	cambiava	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	intorno	intorno	ADV	B	_	6	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+7-8	col	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	molecole	molecola	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	d’	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	aria	aria	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	spostano	spostare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+20	invisibile	invisibile	ADJ	A	Number=Sing	19	amod	_	_
+21	ma	ma	CCONJ	CC	_	23	cc	_	_
+22	pure	pure	ADV	B	_	23	advmod	_	_
+23	avvertito	avvertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sensibilità	sensibilità	NOUN	S	Gender=Fem	23	obl:agent	_	_
+27	amorosa	amoroso	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	vigila	vigilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ella era immensamente triste.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	immensamente	immenso	ADV	B	_	4	advmod	_	_
+4	triste	triste	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Sapeva Ariele immerso nella duplice lotta per l’esistenza e per l’ideale e dinanzi al dramma oscuro di quella giovane vita la fiamma della sua passione la cingeva con maggior impeto, commista al nuovo elemento di dolore che raddoppiava in lei la sensazione umiliante della sua impotenza a farlo felice.
+1	Sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	Ariele	Ariele	PROPN	SP	_	1	obj	_	_
+3	immerso	immergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	duplice	duplice	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ideale	ideale	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16	dinanzi	dinanzi	ADV	B	_	19	case	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+20	oscuro	oscuro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+23	giovane	giovane	ADJ	A	Number=Sing	24	amod	_	_
+24	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	fiamma	fiamma	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	passione	passione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+31	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+32	cingeva	cingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	35	amod	_	_
+35	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	commista	commista	NOUN	S	Number=Sing	1	conj	_	_
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	41	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+41	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+44	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+45	raddoppiava	raddoppiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	acl:relcl	_	_
+46	in	in	ADP	E	_	47	case	_	_
+47	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	45	obl	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	_
+50	umiliante	umiliante	ADJ	A	Number=Sing	49	amod	_	_
+51-52	della	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	54	case	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+53	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	54	det:poss	_	_
+54	impotenza	impotenza	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+55	a	a	ADP	E	_	56	mark	_	_
+56-57	farlo	_	_	_	_	_	_	_	_
+56	far	fare	VERB	V	VerbForm=Inf	45	xcomp	_	_
+57	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	obj	_	_
+58	felice	felice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

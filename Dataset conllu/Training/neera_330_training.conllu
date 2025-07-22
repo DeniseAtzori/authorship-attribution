@@ -1,0 +1,45 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “...
+1	“	“	PUNCT	FB	_	0	root	_	SpacesBefore=\s\s\s\s|SpaceAfter=No
+2	...	...	PUNCT	FF	_	1	punct	_	_
+
+# sent_id = 2
+# text = la donna che all’ape è somigliante “Beato è chi l’ottiene, “In carità reciproca “Poi che bella e gentil prole crearono “Ambo i consorti dolcemente invecchiano.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+4-5	all’	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	ape	ape	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	somigliante	somigliare	ADJ	A	Number=Sing	10	amod	_	SpacesAfter=\s\s\s\s\s\s\s
+9	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Beato	Beato	PROPN	SP	_	2	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+13	l’	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ottiene	ottenere	NOUN	S	Gender=Fem|Number=Sing	33	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s
+16	“	“	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	In	in	ADP	E	_	18	case	_	_
+18	carità	carità	NOUN	S	Gender=Fem	33	obl	_	_
+19	reciproca	reciproco	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpacesAfter=\s\s\s\s\s
+20	“	“	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+21	Poi	poi	ADV	B	_	33	advmod	_	_
+22	che	che	SCONJ	CS	_	33	mark	_	_
+23	bella	bello	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	gentil	gentile	ADJ	A	Number=Sing	26	amod	_	_
+26	prole	prole	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	_
+27	crearono	creare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	conj	_	SpacesAfter=\s\s\s\s\s\s\s
+28	“	“	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	Ambo	Ambo	PROPN	SP	_	33	nsubj	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	consorti	consorte	NOUN	S	Number=Plur	33	nsubj	_	_
+32	dolcemente	dolcemente	ADV	B	_	33	advmod	_	_
+33	invecchiano	invecchiano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	33	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La portinaia, certo, doveva conoscerla:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	portinaia	portinaio	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	certo	certo	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	conoscerla	conoscerlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = la doveva saper lunga quella portinaia dal viso floscio e dagli occhi che facevano schifo:
+1	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	saper	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+4	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	3	xcomp	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	portinaia	portinaio	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	viso	viso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	floscio	floscio	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	dagli	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+17	schifo	schifo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = una malizia filtrava dalle sue parole leziose.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	malizia	malizia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	filtrava	filtrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	dalle	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	parole	parola	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+8	leziose	lezioso	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Chissà!
+1	Chissà	chissà	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = doveva essere stata bella, la portinaia dal parrucchino ignobile, fors'anche elegante:
+1	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	4	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+4	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	portinaia	portinaio	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	parrucchino	parrucchino	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	ignobile	ignobile	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	fors'	fors'	ADV	B	_	15	advmod	_	SpaceAfter=No
+14	anche	anche	ADV	B	_	15	advmod	_	_
+15	elegante	elegare	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = doveva aver tutta una singolare istoria che egli non le aveva dato il tempo di raccontare, com'ella desiderava.
+1	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	6	cop	_	_
+3	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	6	det:predet	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	singolare	singolare	ADJ	A	Number=Sing	6	amod	_	_
+6	istoria	istoria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	raccontare	raccontare	VERB	V	VerbForm=Inf	14	acl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	com'	come	SCONJ	CS	_	20	mark	_	SpaceAfter=No
+19	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	desiderava	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

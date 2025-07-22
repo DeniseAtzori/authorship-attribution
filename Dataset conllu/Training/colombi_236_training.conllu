@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La camera di Tobie Reed era stretta e lunga;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	camera	camera	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Tobie	Tobie	PROPN	SP	_	2	nmod	_	_
+5	Reed	Reed	PROPN	SP	_	4	flat:name	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	stretta	stretto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = il letto era dalla parte opposta alla finestra.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	letto	letto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	opposta	opposto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ad un tratto il teste aveva udito un rumore di voci;
+1	Ad	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	teste	testa	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	udito	udire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	voci	voce	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = s'era voltato, ed aveva veduto che il ferito s'era rizzato a sedere sul letto ed aveva mormorato qualche parola; ma egli non aveva compreso nulla, e nel minuto che aveva impiegato a traversare la camera per accostarsi al letto, il moribondo era ricaduto sui guanciali ed agonizzava.
+1	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	voltato	voltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ed	e	CCONJ	CC	_	7	cc	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+8	che	che	SCONJ	CS	_	13	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ferito	ferito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	nsubj	_	_
+11	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	SpaceAfter=No
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	rizzato	rizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	sedere	sedere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	letto	letto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	ed	e	CCONJ	CC	_	21	cc	_	_
+20	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	mormorato	mormorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+22	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	parola	parola	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	29	punct	_	_
+25	ma	ma	CCONJ	CC	_	29	cc	_	_
+26	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+30	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	29	obj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	35	punct	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	nel	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+36	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+37	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	aux	_	_
+38	impiegato	impiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl:relcl	_	_
+39	a	a	ADP	E	_	40	mark	_	_
+40	traversare	traversare	VERB	V	VerbForm=Inf	38	xcomp	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	camera	camera	NOUN	S	Gender=Fem|Number=Sing	40	obj	_	_
+43	per	per	ADP	E	_	44	mark	_	_
+44-45	accostarsi	_	_	_	_	_	_	_	_
+44	accostar	accostare	VERB	V	VerbForm=Inf	40	advcl	_	_
+45	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	44	expl	_	_
+46-47	al	_	_	_	_	_	_	_	_
+46	a	a	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	letto	letto	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	53	punct	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	moribondo	moribondo	NOUN	S	Gender=Masc|Number=Sing	53	nsubj:pass	_	_
+52	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	53	aux:pass	_	_
+53	ricaduto	ricadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+54-55	sui	_	_	_	_	_	_	_	_
+54	su	su	ADP	E	_	56	case	_	_
+55	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
+56	guanciali	guanciale	NOUN	S	Gender=Masc|Number=Plur	53	obl	_	_
+57	ed	e	CCONJ	CC	_	58	cc	_	_
+58	agonizzava	agonizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

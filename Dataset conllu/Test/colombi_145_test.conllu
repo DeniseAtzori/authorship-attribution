@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Dovevo pur giustificare quella corsa precipitosa giù dalle scale.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Dovevo	Dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	pur	pure	ADV	B	_	4	advmod	_	_
+4	giustificare	giustificare	VERB	V	VerbForm=Inf	0	root	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	precipitosa	precipitoso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	giù	giù	ADV	B	_	6	advmod	_	_
+9-10	dalle	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	scale	scala	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Mi rassegnai e scesi in sala da pranzo.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	rassegnai	rassegnare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	scesi	scendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	sala	sala	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Di là non vedevo in corte.
+1	Di	di	ADP	E	_	2	case	_	_
+2	là	là	ADV	B	_	4	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	corte	corte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Udii entrar l'omnibus, senza poter guardare chi ci fosse.
+1	Udii	Udii	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	entrar	entrare	VERB	V	VerbForm=Inf	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	omnibus	omnibus	NOUN	S	Gender=Fem	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	senza	senza	ADP	E	_	8	mark	_	_
+7	poter	potere	AUX	VM	VerbForm=Inf	8	aux	_	_
+8	guardare	guardare	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	chi	chi	PRON	PR	Number=Sing|PronType=Rel	8	obj	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Il servizio delle tavole fu rallentato un momento;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	tavole	tavola	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	rallentato	rallentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	momento	momento	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 6
+# text = segno che i camerieri erano occupati fuori a ricevere i forestieri.
+1	segno	segno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	camerieri	cameriere	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	occupati	occupare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+7	fuori	fuori	ADV	B	_	6	advmod	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	ricevere	ricevere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	forestieri	forestiere	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Dunque c'erano dei forestieri.
+1	Dunque	dunque	ADV	B	_	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	forestieri	forestiere	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Chi sa?
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

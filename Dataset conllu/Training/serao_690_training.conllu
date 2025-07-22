@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Ebbene, tutto ciò, talvolta, non esiste più.
+1	--Ebbene	--Ebbene	INTJ	I	_	9	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	talvolta	talvolta	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	più	più	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Vengono giorni, vengono periodi, in cui non mi piacete punto.
+1	Vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	periodi	periodo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	piacete	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+12	punto	punto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Nè lo sguardo vostro, nè il vostro riso arrivano sino a me;
+1	Nè	né	ADV	B	_	3	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	nè	né	CCONJ	CC	_	10	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	riso	riso	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	sino	sino	ADV	B	_	13	case	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = mi sembrano pallidi, smorti, o, forse, io non li sento, sono diventato sordo e cieco alla loro espressione.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pallidi	pallido	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	smorti	smorto	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	14	punct	_	_
+7	o	o	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	forse	forse	ADV	B	_	14	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+14	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+18	sordo	sordo	ADJ	A	Gender=Masc|Number=Sing	17	xcomp	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	cieco	cieco	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	loro	loro	DET	AP	Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = La vostra persona mi pare quella di un manichino e non la bella forma di una creatura umana.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	xcomp	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	manichino	manichino	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	bella	bello	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	forma	forma	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	umana	umano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il marito aveva infatti lasciata da anni la bottega, ma era curvo a forza di piegarsi ai comandi di tutti;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	marito	marito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	infatti	infatti	ADV	B	_	5	advmod	_	_
+5	lasciata	lasciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	bottega	bottega	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	curvo	curvo	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	forza	forza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	piegarsi	_	_	_	_	_	_	_	_
+17	piegar	piegare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19-20	ai	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	comandi	comando	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	nmod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = le tre donne gli rinfacciavano il pane che mangiava;
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	rinfacciavano	rinfacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pane	pane	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	mangiava	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = gli facevano fare ogni sorta di lavori in casa, ma non ne tenevano conto;
+1	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+14	tenevano	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+15	conto	conto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ed egli faceva tutto male e di malavoglia; ma qualche cosa doveva pur fare, e non aveva mai un soldo in tasca, e passava le giornate sonnecchiando sotto una tempesta di rimproveri, lasciando dire, e mangiando quel che gli davano, seduto al focolare come un gatto domestico.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	5	det	_	_
+5	male	male	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	malavoglia	malavoglia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	15	punct	_	_
+10	ma	ma	CCONJ	CC	_	15	cc	_	_
+11	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+14	pur	pure	ADV	B	_	15	advmod	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+20	mai	mai	ADV	B	_	19	advmod	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	soldo	soldo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	tasca	tasca	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+30	sonnecchiando	sonnecchiare	VERB	V	VerbForm=Ger	27	advcl	_	_
+31	sotto	sotto	ADP	E	_	33	case	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	rimproveri	rimprovero	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	3	punct	_	_
+37	lasciando	lasciare	VERB	V	VerbForm=Ger	3	advcl	_	_
+38	dire	dire	VERB	V	VerbForm=Inf	37	ccomp	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	41	punct	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	mangiando	mangiare	VERB	V	VerbForm=Ger	38	conj	_	_
+42	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	41	obj	_	_
+43	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+44	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	iobj	_	_
+45	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	42	acl:relcl	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	42	punct	_	_
+47	seduto	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl	_	_
+48-49	al	_	_	_	_	_	_	_	_
+48	a	a	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	focolare	focolare	NOUN	S	Gender=Masc	47	obl	_	_
+51	come	come	ADP	E	_	53	case	_	_
+52	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	gatto	gatto	NOUN	S	Gender=Masc|Number=Sing	50	nmod	_	_
+54	domestico	domestico	ADJ	A	Gender=Masc|Number=Sing	53	amod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

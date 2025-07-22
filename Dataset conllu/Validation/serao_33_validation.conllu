@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ora, nel treno avveniva un certo risveglio;
+1	Ora	ora	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	treno	treno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+6	avveniva	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	certo	certo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	risveglio	risveglio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = nel vagone accanto si sentiva scricchiolare il pavimento, due persone parlavano.
+1-2	nel	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vagone	vagone	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	accanto	accanto	ADV	B	_	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	scricchiolare	scricchiolare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pavimento	pavimento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	persone	persona	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+13	parlavano	parlavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Da uno sportello di prima classe, la testa d'un prete spagnuolo, molto bruno, dalle guance dure e rase, che avevano un'ombra azzurrina, si sporgeva, fumando alacremente un sigaro.
+1	Da	da	ADP	E	_	3	case	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sportello	sportello	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	classe	classe	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	testa	testa	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	_
+10	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	prete	prete	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	spagnuolo	spagnuolo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	bruno	bruno	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18-19	dalle	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	guance	guance	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+21	dure	duro	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	rase	rase	ADJ	A	Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	9	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+27	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	azzurrina	azzurrina	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	9	punct	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	sporgeva	sporgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	fumando	fumare	VERB	V	VerbForm=Ger	32	advcl	_	_
+35	alacremente	alacremente	ADV	B	_	34	advmod	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	sigaro	sigaro	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 4
+# text = Ma come l'alba s'irradiava in tutto il cielo, bianchissima, gelata, tutta la nudità della campagna romana apparve, nella sua grandezza.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	alba	alba	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+6	irradiava	irradiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	bianchissima	biancho	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	gelata	gelato	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	18	det:predet	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	nudità	nudità	NOUN	S	Gender=Fem	23	nsubj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	romana	romano	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	apparve	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	6	punct	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	grandezza	grandezza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = _Questo piccolo libro, scritto pei grandi, parla sempre di bimbi, nelle sue storielle.
+1	_Questo	_Quedere	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	libro	libro	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	pei	peo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+7	grandi	grande	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	sempre	sempre	ADV	B	_	9	advmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14-15	nelle	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	storielle	storiella	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Sono bimbi veri:
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	veri	vero	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = non li ho sognati, mi apparvero nella loro realtà.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sognati	sognare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	apparvero	apparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	realtà	realtà	NOUN	S	Gender=Fem	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Vissero meco un anno, un minuto, un giorno, un’ora, faccine smunte o guance colorite, corpicciuoli scarni o pienotti, vestitini di raso o straccetti per cui si vedeva la pelle — ed erano creature volta a volta ingenue e pensierose, fantastiche e brutali, dolci e acri._
+1	Vissero	Vire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	meco	meco	ADV	B	_	1	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	anno	anno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	ora	ora	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	faccine	faccina	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+16	smunte	smunto	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+17	o	o	CCONJ	CC	_	18	cc	_	_
+18	guance	guance	ADJ	A	Gender=Fem|Number=Plur	16	conj	_	_
+19	colorite	colorito	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	corpicciuoli	corpicciuolo	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+22	scarni	scarno	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	pienotti	pienotto	ADJ	A	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	vestitini	vestitino	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	raso	raso	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+29	o	o	CCONJ	CC	_	30	cc	_	_
+30	straccetti	straccetto	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+31	per	per	ADP	E	_	32	case	_	_
+32	cui	cui	PRON	PR	PronType=Rel	34	obl	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl:impers	_	_
+34	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+37	—	—	PUNCT	FF	_	1	punct	_	_
+38	ed	e	CCONJ	CC	_	41	cc	_	_
+39	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+40	creature	creaturo	ADV	B	_	41	advmod	_	_
+41	volta	volta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	volta	volta	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+44	ingenue	ingenuo	ADJ	A	Gender=Fem|Number=Plur	43	amod	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	pensierose	pensieroso	ADJ	A	Gender=Fem|Number=Plur	44	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	48	punct	_	_
+48	fantastiche	fantastico	ADJ	A	Gender=Fem|Number=Plur	44	conj	_	_
+49	e	e	CCONJ	CC	_	50	cc	_	_
+50	brutali	brutale	ADJ	A	Number=Plur	44	conj	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	41	punct	_	_
+52	dolci	dolce	ADJ	A	Number=Plur	41	xcomp	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	acri._	ExtraSubj=Yes|acri._	ADJ	NO	NumType=Ord	52	conj	_	SpacesAfter=\n
+

@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Perchè sapevo già tutto, anche prima che tu mi scrivessi quella lettera.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Perchè	perché	ADV	B	_	3	advmod	_	_
+3	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	prima	prima	ADV	B	_	12	mark	_	_
+9	che	che	SCONJ	CS	_	8	fixed	_	_
+10	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	scrivessi	scrivettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	advcl	_	_
+13	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Perchè t'avevo domandata in moglie, appunto per toglierti dalla falsa posizione in cui t'avevano posta.
+1	Perchè	perché	ADV	B	_	4	advmod	_	_
+2	t'	ta	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+3	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	domandata	domandare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	appunto	appunto	ADV	B	_	10	advmod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	toglierti	toglierto	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	falsa	falso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+17	t'	ta	PRON	PI	Number=Sing|PronType=Ind	19	nsubj	_	SpaceAfter=No
+18	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	posta	porre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Perchè ti compiangevo e ti perdonavo.
+1	Perchè	perché	ADV	B	_	3	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+3	compiangevo	compiangere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+6	perdonavo	perdonare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Perchè in gran parte la colpa non era tua;
+1	Perchè	perché	ADV	B	_	9	advmod	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	gran	gran	ADJ	A	Number=Sing	4	amod	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	tua	tuo	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 5
+# text = eri troppo giovane per allontanarti dalla mamma, per viver sola, per saperti condurre da te stessa nelle difficoltà della vita.
+1	eri	ero	ADV	B	_	3	advmod	_	_
+2	troppo	troppo	ADV	B	_	3	advmod	_	_
+3	giovane	giovane	ADJ	A	Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-6	allontanarti	_	_	_	_	_	_	_	_
+5	allontanar	allontanare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	viver	vivere	VERB	V	VerbForm=Inf	5	advcl	_	_
+13	sola	solo	ADJ	A	Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	saperti	saperto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+17	condurre	condurre	VERB	V	VerbForm=Inf	16	acl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	obl	_	_
+20	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	nelle	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	difficoltà	difficoltà	NOUN	S	Gender=Fem	17	obl	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

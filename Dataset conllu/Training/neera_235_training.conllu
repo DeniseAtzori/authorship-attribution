@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io però crederei di non sbagliare affermando che nessuno le somiglia, perchè il fàscino delle donne come Isabella d’Este difficilmente si può fissare sopra una tela.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	però	però	ADV	B	_	3	advmod	_	_
+3	crederei	credere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	sbagliare	sbagliare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	affermando	affermare	VERB	V	VerbForm=Ger	6	advcl	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	somiglia	somiglia	NOUN	S	Gender=Fem|Number=Plur	7	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	26	punct	_	_
+13	perchè	perché	SCONJ	CS	_	26	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fàscino	fàscino	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	donne	donna	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	Isabella	Isabella	PROPN	SP	_	18	nmod	_	_
+21	d’	di	ADP	E	_	22	case	_	SpaceAfter=No
+22	Este	Este	PROPN	SP	_	20	nmod	_	_
+23	difficilmente	difficilmente	ADV	B	_	26	advmod	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl:impers	_	_
+25	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	fissare	fissare	VERB	V	VerbForm=Inf	11	advcl	_	_
+27	sopra	sopra	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	tela	tela	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Essendo tutta luce e profumo di intellettualità, solo un genio ne conoscerebbe e potrebbe afferrarne il segreto.
+1	Essendo	essere	AUX	V	VerbForm=Ger	3	cop	_	_
+2	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
+3	luce	luce	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	intellettualità	intellettualità	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	solo	solo	ADV	B	_	11	advmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	genio	genio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+13	conoscerebbe	conoscere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16-17	afferrarne	_	_	_	_	_	_	_	_
+16	afferrar	afferrare	VERB	V	VerbForm=Inf	13	conj	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = È veramente di Isabella il profilo disegnato da Leonardo da Vinci?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	veramente	vero	ADV	B	_	4	advmod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Isabella	Isabella	PROPN	SP	_	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	disegnato	disegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	Leonardo	Leonardo	PROPN	SP	_	7	obl:agent	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	Vinci	Vinci	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Potrebbe, ma non ne siamo sicuri e tale incertezza paralizza i nostri entusiasmi.
+1	Potrebbe	potere	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	7	punct	_	_
+3	ma	ma	CCONJ	CC	_	7	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+6	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	sicuri	sicuro	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	tale	tale	DET	DD	Number=Sing|PronType=Dem	10	det	_	_
+10	incertezza	incertezza	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+11	paralizza	paralizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	entusiasmi	entusiasmo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

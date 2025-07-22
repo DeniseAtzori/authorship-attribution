@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tremante di terrore e di gioia!
+1	Tremante	Tremante	NOUN	S	Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Tutta la notte egli sentì questa duplice convulsione partire dalla più intima essenza della sua anima e allargarsi nei suoi nervi e nel suo sangue:
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+7	duplice	duplice	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	convulsione	convulsione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	partire	partire	VERB	V	VerbForm=Inf	8	acl	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	14	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	essenza	essenza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	anima	anima	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20-21	allargarsi	_	_	_	_	_	_	_	_
+20	allargar	allargare	VERB	V	VerbForm=Inf	9	conj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22-23	nei	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	nervi	nervo	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+26	e	e	CCONJ	CC	_	30	cc	_	_
+27-28	nel	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = e fu pieno di sgomento ed ebbro di felicità.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sgomento	sgomento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	ebbro	ebbro	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	felicità	felicità	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Egli non volle lasciare quella stanza dove aveva inteso, ancora una volta, quella cara voce seduttrice, dirgli le parole che sempre avevano sconvolto il suo essere e che adesso gli avevan dato l'indicibile tumulto interiore.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	lasciare	lasciare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	dove	dove	ADV	B	_	9	advmod	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	inteso	intendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	ancora	ancora	ADV	B	_	13	advmod	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	volta	volta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	obj	_	_
+16	cara	caro	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	voce	voce	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	seduttrice	seduttore	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20-21	dirgli	_	_	_	_	_	_	_	_
+20	dir	dire	VERB	V	VerbForm=Inf	9	advcl	_	_
+21	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	parole	parola	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	sempre	sempre	ADV	B	_	27	advmod	_	_
+26	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	sconvolto	sconvogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	essere	essere	AUX	V	VerbForm=Inf	27	obj	_	_
+31	e	e	CCONJ	CC	_	35	cc	_	_
+32	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+33	adesso	adesso	ADV	B	_	35	advmod	_	_
+34	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	iobj	_	_
+35	avevan	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	conj	_	_
+36	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+38	indicibile	indicibile	ADJ	A	Number=Sing	39	amod	_	_
+39	tumulto	tumulto	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+40	interiore	interiore	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

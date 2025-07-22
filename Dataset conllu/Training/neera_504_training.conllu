@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Grave fu il silenzio che seguì tale dichiarazione.
+1	Grave	grave	PROPN	SP	_	4	nsubj	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	seguì	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	tale	tale	DET	DD	Number=Sing|PronType=Dem	8	det	_	_
+8	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Nè Anna, nè Elvira non osavano prendere la parola, quantunque Anna accompagnasse con un evidente movimento di simpatia lo sguardo perduto che il vecchio scettico sembrava sprofondare al di là della vita.
+1	Nè	nè	PROPN	SP	_	7	nsubj	_	_
+2	Anna	Anna	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	nè	nè	CCONJ	CC	_	5	cc	_	_
+5	Elvira	Elvira	PROPN	SP	_	1	conj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	osavano	osare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	prendere	prendere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	parola	parola	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	quantunque	quantunque	SCONJ	CS	_	14	mark	_	_
+13	Anna	Anna	PROPN	SP	_	14	nsubj	_	_
+14	accompagnasse	accompagnare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	evidente	evidente	ADJ	A	Number=Sing	18	amod	_	_
+18	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	simpatia	simpatia	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+21	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	18	appos	_	_
+23	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24	che	che	SCONJ	CS	_	28	mark	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+27	scettico	scettico	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	ccomp	_	_
+29	sprofondare	sprofondare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	là	là	ADV	B	_	36	advmod	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	vita	vita	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Il signor Pompeo, disorientato, pensò di accomodar tutto con una frase solenne e la pronunciò quasi pontificando:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	signor	signore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	Pompeo	Pompeo	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	disorientato	disorientato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	accomodar	accomodare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	frase	frase	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	solenne	solenne	ADJ	A	Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	pronunciò	pronunciò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+18	quasi	quasi	ADV	B	_	19	advmod	_	_
+19	pontificando	pontificare	VERB	V	VerbForm=Ger	17	advcl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	7	punct	_	SpacesAfter=\n
+

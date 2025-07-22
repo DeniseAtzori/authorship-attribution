@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sempre mi sta dinanzi la casetta di Lazzaro in Bethania, sulla vetta della collina, cinta di ulivi e di tamarindi.
+1	Sempre	sempre	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dinanzi	dinanzi	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	casetta	casetta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Lazzaro	Lazzaro	PROPN	SP	_	6	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Bethania	Bethania	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vetta	vetta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	collina	collina	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	cinta	cinta	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	ulivi	ulivo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	tamarindi	tamarindo	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = È là che Gesù in mezzo a due donne tanto diverse l’una dall’altra pronunciò le sublimi parole “Marta Marta, tu sei sollecita e ti travagli intorno a molte cose, ma di una sola fa bisogno„.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	là	là	ADV	B	_	0	root	_	_
+3	che	che	SCONJ	CS	_	17	mark	_	_
+4	Gesù	Gesù	PROPN	SP	_	17	nsubj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+10	tanto	tanto	ADV	B	_	11	advmod	_	_
+11	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	17	nsubj	_	_
+14-15	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+14	da	da	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	13	nmod	_	_
+17	pronunciò	pronunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	sublimi	sublimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	20	amod	_	_
+20	parole	parola	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+21	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	Marta	Marta	PROPN	SP	_	27	nmod	_	_
+23	Marta	Marta	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	27	nsubj	_	_
+26	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	sollecita	sollecitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	30	obj	_	_
+30	travagli	travagliare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	conj	_	_
+31	intorno	intorno	ADV	B	_	34	case	_	_
+32	a	a	ADP	E	_	31	fixed	_	_
+33	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	34	det	_	_
+34	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	38	punct	_	_
+36	ma	ma	CCONJ	CC	_	38	cc	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	30	conj	_	_
+39	sola	solo	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	_
+40	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	_	_
+41	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	SpaceAfter=No
+42	„	„	PUNCT	FF	_	40	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

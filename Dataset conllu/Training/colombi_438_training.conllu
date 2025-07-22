@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Le ragazze che non fanno nulla di serio, si mettono in testa d'essere al mondo soltanto per trovare un marito, e non pensano che a quella _x_ incognita e sospirata.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	serio	serio	ADJ	A	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	testa	testa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	d'	di	ADP	E	_	19	mark	_	SpaceAfter=No
+16	essere	essere	AUX	V	VerbForm=Inf	19	cop	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	14	acl	_	_
+20	soltanto	soltanto	ADV	B	_	22	advmod	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	trovare	trovare	VERB	V	VerbForm=Inf	19	advcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	marito	marito	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+29	che	che	SCONJ	CS	_	31	mark	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	28	obl	_	_
+32	_x_	_x-	PUNCT	FB	_	33	punct	_	_
+33	incognita	incognire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	sospirata	sospirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Si fanno belle per piacere alla _x_; acquistano una certa coltura, per interessare la _x_;
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	belle	bello	ADJ	A	Gender=Fem|Number=Plur	2	xcomp	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	piacere	piacere	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	_x_	_x-	PUNCT	FB	_	5	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	10	punct	_	_
+10	acquistano	acquistare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	certa	certo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	coltura	coltura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	interessare	interessare	VERB	V	VerbForm=Inf	10	advcl	_	_
+17	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	_x_	ExtraSubj=Yes|_x_	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = non ne acquistano troppa, per non adombrare la _x_; sono casalinghe, economiche, oneste, per rassicurare la _x_.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	acquistano	acquistare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	troppa	troppo	ADJ	A	Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	per	per	ADP	E	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	adombrare	adombrare	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	_x_	_x-	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	3	punct	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	casalinghe	casalingo	ADJ	A	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	oneste	onesta	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	rassicurare	rassicurare	VERB	V	VerbForm=Inf	13	advcl	_	_
+21	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	_x_	_x-	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

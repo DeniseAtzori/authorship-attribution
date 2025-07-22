@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nessuno, nessuno, non la madre, non una sorella, non una fidanzata, non un amico, niente, niente, non una lacrima umana, su lui:
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	madre	madre	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	amico	amico	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	lacrima	lacrima	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+28	umana	umano	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	1	punct	_	_
+30	su	su	ADP	E	_	31	case	_	_
+31	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nmod	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = e l'estrema scena della sua vita nella gran solitudine, nel gran silenzio della campagna romana, in quel tristissimo giorno di marzo, camminando e affondando nel fango, era il degno compimento della sua esistenza.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	scena	scena	NOUN	S	Gender=Fem|Number=Sing	40	conj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	gran	gran	ADJ	A	Number=Sing	12	amod	_	_
+12	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	gran	grande	ADJ	A	Number=Sing	17	amod	_	_
+17	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	romana	romano	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+25	tristissimo	triste	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	26	amod	_	_
+26	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	4	punct	_	_
+30	camminando	camminare	VERB	V	VerbForm=Ger	4	advcl	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	affondando	affondare	VERB	V	VerbForm=Ger	30	conj	_	_
+33-34	nel	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	fango	fanire	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	4	punct	_	_
+37	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	cop	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	degno	degno	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
+40	compimento	compimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	44	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+43	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	44	det:poss	_	_
+44	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	40	punct	_	SpacesAfter=\n
+

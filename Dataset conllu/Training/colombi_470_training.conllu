@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ciascuno fa il suo interesse, diceva colla sua logica d'uomo d'affari.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+9	colla	collare	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	logica	logica	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	affari	affare	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Odda ha già ventotto anni;
+1	Odda	Odda	PROPN	SP	_	4	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	ventotto	ventotto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = è più urgente per lei che per Valeria di maritarsi.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	urgente	urgente	ADJ	A	Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	cc	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	Valeria	Valeria	PROPN	SP	_	5	acl:relcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	maritarsi	_	_	_	_	_	_	_	SpaceAfter=No
+10	maritar	maritare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = E se questo deve guarirla dalle sue ubbie sull'amore e sull'arte, e farne una donna come le altre, mi rassegno volentieri a rinunciare al mio disegno per adottare il suo.
+1	E	e	CCONJ	CC	_	29	cc	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	guarirla	_	_	_	_	_	_	_	_
+5	guarir	guarire	VERB	V	VerbForm=Inf	29	advcl	_	_
+6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	ubbie	ubbia	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+11-12	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+11	su	su	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+15	su	su	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	arte	arte	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20-21	farne	_	_	_	_	_	_	_	_
+20	far	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	donna	donna	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+24	come	come	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	5	punct	_	_
+28	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	obj	_	_
+29	rassegno	rassegre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+30	volentieri	volentieri	ADV	B	_	29	advmod	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32	rinunciare	rinunciare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+33-34	al	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	36	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	disegno	disegno	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+37	per	per	ADP	E	_	38	mark	_	_
+38	adottare	adottare	VERB	V	VerbForm=Inf	32	advcl	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	41	det:poss	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	38	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Invece _lui_ era stato l'amante dell'Ernesta;
+1	Invece	invece	ADV	B	_	6	advmod	_	_
+2	_lui_	_lui-	PUNCT	FB	_	1	punct	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	amante	amante	NOUN	S	Number=Sing	0	root	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Ernesta	Ernesta	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = l'aveva trascinata con sè per qualche tempo di teatro in teatro, facendola stare nelle quinte ad aspettarlo con un mantello per coprirlo quando rientrava sudato, facendole portare la scatola da toletta, cucire gli accessori dei costumi.
+1	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	trascinata	trascinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	sè	sè	PRON	PE	Person=3|PronType=Prs	3	obl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14-15	facendola	_	_	_	_	_	_	_	_
+14	facendo	fare	VERB	V	VerbForm=Ger	3	advcl	_	_
+15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	stare	stare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17-18	nelle	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	quinte	quinto	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	ad	a	ADP	E	_	21	mark	_	_
+21-22	aspettarlo	_	_	_	_	_	_	_	_
+21	aspettar	aspettare	VERB	V	VerbForm=Inf	16	ccomp	_	_
+22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mantello	mantello	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+26	per	per	ADP	E	_	27	mark	_	_
+27-28	coprirlo	_	_	_	_	_	_	_	_
+27	coprir	coprire	VERB	V	VerbForm=Inf	21	advcl	_	_
+28	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	quando	quando	SCONJ	CS	_	30	mark	_	_
+30	rientrava	rientrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	advcl	_	_
+31	sudato	sudato	ADJ	A	Gender=Masc|Number=Sing	30	xcomp	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	3	punct	_	_
+33-34	facendole	_	_	_	_	_	_	_	_
+33	facendo	fare	VERB	V	VerbForm=Ger	3	advcl	_	_
+34	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+35	portare	portare	VERB	V	VerbForm=Inf	33	xcomp	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	scatola	scatola	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+38	da	da	ADP	E	_	39	case	_	_
+39	toletta	toletta	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	41	punct	_	_
+41	cucire	cucire	VERB	V	VerbForm=Inf	35	conj	_	_
+42	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	accessori	accessorio	NOUN	S	Gender=Masc|Number=Plur	41	obj	_	_
+44-45	dei	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	costumi	costume	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Poi un bel giorno lui aveva sposata una prima donna ricca, e l'Ernesta era tornata a casa coll'orecchio fesso da uno schiaffo, che le aveva fatto saltare l'orecchino da un capo all'altro del teatro.
+1	Poi	poi	ADV	B	_	7	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	bel	bello	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	sposata	sposare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+11	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	Ernesta	Ernesta	PROPN	SP	_	17	nsubj	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	coll'	collo	DET	RI	Definite=Ind|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+22	fesso	fettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	schiaffo	schiaffo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+28	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	iobj	_	_
+29	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+30	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+31	saltare	saltare	VERB	V	VerbForm=Inf	30	ccomp	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	orecchino	orecchino	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	capo	capo	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+37-38	all'	_	_	_	_	_	_	_	SpaceAfter=No
+37	a	a	ADP	E	_	39	case	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
+39	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	31	obl	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

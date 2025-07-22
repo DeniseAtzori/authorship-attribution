@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non aveva esitato a scalare un muro, di notte, a mettersi in contravvenzione colle leggi, ad affrontare pericoli d'ogni sorta, ed a trascinarvi lo sposo con sè.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	esitato	esitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	scalare	scalare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	muro	muro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	notte	notte	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13-14	mettersi	_	_	_	_	_	_	_	_
+13	metter	mettere	VERB	V	VerbForm=Inf	3	advcl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	contravvenzione	contravvenzione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	colle	_	_	_	_	_	_	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	ad	a	ADP	E	_	22	mark	_	_
+22	affrontare	affrontare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+23	pericoli	pericolo	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+24	d'	da	ADP	E	_	26	case	_	SpaceAfter=No
+25	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	26	det	_	_
+26	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	ed	e	CCONJ	CC	_	30	cc	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30-31	trascinarvi	_	_	_	_	_	_	_	_
+30	trascinar	trascinare	VERB	V	VerbForm=Inf	33	conj	_	_
+31	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	30	iobj	_	_
+32	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+33	sposo	spodere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	conj	_	_
+34	con	con	ADP	E	_	35	case	_	_
+35	sè	sè	PRON	PE	Person=3|PronType=Prs	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Lo avrebbe lasciato condannare per non violare un giuramento che considerava sacro;
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	condannare	condannare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	per	per	ADP	E	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	violare	violare	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giuramento	giuramento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	considerava	considerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+12	sacro	sacro	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = ed ora aderiva a consultare un sacerdote, perchè la spaventava l'idea d'una colpa maggiore, d'un peggiore rimorso, lasciando condannare un innocente.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	ora	ora	ADV	B	_	3	advmod	_	_
+3	aderiva	aderire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	consultare	consultare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sacerdote	sacerdote	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	perchè	perché	SCONJ	CS	_	11	mark	_	_
+10	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	spaventava	spaventavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	idea	idea	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+14	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	peggiore	peggiore	NOUN	S	Number=Sing	3	obl	_	_
+22	rimorso	rimorso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24	lasciando	lasciare	VERB	V	VerbForm=Ger	3	advcl	_	_
+25	condannare	condannare	VERB	V	VerbForm=Inf	24	ccomp	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	innocente	innocente	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

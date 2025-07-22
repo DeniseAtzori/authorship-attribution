@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Non credo.
+1	--Non	--Non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Pure, se ha dissimulato, anche questo era un omaggio dell'anima sua all'amore:
+1	Pure	pure	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dissimulato	dissimulare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	anche	anche	ADV	B	_	11	advmod	_	_
+8	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	anima	anima	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	amore	amore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = Maddalena, Maddalena, nessuna delle azioni di quell'uomo, nessuno dei suoi pensieri, che non partisse e non ritornasse all'amore.
+1	Maddalena	Maddalena	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Maddalena	Maddalena	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	nessuna	nessuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	1	nmod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	quell'	quello	DET	DD	Number=Sing|PronType=Dem	11	det	_	SpaceAfter=No
+11	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	appos	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	partisse	partire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	ritornasse	ritornare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	conj	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	amore	amore	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Per l'amore egli poteva essere laido come un malfattore e apparire innocente come un fanciulletto:
+1	Per	per	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+7	laido	laidere	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	malfattore	malfattore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	apparire	apparire	VERB	V	VerbForm=Inf	7	conj	_	_
+13	innocente	innocente	ADJ	A	Number=Sing	12	xcomp	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	fanciulletto	fanciulletto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 5
+# text = per l'amore egli era profondamente buono, ma poteva arrivare al delitto.
+1	per	per	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	profondamente	profondamente	ADV	B	_	7	advmod	_	_
+7	buono	buono	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	arrivare	arrivare	VERB	V	VerbForm=Inf	7	conj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	delitto	delitto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

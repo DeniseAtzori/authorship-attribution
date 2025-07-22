@@ -1,0 +1,137 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Qualcuno che pur col figlio proprio sorveglia il bel gesto, non ha gli stessi riguardi in pubblico.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+3	pur	pure	ADV	B	_	6	advmod	_	_
+4-5	col	_	_	_	_	_	_	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+7	proprio	proprio	ADV	B	_	8	advmod	_	_
+8	sorveglia	sorveglia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	bel	bello	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	riguardi	riguardo	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Io soffro continuamente per tutto ciò che si fa e si dice di male intorno ai bambini e penso quanta occupazione ci sarebbe lì per la donna, per tutte le donne.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	soffro	soffro	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	continuamente	continuo	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	male	male	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+15	intorno	intorno	ADV	B	_	18	case	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+21	quanta	quanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	22	det	_	_
+22	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	_
+24	sarebbe	essere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+25	lì	lì	ADV	B	_	24	advmod	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	donna	donna	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	20	punct	_	_
+30	per	per	ADP	E	_	33	case	_	_
+31	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	33	det:predet	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	donne	donna	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Se vogliono studiare, quale campo sconfinato l’educazione!
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quale	quale	DET	DQ	Number=Sing|PronType=Int	6	det	_	_
+6	campo	campo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	sconfinato	sconfinato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = (Insisto sul vocabolo _educazione_ da non confondersi coll’istruzione).
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Insisto	Insisto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vocabolo	vocabolo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	_educazione_	_educazione-	PUNCT	FB	_	2	punct	_	_
+7	da	da	ADP	E	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9-10	confondersi	_	_	_	_	_	_	_	_
+9	confonder	confondere	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11-12	coll’	_	_	_	_	_	_	_	SpaceAfter=No
+11	co	co	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Se hanno bisogno di amare, chi lo merita e lo implora più dell’infanzia?
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	amare	amare	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	chi	chi	PRON	PR	PronType=Rel	2	nsubj	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	merita	meritare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	implora	implorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13	più	più	ADV	B	_	12	advmod	_	_
+14-15	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = È sui ginocchi della donna che si forma l’umanità.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	sui	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ginocchi	ginocco	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:pass	_	_
+10	forma	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	umanità	umanità	NOUN	S	Gender=Fem	10	nsubj:pass	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli però se ne consolava col pensiero di far vivere la sua famiglia adottiva col magro frutto delle sue prime fatiche, e colla rendita del suo beneficio.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	però	però	ADV	B	_	5	advmod	_	_
+3	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	consolava	consolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	col	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	far	fare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	vivere	vivere	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	adottiva	adottivo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16-17	col	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	magro	magro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	24	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+22	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+23	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	24	amod	_	_
+24	fatiche	fatica	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+28	rendita	rendita	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	beneficio	beneficio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ma anche questa nobile gioia doveva essergli amareggiata e resa difficile.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	anche	anche	ADV	B	_	9	advmod	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+4	nobile	nobile	ADJ	A	Number=Sing	5	amod	_	_
+5	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+6	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+7-8	essergli	_	_	_	_	_	_	_	_
+7	esser	essere	AUX	VA	VerbForm=Inf	9	aux	_	_
+8	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	amareggiata	amareggiata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	resa	resa	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+12	difficile	difficile	ADJ	A	Number=Sing	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Alla fine del 1870 la nuova legge sui beni ecclesiastici minacciò di sopprimergli il benefizio;
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	1870	1870	NUM	N	NumType=Card	3	nummod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	legge	legge	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+10-11	sui	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	beni	bene	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	ecclesiastici	ecclesiastico	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	minacciò	minacciò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16-17	sopprimergli	_	_	_	_	_	_	_	_
+16	sopprimer	sopprimere	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	benefizio	benefizio	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 4
+# text = e fu soltanto dopo una lite lunga e dispendiosa per rivendicarlo, che potè riaverlo, diminuito d'un terzo.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	soltanto	soltanto	ADV	B	_	6	advmod	_	_
+4	dopo	dopo	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lite	lite	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	dispendiosa	dispendioso	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	rivendicarlo	_	_	_	_	_	_	_	SpaceAfter=No
+11	rivendicar	rivendicarre	VERB	V	VerbForm=Inf	6	acl	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	potè	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+16-17	riaverlo	_	_	_	_	_	_	_	SpaceAfter=No
+16	riaver	riavere	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	diminuito	diminuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+20	d'	da	ADP	E	_	22	case	_	SpaceAfter=No
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	terzo	terzo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

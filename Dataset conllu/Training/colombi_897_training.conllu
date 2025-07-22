@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --È la stanchezza, s'era detto in casa;
+1	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	s'	s'	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = è un accesso nervoso.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	nervoso	nervoso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = E Vincenzo, che non vedeva l'ora di sottrarsi agli sguardi del padre e delle sorelle, aveva portato quasi di peso il cugino in camera, e l'aveva fatto coricare.
+1	E	e	CCONJ	CC	_	24	cc	_	_
+2	Vincenzo	Vincenzo	PROPN	SP	_	24	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	sottrarsi	_	_	_	_	_	_	_	_
+10	sottrar	sottrarre	VERB	V	VerbForm=Inf	8	acl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12-13	agli	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	padre	padre	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	quasi	quasi	ADV	B	_	27	advmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	peso	peso	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	camera	camera	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	36	punct	_	_
+33	e	e	CCONJ	CC	_	36	cc	_	_
+34	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	36	obj	_	SpaceAfter=No
+35	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	aux	_	_
+36	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	conj	_	_
+37	coricare	coricare	VERB	V	VerbForm=Inf	36	xcomp	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 4
+# text = Sfinito, in uno stato di prostrazione, vicino a svenire, Vicenzino sorrideva come un estatico.
+1	Sfinito	Sfinito	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	stato	stato	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	prostrazione	prostrazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	vicino	vicino	ADV	B	_	11	mark	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	svenire	svenire	VERB	V	VerbForm=Inf	14	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	Vicenzino	Vicenzino	PROPN	SP	_	14	nsubj	_	_
+14	sorrideva	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	estatico	estatico	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Poco dopo Vincenzo gli domandò:
+1	Poco	poco	ADV	B	_	5	advmod	_	_
+2	dopo	dopo	ADP	E	_	3	case	_	_
+3	Vincenzo	Vincenzo	PROPN	SP	_	5	obl	_	_
+4	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	domandò	domande	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	SpacesAfter=\n
+

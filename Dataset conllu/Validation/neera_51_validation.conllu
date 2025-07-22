@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E mentre Egli mormorava a fior di labbro:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	mentre	mentre	SCONJ	CS	_	4	mark	_	_
+3	Egli	Egli	PROPN	SP	_	4	nsubj	_	_
+4	mormorava	mormorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	fior	fior	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	labbro	labbro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = --Ecco come sono le donne!
+1	--Ecco	--ecco	ADV	B	_	5	advmod	_	_
+2	come	come	ADV	B	_	5	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = --io, più che al pericolo corso, pensavo adesso alle parole:
+1	--io	--io	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	più	più	ADV	B	_	1	advmod	_	_
+4	che	che	SCONJ	CS	_	3	fixed	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	corso	corso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	adesso	adesso	ADV	B	_	10	advmod	_	_
+12-13	alle	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	parole	parola	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 4
+# text = _non amo, non sono amato:_ che mi avevano dato un tuffo nel sangue e non so quale ignoto ardore, come un misterioso bisogno di colmare quella solitudine superba, di obbligarlo a scendere da quei regni inaccessibili del suo pensiero e mescersi cogli altri uomini ed essere uomo.
+1	_non	_non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	amato:_	ExtraSubj=Yes|amato:_	PUNCT	FB	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+9	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tuffo	tuffo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+19	quale	quale	DET	DQ	Number=Sing|PronType=Int	21	det	_	_
+20	ignoto	ignoto	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	come	come	ADP	E	_	26	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	misterioso	misterioso	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	colmare	colmare	VERB	V	VerbForm=Inf	26	acl	_	_
+29	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+30	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	superba	superbo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34-35	obbligarlo	_	_	_	_	_	_	_	_
+34	obbligar	obbligare	VERB	V	VerbForm=Inf	28	conj	_	_
+35	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37	scendere	scendere	VERB	V	VerbForm=Inf	34	xcomp	_	_
+38	da	da	ADP	E	_	40	case	_	_
+39	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	40	det	_	_
+40	regni	regno	NOUN	S	Gender=Masc|Number=Plur	37	obl	_	_
+41	inaccessibili	inaccessibile	ADJ	A	Number=Plur	40	amod	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	45	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	mescersi	mescerso	NOUN	S	Gender=Masc|Number=Plur	40	conj	_	_
+48-49	cogli	_	_	_	_	_	_	_	_
+48	con	con	ADP	E	_	51	case	_	_
+49	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+50	altri	altro	ADJ	A	Gender=Masc|Number=Plur	51	amod	_	_
+51	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	_
+52	ed	e	CCONJ	CC	_	54	cc	_	_
+53	essere	essere	AUX	V	VerbForm=Inf	54	cop	_	_
+54	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	51	conj	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Otto giorni di riposo sereno in una vecchia casa in fondo a una vecchia valle dove non giunge ancora fischio di locomotiva nè rombare di treni.
+1	Otto	otto	NUM	N	NumType=Card	2	nummod	_	_
+2	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	sereno	sereno	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	valle	valle	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+16	dove	dove	ADV	B	_	18	advmod	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	giunge	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	ancora	ancora	ADV	B	_	18	advmod	_	_
+20	fischio	fischio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	locomotiva	locomotiva	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	nè	né	CCONJ	CC	_	24	cc	_	_
+24	rombare	rombare	VERB	V	VerbForm=Inf	18	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	treni	treno	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Un silenzio altissimo fra mura nitide odoranti di freschi bucati casalinghi, di mele cotogne riposte negli armadi e fascetti di menta sospesi a seccare all’ombra.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	altissimo	alto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	amod	_	_
+4	fra	fra	ADP	E	_	5	case	_	_
+5	mura	muro	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	nitide	nitido	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	odoranti	odorante	ADV	B	_	10	advmod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	freschi	fresco	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	bucati	bucato	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+11	casalinghi	casalingo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	mele	mela	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	cotogne	cotogno	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+16	riposte	riporre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+17-18	negli	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	armadi	armadio	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	fascetti	fascetto	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	menta	mentare	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	sospesi	sospese	ADJ	A	Number=Plur	23	amod	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	seccare	seccare	VERB	V	VerbForm=Inf	24	advcl	_	_
+27-28	all’	_	_	_	_	_	_	_	SpaceAfter=No
+27	a	a	ADP	E	_	29	case	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

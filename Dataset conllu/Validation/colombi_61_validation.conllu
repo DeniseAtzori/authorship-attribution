@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Ed il povero Albani, esclamò, che se ne sta dietro tutto solo!
+1	--Ed	--e	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	povero	povero	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	Albani	Albani	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	esclamò	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+12	dietro	dietro	ADV	B	_	11	advmod	_	_
+13	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	_
+14	solo	solo	ADV	B	_	11	advmod	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Facciamogli un po' di posto.
+1	Facciamogli	Facciamogli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E così dicendo si strinse, non presso il suo vicino a sinistra, ma presso me, e, certo per fare che le braccia occupassero meno spazio, passò il suo nel mio e mi si serrò daccanto.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	dicendo	dire	VERB	V	VerbForm=Ger	31	advcl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	strinse	stringere	ADJ	A	Number=Sing	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+8	presso	presso	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	vicino	vicino	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	presso	presso	ADP	E	_	17	case	_	_
+17	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	23	punct	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	certo	certo	ADV	B	_	23	advmod	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	fare	fare	VERB	V	VerbForm=Inf	17	conj	_	_
+24	che	che	SCONJ	CS	_	27	mark	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	_
+27	occupassero	occupare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	ccomp	_	_
+28	meno	meno	ADV	B	_	29	advmod	_	_
+29	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	27	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	3	punct	_	_
+31	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+33	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
+34-35	nel	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	40	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+36	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
+37	e	e	CCONJ	CC	_	40	cc	_	_
+38	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	40	expl	_	_
+39	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	40	expl	_	_
+40	serrò	serrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	obj	_	_
+41	daccanto	daccanto	ADV	B	_	40	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\n
+

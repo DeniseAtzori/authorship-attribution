@@ -1,0 +1,160 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Entrammo in una carrozza da nolo;
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Entrammo	Entrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	nolo	nolo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = non osai entrare nell'omnibus dell'albergo, per non esser veduta.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	osai	osare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	entrare	entrare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	omnibus	omnibus	NOUN	S	Gender=Masc	3	obl	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	per	per	ADP	E	_	14	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	esser	essere	AUX	VA	VerbForm=Inf	14	aux	_	_
+14	veduta	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mi pareva di non aver diritto di essere a Milano;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	10	mark	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Milano	Milano	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = e che ogni primo venuto potesse ricordarmelo.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	venuto	venuto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	potesse	potere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	ricordarmelo	ricordarmelare	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Si passò in via della Spiga per condurre la contralto da' suoi parenti, poi per la via Gesù, Monte Napoleone, via Pietro Verri, e piazza Belgiojoso, mi feci condurre all'Albergo della Bella Venezia.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	via	via	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Spiga	Spiga	PROPN	SP	_	4	nmod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	condurre	condurre	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	contralto	contralto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+12	da	da	ADP	E	_	15	case	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	15	punct	_	_
+14	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	parenti	parente	NOUN	S	Number=Plur	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	poi	poi	ADV	B	_	11	advmod	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	via	via	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+21	Gesù	Gesù	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	11	punct	_	_
+23	Monte	Monte	NOUN	S	Gender=Masc|Number=Sing	9	xcomp	_	_
+24	Napoleone	Napoleone	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	via	via	NOUN	S	Gender=Fem|Number=Sing	23	compound	_	_
+27	Pietro	Pietro	PROPN	SP	_	26	nmod	_	_
+28	Verri	Verri	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	_
+32	Belgiojoso	Belgiojoso	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	35	expl	_	_
+35	feci	feci	ADJ	A	Gender=Masc|Number=Plur	2	conj	_	_
+36	condurre	condurre	VERB	V	VerbForm=Inf	35	advcl	_	_
+37-38	all'	_	_	_	_	_	_	_	SpaceAfter=No
+37	a	a	ADP	E	_	39	case	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
+39	Albergo	albergo	PROPN	SP	_	36	obl	_	_
+40-41	della	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	Bella	bella	PROPN	SP	_	39	nmod	_	_
+43	Venezia	Venezia	PROPN	SP	_	42	flat:name	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Non avrei mai avuto il coraggio di affrontare gli sguardi dei camerieri dell'albergo di Milano.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	affrontare	affrontare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	camerieri	cameriere	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Milano	Milano	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Non c'era mascalzone sulla terra, in cui non vedessi un giudice, e dinanzi a cui non chinassi la fronte.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	mascalzone	mascalzone	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	terra	terra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	vedessi	vedettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	21	punct	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17	dinanzi	dinanzi	ADV	B	_	19	case	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	cui	cui	PRON	PR	PronType=Rel	21	obl	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	chinassi	chinassare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	fronte	fronte	NOUN	S	Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella sarebbe venuta, più tardi, cara, piccola, affascinante:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	tardi	tardi	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	cara	caro	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	affascinante	affascinare	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ma ella era già là, in quella fotografia sul tavolino, nella brillante cornice d'argento che circondava la testina dai nerissimi, lucidi e fini capelli, che ne delineava il profilo sottile mostrando lo sguardo un po' levato, dolcemente, maliziosamente e l'angolo di un sorrisino delicato, sulla delicata bocca.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	là	là	ADV	B	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	brillante	brillante	ADJ	A	Number=Sing	17	amod	_	_
+17	cornice	cornice	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	argento	argento	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	circondava	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	testina	testina	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	dai	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	31	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+26	nerissimi	nero	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	lucidi	lucido	ADJ	A	Gender=Masc|Number=Plur	26	conj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	fini	fine	ADJ	A	Number=Plur	26	conj	_	_
+31	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	35	iobj	_	_
+35	delineava	delineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	conj	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38	sottile	sottile	ADJ	A	Number=Sing	37	amod	_	_
+39	mostrando	mostrare	VERB	V	VerbForm=Ger	35	advcl	_	_
+40	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	po'	poco	ADV	B	_	44	advmod	_	_
+44	levato	levato	ADJ	A	Gender=Masc|Number=Sing	39	xcomp	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	46	punct	_	_
+46	dolcemente	dolcemente	ADV	B	_	44	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	48	punct	_	_
+48	maliziosamente	maliziosamente	ADV	B	_	44	conj	_	_
+49	e	e	CCONJ	CC	_	51	cc	_	_
+50	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	SpaceAfter=No
+51	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	44	conj	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	sorrisino	sorrisino	NOUN	S	Gender=Masc|Number=Sing	51	nmod	_	_
+55	delicato	delicato	ADJ	A	Gender=Masc|Number=Sing	54	amod	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	60	punct	_	_
+57-58	sulla	_	_	_	_	_	_	_	_
+57	su	su	ADP	E	_	60	case	_	_
+58	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+59	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	60	amod	_	_
+60	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	44	conj	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

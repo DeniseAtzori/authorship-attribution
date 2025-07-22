@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aniello era scalzo, vestito semplicemente di un paio di calzoni di tela bianca che gli arrivavano a metà gamba e di una camicia portata come una blusa sopra i calzoni:
+1	Aniello	Aniello	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	scalzo	scalzo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	vestito	vestire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+6	semplicemente	semplicemente	ADV	B	_	5	advmod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	paio	paio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	calzoni	calzone	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	tela	tela	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+17	arrivavano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	metà	metà	NOUN	S	Gender=Fem	17	obl	_	_
+20	gamba	gamba	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	camicia	camicia	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+25	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26	come	come	ADP	E	_	28	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	blusa	blusa	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	sopra	sopra	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	calzoni	calzone	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = si vedeva il bruno petto villoso:
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bruno	bruno	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	petto	petto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	villoso	villoso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = sulla testa un cappellaccio di paglia, tutto sfondato.
+1-2	sulla	_	_	_	_	_	_	_	_
+1	su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	testa	testa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cappellaccio	cappellaccio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	paglia	paglia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
+10	sfondato	sfondare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Era salito su dalla spiaggia di Santa Lucia, veniva dallo stabilimento di bagno dove faceva da _marinaio_, cioè da bagnino.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	salito	salire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	su	su	ADP	E	_	6	case	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Santa	Santa	PROPN	SP	_	6	nmod	_	_
+9	Lucia	Lucia	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis	_	_
+12-13	dallo	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	stabilimento	stabilimento	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	dove	dove	ADV	B	_	18	advmod	_	_
+18	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+19	da	da	ADP	E	_	24	case	_	_
+20	_marinaio_	_marinaio-	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	cioè	cioè	CCONJ	CC	_	24	cc	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	bagnino	bagnino	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

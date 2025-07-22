@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E che denti!
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	che	che	DET	DE	PronType=Exc	3	det	_	_
+3	denti	dere	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = E che freschezza!
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	freschezza	freschezzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Se i rettorici non mi avessero sfruttata l'immagine dello scrignetto di perle, sarebbe il caso di applicarla davvero.
+1	Se	se	SCONJ	CS	_	7	mark	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	rettorici	rettoore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+6	avessero	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	sfruttata	sfruttare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+10-11	dello	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	scrignetto	scrignetto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14-15	perle	_	_	_	_	_	_	_	SpaceAfter=No
+14	per	per	ADP	E	_	15	case	_	_
+15	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21-22	applicarla	_	_	_	_	_	_	_	_
+21	applicar	applicare	VERB	V	VerbForm=Inf	19	acl	_	_
+22	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	davvero	davvero	ADV	B	_	21	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 4
+# text = Così dovrò accontentarmi del paragone d'un gelato di fragole, guarnito di mandorle.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	dovrò	dovere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3-4	accontentarmi	_	_	_	_	_	_	_	_
+3	accontentar	accontentare	VERB	V	VerbForm=Inf	0	root	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	paragone	paragone	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gelato	gelato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fragole	fragola	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	guarnito	guarnito	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16-17	mandorle	_	_	_	_	_	_	_	SpaceAfter=No
+16	mandor	mandor	VERB	V	VerbForm=Inf	14	acl	_	_
+17	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = È un po' da credenziere;
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	ADV	B	_	5	advmod	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	credenziere	credenziere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = ma quella bocca color di rosa non li sdegnava punto i lavori da credenziere.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	bocca	bocco	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	color	colore	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	sdegnava	sdegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	xcomp	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+13	da	da	ADP	E	_	14	mark	_	_
+14	credenziere	credenziere	VERB	V	VerbForm=Inf	12	acl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Oh punto, punto!
+1	Oh	oh	INTJ	I	_	2	discourse	_	_
+2	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

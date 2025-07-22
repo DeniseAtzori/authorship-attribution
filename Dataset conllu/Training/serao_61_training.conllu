@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Giustino Morelli mi pareva freddissimo.
+1	Giustino	Giustino	PROPN	SP	_	4	nsubj	_	_
+2	Morelli	Morelli	PROPN	SP	_	1	flat:name	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	freddissimo	freddo	ADV	B	Degree=Abs	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = La passione violenta di Nino Stresa per Grazia, la mia amica, mi destava curiosità e invidia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	passione	passione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	violenta	violento	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Nino	Nino	PROPN	SP	_	2	nmod	_	_
+6	Stresa	Stresa	PROPN	SP	_	5	flat:name	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	Grazia	grazia	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	amica	amico	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	destava	destavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	curiosità	curiosità	NOUN	S	Gender=Fem	15	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	invidia	invidia	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Il paragone che facevo, ogni tanto, di Nino Stresa con Giustino Morelli mi faceva sempre più insistere nell'idea, che il mio amante--era egli, forse, un amante?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	paragone	paragone	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Nino	Nino	PROPN	SP	_	4	obl	_	_
+11	Stresa	Stresa	PROPN	SP	_	10	flat:name	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	Giustino	Giustino	PROPN	SP	_	10	nmod	_	_
+14	Morelli	Morelli	PROPN	SP	_	13	flat:name	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	sempre	sempre	ADV	B	_	18	advmod	_	_
+18	più	più	ADV	B	_	16	advmod	_	_
+19	insistere	insistere	VERB	V	VerbForm=Inf	16	ccomp	_	_
+20-21	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	idea	idea	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	che	che	SCONJ	CS	_	28	mark	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	amante	amante	NOUN	S	Number=Sing	28	nsubj	_	SpaceAfter=No
+28	--era	--ero	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+29	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	forse	forse	ADV	B	_	29	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	amante	amante	NOUN	S	Number=Sing	28	obl	_	SpaceAfter=No
+35	?	?	PUNCT	FS	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = --non provasse per me un amore forte e vivo, come si sente quando si è giovani, quando il sangue è caldo, quando la donna si è già data a voi col suo cuore.
+1	--non	--non	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	provasse	provarre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+7	forte	forte	ADJ	A	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	come	come	SCONJ	CS	_	13	mark	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+14	quando	quando	SCONJ	CS	_	16	mark	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+17	giovani	giovane	NOUN	S	Number=Plur	16	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	quando	quando	SCONJ	CS	_	23	mark	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	2	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	quando	quando	SCONJ	CS	_	31	mark	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	donna	donna	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+29	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+30	già	già	ADV	B	_	31	advmod	_	_
+31	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	31	obl	_	_
+34-35	col	_	_	_	_	_	_	_	_
+34	con	con	ADP	E	_	37	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

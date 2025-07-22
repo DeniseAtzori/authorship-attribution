@@ -1,0 +1,152 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non una notte era passata su di loro;
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	di	di	ADP	E	_	6	fixed	_	_
+8	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = una vita.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Essi ora _sapevano_.
+1	Essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	root	_	_
+2	ora	ora	ADV	B	_	1	advmod	_	_
+3	_sapevano_	_sapevano-	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Essi ritrovandosi al mattino pallidi e disfatti si lessero reciprocamente negli occhi le deliziose sofferenze dell’insonnia trascorsa a rievocare sensazioni così sottili e squisite che rifuggivano dalla parola, come se la parola nel suo urto di cosa concreta dovesse frangerne il diafano tessuto.
+1	Essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2-3	ritrovandosi	_	_	_	_	_	_	_	_
+2	ritrovando	ritrovare	VERB	V	VerbForm=Ger	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	pallidi	pallido	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	disfatti	disfatto	ADV	B	_	11	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	lessero	lesdere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+12	reciprocamente	reciproco	ADV	B	_	11	advmod	_	_
+13-14	negli	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	deliziose	delizioso	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	sofferenze	sofferenza	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+19-20	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	insonnia	insonnia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	trascorsa	trascorrere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	rievocare	rievocare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	sensazioni	sensazione	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+26	così	così	ADV	B	_	27	advmod	_	_
+27	sottili	sottile	ADJ	A	Number=Plur	25	amod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	squisite	squisita	NOUN	S	Gender=Fem|Number=Plur	27	conj	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	rifuggivano	rifuggire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	_
+32-33	dalla	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	parola	parola	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	31	punct	_	_
+36	come	come	ADV	B	_	48	mark	_	_
+37	se	se	SCONJ	CS	_	36	fixed	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	parola	parola	NOUN	S	Gender=Fem|Number=Sing	48	nsubj	_	_
+40-41	nel	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	43	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	43	det:poss	_	_
+43	urto	urto	NOUN	S	Gender=Masc|Number=Sing	48	obl	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+46	concreta	concreto	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	_
+47	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	cop	_	_
+48	frangerne	frangernere	ADJ	A	Number=Sing	31	advcl	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+50	diafano	diafano	ADJ	A	Gender=Masc|Number=Sing	51	amod	_	_
+51	tessuto	tessuto	NOUN	S	Gender=Masc|Number=Sing	48	nsubj	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Non accennarono neppure alla passeggiata nel bosco, non vi fecero alcuna allusione, pur pensandovi sempre, anzi non pensando che a quella con una complicità di silenzio più turbatrice di qualsiasi confessione.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	accennarono	accennare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	neppure	neppure	ADV	BN	PronType=Neg	2	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bosco	bosco	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	13	iobj	_	_
+13	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	allusione	allusione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	pur	pure	ADV	B	_	18	advmod	_	_
+18-19	pensandovi	_	_	_	_	_	_	_	_
+18	pensando	pensare	VERB	V	VerbForm=Ger	13	advcl	_	_
+19	vi	vi	ADV	B	_	18	advmod	_	_
+20	sempre	sempre	ADV	B	_	18	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	anzi	anzi	ADV	B	_	13	advmod	_	_
+23	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+24	pensando	pensare	VERB	V	VerbForm=Ger	13	advcl	_	_
+25	che	che	SCONJ	CS	_	27	advmod	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	24	obl	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	complicità	complicità	NOUN	S	Gender=Fem	27	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	turbatrice	turbatore	ADJ	A	Number=Sing	30	amod	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	37	det	_	_
+37	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Guardarsi, allora, con quel reciproco pensiero occulto era una dolcezza senza nome.
+1-2	Guardarsi	_	_	_	_	_	_	_	SpaceAfter=No
+1	Guardar	guardare	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	allora	allora	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	reciproco	reciproco	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+10	occulto	occulto	ADJ	A	Number=Sing	9	amod	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	1	advcl	_	_
+14	senza	senza	ADP	E	_	15	case	_	_
+15	nome	nome	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

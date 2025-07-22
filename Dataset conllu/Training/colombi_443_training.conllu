@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ora veda.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Ora	ora	ADV	B	_	3	advmod	_	_
+3	veda	vedere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Se quella signorina, invece di passare tutte le sue ore di libertà ad aspettare lo sposo, e le altre ad occuparsi per lui, avesse diviso il suo tempo fra i doveri di casa ed un'arte, se ne sarebbe appassionata, e non avrebbe trovato il tempo lungo fino a venticinque anni, e l'avvenire senza marito non le sarebbe apparso deserto.
+1	Se	se	SCONJ	CS	_	29	mark	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	signorina	signorina	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	invece	invece	ADV	B	_	7	mark	_	_
+6	di	di	ADP	E	_	5	fixed	_	_
+7	passare	passare	VERB	V	VerbForm=Inf	29	advcl	_	_
+8	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	11	det:predet	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	ore	ora	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	libertà	libertà	NOUN	S	Gender=Fem	11	nmod	_	_
+14	ad	a	ADP	E	_	15	mark	_	_
+15	aspettare	aspettare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sposo	sposo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	15	conj	_	_
+22	ad	a	ADP	E	_	23	mark	_	_
+23-24	occuparsi	_	_	_	_	_	_	_	_
+23	occupar	occupare	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	per	per	ADP	E	_	26	case	_	_
+26	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	7	punct	_	_
+28	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	diviso	dividere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	advcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+33	fra	fra	ADP	E	_	35	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	doveri	dovere	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	casa	casa	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+38	ed	e	CCONJ	CC	_	40	cc	_	_
+39	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
+40	arte	arte	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	29	punct	_	_
+42	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	45	expl	_	_
+43	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	45	iobj	_	_
+44	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	appassionata	appassionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	67	advcl	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	50	punct	_	_
+47	e	e	CCONJ	CC	_	50	cc	_	_
+48	non	non	ADV	BN	PronType=Neg	50	advmod	_	_
+49	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	_
+50	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	conj	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	50	obj	_	_
+53	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	52	amod	_	_
+54	fino	fino	ADV	B	_	57	case	_	_
+55	a	a	ADP	E	_	54	fixed	_	_
+56	venticinque	venticinque	NUM	N	NumType=Card	57	nummod	_	_
+57	anni	anno	NOUN	S	Gender=Masc|Number=Plur	50	obl	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	61	punct	_	_
+59	e	e	CCONJ	CC	_	61	cc	_	_
+60	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	61	det	_	SpaceAfter=No
+61	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	45	conj	_	_
+62	senza	senza	ADP	E	_	63	case	_	_
+63	marito	marito	NOUN	S	Gender=Masc|Number=Sing	61	nmod	_	_
+64	non	non	ADV	BN	PronType=Neg	67	advmod	_	_
+65	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	67	iobj	_	_
+66	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	aux	_	_
+67	apparso	apparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+68	deserto	deserto	NOUN	S	Gender=Masc|Number=Sing	67	obj	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	67	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Come sono felice di trovarvi qui.
+1	--Come	--come	ADV	B	_	3	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	trovarvi	_	_	_	_	_	_	_	_
+5	trovar	trovare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	expl	_	_
+7	qui	qui	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Com'è bello!
+1	Com'	come	SCONJ	CS	_	3	mark	_	SpaceAfter=No
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Peccato che non possiamo essere che amici.
+1	Peccato	peccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+6	che	che	DET	DE	PronType=Exc	7	det	_	_
+7	amici	amico	NOUN	S	Gender=Masc|Number=Plur	1	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Eravamo fatti per comprenderci.
+1	Eravamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4-5	comprenderci	_	_	_	_	_	_	_	SpaceAfter=No
+4	comprender	comprendere	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Queste spensieratezze mi piacciono tanto.
+1	Queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	spensieratezze	spensieratezza	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	piacciono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tanto	tanto	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Se Welfard avesse saputo farmi una sola di queste sorprese...
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	Welfard	Welfard	PROPN	SP	_	4	nsubj	_	_
+3	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	4	xcomp	_	_
+6	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	5	nmod	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+10	sorprese..	sorprese..	NOUN	S	_	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Ma egli avrebbe temuto di compromettermi, avrebbe pensato a quel che direbbe la gente, ai commenti dei servitori, poi avrebbe consultato il galateo, e non ne avrebbe fatto nulla.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	temuto	temere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	compromettermi	compromettermo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	direbbe	dire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	gente	gente	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17-18	ai	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	servitori	servitore	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	poi	poi	ADV	B	_	26	advmod	_	_
+25	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	consultato	consultare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	galateo	galateo	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	34	punct	_	_
+30	e	e	CCONJ	CC	_	34	cc	_	_
+31	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+32	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	34	iobj	_	_
+33	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+35	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	34	obj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Egli pensa a tutte le cose del mondo invece di pensare ad amarmi.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	invece	invece	ADV	B	_	2	advmod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	pensare	pensare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+13	ad	a	ADP	E	_	14	mark	_	_
+14-15	amarmi	_	_	_	_	_	_	_	SpaceAfter=No
+14	amar	amare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

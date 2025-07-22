@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma ogni volta che sento declamare sull'emancipazione della donna, sulla produzione sociale a cui ha diritto, deploro queste novità pericolose, che rendono le giovinette indipendenti, e le allontanano dal loro ambiente naturale, che è la famiglia.
+1	Ma	ma	CCONJ	CC	_	23	cc	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl	_	_
+6	declamare	declamare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7-8	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+7	su	su	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	emancipazione	emancipazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+17	sociale	sociale	ADJ	A	Number=Sing	16	amod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	cui	cui	PRON	PR	PronType=Rel	20	obl	_	_
+20	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	deploro	deplorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+25	novità	novità	NOUN	S	Gender=Fem	23	obj	_	_
+26	pericolose	pericoloso	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	giovinette	giovinetta	NOUN	S	Gender=Fem|Number=Plur	29	obj	_	_
+32	indipendenti	indipendente	ADJ	A	Number=Plur	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	36	punct	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	36	obj	_	_
+36	allontanano	allontanare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+37-38	dal	_	_	_	_	_	_	_	_
+37	da	da	ADP	E	_	40	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	loro	loro	DET	AP	Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+41	naturale	naturale	ADJ	A	Number=Sing	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	40	punct	_	_
+43	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+44	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	40	acl:relcl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 2
+# text = — Vorrei che gli impieghi pubblici accordati alle donne, fossero dati esclusivamente alle vedove o alle giovani mature, e che avessero un compenso sufficiente, per farle vivere senza stenti;
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Vorrei	volere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	impieghi	impiego	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7-8	accordati	_	_	_	_	_	_	_	_
+7	accorda	accordare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	donne	donna	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	dati	dare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+15	esclusivamente	esclusivamente	ADV	B	_	14	advmod	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	vedove	vedove	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+19	o	o	CCONJ	CC	_	23	cc	_	_
+20-21	alle	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	giovani	giovane	ADJ	A	Number=Plur	23	amod	_	_
+23	mature	mature	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	avessero	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	sufficiente	sufficiente	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	7	punct	_	_
+32	per	per	ADP	E	_	33	mark	_	_
+33-34	farle	_	_	_	_	_	_	_	_
+33	far	fare	VERB	V	VerbForm=Inf	7	advcl	_	_
+34	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+35	vivere	vivere	VERB	V	VerbForm=Inf	33	ccomp	_	_
+36	senza	senza	ADP	E	_	37	case	_	_
+37	stenti	stento	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+38	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = perchè la miseria è una triste consigliera.
+1	perchè	perché	SCONJ	CS	_	7	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	miseria	miseria	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	triste	triste	ADJ	A	Number=Sing	7	amod	_	_
+7	consigliera	consigliero	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

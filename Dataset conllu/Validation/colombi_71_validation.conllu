@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella, naturalmente, non soleva alzarsi da sedere quando entravano uomini;
+1	Ella	ella	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	naturalmente	naturalmente	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	soleva	solere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7-8	alzarsi	_	_	_	_	_	_	_	_
+7	alzar	alzare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	da	da	ADP	E	_	10	mark	_	_
+10	sedere	sedere	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	quando	quando	SCONJ	CS	_	12	mark	_	_
+12	entravano	entrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+13	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = ma quella mattina si alzò, e mi venne incontro.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+9	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	incontro	incontro	ADV	B	_	5	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = --Non so se quella notte avesse fatto come me progetti appassionati;
+1	--Non	--Non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	SCONJ	CS	_	7	mark	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	notte	notte	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+11	appassionati	appassionato	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ma certo a quell'ora aveva pensato al par di me che dovevamo incontrarci coi modi semplici e contegnosi degli altri giorni.
+1	ma	ma	CCONJ	CC	_	7	cc	_	_
+2	certo	certo	ADV	B	_	7	advmod	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	quell'	quello	DET	DD	Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
+5	ora	ora	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	par	par	NOUN	S	Gender=Masc	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	dovevamo	dovere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15-16	incontrarci	_	_	_	_	_	_	_	_
+15	incontrar	incontrare	VERB	V	VerbForm=Inf	10	acl:relcl	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	expl	_	_
+17-18	coi	_	_	_	_	_	_	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	modi	modo	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+20	semplici	semplice	ADJ	A	Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	contegnosi	contegnoso	ADJ	A	Number=Plur	20	conj	_	_
+23-24	degli	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	altri	altro	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+26	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Oh, la tirannia delle convenienze!
+1	Oh	oh	INTJ	I	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tirannia	tirannia	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	convenienze	convenienza	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

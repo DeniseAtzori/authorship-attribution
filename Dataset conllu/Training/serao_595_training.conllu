@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella rosicchiava dei biscotti inglesi.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	rosicchiava	rosicchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	biscotti	biscotto	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	inglesi	inglese	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Muto, imbarazzato, con un dolor vivo nel volto, Paolo Herz la guardava:
+1	Muto	muto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	imbarazzato	imbarazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dolor	dolor	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	volto	volto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	Paolo	Paolo	PROPN	SP	_	7	appos	_	_
+14	Herz	Herz	PROPN	SP	_	13	flat:name	_	_
+15	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	guardava	guardare	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = ed ella non comprese, non volle comprendere:
+1	ed	e	CCONJ	CC	_	2	cc	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	comprese	comprendere	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	comprendere	comprendere	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = egli dovette dirle tutta la sua spasimante giornata, di cui Luisa si meravigliava molto, con un'aria di disinvolta innocenza:
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	dovette	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3-4	dirle	_	_	_	_	_	_	_	_
+3	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+5	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	9	det:predet	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	spasimante	spasimante	ADJ	A	Number=Sing	9	amod	_	_
+9	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+13	Luisa	Luisa	PROPN	SP	_	15	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	meravigliava	meravigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+16	molto	molto	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	aria	aria	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	disinvolta	disinvolto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
+23	innocenza	innocenza	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = e infine, quando egli scoppiò in rimproveri e delle lacrime di collera gli sgorgarono dagli occhi, ella trovò modo di dargli tutti i torti e lo obbligò a chiederle perdono.
+1	e	e	CCONJ	CC	_	16	cc	_	_
+2	infine	infine	ADV	B	_	16	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quando	quando	SCONJ	CS	_	6	mark	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	scoppiò	scoppiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	rimproveri	rimprovero	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	collera	collera	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+16	sgorgarono	sgorgare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	_
+17-18	dagli	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	modo	modo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25-26	dargli	_	_	_	_	_	_	_	_
+25	dar	dare	VERB	V	VerbForm=Inf	23	acl	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+27	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	29	det:predet	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	torti	torto	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+32	obbligò	obbligare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	conj	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34-35	chiederle	_	_	_	_	_	_	_	_
+34	chieder	chiedere	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	34	obj	_	_
+36	perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+

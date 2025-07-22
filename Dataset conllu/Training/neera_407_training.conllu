@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Giaceva sulla scrivania di suo padre un libro aperto, lasciato aperto da lui nelle ultime ore.
+1	Giaceva	Giacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	sulla	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	scrivania	scrivania	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	libro	libro	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+10	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+13	aperto	aperto	ADV	B	_	15	case	_	_
+14	da	da	ADP	E	_	13	fixed	_	_
+15	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+16-17	nelle	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	19	amod	_	_
+19	ore	ora	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Il libro era collocato un po' di traverso (si ricordava benissimo), egli stesso lo aveva allontanato colla mano in un momento di stanchezza, ma senza chiuderlo, come se sperasse di poterne continuare in breve la lettura.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	libro	libro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	collocato	collocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	po'	poco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	traverso	traverso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	ricordava	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+12	benissimo	bene	ADV	B	Degree=Abs	11	advmod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	egli	ello	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+16	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	allontanato	allontanare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+20	colla	collo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	mano	mano	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	momento	momento	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	ma	ma	CCONJ	CC	_	30	cc	_	_
+29	senza	senza	ADP	E	_	30	mark	_	_
+30-31	chiuderlo	_	_	_	_	_	_	_	SpaceAfter=No
+30	chiuder	chiudere	VERB	V	VerbForm=Inf	4	conj	_	_
+31	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	come	come	ADV	B	_	35	advmod	_	_
+34	se	se	SCONJ	CS	_	35	mark	_	_
+35	sperasse	sperare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	advcl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	poterne	poterna	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+38	continuare	continuare	VERB	V	VerbForm=Inf	37	acl	_	_
+39	in	in	ADP	E	_	42	case	_	_
+40	breve	breve	ADJ	A	Number=Sing	42	amod	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

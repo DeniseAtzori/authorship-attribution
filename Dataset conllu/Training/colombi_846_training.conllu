@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E c'era una tale sfiducia e tanta amarezza in quelle parole, che Vincenzo se ne sentiva annientato;
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	tale	tale	ADJ	A	Number=Sing	6	amod	_	_
+6	sfiducia	sfiducia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+15	Vincenzo	Vincenzo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+16	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+18	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+19	annientato	annientato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	xcomp	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = lui che aveva creduto di poter essere il sostegno della famiglia.
+1	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	di	di	ADP	E	_	9	mark	_	_
+6	poter	potere	AUX	VM	VerbForm=Inf	9	aux	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	4	xcomp	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Avrebbe dato Dio sa che cosa per poter tornare indietro al principio dell'anno, e incominciare l'annata in tutt'altro modo, studiando un poco ogni giorno...
+1	Avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	Dio	dio	PROPN	SP	_	2	nsubj	_	_
+4	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	che	che	DET	DQ	PronType=Int	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+7	per	per	ADP	E	_	9	mark	_	_
+8	poter	potere	AUX	VM	VerbForm=Inf	9	aux	_	_
+9	tornare	tornare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+10	indietro	indietro	ADV	B	_	9	advmod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	principio	principio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	incominciare	incominciare	VERB	V	VerbForm=Inf	9	conj	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	annata	annata	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	tutt'	tutto	DET	T	PronType=Tot	25	det	_	SpaceAfter=No
+24	altro	altro	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	modo	modo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	19	punct	_	_
+27	studiando	studiare	VERB	V	VerbForm=Ger	19	advcl	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	poco	poco	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	31	det	_	_
+31	giorno..	giorno..	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,143 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E tutta la famiglia stava in ammirazione di quell'innominato che chiamavano sempre _lui_, e l'Ernesta si pavoneggiava, e godeva, come se si fosse trattato di lei stessa o di suo marito.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	4	det:predet	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	ammirazione	ammirazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	quell'	quello	DET	DD	Number=Sing|PronType=Dem	10	det	_	SpaceAfter=No
+10	innominato	innominato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	chiamavano	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13	sempre	sempre	ADV	B	_	12	advmod	_	_
+14	_lui_	_lui-	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	Ernesta	Ernesta	PROPN	SP	_	20	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	pavoneggiava	pavoneggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	godeva	godere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	come	come	ADV	B	_	29	advmod	_	_
+26	se	se	SCONJ	CS	_	29	mark	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+28	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	trattato	trattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	29	obl	_	_
+32	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+33	o	o	CCONJ	CC	_	36	cc	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	marito	marito	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Si abbandonava a narrare dei particolari gloriosi della carriera di _lui_:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	abbandonava	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	narrare	narrare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	particolari	particolare	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	gloriosi	glorioso	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	_lui_	_lui-	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = dame che se n'erano innamorate, giovani dell'_alta aristocrazia_ che avevano staccati i cavalli dalla carrozza e l'avevano strascinata all'albergo, serenate, doni di gran valore, versi....
+1	dame	dama	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+3	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+4	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	innamorate	innamorare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	giovani	giovane	ADJ	A	Number=Plur	1	amod	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	_alta	_alta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	aristocrazia_	ExtraSubj=Yes|aristocrazia_	PUNCT	FB	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	staccati	staccare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	cavalli	cavallo	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+23	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	strascinata	strascinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	1	punct	_	_
+29	serenate	serenato	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	31	det	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	doni	done	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	gran	grande	ADJ	A	Number=Sing	34	amod	_	_
+34	valore	valore	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	31	punct	_	_
+36	versi...	versi...	NOUN	S	Gender=Masc|Number=Sing	31	compound	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Chiunque li avesse uditi parlare con quella passione, con quell'entusiasmo, avrebbe creduto che quella gente ricordasse un caro assente, un figliolo, la gloria e l'amore della famiglia.
+1	Chiunque	chiunque	PRON	PR	Number=Sing|PronType=Rel	4	nsubj	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+3	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	uditi	udire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	parlare	parlare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	quell'	quello	DET	DD	Number=Sing|PronType=Dem	12	det	_	SpaceAfter=No
+12	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	gente	gente	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+19	ricordasse	ricordare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	ccomp	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	caro	caro	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	assente	assente	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	figliolo	figliolo	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	amore	amore	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

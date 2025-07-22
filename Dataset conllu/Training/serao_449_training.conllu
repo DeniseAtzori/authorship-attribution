@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per quanto cercassi d’essere imperiosa, non ci riescivo.
+1	Per	per	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	10	obl	_	_
+3	cercassi	cercare	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+4	d’	di	ADP	E	_	6	mark	_	SpaceAfter=No
+5	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+6	imperiosa	imperioso	ADJ	A	Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	riescivo	riescire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Quelle creature non ci credevano alla mia durezza, alle mie occhiate burbere, alla voce secca e breve, alle minacce di castighi.
+1	Quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	creature	creatura	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+5	credevano	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	durezza	durezza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	occhiate	occhiata	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+15	burbere	burbero	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	voce	voce	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+20	secca	secco	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	breve	breve	ADJ	A	Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24-25	alle	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	castighi	castigo	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Mi sogguardavano, sorridendo;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	sogguardavano	sogguardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sorridendo	sorridere	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = oppure mi chiedevano perdono con certi sguardi supplici — io mi voltava verso la lavagna, per non perdere la gravità.
+1	oppure	oppure	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	chiedevano	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	supplici	supplico	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	—	—	PUNCT	FF	_	12	punct	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	voltava	voltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+13	verso	verso	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	lavagna	lavagna	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	per	per	ADP	E	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	perdere	perdere	VERB	V	VerbForm=Inf	12	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	gravità	gravità	NOUN	S	Gender=Fem	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

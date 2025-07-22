@@ -1,0 +1,144 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Non ho avuto fortuna, diceva.
+1	--Non	--Non	PROPN	SP	_	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ci sono delle signore che hanno qualche affezione da nascondere, debbono ricevere lettere, visite, uscire senza farsi scorgere, e senza l'aiuto della cameriera non fanno nulla.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	signore	signore	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	affezione	affezione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	nascondere	nascondere	VERB	V	VerbForm=Inf	9	acl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	debbono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	ricevere	ricevere	VERB	V	VerbForm=Inf	2	conj	_	_
+15	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	visite	visita	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	uscire	uscire	VERB	V	VerbForm=Inf	15	conj	_	_
+20	senza	senza	ADP	E	_	21	mark	_	_
+21-22	farsi	_	_	_	_	_	_	_	_
+21	far	fare	VERB	V	VerbForm=Inf	19	advcl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23	scorgere	scorgere	VERB	V	VerbForm=Inf	21	ccomp	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	28	punct	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	senza	senza	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	cameriera	cameriera	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+33	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+34	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	33	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Oppure fanno dei debiti colla sarta, colla modista, bisogna farle star zitte perchè il marito non gridi, ed è ancora la cameriera che cerca una somma in prestito, va ad impegnare i gioielli, a vendere qualche cosa;
+1	Oppure	oppure	CCONJ	CC	_	2	cc	_	_
+2	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	debiti	debito	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	colla	colla	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+7	sarta	sarto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	colla	colla	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+10	modista	modista	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13-14	farle	_	_	_	_	_	_	_	_
+13	far	fare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	iobj	_	_
+15	star	stare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+16	zitte	zitto	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+17	perchè	perché	SCONJ	CS	_	21	mark	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	marito	marito	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	gridi	grido	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	ed	e	CCONJ	CC	_	27	cc	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25	ancora	ancora	ADV	B	_	27	advmod	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cameriera	cameriera	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	somma	somma	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	prestito	prestito	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	2	punct	_	_
+35	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+36	ad	a	ADP	E	_	37	mark	_	_
+37	impegnare	impegnare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	gioielli	gioiello	NOUN	S	Gender=Masc|Number=Plur	37	obj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	37	punct	_	_
+41	a	a	ADP	E	_	42	mark	_	_
+42	vendere	vendere	VERB	V	VerbForm=Inf	37	advcl	_	_
+43	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	44	det	_	_
+44	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
+45	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ed allora la padrona non guarda pel sottile, le mancie corrono, si hanno dei doni, si può raggranellar del denaro per non morire poi nella miseria.
+1	ed	e	CCONJ	CC	_	6	cc	_	_
+2	allora	allora	ADV	B	_	6	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	pel	_	_	_	_	_	_	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sottile	sottile	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	mancie	mancia	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+13	corrono	correre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
+16	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	doni	done	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	6	punct	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+22	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	raggranellar	raggranellare	VERB	V	VerbForm=Inf	6	conj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	per	per	ADP	E	_	29	mark	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	morire	morire	VERB	V	VerbForm=Inf	23	advcl	_	_
+30	poi	poi	ADV	B	_	29	advmod	_	_
+31-32	nella	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	miseria	miseria	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quale delizia e quale malinconia insieme a udirlo parlare così!
+1	Quale	quale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	delizia	delizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	quale	quale	DET	DQ	Number=Sing|PronType=Int	5	det	_	_
+5	malinconia	malinconiare	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	insieme	insieme	ADV	B	_	8	mark	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8-9	udirlo	_	_	_	_	_	_	_	_
+8	udir	udire	VERB	V	VerbForm=Inf	5	advcl	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	parlare	parlare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	così	così	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non erano sentimenti nuovi che egli le esprimeva, ma ripetuti in quell'ora mistica del giorno che sorgeva, nella pace solenne della casa ancora addormentata, mentre si trovavano soli, forse soli per l'ultima volta, era un tale soavissimo strazio per Anna che tutte le sue fibre ne tremavano.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+6	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	esprimeva	esprimere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	ripetuti	ripetere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	quell'	quello	DET	DD	Number=Sing|PronType=Dem	14	det	_	SpaceAfter=No
+14	ora	ora	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	mistica	mistico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	sorgeva	sorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	pace	pace	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+25	solenne	solenne	ADJ	A	Number=Sing	24	amod	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	casa	casa	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+29	ancora	ancora	ADV	B	_	30	advmod	_	_
+30	addormentata	addormentato	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	20	punct	_	_
+32	mentre	mentre	SCONJ	CS	_	34	mark	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+34	trovavano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	advcl	_	_
+35	soli	solo	ADJ	A	Gender=Masc|Number=Plur	34	xcomp	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	3	punct	_	_
+37	forse	forse	ADV	B	_	38	advmod	_	_
+38	soli	solo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+39	per	per	ADP	E	_	42	case	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+41	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	42	amod	_	_
+42	volta	volta	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	3	punct	_	_
+44	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	cop	_	_
+45	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+46	tale	tale	DET	DD	Number=Sing|PronType=Dem	48	det	_	_
+47	soavissimo	soavissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	48	amod	_	_
+48	strazio	strazio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+49	per	per	ADP	E	_	50	case	_	_
+50	Anna	Anna	PROPN	SP	_	48	nmod	_	_
+51	che	che	PRON	PR	PronType=Rel	57	obj	_	_
+52	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	55	det:predet	_	_
+53	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	55	det	_	_
+54	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	55	det:poss	_	_
+55	fibre	fibra	NOUN	S	Gender=Fem|Number=Plur	57	nsubj	_	_
+56	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	57	iobj	_	_
+57	tremavano	tremare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	48	acl:relcl	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	48	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Durante quattro mesi Milano si era appassionata per il giovine pittore che nessuno conosceva, ed ora, volgendo la fine di luglio, avvicinavasi il giorno della premiazione.
+1	Durante	durante	ADP	E	_	3	case	_	_
+2	quattro	quattro	NUM	N	NumType=Card	3	nummod	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+4	Milano	Milano	PROPN	SP	_	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	appassionata	appassionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giovine	giovina	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	pittore	pittore	NOUN	S	Gender=Masc|Number=Sing	10	compound	_	_
+12	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+13	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+14	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ed	e	CCONJ	CC	_	17	cc	_	_
+17	ora	ora	ADV	B	_	7	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	volgendo	volgere	VERB	V	VerbForm=Ger	7	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fine	fine	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	7	punct	_	_
+25	avvicinavasi	avvicinavanere	SCONJ	CS	_	27	mark	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	advcl	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	premiazione	premiazione	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Flavio l'aspettava senza paura e senza speranza, già pago dell'interesse suscitato dal suo lavoro in quel pubblico da cui solo potevano scaturire le commozioni più profonde che l'artista sogna.
+1	Flavio	Flavio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+3	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	senza	senza	ADP	E	_	5	case	_	_
+5	paura	paura	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	già	già	ADV	B	_	11	advmod	_	_
+11	pago	pago	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	suscitato	suscitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	15	obl:agent	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	cui	cui	PRON	PR	PronType=Rel	27	obl	_	_
+25	solo	solo	ADV	B	_	27	advmod	_	_
+26	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	scaturire	scaturire	VERB	V	VerbForm=Inf	22	acl:relcl	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	commozioni	commozione	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31	profonde	profondo	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+32	che	che	SCONJ	CS	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	artista	artista	NOUN	S	Number=Sing	29	obl	_	_
+35	sogna	sogna	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

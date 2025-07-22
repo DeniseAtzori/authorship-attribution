@@ -1,0 +1,151 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il suo amore lo faceva agonizzare prima del tempo, dunque?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	agonizzare	agonizzare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	prima	prima	ADV	B	_	10	case	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	7	fixed	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	dunque	dunque	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = E che sarebbe stato, fra un'ora, alle cinque, quando Maria, Maria sarebbe entrata da quella porta e gli sarebbe caduta nelle braccia?
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	fra	fra	ADP	E	_	8	case	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10-11	alle	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	cinque	cinque	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	quando	quando	SCONJ	CS	_	19	mark	_	_
+15	Maria	Maria	PROPN	SP	_	19	nsubj:pass	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	Maria	Maria	PROPN	SP	_	19	nsubj	_	_
+18	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	entrata	entrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	22	obl:agent	_	_
+22	porta	porta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	xcomp	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	iobj	_	_
+25	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	caduta	cadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+27-28	nelle	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No
+30	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Vacillando, egli mise la chiave nella serratura;
+1	Vacillando	Vacillare	VERB	V	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	serratura	serratura	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = questa stentò ad aprirsi.
+1	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	stentò	stentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ad	a	ADP	E	_	4	mark	_	_
+4-5	aprirsi	_	_	_	_	_	_	_	SpaceAfter=No
+4	aprir	aprire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Pensò, un istante che gli parve lunghissimo, eterno, che quella porta non si sarebbe aperta mai.
+1	Pensò	pensare	ADV	B	_	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	istante	istante	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+7	parve	parva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	lunghissimo	lungo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	eterno	eterno	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+13	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	14	nsubj	_	_
+14	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	aperta	aprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	mai	mai	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 6
+# text = Ma si schiuse:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	schiuse	schiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = egli vide innanzi a sè il vano nero:
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
+3	innanzi	innanzi	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	sè	sè	PRON	PE	Person=3|PronType=Prs	2	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vano	re	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	nero	nero	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 8
+# text = e vi entrò: quasi, vi si precipitò:
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	vi	vi	ADV	B	_	3	advmod	_	_
+3	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	quasi	quasi	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	precipitò	precipitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 9
+# text = e la porta si richiuse, dietro a lui, con un bizzarro fragore.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	porta	porta	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	richiuse	richiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	dietro	dietro	ADV	B	_	9	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	bizzarro	bizzarro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	fragore	fragore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

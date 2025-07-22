@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella mi stese la mano senza parlare, e volle sorridermi per supplire alla parola;
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	stese	stendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	senza	senza	ADP	E	_	7	mark	_	_
+7	parlare	parlare	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+11-12	sorridermi	_	_	_	_	_	_	_	_
+11	sorrider	sorrider	ADP	E	_	12	case	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	supplire	supplire	VERB	V	VerbForm=Inf	10	advcl	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	parola	parola	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ma le sue labbra tremavano in quel momento, ed i suoi occhi mi apparvero natanti in uno strato cristallino...
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	tremavano	tremare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	ed	e	CCONJ	CC	_	15	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	apparvero	apparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+16	natanti	natante	ADV	B	_	15	advmod	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	strato	strato	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	cristallino..	cristallino..	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Povero cuore di donna, tenero, generoso!
+1	Povero	povero	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	tenero	tenero	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	generoso	generoso	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Fulvia era commossa; ed io!
+1	Fulvia	Fulvia	ADV	B	_	3	advmod	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	commossa	commuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	6	punct	_	_
+5	ed	e	CCONJ	CC	_	6	cc	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	conj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ah, non sapevo che desse tanto rimorso l'offendere il prossimo.
+1	Ah	ah	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	desse	dettere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+7	tanto	tanto	ADV	B	_	6	advmod	_	_
+8	rimorso	rimorso	ADP	E	_	10	case	_	_
+9	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	offendere	offendere	VERB	V	VerbForm=Inf	6	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

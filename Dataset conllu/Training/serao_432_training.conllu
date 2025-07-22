@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La malìa di quel piccolo Ruggero sta negli occhi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	malìa	malìa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+5	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	Ruggero	Ruggero	PROPN	SP	_	2	nmod	_	_
+7	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	negli	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Sono occhi di un nero carico, intenso, vellutato, dall’iride larga e carezzevole, dalla cornea azzurrina, dalle ciglia lunghe e quasi femminili; bizzarri occhi che scintillano di malizia;
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nero	nero	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	carico	carico	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	intenso	intenso	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	vellutato	vellutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12-13	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	iride	iride	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+15	larga	largo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	carezzevole	carezzevole	ADJ	A	Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19-20	dalla	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	cornea	cornea	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+22	azzurrina	azzurrina	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24-25	dalle	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	ciglia	ciglio	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+27	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	quasi	quasi	ADV	B	_	30	advmod	_	_
+30	femminili	femminili	ADJ	A	Number=Plur	27	conj	_	SpaceAfter=No
+31	;	;	PUNCT	FC	_	33	punct	_	_
+32	bizzarri	bizzarro	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+33	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+34	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+35	scintillano	scintillare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	malizia	malizia	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+38	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = fieri occhi pensierosi, il cui sguardo che si solleva lento lento, pare che arrivi da lunghe contemplazioni misteriose;
+1	fieri	fiere	ADV	B	_	2	advmod	_	_
+2	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+3	pensierosi	pensieroso	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	cui	cui	DET	DR	PronType=Rel	7	det:poss	_	_
+7	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	solleva	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	lento	lento	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	lento	lento	ADJ	A	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	che	che	SCONJ	CS	_	16	mark	_	_
+16	arrivi	arrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+19	contemplazioni	contemplazione	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	misteriose	misterioso	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 4
+# text = languidi occhi seduttori che si socchiudono, come in una stanchezza.
+1	languidi	languidio	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	occhi	occhio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	seduttori	seduttore	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	socchiudono	socchiudere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	come	come	ADV	B	_	11	advmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

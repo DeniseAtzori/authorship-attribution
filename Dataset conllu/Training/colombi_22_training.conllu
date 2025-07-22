@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «La mia avversione la serbavo tutta per l'altro rivale, Rosario Angherà, che era, non so bene se figlio o nipote, d'un pezzo grosso, e frequentava la casa del vescovo.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	avversione	avversione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	serbavo	serbavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	tutta	tutto	ADV	B	_	6	advmod	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	altro	altro	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	rivale	rivale	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	Rosario	rosario	PROPN	SP	_	11	nmod	_	_
+14	Angherà	angherà	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+17	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+21	bene	bene	ADV	B	_	20	advmod	_	_
+22	se	se	SCONJ	CS	_	23	mark	_	_
+23	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	o	o	CCONJ	CC	_	25	cc	_	_
+25	nipote	nipote	NOUN	S	Number=Sing	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	d'	di	ADP	E	_	29	case	_	SpaceAfter=No
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+30	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	frequentava	frequentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	conj	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	casa	casa	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	vescovo	vescovo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Aveva lo sguardo falso e la parola melata;
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	falso	falso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	parola	parola	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+8	melata	melato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = non s'abbandonava mai ad impeti di furia nè a sfoghi di passione.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+3	abbandonava	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	mai	mai	ADV	B	_	3	advmod	_	_
+5	ad	a	ADP	E	_	6	case	_	_
+6	impeti	impeto	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	furia	furia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	nè	né	CCONJ	CC	_	11	cc	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	sfoghi	sfogo	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	passione	passione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Era insinuante, conciliante, gesuiticamente dolce.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	insinuante	insinuante	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	conciliante	conciliante	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	gesuiticamente	gesuiticamente	ADV	B	_	7	advmod	_	_
+7	dolce	dolce	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Non lo potevo soffrire.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	soffrire	soffrire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

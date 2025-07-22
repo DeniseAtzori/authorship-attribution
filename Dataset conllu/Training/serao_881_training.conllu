@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma nuovamente vide in ambedue tanto ardente e doloroso desiderio di sapere, di conoscere, di misurare, che intravvide financo, dietro il desiderio, l'angoscia di ambedue.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	nuovamente	nuovamente	ADV	B	_	3	advmod	_	_
+3	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	ambedue	ambedue	DET	T	Number=Plur|PronType=Tot	6	det	_	_
+6	tanto	tanto	NOUN	S	Gender=Masc	3	obl	_	_
+7	ardente	ardente	ADJ	A	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	doloroso	doloroso	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	_
+10	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	3	xcomp	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	sapere	sapere	VERB	V	VerbForm=Inf	10	acl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	conoscere	conoscere	VERB	V	VerbForm=Inf	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	misurare	misurare	VERB	V	VerbForm=Inf	12	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	intravvide	intravvidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+22	financo	financo	ADJ	A	Gender=Masc|Number=Sing	21	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24	dietro	dietro	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	3	punct	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	ambedue	ambedue	PRON	PI	Number=Plur|PronType=Ind	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Intravvide, non si spiegò:
+1	Intravvide	Intravvido	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	spiegò	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = intese che come a lui era necessario, in quel momento, uno sfogo, ad essi era necessario, in quello stesso momento, l'appagamento di quel tormentoso desiderio.
+1	intese	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	come	come	ADP	E	_	5	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	1	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	momento	momento	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sfogo	sfogo	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	ad	a	ADP	E	_	17	case	_	_
+17	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obl	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	1	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+23	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	momento	momento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	appagamento	appagamento	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
+30	tormentoso	tormentoso	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

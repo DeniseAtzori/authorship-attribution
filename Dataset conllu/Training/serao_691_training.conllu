@@ -1,0 +1,145 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Càpitano dei periodi anche peggiori.
+1	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Càpitano	Càpitano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	periodi	periodo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	peggiori	peggiore	ADJ	A	Degree=Cmp|Number=Plur	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Sono quelli in cui tutto in voi mi dispiace.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	9	obl	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Dopo la indifferenza, un senso di disgusto, d'irritazione tutta fisica.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	senso	senso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	disgusto	disgusto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	irritazione	irritazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+12	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = I vostri occhi mi sembrano sfrontati, perversi, sempre duri, come se giammai vena di dolcezza li possa attraversare;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sfrontati	sfrontare	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	perversi	perverso	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	sempre	sempre	ADV	B	_	11	advmod	_	_
+11	duri	duro	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	come	come	ADV	B	_	15	advmod	_	_
+14	se	se	SCONJ	CS	_	15	mark	_	_
+15	giammai	giammare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+16	vena	vena	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+20	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	attraversare	attraversare	VERB	V	VerbForm=Inf	15	ccomp	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = la vostra bocca ha qualche cosa di odioso, di sovranamente antipatico, nel parlare, nel sorridere;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	odioso	odioso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	sovranamente	sovrano	ADV	B	_	12	advmod	_	_
+12	antipatico	antipatico	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	parlare	parlare	VERB	V	VerbForm=Inf	4	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sorridere	sorridere	VERB	V	VerbForm=Inf	16	obl	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = ogni vostro movimento mi sembra volubile o goffo;
+1	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+2	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	volubile	volubile	ADJ	A	Number=Sing	5	xcomp	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	goffo	goffo	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = e tutta voi, per me, mancate di armonia, siete una dissonanza, urtate i miei nervi e vi debbo fuggire, se non voglio essere maleducato, villano con voi.
+1	e	e	CCONJ	CC	_	8	cc	_	_
+2	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
+3	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	mancate	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	armonia	armonia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	dissonanza	dissonanza	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	urtate	urtare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	conj	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	nervi	nervo	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	vi	vi	ADV	B	_	23	advmod	_	_
+22	debbo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	fuggire	fuggire	VERB	V	VerbForm=Inf	8	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	se	se	SCONJ	CS	_	29	mark	_	_
+26	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+27	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	essere	essere	AUX	VA	VerbForm=Inf	29	aux:pass	_	_
+29	maleducato	maleducare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	villano	villare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+32	con	con	ADP	E	_	33	case	_	_
+33	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

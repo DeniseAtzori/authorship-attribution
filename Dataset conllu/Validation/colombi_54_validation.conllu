@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Come dunque Fulvia avrebbe potuto credere che un giovane che non la corteggiava, nè faceva l'innamorato, cadesse in simili ragazzate?
+1	Come	come	ADP	E	_	6	mark	_	_
+2	dunque	dunque	ADV	B	_	6	advmod	_	_
+3	Fulvia	Fulvia	PROPN	SP	_	6	nsubj	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+6	credere	credere	VERB	V	VerbForm=Inf	0	root	_	_
+7	che	che	SCONJ	CS	_	20	mark	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giovane	giovane	NOUN	S	Number=Sing	20	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	corteggiava	corteggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	nè	nè	CCONJ	CC	_	16	cc	_	_
+16	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	innamorato	innamorato	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20	cadesse	cadere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	simili	simile	ADJ	A	Number=Plur	23	amod	_	_
+23	ragazzate	ragazzata	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Io però ero spesso indispettito di quella sua mancanza di penetrazione, e pensavo:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	però	però	ADV	B	_	5	advmod	_	_
+3	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	spesso	spesso	ADV	B	_	5	advmod	_	_
+5	indispettito	indispettire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	obl	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	penetrazione	penetrazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = «Com'è sciocca!
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Com'	come	SCONJ	CS	_	4	mark	_	SpaceAfter=No
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sciocca	scioccare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = non sa indovinarmi.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	indovinarmi	arma|indovinarme	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = »
+1	»	»	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 6
+# text = Ma altre volte il suo imbarazzo e le sue tacite paure mi divertivano assai.
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	altre	altro	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	volte	volta	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	imbarazzo	imbarazzo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+9	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	tacite	tacito	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	paure	paura	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	divertivano	divertire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	assai	assai	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

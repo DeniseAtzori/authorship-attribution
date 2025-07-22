@@ -1,0 +1,143 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così il bimbo è più facilmente infelice.
+1	Così	così	ADV	B	_	7	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	più	più	ADV	B	_	7	advmod	_	_
+6	facilmente	facilmente	ADV	B	_	7	advmod	_	_
+7	infelice	infelice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Infelice pel sangue povero che le razze deboli mettono nelle vene delle loro creature;
+1	Infelice	infelice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	pel	_	_	_	_	_	_	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	povero	povero	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	razze	razza	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+9	deboli	debole	ADJ	A	Number=Plur	8	amod	_	_
+10	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+11-12	nelle	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	vene	vena	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	creature	creatura	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = per la tisi, per il rachitismo, per la follia che si ereditano; infelice per l’abbandono e la povertà, uniti insieme;
+1	per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tisi	tisi	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rachitismo	rachitismo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	follia	follia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	ereditano	ereditare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	3	punct	_	_
+16	infelice	infelice	ADJ	A	Number=Sing	3	amod	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	povertà	povertà	NOUN	S	Gender=Fem	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24	uniti	unire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+25	insieme	insieme	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = infelice per l’abbandono e la ricchezza, uniti insieme;
+1	infelice	infelice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ricchezza	ricchezza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	uniti	unire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	advcl	_	_
+10	insieme	insieme	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = infelice per l’ambiente di disonestà plebea in cui deve vivere;
+1	infelice	infelice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	disonestà	disonestà	NOUN	S	Gender=Fem	4	nmod	_	_
+7	plebea	plebeo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+10	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	vivere	vivere	VERB	V	VerbForm=Inf	6	acl:relcl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = infelice per l’ambiente di disonestà aristocratica in cui deve crescere;
+1	infelice	infelice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	disonestà	disonestà	NOUN	S	Gender=Fem	4	nmod	_	_
+7	aristocratica	aristocratica	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+10	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	crescere	crescere	VERB	V	VerbForm=Inf	6	acl:relcl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = infelice pel padre artista ed egoista;
+1	infelice	infelice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	pel	_	_	_	_	_	_	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	padre	padre	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	artista	artista	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	egoista	egoista	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 8
+# text = per la madre gran dama e disamorata:
+1	per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	madre	madre	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	gran	gran	ADJ	A	Number=Sing	3	amod	_	_
+5	dama	damare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	disamorata	disamorare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	5	conj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 9
+# text = per molte colpe nostre, infelice.
+1	per	per	ADP	E	_	3	case	_	_
+2	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	colpe	colpa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	infelice	infelice	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

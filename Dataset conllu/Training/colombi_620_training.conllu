@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Avvezza ad una vita molto agiata, le pareva che Marco dovesse patire delle privazioni.
+1	Avvezza	Avvezza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+2	ad	a	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	agiata	agiato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	9	iobj	_	_
+9	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	Marco	Marco	PROPN	SP	_	13	nsubj	_	_
+12	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	patire	patire	VERB	V	VerbForm=Inf	9	ccomp	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	privazioni	privazione	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = E d'altra parte, a che titolo poteva insistere perchè accettasse quel danaro?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+3	altra	altro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	che	che	DET	DQ	PronType=Int	8	det	_	_
+8	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+9	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	insistere	insistere	VERB	V	VerbForm=Inf	0	root	_	_
+11	perchè	perché	SCONJ	CS	_	12	mark	_	_
+12	accettasse	accettare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	danaro	danaro	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Non osò parlarne;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	osò	osare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	parlarne	_	_	_	_	_	_	_	SpaceAfter=No
+3	parlar	parlare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = non osò neppure mandare il dono di nozze che aveva preparato per la sposa;
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	osò	osare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	neppure	neppure	ADV	BN	PronType=Neg	4	advmod	_	_
+4	mandare	mandare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dono	dono	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	preparato	preparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = tutti i suoi gioielli nuziali rilegati a nuovo.
+1	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	gioielli	gioiello	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	nuziali	nuziale	ADJ	A	Number=Plur	4	amod	_	_
+6	rilegati	rilegare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Era ancora una ricchezza di casa Bellazio;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	ancora	ancora	ADV	B	_	4	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ricchezza	ricchezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	Bellazio	Bellazio	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = la respingerebbero di certo, e lei fremeva al solo pensiero di quell'affronto.
+1	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	respingerebbero	respingerebbero	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	certo	certo	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	fremeva	fremere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	solo	solo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	quell'	quello	DET	DD	Number=Sing|PronType=Dem	15	det	_	SpaceAfter=No
+15	affronto	affronto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

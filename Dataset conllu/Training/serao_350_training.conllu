@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = _Una volta, io scrissi di un bambino biondo e reale.
+1	_Una	_Una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	scrissi	scriggere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	biondo	biondo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	reale	reale	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mi faceva pensare la stranezza della vita precoce, in cui le care ingenue puerilità erano sacrificate ai doveri inflessibili di un’alta educazione, in cui i soavi sensi infantili erano in urto con la rigidezza del cerimoniale:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
+3	pensare	pensare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	stranezza	stranezza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	precoce	precoce	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+13	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	care	care	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+15	ingenue	ingenuo	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	puerilità	puerilità	NOUN	S	Gender=Fem	14	obj	_	_
+17	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	aux:pass	_	_
+18	sacrificate	sacrificare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+19-20	ai	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	doveri	dovere	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	inflessibili	inflessibile	ADJ	A	Number=Plur	21	amod	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+25	alta	alto	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	cui	cui	PRON	PR	PronType=Rel	36	obl	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	soavi	soavo	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+32	sensi	senso	NOUN	S	Gender=Masc|Number=Plur	36	nsubj	_	_
+33	infantili	infantile	ADJ	A	Number=Plur	32	amod	_	_
+34	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	cop	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	urto	urto	NOUN	S	Gender=Masc|Number=Sing	26	acl:relcl	_	_
+37	con	con	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	rigidezza	rigidezza	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	cerimoniale	cerimoniale	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+43	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 3
+# text = piccola anima gaia e noncurante che doveva informarsi, troppo presto, a grandi e severi sentimenti._
+1	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+2	anima	anima	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	gaia	gaia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	noncurante	noncurante	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8-9	informarsi	_	_	_	_	_	_	_	SpaceAfter=No
+8	informar	informare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	troppo	troppo	ADV	B	_	12	advmod	_	_
+12	presto	presto	ADV	B	_	8	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	grandi	grande	ADJ	A	Number=Plur	8	obl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	severi	severo	ADJ	A	Gender=Masc|Number=Plur	15	conj	_	_
+18	sentimenti._	sentimenti.-	PUNCT	FB	_	3	punct	_	SpacesAfter=\n
+

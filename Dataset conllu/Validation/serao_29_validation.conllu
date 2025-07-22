@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo era accaduto, nella oscurità della sua coscienza;
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	oscurità	oscurità	NOUN	S	Gender=Fem	3	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ma talvolta, nelle ore bieche della disfatta, egli si abbatteva in una debolezza infinita;
+1	ma	ma	CCONJ	CC	_	14	cc	_	_
+2	talvolta	talvolta	ADV	B	_	14	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	ore	ora	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+7	bieche	bieco	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	disfatta	disfatta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	abbatteva	abbattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	infinita	infinito	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 3
+# text = una umiliazione soverchiava tutto il suo orgoglio, egli si sentiva un povero essere, limitato, miserrimo.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	umiliazione	umiliazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	soverchiava	soverchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	7	det:predet	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	povero	povero	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	limitato	limitato	NOUN	S	Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	miserrimo	miserrimo	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Come gli amatori, quando li sopravvince la cattiva fortuna, egli si sentiva indegno di Roma.
+1	Come	come	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	amatori	amatore	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+7	sopravvince	sopravvincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	cattiva	cattivo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	indegno	indegno	NOUN	S	Gender=Masc|Number=Sing	14	xcomp	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Roma	Roma	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

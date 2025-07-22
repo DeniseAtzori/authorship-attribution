@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così, l'urto atroce del primo minuto fu respinto da lui:
+1	Così	così	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	urto	urto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+5	atroce	atroce	ADJ	A	Number=Sing	4	amod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+10	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	respinto	respingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl:agent	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 2
+# text = e il suo primo nemico, che era il suo dolore, tacque, per poco.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	5	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	tacque	tacqua	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	poco	poco	ADV	B	_	5	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ma le sigarette, tre o quattro, caddero in cenere, sul portacenere di metallo cesellato:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	sigarette	sigaretta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	quattro	quattro	NUM	N	NumType=Card	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	caddero	cadderare	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cenere	cenere	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	portacenere	portacenere	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	metallo	metallo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	cesellato	cesellato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = ma il tè si raffreddò nella tazzina giapponese:
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tè	tè	NOUN	S	Gender=Masc	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	raffreddò	raffreddare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tazzina	tazzina	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	giapponese	giapponese	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = ma egli non distese più la mano alla fialetta di cristallo dal coperchio di argento, dove era il _cognac_: e i giornali, le riviste, i libri giacquero sparsi, ai suoi piedi, sul tappeto.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	distese	distendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	più	più	ADV	B	_	4	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fialetta	fialetta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	cristallo	cristallo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	coperchio	coperchio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	argento	argento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	dove	dove	ADV	B	_	20	advmod	_	_
+20	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	_cognac_	ExtraSubj=Yes|_cognac_	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	20	punct	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	riviste	rivista	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	libri	libro	NOUN	S	Gender=Masc|Number=Plur	26	conj	_	_
+33	giacquero	giacquero	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+34-35	sparsi	_	_	_	_	_	_	_	SpaceAfter=No
+34	spar	spare	VERB	V	VerbForm=Inf	32	acl	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+36	,	,	PUNCT	FF	_	34	punct	_	_
+37-38	ai	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	40	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	44	punct	_	_
+42-43	sul	_	_	_	_	_	_	_	_
+42	su	su	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

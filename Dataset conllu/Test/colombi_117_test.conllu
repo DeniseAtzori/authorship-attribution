@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «La scrittura che vi fu proposta è buona.
+1	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	scrittura	scrittura	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj:pass	_	_
+5	vi	vi	ADV	B	_	7	advmod	_	_
+6	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	proposta	proposta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	buona	buono	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Il teatro di Reggio d'Emilia, nella stagione di primavera, è un teatro importante.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Reggio	Reggio	PROPN	SP	_	2	nmod	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	Emilia	Emilia	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+17	importante	importante	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = Transigete sugli interessi pur di combinare codesto affare che può esservi molto utile.
+1	Transigete	Transigere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	sugli	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	pur	pure	ADV	B	_	7	advmod	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	combinare	combinare	VERB	V	VerbForm=Inf	4	acl	_	_
+8	codesto	codesto	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	affare	affare	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12-13	esservi	_	_	_	_	_	_	_	_
+12	esser	essere	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
+13	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	utile	utile	ADJ	A	Number=Sing	12	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = La tessitura dell'_Africana_ va benissimo per la vostra voce, ed in pochi giorni potrete imparare la parte.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tessitura	tessitura	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	_Africana_	_africana_	PROPN	SP	_	2	nmod	_	_
+6	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	benissimo	bene	ADV	B	Degree=Abs	6	advmod	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	voce	voce	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	_
+13	ed	e	CCONJ	CC	_	18	cc	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+17	potrete	potreto	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	18	aux	_	_
+18	imparare	imparare	VERB	V	VerbForm=Inf	6	conj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

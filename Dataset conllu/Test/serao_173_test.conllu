@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il deputato del primo piano ci è venuto da quattro anni e vi si trova benissimo, non se ne va più;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	piano	piano	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	quattro	quattro	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	vi	vi	ADV	B	_	16	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+17	benissimo	bene	ADV	B	Degree=Abs	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+22	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	più	più	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = il deputato del secondo piano ci è venuto, consigliato dall'amico, e ci è rimasto, son già due anni.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	piano	piano	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	consigliato	consigliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+12-13	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	amico	amico	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	son	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+22	già	già	ADV	B	_	24	advmod	_	_
+23	due	due	NUM	N	NumType=Card	24	nummod	_	_
+24	anni	anno	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Qui non si sfitta mai:
+1	Qui	qui	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	sfitta	sfivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mai	mai	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = la sarta del primo piano ha una clientela di signore dell'aristocrazia, che ci è sempre una vettura innanzi alla porta.»
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sarta	sarta	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	piano	piano	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	clientela	clientela	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	signore	signore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	aristocrazia	aristocrazia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+19	sempre	sempre	ADV	B	_	18	advmod	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vettura	vettura	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+22	innanzi	innanzi	ADV	B	_	25	advmod	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	porta.	porta.	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	7	punct	_	SpacesAfter=\n
+

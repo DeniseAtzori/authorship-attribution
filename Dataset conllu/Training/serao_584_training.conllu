@@ -1,0 +1,133 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Costoro e gli altri sbagliavano assai sul conto di Paolo Herz e del suo amore.
+1	Costoro	costoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	5	cc	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+5	sbagliavano	sbagliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+6	assai	assai	ADV	B	_	5	advmod	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	conto	conto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Paolo	Paolo	PROPN	SP	_	9	nmod	_	_
+12	Herz	Herz	PROPN	SP	_	11	flat:name	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Egli era preso seriamente.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	seriamente	seriamente	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Non sapeva neppur lui come era accaduto.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	neppur	neppure	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	come	come	ADV	B	_	7	advmod	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = La prima volta che egli aveva vista Luisa Cima gli era parsa nulla.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4	che	che	SCONJ	CS	_	7	obj	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	Luisa	Luisa	PROPN	SP	_	7	obj	_	_
+9	Cima	cima	PROPN	SP	_	8	flat:name	_	_
+10	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	parsa	pargere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = Varie altre volte, il suo giudizio non si era modificato.
+1	Varie	vario	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det	_	_
+2	altre	altro	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	volte	volta	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	11	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	modificato	modificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 6
+# text = Una sera, però, ella teneva nelle mani un fiore di asfodelo, dal lungo gambo:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	mani	mano	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	asfodelo	asfodelo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	gambo	gambo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 7
+# text = e gli aveva parlato prestamente, ridendo, battendogli sul braccio con quel leggiero fiore, guardandolo con tenerezza e con malizia.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	prestamente	presto	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	ridendo	ridere	VERB	V	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9-10	battendogli	_	_	_	_	_	_	_	_
+9	battendo	battere	VERB	V	VerbForm=Ger	7	advcl	_	_
+10	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	leggiero	leggiero	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19-20	guardandolo	_	_	_	_	_	_	_	_
+19	guardando	guardare	VERB	V	VerbForm=Ger	7	advcl	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	malizia	malizia	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

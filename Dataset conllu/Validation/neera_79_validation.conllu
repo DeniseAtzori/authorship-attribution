@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vedevo anche volontieri l'affetto che Egli aveva saputo destare nel mio piccolo Alessio e i progressi che il bimbo faceva sotto di Lui.
+1	Vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	volontieri	volontiere	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+7	Egli	Egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	destare	destare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	15	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+13	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	Alessio	Alessio	PROPN	SP	_	10	obl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	22	obj	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+23	sotto	sotto	ADP	E	_	25	case	_	_
+24	di	di	ADP	E	_	23	fixed	_	_
+25	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Solamente Orsola e Pietro, colla diffidenza che hanno i vecchi per ogni innovazione, erano rimasti un po' in disparte, ma a poco a poco si ammansavano.
+1	Solamente	solo	ADV	B	_	2	advmod	_	_
+2	Orsola	Orsola	PROPN	SP	_	6	nsubj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Pietro	Pietro	PROPN	SP	_	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	diffidenza	diffidenza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	vecchi	vecchio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	po'	poco	ADV	B	_	17	advmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	disparte	disparte	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	29	punct	_	_
+23	ma	ma	CCONJ	CC	_	29	cc	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	poco	poco	ADV	B	_	29	advmod	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	poco	poco	ADV	B	_	29	advmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	ammansavano	ammansare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = L'Orsola aveva pur dovuto convenire che quest'unico mio parente rappresentava bene la famiglia e Pietro approvando si era accontentato di soggiungere:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Orsola	Orsola	PROPN	SP	_	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	pur	pure	ADV	B	_	6	advmod	_	_
+5	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+6	convenire	convenire	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	quest'	questo	DET	DD	Number=Sing|PronType=Dem	11	det	_	SpaceAfter=No
+9	unico	unico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	parente	parente	NOUN	S	Number=Sing	12	nsubj	_	_
+12	rappresentava	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+13	bene	bene	ADV	B	_	12	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17	Pietro	Pietro	PROPN	SP	_	21	nsubj	_	_
+18	approvando	approvare	VERB	V	VerbForm=Ger	21	advcl	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	accontentato	accontentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	soggiungere	soggiungere	VERB	V	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = Per quello che si può giudicare.
+1	Per	per	ADP	E	_	2	case	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	giudicare	giudicare	VERB	V	VerbForm=Inf	2	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Eravamo dunque tutti felici--io e il mio piccolo mondo.
+1	Eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	dunque	dunque	ADV	B	_	3	advmod	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	_
+4	felici	felice	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	-io	-io	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

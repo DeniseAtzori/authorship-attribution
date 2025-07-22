@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nulla dell'intonazione misteriosa e melanconica della frase ch'io sognavo.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+2-3	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	di	di	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	intonazione	intonazione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	misteriosa	misterioso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	melanconica	melanconico	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	frase	frase	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+11	ch'	che	ADV	B	_	13	advmod	_	SpaceAfter=No
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	sognavo	sognavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ed infatti, perchè mi avrebbe detto Max?
+1	Ed	e	CCONJ	CC	_	7	cc	_	_
+2	infatti	infatti	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	perchè	poiperché	SCONJ	CS	_	7	mark	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	Max	Max	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Non me l'aveva mai detto.
+1	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+2	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = E dove aveva preso io l'idea ch'ella mi amasse tanto da esclamare _quanto tempo!_ dopo un giorno?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	dove	dove	ADV	B	_	4	advmod	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	idea	idea	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	ch'	perché	SCONJ	CS	_	11	mark	_	SpaceAfter=No
+9	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	amasse	amare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+12	tanto	tanto	ADV	B	_	11	advmod	_	_
+13	da	da	ADP	E	_	14	mark	_	_
+14	esclamare	esclamare	VERB	V	VerbForm=Inf	11	advcl	_	_
+15	_quanto	_quanto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	!_	!_	PUNCT	FF	_	4	punct	_	_
+18	dopo	dopo	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = È vero ch'io non aveva stabilito l'epoca del nostro incontro;
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	ch'	perché	SCONJ	CS	_	7	mark	_	SpaceAfter=No
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	stabilito	stabilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = ma è altresì vero che mi giungeva già in ritardo.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	altresì	altresì	ADV	B	_	4	advmod	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	giungeva	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+8	già	già	ADV	B	_	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

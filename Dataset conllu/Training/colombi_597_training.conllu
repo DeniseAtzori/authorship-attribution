@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La signora Bellazio andò in persona a Gradate il giorno stesso per evitare che si facessero gli ultimi apparecchi;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Bellazio	Bellazio	PROPN	SP	_	2	nmod	_	_
+4	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	persona	persona	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Gradate	Gradare	PROPN	SP	_	6	nmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	evitare	evitare	VERB	V	VerbForm=Inf	4	advcl	_	_
+14	che	che	SCONJ	CS	_	16	mark	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:pass	_	_
+16	facessero	fare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	apparecchi	apparecchio	NOUN	S	Gender=Masc|Number=Plur	16	nsubj:pass	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = espose le circostanze che avevano inquietata pel momento la coscienza delicata di Marco, ed ottenne dalla signora Nardi, non solo una facile adesione, ma una vivissima approvazione per quella misura di prudenza, che mirava a non esporre sua figlia ad un matrimonio disgraziato.
+1	espose	esporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	circostanze	circostanza	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	inquietata	esinquieere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7-8	pel	_	_	_	_	_	_	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+12	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Marco	Marco	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ed	e	CCONJ	CC	_	17	cc	_	_
+17	ottenne	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	signora	signore	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	Nardi	Nardi	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	27	punct	_	_
+23	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+24	solo	solo	ADV	B	_	27	advmod	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	facile	facile	ADJ	A	Number=Sing	27	amod	_	_
+27	adesione	adesione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	32	punct	_	_
+29	ma	ma	CCONJ	CC	_	32	cc	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	vivissima	vivo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	32	amod	_	_
+32	approvazione	approvazione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	35	det	_	_
+35	misura	misura	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	prudenza	prudenza	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	32	punct	_	_
+39	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+40	mirava	mirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	acl:relcl	_	_
+41	a	a	ADP	E	_	43	mark	_	_
+42	non	non	ADV	BN	PronType=Neg	43	advmod	_	_
+43	esporre	esporre	VERB	V	VerbForm=Inf	40	xcomp	_	_
+44	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	43	obj	_	_
+46	ad	a	ADP	E	_	48	case	_	_
+47	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	_
+49	disgraziato	disgraziato	ADJ	A	Gender=Masc|Number=Sing	48	amod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Le due vedove si separarono amichevolmente:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	vedove	vedove	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	separarono	separarere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	amichevolmente	amichevolmente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	5	punct	_	SpacesAfter=\n
+

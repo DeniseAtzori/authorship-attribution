@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Strisce arroventate mi solcavano la fronte, il collo, il petto;
+1	Strisce	striscia	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	arroventate	arroventato	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	solcavano	solcare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fronte	fronte	NOUN	S	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	collo	collo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	petto	petto	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = le tempie mi battevano disordinatamente.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	tempie	tempia	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	battevano	battere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	disordinatamente	disordinatamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = L'uragano era oramai una cosa sola con me stessa;
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uragano	uragano	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	oramai	oramai	ADV	B	_	6	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
+10	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = il vento che flagellava gli alberi flagellava pure le mie membra ardenti di febbre;
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vento	vento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	flagellava	flagellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	flagellava	flagellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	pure	pure	ADV	B	_	7	advmod	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	membra	membro	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+12	ardenti	ardente	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	11	acl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 5
+# text = udivo nello scrosciare della pioggia le mie stesse lagrime, le lagrime avare che gli occhi non volevano darmi.
+1	udivo	udire	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+2-3	nello	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	scrosciare	scrosciare	VERB	V	VerbForm=Inf	1	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+9	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+15	avare	avare	VERB	V	VerbForm=Inf	14	acl	_	_
+16	che	che	SCONJ	CS	_	21	mark	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	volevano	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21-22	darmi	_	_	_	_	_	_	_	SpaceAfter=No
+21	dar	dare	VERB	V	VerbForm=Inf	15	ccomp	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+23	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

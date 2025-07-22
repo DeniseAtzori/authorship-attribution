@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aveva vendute tutte le noci, anche.
+1	Aveva	avere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	vendute	vendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	noci	noce	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	anche	anche	ADV	B	_	2	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = un castelletto di piccolissime, anche un castelletto di fradicie:
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	castelletto	castelletto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	piccolissime	piccolo	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	castelletto	castelletto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	fradicie	fradicia	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = e restava inerte, con le mani sotto il grembiule, non perdendo mai di vista la discesa del Gigante, donde Ciccillo doveva venire.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	inerte	inerto	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	mani	mano	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+8	sotto	sotto	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	grembiule	grembiula	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	perdendo	perdere	VERB	V	VerbForm=Ger	26	advcl	_	_
+14	mai	mai	ADV	B	_	13	advmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	vista	vista	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	discesa	discesa	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Gigante	gigante	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	donde	donda	ADP	E	_	24	case	_	_
+24	Ciccillo	Ciccillo	PROPN	SP	_	26	obl	_	_
+25	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	venire	venire	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Fortuna era andata a giuocare con la bambinella di Mariagrazia l'acquaiuola, quando una donna si avvicinò a Vicenzella.
+1	Fortuna	fortuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	giuocare	giuocare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bambinella	bambinella	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Mariagrazia	Mariagrazia	PROPN	SP	_	8	nmod	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	acquaiuola	acquaiuola	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	quando	quando	SCONJ	CS	_	18	mark	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	donna	donna	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	avvicinò	avvicinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Vicenzella	Vicenzella	PROPN	SP	_	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Era una donnina magra e bruna, con un filo di coralli rossi al collo, e un vestito di percallo giallone.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	donnina	donnina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	magra	magro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	bruna	bruno	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	filo	filo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	coralli	corallo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	rossi	rosso	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	collo	collo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	percallo	percallo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	giallone	giallone	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

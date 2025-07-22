@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = _Se qualcuno mi domandasse a bruciapelo:
+1	_Se	_Se	ADV	B	_	4	advmod	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	domandasse	domandare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	bruciapelo	bruciapelo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = Lei è femminista?
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	femminista	femminista	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = — dovrei rispondere:
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	dovrei	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	rispondere	rispondere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = Adagio colle parole; ed a mia volta domanderei:
+1	Adagio	Adagio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	colle	_	_	_	_	_	_	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	10	punct	_	_
+6	ed	e	CCONJ	CC	_	10	cc	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+10	domanderei	domandere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Le piace l’acqua?
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = A questa domanda che è pure tanto semplice non mi meraviglierei di trovare il mio interlocutore imbarazzato, poichè l’acqua incomincia colla goccia di rugiada tremolante nel calice di un fiore, va alla fonte che disseta, al bagno che ristora, alla irrigazione che feconda, fino allo straripamento che sforza, atterra, e conduce alla rovina ed alla morte._
+1	A	a	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	pure	pure	ADV	B	_	8	advmod	_	_
+7	tanto	tanto	ADV	B	_	8	advmod	_	_
+8	semplice	semplice	ADJ	A	Number=Sing	3	acl:relcl	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	meraviglierei	meravigliere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	trovare	trovare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	interlocutore	interlocutore	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+17	imbarazzato	imbarazzato	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	incomincia	incominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+23	colla	collo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	goccia	goccia	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	rugiada	rugiada	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	tremolante	tremolante	ADJ	A	Number=Sing	26	amod	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	calice	calice	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	22	punct	_	_
+35	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+36-37	alla	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	fonte	fonte	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+39	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+40	disseta	dissetare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42-43	al	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	_
+45	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+46	ristora	ristorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	acl:relcl	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	46	punct	_	_
+48-49	alla	_	_	_	_	_	_	_	_
+48	a	a	ADP	E	_	50	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	irrigazione	irrigazione	NOUN	S	Gender=Fem|Number=Sing	46	obl	_	_
+51	che	che	PRON	PR	PronType=Rel	52	nsubj	_	_
+52	feconda	fecondare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	52	punct	_	_
+54	fino	fino	ADV	B	_	57	case	_	_
+55-56	allo	_	_	_	_	_	_	_	_
+55	a	a	ADP	E	_	54	fixed	_	_
+56	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	straripamento	straripamento	NOUN	S	Gender=Masc|Number=Sing	52	obl	_	_
+58	che	che	PRON	PR	PronType=Rel	59	nsubj	_	_
+59	sforza	sforzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	acl:relcl	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	61	punct	_	_
+61	atterra	atterra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	SpaceAfter=No
+62	,	,	PUNCT	FF	_	64	punct	_	_
+63	e	e	CCONJ	CC	_	64	cc	_	_
+64	conduce	condurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+65-66	alla	_	_	_	_	_	_	_	_
+65	a	a	ADP	E	_	67	case	_	_
+66	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	rovina	rovina	NOUN	S	Gender=Fem|Number=Sing	64	obl	_	_
+68	ed	e	CCONJ	CC	_	71	cc	_	_
+69-70	alla	_	_	_	_	_	_	_	_
+69	a	a	ADP	E	_	71	case	_	_
+70	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
+71	morte._	ExtraSubj=Yes|morte._	ADJ	NO	NumType=Ord	67	conj	_	SpacesAfter=\n
+

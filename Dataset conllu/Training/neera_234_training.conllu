@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lo studio però che mi sembra più serio e più riuscito è il primo:
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	studio	studio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	però	però	ADV	B	_	2	advmod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	serio	serio	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	nsubj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = Isabella d’Este Gonzaga.
+1	Isabella	Isabello	PROPN	SP	_	0	root	_	_
+2	d’	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	Este	Este	PROPN	SP	_	1	nmod	_	_
+4	Gonzaga	Gonzaga	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Della deliziosa principessa che si era composta “per sè ed a sua gloria una esistenza conforme alle sue inclinazioni„ che tutta visse per l’arte, per la grazia, la cui anima fresca e vibrante irraggiava su quante cose le stavano intorno, e che fu tanto saggia quanto bella, si hanno parecchi ritratti.
+1-2	Della	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	deliziosa	delizioso	NOUN	S	Gender=Fem|Number=Sing	58	obl	_	_
+4	principessa	principesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	composta	comporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	per	per	ADP	E	_	11	case	_	_
+11	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	obl	_	_
+12	ed	e	CCONJ	CC	_	17	cc	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+18	conforme	conforme	ADJ	A	Number=Sing	17	amod	_	_
+19-20	alle	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	inclinazioni	inclinazione	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+23	„	„	PUNCT	FF	_	17	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	26	obj	_	_
+25	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	26	nsubj	_	_
+26	visse	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	arte	arte	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	cui	cui	DET	DR	PronType=Rel	37	det:poss	_	_
+37	anima	anima	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+38	fresca	fresco	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+39	e	e	CCONJ	CC	_	41	cc	_	_
+40	vibrante	vibrante	PRON	PQ	Gender=Fem|Number=Plur|PronType=Int	41	nsubj	_	_
+41	irraggiava	irraggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	conj	_	_
+42	su	su	ADP	E	_	44	case	_	_
+43	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	44	det	_	_
+44	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	41	obl	_	_
+45	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	46	obj	_	_
+46	stavano	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	41	advcl	_	_
+47	intorno	intorno	ADV	B	_	46	advmod	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	53	punct	_	_
+49	e	e	CCONJ	CC	_	53	cc	_	_
+50	che	che	PRON	PR	PronType=Rel	53	nsubj	_	_
+51	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	53	cop	_	_
+52	tanto	tanto	ADV	B	_	53	advmod	_	_
+53	saggia	saggio	NOUN	S	Gender=Fem|Number=Sing	46	conj	_	_
+54	quanto	quanto	ADV	B	_	55	advmod	_	_
+55	bella	bello	ADJ	A	Gender=Fem|Number=Sing	53	amod	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	3	punct	_	_
+57	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	58	expl:pass	_	_
+58	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+59	parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	60	det	_	_
+60	ritratti	ritratto	NOUN	S	Gender=Masc|Number=Plur	58	nsubj:pass	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	58	punct	_	SpacesAfter=\n
+

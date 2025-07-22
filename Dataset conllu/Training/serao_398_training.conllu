@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un zoccolo di legno urtò contro la portella chiusa.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	zoccolo	zoccolo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	legno	legno	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	urtò	urtare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	contro	contro	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	portella	portella	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Pasqualina si alzò ed aprì.
+1	Pasqualina	Pasqualina	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ed	e	CCONJ	CC	_	5	cc	_	_
+5	aprì	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Teresa, detta la _capa de pezza_ perchè aveva servito le monache in un monastero di Sessa, entrò con la secchia dell’acqua sulla testa:
+1	Teresa	Teresa	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	_capa	_capa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	E	_	19	mark	_	_
+7	pezza_	pezza-	PUNCT	FB	_	10	punct	_	_
+8	perchè	perché	SCONJ	CS	_	10	mark	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	servito	servire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	monache	monaca	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	monastero	monastero	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Sessa	Sessa	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	secchia	secchia	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+23-24	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26-27	sulla	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	testa	testa	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = si curvò un poco, perchè era alta, magra ed ossuta.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	curvò	curvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	poco	poco	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	perchè	perché	SCONJ	CS	_	8	mark	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	alta	alto	ADJ	A	Gender=Fem|Number=Sing	2	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	magra	magra	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	ossuta	ossuto	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Pasqualina l’aiutò a deporre la secchia per terra, e Teresa rimase un momento immobile, ma senza ansare, malgrado il peso enorme che aveva portato sul capo.
+1	Pasqualina	Pasqualina	ADV	B	_	3	advmod	_	_
+2	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+3	aiutò	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	deporre	deporre	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	secchia	secchia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	terra	terra	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	Teresa	Teresa	PROPN	SP	_	13	nsubj	_	_
+13	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	momento	momento	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	immobile	immobile	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	ma	ma	CCONJ	CC	_	20	cc	_	_
+19	senza	senza	ADP	E	_	20	mark	_	_
+20	ansare	ansare	VERB	V	VerbForm=Inf	13	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	malgrado	malgrado	SCONJ	CS	_	24	mark	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	peso	peso	NOUN	S	Gender=Masc|Number=Sing	20	advcl	_	_
+25	enorme	enorme	ADJ	A	Number=Sing	24	amod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+29-30	sul	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	capo	capo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

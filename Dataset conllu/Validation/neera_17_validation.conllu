@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mio marito aveva dei libri nella sua camera, ma non mi ero mai interessata di sapere che cosa fossero.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	marito	marito	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	libri	libro	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	camera	camera	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	17	punct	_	_
+12	ma	ma	CCONJ	CC	_	17	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+15	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	cop	_	_
+16	mai	mai	ADV	B	_	17	advmod	_	_
+17	interessata	interessare	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	sapere	sapere	VERB	V	VerbForm=Inf	17	advcl	_	_
+20	che	che	SCONJ	CS	_	22	mark	_	_
+21	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	22	nsubj	_	_
+22	fossero	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Gli dissi che Alessio mi occupava molto, che cucivo tutti i suoi abiti e coltivavo anche discretamente i fiori del mio giardino;
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dissi	dissi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+4	Alessio	Alessio	PROPN	SP	_	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	occupava	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+7	molto	molto	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	cucivo	cucire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	conj	_	_
+11	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	coltivavo	coltivare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	conj	_	_
+17	anche	anche	ADV	B	_	18	advmod	_	_
+18	discretamente	discreto	ADV	B	_	16	advmod	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = poi facevo i conti di casa con Pietro e ripassavo la guardaroba insieme all'Orsola.
+1	poi	poi	ADV	B	_	2	advmod	_	_
+2	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	conti	conto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Pietro	Pietro	PROPN	SP	_	2	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	ripassavo	ripassare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	guardaroba	guardaroba	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	insieme	insieme	ADV	B	_	16	case	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	13	fixed	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Orsola	Orsola	PROPN	SP	_	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

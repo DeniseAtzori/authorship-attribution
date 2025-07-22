@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sulla sua vocazione, nessun dubbio;
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	vocazione	vocazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = sulla sua forza qualcuno, ma efficacemente combattuto dalla sincerità della sua fede e dal baldo irrompere di tutti gli entusiasmi di vent'anni.
+1-2	sulla	_	_	_	_	_	_	_	_
+1	su	su	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	forza	forza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+5	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	efficacemente	efficacemente	ADV	B	_	9	advmod	_	_
+9	combattuto	combattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sincerità	sincerità	NOUN	S	Gender=Fem	9	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	fede	fede	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	baldo	baldo	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+21	irrompere	irrompere	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	25	det:predet	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	entusiasmi	entusiasmo	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	vent'	venti	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+28	anni	anno	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ricordava il giorno in cui Gentile Lamberti aveva detto: “Perchè non sarebbe poeta?„ e il lungo desiderio che gliene era rimasto e l'affanno del non trovare in sè le caratteristiche volute.
+1	Ricordava	Ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+6	Gentile	gentile	PROPN	SP	_	9	nsubj	_	_
+7	Lamberti	Lamberti	PROPN	SP	_	6	flat:name	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+11	“	“	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+12	Perchè	perché	ADV	B	_	15	advmod	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	poeta	poeto	NOUN	S	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+17	„	„	PUNCT	FF	_	15	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	gliene	glenere	ADV	B	_	25	advmod	_	_
+24	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+25	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	affanno	affanno	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	mark	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+32	trovare	trovare	VERB	V	VerbForm=Inf	28	acl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	obl	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+37	volute	voluto	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

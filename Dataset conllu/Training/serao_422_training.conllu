@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vi era una grande agitazione nel cortile e nella cucina:
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	grande	grande	ADJ	A	Number=Sing	5	amod	_	_
+5	agitazione	agitazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cortile	cortile	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = sul focolare una grande caldaia sopra un fuoco vivissimo:
+1-2	sul	_	_	_	_	_	_	_	_
+1	su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	focolare	focolare	VERB	V	VerbForm=Inf	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	caldaia	caldaio	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	sopra	sopra	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	vivissimo	vivissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = tutt’i grandi piatti, tutte le catinelle, tutt’i secchi disposti:
+1	tutt’	tutto	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	grandi	grande	ADJ	A	Number=Plur	4	amod	_	_
+4	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	catinelle	catinella	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	tutt’	tutto	DET	RD	Number=Sing|PronType=Art	12	det:predet	_	SpaceAfter=No
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	secchi	secco	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+13	disposti	disporre	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = in un angolo la stadera:
+1	in	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	stadera	stadera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = sulla tavola coltelli, coltellacci, imbuti:
+1-2	sulla	_	_	_	_	_	_	_	_
+1	su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	coltelli	coltello	NOUN	S	Gender=Masc|Number=Plur	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	coltellacci	coltellaccio	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	imbuti	imbere	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = Pasqualina, Teresa, Rosaria con le gonne succinte e i grembiuli bianchi.
+1	Pasqualina	Pasqualina	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Teresa	Teresa	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Rosaria	Rosaria	PROPN	SP	_	3	flat:name	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	gonne	gonna	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+9	succinte	succinto	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	grembiuli	grembiulo	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+13	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Sabatino andava e veniva con un’aria d’importanza.
+1	Sabatino	Sabatino	PROPN	SP	_	2	nsubj	_	_
+2	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	aria	aria	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	d’	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Canituccia guardava tutto e non capiva.
+1	Canituccia	Canituccia	ADV	B	_	2	advmod	_	_
+2	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	capiva	capire	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Poi chiese sottovoce a Teresa:
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	chiese	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sottovoce	sottovoce	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Teresa	Teresa	PROPN	SP	_	2	obl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

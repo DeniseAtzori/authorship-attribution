@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Giunto a casa, depose le provviste in cucina, poi salì finchè c'erano scale, alle soffitte dove i padroni gli avevano assegnata una camera.
+1	Giunto	giungere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	depose	deporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	provviste	provvista	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	poi	poi	ADV	B	_	12	advmod	_	_
+12	salì	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	finchè	finché	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	obj	_	_
+14	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+15	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+16	scale	scala	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18-19	alle	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	soffitte	soffitta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+21	dove	dove	ADV	B	_	26	advmod	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	padroni	padrone	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	_
+24	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	iobj	_	_
+25	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	assegnata	assegnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	camera	camera	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = C'erano parecchi usci sul pianerottolo, ed uno era socchiuso.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	usci	usce	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pianerottolo	pianerottolo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ed	e	CCONJ	CC	_	12	cc	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	socchiuso	socchiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Prima di aprire il suo, il cuoco spinse quello, ed entrò.
+1	Prima	prima	ADV	B	_	3	mark	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	aprire	aprire	VERB	V	VerbForm=Inf	9	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cuoco	cuoco	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	spinse	spinso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Era una camera lunga e stretta, coll'ingresso ad un capo ed una finestrella all'altro.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	camera	camera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	stretta	stretto	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	coll'	collo	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+10	ad	a	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	capo	capo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	ed	e	CCONJ	CC	_	15	cc	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	finestrella	finestrella	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

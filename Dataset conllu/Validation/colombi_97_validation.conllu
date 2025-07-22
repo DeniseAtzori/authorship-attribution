@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Uomini dalla voce dolce come una melodia, profonda come un pensiero, passionata come un bacio--la voce di Giorgio.
+1	Uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	voce	voce	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	dolce	dolce	ADJ	A	Number=Sing	4	amod	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	melodia	melodia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	profonda	profondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	passionata	passionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	-	-	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+20	-la	-la	DET	RD	Gender=Fem|Number=Sing	21	det	_	_
+21	voce	voce	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Giorgio	Giorgio	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = I giovani dai _palmerstons_ profumati, dai capelli unti e lucenti, dalla scriminatura dritta come una rotaia di ferrovia, gli eleganti che discorrono di toletta, e ne mutano tre ogni giorno, erano a' miei occhi ridicoli.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giovani	giovane	NOUN	S	Number=Plur	39	nsubj	_	_
+3-4	dai	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	_palmerstons_	ExtraSubj=Yes|_palmerstons_	ADJ	NO	NumType=Ord	6	amod	_	_
+6	profumati	profumato	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8-9	dai	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+11	unti	unto	ADJ	A	Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	lucenti	lucente	ADJ	A	Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	scriminatura	scriminatura	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+18	dritta	dritta	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	rotaia	rotaia	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	ferrovia	ferrovia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	eleganti	elegante	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	discorrono	discorre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	toletta	toletta	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	34	iobj	_	_
+34	mutano	mutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+35	tre	tre	NUM	N	NumType=Card	34	obj	_	_
+36	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	37	det	_	_
+37	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	2	punct	_	_
+39	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+40	a	a	ADP	E	_	43	case	_	SpaceAfter=No
+41	'	'	PUNCT	FB	_	43	punct	_	_
+42	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	43	det:poss	_	_
+43	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	39	obl	_	_
+44	ridicoli	ridicolo	ADJ	A	Gender=Masc|Number=Plur	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	39	punct	_	_
+
+# sent_id = 3
+# text = Non me ne occupavo che per farne la caricatura.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	occupavo	occupare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	farne	_	_	_	_	_	_	_	_
+7	far	fare	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	caricatura	caricatura	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

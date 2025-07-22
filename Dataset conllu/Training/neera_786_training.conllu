@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A un tratto dal caffè della stazione si avanzò un gruppo di ufficiali, parlando forte, trascinando con ostentazione le lunghe sciabole.
+1	A	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caffè	caffè	NOUN	S	Gender=Masc	3	nmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	avanzò	avanzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	parlando	parlare	VERB	V	VerbForm=Ger	11	advcl	_	_
+18	forte	forte	ADJ	A	Number=Sing	17	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	trascinando	trascinare	VERB	V	VerbForm=Ger	17	advcl	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	ostentazione	ostentazione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	lunghe	lunghe	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+25	sciabole	sciabole	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = La signora si accorse che Moena trasaliva e gli si fece più da presso, tacitamente.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	accorse	accorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	Moena	Moena	PROPN	SP	_	7	nsubj	_	_
+7	trasaliva	trasalire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	più	più	ADV	B	_	11	advmod	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	presso	presso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	tacitamente	tacitamente	ADV	B	_	11	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Quando gli ufficiali passarono dinanzi a loro Moena le afferrò una mano con impeto e gliela strinse mormorando:
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	passarono	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	_
+5	dinanzi	dinanzi	ADV	B	_	8	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Moena	Moena	PROPN	SP	_	4	obl	_	_
+9	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	iobj	_	_
+10	afferrò	afferrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mano	mano	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	gliela	_	_	_	_	_	_	_	_
+16	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	strinse	strinso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+19	mormorando	mormorando	VERB	V	VerbForm=Ger	18	advcl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	10	punct	_	SpacesAfter=\n
+

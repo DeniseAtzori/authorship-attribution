@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quando mi ritirai nella mia camera e mi coricai, invocai invano il sonno ed il riposo.
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	ritirai	ritirare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	camera	camera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	coricai	coricare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	invocai	invocai	ADV	B	_	13	advmod	_	_
+13	invano	invare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	ed	e	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il bernoccolo della morale aveva preso in me uno sviluppo straordinario.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bernoccolo	bernoccolo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	morale	morale	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+12	straordinario	straordinario	NOUN	S	Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Ero profondamente pentito d'aver potuto oltraggiare Ernesto ne' suoi affetti coniugali;
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	profondamente	profondamente	ADV	B	_	3	advmod	_	_
+3	pentito	pentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	d'	di	ADP	E	_	7	mark	_	SpaceAfter=No
+5	aver	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+6	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
+7	oltraggiare	oltraggiare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	Ernesto	Ernesto	PROPN	SP	_	7	obj	_	_
+9-10	ne'	_	_	_	_	_	_	_	_
+9	ni	ne	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+13	coniugali	coniugale	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = un momento di delirio mi aveva trascinato, mio malgrado, a tradire l'amicizia;
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	momento	momento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	trascinato	trascinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	malgrado	malgrado	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	tradire	tradire	VERB	V	VerbForm=Inf	7	advcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 5
+# text = quel momento era durato quattro anni...
+1	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	durato	durare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	quattro	quattro	NUM	N	NumType=Card	4	nummod	_	_
+6	anni...	anni...	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aveva un abito di velluto nero a strascico, colla scollatura quadrata sul petto e le maniche corte.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	abito	abito	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	velluto	velluto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	nero	nero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	strascico	strascico	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	colla	collare	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+11	scollatura	scollatura	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	quadrata	quadrato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	petto	petto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	maniche	manica	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+19	corte	corto	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = La gonna era ornata da una sciarpa ricchissima di blonda bianca ingiallita, sostenuta da un grosso mazzo di gerani rossi e limonaria.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gonna	gonna	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	ornata	ornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sciarpa	sciarpa	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	ricchissima	riccho	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	blonda	blonda	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	ingiallita	ingiallito	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	sostenuta	sostenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	mazzo	mazzo	NOUN	S	Gender=Masc|Number=Sing	14	obl:agent	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	gerani	gerano	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	rossi	rosso	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	limonaria	limonario	ADJ	A	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = La scollatura era pure guarnita di blonda antica, con un mazzo di gerani.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scollatura	scollatura	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	pure	pure	ADV	B	_	5	advmod	_	_
+5	guarnita	guarnire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	blonda	blonda	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	antica	antico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mazzo	mazzo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	gerani	gerano	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = I capelli nerissimi, rialzati sulla nuca, come si vedono alle statue greche, erano intrecciati di grosse perle ingiallite, ed ornati con un mazzo di gerani e limonaria.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	19	nsubj:pass	_	_
+3	nerissimi	nero	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	rialzati	rialzato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	nuca	nuca	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	come	come	SCONJ	CS	_	12	mark	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	statue	statua	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16	greche	greco	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	aux:pass	_	_
+19	intrecciati	intrecciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	grosse	grosso	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22-23	perle	_	_	_	_	_	_	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	ingiallite	ingiallite	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	ed	e	CCONJ	CC	_	27	cc	_	_
+27	ornati	ornare	ADJ	A	Gender=Masc|Number=Plur	19	conj	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mazzo	mazzo	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	gerani	gerano	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	limonaria	limonaria	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n
+

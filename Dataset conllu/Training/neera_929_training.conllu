@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le ultime grigie brevi giornate di novembre precipitavano verso la fine dell’anno.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	3	amod	_	_
+3	grigie	grigia	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+4	brevi	breve	ADJ	A	Number=Plur	3	amod	_	_
+5	giornate	giornata	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	precipitavano	precipitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	verso	verso	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fine	fine	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Moena non veniva più tutte le sere, aggravato da una soma di lavoro al quale doveva sobbarcarsi per far fronte a’ suoi impegni e per riannodare le interrotte fila del suo sogno di patria.
+1	Moena	Moena	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	sere	sera	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	aggravato	aggravare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	soma	soma	NOUN	S	Gender=Fem|Number=Sing	9	obl:agent	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	quale	quale	PRON	PR	Number=Sing|PronType=Rel	19	obl	_	_
+18	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19-20	sobbarcarsi	_	_	_	_	_	_	_	_
+19	sobbarcar	sobbarcare	VERB	V	VerbForm=Inf	12	acl:relcl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	far	fare	VERB	V	VerbForm=Inf	19	advcl	_	_
+23	fronte	fronte	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+24	a	a	ADP	E	_	27	case	_	SpaceAfter=No
+25	’	’	PUNCT	FF	_	27	punct	_	_
+26	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	per	per	ADP	E	_	30	mark	_	_
+30	riannodare	riannodare	VERB	V	VerbForm=Inf	27	conj	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	interrotte	interrotta	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+33	fila	filo	NOUN	S	Gender=Fem|Number=Sing	32	compound	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	37	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	patria	patria	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = L’amata restava sola, col vago presagio di solitudini anche più tristi, presagio alimentato dal crudele bisogno di rimuovere il ferro nella sua ferita.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amata	amata	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6-7	col	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	vago	vago	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	presagio	presagio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	solitudini	solitudine	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	anche	anche	ADV	B	_	14	advmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	tristi	triste	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	presagio	presagio	NOUN	S	Gender=Masc|Number=Sing	11	appos	_	_
+17	alimentato	alimentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	crudele	crudele	ADJ	A	Number=Sing	21	amod	_	_
+21	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	17	obl:agent	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	rimuovere	rimuovere	VERB	V	VerbForm=Inf	21	acl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26-27	nella	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	ferita	ferita	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

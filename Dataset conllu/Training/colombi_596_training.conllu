@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La signora Bellazio piangeva di gioia a quelle parole.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Bellazio	Bellazio	PROPN	SP	_	2	nmod	_	_
+4	piangeva	piangere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = E Marco pure parve rassicurato.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	Marco	Marco	PROPN	SP	_	4	nsubj	_	_
+3	pure	pure	ADV	B	_	4	advmod	_	_
+4	parve	parva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	rassicurato	rassicurato	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Soltanto disse che aveva ricevuto una scossa, che, qualunque ne fosse la causa, pel momento non si sentiva bene.
+1	Soltanto	soltanto	ADV	B	_	2	advmod	_	_
+2	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	scossa	scossa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	22	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+13	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	causa	causa	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17-18	pel	_	_	_	_	_	_	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	momento	momento	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+22	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+23	bene	bene	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E senza mandare quella lettera disperata che aveva scritta, volle ad ogni costo che si differissero le nozze per qualche tempo, finchè egli non si sentisse completamente ristabilito in salute.
+1	E	e	CCONJ	CC	_	11	cc	_	_
+2	senza	senza	ADP	E	_	3	mark	_	_
+3	mandare	mandare	VERB	V	VerbForm=Inf	11	advcl	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	disperata	disperato	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	ad	a	ADP	E	_	14	case	_	_
+13	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	costo	costo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	differissero	differire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	finchè	finché	SCONJ	CS	_	30	mark	_	_
+25	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+26	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+28	sentisse	sentire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+29	completamente	completamente	ADV	B	_	30	advmod	_	_
+30	ristabilito	ristabilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	salute	salute	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

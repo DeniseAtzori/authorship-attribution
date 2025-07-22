@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ebbene, tutti e quattro, poichè il marito anche è stato suo amante, poichè ella è ritornata a lui tre volte tutti e quattro sono stati presi ed abbandonati, così, per capriccio caldo che parea passione, sono stati lasciati per fastidio improvviso;
+1	Ebbene	ebbene	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nsubj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	quattro	quattro	NUM	N	NumType=Card	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	marito	marito	NOUN	S	Gender=Masc|Number=Sing	29	nsubj:pass	_	_
+10	anche	anche	ADV	B	_	14	advmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	amante	amante	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	ritornata	ritornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
+22	tre	tre	NUM	N	NumType=Card	23	nummod	_	_
+23	volte	volta	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+24	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	nsubj:pass	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	quattro	quattro	NUM	N	NumType=Card	24	conj	_	_
+27	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+30	ed	e	CCONJ	CC	_	31	cc	_	_
+31	abbandonati	abbandonare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	così	così	ADV	B	_	31	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	31	punct	_	_
+35	per	per	ADP	E	_	36	case	_	_
+36	capriccio	capriccio	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+37	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+38	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+39	parea	pareare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+40	passione	passione	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	44	punct	_	_
+42	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+43	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	44	aux:pass	_	_
+44	lasciati	lasciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	conj	_	_
+45	per	per	ADP	E	_	46	case	_	_
+46	fastidio	fastidio	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	_
+47	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	SpaceAfter=No
+48	;	;	PUNCT	FC	_	29	punct	_	_
+
+# sent_id = 2
+# text = e niuno l'ha dimenticata, mai, neppure il marito, tutti hanno desiderato il suo amore, ardentemente, dopo l'abbandono.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	niuno	niuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dimenticata	dimenticare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	mai	mai	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	neppure	neppure	CCONJ	CC	_	15	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	marito	marito	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	nsubj	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	desiderato	desiderare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	ardentemente	ardentemente	ADV	B	_	5	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22	dopo	dopo	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

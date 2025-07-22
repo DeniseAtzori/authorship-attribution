@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Rinuncio a descrivere l'eccitamento in cui passai quella giornata, e la sua lunghezza sterminata.
+1	Rinuncio	Rinunciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	descrivere	descrivere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	eccitamento	eccitamento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+8	passai	passare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	lunghezza	lunghezza	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+16	sterminata	sterminato	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Eravamo nella stagione delle giornate lunghe;
+1	Eravamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = ma quella fu più lunga di tutte.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Feci colazione; pranzai; tornai a far colazione; tornai a pranzare.
+1	Feci	Feci	NUM	N	_	2	nummod	_	_
+2	colazione	colazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	_
+4	pranzai	pranzare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+6	tornai	tornare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	xcomp	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	far	fare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	colazione	colazione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	11	punct	_	_
+11	tornai	tornare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	conj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	pranzare	pranzare	VERB	V	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Presi una dozzina di caffè, _seltz_, _soda water_.
+1	Presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	dozzina	dozzina	NOUN	S	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	caffè	caffè	NOUN	S	Gender=Masc	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	_seltz_	_seltz-	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	_soda	_sodo	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+10	water_	water-	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Mi vestii; mi tornai a vestire; fumai una scatola di sigari;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	vestii	vestii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	5	punct	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	tornai	tornare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	vestire	vestire	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	9	punct	_	_
+9	fumai	fumare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	scatola	scatola	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sigari	sigaro	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = mi ridussi lo stomaco in uno stato compassionevole.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	ridussi	ridutere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stato	stato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	compassionevole	compassionevole	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = E dopo tutto questo, non erano che le sette!
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	dopo	dopo	ADP	E	_	4	case	_	_
+3	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	sette	sette	NUM	N	NumType=Card	7	nsubj	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = Due ore ancora!
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

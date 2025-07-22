@@ -1,0 +1,140 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A quest'atroce brutalità, io dovetti arrossire sino alla radice dei capelli:
+1	A	a	ADP	E	_	3	case	_	_
+2	quest'	questo	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	atroce	atroce	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	brutalità	brutalità	NOUN	S	Gender=Fem	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	dovetti	dovetto	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+8	arrossire	arrossire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	sino	sino	ADV	B	_	12	case	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	radice	radice	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = mi sentii soffocare dall'ira e non risposi.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	sentii	sentii	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	soffocare	soffocare	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+4	da	da	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	ira	ira	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	risposi	risposare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Nino Stresa si accorse di tutto, certamente, giacchè mi guardò, stupefatto, con una meraviglia dolorosa negli occhi:
+1	Nino	Nino	PROPN	SP	_	4	nsubj	_	_
+2	Stresa	Stresa	PROPN	SP	_	1	flat:name	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	accorse	accorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	certamente	certamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	giacchè	giacché	CCONJ	CC	_	12	cc	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	stupefatto	stupefatto	ADV	B	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	meraviglia	meraviglia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+19	dolorosa	doloroso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	negli	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = mi salutò, di nuovo, e si allontanò lentamente.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	salutò	salute	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	allontanò	allontanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	lentamente	lentamente	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Lo sdegno mio non ebbe sfogo quella notte:
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	sfogo	sfogo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = e, man mano, si venne trasformando in un eccitamento di gioia, quasi convulso, che mi fece molto ridere, molto ballare e che mi fece anche cenare, io che non ceno mai, giacchè odio le donne che mangiano in pubblico.
+1	e	e	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	man	mano	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	trasformando	trasformare	VERB	V	VerbForm=Ger	40	advcl	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	eccitamento	eccitamento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	quasi	quasi	ADV	B	_	16	advmod	_	_
+16	convulso	convulso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+20	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+21	molto	molto	ADV	B	_	22	advmod	_	_
+22	ridere	ridere	VERB	V	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	molto	molto	ADV	B	_	25	advmod	_	_
+25	ballare	ballare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	iobj	_	_
+29	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	conj	_	_
+30	anche	anche	ADV	B	_	31	advmod	_	_
+31	cenare	cenare	VERB	V	VerbForm=Inf	29	xcomp	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	25	punct	_	_
+33	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+36	ceno	ceno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+37	mai	mai	ADV	B	_	36	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	8	punct	_	_
+39	giacchè	giacché	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	40	obj	_	_
+40	odio	odiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	donne	donna	NOUN	S	Gender=Fem|Number=Plur	40	obj	_	_
+43	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+44	mangiano	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	_	_
+45	in	in	ADP	E	_	46	case	_	_
+46	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	40	punct	_	SpacesAfter=\n
+

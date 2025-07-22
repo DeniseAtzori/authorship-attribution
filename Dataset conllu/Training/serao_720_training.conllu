@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non una lettera, non un telegramma.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	telegramma	telegramma	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Non poteva farmene, non doveva farmene, avevamo stabilito così.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3-5	farmene	_	_	_	_	_	_	_	SpaceAfter=No
+3	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9-11	farmene	_	_	_	_	_	_	_	SpaceAfter=No
+9	far	fare	VERB	V	VerbForm=Inf	3	conj	_	_
+10	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	stabilito	stabilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+15	così	così	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Viaggiava lei verso me?
+1	Viaggiava	Viaggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	verso	verso	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	obl	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Dove era lei in quel momento?
+1	Dove	dove	ADV	B	_	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Calcolando, potevo saperlo.
+1	Calcolando	calcolando	VERB	V	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4-5	saperlo	_	_	_	_	_	_	_	SpaceAfter=No
+4	saper	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = E se non venisse?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	venisse	venire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Tutte le più alte, le più inflessibili deduzioni matematiche sono capovolte da un picciolissimo fatto.
+1	Tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	9	det	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	alte	alto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	inflessibili	inflessibile	ADJ	A	Number=Plur	9	amod	_	_
+9	deduzioni	deduzione	NOUN	S	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+10	matematiche	matematico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	capovolte	capovolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	picciolissimo	picciolissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	16	amod	_	_
+16	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	12	obl:agent	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 8
+# text = Passeggiavo, fumavo, morsicchiando la mia sigaretta, lasciando che si spegnesse, gittandola nella via, accendendone un'altra.
+1	Passeggiavo	Passeggiavo	PROPN	SP	_	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	fumavo	fumavo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	morsicchiando	morsicchiare	VERB	V	VerbForm=Ger	15	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	sigaretta	sigaretta	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	lasciando	lasciare	VERB	V	VerbForm=Ger	5	advcl	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	spegnesse	spegnere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	gittandola	gittandolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	via	via	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20-21	accendendone	_	_	_	_	_	_	_	_
+20	accendendo	accendere	VERB	V	VerbForm=Ger	15	advcl	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+22	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

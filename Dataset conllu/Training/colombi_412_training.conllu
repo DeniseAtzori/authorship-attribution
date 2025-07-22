@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Maledetto il teatro, esclamò.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Maledetto	maledire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	esclamò	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = È quello che m'ha guastata la testa.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	SpaceAfter=No
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	guastata	guastare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	testa	testa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ero avvezza a vedere delle catastrofi, ed avevo bisogno di metterne una in fondo al mio dramma.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	avvezza	avvezzare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	catastrofi	catastrofe	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	_
+11	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	metterne	_	_	_	_	_	_	_	_
+13	metter	mettere	VERB	V	VerbForm=Inf	11	acl	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+15	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	13	obj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mi pareva che dopo dovessimo ritrovarci tutti dietro le quinte, e darci la mano sorridendo tra noi, per venir fuori a sorridere al pubblico.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	dopo	dopo	ADV	B	_	6	advmod	_	_
+5	dovessimo	dovessimo	AUX	VM	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6-7	ritrovarci	_	_	_	_	_	_	_	_
+6	ritrovar	ritrovare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+9	dietro	dietro	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	quinte	quinto	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14-15	darci	_	_	_	_	_	_	_	_
+14	dar	dare	VERB	V	VerbForm=Inf	6	conj	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mano	mano	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+18	sorridendo	sorridere	VERB	V	VerbForm=Ger	14	advcl	_	_
+19	tra	tra	ADP	E	_	20	case	_	_
+20	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	6	punct	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	venir	venire	VERB	V	VerbForm=Inf	6	advcl	_	_
+24	fuori	fuori	ADV	B	_	23	advmod	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	sorridere	sorridere	VERB	V	VerbForm=Inf	23	xcomp	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

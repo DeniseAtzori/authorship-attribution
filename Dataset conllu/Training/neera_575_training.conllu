@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sul volto di Elvira, per quanto poco mutevole, rimase come ombra mal dissipata il contrasto di tali opinioni.
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	volto	volto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Elvira	Elvira	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	quanto	quanto	ADV	B	_	7	fixed	_	_
+9	poco	poco	ADV	B	_	10	advmod	_	_
+10	mutevole	mutevole	ADJ	A	Number=Sing	12	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	mal	male	ADV	B	_	16	advmod	_	_
+16	dissipata	dissipare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	contrasto	contrasto	NOUN	S	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	tali	tale	DET	DD	Number=Plur|PronType=Dem	21	det	_	_
+21	opinioni	opinione	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Flavio non le era mai stato simpatico:
+1	Flavio	Flavio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+5	mai	mai	ADV	B	_	7	advmod	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	simpatico	simpatico	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = cresciuti quasi insieme, ella aveva disprezzato in lui il fanciullo misero, vestito male;
+1	cresciuti	crescere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	insieme	insieme	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	disprezzato	disprezzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	misero	midere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	vestito	vestire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15	male	male	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = sopratutto nella sua qualità di scolara modello lo aveva sempre considerato un essere inferiore, incapace di distinguersi, di diventare un uomo a modo.
+1	sopratutto	sopratutto	ADV	B	_	12	advmod	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	qualità	qualità	NOUN	S	Gender=Fem	12	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	scolara	scolara	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	modello	modello	NOUN	S	Gender=Masc|Number=Sing	7	compound	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	essere	essere	AUX	V	VerbForm=Inf	15	cop	_	_
+15	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	12	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	incapace	incapace	ADJ	A	Number=Sing	15	amod	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19-20	distinguersi	_	_	_	_	_	_	_	SpaceAfter=No
+19	distinguer	distinguere	VERB	V	VerbForm=Inf	17	advcl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	diventare	diventare	VERB	V	VerbForm=Inf	19	conj	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	23	xcomp	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	modo	modo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

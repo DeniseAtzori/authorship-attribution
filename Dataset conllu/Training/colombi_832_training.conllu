@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ora sono due anni che il signor Teodoro è tornato dall'America con quel figliolino, che s'è rinforzato un po';
+1	Ora	ora	ADV	B	_	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	signor	signore	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	Teodoro	Teodoro	PROPN	SP	_	7	nmod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+11-12	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+11	da	da	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	America	America	PROPN	SP	_	10	obl	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	figliolino	figliolino	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	rinforzato	rinforzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	po'	poco	ADV	B	_	21	advmod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = la moglie gli è morta laggiù in mezzo ai selvaggi;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	laggiù	laggiù	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	selvaggi	selvaggio	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = e lui ha girato un po' a Vercelli, un po' a Chivasso, un po' a Torino, ha finito di consumare quei pochi quattrini che aveva, ed ora è venuto a Santhià, e vorrebbe che il fratello si rimettesse a far interessi comuni con lui.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	girato	girare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	po'	poco	ADV	B	_	8	advmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Vercelli	Vercelli	PROPN	SP	_	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	po'	poco	ADV	B	_	13	advmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Chivasso	Chivasso	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	po'	poco	ADV	B	_	18	advmod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Torino	Torino	PROPN	SP	_	4	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	consumare	consumare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	26	det	_	_
+25	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+26	quattrini	quattrino	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	33	punct	_	_
+30	ed	e	CCONJ	CC	_	33	cc	_	_
+31	ora	ora	ADV	B	_	33	advmod	_	_
+32	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	Santhià	Santhià	PROPN	SP	_	33	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+39	che	che	SCONJ	CS	_	43	mark	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	43	nsubj	_	_
+42	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	43	expl	_	_
+43	rimettesse	rimettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	ccomp	_	_
+44	a	a	ADP	E	_	45	mark	_	_
+45	far	fare	VERB	V	VerbForm=Inf	43	xcomp	_	_
+46	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	45	obj	_	_
+47	comuni	comune	ADJ	A	Number=Plur	46	amod	_	_
+48	con	con	ADP	E	_	49	case	_	_
+49	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	obl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

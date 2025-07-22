@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anna tese le mani istintivamente verso la casa come in un appello supremo e rivide le larve, abbracciò in un punto solo passato ed avvenire, quello che era e quello che doveva essere.
+1	Anna	Anna	PROPN	SP	_	2	nsubj	_	_
+2	tese	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	mani	mano	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	istintivamente	istintivamente	ADV	B	_	8	advmod	_	_
+6	verso	verso	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	come	come	ADV	B	_	12	advmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	appello	appello	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	supremo	supremo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	rivide	rividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	larve	larva	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	abbracciò	abbracciare	ADV	B	_	22	advmod	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+23	solo	solo	ADV	B	_	24	advmod	_	_
+24	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+25	ed	e	CCONJ	CC	_	26	cc	_	_
+26	avvenire	avvenire	VERB	V	VerbForm=Inf	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+30	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	cop	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	28	acl:relcl	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+35	essere	essere	VERB	V	VerbForm=Inf	32	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non aveva egli ragione?
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	egli	ello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non era egli nella natura e nella verità?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	egli	egliere	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	natura	natura	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	verità	verità	NOUN	S	Gender=Fem	6	conj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Tutto il resto doveva perire.
+1	Tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	5	det	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	perire	perire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,131 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'uscio non era neppure chiuso a chiave.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	neppure	neppure	ADV	BN	PronType=Neg	6	advmod	_	_
+6	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	chiave	chiava	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Vincenzo sapeva che in quella modesta locanda di villaggio non c'era caso che i camerieri entrassero a sorprenderlo.
+1	Vincenzo	Vincenzo	PROPN	SP	_	2	nsubj	_	_
+2	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	12	mark	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	modesta	modesto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	locanda	locanda	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+12	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+13	caso	caso	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	camerieri	cameriere	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+17	entrassero	entrare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19-20	sorprenderlo	_	_	_	_	_	_	_	SpaceAfter=No
+19	sorprender	sorprendere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Il povero giovane era steso sul letto, colle vene dei polsi aperte, pallido, freddo, morto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	povero	povero	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	giovane	giovane	ADJ	A	Number=Sing	2	amod	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	steso	steso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	letto	letto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10-11	colle	_	_	_	_	_	_	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	vene	vena	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	polsi	polso	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	aperte	aperto	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	pallido	pallido	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	morto	morto	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Il braccio destro pendeva giù dal letto, ed il sangue sgocciolava ancora per terra.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	destro	destro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	pendeva	pendevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	giù	giù	ADV	B	_	4	advmod	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	letto	letto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ed	e	CCONJ	CC	_	13	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	sgocciolava	sgocciolavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+14	ancora	ancora	ADV	B	_	13	advmod	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	terra	terra	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Il sinistro era steso lungo il fianco ed immerso nel sangue che aveva inzuppate lenzuola e coperte.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sinistro	sinistro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	steso	stendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	lungo	lungo	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	ed	e	CCONJ	CC	_	9	cc	_	_
+9	immerso	immergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	inzuppate	inzuppare	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	lenzuola	lenzuola	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	coperte	coperta	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ma un grumo che si era fermato sulla ferita aveva arrestato l'emorragia.
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	grumo	grumo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ferita	ferita	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	emorragia	emorragia	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Voglio scrivere a voi, in quest'ora di morte.
+1	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	scrivere	scrivere	VERB	V	VerbForm=Inf	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	quest'	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	morte	morte	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non voglio mandare a mio padre, così amabile e così indifferente, così indulgente e così freddo, l'ultima mia parola:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	mandare	mandare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	padre	padre	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	amabile	amabile	ADJ	A	Number=Sing	3	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	indifferente	indifferente	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	così	così	ADV	B	_	15	advmod	_	_
+15	indulgente	indulgente	ADJ	A	Number=Sing	19	amod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	così	così	ADV	B	_	18	advmod	_	_
+18	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+21	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	23	amod	_	_
+22	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	parola	parola	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = non a mio marito, tanto cortese e tanto crudele, voglio scrivere io, per dargli l'ultimo saluto.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	marito	marito	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	tanto	tanto	ADV	B	_	7	advmod	_	_
+7	cortese	cortesa	ADJ	A	Number=Sing	4	amod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	tanto	tanto	ADV	B	_	10	advmod	_	_
+10	crudele	crudele	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	scrivere	scrivere	VERB	V	VerbForm=Inf	0	root	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17-18	dargli	_	_	_	_	_	_	_	_
+17	dar	dare	VERB	V	VerbForm=Inf	13	advcl	_	_
+18	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+20	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+21	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Quando sentiranno che io mi sono uccisa, ne avranno grande sgomento, perchè la morte fa paura agli indifferenti e ai crudeli: dopo, diranno che _così dovea finire_.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	sentiranno	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	uccisa	uccidere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+10	avranno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	sgomento	sgomento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	perchè	perché	SCONJ	CS	_	17	mark	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	morte	morte	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+17	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+18	paura	paura	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+19-20	agli	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	indifferenti	indifferento	ADJ	A	Number=Plur	17	obl	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	ai	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	crudeli	crudele	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	10	punct	_	_
+27	dopo	dopo	ADV	B	_	10	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	diranno	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	conj	_	_
+30	che	che	SCONJ	CS	_	32	mark	_	_
+31	_così	_così	ADV	B	_	32	advmod	_	_
+32	dovea	doveo	ADJ	A	Gender=Fem|Number=Sing	29	ccomp	_	_
+33	finire_	finire-	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

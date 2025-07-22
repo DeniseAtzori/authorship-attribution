@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Uscii di casa sola, paurosa, febbricitante, nascondendomi come un'adultera, ed andai a quell'appuntamento per ricuperare le mie lettere, il mio onore, l'onore di mio marito e di mio figlio.
+1	Uscii	Uscio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	paurosa	paurosa	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	febbricitante	febbricitante	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10-11	nascondendomi	_	_	_	_	_	_	_	_
+10	nascondendo	nascondere	VERB	V	VerbForm=Ger	1	advcl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+12	come	come	ADP	E	_	14	case	_	_
+13	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	adultera	adultera	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ed	e	CCONJ	CC	_	17	cc	_	_
+17	andai	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	conj	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	quell'	quello	DET	DD	Number=Sing|PronType=Dem	20	det	_	SpaceAfter=No
+20	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	ricuperare	ricuperare	VERB	V	VerbForm=Inf	17	advcl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	onore	onore	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	onore	onore	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	marito	marito	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = — Era per Marco che facevo quel passo;
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	Marco	Marco	PROPN	SP	_	2	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	passo	passo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = per la sua pace, per non espormi al suo disprezzo;
+1	per	per	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	pace	pace	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	per	per	ADP	E	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	espormi	espormare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	disprezzo	disprezzo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 4
+# text = che so io?
+1	che	che	SCONJ	CS	_	2	mark	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	xcomp	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = perchè lo amavo, ed avevo paura.
+1	perchè	perché	SCONJ	CS	_	3	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	amavo	amavo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ed	e	CCONJ	CC	_	6	cc	_	_
+6	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+7	paura	paura	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

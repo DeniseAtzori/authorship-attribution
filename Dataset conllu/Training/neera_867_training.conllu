@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Appena furono partiti corse ad aprire le finestre e nell’aria pura che entrava respirò a pieni polmoni, sollevata, libera; libera finalmente!
+1	Appena	appena	ADV	B	_	3	advmod	_	_
+2	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	partiti	partire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	corse	corso	NOUN	S	Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+5	ad	a	ADP	E	_	6	mark	_	_
+6	aprire	aprire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10-11	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+10	in	in	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	aria	aria	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13	pura	puro	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+16	respirò	respirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	polmoni	polmone	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	sollevata	sollevato	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	libera	libero	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	25	punct	_	_
+25	libera	liberare	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	_
+26	finalmente	finalmente	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Rientrò poi nella stanza misurandola a passi rapidi, mettendo a posto una sedia, un ricamo;
+1	Rientrò	rientrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	poi	poi	ADV	B	_	1	advmod	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	misurandola	misurandolo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	passi	passo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+9	rapidi	rapido	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	mettendo	mettere	VERB	V	VerbForm=Ger	1	advcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	posto	porre	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ricamo	ricamo	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = la sua persona le apparve di traverso in uno specchio e si piacque:
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	apparve	apparva	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	traverso	traverso	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nmod	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	piacque	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 4
+# text = un’onda di gioia la invase tutta.
+1	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	onda	onda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	invase	invase	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Disse forte: Moena! Moena!...
+1	Disse	dire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	forte	forte	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	Moena	Moena	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+6	Moena!...	Moena!...	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+

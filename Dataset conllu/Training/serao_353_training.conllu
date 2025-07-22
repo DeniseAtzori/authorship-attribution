@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Talvolta — e sempre senz’averne coscienza — un bimbo è così sottilmente scettico che ci sgomenta, noi che avemmo un’infanzia molto più grossolana, molto più animalesca, ma molto più allegra.
+1	Talvolta	talvolta	ADV	B	_	8	advmod	_	_
+2	—	—	PUNCT	FF	_	1	punct	_	_
+3	e	e	CCONJ	CC	_	8	cc	_	_
+4	sempre	sempre	ADV	B	_	8	advmod	_	_
+5	senz’	senzo	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6-7	averne	_	_	_	_	_	_	_	_
+6	aver	avere	NOUN	S	_	8	nsubj	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	coscienza	coscienza	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	—	—	PUNCT	FF	_	8	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	così	così	ADV	B	_	15	advmod	_	_
+14	sottilmente	sottilmente	ADV	B	_	15	advmod	_	_
+15	scettico	scettico	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	18	obj	_	_
+18	sgomenta	sgomentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	18	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	avemmo	avee	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	molto	molto	ADV	B	_	26	advmod	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	grossolana	grossolano	ADJ	A	Gender=Fem|Number=Sing	22	xcomp	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	molto	molto	ADV	B	_	30	advmod	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31	animalesca	animalesco	ADJ	A	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	36	punct	_	_
+33	ma	ma	CCONJ	CC	_	36	cc	_	_
+34	molto	molto	ADV	B	_	35	advmod	_	_
+35	più	più	ADV	B	_	36	advmod	_	_
+36	allegra	allegro	ADJ	A	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Il bimbo moderno legge troppi libri illustrati ed ha per mano troppi giornali.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	moderno	moderno	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	troppi	troppo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	libri	libro	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	illustrati	illustrare	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	ed	e	CCONJ	CC	_	9	cc	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	mano	mano	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	troppi	troppo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Quando suo padre parla tranquillamente di suicidio, quando suo zio si burla della religione, egli tende l’orecchio.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tranquillamente	tranquillo	ADV	B	_	4	advmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	suicidio	suicidio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	quando	quando	SCONJ	CS	_	19	mark	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	zio	zio	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	burla	burla	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	religione	religione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	tende	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

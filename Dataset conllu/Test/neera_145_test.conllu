@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questa visita mi lasciò un lungo strascico di amarezza, un malcontento, una inquietudine.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	visita	visita	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	strascico	strascico	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	malcontento	malcontento	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	inquietudine	inquietudine	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Tornò due giorni dopo alla stessa ora, col medesimo contegno distratto e superficiale.
+1	Tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	dopo	dopo	ADV	B	_	8	case	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10-11	col	_	_	_	_	_	_	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	medesimo	medesimo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	contegno	contegno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+14	distratto	distratto	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	superficiale	superficiale	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Alla terza o alla quarta visita compresi che la spiegazione non sarebbe più venuta.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	0	root	_	_
+4	o	o	CCONJ	CC	_	8	cc	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	quarta	quarto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	visita	visita	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+9	compresi	comprendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	spiegazione	spiegazione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Tutto era finito nel modo più impreveduto e più volgare.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	impreveduto	impreveduto	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	volgare	volgare	VERB	V	VerbForm=Inf	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

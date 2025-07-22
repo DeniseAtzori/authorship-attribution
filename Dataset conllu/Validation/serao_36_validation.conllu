@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ora il viaggio gli sembrava interminabilmente lungo, e lo spettacolo della campagna romana, quello squallore maestoso, l'opprimeva.
+1	Ora	ora	ADV	B	_	5	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	interminabilmente	interminabilmente	ADV	B	_	7	advmod	_	_
+7	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	romana	romano	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	conj	_	_
+18	squallore	squallore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+19	maestoso	maestoso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	opprimeva	opprimere	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Non finiva dunque mai?
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	finiva	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	dunque	dunque	ADV	B	_	2	advmod	_	_
+4	mai	mai	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non sarebbe dunque mai a Roma?
+1	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+2	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	dunque	dunque	ADV	B	_	6	advmod	_	_
+4	mai	mai	ADV	B	_	6	advmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Roma	Roma	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Aveva sonno:
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = un intorpidimento gli si dilatava dalla nuca a tutte le membra, la sua bocca era pastosa e amara, come se uscisse da una malattia; e la sua impazienza diventava pena, un piccolo tormento; egli si lamentava con se stesso, come se gli facessero un'ingiustizia.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	intorpidimento	intorpidimento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	dilatava	dilatare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	nuca	nuca	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	membra	membro	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+18	pastosa	pastoso	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	amara	amaro	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	come	come	ADV	B	_	24	mark	_	_
+23	se	se	SCONJ	CS	_	22	fixed	_	_
+24	uscisse	uscire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	24	obl:agent	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	33	punct	_	_
+29	e	e	CCONJ	CC	_	33	cc	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	impazienza	impazienza	NOUN	S	Gender=Fem|Number=Sing	33	nsubj	_	_
+33	diventava	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+34	pena	pena	ADV	B	_	33	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+38	tormento	tormento	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No
+39	;	;	PUNCT	FC	_	42	punct	_	_
+40	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
+41	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl	_	_
+42	lamentava	lamentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+43	con	con	ADP	E	_	44	case	_	_
+44	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	obl	_	_
+45	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	42	punct	_	_
+47	come	come	ADV	B	_	50	mark	_	_
+48	se	se	SCONJ	CS	_	47	fixed	_	_
+49	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	iobj	_	_
+50	facessero	fare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	42	advcl	_	_
+51	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	SpaceAfter=No
+52	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	50	obj	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

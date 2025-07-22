@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Giorno e notte pensavo al modo di diminuire quelle spese.
+1	Giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+4	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	diminuire	diminuire	VERB	V	VerbForm=Inf	7	acl	_	_
+10	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+11	spese	spese	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Rinunciai a ber vino per farmi ribassare di qualche lira il prezzo della pensione;
+1	Rinunciai	Rinunciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	ber	bere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	vino	vino	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	ribassare	ribassare	VERB	V	VerbForm=Inf	6	acl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	lira	lira	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = ma tant'è tanto, se mi riesciva di pagare la lavandaia, la stiratrice ed il lume, per la legna non mi rimaneva nulla.
+1	ma	ma	CCONJ	CC	_	25	cc	_	_
+2	tant'	tanto	PRON	PI	Number=Sing|PronType=Ind	25	nsubj	_	SpaceAfter=No
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+4	tanto	tanto	ADV	B	_	25	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	riesciva	riescire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	pagare	pagare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lavandaia	lavandaia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	stiratrice	stiratore	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+16	ed	e	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lume	lume	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	legna	legna	NOUN	S	Gender=Fem	25	obl	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+25	rimaneva	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+26	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 4
+# text = E quel ribasso di prezzo aveva anche ribassata l'opinione che la padrona di casa aveva di me.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	ribasso	ribasso	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	ribassata	ribassare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	che	che	SCONJ	CS	_	16	mark	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Mi trattava con disprezzo.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	trattava	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	disprezzo	disprezzo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

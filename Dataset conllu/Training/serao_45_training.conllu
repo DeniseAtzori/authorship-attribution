@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quando c'incontravamo, poco mi parlava:
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	incontravamo	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	poco	poco	ADV	B	_	7	advmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = si contentava di guardarmi, con infinita tenerezza:
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	contentava	contentavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	guardarmi	_	_	_	_	_	_	_	SpaceAfter=No
+4	guardar	guardare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	infinita	infinito	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = mi ascoltava parlare, come se udisse una mistica e misteriosa musica, percepita solo dalla sua anima: e io, sentendo la rarità dell'attimo amoroso, non gli dicevo nulla delle mie sofferenze, volevo godere in tutta la sua essenza purissima quel momento di suprema consolazione.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	ascoltava	ascoltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	come	come	ADV	B	_	7	advmod	_	_
+6	se	se	SCONJ	CS	_	7	mark	_	_
+7	udisse	udire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+9	mistica	mistico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	misteriosa	misterioso	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	_
+12	musica	musica	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	percepita	percepire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15	solo	solo	ADV	B	_	19	advmod	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	anima	anima	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	sentendo	sentire	VERB	V	VerbForm=Ger	2	advcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	rarità	rarità	NOUN	S	Gender=Fem	24	obj	_	_
+27-28	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+27	di	di	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	amoroso	amoroso	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+33	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	iobj	_	_
+34	dicevo	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	_
+35	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	34	obj	_	_
+36-37	delle	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	39	case	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+38	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	sofferenze	sofferenza	NOUN	S	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	42	punct	_	_
+41	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	42	aux	_	_
+42	godere	godere	VERB	V	VerbForm=Inf	2	conj	_	_
+43	in	in	ADP	E	_	47	case	_	_
+44	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	47	det:predet	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+46	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	47	det:poss	_	_
+47	essenza	essenza	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+48	purissima	pure	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	42	xcomp	_	_
+49	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	50	det	_	_
+50	momento	momento	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	_
+51	di	di	ADP	E	_	53	case	_	_
+52	suprema	supremo	ADJ	A	Gender=Fem|Number=Sing	53	amod	_	_
+53	consolazione	consolazione	NOUN	S	Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Forse erano fantasmi?
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	fantasmi	fantasmi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Forse invece erano semplicemente uomini e allora era lei stessa che si trovava fuori della comunità, salamandra viva in un cerchio di fuoco, trasfigurata, transumanata.
+1	Forse	forse	ADV	B	_	5	advmod	_	_
+2	invece	invece	ADV	B	_	5	advmod	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	semplicemente	semplicemente	ADV	B	_	5	advmod	_	_
+5	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	allora	allora	ADV	B	_	9	advmod	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	conj	_	_
+10	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+14	fuori	fuori	ADV	B	_	17	case	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	14	fixed	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	comunità	comunità	NOUN	S	Gender=Fem	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	salamandra	salamandra	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+20	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	5	punct	_	_
+27	trasfigurata	trasfigurata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	transumanata	transumanata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ebbene?
+1	Ebbene	ebbene	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = La coscienza di poter offrire un amore raro, di rispondere veramente al bel nome di Unica che Ariele le aveva dato, sosteneva il suo orgoglio all’altezza del suo amore.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	poter	potere	AUX	VM	VerbForm=Inf	5	aux	_	_
+5	offrire	offrire	VERB	V	VerbForm=Inf	2	acl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	raro	raro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	rispondere	rispondere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+12	veramente	veramente	ADV	B	_	11	advmod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	bel	bello	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	nome	nome	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Unica	unica	PROPN	SP	_	16	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+20	Ariele	Ariele	PROPN	SP	_	23	nsubj	_	_
+21	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	sosteneva	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+29-30	all’	_	_	_	_	_	_	_	SpaceAfter=No
+29	a	a	ADP	E	_	31	case	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	amore	amore	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	25	punct	_	SpacesAfter=\n
+

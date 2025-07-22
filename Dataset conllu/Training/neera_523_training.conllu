@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Un grande filosofo lo ha già detto.
+1	—	—	PUNCT	FF	_	8	punct	_	_
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	grande	grande	ADJ	A	Number=Sing	4	amod	_	_
+4	filosofo	filosofo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = “Non è cosa saggia nè filosofica pretendere che tutta la vita lo sia„.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	saggia	saggio	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	nè	né	CCONJ	CC	_	7	cc	_	_
+7	filosofica	filosofico	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+8	pretendere	pretendere	VERB	V	VerbForm=Inf	0	root	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	12	det:predet	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vita	vita	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+15	„	„	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Mi arrendo; anzi vorrei sapere che cosa dicono in proposito i miei pollici.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	arrendo	arrere	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	6	punct	_	_
+4	anzi	anzi	ADV	B	_	6	advmod	_	_
+5	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	2	conj	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	9	nsubj	_	_
+9	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	pollici	pollico	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non c'è male, mi pare.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	male	male	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = In ambedue le falangi si uniscono senza linee di interruzione.
+1	In	in	ADP	E	_	4	case	_	_
+2	ambedue	ambedue	DET	T	Number=Plur|PronType=Tot	4	det	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	falangi	falangio	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	uniscono	unire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	linee	linea	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	interruzione	interruzione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Viva la negromanzia!
+1	Viva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	negromanzia	negromanzia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

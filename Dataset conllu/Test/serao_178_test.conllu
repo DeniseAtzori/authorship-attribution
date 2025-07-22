@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Uscirono insieme sul pianerottolo:
+1	Uscirono	uscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	insieme	insieme	ADV	B	_	1	advmod	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pianerottolo	pianerottolo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = ora si vedeva il pallore opaco, di avorio, di quel volto trentenne e gli occhi di un nero cupo, torbido, di carbone, con qualche cosa di claustrale, dentro.
+1	ora	ora	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pallore	pallore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	opaco	opaco	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	avorio	avorio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	volto	volto	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+14	trentenne	trentenne	ADJ	A	_	13	amod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	nero	nero	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	cupo	cupo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	torbido	torbido	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	5	punct	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	30	det	_	_
+30	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	claustrale	claustrale	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	dentro	dentro	ADV	B	_	3	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = La mano bianca e grassa della signora si arrotondò mollemente sulla chiave.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mano	mano	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	grassa	grasso	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	signora	signore	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	arrotondò	arrotondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	mollemente	mollemente	ADV	B	_	10	advmod	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Il quartino era piccolo, ma luminoso, gaio, come se fosse nel sole dell'aperta campagna.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	quartino	quartino	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	luminoso	luminoso	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	gaio	gaio	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	come	come	ADV	B	_	16	advmod	_	_
+12	se	se	SCONJ	CS	_	16	mark	_	_
+13	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sole	sole	NOUN	S	Gender=Masc|Number=Sing	4	advcl	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	20	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+19	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

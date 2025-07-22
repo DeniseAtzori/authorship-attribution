@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Io, vedi, preferisco il dubbio doloroso di un'anima ardente alla tranquilla acquiescenza di chi non si è mai domandato una volta nella vita:
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	preferisco	preferire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	doloroso	doloroso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	anima	anima	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13	ardente	ardente	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	12	acl	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	acquiescenza	acquiescenza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	chi	chi	PRON	PR	Number=Sing|PronType=Rel	17	nmod	_	_
+20	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	mai	mai	ADV	B	_	24	advmod	_	_
+24	domandato	domandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	volta	volta	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27-28	nella	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	vita	vita	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = dove vado?
+1	dove	dove	ADV	B	_	2	advmod	_	_
+2	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Religiosa è per me la persona che si inchina davanti al mistero e lo rispetta, non colei che sul mistero non ha mai palpitato e professa i riti nello stesso modo che metterebbe un paio di guanti.
+1	Religiosa	religiosa	PRON	PQ	Number=Sing|PronType=Int	16	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	persona	persona	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	inchina	inchinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	davanti	davanti	ADV	B	_	13	case	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	rispetta	rispettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	colei	colei	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj	_	_
+20	che	che	SCONJ	CS	_	27	mark	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+24	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	mai	mai	ADV	B	_	27	advmod	_	_
+27	palpitato	palpitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	ccomp	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	professa	profettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	riti	rite	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+32-33	nello	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	35	case	_	_
+33	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+35	modo	modo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+36	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+37	metterebbe	mettere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	paio	paio	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	guanti	guanto	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

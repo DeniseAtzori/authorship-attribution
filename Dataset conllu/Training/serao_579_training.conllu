@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sì, Chérie è sentimentale, buona e anche un poco sciocca, Ha una sentimentalità tutta superficiale e una fantasia molto limitata.
+1	Sì	sì	INTJ	I	Polarity=Pos	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Chérie	Chérie	PROPN	SP	_	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	sentimentale	sentimentale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	buona	buono	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	poco	poco	ADV	B	_	12	advmod	_	_
+12	sciocca	sciocco	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	Ha	avere	PROPN	SP	_	5	conj	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	sentimentalità	sentimentalità	NOUN	S	Gender=Fem	14	appos	_	_
+17	tutta	tutto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
+18	superficiale	superficiale	ADJ	A	Number=Sing	16	amod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+22	molto	molto	ADV	B	_	23	advmod	_	_
+23	limitata	limitato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Le cose che dice sono, spesso, molto ingenue o molto sceme, ma le dice con grazia e sovra tutto con una voce!
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	spesso	spesso	ADV	B	_	10	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	ingenue	ingenuo	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	sceme	sceme	ADV	B	_	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+17	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	sovra	sovrare	ADP	E	_	22	case	_	_
+22	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	conj	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	voce	voce	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+26	!	!	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Sa qualche verso, ma per lo più, ne sbaglia l'autore:
+1	Sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	verso	verso	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	11	punct	_	_
+5	ma	ma	CCONJ	CC	_	11	cc	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	più	più	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	autore	autore	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = legge, ogni tanto, qualche libro, ma Ohnet è il suo autore preferito.
+1	legge	legge	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	libro	libro	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	ma	ma	CCONJ	CC	_	14	cc	_	_
+10	Ohnet	Ohnet	PROPN	SP	_	14	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	autore	autore	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+15	preferito	preferito	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

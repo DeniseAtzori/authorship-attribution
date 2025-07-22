@@ -1,0 +1,142 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Era una donna schietta, passionale, ardita;
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	schietta	schietto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	passionale	passionale	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	ardita	ardire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = un carattere indipendente, un po' maschio;
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	indipendente	indipendente	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	po'	poco	ADV	B	_	7	advmod	_	_
+7	maschio	maschio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = si riscaldava facilmente, pronta a secondare il primo impulso del cuore che credeva il migliore.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	riscaldava	riscaldare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	facilmente	facilmente	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	secondare	secondare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+10	impulso	impulso	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	credeva	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	15	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Si esaltava per l'arte, si entusiasmava d'un autore, d'un attore, anche d'una attrice;
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	esaltava	esaltavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	arte	arte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	entusiasmava	entusiasmare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+9	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	autore	autore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	d'	da	ADP	E	_	15	case	_	SpaceAfter=No
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	attore	attore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	anche	anche	ADV	B	_	20	advmod	_	_
+18	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = voleva conoscerli, ed aveva delle parole e dei modi per esprimere la sua ammirazione che rivelavano tutto l'ardore della sua anima d'artista.
+1	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2-3	conoscerli	_	_	_	_	_	_	_	SpaceAfter=No
+2	conoscer	conoscere	VERB	V	VerbForm=Inf	0	root	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ed	e	CCONJ	CC	_	6	cc	_	_
+6	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	modi	modo	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	esprimere	esprimere	VERB	V	VerbForm=Inf	6	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	ammirazione	ammirazione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	rivelavano	rivelare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+21	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	23	det:predet	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	anima	anima	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+28	d'	di	ADP	E	_	29	case	_	SpaceAfter=No
+29	artista	artista	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Io sentivo il bisogno di riscaldare il mio povero cuore assiderato ad un cuore di quella tempra;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	riscaldare	riscaldare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	povero	povero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+11	assiderato	assiderare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	ad	a	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	tempra	tempra	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = il pensiero di essere amato così m'inebriava.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	così	così	ADV	B	_	8	advmod	_	_
+7	m'	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+8	inebriava	inebriavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

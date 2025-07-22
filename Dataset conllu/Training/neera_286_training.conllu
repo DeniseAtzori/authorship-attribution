@@ -1,0 +1,136 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutte le cose sono di tutti gli uomini.
+1	Tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Bellissima dichiarazione, ma qual’è l’uomo che possiede tutte le cose, astrazione fatta di colui che tutte le tiene nel suo cervello e che una volta si chiamava il saggio?
+1	Bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	2	amod	_	_
+2	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	ma	ma	CCONJ	CC	_	8	cc	_	_
+5	qual’	iqual	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	iobj	_	SpaceAfter=No
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	possiede	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	13	det:predet	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	astrazione	astrazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+16	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	colui	colui	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	22	case	_	_
+20	tutte	tutte	DET	T	Gender=Fem|Number=Plur|PronType=Tot	22	det:predet	_	_
+21	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	tiene	tenere	NOUN	S	Gender=Fem|Number=Plur	18	acl:relcl	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+27	e	e	CCONJ	CC	_	32	cc	_	_
+28	che	che	SCONJ	CS	_	32	mark	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	volta	volta	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	saggio	saggio	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+35	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Tutte le condizioni sono pari.
+1	Tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pari	pari	ADJ	A	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ed è vero;
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = ma pari davanti a che?
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	pari	pari	ADJ	A	_	0	root	_	_
+3	davanti	davanti	ADV	B	_	5	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	che	che	PRON	PQ	PronType=Int	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Tra loro no, evidentemente, perchè un macellaio, uno scrittore, un tintore, un suonatore di violino, un medico, un imbianchino, un maestro non possono vestire allo stesso modo, nè allo stesso modo lavorare, nè ogni singolo lavoro misurare ad eguale stregua.
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	32	obl	_	_
+3	no	no	ADV	BN	PronType=Neg	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	evidentemente	evidentemente	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	perchè	poiperché	SCONJ	CS	_	32	mark	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	macellaio	macellaio	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tintore	tintore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	suonatore	suonatore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	violino	violino	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	medico	medico	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	imbianchino	imbianchino	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	9	punct	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	32	nsubj	_	_
+30	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+31	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	vestire	vestire	VERB	V	VerbForm=Inf	0	root	_	_
+33-34	allo	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	36	case	_	_
+34	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+36	modo	modo	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	43	punct	_	_
+38	nè	né	CCONJ	CC	_	43	cc	_	_
+39-40	allo	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	42	case	_	_
+40	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+42	modo	modo	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	_
+43	lavorare	lavorare	VERB	V	VerbForm=Inf	32	conj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	48	punct	_	_
+45	nè	né	CCONJ	CC	_	48	cc	_	_
+46	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	48	det	_	_
+47	singolo	singolo	ADJ	A	Gender=Masc|Number=Sing	48	amod	_	_
+48	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	32	conj	_	_
+49	misurare	misurare	VERB	V	VerbForm=Inf	48	acl	_	_
+50	ad	a	ADP	E	_	52	case	_	_
+51	eguale	eguale	ADJ	A	Number=Sing	52	amod	_	_
+52	stregua	stregua	NOUN	S	Gender=Fem|Number=Sing	49	obl	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	32	punct	_	SpacesAfter=\n
+

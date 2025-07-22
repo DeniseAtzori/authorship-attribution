@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un viaggiatore arrivando presso una tribù selvaggia trovò tutti gli abitanti schierati in processione attorno ad una vecchia la quale, ornata di monili e di colori smaglianti, era fatta segno alle più grandi ovazioni della tribù che le saltellava intorno con capriole giulive e stridore assordante di grida e di istrumenti in segno di omaggio.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viaggiatore	viaggiatore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	arrivando	arrivare	VERB	V	VerbForm=Ger	2	acl	_	_
+4	presso	presso	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tribù	tribù	NOUN	S	Gender=Fem	3	obl	_	_
+7	selvaggia	selvaggio	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	abitanti	abitante	NOUN	S	Number=Plur	8	obj	_	_
+12	schierati	schierare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	processione	processione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	attorno	attorno	ADV	B	_	18	case	_	_
+16	ad	a	ADP	E	_	15	fixed	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vecchia	vecchio	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	quale	quale	PRON	PR	Number=Sing|PronType=Rel	31	nsubj:pass	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	ornata	ornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	monili	monile	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	colori	colore	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	_
+28	smaglianti	smagliante	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	20	punct	_	_
+30	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux:pass	_	_
+31	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+32	segno	segno	NOUN	S	Gender=Masc|Number=Sing	31	xcomp	_	_
+33-34	alle	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	37	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+35	più	più	ADV	B	_	36	advmod	_	_
+36	grandi	grande	ADJ	A	Number=Plur	37	amod	_	_
+37	ovazioni	ovazioni	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	tribù	tribù	NOUN	S	Gender=Fem	37	nmod	_	_
+41	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+42	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	iobj	_	_
+43	saltellava	saltellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	acl:relcl	_	_
+44	intorno	intorno	ADV	B	_	46	case	_	_
+45	con	con	ADP	E	_	44	fixed	_	_
+46	capriole	capriola	NOUN	S	Gender=Fem|Number=Plur	43	obl	_	_
+47	giulive	giulive	ADJ	A	Gender=Fem|Number=Plur	46	amod	_	_
+48	e	e	CCONJ	CC	_	49	cc	_	_
+49	stridore	stridore	NOUN	S	Gender=Masc|Number=Sing	47	conj	_	_
+50	assordante	assordante	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	49	acl	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	grida	grida	NOUN	S	Gender=Fem|Number=Sing	50	obl	_	_
+53	e	e	CCONJ	CC	_	55	cc	_	_
+54	di	di	ADP	E	_	55	case	_	_
+55	istrumenti	istrumento	NOUN	S	Gender=Masc|Number=Plur	52	conj	_	_
+56	in	in	ADP	E	_	57	case	_	_
+57	segno	segno	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	_
+58	di	di	ADP	E	_	59	case	_	_
+59	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	57	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

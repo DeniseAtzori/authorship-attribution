@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il quartino che dava sulla strada era pieno di luce, e i mobili, quasi nuovi, pretendevano alla eleganza.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	quartino	quartino	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	luce	luce	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	mobili	mobile	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	quasi	quasi	ADV	B	_	18	advmod	_	_
+18	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	pretendevano	pretendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	eleganza	eleganza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Un vaso di maiolica per fiori posava sopra un tavolino:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vaso	vaso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	maiolica	maiolica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	posava	posare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	sopra	sopra	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = vi era un caminetto, un vero e buon caminetto, l'estremo lusso delle case borghesi romane.
+1	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	caminetto	caminetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+7	vero	vero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	buon	buono	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	_
+10	caminetto	caminetto	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	estremo	estremo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	lusso	lusso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	case	casa	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18	borghesi	borghese	ADJ	A	Number=Plur	17	amod	_	_
+19	romane	romano	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = «Qui si può accendere il fuoco e dopo pranzo d'inverno, è un piacere,» disse la portinaia.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Qui	qui	ADV	B	_	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	accendere	accendere	VERB	V	VerbForm=Inf	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	dopo	dopo	ADP	E	_	10	case	_	_
+10	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	5	punct	_	_
+19	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	portinaia	portinaio	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = «Il caminetto ci è in tutti i piani:
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caminetto	caminetto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	piani	piano	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = che anzi il deputato del primo piano lo fa accendere dalla mattina, una gran fiammata tutto il giorno».
+1	che	che	SCONJ	CS	_	10	mark	_	_
+2	anzi	anzi	ADV	B	_	10	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	piano	piano	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	accendere	accendere	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	gran	grande	ADJ	A	Number=Sing	18	amod	_	_
+18	fiammata	fiammata	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+19	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	21	det:predet	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+22	»	»	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

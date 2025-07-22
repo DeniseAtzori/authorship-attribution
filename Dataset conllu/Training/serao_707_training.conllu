@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nella notte purissima e chiara il plenilunio scintillava.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4	purissima	pure	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	plenilunio	plenilunio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	scintillava	scintillavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Dalla terrazza del mio albergo io vedeva a destra, a sinistra i campi arati che dormivano sotto la tranquilla luce lunare;
+1-2	Dalla	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	terrazza	terrazza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	destra	destra	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	campi	campo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+17	arati	arato	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	dormivano	dormire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+20	sotto	sotto	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	luce	luce	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	lunare	lunare	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = in capo alla viottola fiancheggiata di querciuoli, dopo una discesa di cinquanta passi dall'albergo, dormiva, tutta bianca, con due finestre nere, la piccola stazione;
+1	in	in	ADP	E	_	2	case	_	_
+2	capo	capo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	viottola	viottolo	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	fiancheggiata	fiancheggiata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	querciuoli	querciuolo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	dopo	dopo	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	discesa	discesa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	cinquanta	cinquanta	NUM	N	NumType=Card	15	nummod	_	_
+15	passi	passo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16-17	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+16	da	da	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	dormiva	dormivo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	15	punct	_	_
+22	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	23	det	_	_
+23	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	12	punct	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	due	due	NUM	N	NumType=Card	27	nummod	_	_
+27	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+28	nere	nero	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+32	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+33	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = lontano, dopo una spiaggia deserta, dormiva la grande linea dell'Adriatico.
+1	lontano	lontano	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dopo	dopo	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+6	deserta	deserto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	dormiva	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	linea	linea	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Adriatico	Adriatico	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

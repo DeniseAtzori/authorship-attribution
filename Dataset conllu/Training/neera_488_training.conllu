@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fu veramente come se avesse cinto una corazza magica.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	veramente	veramente	ADV	B	_	3	advmod	_	_
+3	come	come	ADV	B	_	0	root	_	_
+4	se	se	SCONJ	CS	_	6	mark	_	_
+5	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	cinto	cingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	corazza	corazza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	magica	magico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Egli riviveva in lei, parlavano in lei i sentimenti generosi di Gentile Lamberti, il suo modo alto di giudicare.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	riviveva	rivivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	parlavano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+11	generosi	generoso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Gentile	gentile	PROPN	SP	_	10	nmod	_	_
+14	Lamberti	Lamberti	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	modo	modo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+19	alto	alto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	giudicare	giudicare	VERB	V	VerbForm=Inf	18	acl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Poteva lei, sua figlia, e lì in quella casa dove egli era stato così grande e puro non cercare almeno di imitarlo?
+1	Poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	lì	lì	ADV	B	_	11	advmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+12	dove	dove	ADV	B	_	17	advmod	_	_
+13	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+14	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+15	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+16	così	così	ADV	B	_	17	advmod	_	_
+17	grande	grande	ADJ	A	Number=Sing	11	acl:relcl	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	puro	puro	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	cercare	cercare	VERB	V	VerbForm=Inf	17	csubj	_	_
+22	almeno	almeno	ADV	B	_	24	advmod	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24-25	imitarlo	_	_	_	_	_	_	_	SpaceAfter=No
+24	imitar	imitare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+25	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il vuoto che le creava intorno il recente dolore non era un mezzo per stringersi maggiormente a lui?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	creava	creare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	intorno	intorno	ADV	B	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	recente	recente	ADJ	A	Number=Sing	9	amod	_	_
+9	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15-16	stringersi	_	_	_	_	_	_	_	_
+15	stringer	stringere	VERB	V	VerbForm=Inf	13	acl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	maggiormente	maggiormente	ADV	B	_	15	advmod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Chi nel passato, nel presente, nel futuro potrebbe oramai dividerli, poichè ella era, sola, la continuatrice?
+1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	15	nsubj	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	passato	passato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	presente	presente	ADJ	A	Number=Sing	1	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+13	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	oramai	oramai	ADV	B	_	15	advmod	_	_
+15-16	dividerli	_	_	_	_	_	_	_	SpaceAfter=No
+15	divider	dividere	VERB	V	VerbForm=Inf	0	root	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	22	punct	_	_
+18	poichè	poiché	CCONJ	CC	_	22	cc	_	_
+19	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	sola	solo	ADJ	A	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	continuatrice	continuatore	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+26	?	?	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ripromettendosi di non mancare, la signora partì trasportata a un trotto rapido.
+1-2	Ripromettendosi	_	_	_	_	_	_	_	_
+1	Ripromettendo	Ripromettere	VERB	V	VerbForm=Ger	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	mancare	mancare	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	signora	signore	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+9	partì	partì	NOUN	S	Gender=Fem	8	compound	_	_
+10	trasportata	trasportare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	trotto	trotto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	rapido	rapido	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Le rimaneva tuttavia in fondo alla pupilla la visione di Moena con una vaga curiosità e un materno interessamento per quel giovane che le suscitava rimembranze romantiche di eroi d’altri tempi.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	rimaneva	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	tuttavia	tuttavia	ADV	B	_	5	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pupilla	pupilla	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	visione	visione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Moena	Moena	PROPN	SP	_	10	nmod	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	vaga	vaga	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	curiosità	curiosità	NOUN	S	Gender=Fem	10	nmod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	materno	materno	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	interessamento	interessamento	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	giovane	giovane	NOUN	S	Number=Sing	20	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	iobj	_	_
+26	suscitava	suscitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+27	rimembranze	rimembranza	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+28	romantiche	romantico	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	eroi	ero	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31	d’	di	ADP	E	_	33	case	_	SpaceAfter=No
+32	altri	altro	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+33	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Questa era la sua impressione esatta:
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	esatta	esatto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = un eroe d’altri tempi.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	eroe	eroe	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	d’	di	ADP	E	_	5	case	_	SpaceAfter=No
+4	altri	altro	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

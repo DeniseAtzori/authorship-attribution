@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Come quasi tutti gli Americani, il giudice non aveva una fede molto profonda nella missione divina e nelle facoltà divine dei sacerdoti.
+1	Come	come	ADP	E	_	5	case	_	_
+2	quasi	quasi	ADV	B	_	5	advmod	_	_
+3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Americani	Americani	PROPN	SP	_	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fede	fede	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	missione	missione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+18	divina	divino	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	nelle	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	facoltà	facoltà	NOUN	S	Gender=Fem	17	conj	_	_
+23	divine	divino	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	sacerdoti	sacerdote	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Ma gli premeva di indurre la Bess a produrre quella cassa che aveva potuto esercitare un'influenza così grande su lei e sul suo fidanzato, e per questo secondò i suoi scrupoli religiosi.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	premeva	premere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	indurre	indurre	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Bess	Bess	PROPN	SP	_	5	obj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	produrre	produrre	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	cassa	cassa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+14	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux	_	_
+15	esercitare	esercitare	VERB	V	VerbForm=Inf	11	acl:relcl	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	così	così	ADV	B	_	19	advmod	_	_
+19	grande	grande	ADJ	A	Number=Sing	17	amod	_	_
+20	su	su	ADP	E	_	21	case	_	_
+21	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23-24	sul	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	31	punct	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	per	per	ADP	E	_	30	case	_	_
+30	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	31	obl	_	_
+31	secondò	seconde	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	scrupoli	scrupolo	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	_
+35	religiosi	religioso	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

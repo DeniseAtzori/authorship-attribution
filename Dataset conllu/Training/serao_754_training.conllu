@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questa Grazia, per la sua salute per le sue inclinazioni, sembrava più fatta per il chiostro che per il mondo, e più per la morte che per il chiostro.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Grazia	grazia	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	salute	salute	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	inclinazioni	inclinazione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	xcomp	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	chiostro	chiostro	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	22	cc	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	28	punct	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	più	più	ADV	B	_	28	advmod	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	morte	morte	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	32	cc	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	chiostro	chiostro	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Di fatti, un giorno, chetamente morì.
+1	Di	di	ADP	E	_	2	case	_	_
+2	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	chetamente	chetamente	ADV	B	_	8	advmod	_	_
+8	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Il crocifisso fu mandato a Carlo dai parenti perchè ella volle così.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	crocifisso	crocifisso	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	mandato	mandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Carlo	Carlo	PROPN	SP	_	4	obl	_	_
+7-8	dai	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	parenti	parente	NOUN	S	Number=Plur	12	obl	_	_
+10	perchè	perché	SCONJ	CS	_	12	mark	_	_
+11	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+13	così	così	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Probabilmente, ella aveva tentato di ricondurre alla fede un'anima errante:
+1	Probabilmente	probabilmente	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	ricondurre	ricondurre	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fede	fede	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	anima	anima	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+13	errante	errante	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = probabilmente aveva esalato tutto il suo amore, in quel dono.
+1	probabilmente	probabilmente	ADV	B	_	3	advmod	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	esalato	esalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	7	det:predet	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	dono	dono	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Egli non divenne un credente:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	divenne	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	credente	credente	NOUN	S	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = ma si accorse di essere stato amato, troppo tardi, e conservò preziosamente il crocefisso.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	accorse	accorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	7	mark	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	troppo	troppo	ADV	B	_	10	advmod	_	_
+10	tardi	tardi	ADV	B	_	7	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	conservò	conservare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	preziosamente	preziosamente	ADV	B	_	13	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	crocefisso	crocefisso	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Se mi riescisse di far parlare questo fiore!
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Se	se	SCONJ	CS	_	4	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	riescisse	riescire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	far	fare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	parlare	parlare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = — pensai, — di cavarne un apologo alla vecchia maniera, di quelli che sotto una forma più o meno dilettevole insegnano qualche cosa ai bimbi!
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	pensai	pensare	ADV	B	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	—	—	PUNCT	FF	_	2	punct	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	cavarne	_	_	_	_	_	_	_	_
+6	cavar	cavarre	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	apologo	apologo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	6	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+18	sotto	sotto	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	forma	forma	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+21	più	più	ADV	B	_	20	advmod	_	_
+22	o	o	CCONJ	CC	_	24	cc	_	_
+23	meno	meno	ADV	B	_	24	advmod	_	_
+24	dilettevole	dilettevole	ADJ	A	Number=Sing	21	conj	_	_
+25	insegnano	insegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+26	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	27	det	_	_
+27	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28-29	ai	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	bimbi	bimbio	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+31	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Se ne sono fatti già tanti e tanti....
+1	Se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	tanti	tanto	ADJ	A	Gender=Masc|Number=Plur	4	xcomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	tanti...	tanti...	NOUN	S	_	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ma che cosa non s'è fatto a questo mondo?
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	SpaceAfter=No
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Anzi gli altri sono un precedente per far accettare il mio.
+1	Anzi	anzi	ADV	B	_	6	advmod	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	precedente	precedente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	far	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	accettare	accettare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mio	mio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

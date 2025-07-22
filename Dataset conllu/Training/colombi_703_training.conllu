@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era un po' lontano, ma era alto, e di là vedeva tutto.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	ADV	B	_	4	advmod	_	_
+4	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	alto	alto	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	là	là	ADV	B	_	13	advmod	_	_
+13	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+14	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Fremeva d'impazienza e di curiosità.
+1	Fremeva	fremeva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	d'	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	impazienza	impazienza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	curiosità	curiosità	NOUN	S	Gender=Fem	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Allungava il collo, protendeva la testa enorme, e la sua facciona gialla, più gialla del solito, quasi livida, sembrava animarsi in quell'eccitazione dell'aspettativa feroce.
+1	Allungava	Allungare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	collo	collo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	protendeva	protendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	testa	testa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	enorme	enorme	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	facciona	facciona	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+14	gialla	giallo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	gialla	giallo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	solito	solito	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	quasi	quasi	ADV	B	_	23	advmod	_	_
+23	livida	livido	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+26-27	animarsi	_	_	_	_	_	_	_	_
+26	animar	animare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	quell'	quello	DET	DD	Number=Sing|PronType=Dem	30	det	_	SpaceAfter=No
+30	eccitazione	eccitazione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+31-32	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+31	di	di	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	aspettativa	aspettativo	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34	feroce	feroce	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Fissava gli occhi iniettati e lucenti sulle mani del cameriere, sul dorso gonfio dell'asino, come assetato di sangue, come se dovessero cavarlo alla bestia per darlo da bere a lui.
+1	Fissava	Fissare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	iniettati	iniettato	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	lucenti	lucente	ADJ	A	Number=Plur	4	conj	_	_
+7-8	sulle	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	mani	mano	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cameriere	cameriera	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	dorso	dorso	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+17	gonfio	gonfio	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	asino	asino	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	1	punct	_	_
+22	come	come	SCONJ	CS	_	23	mark	_	_
+23	assetato	assetato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	come	come	ADV	B	_	30	advmod	_	_
+28	se	se	SCONJ	CS	_	30	mark	_	_
+29	dovessero	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+30-31	cavarlo	_	_	_	_	_	_	_	_
+30	cavar	cavarre	VERB	V	VerbForm=Inf	23	advcl	_	_
+31	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+32-33	alla	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	bestia	bestia	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+35	per	per	ADP	E	_	36	case	_	_
+36	darlo	darlo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	34	nmod	_	_
+37	da	da	ADP	E	_	38	mark	_	_
+38	bere	bere	VERB	V	VerbForm=Inf	36	acl	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

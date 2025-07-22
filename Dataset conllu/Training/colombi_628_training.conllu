@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Che!
+1	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Che	Che	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Non ci ho disposizione;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = disse Marco.
+1	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Marco	Marco	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ora ingrasso davvero.
+1	Ora	ora	ADV	B	_	2	advmod	_	_
+2	ingrasso	ingrassare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	davvero	davvero	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E poi ho fatte le mie prove.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	prove	prova	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Capirà che la direzione d'un'officina così vasta non mi lascia molto riposo.
+1	Capirà	Capiere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	12	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+5	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	officina	officina	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	vasta	vasto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+13	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
+14	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Alle volte mi tocca di salire venti, trenta chilometri al giorno, in montagna, per vedere dei materiali;
+1-2	Alle	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	volte	volta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	salire	salire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	venti	venti	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	trenta	trenta	NUM	N	NumType=Card	11	nummod	_	_
+11	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	vedere	vedere	VERB	V	VerbForm=Inf	7	advcl	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	materiali	materiale	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 8
+# text = non posso badare nè al sole nè all'umidità;
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	badare	badare	VERB	V	VerbForm=Inf	0	root	_	_
+4	nè	né	CCONJ	CC	_	7	cc	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sole	sole	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+8	nè	né	CCONJ	CC	_	11	cc	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	umidità	umidità	NOUN	S	Gender=Fem	3	conj	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 9
+# text = eppure non ho mai avuto una tosse.
+1	eppure	eppure	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tosse	tosse	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Sono refrattario.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	refrattario	refrattario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

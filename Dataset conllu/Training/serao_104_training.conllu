@@ -1,0 +1,155 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se si vuole un amante perfetto, bisogna subire il tradimento, soffrendo in silenzio.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	amante	amante	NOUN	S	Number=Sing	3	nsubj	_	_
+6	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	subire	subire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tradimento	tradimento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	soffrendo	soffrire	VERB	V	VerbForm=Ger	8	advcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Il tradimento è uno dei caratteri della perfezione, in amore.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tradimento	tradimento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	caratteri	caratterio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	perfezione	perfezione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Sarà una verità crudele, ma è così.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	verità	verità	NOUN	S	Gender=Fem	0	root	_	_
+4	crudele	crudele	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	così	così	ADV	B	_	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Dalla sua stessa perfetta natura amorosa Massimo Dias trae questo istinto della mutabilità e, in fondo, egli non inganna nessuna donna, neppur me, anzi, me molto meno delle altre.
+1-2	Dalla	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	6	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+4	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+5	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	natura	natura	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+7	amorosa	amoroso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	Massimo	Massimo	PROPN	SP	_	10	nsubj	_	_
+9	Dias	Dias	PROPN	SP	_	8	flat:name	_	_
+10	trae	trarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mutabilità	mutabilità	NOUN	S	Gender=Fem	12	nmod	_	_
+16	e	e	CCONJ	CC	_	23	cc	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	inganna	ingannare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+24	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
+25	donna	donna	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	10	punct	_	_
+27	neppur	neppur	X	SW	Foreign=Yes	10	obj	_	_
+28	me	me	X	SW	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	anzi	anzi	ADV	B	_	10	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	30	obl	_	_
+33	molto	molto	ADV	B	_	34	advmod	_	_
+34	meno	meno	ADV	B	_	32	advmod	_	_
+35-36	delle	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	32	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Giacchè egli è sempre innamoratissimo della donna cui dice di amare, come ad ogni perfetto amante si conviene.
+1	Giacchè	Giacché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	innamoratissimo	innamoratissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+10	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	amare	amare	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	come	come	ADP	E	_	18	case	_	_
+15	ad	a	ADP	E	_	14	fixed	_	_
+16	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+17	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	amante	amante	NOUN	S	Number=Sing	12	obl	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	conviene	convenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Fedele all'amore, fatto di amore, egli non mente mai, parlando della sua passione.
+1	Fedele	fedele	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	amore	amore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	mente	mente	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+13	mai	mai	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	parlando	parlare	VERB	V	VerbForm=Ger	1	advcl	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	passione	passione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Fedele, incostante e perfetto.
+1	Fedele	fedele	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	incostante	incostante	ADJ	A	Number=Sing	1	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

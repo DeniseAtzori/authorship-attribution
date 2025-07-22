@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È la frase consacrata.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	frase	frase	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	consacrata	consacrato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ed io meravigliavo tra me, come le menti di quegli amici miei mancassero di elevatezza per non potersi scindere da meschini pregiudizî sociali, ed innalzarsi con me nelle sublimi regioni della passione.
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	meravigliavo	meravigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tra	tra	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	menti	mente	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	amici	amico	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	nsubj	_	_
+14	mancassero	mancare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	elevatezza	elevatezza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	per	per	ADP	E	_	21	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19-20	potersi	_	_	_	_	_	_	_	_
+19	poter	potere	AUX	VM	VerbForm=Inf	21	aux	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	scindere	scindere	VERB	V	VerbForm=Inf	16	acl	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	meschini	meschino	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	pregiudizî	pregiudizio	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+25	sociali	sociale	ADJ	A	Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	ed	e	CCONJ	CC	_	28	cc	_	_
+28-29	innalzarsi	_	_	_	_	_	_	_	_
+28	innalzar	innalzare	VERB	V	VerbForm=Inf	21	conj	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+30	con	con	ADP	E	_	31	case	_	_
+31	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	28	obl	_	_
+32-33	nelle	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	35	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+34	sublimi	sublimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	35	amod	_	_
+35	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	passione	passione	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 3
+# text = Sì; la mia donna era vincolata ad un altro.
+1	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+2	;	;	PUNCT	FC	_	7	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	donna	donna	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	vincolata	vincolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+8	ad	a	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ad un egoista che si era permesso di farla sua, senza prevedere che io l'avrei amata.
+1	Ad	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	egoista	egoista	NOUN	S	Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	farla	_	_	_	_	_	_	_	_
+9	far	fare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	senza	senza	ADP	E	_	14	mark	_	_
+14	prevedere	prevedere	VERB	V	VerbForm=Inf	9	advcl	_	_
+15	che	che	SCONJ	CS	_	19	mark	_	_
+16	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ad un tiranno, che persisteva ad essere suo marito malgrado il nostro reciproco amore.
+1	Ad	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tiranno	tiranno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	persisteva	persistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	ad	a	ADP	E	_	10	mark	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	marito	marito	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	_
+11	malgrado	malgrado	ADP	E	_	15	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+13	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	reciproco	reciproco	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Animo volgare, incapace di eroismo, che non aveva nemmanco la generosità di _sopprimersi_ per la felicità d'un amico.
+1	Animo	animo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	volgare	volgare	VERB	V	VerbForm=Inf	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	incapace	incapace	ADJ	A	Number=Sing	2	advcl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	eroismo	eroismo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+11	nemmanco	nemmanco	ADV	B	_	10	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	generosità	generosità	NOUN	S	Gender=Fem	10	obj	_	_
+14	di	di	ADP	E	_	18	case	_	_
+15	_sopprimersi_	_sopprimersi-	PUNCT	FB	_	18	punct	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	felicità	felicità	NOUN	S	Gender=Fem	13	nmod	_	_
+19	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	amico	amico	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

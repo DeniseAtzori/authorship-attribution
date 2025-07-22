@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La notte li avvolgeva morbida e discreta con panneggiamenti d’ombra;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notte	notte	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+4	avvolgeva	avvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	morbida	morbidare	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	discreta	discretare	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	panneggiamenti	panneggiamento	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = il bosco dinanzi a loro commosso da fremiti impercettibili univa il suo respiro all’ansia dei loro petti.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bosco	bosco	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	dinanzi	dinanzi	ADV	B	_	5	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	10	obl	_	_
+6	commosso	commosso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	fremiti	fremito	NOUN	S	Gender=Masc|Number=Plur	6	obl:agent	_	_
+9	impercettibili	impercettibile	ADJ	A	Number=Plur	8	amod	_	_
+10	univa	unire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14-15	all’	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	loro	loro	DET	AP	Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	petti	petto	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Nello stesso momento ricordarono entrambi la sera in cui vi erano penetrati e sùbito l’uno sentì ciò che l’altra sentiva nel meraviglioso intuito della loro vibrante sensibilità.
+1-2	Nello	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	ricordarono	ricordare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obj	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+11	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+12	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux:pass	_	_
+13	penetrati	penetrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	e	e	CCONJ	CC	_	19	cc	_	_
+15	sù	sù	PRON	PI	Number=Plur|PronType=Ind	16	iobj	_	SpaceAfter=No
+16	bito	bire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	_
+19	sentì	sentì	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+20	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	24	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+23	altra	altro	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	sentiva	sentire	NOUN	S	Gender=Fem|Number=Sing	20	acl:relcl	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	intuito	intuito	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	33	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+31	loro	loro	DET	AP	Poss=Yes|PronType=Prs	33	det:poss	_	_
+32	vibrante	vibrante	ADJ	A	Number=Sing	33	amod	_	_
+33	sensibilità	sensibilità	NOUN	S	Gender=Fem	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

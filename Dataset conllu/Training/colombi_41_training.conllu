@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Nessuna mente umana ha mai immaginato nulla di tanto crudele.
+1	«	«	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	mente	mente	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	umana	umano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	immaginato	immaginare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	crudele	crudele	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Non potevo nemmeno girare gli occhi, nemmeno chiuderli!
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	nemmeno	nemmeno	ADV	BN	PronType=Neg	4	advmod	_	_
+4	girare	girare	VERB	V	VerbForm=Inf	0	root	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	nemmeno	nemmeno	ADV	BN	PronType=Neg	9	advmod	_	_
+9-10	chiuderli	_	_	_	_	_	_	_	SpaceAfter=No
+9	chiuder	chiudere	VERB	V	VerbForm=Inf	4	conj	_	_
+10	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Le mie membra erano impietrite;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	membra	membro	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	impietrite	impietrire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = ero imprigionato vivo in un corpo morto.
+1	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	imprigionato	imprigionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	morto	morto	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Se mi si fossero rizzati i capelli sulla fronte, come si dice che avvenga per senso di raccappriccio!
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	rizzati	rizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fronte	fronte	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	come	come	SCONJ	CS	_	14	mark	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+15	che	che	SCONJ	CS	_	16	mark	_	_
+16	avvenga	avvenire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	senso	senso	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	raccappriccio	raccappriccio	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Se fossero incanutiti!
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	incanutiti	incanutire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Si sarebbe capito almeno che qualche cosa viveva in me;
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	almeno	almeno	ADV	B	_	8	advmod	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = che viveva lo spavento;
+1	che	che	SCONJ	CS	_	2	mark	_	_
+2	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	spavento	spavento	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 9
+# text = uno spavento angoscioso, febbrile, furibondo!
+1	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	spavento	spavento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	angoscioso	angoscioso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	febbrile	febbrile	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	furibondo	furibondo	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

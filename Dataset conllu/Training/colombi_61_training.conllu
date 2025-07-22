@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Atterrito cominciò a chiamare strillando;
+1	Atterrito	Atterrito	ADV	B	_	2	advmod	_	_
+2	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	chiamare	chiamare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	strillando	strillando	VERB	V	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = e le vôlte immense ripeterono le sue grida con un suono cavernoso, che veniva da lontano, si ripercoteva, si frangeva, si prolungava, e moriva lentamente nel buio e nel silenzio di tomba.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	vôlte	vôlta	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	immense	immenso	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	ripeterono	ripetere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	grida	grida	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	suono	suono	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	cavernoso	cavernoso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	lontano	lontano	ADV	B	_	15	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+20	ripercoteva	ripercotere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+23	frangeva	frangevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+26	prolungava	prolungavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	moriva	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+30	lentamente	lentamente	ADV	B	_	29	advmod	_	_
+31-32	nel	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	buio	buio	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35-36	nel	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	33	conj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Allora la paura invase la mente del fanciullo come un delirio.
+1	Allora	allora	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	invase	invadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mente	mente	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Egli si pose a correre nell'oscurità, urlando, strillando, disperato, pazzo di terrore.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	correre	correre	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6-7	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	in	in	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	oscurità	oscurità	NOUN	S	Gender=Fem	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	urlando	urlare	VERB	V	VerbForm=Ger	3	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	strillando	strillare	VERB	V	VerbForm=Ger	10	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	pazzo	pazzo	ADJ	A	Gender=Masc|Number=Sing	14	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

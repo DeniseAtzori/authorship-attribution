@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Ma come vuoi che sia?
+1	--Ma	--mare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	SCONJ	CS	_	3	mark	_	_
+3	vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = insisteva la Bianca, vincendo un poco l'usato riserbo del loro parlare, per dare un poco d'ilarità alla sorella troppo ideale.
+1	insisteva	insistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Bianca	Bianca	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	vincendo	vincere	VERB	V	VerbForm=Ger	1	advcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	poco	poco	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	usato	usato	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10	riserbo	riserbo	ADJ	A	Number=Sing	9	amod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	loro	loro	DET	AP	Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	parlare	parlare	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	dare	dare	VERB	V	VerbForm=Inf	9	acl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	poco	poco	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	ilarità	ilarità	NOUN	S	Gender=Fem	19	nmod	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+25	troppo	troppo	ADV	B	_	26	advmod	_	_
+26	ideale	ideale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Vuoi che due sposi stiano a guardarsi da lontano come due papi di gesso?
+1	Vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	sposi	sposo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	stiano	stare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	guardarsi	_	_	_	_	_	_	_	_
+7	guardar	guardare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	7	obl	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	due	due	NUM	N	NumType=Card	13	nummod	_	_
+13	papi	papo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	gesso	gesso	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Se si fanno qualche carezza, non ci vedo nulla di male.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	carezza	carezza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	male	male	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Se ne parlava continuamente, in casa, di quei famosi guanti.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	continuamente	continuo	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+12	famosi	famoso	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	guanti	guanto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Mi si facevano balenare agli occhi della fantasia come un miraggio.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	balenare	balenare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5-6	agli	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	miraggio	miraggio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Si diceva che con dei guanti di lana non avrei sentito più nessun dolore, che i geloni mi sarebbero guariti immediatamente;
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	12	mark	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	guanti	guanto	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	lana	lana	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+13	più	più	ADV	B	_	12	advmod	_	_
+14	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
+15	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	che	che	SCONJ	CS	_	22	mark	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	geloni	gelone	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	expl	_	_
+21	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	guariti	guarire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	ccomp	_	_
+23	immediatamente	immediato	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = che erano anzi il solo rimedio efficace....
+1	che	che	SCONJ	CS	_	6	mark	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+3	anzi	anzi	ADV	B	_	6	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	solo	solo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	rimedio	rimedio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	efficace...	efficace.	NOUN	S	_	6	compound	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Tutto questo per farmeli apprezzare in tutto il loro valore.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	farmeli	farmelo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	apprezzare	apprezzare	VERB	V	VerbForm=Inf	4	acl	_	_
+6	in	in	ADP	E	_	10	case	_	_
+7	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	valore	valore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

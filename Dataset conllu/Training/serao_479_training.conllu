@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le bimbe possono essere vestite di bianco più facilmente e con minori pericoli, perchè sono più pulite.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	bimbe	bimba	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	vestite	vestire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	bianco	bianco	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	facilmente	facilmente	ADV	B	_	7	advmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	minori	minore	ADJ	A	Degree=Cmp|Number=Plur	13	amod	_	_
+13	pericoli	pericolo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	perchè	perché	SCONJ	CS	_	18	mark	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	pulite	pulito	ADJ	A	Gender=Fem|Number=Plur	5	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Se ne incontrano per il Corso, tutte in bianco, con le mantelline in felpa bianca, e un berretto di pelliccia bianco:
+1	Se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	incontrano	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Corso	Corso	PROPN	SP	_	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	3	obl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	mantelline	mantellina	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	felpa	felpa	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	berretto	berretto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	pelliccia	pelliccia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = sembrano gattine freddolose, rosee, cogli occhioni bigi.
+1	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	gattine	gattina	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	freddolose	freddoloso	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	rosee	roseo	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7-8	cogli	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	occhioni	occhione	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+10	bigi	bigio	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Maschietti e femminucce non possono soffrire quei colletti di tela insaldati, duri come il cartone, che fanno una riga rossa sulla pelle del collo.
+1	Maschietti	Maschietto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	femminucce	femminuccia	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	soffrire	soffrire	VERB	V	VerbForm=Inf	0	root	_	_
+7	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	colletti	colletto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tela	tela	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	insaldati	insaldato	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	duri	duro	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cartone	cartone	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	riga	riga	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23-24	sulla	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	collo	collo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Avrei voluto partir subito; correre a Torino.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4	partir	partire	VERB	V	VerbForm=Inf	0	root	_	_
+5	subito	subito	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	7	punct	_	_
+7	correre	correre	VERB	V	VerbForm=Inf	4	conj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Torino	Torino	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ma avevo scritto che giungerei sabato colla contralto.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	giungerei	giungere	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+7	colla	colla	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	_
+8	contralto	contralto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Che cosa penserebbero il babbo e Gualfardo a vedermi arrivare il giovedì, e sola?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	penserebbero	pensare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Gualfardo	Gualfardo	PROPN	SP	_	5	conj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	vedermi	_	_	_	_	_	_	_	_
+9	veder	vedere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	arrivare	arrivare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giovedì	giovedì	NOUN	S	Gender=Masc	3	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Eppure, in tanta noia ed in tanto cruccio, non andavo a cercar consiglio dalla contralto.
+1	Eppure	eppure	ADV	B	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	noia	noia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+6	ed	e	CCONJ	CC	_	9	cc	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	cruccio	cruccio	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	cercar	cercare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	contralto	contralto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = L'idea di vederla trattar leggermente quell'agonia della mia coscienza mi faceva male.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	vederla	_	_	_	_	_	_	_	_
+4	veder	vedere	VERB	V	VerbForm=Inf	2	acl	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	trattar	trattare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	leggermente	leggermente	ADV	B	_	6	advmod	_	_
+8	quell'	quello	DET	DD	Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+9	agonia	agonia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	male	male	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

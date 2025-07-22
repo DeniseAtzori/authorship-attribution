@@ -1,0 +1,132 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Certo, mi dividevo da lui con un intenso rammarico, sempre più forte come il tempo passava:
+1	Certo	certo	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	dividevo	dividere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	csubj	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	intenso	intenso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	rammarico	rammarico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	sempre	sempre	ADV	B	_	13	advmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	forte	forte	ADJ	A	Number=Sing	9	amod	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 2
+# text = certo, appena lo avevo lasciato, un senso di vuoto e di morte mi coglieva, orribile.
+1	certo	certo	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	appena	appena	ADV	B	_	6	advmod	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	senso	senso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	morte	morte	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+16	coglieva	cogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	orribile	orribile	ADJ	A	Number=Sing	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = Ma egli era partito da me, almeno in apparenza, senza dolore;
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	almeno	almeno	ADV	B	_	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	apparenza	apparenza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	senza	senza	ADP	E	_	13	case	_	_
+13	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = ma egli era calmo e tenero.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	calmo	calmo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	tenero	tenero	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Sempre, anche quando si separava, anche quando mi vedeva turbata e agitata, separandosi da me, e poichè egli, vagamente, profondamente mi amava, io dicevo che solo la sua calma era saggia e pura, che solo il suo spirito intendeva l'amore in una forma sublime.
+1	Sempre	sempre	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	quando	quando	SCONJ	CS	_	6	mark	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	separava	separavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	anche	anche	ADV	B	_	11	advmod	_	_
+9	quando	quando	SCONJ	CS	_	11	mark	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+12	turbata	turbato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	agitata	agitato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16-17	separandosi	_	_	_	_	_	_	_	_
+16	separando	separare	VERB	V	VerbForm=Ger	11	advcl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	29	punct	_	_
+21	e	e	CCONJ	CC	_	29	cc	_	_
+22	poichè	poiché	SCONJ	CS	_	29	mark	_	_
+23	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	vagamente	vagamente	ADV	B	_	29	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	profondamente	profondo	ADV	B	_	29	advmod	_	_
+28	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	iobj	_	_
+29	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	dicevo	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	29	advcl	_	_
+33	che	che	SCONJ	CS	_	39	mark	_	_
+34	solo	solo	ADV	B	_	37	advmod	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	calma	calma	NOUN	S	Gender=Fem|Number=Sing	39	nsubj	_	_
+38	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	cop	_	_
+39	saggia	saggio	ADJ	A	Gender=Fem|Number=Sing	32	ccomp	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	pura	puro	ADJ	A	Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	39	punct	_	_
+43	che	che	PRON	PR	PronType=Rel	48	nsubj	_	_
+44	solo	solo	ADV	B	_	47	advmod	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+46	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	47	det:poss	_	_
+47	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	48	nsubj	_	_
+48	intendeva	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	acl:relcl	_	_
+49	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	SpaceAfter=No
+50	amore	amore	NOUN	S	Gender=Masc|Number=Sing	48	obj	_	_
+51	in	in	ADP	E	_	53	case	_	_
+52	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	forma	forma	NOUN	S	Gender=Fem|Number=Sing	50	nmod	_	_
+54	sublime	sublime	ADJ	A	Number=Sing	53	amod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

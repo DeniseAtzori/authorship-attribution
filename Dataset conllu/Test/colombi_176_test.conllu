@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --«Il fatto è che io sono molto infelice.
+1	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	infelice	infelice	ADJ	A	Number=Sing	6	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Vi giuro pei bei giorni del nostro fuggevole passato, che non faccio delle frasi per commovervi.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	giuro	giurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pei	peo	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+4	bei	bello	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	giorni	giorni	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	10	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	fuggevole	fuggevole	ADJ	A	Number=Sing	10	amod	_	_
+10	passato	passato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	commovervi	commovervo	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = A che le farei?
+1	A	a	ADP	E	_	2	case	_	_
+2	che	che	PRON	PR	PronType=Rel	4	obl	_	_
+3	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	farei	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Anch'io come voi dispero dell'amore; anch'io, Fulvia, guardo con tristezza sconfortata a quel lampo di felicità che ci ha abbagliati.
+1	Anch'	anche	ADV	B	_	2	advmod	_	SpaceAfter=No
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+3	come	come	ADP	E	_	5	case	_	_
+4	voi	vo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	dispero	dispero	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	11	punct	_	_
+10	anch'	anche	ADV	B	_	11	advmod	_	SpaceAfter=No
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	Fulvia	Fulvia	PROPN	SP	_	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	guardo	guardare	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	sconfortata	sconfortato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	lampo	lampo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	felicità	felicità	NOUN	S	Gender=Fem	21	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	27	obj	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	abbagliati	abbagliare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E poi?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	poi	poi	ADV	B	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = E poi c'è Gualfardo, e la vostra fede inviolabile a quella statua di ghiaccio, ed il suo anello nuziale, e la sua felicità.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Gualfardo	Gualfardo	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	fede	fede	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11	inviolabile	inviolabile	ADJ	A	Number=Sing	10	amod	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	statua	statua	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	ghiaccio	ghiaccio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	ed	e	CCONJ	CC	_	21	cc	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	anello	anello	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+22	nuziale	nuziale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	felicità	felicità	NOUN	S	Gender=Fem	4	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

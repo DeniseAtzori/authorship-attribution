@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mi scaccerà egualmente, perchè la clemenza umana non basta per di certi perdoni, ed io implorerò che mi lasci vivere qui, lontana da ogni altra vergogna fintanto che gli abbia dato un figlio da amare.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	scaccerà	scacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	egualmente	egualmente	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	perchè	perché	SCONJ	CS	_	10	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	clemenza	clemenza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	umana	umano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	di	di	ADP	E	_	11	fixed	_	_
+13	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	perdoni	perdone	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	ed	e	CCONJ	CC	_	18	cc	_	_
+17	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	implorerò	implorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	conj	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+21	lasci	lascere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+22	vivere	vivere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+23	qui	qui	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+26	da	da	ADP	E	_	29	case	_	_
+27	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+28	altra	altro	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+30	fintanto	fintanto	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+32	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	iobj	_	_
+33	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	da	da	ADP	E	_	38	mark	_	_
+38	amare	amare	VERB	V	VerbForm=Inf	34	acl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Poi me ne andrò a morire in qualche luogo isolato, senza contristarlo con una scena d'orrore.
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	andrò	andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	morire	morire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	isolato	isolato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	senza	senza	ADP	E	_	13	mark	_	_
+13-14	contristarlo	_	_	_	_	_	_	_	_
+13	contristar	contristare	VERB	V	VerbForm=Inf	6	advcl	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	scena	scena	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = — Ed avrò almeno il conforto di sapere che quando penserà a me non mi accuserà d'averlo ingannato, mi giudicherà colpevole, ma non vile ed ingrata;
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Ed	e	CCONJ	CC	_	3	cc	_	_
+3	avrò	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	almeno	almeno	ADV	B	_	6	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	conforto	conforto	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	sapere	sapere	VERB	V	VerbForm=Inf	6	acl	_	_
+9	che	che	SCONJ	CS	_	16	mark	_	_
+10	quando	quando	SCONJ	CS	_	11	mark	_	_
+11	penserà	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	advcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	accuserà	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	ccomp	_	_
+17	d'	di	ADP	E	_	18	mark	_	SpaceAfter=No
+18-19	averlo	_	_	_	_	_	_	_	_
+18	aver	avere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ingannato	ingannare	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	6	punct	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+23	giudicherà	giudicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+24	colpevole	colpevole	ADJ	A	Number=Sing	23	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	ma	ma	CCONJ	CC	_	28	cc	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	vile	vile	ADJ	A	Number=Sing	24	conj	_	_
+29	ed	e	CCONJ	CC	_	30	cc	_	_
+30	ingrata	ingrato	ADJ	A	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
+31	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = e mi disprezzerà meno.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	disprezzerà	disprezzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	meno	meno	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sotto sì malinconici auspici la dolente visione a cui andava incontro si impossessò interamente del suo spirito.
+1	Sotto	sotto	ADV	B	_	3	advmod	_	_
+2	sì	sì	ADV	B	_	3	advmod	_	_
+3	malinconici	malinconico	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	auspici	auspico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	dolente	dolente	ADJ	A	Number=Sing	7	amod	_	_
+7	visione	visione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+10	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+11	incontro	incontro	ADV	B	_	13	advmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	impossessò	impossessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+14	interamente	interamente	ADV	B	_	13	advmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Colei che moveva a visitare era l’ultima della sua famiglia, l’ultima di quei parenti che l’avevano veduta bambina, poi giovinetta, poi sposa, sempre giovane per loro — quantunque in realtà non più giovane — ed amata del sicuro e placido affetto dei vecchi.
+1	Colei	colei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	moveva	movere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	visitare	visitare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ultima	ultimo	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ultima	ultimo	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	18	det	_	_
+18	parenti	parente	NOUN	S	Number=Plur	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+21	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+22	veduta	vedere	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+23	bambina	bambina	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	8	punct	_	_
+25	poi	poi	ADV	B	_	26	advmod	_	_
+26	giovinetta	giovinetto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	8	punct	_	_
+28	poi	poi	ADV	B	_	29	advmod	_	_
+29	sposa	sposo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	8	punct	_	_
+31	sempre	sempre	ADV	B	_	32	advmod	_	_
+32	giovane	giovane	ADJ	A	Number=Sing	8	amod	_	_
+33	per	per	ADP	E	_	34	case	_	_
+34	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	32	obl	_	_
+35	—	—	PUNCT	FF	_	32	punct	_	_
+36	quantunque	quantunque	SCONJ	CS	_	0	root	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+39	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+40	più	più	ADV	B	_	41	advmod	_	_
+41	giovane	giovane	ADJ	A	Number=Sing	38	amod	_	_
+42	—	—	PUNCT	FF	_	44	punct	_	_
+43	ed	e	CCONJ	CC	_	44	cc	_	_
+44	amata	amare	ADJ	A	Gender=Fem|Number=Sing	41	conj	_	_
+45-46	del	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	50	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+47	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	50	amod	_	_
+48	e	e	CCONJ	CC	_	49	cc	_	_
+49	placido	placido	ADJ	A	Gender=Masc|Number=Sing	47	conj	_	_
+50	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+51-52	dei	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	53	case	_	_
+52	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	53	det	_	_
+53	vecchi	vecchio	NOUN	S	Gender=Masc|Number=Plur	50	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	36	punct	_	SpacesAfter=\n
+

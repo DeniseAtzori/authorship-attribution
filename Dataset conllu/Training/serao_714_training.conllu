@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = So che arrivato al paesello, dove ella doveva venire, mi son sentito stringere il cuore.
+1	So	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	paesello	paesello	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dove	dove	ADV	B	_	11	advmod	_	_
+9	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	venire	venire	VERB	V	VerbForm=Inf	15	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+14	son	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+16	stringere	stringere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Forse, non sarebbe venuta.
+1	Forse	forse	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Che ne sapeva io?
+1	Che	che	PRON	PQ	PronType=Int	3	obj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Era così strano il modo come ci eravamo amati, così singolare il modo come ci amavamo!
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	strano	strere	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	modo	modo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	come	come	ADP	E	_	9	mark	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	expl	_	_
+8	eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	amati	amare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	singolare	singolare	VERB	V	VerbForm=Inf	3	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	modo	modo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	come	come	ADP	E	_	17	mark	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	expl	_	_
+17	amavamo	amare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	14	acl	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non mi conosceva, non la conoscevo.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	conoscevo	conoscevo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Da un momento ad un altro, lei che non era nulla, era diventata tutto per me.
+1	Da	da	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	appos	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	xcomp	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vi erano delle piccole tavole, per quattro.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	tavole	tavola	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	quattro	quattro	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Io era con Clara Lieti, e due cavalieri, briosi e insignificanti.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	Clara	Clara	PROPN	SP	_	2	obl	_	_
+5	Lieti	lieto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	cavalieri	cavaliere	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	briosi	brioso	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	insignificanti	insignificante	ADJ	A	Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non avevo più riveduto Nino Stresa, nella notte, e avevo supposto che se ne fosse andato, e questo mi aveva fatto molto piacere, mentre mi arrovellavo di non avergli potuto dire una fredda impertinenza, in cambio della sua brutalità.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	riveduto	rivedire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	Nino	Nino	PROPN	SP	_	4	nsubj	_	_
+6	Stresa	Stresa	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	notte	notte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	supposto	supporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+15	che	che	SCONJ	CS	_	19	mark	_	_
+16	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+18	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	25	nsubj	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+24	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+26	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+27	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	4	punct	_	_
+29	mentre	mentre	SCONJ	CS	_	31	mark	_	_
+30	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	31	expl	_	_
+31	arrovellavo	arrovellavare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+32	di	di	ADP	E	_	37	mark	_	_
+33	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+34-35	avergli	_	_	_	_	_	_	_	_
+34	aver	avere	AUX	VA	VerbForm=Inf	37	aux	_	_
+35	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	iobj	_	_
+36	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	aux	_	_
+37	dire	dire	VERB	V	VerbForm=Inf	31	xcomp	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	_
+40	impertinenza	impertinenza	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+44-45	della	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	47	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+46	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	47	det:poss	_	_
+47	brutalità	brutalità	NOUN	S	Gender=Fem	43	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = A un tratto, lo vidi fermo presso la nostra piccola tavola:
+1	A	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	vidi	vidio	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	fermo	fermo	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	_
+8	presso	presso	ADP	E	_	12	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	6	punct	_	SpacesAfter=\n
+

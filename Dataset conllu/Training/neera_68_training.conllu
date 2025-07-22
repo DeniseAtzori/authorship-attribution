@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Costumi selvaggi, non è vero, mia signora?
+1	Costumi	costume	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	selvaggi	selvaggio	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	signora	signore	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = eppure non vedo che sia una cosa molto diversa quella che si sta ora preparando per noi.
+1	eppure	eppure	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	nsubj	_	_
+11	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+13	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	ora	ora	ADV	B	_	15	advmod	_	_
+15	preparando	preparare	VERB	V	VerbForm=Ger	10	acl:relcl	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = La soppressione della donna e della famiglia:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	soppressione	soppressione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ecco a che tende il così detto femminismo e naturalmente ci inorpellano con grosse parole rimbombanti affinchè ci apprestiamo a morire con grazia.
+1	ecco	ecco	ADV	B	_	4	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	che	che	PRON	PR	PronType=Rel	4	obl	_	_
+4	tende	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	così	così	ADV	B	_	8	advmod	_	_
+7	detto	detto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	femminismo	femminismo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	naturalmente	naturalmente	ADV	B	_	12	advmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	obj	_	_
+12	inorpellano	inorpellare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	grosse	grosso	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	parole	parola	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16	rimbombanti	rimbombare	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	15	acl	_	_
+17	affinchè	poiaffinché	SCONJ	CS	_	19	mark	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	expl	_	_
+19	apprestiamo	apprestare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	morire	morire	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

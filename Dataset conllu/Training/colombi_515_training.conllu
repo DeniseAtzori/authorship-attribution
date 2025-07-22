@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Si prese il fatto suo, e fece come il podestà di Sinigaglia, e come il figliuol prodigo.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	podestà	podestà	NOUN	S	Gender=Fem	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Sinigaglia	Sinigaglia	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	figliuol	figliuol	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+19	prodigo	prodigo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ed allora, viva l'allegria!
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	allora	allora	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	viva	vivere	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	allegria	allegria	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Non c'era più nè giorno nè notte;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	nè	nè	CCONJ	CC	_	6	cc	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	nè	nè	CCONJ	CC	_	8	cc	_	_
+8	notte	notte	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = era lui il padrone del mondo, e se gli avessero detto che quella vasta proprietà potrebbe trovarlo un giorno a borsello vuoto, e venirgli contestata, avrebbe fatto spalluccie.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	se	se	SCONJ	CS	_	13	mark	_	_
+11	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+12	avessero	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+14	che	che	SCONJ	CS	_	19	mark	_	_
+15	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+16	vasta	vasto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	proprietà	proprietà	NOUN	S	Gender=Fem	19	nsubj	_	_
+18	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19-20	trovarlo	_	_	_	_	_	_	_	_
+19	trovar	trovare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+20	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	borsello	borsello	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	vuoto	vuoto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28-29	venirgli	_	_	_	_	_	_	_	_
+28	venir	venire	VERB	V	VerbForm=Inf	4	conj	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	contestata	contestata	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+34	spalluccie	spalluccia	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

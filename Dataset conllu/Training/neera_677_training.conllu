@@ -1,0 +1,133 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Una sciocchezza, una sciocchezza, — continuava a ripetere il giovine scuotendo da destra a sinistra la testa impomatata.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sciocchezza	sciocchezza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sciocchezza	sciocchezza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	—	—	PUNCT	FF	_	3	punct	_	_
+9	continuava	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	ripetere	ripetere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giovine	giovina	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	scuotendo	scuotere	VERB	V	VerbForm=Ger	9	advcl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	destra	destra	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	testa	testa	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+21	impomatata	impomatato	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = — Si parlava di cappelli tirolesi, figuratevi!
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cappelli	cappello	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	tirolesi	tirolese	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	figuratevi	figuratevo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Qualcuno nominò il Trentino.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	nominò	nominare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Trentino	Trentino	PROPN	SP	_	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = “Che Trentino!
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Che	che	DET	DQ	PronType=Int	3	det	_	_
+3	Trentino	Trentino	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = disse il barone.
+1	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	barone	barone	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Il Trentino politicamente e normalmente non esiste;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Trentino	Trentino	PROPN	SP	_	0	root	_	_
+3	politicamente	politico	ADV	B	_	2	amod	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	normalmente	normalmente	ADV	B	_	7	advmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = è un paese bastardo„.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	bastardo	bastardo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	„	„	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Allora quel signore nuovo, quello che fu presentato questa sera, credo, quel Moena, gli fu addosso con un balzo gridando:
+1	Allora	allora	ADV	B	_	3	advmod	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	signore	signore	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	appos	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	sera	sera	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	Moena	Moena	PROPN	SP	_	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+19	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	addosso	adduovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	balzo	balzo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	gridando	gridare	VERB	V	VerbForm=Ger	23	advcl	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	20	punct	_	_
+
+# sent_id = 9
+# text = “Ritiri subito la parola _bastardo_ che è un insulto ad una delle più nobili terre italiane„.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Ritiri	ritirare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	subito	subito	ADV	B	_	2	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parola	parola	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	_bastardo_	ExtraSubj=Yes|_bastardo_	PUNCT	FB	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	insulto	insulto	NOUN	S	Gender=Masc|Number=Sing	5	acl:relcl	_	_
+11	ad	a	ADP	E	_	12	case	_	_
+12	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	nmod	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	17	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	nobili	nobile	ADJ	A	Number=Plur	17	amod	_	_
+17	terre	terra	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+18	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	„	„	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

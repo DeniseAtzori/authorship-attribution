@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La sua salute non fu meno florida per questo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	salute	salute	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	meno	meno	ADV	B	_	7	advmod	_	_
+7	florida	florido	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Prese in affitto un abbaino che mobigliò con un lettuccio, una tavola, una catinella e due sedie.
+1	Prese	prendere	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	abbaino	abbaino	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	mobigliò	mobigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lettuccio	lettuccio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tavola	tavola|tavolo	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	catinella	catinella	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	due	due	NUM	N	NumType=Card	19	nummod	_	_
+19	sedie	sedia	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Pagava dieci lire al mese di pigione.
+1	Pagava	pagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	dieci	dieci	NUM	N	NumType=Card	3	nummod	_	_
+3	lire	lira	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	pigione	pigione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Gli rimanevano venti lire.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	rimanevano	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	venti	venti	NUM	N	NumType=Card	4	nummod	_	_
+4	lire	lira	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Dieci le destinò a pagare un maestro di contabilità, dal quale andava a scuola ogni giorno nel solo tempo che aveva libero, da mezzodì ad un'ora.
+1	Dieci	dieci	PROPN	SP	_	3	nsubj	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	destinò	destinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	pagare	pagare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	contabilità	contabilità	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	quale	quale	PRON	PR	Number=Sing|PronType=Rel	14	obl	_	_
+14	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	solo	solo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+25	libero	libero	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	da	da	ADP	E	_	28	case	_	_
+28	mezzodì	mezzodì	NOUN	S	Gender=Masc	25	obl	_	_
+29	ad	a	ADP	E	_	31	case	_	_
+30	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	ora	ora	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Le dieci lire rimanenti le mise a parte per vestirsi.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	dieci	dieci	NUM	N	NumType=Card	3	nummod	_	_
+3	lire	lira	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	rimanenti	rimanere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	3	acl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	mise	mise	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	vestirsi	_	_	_	_	_	_	_	SpaceAfter=No
+10	vestir	vestire	VERB	V	VerbForm=Inf	6	acl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

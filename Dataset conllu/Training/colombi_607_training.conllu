@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'aveva vista piangere di vergogna, e ne sentiva una grande pietà.
+1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	piangere	piangere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+10	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	grande	grande	ADJ	A	Number=Sing	13	amod	_	_
+13	pietà	pietà	NOUN	S	Gender=Fem	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Avrebbe voluto andare ad abbracciarla, a dirle che comprendeva quanta abnegazione doveva esserle costata la rivelazione di quel segreto;
+1	Avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5-6	abbracciarla	_	_	_	_	_	_	_	SpaceAfter=No
+5	abbracciar	abbracciare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	dirle	_	_	_	_	_	_	_	_
+9	dir	dire	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	9	iobj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	comprendeva	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+13	quanta	quanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	14	det	_	_
+14	abnegazione	abnegazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+16-17	esserle	_	_	_	_	_	_	_	_
+16	esser	essere	AUX	VA	VerbForm=Inf	18	aux	_	_
+17	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	iobj	_	_
+18	costata	costata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	rivelazione	rivelazione	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = che quell'atto di lealtà espiava molto;
+1	che	che	SCONJ	CS	_	6	mark	_	_
+2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	atto	atto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	lealtà	lealtà	NOUN	S	Gender=Fem	3	nmod	_	_
+6	espiava	espiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	molto	molto	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = che l'amava sempre, che voleva perdonarle.
+1	che	che	SCONJ	CS	_	3	mark	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+3	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8-9	perdonarle	_	_	_	_	_	_	_	SpaceAfter=No
+8	perdonar	perdonare	VERB	V	VerbForm=Inf	3	conj	_	_
+9	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Pensava delle scuse per lei; la sua gioventù, l'infermità del marito, forse un matrimonio contratto senza amore;
+1	Pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	delle	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	scuse	scusa	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	10	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	gioventù	gioventù	NOUN	S	Gender=Fem	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	infermità	infermità	NOUN	S	Gender=Fem	1	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	marito	marito	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	forse	forse	ADV	B	_	20	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+21	contratto	contrarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+22	senza	senza	ADP	E	_	23	case	_	_
+23	amore	amore	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = ma al momento d'avviarsi gli mancò il coraggio.
+1	ma	ma	CCONJ	CC	_	9	cc	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5	d'	di	ADP	E	_	6	mark	_	SpaceAfter=No
+6-7	avviarsi	_	_	_	_	_	_	_	_
+6	avviar	avviare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	mancò	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

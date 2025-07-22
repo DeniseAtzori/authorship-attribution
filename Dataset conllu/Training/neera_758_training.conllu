@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La loro commozione era al colmo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	commozione	commozione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	colmo	colmo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Moena, più ancora di lei appariva accasciato da una lotta interna, riverso sul sedile, colla fronte tra le mani.
+1	Moena	Moena	PROPN	SP	_	8	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	ancora	ancora	ADV	B	_	8	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	appariva	apparivo	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:pass	_	_
+8	accasciato	accasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	8	obl:agent	_	_
+12	interna	interno	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	riverso	riverso	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sedile	sedile	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	colla	collare	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+20	fronte	fronte	NOUN	S	Number=Sing	11	appos	_	_
+21	tra	tra	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	mani	mano	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Soffriva.
+1	Soffriva	Soffrivo	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Il silenzio era altissimo;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	altissimo	alto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = l’ombra cupa si frastagliava appena in qualche chiazza di luce, riverbero di lumi lontani, ricordo fioco di una vita che non era la loro.
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	cupa	cupare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	frastagliava	frastagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	appena	appena	ADV	B	_	9	advmod	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	chiazza	chiazza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	luce	luce	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	riverbero	riverbero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	lumi	lume	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+19	fioco	fioco	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	25	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

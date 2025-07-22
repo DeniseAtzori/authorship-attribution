@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Capii che la signora Desdemona doveva essere una persona della famiglia che offriva una dozzina di fazzoletti in compenso dello zucchero e del caffè.
+1	Capii	Capii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	9	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	signora	signore	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	Desdemona	Desdemona	PROPN	SP	_	4	nmod	_	_
+6	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	persona	persona	NOUN	S	Gender=Fem|Number=Sing	1	ccomp	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	offriva	offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	dozzina	dozzina	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	fazzoletti	fazzoletto	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21-22	dello	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	zucchero	zucchero	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	caffè	caffè	NOUN	S	Gender=Masc	23	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Allora presi una sedia, apersi con cura le falde dell'abito e curvai pian piano le mie ginocchia strette, per mettermi a sedere ed aspettarla.
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	apersi	apergere	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	cura	cura	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	falde	falda	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	abito	abito	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	curvai	curvai	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	pian	pian	NOUN	S	_	15	compound	_	_
+17	piano	piare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	ginocchia	ginocchio	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+21	strette	stretto	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	mettermi	mettermo	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	sedere	sedere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+27	ed	e	CCONJ	CC	_	28	cc	_	_
+28-29	aspettarla	_	_	_	_	_	_	_	SpaceAfter=No
+28	aspettar	aspettare	VERB	V	VerbForm=Inf	26	conj	_	_
+29	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma in quella la signora diede uno strappo al cordone del campanello che mi fece balzare in piedi daccapo.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	signora	signore	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	strappo	strappo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cordone	cordone	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+18	balzare	balzare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+21	daccapo	daccapo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

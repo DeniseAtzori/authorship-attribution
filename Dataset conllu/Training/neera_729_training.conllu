@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non entrò veramente:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	veramente	veramente	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = sedette su una panchina all’aperto chiedendosi che cosa avrebbe offerto a Moena per passare la giornata di domani.
+1	sedette	sedere	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	aperto	aperto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	chiedendosi	_	_	_	_	_	_	_	_
+8	chiedendo	chiedere	VERB	V	VerbForm=Ger	13	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	che	che	DET	DQ	PronType=Int	11	det	_	_
+11	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	offerto	offrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Moena	Moena	PROPN	SP	_	13	obl	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	passare	passare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	domani	domani	ADV	B	_	19	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Un quartetto di musicanti girovaghi sulla soglia dell’albergo suonava per il diletto di due vecchie inglesi.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	quartetto	quartetto	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	musicanti	musicante	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	girovaghi	girovago	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	suonava	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	diletto	diletto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	due	due	NUM	N	NumType=Card	19	nummod	_	_
+18	vecchie	vecchia	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+19	inglesi	inglese	NOUN	S	Number=Plur	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = La sera era dolce, serena:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	dolce	dolce	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = le note si spandevano armoniche sotto un pergolato di clematidi mezzo sfiorite;
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	note	nota	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	spandevano	spandere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	armoniche	armonico	ADJ	A	Gender=Fem|Number=Plur	4	xcomp	_	_
+6	sotto	sotto	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pergolato	pergolato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	clematidi	clematidio	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	sfiorite	sfiorito	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = macchinalmente la signora raccoglieva i petali che le cadevano in grembo e li accostava alle labbra.
+1	macchinalmente	macchinalmente	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	raccoglieva	raccogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	petali	petale	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	cadevano	cadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	grembo	grembo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+14	accostava	accostare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+15-16	alle	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = A un tratto Moena le fu d’appresso:
+1	A	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	Moena	Moena	PROPN	SP	_	6	nsubj	_	_
+5	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	fu	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	d’	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	appresso	appresso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'onorevole Sangiorgio saliva al terzo piano, alla biblioteca.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	onorevole	onorevole	NOUN	S	Number=Sing	4	nsubj	_	_
+3	Sangiorgio	Sangiorgio	PROPN	SP	_	2	nmod	_	_
+4	saliva	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	piano	piano	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	biblioteca	biblioteca	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Nel corridoio chiarissimo che ha le sue finestre proprio sul lucernario dell'aula, due o tre impiegati, innanzi agli alti leggii di legno, scrivevano in certi libroni, un catalogo generale delle opere che si conservavano in biblioteca, e il loro lavoro era continuo, incessante:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corridoio	corridoio	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+4	chiarissimo	chiaro	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+10	proprio	proprio	ADV	B	_	13	advmod	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	lucernario	lucernario	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	aula	aula	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	due	due	NUM	N	NumType=Card	21	nummod	_	_
+19	o	o	CCONJ	CC	_	20	cc	_	_
+20	tre	tre	NUM	N	NumType=Card	21	nummod	_	_
+21	impiegati	impiegato	NOUN	S	Gender=Masc|Number=Plur	31	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	innanzi	innanzi	ADV	B	_	27	case	_	_
+24-25	agli	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	alti	alto	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+27	leggii	leggio	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	legno	legno	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	21	punct	_	_
+31	scrivevano	scrivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	34	det	_	_
+34	libroni	librone	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	catalogo	catalogo	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+38	generale	generale	ADJ	A	Number=Sing	37	amod	_	_
+39-40	delle	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	opere	opera	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+42	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+43	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	44	expl	_	_
+44	conservavano	conservare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	41	acl:relcl	_	_
+45	in	in	ADP	E	_	46	case	_	_
+46	biblioteca	biblioteca	NOUN	S	Gender=Fem|Number=Sing	44	obl	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	53	punct	_	_
+48	e	e	CCONJ	CC	_	53	cc	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+50	loro	loro	DET	AP	Poss=Yes|PronType=Prs	51	det:poss	_	_
+51	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	53	nsubj	_	_
+52	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	53	cop	_	_
+53	continuo	continuo	ADJ	A	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	55	punct	_	_
+55	incessante	incessante	ADJ	A	Number=Sing	53	conj	_	SpaceAfter=No
+56	:	:	PUNCT	FC	_	31	punct	_	_
+
+# sent_id = 3
+# text = essi scrivevano senza far rumore, senza parlare.
+1	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	scrivevano	scrivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	senza	senza	ADP	E	_	4	mark	_	_
+4	far	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	senza	senza	ADP	E	_	8	mark	_	_
+8	parlare	parlare	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

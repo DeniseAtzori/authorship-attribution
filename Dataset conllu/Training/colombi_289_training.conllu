@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La udivo parlare con suo fratello.
+1	La	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	udivo	udivo	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Che note vibravano nella sua voce!
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	note	nota	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	vibravano	vibrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	voce	voce	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Era la melodia più soave che avessi ascoltata mai.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	melodia	melodia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	soave	soave	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	ascoltata	ascoltare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+9	mai	mai	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = C'erano dunque uomini a questo mondo che si sentivano dire _ti amo_, da una voce come quella?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	dunque	dunque	ADV	B	_	4	advmod	_	_
+4	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	sentivano	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+11	dire	dire	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	_ti	_to	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+13	amo_	ExtraSubj=Yes|amo_	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	voce	voce	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+18	come	come	ADP	E	_	19	case	_	_
+19	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	17	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 5
+# text = Mi pareva che tutto il sangue mi affluisse sul volto, ed abbassavo il capo per nascondere quella debolezza.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+8	affluisse	affluire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	volto	volto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ed	e	CCONJ	CC	_	14	cc	_	_
+14	abbassavo	abbassare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	capo	capo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	nascondere	nascondere	VERB	V	VerbForm=Inf	14	advcl	_	_
+19	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ma la Margherita mi gridava con fraterna sincerità:
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Margherita	Margherita	PROPN	SP	_	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	gridava	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	fraterna	fraterno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	sincerità	sincerità	NOUN	S	Gender=Fem	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che dire?
+1	Che	che	SCONJ	CS	_	2	mark	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Che fare?
+1	Che	che	SCONJ	CS	_	2	mark	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Chi non ama, non ama.
+1	Chi	chi	PRON	PR	PronType=Rel	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = L'uomo tradito, almeno, può uccidere.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	tradito	tradito	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	almeno	almeno	ADV	B	_	6	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	uccidere	uccidere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Ma chi non è più amato, non ha neppure il diritto di uccidere, egli ha avuto la sua parte di bene, quando è finita, non vi è più nulla da chiedere, nulla da pretendere.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	9	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	neppure	neppure	ADV	BN	PronType=Neg	12	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	uccidere	uccidere	VERB	V	VerbForm=Inf	12	acl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	bene	bene	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	18	punct	_	_
+25	quando	quando	SCONJ	CS	_	27	mark	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+30	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	31	expl	_	_
+31	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+32	più	più	ADV	B	_	31	advmod	_	_
+33	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	31	nsubj	_	_
+34	da	da	ADP	E	_	35	mark	_	_
+35	chiedere	chiedere	VERB	V	VerbForm=Inf	31	ccomp	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	9	punct	_	_
+37	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	_
+38	da	da	ADP	E	_	39	mark	_	_
+39	pretendere	pretendere	VERB	V	VerbForm=Inf	37	acl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Che fare?
+1	Che	che	SCONJ	CS	_	2	mark	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Imporre l'amore?
+1	Imporre	imporrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Come, come?
+1	Come	come	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	come	come	ADV	B	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Esso non s'impone, che quando l'altro non ha cominciato ad amare ancora;
+1	Esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+4	impone	imporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	SCONJ	CS	_	12	mark	_	_
+7	quando	quando	SCONJ	CS	_	12	mark	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+13	ad	a	ADP	E	_	14	mark	_	_
+14	amare	amare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	ancora	ancora	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 10
+# text = non già, quando ha finito.
+1	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+2	già	già	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quando	quando	SCONJ	CS	_	6	mark	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

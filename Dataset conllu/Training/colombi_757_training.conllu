@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Giovanni era stato esente dalla leva perchè era il primo ed io era vedova, diceva la vecchia;
+1	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Giovanni	Giovanni	PROPN	SP	_	6	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+6	esente	esente	ADJ	A	Number=Sing	0	root	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	leva	leva	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	perchè	poiperché	SCONJ	CS	_	11	mark	_	_
+11	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	nsubj	_	_
+14	ed	e	CCONJ	CC	_	17	cc	_	_
+15	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	vedova	vedovare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	parataxis	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vecchia	vecchio	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = e pochi mesi dopo aveva preso moglie e se n'era andato a Dongo a lavorare nella fabbrica di ghisa.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	dopo	dopo	ADV	B	_	3	advmod	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	se	se	SCONJ	CS	_	12	mark	_	_
+10	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Dongo	Dongo	PROPN	SP	_	12	obl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	lavorare	lavorare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fabbrica	fabbrica	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	ghisa	ghiso	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = L'anno dopo dovette andare Michele alla leva; quello non c'era modo di salvarlo.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	dopo	dopo	ADV	B	_	5	advmod	_	_
+4	dovette	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+6	Michele	Michele	PROPN	SP	_	5	obj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	leva	leva	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	5	punct	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	_
+15	modo	modo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	salvarlo	_	_	_	_	_	_	_	SpaceAfter=No
+17	salvar	salvare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Quando dovette partire, spogliai la casa di tutto quanto avevo.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	dovette	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	partire	partire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	spogliai	spogliare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nmod	_	_
+10	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
+11	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

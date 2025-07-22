@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La commozione impediva ad Anna di formulare nessuna parola.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	commozione	commozione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	impediva	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	Anna	Anna	PROPN	SP	_	3	obl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	formulare	formulare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	parola	parola	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Forse ella pensava, come aveva detto una volta Flavio, che occorresse un aggettivo più complesso, più misterioso, sopratutto più profondo.
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	come	come	SCONJ	CS	_	7	mark	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	Flavio	Flavio	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	occorresse	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	aggettivo	aggettivo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	complesso	complesso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	misterioso	misterioso	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	sopratutto	sopratutto	ADV	B	_	24	advmod	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Che dire quando il sangue sembra congelarsi nelle vene adducendo sulla pelle un brivido di ignoto terrore?
+1	Che	che	SCONJ	CS	_	2	mark	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	quando	quando	SCONJ	CS	_	6	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7-8	congelarsi	_	_	_	_	_	_	_	_
+7	congelar	congelare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	vene	vena	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+12	adducendo	adducere	VERB	V	VerbForm=Ger	7	advcl	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	brivido	brivido	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	ignoto	ignoto	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = No, a nessun patto ella avrebbe pronunciata la comune, la limitata parola, sotto l'impressione che le dava l'opera d'arte sfolgorante.
+1	No	no	INTJ	I	Polarity=Neg	8	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	patto	patto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	pronunciata	pronunciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	comune	comune	ADJ	A	Number=Sing	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	limitata	limitato	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	parola	parola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	sotto	sotto	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
+21	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	opera	opera	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	d'	di	ADP	E	_	25	case	_	SpaceAfter=No
+25	arte	arte	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	sfolgorante	sfolgorante	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

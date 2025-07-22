@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gli apprezzamenti del vecchio presuntuoso e dappoco lasciavano Anna indifferente, ma il riso della sorella la ferì nella sua intima sensibilità.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	apprezzamenti	apprezzamento	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	presuntuoso	presuntuoso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	dappoco	dappoco	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+9	lasciavano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	Anna	Anna	PROPN	SP	_	9	obj	_	_
+11	indifferente	indifferente	ADJ	A	Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	20	punct	_	_
+13	ma	ma	CCONJ	CC	_	20	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	riso	riso	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	ferì	ferì	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	25	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+23	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+24	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	sensibilità	sensibilità	NOUN	S	Gender=Fem	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Per queste piccole punture inavvertite ella soffriva, per una sola parola che ad altri sarebbe parsa insignificante, per una espressione colta a volo e tosto dileguata che pure tracciava un solco nella sua mente pensierosa.
+1	Per	per	ADP	E	_	4	case	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+3	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	punture	puntura	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+5	inavvertite	inavvertito	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	soffriva	soffrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sola	solo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	parola	parola	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+14	ad	a	ADP	E	_	15	case	_	_
+15	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	17	obl	_	_
+16	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	parsa	parsa	NOUN	S	Gender=Fem|Number=Sing	12	acl:relcl	_	_
+18	insignificante	insignificante	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	7	punct	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+23	colta	cogliere	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	volo	volo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	tosto	tosto	NOUN	S	Gender=Fem	22	conj	_	_
+28	dileguata	dileguato	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	pure	pure	ADV	B	_	31	advmod	_	_
+31	tracciava	tracciavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	solco	solco	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34-35	nella	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	37	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	mente	mente	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+38	pensierosa	pensieroso	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

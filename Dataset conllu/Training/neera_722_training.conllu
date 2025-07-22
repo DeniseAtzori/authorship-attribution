@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una luce tranquilla, eguale, trattenuta da tende di percallo bianco con orlature rosse dietro le quali tremano i rami curvi di un salice piangente, onore e vanto del piccolo giardino.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	luce	luce	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	eguale	eguale	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	trattenuta	trattenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	tende	tenda	NOUN	S	Gender=Fem|Number=Plur	7	obl:agent	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	percallo	percallo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	orlature	orlatura	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+15	rosse	rosso	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	dietro	dietro	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	quali	quale	PRON	PR	Number=Plur|PronType=Rel	19	obl	_	_
+19	tremano	tremare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	rami	ramo	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+22	curvi	curvo	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	salice	salice	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	piangente	piangente	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	onore	onore	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	vanto	vanto	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Una carezza degli occhi su mobili semplici un po’ antiquati, ampie poltrone, ampi letti, quadri ingenui, abbondanza di felci in vasi dalle sagome vecchiotte e gioconde.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	carezza	carezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	mobili	mobile	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+8	semplici	semplice	ADJ	A	Number=Plur	7	amod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	po’	poco	ADV	B	_	11	advmod	_	_
+11	antiquati	antiquato	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ampie	ampio	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+14	poltrone	poltrona	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ampi	ampio	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	letti	letto	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	quadri	quadro	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+20	ingenui	ingenuo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	abbondanza	abbondanza	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	felci	felce	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	vasi	vase	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27-28	dalle	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	sagome	sagome	NOUN	S	Gender=Fem	24	nmod	_	_
+30	vecchiotte	vecchiotto	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	gioconde	giocondo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

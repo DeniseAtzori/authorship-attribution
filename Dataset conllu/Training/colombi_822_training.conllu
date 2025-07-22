@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così gli interessi comuni prosperavano.
+1	Così	così	ADV	B	_	5	advmod	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	comuni	comune	ADJ	A	Number=Plur	3	amod	_	_
+5	prosperavano	prosperare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ma quando tutti e due pigliarono moglie quasi nello stesso tempo, dovettero separarsi.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	quando	quando	SCONJ	CS	_	6	mark	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	due	due	NUM	N	NumType=Card	6	nsubj	_	_
+6	pigliarono	pigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	quasi	quasi	ADV	B	_	12	advmod	_	_
+9-10	nello	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	dovettero	dovettero	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+15-16	separarsi	_	_	_	_	_	_	_	SpaceAfter=No
+15	separar	separare	ADJ	A	Number=Sing	14	amod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Allora il babbo si tenne la casa;
+1	Allora	allora	ADV	B	_	5	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	tenne	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = al signor Teodoro toccarono quei pochi fondi di famiglia; e ciascuno tirò via ad affittar terreni ed a farli fruttare per suo conto.
+1-2	al	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	signor	signore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	Teodoro	Teodoro	PROPN	SP	_	3	nmod	_	_
+5	toccarono	toccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+7	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+14	tirò	tirare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	5	conj	_	_
+15	via	via	ADV	B	_	14	advmod	_	_
+16	ad	a	ADP	E	_	17	mark	_	_
+17	affittar	affittare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+18	terreni	terreno	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+19	ed	e	CCONJ	CC	_	21	cc	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21-22	farli	_	_	_	_	_	_	_	_
+21	far	fare	VERB	V	VerbForm=Inf	17	conj	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+23	fruttare	fruttare	VERB	V	VerbForm=Inf	21	ccomp	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	conto	conto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Questo fratello qui era di umore tranquillo, pensava a lungo prima di fare una cosa, e non la faceva se non la credeva buona; e la vostra povera mamma era una donnina di casa, modesta, che lavorava dalla mattina alla sera.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	qui	qui	ADV	B	_	6	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	umore	umore	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	_
+7	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	9	obl	_	_
+12	prima	prima	ADV	B	_	14	mark	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+22	se	se	SCONJ	CS	_	25	mark	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	credeva	credere	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+26	buona	buono	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	35	punct	_	_
+28	e	e	CCONJ	CC	_	35	cc	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+30	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+31	povera	povero	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+32	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	35	nsubj	_	_
+33	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	cop	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	donnina	donnina	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	casa	casa	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	35	punct	_	_
+39	modesta	modesto	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	35	punct	_	_
+41	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+42	lavorava	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	acl:relcl	_	_
+43-44	dalla	_	_	_	_	_	_	_	_
+43	da	da	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+46-47	alla	_	_	_	_	_	_	_	_
+46	a	a	ADP	E	_	48	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	sera	sera	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

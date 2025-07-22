@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le mando due lettere che ho ricevute dall'America a circa un anno di distanza l'una dall'altra.
+1	Le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	mando	mando	VERB	V	VerbForm=Ger	0	root	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ricevute	ricevere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8-9	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	America	America	PROPN	SP	_	7	obl	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	circa	circa	ADV	B	_	14	advmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	16	nsubj	_	_
+19-20	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+19	da	da	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La seconda è un seguito affatto impreveduto della prima;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	seconda	seconda	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	affatto	affatto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	impreveduto	impreveduto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	obl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = ed entrambe riusciranno certo più interessanti ai lettori del suo _Fanfulla_, che non sarebbe riuscita quella tale mia novella che vado promettendo da tanto tempo e non scrivo mai.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	entrambe	entrambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	3	conj	_	_
+3	riusciranno	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	certo	certo	ADV	B	_	3	advmod	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	interessanti	interessante	ADJ	A	Number=Plur	3	xcomp	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	lettori	lettore	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	_Fanfulla_	_fanfulla_	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	riuscita	riuscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+19	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	18	nsubj	_	_
+20	tale	tale	DET	DD	Number=Sing|PronType=Dem	22	det	_	_
+21	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	novella	novella	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+24	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	promettendo	promettere	VERB	V	VerbForm=Ger	24	advcl	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	28	det	_	_
+28	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	conj	_	_
+32	mai	mai	ADV	B	_	31	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

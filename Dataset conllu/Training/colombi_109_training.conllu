@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Eravamo una serie di cugini che ci trovavamo tutti insieme il giovedì e la domenica.
+1	Eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	serie	serie	NOUN	S	Gender=Fem	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cugini	cugine	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	_
+8	trovavamo	trovare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	obl	_	_
+10	insieme	insieme	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giovedì	giovedì	NOUN	S	Gender=Masc	8	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = — Si faceva, naturalmente, un chiasso dell'altro mondo;
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	naturalmente	naturalmente	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	chiasso	chiasso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	12	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+11	altro	altro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = e, per una decina di giovedì, ed una decina di domeniche prima delle feste, la zia Catterina che parlava a proverbi, quando si sentiva rompere il capo dai nostri gridi, ci gettava contro, come una minaccia, il suo proverbio di circostanza:
+1	e	e	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	decina	decina	NOUN	S	Gender=Fem|Number=Sing	39	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	giovedì	giovedì	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	decina	decina	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	domeniche	domenica	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	prima	prima	ADV	B	_	17	case	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	14	fixed	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	feste	festa	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	zia	zia	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+21	Catterina	Catterina	PROPN	SP	_	20	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	proverbi	proverbo	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	quando	quando	SCONJ	CS	_	29	mark	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	advcl	_	_
+30	rompere	rompere	VERB	V	VerbForm=Inf	29	ccomp	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	capo	capo	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33-34	dai	_	_	_	_	_	_	_	_
+33	da	da	ADP	E	_	36	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+35	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	gridi	gride	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	5	punct	_	_
+38	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	39	expl	_	_
+39	gettava	gettavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+40	contro	contro	ADV	B	_	39	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	39	punct	_	_
+42	come	come	ADP	E	_	44	case	_	_
+43	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	48	punct	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	proverbio	proverbio	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	_
+49	di	di	ADP	E	_	50	case	_	_
+50	circostanza	circostanza	NOUN	S	Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+51	:	:	PUNCT	FC	_	39	punct	_	_
+
+# sent_id = 4
+# text = — «Anno nuovo, vita nuova!»
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	Anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Adesso, una espressione di spavento si era unita, sulla sua faccia, alla profonda stanchezza che ne trapelava:
+1	Adesso	adesso	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	spavento	spavento	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	unita	unire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	profonda	profondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+22	trapelava	trapelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = il grazioso villino sorgente fra i rami che cominciavano a fiorire, gli faceva paura.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	grazioso	grazioso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	villino	villino	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+4	sorgente	sorgente	ADJ	A	Number=Sing	3	amod	_	_
+5	fra	fra	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	rami	ramo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	cominciavano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	fiorire	fiorire	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	paura	paura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Fu in preda a mille esitazioni che egli attraversò quel breve spazio di strada;
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	preda	preda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	mille	mille	NUM	N	NumType=Card	6	nummod	_	_
+6	esitazioni	esitazione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	attraversò	attraversare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	breve	breve	ADJ	A	Number=Sing	12	amod	_	_
+12	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	strada	strada	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = la sua mano, pigiando il bottone bianco del campanello elettrico, tremava.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	mano	mano	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	pigiando	pigiare	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bottone	bottone	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	elettrico	elettrico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	tremava	tremare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Un cameriere, ancora in giacchetta da mattina e con un grembiule di cotonina azzurra davanti, gli venne ad aprire:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cameriere	cameriera	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	giacchetta	giacchetta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	grembiule	grembiula	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cotonina	cotonina	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	azzurra	azzurro	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	davanti	davanti	ADV	B	_	17	case	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	12	punct	_	_
+18	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+19	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	ad	a	ADP	E	_	21	mark	_	_
+21	aprire	aprire	VERB	V	VerbForm=Inf	19	ccomp	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	19	punct	_	SpacesAfter=\n
+

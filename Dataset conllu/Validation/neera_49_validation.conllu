@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una grande soggezione mi prese ancora, come la prima volta che lo avevo veduto, e temendo sopratutto di dire una sciocchezza tacqui.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	A	Number=Sing	3	amod	_	_
+3	soggezione	soggezione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	prese	prendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Fin	3	acl	_	_
+6	ancora	ancora	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	come	come	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
+11	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	che	che	SCONJ	CS	_	15	mark	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+14	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	temendo	temere	VERB	V	VerbForm=Ger	5	conj	_	_
+19	sopratutto	sopratutto	ADV	B	_	18	advmod	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	dire	dire	VERB	V	VerbForm=Inf	18	xcomp	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sciocchezza	sciocchezza	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	tacqui	tacqui	PRON	PR	PronType=Rel	23	compound	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Egli parve per un po' di tempo non accorgersi neppure della mia presenza.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	po'	poco	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9-10	accorgersi	_	_	_	_	_	_	_	_
+9	accorger	accorgere	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	neppure	neppure	ADV	BN	PronType=Neg	15	advmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sfogliava distratto la rosa che aveva côlta dianzi disseminandone i petali sulla sabbia, così lontano da me che me ne sentii quasi ferita.
+1	Sfogliava	Sfogliare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	distratto	distrarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	côlta	côltare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	dianzi	dianzi	ADP	E	_	9	mark	_	_
+9-10	disseminandone	_	_	_	_	_	_	_	_
+9	disseminando	disseminare	VERB	V	VerbForm=Ger	7	advcl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	petali	petale	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sabbia	sabbia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	così	così	ADV	B	_	18	advmod	_	_
+18	lontano	lontano	ADV	B	_	20	case	_	_
+19	da	da	ADP	E	_	18	fixed	_	_
+20	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+22	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	iobj	_	_
+23	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	26	iobj	_	_
+24	sentii	sentio	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	quasi	quasi	ADV	B	_	26	advmod	_	_
+26	ferita	ferito	ADJ	A	Gender=Fem|Number=Sing	20	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Alla fine, per quella delicata abitudine di uomo a modo che stringeva dappresso la sua natura indipendente e selvaggia fece con uno sforzo ritorno alla conversazione.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+7	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	abitudine	abitudine	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	modo	modo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	stringeva	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	dappresso	dapprettere	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	natura	natura	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	indipendente	indipendente	ADJ	A	Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	selvaggia	selvaggio	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+22	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	ritorno	ritorno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	conversazione	conversazione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+

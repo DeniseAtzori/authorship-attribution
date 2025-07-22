@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non mancavano che quindici giorni all'arrivo del bersagliere quando io mi ammalai d'una febbre intermittente e dovetti stare a letto.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	mancavano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	quindici	quindici	NUM	N	NumType=Card	5	nummod	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bersagliere	bersagliere	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	quando	quando	SCONJ	CS	_	15	mark	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	ammalai	ammalare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	advcl	_	_
+16	d'	di	ADP	E	_	18	case	_	SpaceAfter=No
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	intermittente	intermittente	ADJ	A	Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	dovetti	dovetto	NOUN	S	Gender=Masc	15	conj	_	_
+22	stare	stare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	letto	letto	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Mio padre che, sebbene fosse molto burbero, mi voleva bene, chiamò subito il medico, e mi curò come se si fosse trattato di una malattia grave.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sebbene	sebbene	SCONJ	CS	_	8	mark	_	_
+6	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	burbero	burbero	ADJ	A	Gender=Masc|Number=Sing	11	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+12	bene	bene	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	chiamò	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	subito	subito	ADV	B	_	14	advmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	medico	medico	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+21	curò	curare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+22	come	come	ADV	B	_	26	advmod	_	_
+23	se	se	SCONJ	CS	_	26	mark	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	trattato	trattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+30	grave	grave	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = La povera Amalia, che m'aveva preso tanto affetto, era spaventata all'idea che dovessi ancora stare in letto quando sarebbe tornato il bersagliere.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	povera	povero	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	Amalia	Amalia	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	tanto	tanto	ADV	B	_	10	advmod	_	_
+10	affetto	affetto	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	spaventata	spaventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	idea	idea	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	dovessi	dovettere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	aux	_	_
+19	ancora	ancora	ADV	B	_	20	advmod	_	_
+20	stare	stare	VERB	V	VerbForm=Inf	16	acl:relcl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	letto	letto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+23	quando	quando	SCONJ	CS	_	25	mark	_	_
+24	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	bersagliere	bersagliere	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Domandava dava ansiosamente al medico:
+1	Domandava	Domandare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	ansiosamente	ansiosamente	ADV	B	_	2	advmod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	medico	medico	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

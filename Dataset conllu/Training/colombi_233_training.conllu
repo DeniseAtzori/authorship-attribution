@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Combinammo che io avrei lavorato al magazzeno.
+1	Combinammo	Combinare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	magazzeno	magazzeno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ch'egli sarebbe venuto a prendermi dopo la giornata, avremmo pranzato fuori di città e poi saremmo andati nella notte al cimitero.
+1	Ch'	perché	SCONJ	CS	_	4	mark	_	SpaceAfter=No
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	prendermi	_	_	_	_	_	_	_	_
+6	prender	prendere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	dopo	dopo	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	avremmo	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	pranzato	pranzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	fuori	fuori	ADV	B	_	16	case	_	_
+15	di	di	ADP	E	_	14	fixed	_	_
+16	città	città	NOUN	S	Gender=Fem	13	obl	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	poi	poi	ADV	B	_	20	advmod	_	_
+19	saremmo	essere	AUX	V	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	conj	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	notte	notte	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Io non volevo rientrare in casa sola con quel rimorso sulla coscienza.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	rientrare	rientrare	VERB	V	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	rimorso	rimorso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Quella notte avevo creduto di morire dalla paura.
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	notte	notte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	morire	morire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	paura	paura	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Avevo anche le convulsioni;
+1	Avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	1	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	convulsioni	convulsione	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = vedevo il morto, e tutta la stanza risuonava del suo grido:
+1	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	morto	morto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	9	punct	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	8	det:predet	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	risuonava	risuonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	grido	grido	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+

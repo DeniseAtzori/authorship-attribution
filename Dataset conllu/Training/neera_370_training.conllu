@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Io credo — aveva detto allora Gentile Lamberti — che lei dimentichi la qualità generativa d'ogni cosa bella.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	—	—	PUNCT	FF	_	3	punct	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+7	allora	allora	ADV	B	_	6	advmod	_	_
+8	Gentile	gentile	PROPN	SP	_	6	nsubj	_	_
+9	Lamberti	Lamberti	PROPN	SP	_	8	flat:name	_	_
+10	—	—	PUNCT	FF	_	6	punct	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	dimentichi	dimenticare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	qualità	qualità	NOUN	S	Gender=Fem	13	obj	_	_
+16	generativa	generativo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+18	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	bella	bello	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Questo fanciullo sente.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sente	sente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = — Oh! — aveva risposto il signor Pompeo scandolezzato — quale professione gli insegnerò io mai a base di sentire?
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Oh	oh	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+4	—	—	PUNCT	FF	_	2	punct	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	signor	signore	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+9	Pompeo	Pompeo	PROPN	SP	_	8	nmod	_	_
+10	scandolezzato	scandolezzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+11	—	—	PUNCT	FF	_	10	punct	_	_
+12	quale	quale	DET	DQ	Number=Sing|PronType=Int	13	det	_	_
+13	professione	professione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+15	insegnerò	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+16	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17	mai	mai	ADV	B	_	15	advmod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	base	base	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	sentire	sentire	VERB	V	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 4
+# text = — e dopo qualche istante di silenzio Gentile Lamberti replicò: — Perchè non sarebbe egli poeta?
+1	—	—	PUNCT	FF	_	10	punct	_	_
+2	e	e	CCONJ	CC	_	10	cc	_	_
+3	dopo	dopo	ADP	E	_	5	case	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	istante	istante	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	Gentile	gentile	PROPN	SP	_	7	nmod	_	_
+9	Lamberti	Lamberti	PROPN	SP	_	8	flat:name	_	_
+10	replicò	replicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	parataxis	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+12	—	—	PUNCT	FF	_	17	punct	_	_
+13	Perchè	perché	ADV	B	_	17	advmod	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	egli	egli	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
+17	poeta	poetare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

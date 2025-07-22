@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Se Dio vuole!
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Se	se	SCONJ	CS	_	4	mark	_	_
+3	Dio	Dio	PROPN	SP	_	4	nsubj	_	_
+4	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = — esclamò il signor Pompeo sollevando tutte e due le braccia al cielo.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	esclamò	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	signor	signore	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	Pompeo	Pompeo	PROPN	SP	_	4	nmod	_	_
+6	sollevando	sollevare	VERB	V	VerbForm=Ger	2	advcl	_	_
+7	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	11	det:predet	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	due	due	NUM	N	NumType=Card	7	conj	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = — Non mi meraviglierei che quel signore avesse la pretesa, lui che non crede a nulla, di credersi un uomo educato.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	meraviglierei	meravigliere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	signore	signore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pretesa	pretesa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	credersi	_	_	_	_	_	_	_	_
+20	creder	credere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24	educato	educato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Domando io se sono discorsi da fare in presenza di due signorine.
+1	Domando	domare	VERB	V	VerbForm=Ger	0	root	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	discorsi	discorgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	signorine	signorina	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

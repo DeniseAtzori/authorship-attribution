@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Ed infatti riescì a mantenermi tutto quel tempo in collegio, senza farmi sentire la menoma privazione, senza farmi sfigurare presso le compagne;
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ed	e	CCONJ	CC	_	4	cc	_	_
+3	infatti	infatti	ADV	B	_	4	advmod	_	_
+4	riescì	riescire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	mantenermi	mantenermo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	_
+8	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	collegio	collegio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	senza	senza	ADP	E	_	14	case	_	_
+14	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+15	sentire	sentire	VERB	V	VerbForm=Inf	4	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	menoma	menomo	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	privazione	privazione	NOUN	S	Gender=Fem|Number=Sing	17	compound	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	senza	senza	ADP	E	_	21	case	_	_
+21	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+22	sfigurare	sfigurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+23	presso	presso	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	compagne	compagna	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = e, dal canto suo, non fece mai l'ombra d'un debito.
+1	e	e	CCONJ	CC	_	9	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	canto	canto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	mai	mai	ADV	B	_	9	advmod	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	debito	debito	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Forse le privazioni, povero babbo, le imponeva a sè stesso;
+1	Forse	forse	ADV	B	_	9	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	privazioni	privazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	povero	povero	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	9	obj	_	_
+9	imponeva	imporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	obl	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 4
+# text = ed il mio benessere era il frutto de' suoi sacrifici.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	benessere	benessere	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	de'	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sacrifici	sacrificio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

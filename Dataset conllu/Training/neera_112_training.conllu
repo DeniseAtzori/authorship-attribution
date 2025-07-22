@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non doveva tuttavia essere questo il suo trionfo maggiore.
+1	Non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+2	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+3	tuttavia	tuttavia	ADV	B	_	8	advmod	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	trionfo	trionfo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Il cristianesimo primo rialzò veramente la donna.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cristianesimo	cristianesimo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+4	rialzò	rialze	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	veramente	veramente	ADV	B	_	4	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Coll’apoteosi di Maria ella fu salva.
+1-2	Coll’	_	_	_	_	_	_	_	SpaceAfter=No
+1	Co	co	ADV	B	_	8	advmod	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	apoteosi	apoteoso	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Maria	Maria	PROPN	SP	_	3	nmod	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	flat:name	_	_
+7	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	salva	salvare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Passando dalla forma all’idea, dal talamo all’altare, la donna cristiana ha confermato l’infinito potere femminile.
+1	Passando	passare	VERB	V	VerbForm=Ger	20	advcl	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	forma	forma	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	idea	idea	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	talamo	talamo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+12-13	all’	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	altare	altare	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	donna	donna	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+18	cristiana	cristiano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+22	infinito	infinito	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	potere	potere	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24	femminile	femminile	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 5
+# text = In vista di quella meta raggiante le martiri e le sante partirono dalle oltraggiate case ingrossando le file che divennero legioni e popolarono gli aspri sentieri della conquista nova.
+1	In	in	ADP	E	_	2	case	_	_
+2	vista	vista	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	meta	meta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	raggiante	raggiare	ADJ	A	Number=Sing	5	amod	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	martiri	martire	NOUN	S	Number=Plur	12	nsubj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	sante	sante	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+12	partirono	partire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13-14	dalle	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	oltraggiate	oltraggiato	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	case	casa	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+17	ingrossando	ingrossare	VERB	V	VerbForm=Ger	12	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	file	fila	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	divennero	divenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+22	legioni	legione	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	popolarono	popolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	aspri	asprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	sentieri	sentiero	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	conquista	conquista	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	nova	nova	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

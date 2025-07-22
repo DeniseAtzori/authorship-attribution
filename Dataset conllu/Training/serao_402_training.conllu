@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma nella notte non distingueva nulla.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notte	notte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	distingueva	distinguere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Camminava macchinalmente: fermandosi ogni tanto a guardare, senza vedere.
+1	Camminava	Camminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	macchinalmente	macchinalmente	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+4-5	fermandosi	_	_	_	_	_	_	_	_
+4	fermando	fermare	VERB	V	VerbForm=Ger	1	advcl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	guardare	guardare	VERB	V	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	senza	senza	ADP	E	_	12	mark	_	_
+12	vedere	vedere	VERB	V	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = I suoi piedi nudi, diventati color di polmone pel freddo di una intiera invernata, non sentivano più il terreno che si faceva glaciale, nè le pietre dove inciampava.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+4	nudi	nudo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	diventati	diventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+7	color	colore	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	polmone	polmone	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	pel	_	_	_	_	_	_	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	intiera	intiera	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	invernata	invernato	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	sentivano	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+20	più	più	ADV	B	_	19	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+26	glaciale	glaciale	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	nè	né	CCONJ	CC	_	30	cc	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	pietre	pietra	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+31	dove	dove	ADV	B	_	32	advmod	_	_
+32	inciampava	inciampare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 4
+# text = Non aveva paura della notte, della campagna solitaria:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	notte	notte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+11	solitaria	solitario	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = non voleva che ritrovare Ciccotto.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	ritrovare	ritrovare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	Ciccotto	Ciccotto	PROPN	SP	_	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

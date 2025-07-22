@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Si alzò di scatto sfuggendogli verso il fondo della stanza, credendo di dirigersi all’uscita.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	scatto	scatto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5-6	sfuggendogli	_	_	_	_	_	_	_	_
+5	sfuggendo	sfuggire	VERB	V	VerbForm=Ger	2	advcl	_	_
+6	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	credendo	credere	VERB	V	VerbForm=Ger	2	advcl	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	dirigersi	dirigerso	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17-18	all’	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Si trovò invece presso ad una porta aperta dalla quale scorgevasi la camera di Ariele.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	invece	invece	ADV	B	_	2	advmod	_	_
+4	presso	presso	ADV	B	_	7	advmod	_	_
+5	ad	a	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	porta	porta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	quale	quale	PRON	PR	Number=Sing|PronType=Rel	12	obl	_	_
+12	scorgevasi	scorgevanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	camera	camera	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Ariele	Ariele	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Volle retrocedere;
+1	Volle	volle	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	retrocedere	retrocedere	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = ma egli l’aveva raggiunta e gli palpitava nello sguardo quella luce azzurra che l’amata conosceva, che lo trasfigurava tutto.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	raggiunta	raggiungere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	palpitava	palpitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+9-10	nello	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	luce	luce	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	azzurra	azzurro	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	amata	amato	NOUN	S	Gender=Fem|Number=Sing	14	advcl	_	_
+18	conosceva	conoscere	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+22	trasfigurava	trasfigurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+23	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Muto, tremante, la cinse.
+1	Muto	muto	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	tremante	tremante	NOUN	S	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cinse	cinso	NOUN	S	Number=Sing	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Anima e sensi spasimavano.
+1	Anima	Anima	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	sensi	senso	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+4	spasimavano	spasimare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

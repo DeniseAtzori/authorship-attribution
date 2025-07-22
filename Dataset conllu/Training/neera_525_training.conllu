@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anna fu sul punto di chiedere al suo giovane amico, per cortesia, se avesse freddo anche lui, ma vide subito l'inutilità della domanda.
+1	Anna	Anna	PROPN	SP	_	2	nsubj	_	_
+2	fu	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	chiedere	chiedere	VERB	V	VerbForm=Inf	5	acl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	12	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	giovane	giovane	ADJ	A	Number=Sing	12	amod	_	_
+12	amico	amico	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	cortesia	cortesia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	se	se	SCONJ	CS	_	18	mark	_	_
+18	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+19	freddo	freddo	SCONJ	CS	_	24	mark	_	_
+20	anche	anche	ADV	B	_	21	advmod	_	_
+21	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	ma	ma	CCONJ	CC	_	24	cc	_	_
+24	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+25	subito	subito	ADV	B	_	24	advmod	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	inutilità	inutilità	NOUN	S	Gender=Fem	24	obj	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Era lontano il giorno in cui misero, avvilito, perduto nella nebbia e nel terrore ella se lo era stretto al seno con amorevole atto materno....
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	7	obl	_	_
+7	misero	midere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	avvilito	avvilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+19	ella	ellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+20	se	se	SCONJ	CS	_	23	mark	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	stretto	stretto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	seno	seno	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	amorevole	amorevole	ADJ	A	Number=Sing	29	amod	_	_
+29	atto	atto	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	materno...	materno.	NOUN	S	Gender=Masc	29	compound	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Una leggera malinconia l'assalì improvvisamente.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	leggera	leggero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	assalì	assalì	NOUN	S	Gender=Masc	3	nmod	_	_
+6	improvvisamente	improvvisamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

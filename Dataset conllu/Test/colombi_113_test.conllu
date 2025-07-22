@@ -1,0 +1,131 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Egli non ne parlò nemmanco.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	parlò	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	nemmanco	nemmanco	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Quando gli proposi di venire, mi disse che lo avrebbe desiderato, ma non ne aveva il tempo.
+1	Quando	quando	SCONJ	CS	_	8	mark	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	proposi	proposi	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	venire	venire	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	desiderato	desiderare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	17	iobj	_	_
+17	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Venne ad accompagnarmi allo scalo, e quando entrai nella sala d'aspetto, mi strinse la mano, mi fece un inchino e partì.
+1	Venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ad	a	ADP	E	_	3	case	_	_
+3	accompagnarmi	arma|accompagnarme	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+4-5	allo	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	scalo	scalo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	quando	quando	SCONJ	CS	_	10	mark	_	_
+10	entrai	entrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sala	sala	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	strinse	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	mano	mano	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+23	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	inchino	inchino	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	partì	partì	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mi fermai alla porta e lo seguii collo sguardo, sperando che si volgesse qualche volta per vedermi e salutarmi ancora.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	fermai	fermare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	porta	porta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	seguii	seguii	ADJ	NO	Number=Sing|NumType=Ord	9	amod	_	_
+9	collo	collo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+10	sguardo	sguardo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	sperando	sperare	VERB	V	VerbForm=Ger	2	advcl	_	_
+13	che	che	SCONJ	CS	_	15	mark	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	volgesse	volgettere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
+16	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	volta	volta	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19-20	vedermi	_	_	_	_	_	_	_	_
+19	veder	vedere	VERB	V	VerbForm=Inf	15	advcl	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22-23	salutarmi	_	_	_	_	_	_	_	_
+22	salutar	salutare	VERB	V	VerbForm=Inf	19	conj	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	obj	_	_
+24	ancora	ancora	ADV	B	_	22	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ma egli non pensava che al suo sigaro.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	sigaro	sigaro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Non si voltò mai.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	voltò	volte	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	mai	mai	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Correva e fumava come una locomotiva!
+1	Correva	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	fumava	fumare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	locomotiva	locomotiva	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

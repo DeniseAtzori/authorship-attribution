@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Orbene, tutto ciò è scomparso irremissibilmente.
+1	Orbene	Orbene	INTJ	I	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	scomparso	scomparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	irremissibilmente	irremissibilmente	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Il moltiplicarsi delle fabbriche, diffondendo nelle campagne l’ansia di una vita nuova, apre alle giovani una porta che fa loro intravedere la giocondità tumultuosa di una giornata cui fa seguito una libertà senza confine e la maggior parte di esse non esita un solo istante.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2-3	moltiplicarsi	_	_	_	_	_	_	_	_
+2	moltiplicar	moltiplicar	NOUN	S	Gender=Masc	19	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	fabbriche	fabbrica	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	diffondendo	diffondere	VERB	V	VerbForm=Ger	19	advcl	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	campagne	campagna	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20-21	alle	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	giovani	giovane	NOUN	S	Number=Plur	19	obl	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	porta	porta	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	28	iobj	_	_
+28	intravedere	intravedere	VERB	V	VerbForm=Inf	26	ccomp	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	giocondità	giocondità	NOUN	S	Gender=Fem	28	obj	_	_
+31	tumultuosa	tumultuoso	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+35	cui	cui	PRON	PR	PronType=Rel	36	obl	_	_
+36	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+37	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	libertà	libertà	NOUN	S	Gender=Fem	37	nmod	_	_
+40	senza	senza	ADP	E	_	41	case	_	_
+41	confine	confine	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+42	e	e	CCONJ	CC	_	49	cc	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	45	amod	_	_
+45	parte	parte	NOUN	S	Gender=Fem|Number=Sing	49	nsubj	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	45	nmod	_	_
+48	non	non	ADV	BN	PronType=Neg	49	advmod	_	_
+49	esita	esire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
+50	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+51	solo	solo	ADJ	A	Gender=Masc|Number=Sing	52	amod	_	_
+52	istante	istante	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n
+

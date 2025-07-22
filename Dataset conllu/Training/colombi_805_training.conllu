@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La madre della piccola malata continuava ad annaspare in silenzio, ingoiando tratto tratto un singhiozzo;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	malata	malato	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	continuava	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	ad	a	ADP	E	_	9	mark	_	_
+9	annaspare	annaspare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	ingoiando	ingoiare	VERB	V	VerbForm=Ger	9	advcl	_	_
+14	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+15	tratto	trarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	singhiozzo	singhiozzo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = ed ogni tanto mi guardava con certi occhi ebeti, traverso le lagrime, che facevano piangere.
+1	ed	e	CCONJ	CC	_	5	cc	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	tanto	tanto	ADV	B	_	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	ebeti	ebeto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	traverso	travergere	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+17	piangere	piangere	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Non avevo mai visto dolore più represso e muto nella sua intensità.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	represso	represso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	muto	muto	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	intensità	intensità	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Se ne vergognava, e faceva sforzi inauditi per dissimularlo.
+1	Se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	vergognava	vergognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+7	sforzi	sforzo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	inauditi	inaudito	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	dissimularlo	_	_	_	_	_	_	_	SpaceAfter=No
+10	dissimular	dissimulare	VERB	V	VerbForm=Inf	7	acl	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

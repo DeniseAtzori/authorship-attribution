@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Vedete, lì c'era il famoso fazzoletto di trine che i topi si sono portato via ed io accomodai la rottura quasi in ginocchio, come un celebre frate del quattrocento dipingeva le sue Madonne.
+1	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+3	Vedete	vedere	PROPN	SP	_	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	lì	lì	ADV	B	_	7	advmod	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	famoso	famoso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	fazzoletto	fazzoletto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	trine	trina	NOUN	S	Gender=Fem	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	topi	topio	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+19	via	via	ADV	B	_	18	advmod	_	_
+20	ed	e	CCONJ	CC	_	22	cc	_	_
+21	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	accomodai	accomodare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	18	conj	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	rottura	rottura	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	quasi	quasi	ADV	B	_	27	advmod	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	ginocchio	ginocchio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	22	punct	_	_
+29	come	come	ADP	E	_	32	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	celebre	celebre	ADJ	A	Number=Sing	32	amod	_	_
+32	frate	frata	NOUN	S	Gender=Masc	22	obl	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	quattrocento	quattrocento	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	dipingeva	dipingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+38	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	Madonne	Madonne	PROPN	SP	_	36	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ma accanto a quelle trine lì non mi arrischiai di metterne nessun'altra, capite, nevvero?
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	accanto	accanto	ADV	B	_	5	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	trine	trino	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+6	lì	lì	ADV	B	_	9	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	arrischiai	arrischiai	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	metterne	_	_	_	_	_	_	_	_
+11	metter	mettere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+13	nessun'	nessuno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	capite	capite	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	nevvero	nevvero	CCONJ	CC	_	14	conj	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = E allora ricorsi ad una rosa.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	allora	allora	ADV	B	_	3	advmod	_	_
+3	ricorsi	ricorrere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

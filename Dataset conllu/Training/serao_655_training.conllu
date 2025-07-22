@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che avrebbe detto, ella, trovandosi sola allo svegliarsi?
+1	Che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7-8	trovandosi	_	_	_	_	_	_	_	_
+7	trovando	trovare	VERB	V	VerbForm=Ger	3	advcl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	sola	solo	ADJ	A	Gender=Fem|Number=Sing	7	xcomp	_	_
+10-11	allo	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12-13	svegliarsi	_	_	_	_	_	_	_	SpaceAfter=No
+12	svegliar	svegliare	VERB	V	VerbForm=Inf	9	obl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Avrebbe forse creduto a una villania o ad una pazzia?
+1	Avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	forse	forse	ADV	B	_	3	advmod	_	_
+3	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	villania	villania	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	o	o	CCONJ	CC	_	10	cc	_	_
+8	ad	a	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pazzia	pazzia	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Avrebbe ella supposto che egli fosse andato a uccidersi?
+1	Avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	ella	ellare	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	supposto	supposto	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	uccidersi	_	_	_	_	_	_	_	SpaceAfter=No
+9	uccider	uccidere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Così, egli pensava: e restava, inchiodato, immobile, incapace di dare le spalle a quel caro volto fresco, a quei capelli biondi, sparsi sulla batista dell'origliere; restava, vinto egualmente dal ribrezzo di sè, dalla paura, dalla pietà.
+1	Così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	inchiodato	inchiodare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	immobile	immobile	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	incapace	incapace	ADJ	A	Number=Sing	4	xcomp	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	dare	dare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+20	caro	caro	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	volto	volto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+22	fresco	fresco	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	26	det	_	_
+26	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+27	biondi	biondo	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29-30	sparsi	_	_	_	_	_	_	_	_
+29	spar	spare	VERB	V	VerbForm=Inf	15	conj	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+31-32	sulla	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	batista	batista	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+34-35	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+34	di	di	ADP	E	_	36	case	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	origliere	origliere	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	;	;	PUNCT	FC	_	38	punct	_	_
+38	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	parataxis	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+41	egualmente	egualmente	ADV	B	_	40	advmod	_	_
+42-43	dal	_	_	_	_	_	_	_	_
+42	da	da	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	ribrezzo	ribrezzo	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	sè	sè	PRON	PE	Person=3|PronType=Prs	44	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	50	punct	_	_
+48-49	dalla	_	_	_	_	_	_	_	_
+48	da	da	ADP	E	_	50	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	paura	paura	NOUN	S	Gender=Fem|Number=Sing	44	conj	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	54	punct	_	_
+52-53	dalla	_	_	_	_	_	_	_	_
+52	da	da	ADP	E	_	54	case	_	_
+53	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	pietà	pietà	NOUN	S	Gender=Fem	44	conj	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

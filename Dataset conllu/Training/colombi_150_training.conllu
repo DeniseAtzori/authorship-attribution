@@ -1,0 +1,151 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ero triste, uggita.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	triste	triste	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	uggita	uggito	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non avevo a chi confidarmi.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	obl	_	_
+5-6	confidarmi	_	_	_	_	_	_	_	SpaceAfter=No
+5	confidar	confidare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Avrei voluto ad ogni costo uscire da quelle angustie;
+1	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	ad	a	ADP	E	_	5	case	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	costo	costo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	uscire	uscire	VERB	V	VerbForm=Inf	5	acl	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	angustie	angustio	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ma non osavo scrivere alla mamma che la mia ambizione era stata illusoria, che tutte le mie belle speranze m'avevano condotta a quegli estremi.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	osavo	osavo	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	scrivere	scrivere	VERB	V	VerbForm=Inf	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	che	che	SCONJ	CS	_	14	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	ambizione	ambizione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+13	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+14	illusoria	illusorio	ADJ	A	Gender=Fem|Number=Sing	7	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+17	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	21	det:predet	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+19	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+20	belle	bello	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	speranze	speranza	NOUN	S	Gender=Fem|Number=Plur	24	nsubj	_	_
+22	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	obj	_	SpaceAfter=No
+23	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	condotta	condurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	27	det	_	_
+27	estremi	estremio	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Il posto di maestra era occupato;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	posto	posto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 6
+# text = e poi io avevo lasciato andare gli studi per buttarmi al telegrafo, e non avevo diploma.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	poi	poi	ADV	B	_	5	advmod	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	andare	andare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	studi	studio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	buttarmi	_	_	_	_	_	_	_	_
+10	buttar	buttare	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	telegrafo	telegrafo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	_
+19	diploma	diplomare	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = — Avrei dovuto tornare in famiglia senza guadagnar nulla.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4	tornare	tornare	VERB	V	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	senza	senza	ADP	E	_	8	mark	_	_
+8	guadagnar	guadagnarre	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = — Mi vergognavo.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	vergognavo	vergognavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Preferivo soffrire, vivere di ripieghi, fare qualche debituccio, ma lasciar ignorare alla mamma i miei guai, e salvare le apparenze.
+1	Preferivo	Preferivo	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	soffrire	soffrire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	vivere	vivere	VERB	V	VerbForm=Inf	2	conj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	ripieghi	ripiega	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	2	conj	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	debituccio	debituccio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	lasciar	lasciare	VERB	V	VerbForm=Inf	2	conj	_	_
+14	ignorare	ignorare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	guai	guaio	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	salvare	salvare	VERB	V	VerbForm=Inf	2	conj	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	apparenze	apparenza	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

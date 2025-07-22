@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella pare, anche, delicatissima come se uscisse allora da una infermità che l'ha estenuata e come se riprendesse allora le sue giovanili e tenere energie.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	delicatissima	delicato	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	2	conj	_	_
+7	come	come	ADV	B	_	9	advmod	_	_
+8	se	se	SCONJ	CS	_	9	mark	_	_
+9	uscisse	uscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+10	allora	allora	ADV	B	_	9	advmod	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	infermità	infermità	NOUN	S	Gender=Fem	9	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	estenuata	estenuare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	come	come	ADV	B	_	21	advmod	_	_
+20	se	se	SCONJ	CS	_	21	mark	_	_
+21	riprendesse	riprendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+22	allora	allora	ADV	B	_	21	advmod	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	giovanili	giovanilo	NOUN	S	Number=Plur	21	obj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	tenere	tenere	VERB	V	VerbForm=Inf	25	conj	_	_
+28	energie	energia	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Certo è questo:
+1	Certo	certo	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = che non possedendo nessuna bellezza, non avendo nessuna formosità, non facendo mostra di nessuna grande qualità estetica palese, questa donna è seducente.
+1	che	che	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	possedendo	possedere	VERB	V	VerbForm=Ger	25	advcl	_	_
+4	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	avendo	avere	VERB	V	VerbForm=Ger	3	advcl	_	_
+9	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	formosità	formosità	NOUN	S	Gender=Fem	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	facendo	fare	VERB	V	VerbForm=Ger	3	advcl	_	_
+14	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
+17	grande	grande	ADJ	A	Number=Sing	18	amod	_	_
+18	qualità	qualità	NOUN	S	Gender=Fem	14	nmod	_	_
+19	estetica	estetico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	palese	palese	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	donna	donna	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	seducente	seducente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	25	punct	_	SpacesAfter=\n
+

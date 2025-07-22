@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ora, Nino Stresa ha uno sguardo singolare.
+1	Ora	ora	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Nino	Nino	PROPN	SP	_	5	nsubj	_	_
+4	Stresa	Stresa	PROPN	SP	_	3	flat:name	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	singolare	singolare	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = I suoi occhi sono semplicemente neri, senz'altro pregio.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	semplicemente	semplicemente	ADV	B	_	6	advmod	_	_
+6	neri	nero	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	senz'	senza	ADP	E	_	10	case	_	SpaceAfter=No
+9	altro	altro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	pregio	pregio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ma lo sguardo ha una dolcezza languida e persistente che, talvolta, dopo qualche minuto di contemplazione, pare che si veli di lacrime per una profonda emozione saliente agli occhi dall'imo cuore.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	languida	languido	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	persistente	persistente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	che	che	SCONJ	CS	_	20	mark	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	20	punct	_	_
+12	talvolta	talvolta	ADV	B	_	20	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	dopo	dopo	ADP	E	_	16	case	_	_
+15	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	contemplazione	contemplazione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+21	che	che	SCONJ	CS	_	23	mark	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	veli	velare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+26	per	per	ADP	E	_	29	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+30	saliente	saliente	ADJ	A	Number=Sing	29	amod	_	_
+31-32	agli	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+34-35	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+34	da	da	ADP	E	_	37	case	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+36	imo	imo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	37	amod	_	_
+37	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Sembra, quando guarda così, Nino Stresa, che tutta la sua anima si dissolva in una intima e malinconica tenerezza, assolutamente contraria alla sua apparenza di bellissimo giovane e di giovane elegantissimo.
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quando	quando	SCONJ	CS	_	4	mark	_	_
+4	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+5	così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	Nino	Nino	PROPN	SP	_	4	nsubj	_	_
+8	Stresa	Stresa	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+11	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	14	det:predet	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	anima	anima	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	dissolva	dissolvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+17	in	in	ADP	E	_	22	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+19	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	malinconica	malinconico	ADJ	A	Gender=Fem|Number=Sing	19	conj	_	_
+22	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	assolutamente	assolutamente	ADV	B	_	25	advmod	_	_
+25	contraria	contrario	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	apparenza	apparenza	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	32	amod	_	_
+32	giovane	giovane	NOUN	S	Number=Sing	29	nmod	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	giovane	giovane	NOUN	S	Number=Sing	32	conj	_	_
+36	elegantissimo	elegantissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

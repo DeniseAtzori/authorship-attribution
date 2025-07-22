@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = No dico di no.
+1	No	no	INTJ	I	Polarity=Neg	2	discourse	_	_
+2	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	no	no	ADV	BN	PronType=Neg	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = L’esortazione se non altro è nobile e bella e a non prenderla troppo alla lettera potrà anche essere utile.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	esortazione	esortazione	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+3	se	se	SCONJ	CS	_	7	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	nobile	nobile	ADJ	A	Number=Sing	2	advcl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	bella	bello	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	a	a	ADP	E	_	13	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13-14	prenderla	_	_	_	_	_	_	_	_
+13	prender	prendere	VERB	V	VerbForm=Inf	7	conj	_	_
+14	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	troppo	troppo	ADV	B	_	13	advmod	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+19	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	aux	_	_
+20	anche	anche	ADV	B	_	22	advmod	_	_
+21	essere	essere	AUX	V	VerbForm=Inf	22	cop	_	_
+22	utile	utile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 3
+# text = Dio ci guardi tuttavia dal cadere nell’errore, tanto comune in questi tempi di uguaglianza, che si possano foggiare le anime nella stessa guisa dei vestiti e che basti una pennellata di rosso o di bianco per metterle nella tinta di moda.
+1	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	guardi	guardare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tuttavia	tuttavia	ADV	B	_	3	advmod	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cadere	cadere	VERB	V	VerbForm=Inf	3	obl	_	_
+8-9	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+8	in	in	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	errore	errore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	tanto	tanto	ADV	B	_	13	advmod	_	_
+13	comune	comune	ADJ	A	Number=Sing	3	amod	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+16	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	uguaglianza	uguaglianza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+22	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	foggiare	foggiare	VERB	V	VerbForm=Inf	16	acl:relcl	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	anime	anima	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+26-27	nella	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	guisa	guisa	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	vestiti	vestito	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	che	che	SCONJ	CS	_	35	mark	_	_
+35	basti	bastare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	conj	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	pennellata	pennellata	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	rosso	rosso	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40	o	o	CCONJ	CC	_	42	cc	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	bianco	bianco	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	_
+43	per	per	ADP	E	_	44	mark	_	_
+44-45	metterle	_	_	_	_	_	_	_	_
+44	metter	mettere	VERB	V	VerbForm=Inf	35	advcl	_	_
+45	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	44	obj	_	_
+46-47	nella	_	_	_	_	_	_	_	_
+46	in	in	ADP	E	_	48	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	tinta	tinta	NOUN	S	Gender=Fem|Number=Sing	44	obl	_	_
+49	di	di	ADP	E	_	50	case	_	_
+50	moda	moda	NOUN	S	Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

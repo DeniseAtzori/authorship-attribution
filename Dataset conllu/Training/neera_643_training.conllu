@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il raggio di luna la accolse, la investì tutta, il bel volto addolorato, le belle membra stanche nell'abito bianco;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	raggio	raggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	luna	luna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	accolse	accolse	NOUN	S	_	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	14	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+9	investì	investì	ADV	B	_	10	advmod	_	_
+10	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	bel	bello	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	volto	volto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+15	addolorato	addolorato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	belle	bello	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+19	membra	membro	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+20	stanche	stanche	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21-22	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	in	in	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	abito	abito	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = tutta la persona investì dalla testa al lembo estremo, fluido al pari di una carezza, vivo;
+1	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	investì	investire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	testa	testa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lembo	lembo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	estremo	estremo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	fluido	fluido	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pari	pari	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	carezza	carezza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = ed Anna si pose a singhiozzare dolcemente come se l'esile mano di suo padre le stesse ancora sopra, tenera e scottante nel palmo;
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	Anna	Anna	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	singhiozzare	singhiozzare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	dolcemente	dolcemente	ADV	B	_	6	advmod	_	_
+8	come	come	ADV	B	_	6	advmod	_	_
+9	se	se	SCONJ	CS	_	8	fixed	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+11	esile	esile	ADJ	A	Number=Sing	12	amod	_	_
+12	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	padre	padre	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	stesse	stesso	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	12	nmod	_	_
+18	ancora	ancora	ADV	B	_	19	advmod	_	_
+19	sopra	sopra	ADV	B	_	17	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	tenera	tenerare	ADJ	A	Gender=Fem|Number=Sing	19	conj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	scottante	scottare	ADJ	A	Number=Sing	19	conj	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	palmo	palmo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = come se i suoi occhi buoni la stessero a riguardare e la sua voce uscisse calma e profonda a pronunciare parole gravi vestite di mitezza.
+1	come	come	ADV	B	_	8	advmod	_	_
+2	se	se	SCONJ	CS	_	8	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+6	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	stessero	stesdere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	riguardare	riguardare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	voce	voce	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+15	uscisse	uscire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	calma	calma	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	pronunciare	pronunciare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+21	parole	parola	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+22	gravi	grave	ADJ	A	Number=Plur	21	amod	_	_
+23	vestite	vestire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	mitezza	mitezza	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

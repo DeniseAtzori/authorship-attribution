@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Tu non sai forse, disse il dottor Valeri alla moglie, che questo, prima di te, lo disse il Leopardi.
+1	--Tu	--tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	forse	forse	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	Valeri	Valeri	PROPN	SP	_	8	nmod	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+15	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	dislocated	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	prima	prima	ADV	B	_	19	case	_	_
+18	di	di	ADP	E	_	17	fixed	_	_
+19	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	22	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+22	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Leopardi	Leopardi	PROPN	SP	_	22	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Io ci ho pensato a lungo, ed ho finito col persuadermi che è vero;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11-12	col	_	_	_	_	_	_	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13-14	persuadermi	_	_	_	_	_	_	_	_
+13	persuader	persuader	NOUN	S	_	10	obl	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	vero	vero	ADJ	A	Gender=Masc|Number=Sing	13	acl:relcl	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = perchè i piaceri non si gustano se non relativamente alla condizione in cui si vive.
+1	perchè	perché	SCONJ	CS	_	6	mark	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	piaceri	piacere	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	gustano	gustare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	se	se	SCONJ	CS	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	relativamente	relativo	ADV	B	_	6	advmod	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Se quel vecchio fosse trasportato nello stato nostro, godrebbe una beatitudine infinita, esulterebbe di gioia.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+4	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	trasportato	trasportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+6-7	nello	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	stato	stato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	godrebbe	godere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	beatitudine	beatitudine	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	infinita	infinito	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	esulterebbe	esultare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

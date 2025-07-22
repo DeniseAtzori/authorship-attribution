@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Codesto pensavo, poi ripensavo il suo bacio, poi guardavo la mia mano per vedere se fosse realmente _la bella mano candida_, o se gli preparasse una delusione.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Codesto	codesto	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+3	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	poi	poi	ADV	B	_	6	advmod	_	_
+6	ripensavo	ripensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	poi	poi	ADV	B	_	12	advmod	_	_
+12	guardavo	guardare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	mano	mano	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	vedere	vedere	VERB	V	VerbForm=Inf	12	advcl	_	_
+18	se	se	SCONJ	CS	_	23	mark	_	_
+19	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+20	realmente	realmente	ADV	B	_	23	advmod	_	_
+21	_la	_lare	DET	RD	Gender=Fem|Number=Sing	23	det	_	_
+22	bella	bello	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	mano	mano	NOUN	S	Gender=Fem|Number=Sing	17	ccomp	_	_
+24	candida_	candida-	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	29	punct	_	_
+26	o	o	CCONJ	CC	_	29	cc	_	_
+27	se	se	SCONJ	CS	_	29	mark	_	_
+28	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+29	preparasse	prepararre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Dove poi?
+1	Dove	dove	ADV	B	_	2	advmod	_	_
+2	poi	poi	ADV	B	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Quando?
+1	Quando	quando	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Io non ne sapevo nulla.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ma chi può dire da quanto tempo ha cominciato ad abbozzarsi nel nostro pensiero un errore prima che una circostanza futile, o una catastrofe,--uno zeffiro o una bufera,--lo spingano nella realtà dei fatti?
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	9	nsubj	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11-12	abbozzarsi	_	_	_	_	_	_	_	_
+11	abbozzar	abbozzare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	errore	errore	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+19	prima	prima	ADV	B	_	22	case	_	_
+20	che	che	SCONJ	CS	_	19	fixed	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	circostanza	circostanza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	futile	futile	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	o	o	CCONJ	CC	_	27	cc	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	catastrofe	catastrofe	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+29	-	-	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+30	-uno	-uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	zeffiro	zeffiro	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+32	o	o	CCONJ	CC	_	34	cc	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	bufera	bufera	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	SpaceAfter=No
+36	-	-	PUNCT	FF	_	35	punct	_	SpaceAfter=No
+37	-lo	-lo	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+38	spingano	spingare	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+39-40	nella	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	realtà	realtà	NOUN	S	Gender=Fem	38	obl	_	_
+42-43	dei	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
+45	?	?	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ahi, che non gli riusciva!
+1	Ahi	Ahi	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	riusciva	riuscivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Tutto ciò che è squisita sentimentalità, raffinatezza spirituale, stima, rispetto, poesia, pietà, sì, anche pietà, nell'amore, gli era ignoto.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	squisita	squisire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	sentimentalità	sentimentalità	NOUN	S	Gender=Fem	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	raffinatezza	raffinatezza	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+9	spirituale	spirituale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	stima	stima	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	rispetto	rispetto	ADV	B	_	6	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	poesia	poesia	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	pietà	pietà	NOUN	S	Gender=Fem	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	sì	sì	INTJ	I	Polarity=Pos	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	anche	anche	ADV	B	_	22	advmod	_	_
+22	pietà	pietà	NOUN	S	Gender=Fem	15	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24-25	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	in	in	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	iobj	_	_
+29	era	era	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+30	ignoto	ignoto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mancava di quella delicatezza del cuore, per cui, nell'amore, il più piccolo episodio è gravissimo.
+1	Mancava	Mancava	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	delicatezza	delicatezza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	21	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	in	in	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	amore	amore	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	gravissimo	grave	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	4	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Non gli importava nè dei miei pensieri, nè dei miei sogni, nè dei miei ideali, nè di nulla che riguardasse il mio spirito:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	importava	importavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	nè	né	CCONJ	CC	_	8	cc	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	nè	né	CCONJ	CC	_	14	cc	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	nè	né	CCONJ	CC	_	20	cc	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	ideali	ideale	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	nè	né	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	conj	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	riguardasse	riguardare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = e non arrivava a nascondere tale indifferenza.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	arrivava	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	nascondere	nascondere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	tale	tale	DET	DD	Number=Sing|PronType=Dem	7	det	_	_
+7	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

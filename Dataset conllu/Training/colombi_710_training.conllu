@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La signora Giuditta confessava di non essere più giovane, sebbene non dicesse mai la sua età.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Giuditta	Giuditto	PROPN	SP	_	2	nmod	_	_
+4	confessava	confessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	9	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	giovane	giovane	ADJ	A	Number=Sing	4	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	sebbene	sebbene	SCONJ	CS	_	13	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	dicesse	dire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+14	mai	mai	ADV	B	_	13	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	età	età	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = A vederla le si sarebbero dati cento anni;
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	vederla	_	_	_	_	_	_	_	_
+2	veder	vedere	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dati	dare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	cento	cento	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = forse non li aveva tutti;
+1	forse	forse	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = ma era una rovina;
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	rovina	rovina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = magra come uno scheletro, colla lunga persona incurvata ed il volto tormentato da rughe che traversavano in ogni senso la pelle flaccida.
+1	magra	magra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	scheletro	scheletro	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	persona	persona	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	incurvata	incurvato	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	ed	e	CCONJ	CC	_	12	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	volto	volto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+13	tormentato	tormentato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	rughe	ruga	NOUN	S	Gender=Fem|Number=Plur	13	obl:agent	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	traversavano	traversare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	senso	senso	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+23	flaccida	flaccida	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

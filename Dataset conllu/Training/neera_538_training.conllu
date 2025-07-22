@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Flavio si era fermato, sorpreso di aver saputo trovar tante parole per esprimere ciò che riteneva inesprimibile.
+1	Flavio	Flavio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	sorpreso	sorprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+10	trovar	trovare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	parole	parola	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	esprimere	esprimere	VERB	V	VerbForm=Inf	10	advcl	_	_
+15	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+17	riteneva	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+18	inesprimibile	inesprimibile	ADJ	A	Number=Sing	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Egli vide allora che vi sono veramente degli istanti nella vita in cui pare che l'anima trabocchi.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	allora	allora	ADV	B	_	2	advmod	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	vi	vi	ADV	B	_	10	advmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	veramente	veramente	ADV	B	_	10	advmod	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	istanti	istante	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+16	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	che	che	SCONJ	CS	_	20	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+19	anima	anima	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	trabocchi	trabocco	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Un'ora prima o un'ora dopo forse non avrebbe saputo dire altrettanto.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ora	ora	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7	dopo	dopo	ADV	B	_	11	advmod	_	_
+8	forse	forse	ADV	B	_	11	advmod	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+12	dire	dire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	altrettanto	altrettanto	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E Anna lo ascoltava in estasi chiedendosi con grande trepidazione:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	Anna	Anna	PROPN	SP	_	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	ascoltava	ascoltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6-7	estasi	_	_	_	_	_	_	_	_
+6	esta	esta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8-9	chiedendosi	_	_	_	_	_	_	_	_
+8	chiedendo	chiedere	VERB	V	VerbForm=Ger	4	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	trepidazione	trepidazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = “Io dunque gli ho fatto tanto bene?
+1	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	dunque	dunque	ADV	B	_	6	advmod	_	_
+4	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	tanto	tanto	ADV	B	_	8	advmod	_	_
+8	bene	bene	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = ...„
+1	...	...	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	„	„	PUNCT	FF	_	0	root	_	SpacesAfter=\n
+

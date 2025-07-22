@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mi passò accanto senza guardarmi ed entrò in casa.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	accanto	accanto	ADV	B	_	2	advmod	_	_
+4	senza	senza	ADP	E	_	5	mark	_	_
+5-6	guardarmi	_	_	_	_	_	_	_	_
+5	guardar	guardare	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	ed	e	CCONJ	CC	_	8	cc	_	_
+8	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Più tardi però uscì, e venne a vedermi, e mi accarezzò.
+1	Più	più	ADV	B	_	4	advmod	_	_
+2	tardi	tardi	ADV	B	_	4	advmod	_	_
+3	però	però	ADV	B	_	4	advmod	_	_
+4	uscì	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	vedermi	_	_	_	_	_	_	_	SpaceAfter=No
+9	veder	vedere	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+14	accarezzò	accarezzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ma erano carezze distratte.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	carezze	carezzo	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	distratte	distratto	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Il suo cuore non era più là.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	là	là	ADV	B	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Le olezzai contro tutto il mio profumo per consolarla.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	olezzai	olezzaio	NOUN	S	_	0	root	_	_
+3	contro	contro	ADP	E	_	7	case	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	7	det:predet	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	consolarla	consolarla	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ella lo accolse colla stessa indifferenza con cui s'era ricordata del canarino.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	accolse	accogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	colla	colla	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+5	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	3	xcomp	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+9	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	SpaceAfter=No
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	ricordata	ricordare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	canarino	canarino	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

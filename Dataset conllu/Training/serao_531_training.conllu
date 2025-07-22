@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Paolo Herz è libero.
+1	Paolo	Paolo	PROPN	SP	_	4	nsubj	_	_
+2	Herz	Herz	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	libero	libero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Egli ha perduto sua madre, essendo ancora giovanissimo:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	madre	madre	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	essendo	essere	AUX	V	VerbForm=Ger	9	cop	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	giovanissimo	giovane	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = un orfanello di sedici anni.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	orfanello	orfanello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	sedici	sedici	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Dopo nove anni, avendone Paolo venticinque, gli è morto il padre.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	nove	nove	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	avendone	_	_	_	_	_	_	_	_
+5	avendo	avere	VERB	V	VerbForm=Ger	12	advcl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+7	Paolo	Paolo	PROPN	SP	_	5	obj	_	_
+8	venticinque	venticinque	NUM	N	NumType=Card	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	padre	padre	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = Da undici anni, quindi, egli è solo, nella vita:
+1	Da	da	ADP	E	_	3	case	_	_
+2	undici	undici	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quindi	quindi	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	solo	solo	ADV	B	_	13	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = ha lontani parenti, che poco conosce e non vede mai;
+1	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	parenti	parente	NOUN	S	Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	poco	poco	ADV	B	_	7	advmod	_	_
+7	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	mai	mai	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = ha qualche amico buono, ma l'amicizia loro non è nè profonda, nè esclusiva.
+1	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	amico	amico	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	buono	buono	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	1	conj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+12	nè	nè	CCONJ	CC	_	13	cc	_	_
+13	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	nè	nè	CCONJ	CC	_	16	cc	_	_
+16	esclusiva	esclusivo	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

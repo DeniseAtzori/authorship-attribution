@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mio padrigno morì; la nostra famiglia si disperse.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	padrigno	padrigno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	7	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	disperse	disperdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Io fui assente da Novara parecchi anni;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	assente	assente	ADJ	A	Number=Sing	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Novara	Novara	PROPN	SP	_	3	obl	_	_
+6	parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = quando ci tornai, di passaggio, le due zitellone erano ancora sedute ai due lati del balcone, coi due panierini ed i due lavori.
+1	quando	quando	SCONJ	CS	_	3	mark	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+3	tornai	tornare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	zitellone	zitellone	NOUN	S	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+11	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux:pass	_	_
+12	ancora	ancora	ADV	B	_	13	advmod	_	_
+13	sedute	sedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	due	due	NUM	N	NumType=Card	17	nummod	_	_
+17	lati	lato	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	balcone	balcone	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22-23	coi	_	_	_	_	_	_	_	_
+22	con	con	ADP	E	_	25	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	due	due	NUM	N	NumType=Card	25	nummod	_	_
+25	panierini	panierino	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+26	ed	e	CCONJ	CC	_	29	cc	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	due	due	NUM	N	NumType=Card	29	nummod	_	_
+29	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = La signora Rosa ricamava cogli occhiali, la signora Caterina aveva delle rughe che complicavano ancora più i rabeschi fatti dal vaiuolo sul suo volto violaceo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Rosa	Rosa	PROPN	SP	_	2	nmod	_	_
+4	ricamava	ricamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	cogli	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhiali	occhiale	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	signora	signore	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	Caterina	Caterina	PROPN	SP	_	10	nmod	_	_
+12	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	rughe	ruga	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	complicavano	complicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+18	ancora	ancora	ADV	B	_	19	advmod	_	_
+19	più	più	ADV	B	_	17	advmod	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	rabeschi	rabesco	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+22	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23-24	dal	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vaiuolo	vaiuolo	NOUN	S	Gender=Masc|Number=Sing	22	obl:agent	_	_
+26-27	sul	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	volto	volto	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+30	violaceo	violaceo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Si intrattenevano ancora, una del romanzo della signora Caterina, l'altra dell'avventura del fallimento.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	intrattenevano	intrattenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	2	appos	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	signora	signore	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	Caterina	Caterina	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	5	nmod	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

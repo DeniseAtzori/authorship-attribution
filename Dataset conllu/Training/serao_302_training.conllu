@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le erano inibiti la seta, il raso, il velluto che disegnano le forme;
+1	Le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	inibiti	inibire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	seta	seta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	raso	raso	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	velluto	velluto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	disegnano	disegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	forme	forma	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = i merletti che ingrossano la persona.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	merletti	merletto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	ingrossano	ingrossare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	persona	persona	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Questa veste doveva essere per forza nera, o molto scura; sarebbe stato ridicolo portare un colore chiaro, che raddoppia le proporzioni.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	veste	veste	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	forza	forza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	nera	nero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	scura	scuro	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	6	punct	_	_
+13	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+15	ridicolo	ridicolare	NOUN	S	Gender=Masc|Number=Sing	6	parataxis	_	_
+16	portare	portare	VERB	V	VerbForm=Inf	15	csubj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	colore	colore	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	raddoppia	raddoppiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	proporzioni	proporzione	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Di goletti in merletto, di cravatte a cappii vistosi, non se ne parla: la straziavano.
+1	Di	di	ADP	E	_	2	case	_	_
+2	goletti	goletto	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	merletto	merletto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	cravatte	cravatta	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	cappii	cappio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	vistosi	vistoso	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+15	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	15	punct	_	_
+17	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	straziavano	straziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

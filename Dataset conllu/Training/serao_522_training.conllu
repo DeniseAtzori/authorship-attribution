@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E poichè il bimbo era presente, quei due non osarono toccarsi la mano;
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	presente	presente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	due	due	NUM	N	NumType=Card	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	osarono	osare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+12-13	toccarsi	_	_	_	_	_	_	_	_
+12	toccar	toccare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mano	mano	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = scambiarono solo una rapida occhiata.
+1	scambiarono	scambiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	1	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	occhiata	occhiata	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Flavia si chinò, prese per mano Paolo e se lo portò in salotto, presso un balcone aperto, come per guardarlo meglio.
+1	Flavia	Flavia	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	chinò	chinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	Paolo	Paolo	PROPN	SP	_	7	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	se	se	SCONJ	CS	_	12	mark	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	portò	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	presso	presso	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	balcone	balcone	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+19	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	come	come	ADP	E	_	23	mark	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23-24	guardarlo	_	_	_	_	_	_	_	_
+23	guardar	guardare	VERB	V	VerbForm=Inf	12	advcl	_	_
+24	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	meglio	meglio	ADV	B	_	23	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Egli se ne stava ritto, nel suo costumino di velluto oliva, tenendo stretto fra le mani il berrettino di velluto.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+4	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	ritto	riggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	costumino	costumino	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	velluto	velluto	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	oliva	oliva	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	tenendo	tenere	VERB	V	VerbForm=Ger	5	advcl	_	_
+16	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	_
+17	fra	fra	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	mani	mano	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	berrettino	berrettino	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	velluto	vellvere	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

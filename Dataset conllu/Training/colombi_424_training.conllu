@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non bastava il nomignolo che mi aveva avvelenati gli anni di scuola?
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	bastava	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nomignolo	nomignolo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	avvelenati	avvelenare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Anche il mio nome pronunciato con tutta serietà faceva ridere?
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	nome	nome	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+5	pronunciato	pronunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	8	det	_	_
+8	serietà	serietà	NOUN	S	Gender=Fem	5	obl	_	_
+9	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	ridere	ridere	VERB	V	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Dovevo ricominciare a tribolare per quel disgraziato nome?
+1	Dovevo	Dovere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	ricominciare	ricominciare	VERB	V	VerbForm=Inf	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	tribolare	tribolare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	disgraziato	disgraziato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	nome	nome	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Come aveva fatto ad invecchiare quel balordo zio materno che mi aveva legata col battesimo quella funesta eredità?
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5	invecchiare	invecchiare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	balordo	balordo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	zio	zio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	materno	materno	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14-15	col	_	_	_	_	_	_	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	battesimo	battesimo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+18	funesta	funesto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	eredità	eredità	NOUN	S	Gender=Fem	13	nsubj	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Udivo ancora echeggiare le risate di quella ragazza.
+1	Udivo	Udivo	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	ancora	ancora	ADV	B	_	3	advmod	_	_
+3	echeggiare	echeggiare	VERB	V	VerbForm=Inf	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	risate	risata	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ero ridicolo anche per lei, per tutti!
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	ridicolo	ridicolare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

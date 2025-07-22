@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il giorno seguente, alle undici del mattino, stavo in piedi al caffè Martini dalla parte di via Manzoni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+3	seguente	seguente	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	undici	undici	NUM	N	NumType=Card	12	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	stavo	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	caffè	caffè	NOUN	S	Gender=Masc	12	obl	_	_
+18	Martini	Martini	PROPN	SP	_	17	nmod	_	_
+19-20	dalla	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	parte	parte	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	via	via	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	Manzoni	Manzoni	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Il mio famoso:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mio	mio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	famoso	famoso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = «_Quanto tempo che non vi vedo, Max!_» cominciava a farsi scolorito, e, malgrado tutti gli sforzi della mia immaginazione, non mi riesciva più di riprodurre, nel pronunciare quella frase, l'impressione di dolcezza che mi aveva fatta provare il giorno innanzi.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	_Quanto	_Quanto	ADV	B	_	3	advmod	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	obj	_	_
+7	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	Max!_	Max!-	PROPN	SP	_	3	conj	_	SpaceAfter=No
+10	»	»	PUNCT	FB	_	3	punct	_	_
+11	cominciava	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13-14	farsi	_	_	_	_	_	_	_	_
+13	far	fare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	scolorito	scolorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	22	punct	_	_
+17	e	e	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	malgrado	malgrado	ADP	E	_	22	case	_	_
+20	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	22	det:predet	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	sforzi	sforzo	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	30	iobj	_	_
+30	riesciva	riescire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	_
+31	più	più	ADV	B	_	30	advmod	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33	riprodurre	riprodurre	VERB	V	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35-36	nel	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	pronunciare	pronunciare	VERB	V	VerbForm=Inf	33	obl	_	_
+38	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	39	det	_	_
+39	frase	frase	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	11	punct	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+42	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+45	che	che	PRON	PR	PronType=Rel	48	nsubj	_	_
+46	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	48	iobj	_	_
+47	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	aux	_	_
+48	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	42	acl:relcl	_	_
+49	provare	provare	VERB	V	VerbForm=Inf	48	xcomp	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	_
+52	innanzi	innanzi	ADV	B	_	49	advmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

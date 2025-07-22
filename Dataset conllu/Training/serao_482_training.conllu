@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Essi non amano i profumi, e basta unicamente che quella pelle sottile sia cosparsa di polvere di riso, senza odore:
+1	Essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	amano	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	profumi	profume	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	unicamente	unico	ADV	B	_	15	mark	_	_
+10	che	che	SCONJ	CS	_	9	fixed	_	_
+11	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	sottile	sottile	ADJ	A	Number=Sing	12	amod	_	_
+14	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	cosparsa	cosparso	ADJ	A	Gender=Fem|Number=Sing	8	advcl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	polvere	polvere	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	riso	riso	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	senza	senza	ADP	E	_	22	case	_	_
+22	odore	odore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = basta che la biancheria odori di ireos o di lavanda.
+1	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	biancheria	biancherio	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	odori	odore	ADJ	A	Degree=Cmp|Number=Plur	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	ireos	ireos	NOUN	S	Gender=Fem	4	nmod	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lavanda	lavanda	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Tutti gli _Champacca_, gli _Ylang — Ylang_, i _White — rose_ che eccitano e deprimono i nervi squisiti di noi altri grandi ammalati, non arriveranno a superare quella bontà di odore giovane, che ha la faccia e il collo dei bimbi.
+1	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	_Champacca_	_champacca_	PROPN	SP	_	28	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	_Ylang	_Ylang	PROPN	SP	_	3	nmod	_	_
+7	—	—	PUNCT	FF	_	6	punct	_	_
+8	Ylang_	ylang_	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	_White	_White	PROPN	SP	_	3	appos	_	_
+12	—	—	PUNCT	FF	_	11	punct	_	_
+13	rose_	rose-	PUNCT	FB	_	11	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	eccitano	eccitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	deprimono	deprimere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	nervi	nervo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	squisiti	squisito	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	nmod	_	_
+23	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	advcl	_	_
+24	grandi	grande	ADJ	A	Number=Plur	23	amod	_	_
+25	ammalati	ammalare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	arriveranno	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30	superare	superare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+31	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
+32	bontà	bontà	NOUN	S	Gender=Fem	30	obj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	odore	odore	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	giovane	giovane	ADJ	A	Number=Sing	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	32	punct	_	_
+37	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+38	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	collo	collo	NOUN	S	Gender=Masc|Number=Sing	40	conj	_	_
+44-45	dei	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	bimbi	bimbio	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	28	punct	_	SpacesAfter=\n
+

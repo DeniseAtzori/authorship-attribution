@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gli alberi infittivano, abbracciati, stretti, confuse le chiome sui nidi dormenti, roride di rugiada le gemme come bocche baciate.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	infittivano	infittire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	abbracciati	abbracciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	stretti	stretto	ADJ	A	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	confuse	confondere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	chiome	chiome	NOUN	S	Gender=Fem	9	obj	_	_
+12-13	sui	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	nidi	nido	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+15	dormenti	dormento	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	roride	roride	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	rugiada	rugiada	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	gemme	gemma	NOUN	S	Gender=Fem|Number=Plur	17	appos	_	_
+22	come	come	ADP	E	_	23	case	_	_
+23	bocche	bocca	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+24	baciate	baciato	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il raggio di luna che li aveva guidati dapprima non era più che un tenue chiarore attraverso l’opacità fronzuta dei castagni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	raggio	raggio	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	luna	luna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	guidati	guidare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	dapprima	dapprima	ADV	B	_	8	advmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	più	più	ADV	B	_	0	root	_	_
+13	che	che	SCONJ	CS	_	15	fixed	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tenue	tenue	NOUN	S	Number=Sing	12	obl	_	_
+16	chiarore	chiarore	NOUN	S	Gender=Masc|Number=Sing	15	compound	_	_
+17	attraverso	attraverso	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	opacità	opacità	NOUN	S	Gender=Fem	15	nmod	_	_
+20	fronzuta	fronzuto	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	castagni	castagno	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Ora non si scorgevano quasi neppure e andavano tentoni, presi da un brivido che non era di freddo, evitando di toccarsi.
+1	Ora	ora	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	scorgevano	scorgevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	quasi	quasi	ADV	B	_	6	advmod	_	_
+6	neppure	neppure	ADV	BN	PronType=Neg	8	advmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	andavano	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+9	tentoni	tentone	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	brivido	brivido	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	14	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	evitando	evitare	VERB	V	VerbForm=Ger	4	advcl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23-24	toccarsi	_	_	_	_	_	_	_	SpaceAfter=No
+23	toccar	toccare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non osavano parlare, e tacere sembrava loro anche più pericoloso perchè in mezzo al silenzio altissimo temevano di udire l’affanno dei loro respiri.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	osavano	osare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	tacere	tacere	VERB	V	VerbForm=Inf	3	conj	_	_
+7	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+8	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	iobj	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	_
+12	perchè	perché	SCONJ	CS	_	19	mark	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	altissimo	alto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	17	amod	_	_
+19	temevano	temere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	udire	udire	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	affanno	affanno	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	respiri	respiro	NOUN	S	Number=Plur	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

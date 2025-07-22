@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Contemplando questo paesaggio, che a nulla rassomiglia, Francesco Sangiorgio era preso da un senso crescente di sorpresa, in cui tutti i suoi sogni personali si dileguavano.
+1	Contemplando	Contemplare	VERB	V	VerbForm=Ger	0	root	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	paesaggio	paesaggio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	nulla	nulla	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	rassomiglia	rassomigliare	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	Francesco	Francesco	PROPN	SP	_	8	appos	_	_
+11	Sangiorgio	Sangiorgio	PROPN	SP	_	10	flat:name	_	_
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	senso	senso	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	crescente	crescere	ADJ	A	Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+23	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	26	det:predet	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	29	nsubj	_	_
+27	personali	personale	ADJ	A	Number=Plur	26	amod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	dileguavano	dileguare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Stava a guardare, muto, immobile, rannicchiato nell'angolo della carrozza, tremando di freddo, sentendo calmarsi il battito delle tempie.
+1	Stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	guardare	guardare	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	muto	muto	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	immobile	immobile	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	rannicchiato	rannicchiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+10-11	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	in	in	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	tremando	tremare	VERB	V	VerbForm=Ger	9	advcl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	sentendo	sentire	VERB	V	VerbForm=Ger	17	advcl	_	_
+22-23	calmarsi	_	_	_	_	_	_	_	_
+22	calmar	calmare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	battito	battito	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+26-27	delle	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	tempie	tempia	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Indi a poco una pesantezza gli scendeva sulle palpebre, un rilassamento gli distendeva tutta la persona, egli provava tutta la stanchezza della notte trascorsa vegliando.
+1	Indi	indi	ADV	B	_	7	advmod	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	poco	poco	ADV	B	_	2	fixed	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pesantezza	pesantezza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+7	scendeva	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
+8-9	sulle	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	palpebre	palpebra	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rilassamento	rilassamento	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+15	distendeva	distendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	18	det:predet	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	persona	persona	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	provava	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+22	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	24	det:predet	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	notte	notte	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	trascorsa	trascorso	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	vegliando	vegliare	VERB	V	VerbForm=Ger	21	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

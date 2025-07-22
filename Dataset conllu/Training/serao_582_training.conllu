@@ -1,0 +1,152 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Costui ha avuto delle delusioni gravi.
+1	Costui	costui	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	delusioni	delusione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	gravi	grave	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Chérie non è nulla di tutto questo:
+1	Chérie	Chérie	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = non pensa a nessuna di queste cose:
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	nessuna	nessuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	2	obl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = quando gliele dicono, non le capisce:
+1	quando	quando	SCONJ	CS	_	2	mark	_	_
+2	gliele	gliele	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+3	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	capisce	capire	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = quando gliele ripetono, si sforza per comprendere, ma finisce per seccarsi ed esce in un discorso qualunque.
+1	quando	quando	SCONJ	CS	_	2	mark	_	_
+2	gliele	gliele	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+3	ripetono	ripetere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	sforza	sforzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	comprendere	comprendere	VERB	V	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	seccarsi	_	_	_	_	_	_	_	_
+13	seccar	seccare	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	ed	e	CCONJ	CC	_	16	cc	_	_
+16	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	qualunque	qualunque	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Non bisogna dunque lasciarsi ingannare dalle inflessioni malinconiche della sua voce, quando tramonta il sole:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dunque	dunque	ADV	B	_	2	advmod	_	_
+4-5	lasciarsi	_	_	_	_	_	_	_	_
+4	lasciar	lasciare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	ingannare	ingannare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	inflessioni	inflessione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	malinconiche	malinconico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	voce	voce	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	quando	quando	SCONJ	CS	_	17	mark	_	_
+17	tramonta	tramontare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sole	sole	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = dalle lacrime che velano i suoi grandi occhi, quando vede uno spettacolo pietoso:
+1-2	dalle	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	velano	velare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	grandi	grande	ADJ	A	Number=Plur	9	amod	_	_
+9	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	quando	quando	SCONJ	CS	_	12	mark	_	_
+12	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+13	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	pietoso	pietoso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = da certe furtive strette di mano, quando ode un bel discorso eloquente:
+1	da	da	ADP	E	_	3	case	_	_
+2	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	furtive	furtiva	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	strette	stretto	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	quando	quando	SCONJ	CS	_	9	mark	_	_
+9	ode	odere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	bel	bello	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	eloquente	eloquente	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 9
+# text = da certi segni di croce che ella fa, quando lampeggia e tuona.
+1	da	da	ADP	E	_	3	case	_	_
+2	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	segni	segno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	croce	croce	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	quando	quando	SCONJ	CS	_	11	mark	_	_
+11	lampeggia	lampeggia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	tuona	tuona	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

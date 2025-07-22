@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma intanto le settimane passavano;
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	intanto	intanto	ADV	B	_	5	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	passavano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = io continuavo a vedere la Fulvia in parlatorio ad ogni visita, ad arrossire, a tremare, a sudar freddo, ed anche caldo, perchè ormai s'era nel maggio;
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	continuavo	continuare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Fulvia	Fulvia	PROPN	SP	_	4	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	parlatorio	parlatorio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	ad	a	ADP	E	_	11	case	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	visita	visita	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	ad	a	ADP	E	_	14	mark	_	_
+14	arrossire	arrossire	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	tremare	tremare	VERB	V	VerbForm=Inf	14	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	sudar	sudar	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	ed	e	CCONJ	CC	_	25	cc	_	_
+24	anche	anche	ADV	B	_	25	advmod	_	_
+25	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	17	punct	_	_
+27	perchè	perché	SCONJ	CS	_	30	mark	_	_
+28	ormai	ormai	ADV	B	_	30	advmod	_	_
+29	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	SpaceAfter=No
+30	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
+31-32	nel	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = — e non era mai capitata la menoma occasione di fare prova del mio coraggio esponendo la vita per lei.
+1	—	—	PUNCT	FF	_	6	punct	_	_
+2	e	e	CCONJ	CC	_	6	cc	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	capitata	capitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	menoma	menomo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	prova	prova	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	esponendo	esporre	VERB	V	VerbForm=Ger	11	advcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vita	vita	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

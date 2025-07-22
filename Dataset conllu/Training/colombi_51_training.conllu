@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Erano quattro anni che vivevano insieme il vecchio ed il fanciullo.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	quattro	quattro	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	vivevano	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+6	insieme	insieme	ADV	B	_	5	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La madre di Carlo era morta nel giorno stesso della sua nascita.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Carlo	Carlo	PROPN	SP	_	2	nmod	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Tre anni dopo, il padre, che lavorava da muratore, era caduto da un ponte e s'era ucciso.
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+3	dopo	dopo	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	padre	padre	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	lavorava	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	muratore	muratore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 4
+# text = Il bimbo era rimasto col nonno paterno, il solo parente che avesse.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	col	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	paterno	paterno	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	solo	solo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	parente	parente	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

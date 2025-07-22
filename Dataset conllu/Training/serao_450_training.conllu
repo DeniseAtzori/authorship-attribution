@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non era possibile di farle stare tranquille:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	farle	_	_	_	_	_	_	_	_
+5	far	fare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	stare	stare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8	tranquille	tranquillo	ADJ	A	Gender=Fem|Number=Plur	7	xcomp	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ogni momento nasceva un nuovo incidente.
+1	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	nasceva	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = In quanto a Parascandolo, una bimba sottile, con certi occhi lionati e un nasino dalle nari dilatate, ella mangiava sempre.
+1	In	in	ADP	E	_	24	mark	_	_
+2	quanto	quanto	ADV	B	_	1	fixed	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4-5	Parascandolo	_	_	_	_	_	_	_	SpaceAfter=No
+4	Parascando	Parascando	PROPN	SP	_	24	obl	_	_
+5	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+9	sottile	sottile	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+14	lionati	lionato	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	nasino	nasino	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+18-19	dalle	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	nari	nario	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+21	dilatate	dilatato	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	8	punct	_	_
+23	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	mangiava	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+25	sempre	sempre	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 4
+# text = Prima aveva mangiato il pane della sua colazione, poi aveva cavato di sotto al banco una arancia e l’aveva mangiata;
+1	Prima	prima	ADV	B	_	3	advmod	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pane	pane	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	colazione	colazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	poi	poi	ADV	B	_	13	advmod	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	cavato	cavare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	sotto	sotto	ADV	B	_	13	advmod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	banco	banco	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	arancia	arancia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	mangiata	mangiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = poi si era messa a rosicchiare certe nocciuole che aveva in tasca.
+1	poi	poi	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	rosicchiare	rosicchiare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	nocciuole	nocciuola	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	tasca	tasca	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

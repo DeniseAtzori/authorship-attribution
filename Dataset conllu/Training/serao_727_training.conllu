@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dal terrazzo, vestito, tutto pronto, cavando l'orologio nella penombra della luna tramontata e del giorno che sorgeva, vidi aprirsi una ad una le case dei contadini.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	terrazzo	terrazzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	vestito	vestito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+8	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	cavando	cavare	VERB	V	VerbForm=Ger	8	advcl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	penombra	penombra	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	luna	luna	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	tramontata	tramontato	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	sorgeva	sorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	8	punct	_	_
+27	vidi	videre	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+28-29	aprirsi	_	_	_	_	_	_	_	_
+28	aprir	aprire	VERB	V	VerbForm=Inf	27	xcomp	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+30	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	28	obj	_	_
+31	ad	a	ADP	E	_	34	case	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	case	casa	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+35-36	dei	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Nell'albergo, dormivano ancora.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dormivano	dormire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	ancora	ancora	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Pure, sapendo che col treno delle sei e mezzo aspettavo mia moglie, si alzarono.
+1	Pure	pure	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sapendo	sapere	VERB	V	VerbForm=Ger	0	root	_	_
+4	che	che	SCONJ	CS	_	13	mark	_	_
+5-6	col	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	treno	treno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	sei	sei	NUM	N	NumType=Card	7	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	mezzo	mezzo	PRON	PI	Gender=Masc|Number=Sing	13	obj	_	_
+13	aspettavo	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	alzarono	alzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Mi nascosi, vergognandomi di farmi vedere così premuroso.
+1	Mi	ma	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	nascosi	nascoso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	vergognandomi	_	_	_	_	_	_	_	_
+4	vergognando	vergognare	VERB	V	VerbForm=Ger	2	advcl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	vedere	vedere	VERB	V	VerbForm=Inf	7	acl	_	_
+9	così	così	ADV	B	_	10	advmod	_	_
+10	premuroso	premuroso	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Oh, egli sapeva tutto, di lontano, senza che io gli narrassi le mie sventure, senza che io gli scrivessi di ciò una sola parola!
+1	Oh	oh	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	lontano	lontano	ADV	B	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	senza	senza	ADP	E	_	14	mark	_	_
+11	che	che	SCONJ	CS	_	10	fixed	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	narrassi	narrare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	sventure	sventura	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	senza	senza	ADP	E	_	21	case	_	_
+20	che	che	SCONJ	CS	_	19	fixed	_	_
+21	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	scrivessi	scrivesso	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	23	nmod	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	sola	solo	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+28	parola	parola	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Quando mi rivedeva, dopo una lunga assenza, egli prendeva la mia mano e diceva, in un impeto di compassione per tutti i miei mali che indovinava, che aveva indovinato:
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	rivedeva	rivedevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dopo	dopo	ADP	E	_	8	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	mano	mano	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	compassione	compassione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	per	per	ADP	E	_	27	case	_	_
+24	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	27	det:predet	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	mali	male	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	indovinava	indovinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+33	indovinato	indovinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	SpaceAfter=No
+34	:	:	PUNCT	FC	_	11	punct	_	SpacesAfter=\n
+

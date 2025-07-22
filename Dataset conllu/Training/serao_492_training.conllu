@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Passeggiava, papà.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Passeggiava	passeggiava	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	papà	papà	NOUN	S	Gender=Masc	2	appos	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Per un pezzo sono stato con loro, ma non mi davano retta e sono corso innanzi, con la palla:
+1	Per	per	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+13	retta	retta	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	corso	correre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+17	innanzi	innanzi	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	palla	palla	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = poi la palla è andata in un viale di contro e, per cercarla, non ho più trovata la mamma.
+1	poi	poi	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	palla	palla	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	viale	viale	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	contro	contro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	cercarla	_	_	_	_	_	_	_	SpaceAfter=No
+14	cercar	cercare	VERB	V	VerbForm=Inf	20	conj	_	_
+15	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	trovata	trovare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Se mi perdevo, papà, mi avrebbero mangiato i lupi, in quella foresta.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	perdevo	perdere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	papà	papà	NOUN	S	Gender=Masc	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	lupi	lupio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	foresta	foresta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mi trovo la forza di aprire la portiera.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	forza	forza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	aprire	aprire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	portiera	portiera	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = In una mano ghiacciata, è appoggiata una manina tremante.
+1	In	in	ADP	E	_	3	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mano	mano	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	ghiacciata	ghiacciato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	appoggiata	appoggiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	manina	manina	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	tremante	tremante	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Non ci parliamo, ma ci guardiamo, camminiamo accanto.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
+3	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	guardiamo	guardare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	camminiamo	camminare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	accanto	accanto	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Quei due esseri pallidi, senza voce, tremanti come bimbi, sono un uomo a trent'anni forte e coraggioso, una donna di spirito e di coraggio.
+1	Quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+4	pallidi	pallido	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	voce	voce	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	tremanti	tremare	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	conj	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	bimbi	bimbo	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	trent'	trenta	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+18	anni	anno	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	forte	forte	ADJ	A	Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	donna	donna	NOUN	S	Gender=Fem|Number=Sing	15	appos	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = Alla porta le faccio una domanda insulsa, inutile.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	porta	porta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	insulsa	insulso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	inutile	inutile	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quale nuovo abisso di pensieri e di dolore!
+1	Quale	quale	DET	DQ	Number=Sing|PronType=Int	3	det	_	_
+2	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	abisso	abisso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Mi chiusi la fronte coll'istintivo bisogno di sfuggire a tutto quello che mi circondava, a me stessa se avessi potuto.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	chiusi	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fronte	fronte	NOUN	S	Number=Sing	2	obj	_	_
+5	coll'	collo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	istintivo	istintivo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+7	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	sfuggire	sfuggire	VERB	V	VerbForm=Inf	7	acl	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+15	circondava	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+19	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	se	se	SCONJ	CS	_	22	mark	_	_
+21	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	potuto	potere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Pensare non era più possibile; nessuna idea, nessun concetto, nessuna parola riusciva a rompere la pesantezza del mio cervello che avrei potuto credere paralizzato se una specie di chiodo martellante sul cranio non mi avesse dato colla sensazione di una orribile sofferenza anche quella della vita.
+1	Pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	possibile	possibile	ADJ	A	Number=Sing	1	advcl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	1	punct	_	_
+7	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	idea	idea	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+11	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
+14	parola	parola	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	riusciva	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	parataxis	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	rompere	rompere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	pesantezza	pesantezza	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux	_	_
+27	credere	credere	VERB	V	VerbForm=Inf	23	acl:relcl	_	_
+28	paralizzato	paralizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+29	se	se	SCONJ	CS	_	41	mark	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	specie	specie	NOUN	S	Gender=Fem	41	nsubj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	chiodo	chiodo	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+34	martellante	martellante	ADJ	A	Number=Sing	33	amod	_	_
+35-36	sul	_	_	_	_	_	_	_	_
+35	su	su	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	cranio	cranio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+38	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+39	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	41	iobj	_	_
+40	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+41	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	advcl	_	_
+42	colla	colla	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+43	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	49	nsubj	_	_
+44	di	di	ADP	E	_	47	case	_	_
+45	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+46	orribile	orribile	ADJ	A	Number=Sing	47	amod	_	_
+47	sofferenza	sofferenza	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+48	anche	anche	ADV	B	_	49	advmod	_	_
+49	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	41	obj	_	_
+50-51	della	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	vita	vita	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

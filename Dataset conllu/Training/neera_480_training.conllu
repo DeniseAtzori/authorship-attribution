@@ -1,0 +1,144 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così, erano due profanazioni che le si manifestavano contemporaneamente;
+1	Così	così	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	profanazioni	profanazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	manifestavano	manifestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+10	contemporaneamente	contemporaneamente	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = una, vaga, lontana, ne' suoi sentimenti di donna, l'altra acuta, violentissima, nella sua idolatria figliale.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	vaga	vaga	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7-8	ne'	_	_	_	_	_	_	_	_
+7	ni	ne	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	altra	altro	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	acuta	acuta	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	violentissima	violento	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	idolatria	idolatria	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+24	figliale	figliale	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Ciò che l'immaginazione casta non poteva affermare con sicurezza le appariva come una vergogna secreta, impenetrabile e buia ma tanto più orrenda per la viltà di cui si circondava;
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	casta	casto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	affermare	affermare	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	appariva	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	secreta	secreto	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	impenetrabile	impenetrabile	ADJ	A	Number=Sing	16	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	buia	buio	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	_
+21	ma	ma	CCONJ	CC	_	24	cc	_	_
+22	tanto	tanto	ADV	B	_	24	advmod	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	orrenda	orrendo	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	viltà	viltà	NOUN	S	Gender=Fem	24	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	cui	cui	PRON	PR	PronType=Rel	31	obl	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+31	circondava	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+32	;	;	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 4
+# text = e quando nella cocente ambascia, nel turbine dei pensieri che la investivano, si fece strada il volto freddo e indifferente di Elvira: — Straniera! — gridò — straniera!
+1	e	e	CCONJ	CC	_	19	cc	_	_
+2	quando	quando	SCONJ	CS	_	19	mark	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	cocente	cocente	ADJ	A	Number=Sing	6	amod	_	_
+6	ambascia	ambascia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	turbine	turbina	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	investivano	investire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	strada	strada	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	volto	volto	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	indifferente	indifferente	ADJ	A	Number=Sing	33	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Elvira	Elvira	PROPN	SP	_	33	obl	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	27	punct	_	_
+29	—	—	PUNCT	FF	_	30	punct	_	_
+30	Straniera	straniera	PROPN	SP	_	33	nsubj	_	SpaceAfter=No
+31	!	!	PUNCT	FS	_	30	punct	_	_
+32	—	—	PUNCT	FF	_	30	punct	_	_
+33	gridò	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	conj	_	_
+34	—	—	PUNCT	FF	_	33	punct	_	_
+35	straniera	straniero	ADJ	A	Gender=Fem|Number=Sing	33	xcomp	_	SpaceAfter=No
+36	!	!	PUNCT	FS	_	33	punct	_	_
+
+# sent_id = 5
+# text = — Poi si coperse il volto colle mani e scoppiò in singhiozzi alti, irrefrenati.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Poi	poi	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	coperse	copergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	volto	volto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	colle	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	mani	mano	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	scoppiò	scoppiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	singhiozzi	singhiozzo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+14	alti	alto	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	irrefrenati	irrefrenato	ADJ	A	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

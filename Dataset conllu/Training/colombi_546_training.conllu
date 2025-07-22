@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mi diedi a correre come un ladro per uscire da quel tranello infernale.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	diedi	diedere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	correre	correre	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ladro	ladro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	uscire	uscire	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	tranello	tranello	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	infernale	infernale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ma nell'attraversare il giardino, vidi una forma rotonda, che si avanzava misteriosamente verso di me, col capo e le spalle ravvolte nel mio magnifico velo bianco di blonda.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2-3	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	attraversare	attraversare	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	vidi	videre	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	forma	forma	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	rotonda	rotondo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	avanzava	avanzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+16	misteriosamente	misteriosamente	ADV	B	_	15	advmod	_	_
+17	verso	verso	ADP	E	_	19	case	_	_
+18	di	di	ADP	E	_	17	fixed	_	_
+19	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21-22	col	_	_	_	_	_	_	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	capo	capo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	23	conj	_	_
+27	ravvolte	ravvolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	32	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+30	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+31	magnifico	magnifico	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+32	velo	velo	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+33	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	blonda	blonda	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Accelerai la corsa, mi slanciai verso la porticina;
+1	Accelerai	Acceleere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+6	slanciai	slanciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	porticina	porticina	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = era chiusa.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	chiusa	chiudere	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

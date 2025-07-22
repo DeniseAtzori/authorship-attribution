@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parlavano con fredda tenerezza.
+1	Parlavano	Parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Molto ella ascoltava:
+1	Molto	molto	ADV	B	_	3	advmod	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	ascoltava	ascoltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = ma quando diceva qualche parola, era sempre sapiente, detta con la più squisita cautela sentimentale.
+1	ma	ma	CCONJ	CC	_	9	cc	_	_
+2	quando	quando	SCONJ	CS	_	3	mark	_	_
+3	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	parola	parola	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	sempre	sempre	ADV	B	_	9	advmod	_	_
+9	sapiente	sapiente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+12	con	con	ADP	E	_	16	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	squisita	squisito	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	cautela	cautela	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	sentimentale	sentimentale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Giammai un'allusione al proprio cuore, al proprio stato, nè diretta, nè indiretta:
+1	Giammai	Giammai	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	allusione	allusione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	stato	stato	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	nè	né	CCONJ	CC	_	15	cc	_	_
+15	diretta	diretta	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	nè	né	CCONJ	CC	_	18	cc	_	_
+18	indiretta	indirettare	ADJ	A	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = sempre la massima pietà per gli altri, la massima indulgenza per ogni peccato, come chi sa che è impossibile non peccare, quando si deve peccare.
+1	sempre	sempre	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	pietà	pietà	NOUN	S	Gender=Fem	0	root	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	indulgenza	indulgenza	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	peccato	peccato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	come	come	SCONJ	CS	_	17	mark	_	_
+17	chi	chi	PRON	PR	Number=Sing|PronType=Rel	11	advcl	_	_
+18	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	impossibile	impossibile	ADJ	A	Number=Sing	18	ccomp	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	peccare	peccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	csubj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	quando	quando	SCONJ	CS	_	28	mark	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl:impers	_	_
+27	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	peccare	peccare	VERB	V	VerbForm=Inf	23	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

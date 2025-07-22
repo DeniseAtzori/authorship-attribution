@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In casa loro non c'erano quadri nè statue profane.
+1	In	in	ADP	E	_	2	case	_	_
+2	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	quadri	quadro	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+8	nè	nè	CCONJ	CC	_	9	cc	_	_
+9	statue	statua	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+10	profane	profano	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Nell'entrata c'era una nicchia con una statua della Madonna dinanzi alla quale ardeva sempre un lumicino.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	nicchia	nicchia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	statua	statua	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Madonna	madonna	PROPN	SP	_	10	nmod	_	_
+14	dinanzi	dinanzi	ADV	B	_	17	case	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	quale	quale	PRON	PR	Number=Sing|PronType=Rel	18	obl	_	_
+18	ardeva	ardere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+19	sempre	sempre	ADV	B	_	18	advmod	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	lumicino	lumicino	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Nella camera delle ragazze c'era un'altra madonnina di gesso.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	camera	camera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	altra	altro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	madonnina	madonnina	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	gesso	gesso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Un bambino Gesù di cera, che riposava da anni ed anni sotto una campana di vetro nel salotto, era stato pudicamente vestito di una tunichina di seta bianca, che il tempo aveva ingiallita;
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+3	Gesù	Gesù	PROPN	SP	_	2	nmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cera	cera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	riposava	riposare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13	sotto	sotto	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	campana	campano	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	vetro	vetro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+23	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux:pass	_	_
+24	pudicamente	pudicamente	ADV	B	_	25	advmod	_	_
+25	vestito	vestire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	tunichina	tunichina	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	seta	seta	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	25	punct	_	_
+33	che	che	SCONJ	CS	_	37	mark	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	37	nsubj	_	_
+36	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	aux	_	_
+37	ingiallita	ingiallire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	SpaceAfter=No
+38	;	;	PUNCT	FC	_	25	punct	_	_
+
+# sent_id = 5
+# text = e le ragazze l'avevano veduto sempre così.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	sempre	sempre	ADV	B	_	6	advmod	_	_
+8	così	così	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

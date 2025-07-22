@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Povera donna!
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Povera	povero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = — mormorò pensando alla defunta.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	mormorò	mormorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	pensando	pensare	VERB	V	VerbForm=Ger	2	advcl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	defunta	defunta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Avvicinando poi alle pareti la candela che la domestica aveva lasciato sul tavolino rimase fissa in contemplazione di un dagherrotipo che rappresentava la sua parente a diciotto anni, vestita di bianco, con cinque piccole balze in fondo alla gonna e una ghirlandina di rose sui capelli pettinati a bandò.
+1	Avvicinando	Avvicinare	VERB	V	VerbForm=Ger	0	root	_	_
+2	poi	poi	ADV	B	_	1	advmod	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	pareti	parete	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	candela	candela	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	domestica	domestica	ADJ	A	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl	_	_
+17	fissa	fisso	ADJ	A	Gender=Fem|Number=Sing	16	xcomp	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	contemplazione	contemplazione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	dagherrotipo	dagherrotipo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	rappresentava	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	parente	parente	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	diciotto	diciotto	NUM	N	NumType=Card	30	nummod	_	_
+30	anni	anno	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	16	punct	_	_
+32	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	bianco	bianco	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	16	punct	_	_
+36	con	con	ADP	E	_	39	case	_	_
+37	cinque	cinque	NUM	N	NumType=Card	39	nummod	_	_
+38	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+39	balze	balze	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+40	in	in	ADP	E	_	41	case	_	_
+41	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+42-43	alla	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	gonna	gonna	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+45	e	e	CCONJ	CC	_	47	cc	_	_
+46	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	ghirlandina	ghirlandina	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	rose	rosa	NOUN	S	Gender=Fem|Number=Plur	47	nmod	_	_
+50-51	sui	_	_	_	_	_	_	_	_
+50	su	su	ADP	E	_	52	case	_	_
+51	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	_
+53	pettinati	pettinare	ADJ	A	Gender=Masc|Number=Plur	47	amod	_	_
+54	a	a	ADP	E	_	55	case	_	_
+55	bandò	bandare	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	53	obl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Per spontaneo contrasto le si affacciò alla mente l’ultima volta che l’aveva veduta, in negre vesti, con una giacca di flanella ovattata e una treccia di color castagno torreggiante su pochi cespugli di capelli grigi.
+1	Per	per	ADP	E	_	3	case	_	_
+2	spontaneo	spontaneo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	contrasto	contrasto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	affacciò	affacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mente	mente	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+11	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	volta	volta	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	che	che	SCONJ	CS	_	16	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	aveva	avere	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	veduta	vedere	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	negre	negre	ADV	B	_	20	advmod	_	_
+20	vesti	vesto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	giacca	giacca	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	flanella	flanella	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	ovattata	ovattato	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	treccia	treccia	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	color	colore	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	castagno	castagno	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	torreggiante	torreggiante	ADJ	A	Number=Sing	33	amod	_	_
+35	su	su	ADP	E	_	37	case	_	_
+36	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	37	det	_	_
+37	cespugli	cespuglio	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+40	grigi	grigio	NOUN	S	Gender=Masc|Number=Plur	39	compound	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

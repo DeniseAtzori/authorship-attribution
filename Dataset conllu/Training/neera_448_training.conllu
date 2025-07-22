@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anna era sola in casa.
+1	Anna	Anna	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = C'era stato un temporale nella mattina e pioveva ancora un poco lentamente, a fili sottilissimi, quantunque già il sole sforzasse le nubi.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	temporale	temporale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	pioveva	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+11	ancora	ancora	ADV	B	_	10	advmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	poco	poco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	lentamente	lentamente	ADV	B	_	10	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	fili	filo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+18	sottilissimi	sottile	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	10	punct	_	_
+20	quantunque	quantunque	SCONJ	CS	_	24	mark	_	_
+21	già	già	ADV	B	_	24	advmod	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sole	sole	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+24	sforzasse	sforzarre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	nubi	nubo	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Da ogni foglia della glicine pendeva una gocciola; su ogni gocciola batteva un raggio di quel tenue sole e tutta una gamma di gradazioni color lilla e verde danzavano sotto il pergolato nelle faccette luccicanti dell'acqua.
+1	Da	da	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	foglia	foglia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	glicine	glicina	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	pendeva	pendevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	gocciola	gocciola	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	14	punct	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	gocciola	gocciola	NOUN	S	Gender=Masc	14	obl	_	_
+14	batteva	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	raggio	raggio	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	tenue	tenue	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	sole	sole	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	24	det:predet	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	gamma	gamma	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	gradazioni	gradazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	color	colore	ADJ	A	Number=Sing	26	amod	_	_
+28	lilla	lillo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	verde	verde	ADJ	A	Number=Sing	28	conj	_	_
+31	danzavano	danzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+32	sotto	sotto	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pergolato	pergolato	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35-36	nelle	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	faccette	faccetta	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+38	luccicanti	luccicante	ADJ	A	Number=Plur	37	amod	_	_
+39-40	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+39	di	di	ADP	E	_	41	case	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

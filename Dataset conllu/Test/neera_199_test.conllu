@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A poco a poco riuscimmo a persuaderla.
+1	A	a	ADP	E	_	2	case	_	_
+2	poco	poco	ADV	B	_	5	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	poco	poco	ADV	B	_	5	advmod	_	_
+5	riuscimmo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	persuaderla	_	_	_	_	_	_	_	SpaceAfter=No
+7	persuader	persuadere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mio cugino le promise che non avrebbe abbandonata la casa, che la salma sarebbe stata vegliata religiosamente.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	promise	promettere	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	abbandonata	abbandonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	che	che	SCONJ	CS	_	17	mark	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	salma	salma	NOUN	S	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+15	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	vegliata	vegliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+18	religiosamente	religioso	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Così cedette e ripartii insieme alla fanciulla, nella carrozza chiusa, attraverso il deserto di neve che formava una ben degna cornice ai nostri due dolori.
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	cedette	cedetto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	ripartii	ripartii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	insieme	insieme	ADV	B	_	4	advmod	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+13	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	attraverso	attraverso	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	deserto	deserto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	neve	neve	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	formava	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+22	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	21	obj	_	_
+23	ben	bene	ADV	B	_	25	advmod	_	_
+24	degna	degno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
+25	cornice	cornice	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+26-27	ai	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	30	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+28	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	30	det:poss	_	_
+29	due	due	NUM	N	NumType=Card	30	nummod	_	_
+30	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mio cugino restò sulla soglia finchè la carrozza scomparve.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	restò	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	finchè	finché	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	scomparve	scomparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = L'ultima espressione che mi restò della sua fisionomia fu quella di una serietà infinitamente dolce.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	restò	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	fisionomia	fisionomia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	serietà	serietà	NOUN	S	Gender=Fem	12	nmod	_	_
+16	infinitamente	infinito	ADV	B	_	17	advmod	_	_
+17	dolce	dolce	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sopra queste parole si gonfiò, fece la rota.
+1	Sopra	sopra	ADP	E	_	3	case	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	gonfiò	gonfiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	rota	rota	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Anna doveva pur convenire che vi era in esse un criterio comune non destituito di un certo peso, ma sentiva ribollire nel suo interno, altre, ben altre ragioni a favore del suo protetto.
+1	Anna	Anna	PROPN	SP	_	4	nsubj	_	_
+2	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	pur	pure	ADV	B	_	4	advmod	_	_
+4	convenire	convenire	VERB	V	VerbForm=Inf	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	vi	vi	ADV	B	_	7	advmod	_	_
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	obl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	criterio	criterio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+12	comune	comune	ADJ	A	Number=Sing	11	amod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	destituito	destituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	certo	certo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	peso	peso	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	ma	ma	CCONJ	CC	_	21	cc	_	_
+21	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
+22	ribollire	ribollire	VERB	V	VerbForm=Inf	21	xcomp	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	interno	interno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	14	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	ben	bene	ADV	B	_	32	advmod	_	_
+31	altre	altro	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	_
+32	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	favore	favore	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	38	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	38	det:poss	_	_
+38	protetto	protetto	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Come però Elvira la tirava per la gonna soggiunse in fretta:
+1	Come	come	ADP	E	_	5	mark	_	_
+2	però	però	ADV	B	_	5	advmod	_	_
+3	Elvira	Elvira	PROPN	SP	_	5	nsubj	_	_
+4	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	tirava	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gonna	gonna	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	soggiunse	soggiunso	ADJ	A	Number=Sing	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	5	punct	_	SpacesAfter=\n
+

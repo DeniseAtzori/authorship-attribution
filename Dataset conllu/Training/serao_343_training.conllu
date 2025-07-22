@@ -1,0 +1,150 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Veniva da voi!
+1	Veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	1	obl	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = L'ho saputo dopo.
+1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	dopo	dopo	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Una volta, signora, voi lo avete accompagnato in carrozza, sino all'angolo del grande viale della mia villa:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	signora	signore	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	9	nsubj	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	sino	sino	ADV	B	_	16	case	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	13	fixed	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	grande	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	viale	viale	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	villa	villa	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 4
+# text = e io non ho sospettato nulla, a quella carrozza che se ne tornava indietro.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sospettato	sospettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+14	tornava	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+15	indietro	indietro	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Dopo l'ho saputo.
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	l'	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Lo accompagnavate da me!
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	accompagnavate	accompagnavare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Non eravate gelosa, voi.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	eravate	erare	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	gelosa	gelodere	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Ah quanto vi odio, creatura debole e timida, che rubate i cuori, che rubate gli amanti e ve li tenete per sempre, e non siete gelosa, di nessuna donna, tanto il vostro fascino, fatto di debolezza, è più forte di ogni cosa e di ogni persona.
+1	Ah	ah	INTJ	I	_	47	nsubj	_	_
+2	quanto	quanto	ADV	B	_	1	fixed	_	_
+3	vi	vi	ADV	B	_	4	advmod	_	_
+4	odio	odiare	ADJ	A	_	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+7	debole	debole	ADJ	A	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	timida	timido	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	rubate	rubare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	rubate	rubare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	amanti	amante	NOUN	S	Number=Plur	17	obj	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	ve	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	23	expl	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+23	tenete	tenere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	conj	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	sempre	sempre	ADV	B	_	23	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	gelosa	geloso	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	1	punct	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	34	det	_	_
+34	donna	donna	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	tanto	tanto	ADV	B	_	39	advmod	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	34	punct	_	_
+41	fatto	fatto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	34	punct	_	_
+45	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+46	più	più	ADV	B	_	47	advmod	_	_
+47	forte	forte	ADJ	A	Number=Sing	0	root	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	50	det	_	_
+50	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	_
+51	e	e	CCONJ	CC	_	54	cc	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	54	det	_	_
+54	persona	persona	NOUN	S	Gender=Fem|Number=Sing	50	conj	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	47	punct	_	SpacesAfter=\n
+

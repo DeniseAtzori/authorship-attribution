@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Presto presto, per finirla, egli si fece condurre sempre in carrozza, alla salita di Capo le Case, la via chiara ed allegra, tutta sole, che taglia in mezzo quella dei Due Macelli.
+1	Presto	presto	ADV	B	_	2	advmod	_	_
+2	presto	presto	ADV	B	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-6	finirla	_	_	_	_	_	_	_	SpaceAfter=No
+5	finir	finire	VERB	V	VerbForm=Inf	10	advcl	_	_
+6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	condurre	condurre	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	sempre	sempre	ADV	B	_	11	advmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	salita	salita	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Capo	Capo	PROPN	SP	_	18	nmod	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	Case	case	PROPN	SP	_	10	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	via	via	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+26	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	ed	e	CCONJ	CC	_	28	cc	_	_
+28	allegra	allegro	ADJ	A	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	22	punct	_	_
+30	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	31	det	_	_
+31	sole	sole	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	22	punct	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	taglia	tagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+37	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	34	obj	_	_
+38-39	dei	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	Due	Due	PROPN	SP	_	37	nmod	_	_
+41	Macelli	Macelli	PROPN	SP	_	40	flat:name	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Un'aria di signorilità, di tranquillità aristocratica, veniva dalla vicina Piazza di Spagna, da Via Sistina, da Via Propaganda, da Via Condotti, il centro più esotico di Roma.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aria	aria	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	signorilità	signorilità	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	tranquillità	tranquillità	NOUN	S	Gender=Fem	4	nmod	_	_
+8	aristocratica	aristocratica	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	Piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Spagna	Spagna	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	Via	via	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+20	Sistina	Sistina	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	da	da	ADP	E	_	23	case	_	_
+23	Via	via	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+24	Propaganda	propaganda	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	Via	via	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+28	Condotti	condotti	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	19	punct	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	centro	centro	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+32	più	più	ADV	B	_	33	advmod	_	_
+33	esotico	esotico	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	Roma	Roma	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

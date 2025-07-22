@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così, il suo amore fu un balsamo nascosto, soavissimo, purissimo.
+1	Così	così	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	balsamo	balsamo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	nascosto	nascosto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	soavissimo	soavissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	purissimo	pure	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Io lo vedeva raramente, Giustino Morelli:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	raramente	raramente	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	Giustino	Giustino	PROPN	SP	_	3	appos	_	_
+7	Morelli	Morelli	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = giacchè mio marito lo teneva in sospetto, mentre lo irrideva, e giacchè egli aveva ribrezzo di stare con mio marito.
+1	giacchè	giacché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	marito	marito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	mentre	mentre	SCONJ	CS	_	11	mark	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	irrideva	irridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	giacchè	giacché	SCONJ	CS	_	16	mark	_	_
+15	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+17	ribrezzo	ribrezzo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	stare	stare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	marito	marito	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = A me stessa, in nome del santo e tenero amore di Giustino, mi ripugnava di vedere i due uomini insieme.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	obl	_	_
+3	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	nome	nome	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	santo	santo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	tenero	teere	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	amore	amore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Giustino	Giustino	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	ripugnava	ripugnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	vedere	vedere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	due	due	NUM	N	NumType=Card	22	nummod	_	_
+22	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+23	insieme	insieme	ADV	B	_	19	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marco invece era troppo eccitato quella sera per aver sonno.
+1	Marco	Marco	PROPN	SP	_	5	nsubj	_	_
+2	invece	invece	ADV	B	_	5	advmod	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	troppo	troppo	ADV	B	_	5	advmod	_	_
+5	eccitato	eccitato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	aver	avere	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Aprì la cassetta della scrivania nella quale doveva riporre i documenti di famiglia che aveva riportati.
+1	Aprì	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cassetta	cassetta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	scrivania	scrivania	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	quale	quale	PRON	PR	Number=Sing|PronType=Rel	11	obl	_	_
+10	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	riporre	riporre	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	riportati	riportare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Pose la sua fede di battesimo in una busta con quelle de' suoi fratelli e d'una sorella.
+1	Pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fede	fede	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	battesimo	battesimo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	busta	busta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	9	nmod	_	_
+12-13	de'	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Erano stati quattro, ed ora si trovava solo.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	cop	_	_
+3	quattro	quattro	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	ed	e	CCONJ	CC	_	8	cc	_	_
+6	ora	ora	ADV	B	_	8	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+9	solo	solo	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

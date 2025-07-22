@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È utile qui dire, che nessun bimbo può essere assolutamente brutto;
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	utile	utile	ADJ	A	Number=Sing	0	root	_	_
+3	qui	qui	ADV	B	_	2	advmod	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	2	csubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+7	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
+11	assolutamente	assolutamente	ADV	B	_	12	advmod	_	_
+12	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	4	acl:relcl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = che nessun bimbo ispira una completa ripugnanza.
+1	che	che	SCONJ	CS	_	3	mark	_	_
+2	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	ispira	ispirare	ADP	E	_	7	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	completa	completo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	ripugnanza	ripugnanza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Se sono malaticci, hanno la dolcezza di una malattia; se sono rachitici, hanno la malinconia attraente di un corpo condannato;
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	malaticci	malaticcio	ADJ	A	Gender=Masc|Number=Plur	5	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	5	punct	_	_
+12	se	se	SCONJ	CS	_	14	mark	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	rachitici	rachitico	ADJ	A	Gender=Masc|Number=Plur	16	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	attraente	attraente	ADJ	A	Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+23	condannato	condannato	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = se sono precoci, hanno quel sapore strano e acre delle piccole anime, già troppo grandi.
+1	se	se	SCONJ	CS	_	3	mark	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3-4	precoci	_	_	_	_	_	_	_	SpaceAfter=No
+3	preco	preco	ADJ	A	Gender=Masc|Number=Sing	6	advcl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	sapore	sapore	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	strano	strano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	acre	acre	ADJ	A	Number=Sing	9	conj	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	anime	anima	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	già	già	ADV	B	_	19	advmod	_	_
+18	troppo	troppo	ADV	B	_	19	advmod	_	_
+19	grandi	grande	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

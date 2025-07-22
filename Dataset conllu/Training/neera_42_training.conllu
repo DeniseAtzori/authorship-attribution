@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le parole hanno un destino crudele;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	destino	destino	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	crudele	crudele	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = le più nobili, le più sante fra di esse, goccie preziose di un liquore che si dovrebbe conservare nel più profondo sacrario della coscienza, sparpagliate da fanciulli pazzi e crudeli corrono per il mondo, si infiammano, accendono voglie inconsulte, vanità latenti, e sotto il bel nome sonoro di amore vanno distruggendo e soffocando la radice stessa dell’amore che è la donna.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	nobili	nobile	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	sante	sante	ADJ	A	Number=Sing	12	amod	_	_
+8	fra	fra	ADP	E	_	10	case	_	_
+9	di	di	ADP	E	_	8	fixed	_	_
+10	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	goccie	goccia	NOUN	S	Gender=Fem|Number=Plur	36	nsubj	_	_
+13	preziose	prezioso	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	liquore	liquore	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+19	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	conservare	conservare	VERB	V	VerbForm=Inf	16	acl:relcl	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	25	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	sacrario	sacrario	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	25	punct	_	_
+30	sparpagliate	sparpagliare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	fanciulli	fanciullo	NOUN	S	Gender=Masc|Number=Plur	30	obl:agent	_	_
+33	pazzi	pazzo	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	crudeli	crudele	ADJ	A	Number=Plur	33	conj	_	_
+36	corrono	correre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	42	punct	_	_
+41	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl	_	_
+42	infiammano	infiammare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	42	punct	_	_
+44	accendono	accendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
+45	voglie	voglia	NOUN	S	Gender=Fem|Number=Plur	44	obj	_	_
+46	inconsulte	inconsulto	ADJ	A	Gender=Fem|Number=Plur	45	amod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	48	punct	_	_
+48	vanità	vanità	NOUN	S	Gender=Fem	45	conj	_	_
+49	latenti	latente	ADJ	A	Number=Plur	48	amod	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	55	punct	_	_
+51	e	e	CCONJ	CC	_	55	cc	_	_
+52	sotto	sotto	ADP	E	_	55	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+54	bel	bello	ADJ	A	Gender=Masc|Number=Sing	55	amod	_	_
+55	nome	nome	NOUN	S	Gender=Masc|Number=Sing	45	conj	_	_
+56	sonoro	sonoro	ADJ	A	Gender=Masc|Number=Sing	55	amod	_	_
+57	di	di	ADP	E	_	58	case	_	_
+58	amore	amore	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	_
+59	vanno	andare	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
+60	distruggendo	distruggere	VERB	V	VerbForm=Ger	44	advcl	_	_
+61	e	e	CCONJ	CC	_	62	cc	_	_
+62	soffocando	soffocare	VERB	V	VerbForm=Ger	60	conj	_	_
+63	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	radice	radice	NOUN	S	Gender=Fem|Number=Sing	62	obj	_	_
+65	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	64	amod	_	_
+66-67	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+66	di	di	ADP	E	_	68	case	_	_
+67	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	68	det	_	_
+68	amore	amore	NOUN	S	Gender=Masc|Number=Sing	64	nmod	_	_
+69	che	che	PRON	PR	PronType=Rel	72	nsubj	_	_
+70	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	72	cop	_	_
+71	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+72	donna	donna	NOUN	S	Gender=Fem|Number=Sing	68	acl:relcl	_	SpaceAfter=No
+73	.	.	PUNCT	FS	_	36	punct	_	SpacesAfter=\n
+

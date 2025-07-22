@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vincenzo mise la sua mano in quella del babbo, e scoppiò in un pianto dirotto.
+1	Vincenzo	Vincenzo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	scoppiò	scoppiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pianto	pianto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	dirotto	dirotto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Era il rimorso, ridestato dalla tenerezza di quelle parole, che lo faceva piangere.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rimorso	rimorso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ridestato	ridestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+11	parole	parola	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+16	piangere	piangere	VERB	V	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma pochi minuti dopo non ci pensava più, e, felice di aver contentato il babbo, guardava le sorelline con orgoglio, dall'alto della sua gloria.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	dopo	dopo	ADV	B	_	7	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	più	più	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	felice	felice	ADJ	A	Number=Sing	7	conj	_	_
+13	di	di	ADP	E	_	15	mark	_	_
+14	aver	avere	AUX	VA	VerbForm=Inf	15	aux	_	_
+15	contentato	contentato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	sorelline	sorellina	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	7	punct	_	_
+25-26	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+25	da	da	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	alto	alto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

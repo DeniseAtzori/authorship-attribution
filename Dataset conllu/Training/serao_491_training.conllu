@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ed io ti darò venti baci piccoli, e se vi è un lungo campanile, te ne darò uno grosso grosso.
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	Ed	e	CCONJ	CC	_	5	cc	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+5	darò	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	venti	venti	NUM	N	NumType=Card	7	nummod	_	_
+7	baci	baco	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	se	se	SCONJ	CS	_	13	mark	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	campanile	campanile	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	20	iobj	_	_
+19	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+20	darò	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+21	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	grosso	grosso	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Sono più contento, perchè questo è un giocattolo con cui posso giuocare a casa.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	perchè	perché	SCONJ	CS	_	9	mark	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giocattolo	giocattolo	NOUN	S	Gender=Masc|Number=Sing	3	advcl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+12	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	giuocare	giuocare	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Venerdì mamma m’ha comprato un cerchio di legno e una palla elastica.
+1	Venerdì	venerdì	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	m’	mo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	legno	legno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	palla	palla	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+13	elastica	elastico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Che n’ho da fare, in casa, del cerchio e della palla?
+1	Che	che	SCONJ	CS	_	3	mark	_	_
+2	n’	no	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	palla	palla	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Guastano i mobili e possono rompere gli specchi.
+1	Guastano	Guastare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	mobili	mobile	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	rompere	rompere	VERB	V	VerbForm=Inf	1	conj	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	specchi	specchio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La voce di una tragedia all'albergo del Gallo, era già corsa da un capo all'altro del paese;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	voce	voce	NOUN	S	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Gallo	Gallo	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:pass	_	_
+14	già	già	ADV	B	_	15	advmod	_	_
+15	corsa	correre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	capo	capo	NOUN	S	Gender=Masc|Number=Sing	15	obl:agent	_	_
+19-20	all'	_	_	_	_	_	_	_	SpaceAfter=No
+19	a	a	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	paese	paese	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 2
+# text = e il medico, che passava la serata in farmacia, si era affrettato spontaneamente, e s'avviava su per le scale, appunto quando il ragazzo scendeva in cerca di lui.
+1	e	e	CCONJ	CC	_	14	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	medico	medico	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	serata	serata	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	farmacia	farmacia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	affrettato	affrettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	spontaneamente	spontaneamente	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	SpaceAfter=No
+19	avviava	avviare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
+20	su	su	ADV	B	_	19	advmod	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	scale	scala	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	14	punct	_	_
+25	appunto	appunto	ADV	B	_	29	advmod	_	_
+26	quando	quando	SCONJ	CS	_	29	mark	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+29	scendeva	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	cerca	cerca	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Lo respinse per salire più presto, ed entrò affannato nella camera, domandando:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	respinse	respingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	salire	salire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	presto	presto	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	entrò	entrare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	10	aux	_	_
+10	affannato	affannato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	camera	camera	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	domandando	domandare	VERB	V	VerbForm=Ger	10	advcl	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

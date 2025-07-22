@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il preferito fra i giuochi, come dappertutto, eri a _capinnascondere_.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	preferito	preferito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	fra	fra	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	giuochi	giuoco	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	dappertutto	dappertutto	ADV	B	_	2	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	eri	ero	ADV	B	_	8	conj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	_capinnascondere_	ExtraSubj=Yes|_capinnascondere_	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Con molta gravità ci mettevamo in cerchio nella stanza da pranzo e tiravamo a sorte, quello che doveva _star sotto_.
+1	Con	con	ADP	E	_	3	case	_	_
+2	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	gravità	gravità	NOUN	S	Gender=Fem	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+5	mettevamo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	tiravamo	tirare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obj	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	_star	_stare	VERB	V	VerbForm=Inf	18	acl:relcl	_	_
+22	sotto_	sotto-	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Se capitava a una bambina, faceva il muso e se ne andava borbottando a mettersi in un angolo, col viso rivolto al muro, con gli occhi chiusi per non vedere;
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	capitava	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	muso	muso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+14	borbottando	borbottare	ADV	B	_	13	advmod	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	mettersi	_	_	_	_	_	_	_	_
+16	metter	mettere	VERB	V	VerbForm=Inf	13	advcl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	7	punct	_	_
+22-23	col	_	_	_	_	_	_	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	viso	viso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+25	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	muro	muro	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	7	punct	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+33	chiusi	chiuso	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+34	per	per	ADP	E	_	36	mark	_	_
+35	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+36	vedere	vedere	VERB	V	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+37	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = se era un maschio, faceva il disinvolto e il sicuro di sè.
+1	se	se	SCONJ	CS	_	4	mark	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	maschio	maschio	NOUN	S	Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	disinvolto	disinvolto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sè	sè	PRON	PE	Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

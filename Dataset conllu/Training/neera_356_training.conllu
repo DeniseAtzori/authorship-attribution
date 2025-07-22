@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un rispetto sacro rese ancora più pallide le guancie del fanciullo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	sacro	sacro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	rese	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	più	più	ADV	B	_	4	advmod	_	_
+7	pallide	pallido	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	guancie	guancia	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Avanzò a piccoli passi tenendo gli occhi fissi sul cartello che fronteggiava l'entrata, smanioso eppur pauroso di leggere ciò che vi stava scritto.
+1	Avanzò	avanzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	passi	passo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	tenendo	tenere	VERB	V	VerbForm=Ger	1	advcl	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	fissi	figgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cartello	cartello	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	fronteggiava	fronteggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	smanioso	smanioso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	eppur	eppure	NOUN	S	Gender=Masc	15	nmod	_	_
+19	pauroso	pauroso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	leggere	leggere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+22	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	obj	_	_
+23	che	che	PRON	PR	PronType=Rel	26	nsubj:pass	_	_
+24	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	26	iobj	_	_
+25	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux:pass	_	_
+26	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = I caratteri gli sembravano confusi;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	caratteri	caratterio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	sembravano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	confusi	confuso	ADJ	A	Gender=Masc|Number=Plur	4	xcomp	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = non voleva incominciare dal principio;
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	incominciare	incominciare	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	principio	principio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = avrebbe desiderato conoscerli in un lampo di intuizione, non essere obbligato a decifrarli parola per parola.
+1	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	desiderato	desiderare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	conoscerli	_	_	_	_	_	_	_	_
+3	conoscer	conoscere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lampo	lampo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	intuizione	intuizione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux	_	_
+13	obbligato	obbligare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15-16	decifrarli	_	_	_	_	_	_	_	_
+15	decifrar	decifrare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	parola	parola	NOUN	S	Gender=Fem|Number=Sing	15	xcomp	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	parola	parola	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Gli pungevano le pupille, gli saltellavano davanti come piccole fiamme.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	pungevano	pungevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	pupille	pupilla	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+7	saltellavano	saltellare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+8	davanti	davanti	ADV	B	_	11	case	_	_
+9	come	come	ADP	E	_	8	fixed	_	_
+10	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	fiamme	fiamma	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Finalmente si fregò gli occhi, e lesse:
+1	Finalmente	finalmente	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	fregò	fregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	lesse	leggere	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	SpacesAfter=\n
+

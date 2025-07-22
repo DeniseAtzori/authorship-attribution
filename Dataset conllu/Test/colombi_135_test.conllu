@@ -1,0 +1,146 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La proposta fu accolta freddissimamente dalla compagnia;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	accolta	accogliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	freddissimamente	freddissimamente	ADV	B	_	4	advmod	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = ma io non mostrai d'accorgermene e raccolsi le magre offerte in un portasigari giapponese.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	mostrai	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	d'	di	ADP	E	_	6	mark	_	SpaceAfter=No
+6-8	accorgermene	_	_	_	_	_	_	_	_
+6	accorger	accorgere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	raccolsi	raccolso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	magre	magre	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	offerte	offrire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	portasigari	portasigaro	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17	giapponese	giapponese	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Quando se ne fece lo spoglio vi si trovarono 520 lire.
+1	Quando	quando	ADV	B	_	4	advmod	_	_
+2	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	spoglio	spoglio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	trovarono	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	520	520	NUM	N	NumType=Card	11	nummod	_	_
+11	lire	lira	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Un biglietto giallo, e venti lire in ispiccioli.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	venti	venti	NUM	N	NumType=Card	7	nummod	_	_
+7	lire	lira	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	ispiccioli	ispicciolo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Il biglietto giallo attirò tutti gli sguardi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	attirò	attiere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = I convitati si conoscevano troppo bene tra loro, per sospettarsi a vicenda capaci d'una simile prodigalità.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	convitati	convitato	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	conoscevano	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	troppo	troppo	ADV	B	_	6	advmod	_	_
+6	bene	bene	ADV	B	_	4	advmod	_	_
+7	tra	tra	ADP	E	_	8	case	_	_
+8	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	sospettarsi	_	_	_	_	_	_	_	_
+11	sospettar	sospettare	VERB	V	VerbForm=Inf	4	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	capaci	capace	ADJ	A	Number=Plur	14	amod	_	_
+16	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	simile	simile	ADJ	A	Number=Sing	19	amod	_	_
+19	prodigalità	prodigalità	NOUN	S	Gender=Fem	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Ma nessuno neppure ne avrebbe creduta capace la spensierata giovane, che non aveva trovato una parola sentimentale per quella sventura.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+3	neppure	neppure	ADV	BN	PronType=Neg	6	advmod	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+5	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	creduta	credere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	capace	capace	ADJ	A	Number=Sing	9	amod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	spensierata	spensierata	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	giovane	giovane	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	parola	parola	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	sentimentale	sentimentale	ADJ	A	Number=Sing	17	amod	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	sventura	sventura	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Tutti gli occhi si volgevano verso di me con una specie di commiserevole ammirazione quasi a dire:
+1	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	volgevano	volgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	verso	verso	ADP	E	_	8	case	_	_
+7	di	di	ADP	E	_	6	fixed	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	specie	specie	NOUN	S	Gender=Fem	5	obl	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	commiserevole	commiserevole	ADJ	A	Number=Sing	14	amod	_	_
+14	ammirazione	ammirazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	quasi	quasi	ADV	B	_	17	advmod	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	dire	dire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	5	punct	_	SpacesAfter=\n
+

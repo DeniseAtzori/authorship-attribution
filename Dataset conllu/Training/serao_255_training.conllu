@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non aveva più nulla, di lei:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	2	advmod	_	_
+4	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	conj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = nulla.
+1	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Crudelmente e ostinatamente, ella si era ripreso tutto:
+1	Crudelmente	Crudelmente	ADV	B	_	8	advmod	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	ostinatamente	ostinatamente	ADV	B	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	ripreso	riprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	xcomp	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 4
+# text = ed era, poi, andata via anche lei.
+1	ed	e	CCONJ	CC	_	6	cc	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	poi	poi	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	via	via	ADV	B	_	6	advmod	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = E perchè, allora, gli aveva lasciato quell'orologetto che beffardamente segnava, con le sue sottili piccole sfere, le ore azzurre?
+1	E	e	CCONJ	CC	_	23	cc	_	_
+2	perchè	perché	SCONJ	CS	_	8	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	allora	allora	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+9	quell'	quello	DET	DD	Number=Sing|PronType=Dem	10	det	_	SpaceAfter=No
+10	orologetto	orologetto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	beffardamente	beffardamente	ADV	B	_	13	advmod	_	_
+13	segnava	segnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	con	con	ADP	E	_	20	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+17	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+18	sottili	sottile	ADJ	A	Number=Plur	20	amod	_	_
+19	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	sfere	sfera	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	8	punct	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+24	azzurre	azzurre	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	?	?	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 6
+# text = Ella lo aveva dimenticato, forse: e le ore di Paolo non avevano più nessuna tinta, erano fatte di una immutabile ombra.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	forse	forse	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	ore	ora	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Paolo	Paolo	PROPN	SP	_	10	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
+17	tinta	tinta	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	immutabile	immutabile	ADJ	A	Number=Sing	24	amod	_	_
+24	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n
+

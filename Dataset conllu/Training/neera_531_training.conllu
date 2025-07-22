@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ad ogni modo — rispose Flavio come se stimasse inutile una risposta diretta — noi prestiamo loro la nostra anima e tanto basta per renderli degni della nostra compassione.
+1	—	—	PUNCT	FF	_	6	punct	_	_
+2	Ad	a	ADP	E	_	4	case	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	modo	modo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	—	—	PUNCT	FF	_	6	punct	_	_
+6	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Flavio	Flavio	PROPN	SP	_	6	obj	_	_
+8	come	come	ADV	B	_	10	advmod	_	_
+9	se	se	SCONJ	CS	_	10	mark	_	_
+10	stimasse	stimare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+11	inutile	inutile	ADJ	A	Number=Sing	10	xcomp	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	diretta	diretto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	—	—	PUNCT	FF	_	17	punct	_	_
+16	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+17	prestiamo	prestare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	17	iobj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	anima	anima	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	tanto	tanto	ADV	B	_	24	advmod	_	_
+24	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26-27	renderli	_	_	_	_	_	_	_	_
+26	render	rendere	VERB	V	VerbForm=Inf	24	advcl	_	_
+27	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	obj	_	_
+28	degni	degno	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	compassione	compassione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Qual significato avrebbe l'anima chiusa e costretta nel piccolissimo recinto di un cervello umano?
+1	Qual	equale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	significato	significato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	anima	anima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	costretta	costringere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	piccolissimo	piccolo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	12	amod	_	_
+12	recinto	recinto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	umano	umano	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = L'anima è immortale perchè è infinita.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anima	anima	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	immortale	immortale	ADJ	A	Number=Sing	0	root	_	_
+5	perchè	perché	SCONJ	CS	_	7	mark	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	infinita	infinire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

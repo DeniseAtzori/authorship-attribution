@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «_Cara speranza_» c'era sempre; e le lettere si somigliavano tutte;
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	_Cara	_Cara	PROPN	SP	_	6	nsubj	_	_
+3	speranza_	speranza-	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	»	»	PUNCT	FB	_	2	punct	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	sempre	sempre	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	13	punct	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:pass	_	_
+13	somigliavano	somigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+14	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	13	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = ma l'Amalia esultava, si torceva le mani durante la lettura per comprimere le grida di piacere.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Amalia	Amalia	PROPN	SP	_	4	nsubj	_	_
+4	esultava	esultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	torceva	torcere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	mani	mano	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+10	durante	durante	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	comprimere	comprimere	VERB	V	VerbForm=Inf	12	acl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	grida	grida	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Poi pigliava il foglio e saltava in mezzo al gruppo d'amici che si erano stretti intorno, e si agitava tanto, che l'aureola degli spilloni minacciava di strapparle, nella violenza dei rimbalzi, quei pochi capelli che la reggevano.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	pigliava	pigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	foglio	foglio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	saltava	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	amici	amico	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+16	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	stretti	stringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	intorno	intorno	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	agitava	agitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+23	tanto	tanto	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	che	che	SCONJ	CS	_	31	mark	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	aureola	aureola	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+28-29	degli	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	spilloni	spillone	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31	minacciava	minacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	ccomp	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33-34	strapparle	_	_	_	_	_	_	_	SpaceAfter=No
+33	strappar	strappare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	33	obj	_	_
+35	,	,	PUNCT	FF	_	22	punct	_	_
+36-37	nella	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+39-40	dei	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	rimbalzi	rimbalzo	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	22	punct	_	_
+43	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	45	det	_	_
+44	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	45	det	_	_
+45	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+46	che	che	PRON	PR	PronType=Rel	48	nsubj	_	_
+47	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	48	obj	_	_
+48	reggevano	reggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	45	acl:relcl	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E baciava la lettera, e rideva, rideva da perderne il fiato, e per parecchi giorni tutto il casamento era assordato dalla canzone favorita dall'Amalia:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	baciava	baciavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	rideva	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	rideva	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	perderne	perdernere	NOUN	S	Number=Sing	9	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fiato	fiato	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	23	punct	_	_
+15	e	e	CCONJ	CC	_	23	cc	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+19	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	21	det:predet	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	casamento	casamento	NOUN	S	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux:pass	_	_
+23	assordato	assordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+24-25	dalla	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	23	obl:agent	_	_
+27	favorita	favorire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+28-29	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+28	da	da	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	Amalia	Amalia	PROPN	SP	_	27	obl:agent	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

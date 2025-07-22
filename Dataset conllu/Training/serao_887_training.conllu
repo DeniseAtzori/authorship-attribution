@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Diciotto giorni.
+1	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+3	Diciotto	diciotto	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = --Una sera che era andato fuori, costretto da un dovere inrecusabile, trattenendomi due o tre ore, al ritorno, non la ritrovai più.
+1	--Una	--Una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	fuori	fuori	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	_
+12	inrecusabile	inrecusabile	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14-15	trattenendomi	_	_	_	_	_	_	_	_
+14	trattenendo	trattenere	VERB	V	VerbForm=Ger	8	advcl	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+16	due	due	NUM	N	NumType=Card	19	nummod	_	_
+17	o	o	CCONJ	CC	_	18	cc	_	_
+18	tre	tre	NUM	N	NumType=Card	16	conj	_	_
+19	ore	ora	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	8	punct	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	8	punct	_	_
+25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+26	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+27	ritrovai	ritrovai	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	più	più	ADV	B	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 3
+# text = Era venuto il marito, improvvisamente, e l'aveva portata via.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	marito	marito	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	improvvisamente	improvviso	ADV	B	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+12	via	via	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Per due giorni girai Venezia come un pazzo, cercandola.
+1	Per	per	ADP	E	_	3	case	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	girai	girare	ADV	B	_	5	advmod	_	_
+5	Venezia	Venezia	PROPN	SP	_	3	nmod	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pazzo	pazzo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	cercandola	cercandola	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non credevo a una immediata partenza.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credevo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	immediata	immediato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Poi mi misi disperatamente in via per la Polonia....
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	misi	midere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	disperatamente	disperatamente	ADV	B	_	3	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	via	via	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Polonia...	Polonia...	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

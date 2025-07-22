@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ebbene, egli stesso, volontariamente, aveva aperto la porta del tabernacolo, spezzata la santa reliquia e rovesciato l'altare:
+1	Ebbene	ebbene	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	egli	ello	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+4	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	volontariamente	volontario	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	porta	porta	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tabernacolo	tabernacolo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	spezzata	spezzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	santa	santo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	reliquia	reliquio	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	rovesciato	rovesciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	altare	altare	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = egli aveva rinnegato non l'amore di Luisa Cima ma il suo:
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	rinnegato	rinnegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Luisa	Luisa	PROPN	SP	_	6	nmod	_	_
+9	Cima	cima	PROPN	SP	_	8	flat:name	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	suo	suo	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	conj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = egli aveva tradito, non Luisa Cima, ma se stesso:
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	tradito	tradire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	Luisa	Luisa	PROPN	SP	_	3	conj	_	_
+7	Cima	cima	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	conj	_	_
+11	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = egli aveva disperso al vento, per sempre, tutto il suo tesoro.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	disperso	dispergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vento	vento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	sempre	sempre	ADV	B	_	3	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	14	det:predet	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	tesoro	tesoro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Giammai più, giammai egli avrebbe ritrovato la fermezza fiera, il candore appassionato, la nobiltà ardente, la fedeltà incrollabile, che erano le virtù alte di questo amore.
+1	Giammai	Giammai	ADV	B	_	7	advmod	_	_
+2	più	più	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	giammai	giammai	ADV	B	_	7	advmod	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ritrovato	ritrovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fermezza	fermezza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	fiera	fiero	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	candore	candore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+14	appassionato	appassionato	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	nobiltà	nobiltà	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+18	ardente	ardente	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	7	punct	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fedeltà	fedeltà	NOUN	S	Gender=Fem	7	appos	_	_
+22	incrollabile	incrollabile	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	virtù	virtù	NOUN	S	Gender=Fem	25	obj	_	_
+28	alte	alto	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
+31	amore	amore	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

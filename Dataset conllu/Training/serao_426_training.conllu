@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Pasqualina, sopra un angolo del focolare, faceva friggere del sangue nel tegame.
+1	Pasqualina	Pasqualina	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sopra	sopra	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	focolare	focolare	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	friggere	friggere	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tegame	tegame	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Tutti parlottavano vivamente, allegramente, presi dalla gioia di quella carne, di quel grasso, di quella prosperità, infiammati dal fuoco e dal lavoro.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	parlottavano	parlottare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	vivamente	vivo	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	allegramente	allegramente	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	carne	carne	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	prosperità	prosperità	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	infiammati	infiammare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+24-25	dal	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	23	obl:agent	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28-29	dal	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Canituccia restava sulla soglia, guardando, senza entrare.
+1	Canituccia	Canituccia	ADV	B	_	2	advmod	_	_
+2	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	sulla	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	guardando	guardare	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	senza	senza	ADP	E	_	10	mark	_	_
+10	entrare	entrare	VERB	V	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Allora Pasqualina, pensando che la bambina non mangiava da un giorno e che era momento di festa, prese un pezzo di pane nero, vi mise su un pezzetto di sangue fritto e disse a Canituccia:
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	Pasqualina	Pasqualina	PROPN	SP	_	20	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	pensando	pensare	VERB	V	VerbForm=Ger	20	advcl	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	mangiava	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	momento	momento	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	festa	festa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	pane	pane	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	nero	nero	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	28	obj	_	_
+28	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	pezzetto	pezzetto	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34	fritto	fritto	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	Canituccia	Canituccia	PROPN	SP	_	36	obl	_	SpaceAfter=No
+39	:	:	PUNCT	FC	_	20	punct	_	SpacesAfter=\n
+

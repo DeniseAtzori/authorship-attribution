@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo irrequieto fantasma muliebre vide empirsi e vuotarsi le sale di aspetto dei viaggiatori che partivano successivamente per le linee di Salerno, di Castellammare, di Foggia, di Aquila:
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	irrequieto	irrequieto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	muliebre	muliebre	ADJ	A	Number=Sing	3	amod	_	_
+5	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	empirsi	_	_	_	_	_	_	_	_
+6	empir	empire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9-10	vuotarsi	_	_	_	_	_	_	_	_
+9	vuotar	vuotare	VERB	V	VerbForm=Inf	6	conj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	sale	sala	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	viaggiatori	viaggiatore	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	partivano	partire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+20	successivamente	successivamente	ADV	B	_	19	advmod	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	linee	linea	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Salerno	Salerno	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	5	punct	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Castellammare	Castellammare	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Foggia	Foggia	PROPN	SP	_	28	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	Aquila	Aquila	PROPN	SP	_	28	conj	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = vide fermarsi e andarsene i treni carichi di uomini, di donne, di borghesi e di contadini, che se ne andavano ai loro affari, al loro lavoro, alle loro cure.
+1	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	fermarsi	_	_	_	_	_	_	_	_
+2	fermar	fermare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5-7	andarsene	_	_	_	_	_	_	_	_
+5	andar	andare	VERB	V	VerbForm=Inf	1	conj	_	_
+6	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	treni	treno	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+10	carichi	carico	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	borghesi	borghese	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+24	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	26	iobj	_	_
+26	andavano	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+27-28	ai	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	30	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	loro	loro	DET	AP	Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	affari	affare	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	1	punct	_	_
+32-33	al	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	loro	loro	DET	AP	Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	1	punct	_	_
+37-38	alle	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	40	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+39	loro	loro	DET	AP	Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	cure	cura	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

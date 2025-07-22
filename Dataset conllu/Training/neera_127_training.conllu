@@ -1,0 +1,153 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cuori amanti, anime appassionate, donne — donne nate all’amore — ricostruite la casa!
+1	Cuori	cuori	ADV	B	_	2	advmod	_	_
+2	amanti	amante	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	anime	anima	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	appassionate	appassionato	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+8	—	—	PUNCT	FF	_	9	punct	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+10	nate	nascere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	all’	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	—	—	PUNCT	FF	_	4	punct	_	_
+15	ricostruite	ricostruire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Non è la scuola che educa, è la casa;
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	educa	educare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = non è il libro che insegna, è la vita;
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	libro	libro	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 4
+# text = non sono i maestri che fanno l’uomo, è la madre.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	maestri	maestro	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	madre	madre	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = L’opera d’amore, come ogni mistero, ha bisogno di raccoglimento;
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	opera	opera	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	d’	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	raccoglimento	raccoglimento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 6
+# text = e se vi è ancora da sperare qualche cosa nel futuro, se dobbiamo cercare un porto dove orientarci e un faro che ci additi la via, non sarà certo fra i comizi delle emancipatrici ma sarete voi, donne oscure, donne umili e forti, salde alla vostra missione che ci salverete tutti.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	advcl	_	_
+5	ancora	ancora	ADV	B	_	4	advmod	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7	sperare	sperare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	se	se	SCONJ	CS	_	16	mark	_	_
+15	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	cercare	cercare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	porto	porto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	dove	dove	ADV	B	_	20	advmod	_	_
+20-21	orientarci	_	_	_	_	_	_	_	_
+20	orientar	orientare	VERB	V	VerbForm=Inf	18	acl:relcl	_	_
+21	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	20	obj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	faro	faro	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	27	iobj	_	_
+27	additi	addere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	via	via	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	4	punct	_	_
+31	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+32	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	cop	_	_
+33	certo	certo	ADV	B	_	36	advmod	_	_
+34	fra	fra	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	comizi	comizio	NOUN	S	Gender=Masc|Number=Plur	52	nsubj	_	_
+37-38	delle	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	emancipatrici	emancipatore	NOUN	S	Gender=Fem|Number=Plur	36	nmod	_	_
+40	ma	ma	CCONJ	CC	_	41	cc	_	_
+41	sarete	saere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	36	conj	_	_
+42	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	41	obj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	donne	donna	NOUN	S	Gender=Fem|Number=Plur	42	conj	_	_
+45	oscure	oscuro	ADJ	A	Gender=Fem|Number=Plur	44	amod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	47	punct	_	_
+47	donne	donna	NOUN	S	Gender=Fem|Number=Plur	42	conj	_	_
+48	umili	umile	ADJ	A	Number=Plur	47	amod	_	_
+49	e	e	CCONJ	CC	_	50	cc	_	_
+50	forti	forte	ADJ	A	Number=Plur	48	conj	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	36	punct	_	_
+52	salde	saldere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+53-54	alla	_	_	_	_	_	_	_	_
+53	a	a	ADP	E	_	56	case	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+55	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	56	det:poss	_	_
+56	missione	missione	NOUN	S	Gender=Fem|Number=Sing	52	obl	_	_
+57	che	che	PRON	PR	PronType=Rel	59	nsubj	_	_
+58	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	59	expl	_	_
+59	salverete	salveere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	56	acl:relcl	_	_
+60	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	59	obl	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	52	punct	_	SpacesAfter=\n
+

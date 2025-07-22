@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le due sorelle erano ansiose di sapere se la premiazione fosse già stata fatta.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	ansiose	ansioso	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	sapere	sapere	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	se	se	SCONJ	CS	_	14	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	premiazione	premiazione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+11	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:pass	_	_
+12	già	già	ADV	B	_	14	advmod	_	_
+13	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Non guardavano nulla e nessuno, seguendo docilmente la folla, intente solo a rintracciare Flavio.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	guardavano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	seguendo	seguire	VERB	V	VerbForm=Ger	2	advcl	_	_
+8	docilmente	docilmente	ADV	B	_	7	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	folla	folla	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	intente	intento	ADJ	A	Number=Sing	10	amod	_	_
+13	solo	solo	ADV	B	_	15	advmod	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	rintracciare	rintracciare	VERB	V	VerbForm=Inf	12	advcl	_	_
+16	Flavio	Flavio	PROPN	SP	_	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Una grossa famiglia borghese composta di tre generazioni, tutte ferme davanti ad una tela intitolata _La stiratrice_ le arrestò contro lor voglia per qualche minuto.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	grossa	grosso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+4	borghese	borghese	ADJ	A	Number=Sing	3	amod	_	_
+5	composta	comporre	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	11	det	_	_
+11	ferme	ferma	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+12	davanti	davanti	ADV	B	_	15	case	_	_
+13	ad	a	ADP	E	_	12	fixed	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tela	tela	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+16	intitolata	intitolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	_La	_La	PROPN	SP	_	16	xcomp	_	_
+18	stiratrice_	stiratrice-	PUNCT	FB	_	11	punct	_	_
+19	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+20	arrestò	arrestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	contro	contro	ADP	E	_	23	case	_	_
+22	lor	lor	ADJ	A	Number=Sing	23	amod	_	_
+23	voglia	volere	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	26	det	_	_
+26	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n
+

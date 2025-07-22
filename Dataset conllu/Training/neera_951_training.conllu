@@ -1,0 +1,131 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’alta specchiera fra due colonnine dorate la riflettè, discinta come era, ancora avvenente in una sua speciale eleganza di linee, ancora donna.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	alta	alto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	specchiera	specchiera	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	fra	fra	ADP	E	_	6	case	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	colonnine	colonnine	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+7	dorate	dorare	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	riflettè	riflettè	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	discinta	discincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	era	essere	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	ancora	ancora	ADV	B	_	16	advmod	_	_
+16	avvenente	avvenente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+17	in	in	ADP	E	_	21	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+20	speciale	speciale	ADJ	A	Number=Sing	21	amod	_	_
+21	eleganza	eleganza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	linee	linea	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	ancora	ancora	ADV	B	_	26	advmod	_	_
+26	donna	donna	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Ancora?
+1	Ancora	ancora	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = e per quanto tempo?
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	4	det	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Salì col palmo della mano lungo il braccio, il braccio bianco che Ariele non conosceva, che non avrebbe mai cinto così nudo il suo collo;
+1	Salì	salire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	col	_	_	_	_	_	_	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	palmo	palmo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	lungo	lungo	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+14	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	Ariele	Ariele	PROPN	SP	_	18	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	avrebbe	avere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+23	mai	mai	ADV	B	_	24	advmod	_	_
+24	cinto	cingere	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+25	così	così	ADV	B	_	26	advmod	_	_
+26	nudo	nudo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	collo	collo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+30	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = piegò la faccia lentamente fino a toccarlo, in alto, dove si congiunge alla spalla, e stette un attimo colle labbra appoggiate alla fresca morbidezza della propria carne chiudendo gli occhi con uno spasimo disperato.
+1	piegò	piegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	lentamente	lentamente	ADV	B	_	1	advmod	_	_
+5	fino	fino	ADP	E	_	7	mark	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7-8	toccarlo	_	_	_	_	_	_	_	SpaceAfter=No
+7	toccar	toccare	VERB	V	VerbForm=Inf	1	advcl	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	alto	alto	ADV	B	_	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	dove	dove	ADV	B	_	15	advmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	congiunge	congiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	spalla	spalla	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	stette	stettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	colle	_	_	_	_	_	_	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+27	appoggiate	appoggiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	31	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	fresca	fresco	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+31	morbidezza	morbidezza	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	carne	carne	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+36	chiudendo	chiudere	VERB	V	VerbForm=Ger	21	advcl	_	_
+37	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	36	obj	_	_
+39	con	con	ADP	E	_	41	case	_	_
+40	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	spasimo	spasimo	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+42	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

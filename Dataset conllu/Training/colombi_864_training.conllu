@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anche Vicenzino aveva lasciato quasi subito Santhià.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	Vicenzino	Vicenzino	PROPN	SP	_	4	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	quasi	quasi	ADV	B	_	6	advmod	_	_
+6	subito	subito	ADV	B	_	7	advmod	_	_
+7	Santhià	Santhià	PROPN	SP	_	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Suo padre era riescito a collocarsi come fattore in un tenimento signorile presso Vercelli, dove mandava a scuola il figlio per fargli continuare gli studi liceali, dopo i quali intendeva che andasse a Torino all'Università, e prendesse una laurea.
+1	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	riescito	riescire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	collocarsi	_	_	_	_	_	_	_	_
+6	collocar	collocare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	fattore	fattore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tenimento	tenimento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	signorile	signorile	ADJ	A	Number=Sing	12	amod	_	_
+14	presso	presso	ADP	E	_	15	case	_	_
+15	Vercelli	Vercelli	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	dove	dove	ADV	B	_	18	advmod	_	_
+18	mandava	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24-25	fargli	_	_	_	_	_	_	_	_
+24	far	fare	VERB	V	VerbForm=Inf	18	advcl	_	_
+25	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	iobj	_	_
+26	continuare	continuare	VERB	V	VerbForm=Inf	24	ccomp	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	studi	studio	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+29	liceali	liceale	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	4	punct	_	_
+31	dopo	dopo	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	quali	quale	PRON	PR	Number=Plur|PronType=Rel	34	obl	_	_
+34	intendeva	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+35	che	che	SCONJ	CS	_	36	mark	_	_
+36	andasse	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	ccomp	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	Torino	Torino	PROPN	SP	_	36	obl	_	_
+39-40	all'	_	_	_	_	_	_	_	SpaceAfter=No
+39	a	a	ADP	E	_	41	case	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	Università	università	NOUN	S	Gender=Fem	36	obl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	44	punct	_	_
+43	e	e	CCONJ	CC	_	44	cc	_	_
+44	prendesse	prendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	conj	_	_
+45	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Era la sua ambizione, ed in essa aveva attinto il coraggio di cercare un impiego e di adattarvisi, il che gli costava non lieve sacrifizio, sebbene lo avesse ridotto ad una specie di sinecura.
+1	Era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	ambizione	ambizione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ed	e	CCONJ	CC	_	10	cc	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	attinto	attingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	cercare	cercare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	adattarvisi	adattarviso	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	iobj	_	_
+24	costava	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	lieve	lieve	ADJ	A	Number=Sing	27	amod	_	_
+27	sacrifizio	sacrifizio	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	10	punct	_	_
+29	sebbene	sebbene	SCONJ	CS	_	32	mark	_	_
+30	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+31	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+33	ad	a	ADP	E	_	35	case	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	specie	specie	NOUN	S	Gender=Fem	32	obl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	sinecura	sinecura	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

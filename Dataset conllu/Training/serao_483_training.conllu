@@ -1,0 +1,136 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quello che essi più odiano è il parrucchiere, che taglia loro i capelli sino alla cute, col pretesto che debbano crescere loro più forti;
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	odiano	odiano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	parrucchiere	parrucchiere	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	taglia	tagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	11	iobj	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	sino	sino	ADV	B	_	18	case	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cute	cuta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	11	punct	_	_
+20-21	col	_	_	_	_	_	_	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pretesto	pretesto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	debbano	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	crescere	crescere	VERB	V	VerbForm=Inf	22	acl:relcl	_	_
+26	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	25	iobj	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	forti	forte	ADJ	A	Number=Plur	25	xcomp	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = e infatti, un bimbo con la testa pelata, è brutto quanto infelice.
+1	e	e	CCONJ	CC	_	12	cc	_	_
+2	infatti	infatti	ADV	B	_	12	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	testa	testa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	pelata	pelato	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+13	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+14	infelice	infelice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Quello che essi odiano, è la pomata, che impiastriccia e insudicia i capelli.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	case	_	_
+3	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	acl:relcl	_	_
+4	odiano	odiare	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pomata	pomata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	impiastriccia	impiastricciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	insudicia	insudiciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Bisogna che la madre o la sorella grande o la zia zitellona abbiano il senso artistico di quelle onde brune che cadono sulle spalle, di quelle ciocche pioventi sulla fronte, di quelle forti trecce battenti sugli omeri, di quei riccioli che sfuggono a un berretto messo alla sgherra.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	13	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	madre	madre	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+5	o	o	CCONJ	CC	_	7	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+8	grande	grande	ADJ	A	Number=Sing	7	amod	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	zia	zia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+12	zitellona	zitellono	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	13	nsubj	_	_
+13	abbiano	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	senso	senso	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	artistico	artistico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+19	onde	onda	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+20	brune	brune	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	cadono	cadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23-24	sulle	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	22	obl	_	_
+29	ciocche	ciocco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
+30	pioventi	piovento	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+31-32	sulla	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	fronte	fronte	NOUN	S	Number=Sing	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	30	punct	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	38	nmod	_	_
+37	forti	forte	ADJ	A	Number=Plur	38	amod	_	_
+38	trecce	trecce	NOUN	S	Gender=Fem|Number=Plur	30	appos	_	_
+39	battenti	battente	ADJ	A	Number=Plur	38	amod	_	_
+40-41	sugli	_	_	_	_	_	_	_	_
+40	su	su	ADP	E	_	42	case	_	_
+41	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	omeri	omero	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	46	punct	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	46	det	_	_
+46	riccioli	ricciolo	NOUN	S	Gender=Masc|Number=Plur	42	conj	_	_
+47	che	che	PRON	PR	PronType=Rel	48	nsubj	_	_
+48	sfuggono	sfuggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	acl:relcl	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	berretto	berretto	NOUN	S	Gender=Masc|Number=Sing	48	obl	_	_
+52	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	acl	_	_
+53-54	alla	_	_	_	_	_	_	_	_
+53	a	a	ADP	E	_	55	case	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	sgherra	sgherra	NOUN	S	Gender=Fem|Number=Sing	52	obl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

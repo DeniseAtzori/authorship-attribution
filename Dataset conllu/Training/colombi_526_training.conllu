@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ah! quel cric, cric!
+1	Ah	ah	INTJ	I	_	4	cop	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	4	punct	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	cric	cric	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	cric	cric	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = La _soda water_ mi salì alla testa, mi entrò nel naso, mi andò in gola a traverso, nell'eccesso della commozione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	_soda	_soda	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	water_	water-	PUNCT	FB	_	2	punct	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	salì	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	testa	testa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	naso	naso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+17	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	gola	gola	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	traverso	traverso	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23-24	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	in	in	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	commozione	commozione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Tossii, tossii fino a diventare violetto.
+1	Tossii	Tossii	ADJ	NO	Number=Sing|NumType=Ord	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	tossii	tossii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+4	fino	fino	ADV	B	_	6	mark	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	diventare	diventare	VERB	V	VerbForm=Inf	3	advcl	_	_
+7	violetto	violetto	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Il pasticciere mi picchiava pietosamente dei pugni sulla schiena, ed intanto udivo la signora che era con _lei_ che diceva:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pasticciere	pasticciere	NOUN	S	_	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	picchiava	picchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	pietosamente	pietosamente	ADV	B	_	8	advmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	schiena	schiena	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ed	e	CCONJ	CC	_	15	cc	_	_
+14	intanto	intanto	ADV	B	_	15	advmod	_	_
+15	udivo	udivo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	signora	signore	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	_lei_	ExtraSubj=Yes|_lei_	PUNCT	FB	_	23	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,142 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il vecchio tempio era parato a lutto:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	tempio	tempio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	parato	parato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	lutto	lutto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = una gran striscia nera ondulava sulla porta dell'atrio e più lungi, al di là del cortile, altre striscie nere orlate di frangia d'oro velavano a mezzo l'entrata del tempio.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	gran	grande	ADJ	A	Number=Sing	3	amod	_	_
+3	striscia	striscia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	nera	nero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	ondulava	ondulare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	porta	porta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	atrio	atrio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	lungi	lungi	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	là	là	ADV	B	_	22	advmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	cortile	cortile	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	5	punct	_	_
+24	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	striscie	striscia	NOUN	S	Gender=Fem|Number=Plur	32	nsubj	_	_
+26	nere	nero	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+27	orlate	orlato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	frangia	frangia	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+30	d'	di	ADP	E	_	31	case	_	SpaceAfter=No
+31	oro	oro	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+32	velavano	velare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	tempio	tempio	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Egli doveva saperlo, lo sapeva;
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3-4	saperlo	_	_	_	_	_	_	_	SpaceAfter=No
+3	saper	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = tuttavia la realtà di quel lutto apparsagli d'improvviso sembrò rinnovargli il dolore.
+1	tuttavia	tuttavia	ADV	B	_	10	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	realtà	realtà	NOUN	S	Gender=Fem	10	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	lutto	lutto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	apparsagli	apparsagliare	NOUN	S	Gender=Masc|Number=Plur	6	compound	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	7	nmod	_	_
+10	sembrò	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11-12	rinnovargli	_	_	_	_	_	_	_	_
+11	rinnovar	rinnovarre	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = L'incredulità vaga che si impossessa della mente al primo annunzio di morte di una persona cara mutavasi in certezza davanti alla materiale prova, alla bandiera della morte sventolante sulla casa di Dio.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incredulità	incredulità	NOUN	S	Gender=Fem	0	root	_	_
+3	vaga	vagare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	impossessa	impossessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mente	mente	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	annunzio	annunzio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	morte	morte	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	persona	persona	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	cara	caro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	mutavasi	mutavanere	ADJ	A	Number=Sing	18	amod	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	davanti	davanti	ADV	B	_	27	case	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	materiale	materiale	ADJ	A	Number=Sing	27	amod	_	_
+27	prova	prova	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	2	punct	_	_
+29-30	alla	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	morte	morte	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+35	sventolante	sventolante	ADJ	A	Number=Sing	34	amod	_	_
+36-37	sulla	_	_	_	_	_	_	_	_
+36	su	su	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	casa	casa	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	Dio	dio	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

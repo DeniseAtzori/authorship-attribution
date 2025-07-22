@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sul vassoio del caffè c’era il saluto quotidiano di Ariele, il suo raggio di sole.
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vassoio	vassoio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caffè	caffè	NOUN	S	Gender=Masc	3	nmod	_	_
+7	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	quotidiano	quotidiano	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Ariele	Ariele	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	raggio	raggio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	sole	sole	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Poche parole, talvolta una sillaba sola, un grido ardente dell’anima “Tu!„.
+1	Poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	talvolta	talvolgere	ADV	B	_	6	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sillaba	sillaba	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	grido	grido	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+11	ardente	ardente	ADJ	A	Number=Sing	10	amod	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	anima	anima	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Tu	Tu	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	16	punct	_	SpaceAfter=No
+18	„	„	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Il saluto di quel mattino recava “Più che come sempre„.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	recava	recare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Più	più	ADV	B	_	6	advmod	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	SpaceAfter=No
+12	„	„	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Così rinasceva l’alternativa del dubbio scorato e dell’inebriante miraggio, della ragione che le suggeriva:
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	rinasceva	rinasre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	scorato	scorato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10-11	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	13	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	inebriante	inebriante	ADJ	A	Number=Sing	13	amod	_	_
+13	miraggio	miraggio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+20	suggeriva	suggerire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = fuggi, e dell’amore che le diceva: vieni.
+1	fuggi	fuggio	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4-5	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+11	vieni	vieno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Già, già, stretto parente, strettissimo.
+1	—	—	PUNCT	FF	_	7	punct	_	_
+2	Già	già	INTJ	I	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	già	già	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	parente	parente	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	strettissimo	stretto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = L'ho allevato io dall'età di nove anni;
+1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	allevato	allevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	età	età	NOUN	S	Gender=Fem	3	obl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	nove	nove	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = è quasi mio figlio; l'ho coltivato veramente a guisa di una pianticella, potando, estirpando, innestando.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	quasi	quasi	ADV	B	_	4	advmod	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+6	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	coltivato	coltivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+9	veramente	veramente	ADV	B	_	11	advmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	guisa	guisa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	pianticella	pianticella	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	potando	potando	VERB	V	VerbForm=Ger	8	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	estirpando	estirpare	VERB	V	VerbForm=Ger	16	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	innestando	innestare	VERB	V	VerbForm=Ger	18	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Si può dire che egli non ha un'idea che non sia stata prima mia.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	idea	idea	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+12	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+14	prima	prima	ADV	B	_	15	advmod	_	_
+15	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Il disinteresse col quale noi educatori seminiamo nelle giovani menti germi di frutti che esse sole raccoglieranno è ciò che forma la serietà, direi quasi la santità della nostra missione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	disinteresse	disinteressa	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+3-4	col	_	_	_	_	_	_	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	quale	quale	PRON	PR	Number=Sing|PronType=Rel	2	nmod	_	_
+6	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+7	educatori	educatore	NOUN	S	Gender=Masc|Number=Plur	6	appos	_	_
+8	seminiamo	seminere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	acl	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	giovani	giovane	ADJ	A	Number=Plur	12	amod	_	_
+12	menti	mente	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+13	germi	germo	ADJ	A	Number=Plur	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	frutti	frutto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+17	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	sole	solo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19	raccoglieranno	raccogliere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	acl:relcl	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	forma	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	serietà	serietà	NOUN	S	Gender=Fem	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	conj	_	_
+28	quasi	quasi	ADV	B	_	30	advmod	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	santità	santità	NOUN	S	Gender=Fem	27	obj	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	missione	missione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
+

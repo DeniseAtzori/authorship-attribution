@@ -1,0 +1,124 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella si alzò, commossa, avvicinandosi al dipinto con religiosa curiosità, con una tenera gelosia del vincolo indistruttibile che legava quella donna ad Ariele.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	commossa	commuovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	avvicinandosi	_	_	_	_	_	_	_	_
+7	avvicinando	avvicinare	VERB	V	VerbForm=Ger	5	advcl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dipinto	dipinto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	religiosa	religioso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	curiosità	curiosità	NOUN	S	Gender=Fem	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	tenera	tenero	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	gelosia	gelosia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	vincolo	vincolo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	indistruttibile	indistruttibile	ADJ	A	Number=Sing	22	amod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	legava	legare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+26	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+27	donna	donna	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	ad	a	ADP	E	_	29	case	_	_
+29	Ariele	Ariele	PROPN	SP	_	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Toccò la cornice, lieve, con un gesto di carezza, mormorando:
+1	Toccò	Tocce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cornice	cornice	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	lieve	lieve	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	carezza	carezza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	mormorando	mormorare	VERB	V	VerbForm=Ger	1	advcl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Fortunata!
+1	Fortunata	Fortunare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Le parve allora di potere con maggior franchezza guardare il luogo dove si trovava, i mobili, i quadri.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parve	parva	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3	allora	allora	ADV	B	_	5	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	potere	potere	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+8	franchezza	franchezza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	guardare	guardare	VERB	V	VerbForm=Inf	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	dove	dove	ADV	B	_	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	mobili	mobile	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	quadri	quadro	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Ogni cosa aveva per lei un interesse profondo, ma anche un mistero inquietante.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+8	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+14	inquietante	inquietante	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Moena che le leggeva nel pensiero si affrettò a dire col suo mesto sorriso:
+1	Moena	Moenare	PROPN	SP	_	9	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	affrettò	affrettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	dire	dire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12-13	col	_	_	_	_	_	_	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	mesto	mesto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	sorriso	sorriso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	9	punct	_	SpacesAfter=\n
+

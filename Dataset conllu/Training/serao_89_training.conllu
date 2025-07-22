@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nè io spiegai altrimenti il mio consenso all'amore di Massimo Dias che l'amor suo:
+1	Nè	né	CCONJ	CC	_	2	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	spiegai	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	altrimenti	altrimenti	ADV	B	_	3	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	consenso	consenso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Massimo	Massimo	PROPN	SP	_	10	nmod	_	_
+13	Dias	Dias	PROPN	SP	_	12	flat:name	_	_
+14	che	che	SCONJ	CS	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	amor	amore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = e sentii che solo coloro hanno ragione, che dànno passione per passione, e che sanzionano il vile peccato con la suprema legge del premio.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	sentii	sentio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	solo	solo	ADV	B	_	5	advmod	_	_
+5	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	6	nsubj	_	_
+6	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	dànno	dàre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	passione	passione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	passione	passione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	sanzionano	sanzionare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	vile	vile	ADJ	A	Number=Sing	20	amod	_	_
+20	peccato	peccato	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+21	con	con	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	suprema	supremo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	legge	legge	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	premio	premio	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ebbene, fu allora che io cominciai a misurare lucidamente la perfezione di Massimo Dias.
+1	Ebbene	ebbene	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	allora	allora	ADV	B	_	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	cominciai	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	misurare	misurare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	lucidamente	lucido	ADV	B	_	9	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	perfezione	perfezione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Massimo	Massimo	PROPN	SP	_	12	nmod	_	_
+15	Dias	Dias	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

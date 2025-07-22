@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era la prima lettera che scriveva all'Elena; ed era per chiamarsi il fratello prete!
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	scriveva	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Elena	Elena	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	12	punct	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	chiamarsi	_	_	_	_	_	_	_	_
+14	chiamar	chiamare	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	prete	preto	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = le lagrime gli oscuravano la vista, e cadevano grosse e fitte sulla carta;
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	oscuravano	oscuravare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vista	vista	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	cadevano	cadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+10	grosse	grosso	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	fitte	fitto	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	carta	carta	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = eppure a lui pareva di compiere un dovere inevitabile, di fare una cosa naturale.
+1	eppure	eppure	CCONJ	CC	_	4	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+4	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	compiere	compiere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	inevitabile	inevitabile	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	6	conj	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	naturale	naturale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Pensava:
+1	Pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = «Chiunque nel caso mio farebbe lo stesso.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Chiunque	chiunque	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caso	caso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	mio	mio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nsubj	_	_
+7	farebbe	fare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = »
+1	»	»	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 7
+# text = Era della creta di cui si fanno gli eroi.
+1	Era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	creta	creta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:pass	_	_
+8	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	8	nsubj:pass	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

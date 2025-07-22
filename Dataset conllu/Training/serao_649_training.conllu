@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il villino di Chérie era immerso nell'ombra:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	villino	villino	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Chérie	Chérie	PROPN	SP	_	2	nmod	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	immerso	immergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	in	in	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = egli suonò il campanello del cancello:
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	suonò	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cancello	cancello	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = esso si schiuse, senza che nessuno comparisse ad aprirlo.
+1	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	schiuse	schiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	senza	senza	ADP	E	_	8	mark	_	_
+6	che	che	SCONJ	CS	_	5	fixed	_	_
+7	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+8	comparisse	comparire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+9	ad	a	ADP	E	_	10	mark	_	_
+10-11	aprirlo	_	_	_	_	_	_	_	SpaceAfter=No
+10	aprir	aprire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Cautamente egli camminò sul terreno del viale: palpitava, d'ansietà.
+1	Cautamente	Cautamente	ADV	B	_	3	advmod	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	camminò	camminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	viale	viale	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	11	punct	_	_
+11	palpitava	palpitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	d'	da	ADP	E	_	14	case	_	SpaceAfter=No
+14	ansietà	ansietà	NOUN	S	Gender=Fem	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Nessuno, nell'immensa anticamera vuota:
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	in	in	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	immensa	immensa	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	anticamera	anticamero	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = egli lasciò il cappello e il soprabito e penetrò nel salone, pieno di tenui penombre.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	soprabito	soprabito	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	penetrò	penetrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	salone	salone	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	tenui	tenuo	PRON	PR	PronType=Rel	14	obl	_	_
+17	penombre	penombre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

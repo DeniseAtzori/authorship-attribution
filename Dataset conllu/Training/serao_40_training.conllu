@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli sapeva tutto.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Io non gli diceva nulla, per fierezza, ma egli solo, oltre me, possedeva la misura esatta di tutte le mie torture.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	4	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	fierezza	fierezza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	conj	_	_
+12	solo	solo	ADV	B	_	15	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	oltre	oltre	ADP	E	_	15	case	_	_
+15	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	possedeva	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	misura	misura	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	esatta	esatto	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	di	di	ADP	E	_	25	case	_	_
+22	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	25	det:predet	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	torture	tortura	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Egli sapeva tutto, _da prima_.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	_da	_da	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	_
+6	prima_	ExtraSubj=Yes|prima_	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Quando io volli sposare mio marito, tutti approvarono la mia scelta;
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	volli	vollo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	nsubj	_	_
+4	sposare	sposare	VERB	V	VerbForm=Inf	0	root	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	marito	marito	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nsubj	_	_
+9	approvarono	approvare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = solo Giustino Morelli impallidì all'annunzio, si turbava ogni volta che gli si parlava di questo matrimonio, tentò qualche vaga rimostranza, non osò insistere innanzi alla mia cieca ostinazione, partì, sparve, non ritornò che dopo un anno dai miei sponsali.
+1	solo	solo	ADV	B	_	2	advmod	_	_
+2	Giustino	Giustino	PROPN	SP	_	4	nsubj	_	_
+3	Morelli	Morelli	PROPN	SP	_	2	flat:name	_	_
+4	impallidì	impallidire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	annunzio	annunzio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	turbava	turbare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
+16	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	tentò	tentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+22	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+23	vaga	vaga	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	rimostranza	rimostranza	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	osò	osare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+28	insistere	insistere	VERB	V	VerbForm=Inf	27	xcomp	_	_
+29	innanzi	innanzi	ADV	B	_	28	advmod	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	34	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+32	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+33	cieca	cieco	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+34	ostinazione	ostinazione	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	4	punct	_	_
+36	partì	partì	INTJ	I	Polarity=Pos	4	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	sparve	sparire	ADV	B	_	36	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+41	ritornò	ritornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	conj	_	_
+42	che	che	SCONJ	CS	_	45	advmod	_	_
+43	dopo	dopo	ADP	E	_	45	case	_	_
+44	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	anno	anno	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+46-47	dai	_	_	_	_	_	_	_	_
+46	da	da	ADP	E	_	49	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+48	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	sponsali	sponsale	NOUN	S	Gender=Masc|Number=Plur	45	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

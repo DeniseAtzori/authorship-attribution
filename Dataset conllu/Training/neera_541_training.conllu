@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ma no.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Ma	ma	CCONJ	CC	_	3	cc	_	_
+3	no	no	ADV	BN	PronType=Neg	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ero un fanciullo quando incominciai a frequentarla.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	quando	quando	SCONJ	CS	_	5	mark	_	_
+5	incominciai	incominciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	advcl	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	frequentarla	_	_	_	_	_	_	_	SpaceAfter=No
+7	frequentar	frequentare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Essa ha davvero quel fascino indistinto che lei dice e che emana dalle opere d'arte a guisa di una bellezza incorporea, più sentita che ragionata.
+1	Essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	davvero	davvero	ADV	B	_	2	advmod	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	indistinto	indistinto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	emana	emanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13-14	dalle	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	opere	opera	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	arte	arte	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	guisa	guisa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	incorporea	incorporeo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	sentita	sentire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+27	che	che	SCONJ	CS	_	28	mark	_	_
+28	ragionata	ragionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = È per questo che tutti le possono ammirare.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
+6	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+7	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	ammirare	ammirare	VERB	V	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = L'opera d'arte non ha duopo di spiegazioni:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	opera	opera	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	arte	arte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	duopo	duopo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	spiegazioni	spiegazioni	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 6
+# text = deve apparire in mezzo alle turbe nella stessa guisa di un raggio.
+1	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	apparire	apparire	VERB	V	VerbForm=Inf	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	turbe	turbe	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	guisa	guisa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	raggio	raggio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Chi ha occhi lo vede.
+1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+5	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

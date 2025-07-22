@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Rimasi là due minuti paralizzata con quella lettera in mano.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Rimasi	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	là	là	ADV	B	_	2	advmod	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+6	paralizzata	paralizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	mano	mano	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Assolutamente non potevo avventurarmi per la strada con quella curiosità nell'anima.
+1	Assolutamente	assolutamente	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	avventurarmi	arma|avventurarme	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	curiosità	curiosità	NOUN	S	Gender=Fem	7	nmod	_	_
+11-12	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	in	in	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	anima	anima	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = C'era da cadere in apoplessia.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	cadere	cadere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	apoplessia	apoplessia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E neppure potevo tornare indietro dopo essermi avviata con quella sicurezza come se un grande affare m'aspettasse fuori.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	neppure	neppure	ADV	BN	PronType=Neg	4	advmod	_	_
+3	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	tornare	tornare	VERB	V	VerbForm=Inf	0	root	_	_
+5	indietro	indietro	ADV	B	_	4	advmod	_	_
+6	dopo	dopo	ADP	E	_	7	case	_	_
+7	essermi	essermo	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	avviata	avviare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	come	come	ADV	B	_	18	mark	_	_
+13	se	se	SCONJ	CS	_	12	fixed	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	grande	grande	ADJ	A	Number=Sing	16	amod	_	_
+16	affare	affare	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	obj	_	SpaceAfter=No
+18	aspettasse	aspettare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+19	fuori	fuori	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = È impossibile dire fino a che sottigliezze arriva in una donna il pudore del sentimento.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	fino	fino	ADV	B	_	7	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	che	che	DET	DQ	PronType=Int	7	det	_	_
+7	sottigliezze	sottigliezza	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+8	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pudore	pudore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ma uno dei suoi istinti principali è di dissimulare agli estranei l'interesse che inspira una lettera.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	istinti	istinto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	principali	principale	ADJ	A	Number=Plur	6	amod	_	_
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	dissimulare	dissimulare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+11-12	agli	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	estranei	estraneo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	inspira	inspirare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Insieme!
+1	Insieme	insieme	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Pensando, ripensando, pronunciando sottovoce questa parola, ella vedeva scomparire l'ora, il tempo, lo spazio tutto, una nebbia le scendeva sugli occhi, una lieve vertigine le confondeva ogni moto.
+1	Pensando	pensare	VERB	V	VerbForm=Ger	35	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ripensando	ripensare	VERB	V	VerbForm=Ger	1	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	pronunciando	pronunciare	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	sottovoce	sottovoce	ADV	B	_	5	advmod	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	parola	parola	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+12	scomparire	scomparire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ora	ora	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+21	tutto	tutto	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+25	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	iobj	_	_
+26	scendeva	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+27-28	sugli	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	1	punct	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	lieve	lieve	ADJ	A	Number=Sing	33	amod	_	_
+33	vertigine	vertigine	NOUN	S	Gender=Fem|Number=Sing	35	nsubj	_	_
+34	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	35	iobj	_	_
+35	confondeva	confondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+36	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	37	det	_	_
+37	moto	moto	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 3
+# text = Insieme!
+1	Insieme	insieme	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Fu macchinalmente che pagò il cocchiere, scendendo alla _partenza_, nella stazione, stringendo fra le mani il sacchetto dove erano i suoi valori più preziosi.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	macchinalmente	macchinalmente	ADV	B	_	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	pagò	page	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cocchiere	cocchiere	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	scendendo	scendere	VERB	V	VerbForm=Ger	4	advcl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	_partenza_	ExtraSubj=Yes|_partenza_	ADJ	NO	NumType=Ord	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	stringendo	stringere	VERB	V	VerbForm=Ger	4	advcl	_	_
+18	fra	fra	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	mani	mano	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sacchetto	sacchetto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	dove	dove	ADV	B	_	27	advmod	_	_
+24	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	valori	valore	NOUN	S	Gender=Masc|Number=Plur	22	acl:relcl	_	_
+28	più	più	ADV	B	_	29	advmod	_	_
+29	preziosi	prezioso	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = La grande galleria coperta dove si prendono i biglietti era quasi vuota.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	A	Number=Sing	3	amod	_	_
+3	galleria	galleria	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	coperta	coprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	dove	dove	ADV	B	_	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	prendono	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	biglietti	biglietto	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	quasi	quasi	ADV	B	_	12	advmod	_	_
+12	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Ella non vi badò.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+4	badò	badare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

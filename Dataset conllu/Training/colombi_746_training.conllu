@@ -1,0 +1,131 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La zia Giuliana disse che prenderebbe informazioni;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	zia	zia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Giuliana	Giuliana	PROPN	SP	_	2	nmod	_	_
+4	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	prenderebbe	prendere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = ed infatti le fu confermato quanto la Cecchina aveva detto.
+1	ed	e	CCONJ	CC	_	5	cc	_	_
+2	infatti	infatti	ADV	B	_	5	advmod	_	_
+3	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	quanto	quanto	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Cecchina	Cecchina	PROPN	SP	_	10	obl	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Per dieci anni aveva servito nella famiglia d'un avvocato.
+1	Per	per	ADP	E	_	3	case	_	_
+2	dieci	dieci	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	servito	servire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = La signora aveva una malattia in una gamba, e la povera donna l'aveva sempre curata, medicata, assistita.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gamba	gamba	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	17	punct	_	_
+10	e	e	CCONJ	CC	_	17	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	povera	povero	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	donna	donna	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+14	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+16	sempre	sempre	ADV	B	_	17	advmod	_	_
+17	curata	curare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	medicata	medicato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	3	punct	_	_
+21	assistita	assistere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Poi l'aveva vegliata assiduamente quand'era stata per morire;
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	vegliata	vegliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	assiduamente	assiduamente	ADV	B	_	8	advmod	_	_
+6	quand'	quand'	ADV	B	_	8	advmod	_	SpaceAfter=No
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	stata	essere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	morire	morire	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = ma morta lei, i figli avevano trovato che un cuoco avrebbe dato alla casa più lustro di quella povera vecchia, ed avevano licenziata la Cecchina senza nessun compenso pe' suoi lunghi e fedeli servigi, tranne il salario convenuto.
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cuoco	cuoco	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	casa	casa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	lustro	lustro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	povera	povero	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+22	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	ed	e	CCONJ	CC	_	26	cc	_	_
+25	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	licenziata	licenziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Cecchina	Cecchina	PROPN	SP	_	26	nsubj	_	_
+29	senza	senza	ADP	E	_	31	case	_	_
+30	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	31	det	_	_
+31	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+32-33	pe'	_	_	_	_	_	_	_	_
+32	pi	pio	ADJ	A	Number=Plur	31	amod	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+34	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	38	det:poss	_	_
+35	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	fedeli	fedele	ADJ	A	Number=Plur	35	conj	_	_
+38	servigi	servigio	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	tranne	tranne	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	salario	salario	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+43	convenuto	convenuto	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

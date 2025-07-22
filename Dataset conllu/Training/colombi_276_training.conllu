@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In quella accadde un movimento alla porta.
+1	In	in	ADP	E	_	2	case	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	obl	_	_
+3	accadde	accaddere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	porta	porta	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Un signore si affacciò, acceso in volto, affannato.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	signore	signore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	affacciò	affacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	acceso	accendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	volto	volto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	affannato	affannato	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Voleva essere ammesso a parlare al tribunale.
+1	Voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	3	aux:pass	_	_
+3	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	parlare	parlare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = I _policemen_ lo trattennero, ed uno di essi venne a dire al giudice che il dottor Wintry aveva una comunicazione importante da fare.
+1	I	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	_policemen_	_policemen-	ADJ	NO	NumType=Ord	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	trattennero	trattenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	ed	e	CCONJ	CC	_	10	cc	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nmod	_	_
+10	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	dire	dire	VERB	V	VerbForm=Inf	10	advcl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	che	che	SCONJ	CS	_	20	mark	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	Wintry	Wintry	PROPN	SP	_	18	nmod	_	_
+20	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	importante	importante	ADJ	A	Number=Sing	22	amod	_	_
+24	da	da	ADP	E	_	25	mark	_	_
+25	fare	fare	VERB	V	VerbForm=Inf	22	acl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Il giudice lo fece venire, e gli accordò la parola.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	venire	venire	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	accordò	accorde	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	parola	parola	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Egli disse, parlando con un'agitazione che alla sua età aveva qualche cosa di solenne:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	parlando	parlare	VERB	V	VerbForm=Ger	2	advcl	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	agitazione	agitazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	età	età	NOUN	S	Gender=Fem	13	obl	_	_
+13	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+14	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	solenne	solenne	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

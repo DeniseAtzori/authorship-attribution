@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Malgrado questo, Paolo Herz, come si supponeva dovesse fare, non ha preso moglie.
+1	Malgrado	malgrado	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Paolo	Paolo	PROPN	SP	_	2	appos	_	_
+5	Herz	Herz	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	come	come	SCONJ	CS	_	9	mark	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	supponeva	supporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+10	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 2
+# text = Una sola volta nel suo segreto, ha avuto l'idea di sposare una fanciulla intelligente e affettuosa, ma al momento di parlare, ha esitato, dolendogli di lasciare una libertà tanto piacevole a un giovane:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	idea	idea	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	sposare	sposare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	intelligente	intelligente	ADJ	A	Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	affettuosa	affettuoso	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	29	punct	_	_
+21	ma	ma	CCONJ	CC	_	29	cc	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	momento	momento	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	parlare	parlare	VERB	V	VerbForm=Inf	24	acl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	esitato	esitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31-32	dolendogli	_	_	_	_	_	_	_	_
+31	dolendo	dolere	VERB	V	VerbForm=Ger	29	advcl	_	_
+32	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	iobj	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34	lasciare	lasciare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	libertà	libertà	NOUN	S	Gender=Fem	34	obj	_	_
+37	tanto	tanto	ADV	B	_	38	advmod	_	_
+38	piacevole	piacevole	ADJ	A	Number=Sing	36	amod	_	_
+39	a	a	ADP	E	_	41	case	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	giovane	giovane	NOUN	S	Number=Sing	38	obl	_	SpaceAfter=No
+42	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 3
+# text = poi, la vita lo ha condotto altrove.
+1	poi	poi	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	condotto	condurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	altrove	altrove	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

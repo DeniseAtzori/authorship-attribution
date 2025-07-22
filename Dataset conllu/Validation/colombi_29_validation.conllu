@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono fenomeni strani, ma che pure accadono.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	fenomeni	fenomeno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	strani	strano	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	ma	ma	CCONJ	CC	_	8	cc	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	pure	pure	ADV	B	_	8	advmod	_	_
+8	accadono	accadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Giosuè non ha fermato il sole?
+1	Giosuè	Giosué	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sole	sole	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ma veramente io sentivo repugnanza a quella vita di inganni;
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	veramente	vero	ADV	B	_	3	advmod	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	repugnanza	repugnanza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	inganni	inganno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = provavo il bisogno di rientrare nella legalità.
+1	provavo	provavare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	rientrare	rientrare	VERB	V	VerbForm=Inf	3	acl	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	legalità	legalità	NOUN	S	Gender=Fem	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = La profonda riconoscenza che serbavo a Vittoria pel suo amore (non si trattava già più del mio) non m'impediva di osservare la tranquillità con cui ella mentiva al marito alla mia presenza.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	profonda	profondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	riconoscenza	riconoscenza	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	serbavo	serbavare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8-9	pel	_	_	_	_	_	_	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	trattava	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	già	già	ADV	B	_	17	advmod	_	_
+17	più	più	ADV	B	_	24	advmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	24	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+20	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	20	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	iobj	_	SpaceAfter=No
+24	impediva	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	ccomp	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	osservare	osservare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	tranquillità	tranquillità	NOUN	S	Gender=Fem	26	obj	_	_
+29	con	con	ADP	E	_	30	case	_	_
+30	cui	cui	PRON	PR	PronType=Rel	32	obl	_	_
+31	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+32	mentiva	mentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	acl:relcl	_	_
+33-34	al	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	marito	marito	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+36-37	alla	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	39	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

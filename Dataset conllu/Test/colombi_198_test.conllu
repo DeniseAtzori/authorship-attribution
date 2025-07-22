@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «--Max non amava un'altra.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	--Max	--Max	PROPN	SP	_	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Non vedeva più Vittoria.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	2	advmod	_	_
+4	Vittoria	vittoria	PROPN	SP	_	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E non penserebbe mai a disprezzarmi per essermi trattenuta a Milano per lui.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	penserebbe	pensare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mai	mai	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	disprezzarmi	arma|disprezzarme	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	essermi	essermo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+9	trattenuta	trattenuto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Milano	Milano	PROPN	SP	_	9	obl	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Max non era nè severo, nè formalista;
+1	Max	Max	PROPN	SP	_	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	nè	né	CCONJ	CC	_	5	cc	_	_
+5	severo	severo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	nè	nè	CCONJ	CC	_	8	cc	_	_
+8	formalista	formalista	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = guardava ai fatti, e nessuno conosceva meglio di lui, che io era un'onesta giovane.
+1	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+8	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+9	meglio	meglio	ADV	B	_	8	advmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	onesta	onesta	NOUN	S	Gender=Fem|Number=Sing	1	acl:relcl	_	_
+18	giovane	giovane	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = La sua mamma era in campagna sul lago di Como;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lago	lago	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Como	Como	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 7
+# text = egli c'era forse andato a passare una giornata, e per questo non aveva ricevuto il mio biglietto, e non era venuto.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	forse	forse	ADV	B	_	5	advmod	_	_
+5	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	passare	passare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	16	punct	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	obl	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = »
+1	»	»	PUNCT	FB	_	0	root	_	SpacesAfter=\n
+

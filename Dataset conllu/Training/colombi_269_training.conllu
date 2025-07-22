@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma la passione umana, l'amore, non aveva grande influenza sopra di lei.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	passione	passione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	umana	umano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	sopra	sopra	ADP	E	_	15	case	_	_
+14	di	di	ADP	E	_	13	fixed	_	_
+15	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = La religione la dominava.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	religione	religione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	dominava	dominare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Se il sacerdote le avesse detto:
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sacerdote	sacerdote	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	6	iobj	_	_
+5	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = «ad ogni costo dovete serbare il giuramento», avrebbe sofferto senza dubbio, avrebbe pianto e pregato per lui, ma avrebbe abbandonato Seth alla giustizia, e sè stessa con lui.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	ad	a	ADP	E	_	4	case	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	costo	costo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	dovete	dovere	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	serbare	serbare	VERB	V	VerbForm=Inf	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giuramento	giuramento	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+13	senza	senza	ADP	E	_	14	case	_	_
+14	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	pianto	piangere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	pregato	pregare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	ma	ma	CCONJ	CC	_	25	cc	_	_
+24	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	abbandonato	abbandonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+26	Seth	Seth	PROPN	SP	_	25	obj	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	conj	_	_
+33	stessa	stessare	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+34	con	con	ADP	E	_	35	case	_	_
+35	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La condussi all'ospitale, ma non la vollero tenere;
+1	La	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	condussi	condusso	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	ospitale	ospitale	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	vollero	vollero	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	tenere	tenere	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = e mi dissero che bisognava nutrirla bene.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	dissero	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+6-7	nutrirla	_	_	_	_	_	_	_	_
+6	nutrir	nutrire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	bene	bene	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sempre carne e vino buono.
+1	Sempre	sempre	ADV	B	_	2	advmod	_	_
+2	carne	carne	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	vino	vino	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+5	buono	buono	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Dove le potevo pigliare queste cose io?
+1	Dove	dove	ADV	B	_	4	advmod	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	iobj	_	_
+3	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	pigliare	pigliare	VERB	V	VerbForm=Inf	0	root	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Lavoravo come un ciuco;
+1	Lavoravo	Lavoravo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ciuco	ciuco	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = tutto il giorno alla fonte a lavare, che mi si raggranchivano le gambe pel gelo;
+1	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fonte	fonte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	lavare	lavare	VERB	V	VerbForm=Inf	6	acl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	raggranchivano	raggranchire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16-17	pel	_	_	_	_	_	_	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gelo	gelo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = tutta la notte ad agucchiare, dormendo appena tanto da non morire;
+1	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5	agucchiare	agucchiare	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	dormendo	dormire	VERB	V	VerbForm=Ger	5	advcl	_	_
+8	appena	appena	ADV	B	_	9	advmod	_	_
+9	tanto	tanto	ADV	B	_	7	advmod	_	_
+10	da	da	ADP	E	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	morire	morire	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = ma ci voleva altro.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

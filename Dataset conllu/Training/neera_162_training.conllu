@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli infatti fu subito sottoposto agli uffici più gravosi e trattato duramente, come uno straniero che si è obbligati a tenere in casa, meno utile di un domestico, meno simpatico di un cane o di un gatto;
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
+2	infatti	infatti	ADV	B	_	5	advmod	_	_
+3	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	subito	subito	ADV	B	_	5	advmod	_	_
+5	sottoposto	sottoporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	agli	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	uffici	ufficio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	gravosi	gravoso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	trattato	trattato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+13	duramente	duro	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	straniero	straniero	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	obbligati	obbligare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	tenere	tenere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	casa	casa	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	12	punct	_	_
+27	meno	meno	ADV	B	_	28	advmod	_	_
+28	utile	utile	ADJ	A	Number=Sing	5	amod	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	domestico	domestico	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	meno	meno	ADV	B	_	34	advmod	_	_
+34	simpatico	simpatico	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	cane	cane	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+38	o	o	CCONJ	CC	_	41	cc	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	gatto	gatto	NOUN	S	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
+42	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = il posto peggiore per dormire, il rifiuto della cucina per mangiare, scarse le vesti, frequenti le busse....
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	posto	posto	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+3	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	dormire	dormire	VERB	V	VerbForm=Inf	2	acl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rifiuto	rifiuto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	mangiare	mangiare	VERB	V	VerbForm=Inf	8	acl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	scarse	scargere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	vesti	veste	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	frequenti	frequentare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	busse...	busse...	NOUN	S	_	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n
+

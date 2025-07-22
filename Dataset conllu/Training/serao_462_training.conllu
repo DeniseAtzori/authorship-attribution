@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un carro carico di botti passò fra loro e li divise:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carro	carro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	carico	carico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	botti	botte	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	fra	fra	ADP	E	_	8	case	_	_
+8	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+11	divise	dividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = ella fece un moto di disgusto, per quel puzzo di vino, egli si strinse nelle spalle.
+1	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	moto	moto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	disgusto	disgusto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	puzzo	puzzo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	vino	vino	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	strinse	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17-18	nelle	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = D’un tratto, lungo la siepe che separa i campi dalla via, in quella luce dubbia del crepuscolo, una piccola ombra scivolò.
+1	D’	D’	ADP	E	_	3	case	_	SpaceAfter=No
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	lungo	lungo	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	siepe	siepe	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	separa	separare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	campi	campo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	via	via	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	luce	luce	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+19	dubbia	dubbia	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	crepuscolo	crepuscolo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+27	scivolò	scivolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 4
+# text = Era un bambina scalza e cenciosa, che portava sul capo un piccolo fascio di legna.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	scalza	scalzo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	cenciosa	cencioso	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	capo	capo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	fascio	fascio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	legna	legna	NOUN	S	Gender=Fem	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

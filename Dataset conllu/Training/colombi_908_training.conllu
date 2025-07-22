@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Appena vide il campanile della chiesa di San Germano, cercò un'altra volta di buttarsi giù, come per arrivare più presto all'albergo;
+1	Appena	appena	ADV	B	_	2	advmod	_	_
+2	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	campanile	campanile	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	San	San	PROPN	SP	_	7	nmod	_	_
+10	Germano	Germano	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	cercò	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	altra	altro	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	buttarsi	_	_	_	_	_	_	_	_
+17	buttar	buttare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	giù	giù	ADV	B	_	17	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	come	come	ADP	E	_	23	mark	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	arrivare	arrivare	VERB	V	VerbForm=Inf	17	advcl	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	presto	presto	ADV	B	_	23	advmod	_	_
+26-27	all'	_	_	_	_	_	_	_	SpaceAfter=No
+26	a	a	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = ma il cocchiere lo frenò ancora giurandogli che arriverebbero prima colla carrozza;
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cocchiere	cocchiere	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	frenò	frenare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7-8	giurandogli	_	_	_	_	_	_	_	_
+7	giurando	giurare	VERB	V	VerbForm=Ger	5	advcl	_	_
+8	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	arriverebbero	arrivare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	prima	prima	ADV	B	_	12	advmod	_	_
+12	colla	colla	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	carrozza	carrozzo	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = ed infatti, dopo due minuti, si fermava all'albergo del Gallo, dove Vicenzino saltò nell'atrio e infilò la scala, senza neppur aver aperto lo sportello della carrozza.
+1	ed	e	CCONJ	CC	_	9	cc	_	_
+2	infatti	infatti	ADV	B	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dopo	dopo	ADP	E	_	6	case	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	fermava	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Gallo	Gallo	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	dove	dove	ADV	B	_	19	advmod	_	_
+18	Vicenzino	Vicenzino	PROPN	SP	_	19	nsubj	_	_
+19	saltò	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+20-21	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	atrio	atrio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	infilò	infilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	scala	scala	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	9	punct	_	_
+28	senza	senza	ADP	E	_	29	case	_	_
+29	neppur	neppur	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+30	aver	avere	AUX	VA	VerbForm=Inf	31	aux	_	_
+31	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+32	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	sportello	sportello	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --«Voi mi chiamavate _filosofo_, forse collo stesso significato con cui i Greci chiamavano Eumenidi le bruttissime furie.
+1	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	chiamavate	chiamavare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	_filosofo_	_filosofo-	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	forse	forse	ADV	B	_	10	advmod	_	_
+10	collo	collo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+11	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	significato	significare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Greci	Greci	PROPN	SP	_	17	nsubj	_	_
+17	chiamavano	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+18	Eumenidi	Eumenido	PROPN	SP	_	17	obj	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	bruttissime	brutto	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	21	amod	_	_
+21	furie	furia	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ebbene; io vi darò in iscritto un saggio di quella filosofia che non ho saputo mostrarvi conversando con voi, dovessi pure con questo provocare gli scongiuri della bella maga che ha evocato il mio non so se buono o cattivo spirito filosofico.
+1	Ebbene	ebbene	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	;	;	PUNCT	FC	_	1	punct	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
+5	darò	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	iscritto	iscritto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	saggio	saggio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	filosofia	filosofia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+17-18	mostrarvi	_	_	_	_	_	_	_	_
+17	mostrar	mostrare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+18	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	17	expl	_	_
+19	conversando	conversare	VERB	V	VerbForm=Ger	17	advcl	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	5	punct	_	_
+23	dovessi	dovettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+24	pure	pure	ADV	B	_	26	advmod	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	23	obl	_	_
+27	provocare	provocare	VERB	V	VerbForm=Inf	23	advcl	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	scongiuri	scongiuro	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	bella	bello	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	maga	maga	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	evocato	evocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	mio	mio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	obj	_	_
+39	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+40	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	conj	_	_
+41	se	se	SCONJ	CS	_	45	case	_	_
+42	buono	buono	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	_
+43	o	o	CCONJ	CC	_	44	cc	_	_
+44	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	42	conj	_	_
+45	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	_
+46	filosofico	filosofico	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli rimase ancora per un po' di tempo immobile al davanzale.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	po'	poco	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	immobile	immobile	ADJ	A	Number=Sing	8	amod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	davanzale	davanzale	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = L'apparizione della sua protettrice, benchè rapida, gli aveva suscitato una specie di tenerezza malinconica.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	apparizione	apparizione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	protettrice	protettore	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	benchè	benchè	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	suscitato	suscitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	specie	specie	NOUN	S	Gender=Fem	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	malinconica	malinconico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Anna non gli era mai sembrata così pallida e un po' patita come in quel mattino acerbo di primavera, nella luce intensa del cielo e dell'aria, nel trionfo prepotente di un vigore che fugava tutte le ombre e cresceva la tonalità dei colori rendendoli quasi stridenti.
+1	Anna	Anna	PROPN	SP	_	6	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	sembrata	sembrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	così	così	ADV	B	_	8	advmod	_	_
+8	pallida	pallido	ADJ	A	Gender=Fem|Number=Sing	6	xcomp	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	po'	poco	ADV	B	_	12	advmod	_	_
+12	patita	patire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+13	come	come	ADV	B	_	16	advmod	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	acerbo	acerbo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	6	punct	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	luce	luce	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+24	intensa	intenso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29-30	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+29	di	di	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	aria	aria	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	6	punct	_	_
+33-34	nel	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	trionfo	trionfo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+36	prepotente	prepotente	ADJ	A	Number=Sing	35	amod	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	vigore	vigore	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+40	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+41	fugava	fugare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	acl:relcl	_	_
+42	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	44	det:predet	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	ombre	ombra	NOUN	S	Gender=Fem|Number=Plur	41	obj	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	cresceva	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	tonalità	tonalità	NOUN	S	Gender=Fem	46	obj	_	_
+49-50	dei	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+51	colori	colore	NOUN	S	Gender=Masc|Number=Plur	48	nmod	_	_
+52-53	rendendoli	_	_	_	_	_	_	_	_
+52	rendendo	rendere	VERB	V	VerbForm=Ger	46	advcl	_	_
+53	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	52	obj	_	_
+54	quasi	quasi	ADV	B	_	55	advmod	_	_
+55	stridenti	stridente	ADJ	A	Number=Plur	52	xcomp	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

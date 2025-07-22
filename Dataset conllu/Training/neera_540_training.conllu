@@ -1,0 +1,134 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Appunto.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Appunto	appunto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ha mai osservato lei quel rettangolo di vetro color viola, dietro l'altare?
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	mai	mai	ADV	B	_	3	advmod	_	_
+3	osservato	osservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	rettangolo	rettangolo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	vetro	vetro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	color	colore	ADJ	A	Number=Sing	6	amod	_	_
+10	viola	violo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	dietro	dietro	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	altare	altare	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sì, nevvero?
+1	Sì	sì	INTJ	I	Polarity=Pos	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	nevvero	nevvero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Sopra la finestra per la quale dalla sacristia si confessavano un tempo le monache?
+1	Sopra	sopra	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	quale	quale	PRON	PR	Number=Sing|PronType=Rel	11	obl	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sacristia	sacristia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	confessavano	confessare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	monache	monaca	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = È strano come le gradazioni di quel colore in tutte le ore del giorno, in tutte le stagioni dell'anno, io le abbia davanti agli occhi sempre; talvolta tragiche qual macchia sanguigna, talvolta ardenti e cupe, talvolta raggianti di luce mistica, celestiale.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	strano	strano	ADJ	A	Gender=Masc|Number=Sing	27	advcl	_	_
+3	come	come	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	gradazioni	gradazione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	colore	colore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	ore	ora	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	20	det:predet	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	stagioni	stagione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	anno	anno	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+26	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+27	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	davanti	davanti	ADV	B	_	31	case	_	_
+29-30	agli	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	28	fixed	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+32	sempre	sempre	ADV	B	_	31	advmod	_	SpaceAfter=No
+33	;	;	PUNCT	FC	_	27	punct	_	_
+34	talvolta	talvolta	ADV	B	_	35	advmod	_	_
+35	tragiche	tragiche	ADJ	A	Gender=Fem|Number=Plur	37	amod	_	_
+36	qual	equale	SCONJ	CS	_	37	mark	_	_
+37	macchia	macchia	NOUN	S	Gender=Fem|Number=Sing	27	advcl	_	_
+38	sanguigna	sanguigno	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	37	punct	_	_
+40	talvolta	talvolta	ADV	B	_	41	advmod	_	_
+41	ardenti	ardente	ADJ	A	Number=Plur	37	amod	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	cupe	cupo	ADJ	A	Gender=Fem|Number=Plur	41	conj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	37	punct	_	_
+45	talvolta	talvolta	ADV	B	_	46	advmod	_	_
+46	raggianti	raggiante	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	luce	luce	NOUN	S	Gender=Fem|Number=Sing	46	obl	_	_
+49	mistica	mistico	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	51	punct	_	_
+51	celestiale	celestiale	ADJ	A	Number=Sing	49	conj	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 6
+# text = È questa l'aureola in cui per molto tempo ondeggiarono tutte le mie visioni d'arte e di amore.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	aureola	aureola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+10	ondeggiarono	ondeggiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+11	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	14	det:predet	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	visioni	visione	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	arte	arte	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	amore	amore	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

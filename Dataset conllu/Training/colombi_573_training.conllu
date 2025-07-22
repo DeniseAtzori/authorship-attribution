@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Che!
+1	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Che	Che	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Non ho tempo neppure di farmi la minestra.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	neppure	neppure	ADV	BN	PronType=Neg	6	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	farmi	arma|farme	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	minestra	minestra	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non so quando mi potrò muovere;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quando	quando	SCONJ	CS	_	6	mark	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+5	potrò	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	muovere	muovere	VERB	V	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ho un lavoro straordinario.
+1	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	straordinario	straordinario	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Le signore hanno bisogno delle trine per le bagnature;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	signore	signore	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	trine	trina	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	bagnature	bagnatura	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = s'io vado a spasso chi le prepara?
+1	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	SpaceAfter=No
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	spasso	spasso	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	obj	_	_
+7	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	iobj	_	_
+8	prepara	prepara	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Debbo star qui tutto il giorno e tutta la sera chi sa fin quando;
+1	Debbo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	star	stare	VERB	V	VerbForm=Inf	0	root	_	_
+3	qui	qui	ADV	B	_	2	advmod	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sera	sera	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+11	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	conj	_	_
+12	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+13	fin	fino	ADP	E	_	12	case	_	_
+14	quando	quando	SCONJ	CS	_	13	fixed	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = e la mamma pure ha bisogno che lavori per darle un po' di quattrini....
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	pure	pure	ADV	B	_	5	advmod	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	6	ccomp	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	darle	_	_	_	_	_	_	_	_
+10	dar	dare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	po'	poco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	quattrini...	quattrini...	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = No, tutti i giardini dell’Ellade non basterebbero a fornire le ghirlande che la fantasia intreccia in quell’alba gioiosa di una anima che cerca la sua via e il pittore che dipinse _L’imbarcazione a Citera_ non ha trovato colori più tenui, sorrisi più seducenti di quelli che abbelliscono i sogni del giovane poeta.
+1	No	no	INTJ	I	Polarity=Neg	10	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	giardini	giardino	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+6-7	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Ellade	Ellade	PROPN	SP	_	5	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	basterebbero	bastare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	fornire	fornire	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	ghirlande	ghirlanda	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	43	obj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	43	nsubj	_	_
+18	intreccia	intrecciare	ADV	B	_	43	advmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20-21	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	qui	qui	ADV	B	_	43	advmod	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	alba	alba	NOUN	S	Gender=Fem|Number=Sing	43	nsubj	_	_
+23	gioiosa	gioioso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	anima	anima	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	via	via	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pittore	pittore	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	dipinse	dipingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	acl:relcl	_	_
+37	_L’	_il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	imbarcazione	imbarcazione	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	Citera_	citera_	PROPN	SP	_	36	obl	_	_
+41	non	non	ADV	BN	PronType=Neg	43	advmod	_	_
+42	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+44	colori	colore	NOUN	S	Gender=Masc|Number=Plur	43	obj	_	_
+45	più	più	ADV	B	_	46	advmod	_	_
+46	tenui	tenuo	ADJ	A	Gender=Masc|Number=Plur	44	amod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	44	punct	_	_
+48	sorrisi	sorridere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	44	acl	_	_
+49	più	più	ADV	B	_	50	advmod	_	_
+50	seducenti	seducento	ADJ	A	Number=Plur	48	xcomp	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	50	obl	_	_
+53	che	che	PRON	PR	PronType=Rel	54	nsubj	_	_
+54	abbelliscono	abbellire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	acl:relcl	_	_
+55	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
+56	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	54	obj	_	_
+57-58	del	_	_	_	_	_	_	_	_
+57	di	di	ADP	E	_	60	case	_	_
+58	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+59	giovane	giovane	ADJ	A	Number=Sing	60	amod	_	_
+60	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	56	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Costa così poco lodare i primi passi di un fanciullo!
+1	Costa	costare	ADV	B	_	4	advmod	_	_
+2	così	così	ADV	B	_	4	advmod	_	_
+3	poco	poco	ADV	B	_	4	advmod	_	_
+4	lodare	lodare	VERB	V	VerbForm=Inf	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+7	passi	passo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Se si tratta di una donna la galanteria rende il complimento obbligatorio.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	galanteria	galanteria	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	complimento	complimento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	obbligatorio	obbligatorio	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = E poi nessuno pensa che anderà molto lontano.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+4	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	anderà	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	lontano	lontano	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Questa considerazione riesce perfino a spuntare la lingua acuminata dell’invidia.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	perfino	perfino	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	spuntare	spuntare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	acuminata	acuminato	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	invidia	invidia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

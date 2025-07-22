@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Signora Angelica, l'altro giorno, per la grande via lungo il mare, vi ho incontrati.
+1	Signora	signore	NOUN	S	Gender=Fem|Number=Sing	6	vocative	_	_
+2	Angelica	Angelica	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	altro	altro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	via	via	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+12	lungo	lungo	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mare	mare	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	18	expl	_	_
+17	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	incontrati	incontrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 2
+# text = Era la prima volta, che vi ho visti insieme.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+7	vi	vi	ADV	B	_	9	advmod	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	insieme	insieme	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Andavate accanto, senza tenervi a braccetto, senza darvi la mano, senza sfiorarvi, ma andavate così uniti, avevate così le anime assorte nello stesso sentimento, vi amavate tanto, senza parlarvi, senza guardarvi, che io ho inteso tutto.
+1	Andavate	Andavare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	accanto	accanto	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	senza	senza	ADP	E	_	5	mark	_	_
+5-6	tenervi	_	_	_	_	_	_	_	_
+5	tener	tenere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	braccetto	braccetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11-12	darvi	_	_	_	_	_	_	_	_
+11	dar	dare	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	vi	vi	ADV	B	_	11	advmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mano	mano	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	senza	senza	ADP	E	_	17	mark	_	_
+17-18	sfiorarvi	_	_	_	_	_	_	_	SpaceAfter=No
+17	sfiorar	sfiorare	VERB	V	VerbForm=Inf	11	advcl	_	_
+18	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	17	obj	_	_
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	ma	ma	CCONJ	CC	_	23	cc	_	_
+21	andavate	andare	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	23	cop	_	_
+22	così	così	ADV	B	_	23	advmod	_	_
+23	uniti	unire	ADJ	A	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	5	punct	_	_
+25	avevate	avevare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+26	così	così	ADV	B	_	25	advmod	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	anime	anima	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+29	assorte	assorto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+30-31	nello	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	33	case	_	_
+31	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	5	punct	_	_
+35	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	36	expl	_	_
+36	amavate	amavare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+37	tanto	tanto	ADV	B	_	36	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	5	punct	_	_
+39	senza	senza	ADP	E	_	40	mark	_	_
+40-41	parlarvi	_	_	_	_	_	_	_	SpaceAfter=No
+40	parlar	parlare	VERB	V	VerbForm=Inf	5	advcl	_	_
+41	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	40	iobj	_	_
+42	,	,	PUNCT	FF	_	40	punct	_	_
+43	senza	senza	ADP	E	_	44	mark	_	_
+44-45	guardarvi	_	_	_	_	_	_	_	SpaceAfter=No
+44	guardar	guardare	VERB	V	VerbForm=Inf	40	advcl	_	_
+45	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	44	expl	_	_
+46	,	,	PUNCT	FF	_	44	punct	_	_
+47	che	che	PRON	PR	PronType=Rel	50	obj	_	_
+48	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	50	nsubj	_	_
+49	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	50	aux	_	_
+50	inteso	intendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	acl:relcl	_	_
+51	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	50	obj	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

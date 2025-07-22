@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il giorno dopo, quando Egli mi disse:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	dopo	dopo	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	quando	quando	SCONJ	CS	_	8	mark	_	_
+6	Egli	Egli	PROPN	SP	_	8	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non vorreste cantare oggi?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	vorreste	volere	AUX	VM	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cantare	cantare	VERB	V	VerbForm=Inf	0	root	_	_
+4	oggi	oggi	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = --risposi di no ed Egli non insistette;
+1	--risposi	--risposo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	no	no	NOUN	S	Gender=Masc	1	nmod	_	_
+4	ed	e	CCONJ	CC	_	7	cc	_	_
+5	Egli	Egli	PROPN	SP	_	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	insistette	insistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = tuttavia il motivo di quella canzone risuonava intorno a noi così morbido ed insistente e tacitamente inteso che pareva una carezza sospesa nell'aria.
+1	tuttavia	tuttavia	ADV	B	_	7	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	risuonava	risuonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	intorno	intorno	ADV	B	_	10	case	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	obl	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	morbido	morbido	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	_
+13	ed	e	CCONJ	CC	_	14	cc	_	_
+14	insistente	insistente	ADJ	A	Number=Sing	12	conj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	tacitamente	tacitamente	ADV	B	_	17	advmod	_	_
+17	inteso	intendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+18	che	che	SCONJ	CS	_	19	mark	_	_
+19	pareva	parevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	ccomp	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	carezza	carezza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	sospesa	sospeso	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23-24	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	in	in	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	aria	aria	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = E ancora nelle sere seguenti, nè io cantai nè Egli me ne richiese, ma la canzone stava in mezzo a noi calda e palpitante come persona viva.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	ancora	ancora	ADV	B	_	5	advmod	_	_
+3-4	nelle	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	sere	sera	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	seguenti	seguente	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	nè	nè	CCONJ	CC	_	10	cc	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	cantai	cantare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	nè	nè	CCONJ	CC	_	12	cc	_	_
+12	Egli	Egli	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+15	richiese	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	ma	ma	CCONJ	CC	_	20	cc	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	obl	_	_
+25	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	palpitante	palpitante	ADJ	A	Number=Sing	25	conj	_	_
+28	come	come	ADP	E	_	29	case	_	_
+29	persona	persona	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+30	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

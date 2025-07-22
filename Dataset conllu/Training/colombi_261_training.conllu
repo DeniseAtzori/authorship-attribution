@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La povera creatura, da pallida che era, si fece livida.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	povera	povero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	pallida	pallida	ADJ	A	Gender=Fem|Number=Sing	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+12	livida	livida	ADJ	A	Gender=Fem|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La colse un tremito convulso;
+1	La	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	colse	colse	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tremito	tremito	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	convulso	convulso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = si guardò intorno smarrita, come per invocare soccorso;
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	intorno	intorno	ADP	E	_	4	case	_	_
+4	smarrita	smarrita	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	come	come	ADP	E	_	8	mark	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	invocare	invocare	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	soccorso	soccorso	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = poi si nascose il volto fra le mani, e singhiozzò disperatamente.
+1	poi	poi	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	nascose	nascorre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	volto	volto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	fra	fra	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	mani	mano	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	singhiozzò	singhiozzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	disperatamente	disperato	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non era un'eroina;
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	eroina	eroina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = non era neppure una donna forte;
+1	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	neppure	neppure	ADV	BN	PronType=Neg	5	advmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	forte	forte	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = la morte le faceva una paura orribile.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	morte	morte	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	orribile	orribile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

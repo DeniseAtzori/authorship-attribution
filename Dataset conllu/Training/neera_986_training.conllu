@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che cosa sarebbe di lei, della sua vita, non sapeva, non voleva pensare.
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	pensare	pensare	VERB	V	VerbForm=Inf	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Era giunta a quel punto della sofferenza che confina colla insensibilità.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	giunta	giungere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sofferenza	sofferenza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	confina	confinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	colla	collo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	insensibilità	insensibilità	NOUN	S	Gender=Fem	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = In tale stato ipnotico errava tra le piante e le erbe atrofizzando il pensiero nella contemplazione dei piani verdi, sprofondandovi l’occhio fino ad averne una ebbrezza sensuale dove l’assillo del ricordo annegava morbidamente.
+1	In	in	ADP	E	_	3	case	_	_
+2	tale	tale	DET	DD	Number=Sing|PronType=Dem	3	det	_	_
+3	stato	stato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ipnotico	ipnotico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	errava	errare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	tra	tra	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	piante	pianta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	erbe	erba	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+12	atrofizzando	atrofizzare	VERB	V	VerbForm=Ger	5	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	contemplazione	contemplazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	piani	piano	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	verdi	verde	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	5	punct	_	_
+23-24	sprofondandovi	_	_	_	_	_	_	_	_
+23	sprofondando	sprofondare	VERB	V	VerbForm=Ger	5	advcl	_	_
+24	vi	vi	ADV	B	_	23	advmod	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+27	fino	fino	ADV	B	_	29	mark	_	_
+28	ad	a	ADP	E	_	27	fixed	_	_
+29-30	averne	_	_	_	_	_	_	_	_
+29	aver	avere	VERB	V	VerbForm=Inf	23	advcl	_	_
+30	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	29	iobj	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	ebbrezza	ebbrezza	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+33	sensuale	sensuale	ADP	E	_	34	case	_	_
+34	dove	dove	ADV	B	_	40	advmod	_	_
+35	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	assillo	assillo	NOUN	S	Gender=Masc|Number=Sing	40	nsubj	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40	annegava	annegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	acl:relcl	_	_
+41	morbidamente	morbidamente	ADV	B	_	40	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

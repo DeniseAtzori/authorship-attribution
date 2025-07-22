@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quella donna alla morte del marito era stata impressionata da quel testamento atroce.
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	morte	morte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	marito	marito	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	impressionata	impressionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	testamento	testamento	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	_
+15	atroce	atroce	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Era religiosa fino allo scrupolo.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	religiosa	religioso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	fino	fino	ADV	B	_	6	case	_	_
+4-5	allo	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	scrupolo	scrupolo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Alla prima, combattuta tra il dovere di obbedire alla volontà di un moribondo, e la paura di commettere un peccato mutilandone il cadavere, aveva finito per cedere alla paura religiosa, e trascurare il legato.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	combattuta	combattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	advcl	_	_
+6	tra	tra	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	obbedire	obbedire	VERB	V	VerbForm=Inf	8	acl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	volontà	volontà	NOUN	S	Gender=Fem	10	obl	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	moribondo	moribondo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	paura	paura	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	commettere	commettere	VERB	V	VerbForm=Inf	20	acl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	peccato	peccato	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25-26	mutilandone	_	_	_	_	_	_	_	_
+25	mutilando	mutilare	VERB	V	VerbForm=Ger	22	advcl	_	_
+26	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	25	iobj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	cadavere	cadavere	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	5	punct	_	_
+30	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+31	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+32	per	per	ADP	E	_	33	mark	_	_
+33	cedere	cedere	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34-35	alla	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	paura	paura	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+37	religiosa	religioso	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	trascurare	trascurare	VERB	V	VerbForm=Inf	33	conj	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	legato	legato	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\n
+

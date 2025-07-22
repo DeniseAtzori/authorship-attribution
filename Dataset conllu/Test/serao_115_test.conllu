@@ -1,0 +1,139 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutto il palco della presidenza era scomparso.
+1	Tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	palco	palco	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	presidenza	presidenza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	scomparso	scomparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Al suo posto, una piattaforma larga a cui si ascendeva per quattro scalini, coperta da un tappeto rosso, si elevava:
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+8	larga	largo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	ascendeva	ascendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	quattro	quattro	NUM	N	NumType=Card	15	nummod	_	_
+15	scalini	scalino	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	coperta	coprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	17	obl:agent	_	_
+21	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	4	punct	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	elevava	elevavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	24	punct	_	_
+
+# sent_id = 3
+# text = e su questa un enorme baldacchino di velluto rosso, frangiato d'oro, diviso in tre scompartimenti.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	su	su	ADP	E	_	3	case	_	_
+3	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	enorme	enorme	ADJ	A	Number=Sing	6	amod	_	_
+6	baldacchino	baldacchino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	velluto	velluto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	frangiato	frangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	oro	oro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	diviso	dividere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	tre	tre	NUM	N	NumType=Card	18	nummod	_	_
+18	scompartimenti	scompartimento	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Tutto questo rosso prendeva una grande cupezza dalla cupola che si avanzava molto e in quella penombra sacra di cappella, l'oro della poltrona reale luccicava come un reliquiario.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	rosso	rosso	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	grande	grande	ADJ	A	Number=Sing	7	amod	_	_
+7	cupezza	cupezza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cupola	cupola	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	avanzava	avanzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+14	molto	molto	ADV	B	_	13	advmod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	penombra	penombra	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+19	sacra	sacro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	cappella	cappella	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	oro	oro	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	reale	reale	ADJ	A	Number=Sing	27	amod	_	_
+29	luccicava	luccicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+30	come	come	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	reliquiario	reliquiario	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = A un livello più basso, fuori del baldacchino, a destra e a sinistra, vi erano due altre poltrone per i membri della famiglia reale.
+1	A	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	livello	livello	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	basso	basso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	fuori	fuori	ADV	B	_	10	case	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	7	fixed	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	baldacchino	baldacchino	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	destra	destra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+19	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+20	due	due	NUM	N	NumType=Card	22	nummod	_	_
+21	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	22	det	_	_
+22	poltrone	poltrona	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	membri	membro	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	reale	reale	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n
+

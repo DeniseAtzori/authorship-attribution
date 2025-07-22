@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = e per quanti secoli siano passati l’ideale della donna e per la donna è ancora questo.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	4	det	_	_
+4	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ideale	ideale	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	ancora	ancora	ADV	B	_	18	advmod	_	_
+18	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 2
+# text = Così parmi di dover compendiare le mie modeste osservazioni sul movimento femminista.
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	parmi	arma|parme	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	dover	dovere	AUX	VM	VerbForm=Inf	5	aux	_	_
+5	compendiare	compendiare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+7	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	modeste	modesto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	osservazioni	osservazione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	femminista	femministo	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Tutto ciò che allontana la donna dalla casa e dalla culla, malgrado gli apparenti vantaggi promessi, non può riescire che un danno per lei e per l’umanità.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	allontana	allontanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	culla	culla	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	malgrado	malgrado	SCONJ	CS	_	23	mark	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	apparenti	apparente	ADJ	A	Number=Plur	18	amod	_	_
+18	vantaggi	vantaggio	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+19	promessi	promesso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	riescire	riescire	VERB	V	VerbForm=Inf	2	advcl	_	_
+24	che	che	SCONJ	CS	_	26	mark	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	danno	danno	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+27	per	per	ADP	E	_	28	case	_	_
+28	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nmod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	umanità	umanità	NOUN	S	Gender=Fem	28	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Credo di averlo provato con argomenti materiali e con argomenti ideali, essendo per fortuna indissolubili nelle eterne verità queste due forze che a noi sembrano tante volte contrarie.
+1	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	5	mark	_	_
+3-4	averlo	_	_	_	_	_	_	_	_
+3	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	materiali	materiale	ADJ	A	Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+12	ideali	ideale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	essendo	essere	AUX	V	VerbForm=Ger	17	cop	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+17	indissolubili	indissolubile	ADJ	A	Number=Plur	1	xcomp	_	_
+18-19	nelle	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	eterne	eterno	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	verità	verità	NOUN	S	Gender=Fem	17	obl	_	_
+22	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	24	det	_	_
+23	due	due	NUM	N	NumType=Card	24	nummod	_	_
+24	forze	forza	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+25	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	28	obl	_	_
+28	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+29	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
+30	volte	volta	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+31	contrarie	contrario	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

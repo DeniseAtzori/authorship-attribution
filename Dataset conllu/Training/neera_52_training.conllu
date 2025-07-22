@@ -1,0 +1,147 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Faccio una sola domanda:
+1	Faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sola	solo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = È maggiore la moralità e l’idealità di quelle donne?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	moralità	moralità	NOUN	S	Gender=Fem	2	nsubj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	idealità	idealità	NOUN	S	Gender=Fem	4	conj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+10	donne	donna	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Chi le ha conosciute dice di no e dicono di no anche i fatti diversi delle gazzette di quei paesi.
+1	Chi	chi	PRON	PQ	PronType=Int	4	nsubj	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	obj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	conosciute	conoscere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	no	no	ADV	BN	PronType=Neg	5	advmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	no	no	ADV	BN	PronType=Neg	9	advmod	_	_
+12	anche	anche	ADV	B	_	14	advmod	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+15	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	gazzette	gazzetta	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+21	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Dove dunque non è progresso morale non è vero progresso.
+1	Dove	dove	ADV	B	_	5	advmod	_	_
+2	dunque	dunque	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	progresso	progresso	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	morale	morale	ADJ	A	Number=Sing	5	amod	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	vero	vero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	progresso	progresso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Quanto all’essere felici, torniamo da capo.
+1	Quanto	quanto	ADV	B	_	5	advmod	_	_
+2-3	all’	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	5	mark	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+5	felici	felice	ADJ	A	Number=Plur	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	torniamo	tornare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	capo	capo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Le _spinster_ che tengono conferenze e presiedono _meeting_ sono davvero più felici delle nostre parenti che coltivano i loro gerani sul davanzale della finestra e preparano delle trine all’uncinetto per il salotto domestico?
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	_spinster_	ExtraSubj=Yes|_spinster_	PUNCT	FB	_	4	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	tengono	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	conferenze	conferenza	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	presiedono	presiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	_meeting_	_meeting-	PUNCT	FB	_	12	punct	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	davvero	davvero	ADV	B	_	12	advmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	felici	felice	ADJ	A	Number=Plur	4	conj	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	parenti	parente	NOUN	S	Number=Plur	12	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	coltivano	coltivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	gerani	gerano	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	davanzale	davanzale	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	preparano	preparano	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+30-31	delle	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	trine	trina	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	_
+33-34	all’	_	_	_	_	_	_	_	SpaceAfter=No
+33	a	a	ADP	E	_	35	case	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	uncinetto	uncinetto	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	per	per	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	domestico	domestico	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Tutto dipende dal punto di vista, ma anche questo non bisogna forzarlo.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	dipende	dipendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	vista	vista	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	ma	ma	CCONJ	CC	_	13	cc	_	_
+10	anche	anche	ADV	B	_	13	advmod	_	_
+11	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14-15	forzarlo	_	_	_	_	_	_	_	SpaceAfter=No
+14	forzar	forzarre	VERB	V	VerbForm=Inf	13	xcomp	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

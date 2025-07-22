@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tobie rimase sbalordito quando vide il palcoscenico invaso fin dal mattino da quelle macchine d'ogni dimensione.
+1	Tobie	Tobie	ADV	B	_	2	advmod	_	_
+2	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sbalordito	sbalordire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+4	quando	quando	SCONJ	CS	_	5	mark	_	_
+5	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	palcoscenico	palcoscenico	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	invaso	invadere	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	fin	fino	ADP	E	_	12	case	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	9	fixed	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+15	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+16	d'	da	ADP	E	_	18	case	_	SpaceAfter=No
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	dimensione	dimensione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Che cosa dovevano farne?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+3	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4-5	farne	_	_	_	_	_	_	_	SpaceAfter=No
+4	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+6	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = E dove starebbero gli attori?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	dove	dove	ADV	B	_	3	advmod	_	_
+3	starebbero	stare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	attori	attore	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Non gli riesciva d'immaginare che strano dramma si preparasse.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	riesciva	riesciva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	d'	di	ADP	E	_	5	mark	_	SpaceAfter=No
+5	immaginare	immaginare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	strano	strano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	preparasse	prepararre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Specialmente quel cilindro, lungo quasi un metro, montato sopra una specie di cavalletto, con tanta complicazione di piombi appesi a catene di varie lunghezze, e ruote e manovelle, quel grande ordigno che teneva il posto d'onore sul davanti della scena, lo impensieriva moltissimo.
+1	Specialmente	specialmente	ADV	B	_	3	advmod	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	cilindro	cilindro	NOUN	S	Gender=Masc|Number=Sing	51	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	lungo	lungo	ADP	E	_	8	case	_	_
+6	quasi	quasi	ADV	B	_	8	advmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	metro	metro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	montato	montato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+11	sopra	sopra	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	specie	specie	NOUN	S	Gender=Fem	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	cavalletto	cavalletto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	complicazione	complicazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	piombi	piombo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	appesi	appendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	catene	catena	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	varie	vario	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	27	det	_	_
+27	lunghezze	lunghezza	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	ruote	ruota	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	manovelle	manovella	NOUN	S	Gender=Fem|Number=Plur	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	3	punct	_	_
+34	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
+35	grande	grande	ADJ	A	Number=Sing	36	amod	_	_
+36	ordigno	ordigno	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+37	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+38	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	acl:relcl	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	posto	posto	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+41	d'	di	ADP	E	_	42	case	_	SpaceAfter=No
+42	onore	onore	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+43-44	sul	_	_	_	_	_	_	_	_
+43	su	su	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	davanti	davante	NOUN	S	Number=Plur	38	obl	_	_
+46-47	della	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	scena	scena	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	3	punct	_	_
+50	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	obj	_	_
+51	impensieriva	impensierire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+52	moltissimo	molto	ADV	B	Degree=Abs	51	advmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	51	punct	_	SpacesAfter=\n
+

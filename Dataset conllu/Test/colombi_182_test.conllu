@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Dunque io mi esageravo i miei torti, e Massimo pure si esagerava la gravità dei nostri rapporti;
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Dunque	dunque	ADV	B	_	5	advmod	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	esageravo	esagerare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	torti	torto	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	Massimo	Massimo	PROPN	SP	_	14	nsubj	_	_
+12	pure	pure	ADV	B	_	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	esagerava	esagerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	gravità	gravità	NOUN	S	Gender=Fem	14	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = non c'era alcun male.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	alcun	alcun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	male	male	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Infatti non ero io onesta come prima, e degna della mano d'un uomo d'onore?
+1	Infatti	infatti	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	onesta	onestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	prima	prima	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	degna	degnare	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	5	conj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mano	mano	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	d'	di	ADP	E	_	18	case	_	SpaceAfter=No
+18	onore	onore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Questo mi rasserenò e diede alle mie idee ed al mio giudizio un carattere meno severo.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	rasserenò	rasserenare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	idee	idea	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	ed	e	CCONJ	CC	_	14	cc	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+17	meno	meno	ADV	B	_	18	advmod	_	_
+18	severo	severo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

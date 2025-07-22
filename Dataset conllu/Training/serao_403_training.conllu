@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Udiva solo le parole di Pasqualina, che le dicevano non avrebbe mangiato se non riportava Ciccotto.
+1	Udiva	Udire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	1	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Pasqualina	Pasqualina	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	dicevano	dicevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+14	se	se	SCONJ	CS	_	16	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	riportava	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	_	_
+17	Ciccotto	Ciccotto	PROPN	SP	_	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Aveva una fame acerba e intensa che le torceva lo stomaco.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fame	fame	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	acerba	acerbo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	intensa	intenso	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	torceva	torcere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Se riportava Ciccotto, avrebbe mangiato.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	riportava	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+3	Ciccotto	Ciccotto	PROPN	SP	_	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Questo solo pensava, questo solo.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	solo	solo	ADV	B	_	3	advmod	_	_
+3	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+6	solo	solo	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = E chiamava, chiamava, camminando rapidamente fra le alte siepi, punto minuscolo che si agitava in quella calma notturna:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	camminando	camminare	VERB	V	VerbForm=Ger	4	advcl	_	_
+7	rapidamente	rapidamente	ADV	B	_	6	advmod	_	_
+8	fra	fra	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	alte	alto	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	siepi	siepe	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+14	minuscolo	minuscolo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	agitava	agitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	calma	calma	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	notturna	notturno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	13	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

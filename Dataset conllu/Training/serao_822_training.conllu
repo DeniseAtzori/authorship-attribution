@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nè dicevano nulla.
+1	Nè	né	CCONJ	CC	_	2	cc	_	_
+2	dicevano	dicevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La delizia di due amanti, soli nel vagone fuggente per la campagna, fuggente innanzi ai villaggi e alle piccole città, ha poche delizie che la eguaglino:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	delizia	delizia	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	amanti	amante	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	soli	solo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vagone	vagone	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	fuggente	fuggente	ADJ	A	Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	fuggente	fuggente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	innanzi	innanzi	ADV	B	_	16	advmod	_	_
+18-19	ai	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	villaggi	villaggio	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22-23	alle	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+25	città	città	NOUN	S	Gender=Fem	20	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+28	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	29	det	_	_
+29	delizie	delizia	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+32	eguaglino	eguaglino	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 3
+# text = tanto è acuto il senso di libertà, di amore inconturbato, di oblìo terreno che dà quella fuga.
+1	tanto	tanto	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	acuto	acire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	senso	senso	NOUN	S	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	libertà	libertà	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	amore	amore	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	inconturbato	inconturbato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	oblìo	oblìo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Non esistono più nè lo spazio, nè il tempo, nè l'uomo, nè la vita:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	2	advmod	_	_
+4	nè	né	CCONJ	CC	_	6	cc	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	nè	né	CCONJ	CC	_	10	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	nè	né	CCONJ	CC	_	14	cc	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	nè	né	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = esiste solamente l'amore, nella sua massima condizione d'indipendenza, trasportato lontano, lontano, dove non vi sia che amore.
+1	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solamente	solo	ADV	B	_	1	advmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	amore	amore	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	10	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	indipendenza	indipendenza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	trasportato	trasportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+15	lontano	lontano	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	lontano	lontano	ADV	B	_	14	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	dove	dove	ADV	B	_	22	advmod	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
+22	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+23	che	che	DET	DE	PronType=Exc	24	det	_	_
+24	amore	amore	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

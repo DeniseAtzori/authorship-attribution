@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Dunque non l'amava, non l'aveva amata mai dacchè se ne andava così, senza rivederla, come un estraneo.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Dunque	dunque	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+5	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+11	mai	mai	ADV	B	_	15	advmod	_	_
+12	dacchè	dacché	ADV	B	_	15	advmod	_	_
+13	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+15	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+16	così	così	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	senza	senza	ADP	E	_	19	mark	_	_
+19-20	rivederla	_	_	_	_	_	_	_	SpaceAfter=No
+19	riveder	rivedere	VERB	V	VerbForm=Inf	15	advcl	_	_
+20	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	,	,	PUNCT	FF	_	15	punct	_	_
+22	come	come	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	estraneo	estraneo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Era venuto dopo di lei.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	dopo	dopo	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non aveva scritture che lo chiamassero altrove.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	scritture	scritture	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	chiamassero	chiamare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	altrove	altrove	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Se ne andava per andarsene;
+1	Se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-7	andarsene	_	_	_	_	_	_	_	SpaceAfter=No
+5	andar	andare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+8	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = perchè ne aveva assai, di Recoaro.
+1	perchè	perché	SCONJ	CS	_	3	mark	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	assai	assai	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Recoaro	Recoaro	PROPN	SP	_	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = La sua presenza non contava per nulla, non aveva influenza per trattenerlo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	contava	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+11	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	trattenerlo	_	_	_	_	_	_	_	SpaceAfter=No
+13	trattener	trattenere	VERB	V	VerbForm=Inf	10	advcl	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = O Dio!
+1	O	o	CCONJ	CC	_	2	cc	_	_
+2	Dio	Dio	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = E lei che s'era montata la testa!...»
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	montata	montare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	testa	testa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	!...	!...	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+10	»	»	PUNCT	FB	_	2	punct	_	SpacesAfter=\n
+

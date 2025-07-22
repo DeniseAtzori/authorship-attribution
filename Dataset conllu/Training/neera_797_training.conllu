@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Moena non aveva mentito confessandosi idealista.
+1	Moena	Moena	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	mentito	mentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	confessandosi	_	_	_	_	_	_	_	_
+5	confessando	confessare	VERB	V	VerbForm=Ger	4	advcl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	idealista	idealista	ADJ	A	Number=Sing	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = I suoi venticinque anni e la bella persona non potevano mancare di procurargli avventure galanti, ma egli era un curioso dell’amore, piuttosto che un famelico;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+2	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	venticinque	venticinque	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	e	e	CCONJ	CC	_	11	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	bella	bello	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	persona	persona	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	mancare	mancare	VERB	V	VerbForm=Inf	4	conj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	procurargli	_	_	_	_	_	_	_	_
+13	procurar	procurare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	avventure	avventura	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	galanti	galante	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	22	punct	_	_
+18	ma	ma	CCONJ	CC	_	22	cc	_	_
+19	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	curioso	curioso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+23-24	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	amore	amore	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	4	punct	_	_
+27	piuttosto	piuttosto	ADV	B	_	30	case	_	_
+28	che	che	ADP	E	_	27	fixed	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	famelico	famelico	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+31	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = Don Giovanni e Don Chisciotte insieme inseguiva i fantasmi del suo cervello coll’ardore poetico del cavaliere della Mancia, ma anche li abbandonava, insoddisfatto, appena si accorgeva di stringere fra le braccia una forma vana.
+1	Don	don	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	Giovanni	Giovanni	PROPN	SP	_	1	nmod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Don	Don	PROPN	SP	_	1	conj	_	_
+5	Chisciotte	Chisciurre	PROPN	SP	_	4	flat:name	_	_
+6	insieme	insieme	ADV	B	_	7	advmod	_	_
+7	inseguiva	inseguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	fantasmi	fantasma	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14-15	coll’	_	_	_	_	_	_	_	SpaceAfter=No
+14	co	co	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	poetico	poetico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cavaliere	cavaliere	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Mancia	Mancia	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	28	punct	_	_
+25	ma	ma	CCONJ	CC	_	28	cc	_	_
+26	anche	anche	ADV	B	_	28	advmod	_	_
+27	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	obj	_	_
+28	abbandonava	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	insoddisfatto	insoddisfatto	ADV	B	_	28	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	appena	appena	ADV	B	_	34	advmod	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+34	accorgeva	accorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	stringere	stringere	VERB	V	VerbForm=Inf	34	xcomp	_	_
+37	fra	fra	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	forma	forma	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+42	vana	vano	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

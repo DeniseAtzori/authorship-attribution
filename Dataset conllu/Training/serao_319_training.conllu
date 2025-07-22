@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non si scuoteva, non trasaliva, avendo costretto all'indifferenza il proprio viso;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	scuoteva	scuotere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	trasaliva	trasalire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	avendo	avere	AUX	VA	VerbForm=Ger	9	aux	_	_
+9	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	viso	viso	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = solo quando la tosse si faceva sentire, egli impallidiva lievemente e voltava la testa in là.
+1	solo	solo	ADV	B	_	10	advmod	_	_
+2	quando	quando	SCONJ	CS	_	6	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tosse	tosse	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+7	sentire	sentire	VERB	V	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	impallidiva	impallidire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	lievemente	lievemente	ADV	B	_	10	advmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	voltava	voltavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	testa	testa	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	là	là	ADV	B	_	13	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Mentre la madre giaceva in quei torpori che lo spaventavano, peggiori della veglia, egli pensava.
+1	Mentre	mentre	SCONJ	CS	_	4	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	madre	madre	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	giaceva	giacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	torpori	torpore	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	spaventavano	spaventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	peggiori	peggiore	ADJ	A	Degree=Cmp|Number=Plur	4	amod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	veglia	veglia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 4
+# text = Che madre era stata quella per lui!
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+5	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Per lui quella era la madre delle madri, era stata l'amor materno come idea fissa, l'amor materno come follia.
+1	Per	per	ADP	E	_	2	case	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+3	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	madre	madre	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	madri	madre	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+12	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	amor	amore	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+15	materno	materno	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	come	come	ADP	E	_	17	case	_	_
+17	idea	idea	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	fissa	fisso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	amor	amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+22	materno	materno	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	come	come	ADP	E	_	24	case	_	_
+24	follia	follia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
+

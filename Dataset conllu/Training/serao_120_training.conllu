@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Purché egli si lasciasse amare.
+1	Purché	purché	SCONJ	CS	_	4	mark	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	lasciasse	lasciare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	amare	amare	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Maria era risoluta a vincere la dolcissima debolezza femminile che vuole udire, anche se false, anche se fallaci, le parole dell'amore;
+1	Maria	Maria	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	risoluta	risolutare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	vincere	vincere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	dolcissima	dolce	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	8	amod	_	_
+8	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	femminile	femminile	ADJ	A	Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	udire	udire	VERB	V	VerbForm=Inf	8	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	anche	anche	ADV	B	_	16	advmod	_	_
+15	se	se	SCONJ	CS	_	16	mark	_	_
+16	false	falso	ADJ	A	Gender=Fem|Number=Plur	12	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	anche	anche	ADV	B	_	20	advmod	_	_
+19	se	se	SCONJ	CS	_	20	mark	_	_
+20	fallaci	fallace	ADJ	A	Number=Plur	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	parole	parola	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+24-25	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	amore	amore	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = purché si lasciasse amare, ella volea perdonargli tutto.
+1	purché	purché	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	lasciasse	lasciare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	amare	amare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	volea	voleare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8-9	perdonargli	_	_	_	_	_	_	_	_
+8	perdonar	perdonare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Mario Felice, acuto osservatore, le leggeva nella fisonomia subitamente infiammata, negli occhi fieri del sacrificio, nelle labbra già quasi sorridenti, nel passo più rapido, e sentiva che ella aveva allontanata la tempesta dove minacciava di naufragare il suo amore.
+1	Mario	Mario	PROPN	SP	_	8	nsubj	_	_
+2	Felice	Felice	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	acuto	acire	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	osservatore	osservatore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	8	obj	_	_
+8	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fisonomia	fisonomia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	subitamente	subito	ADV	B	_	13	advmod	_	_
+13	infiammata	infiammato	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15-16	negli	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+18	fieri	fiero	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sacrificio	sacrificio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	8	punct	_	_
+23-24	nelle	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+26	già	già	ADV	B	_	28	advmod	_	_
+27	quasi	quasi	ADV	B	_	28	advmod	_	_
+28	sorridenti	sorridente	ADJ	A	Number=Plur	25	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	8	punct	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	passo	passo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	rapido	rapido	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+38	che	che	SCONJ	CS	_	41	mark	_	_
+39	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+40	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+41	allontanata	allontanare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	ccomp	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+44	dove	dove	ADV	B	_	45	advmod	_	_
+45	minacciava	minacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	acl:relcl	_	_
+46	di	di	ADP	E	_	47	mark	_	_
+47	naufragare	naufragare	VERB	V	VerbForm=Inf	45	xcomp	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+49	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	50	det:poss	_	_
+50	amore	amore	NOUN	S	Gender=Masc|Number=Sing	47	obj	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

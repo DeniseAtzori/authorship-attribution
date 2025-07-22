@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il segreto si ergeva grande, possente, feroce fra loro, il segreto che faceva balbettare quel figliuolo ai piedi del letto di sua madre, mentre lei si rigettava nell'ostinato mutismo dell'agonia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	ergeva	ergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	grande	grande	ADJ	A	Number=Sing	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	possente	possente	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	feroce	feroce	ADV	B	_	11	advmod	_	_
+10	fra	fra	ADP	E	_	11	case	_	_
+11	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+17	balbettare	balbettare	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	figliuolo	figliuolo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	ai	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	letto	letto	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	madre	madre	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	17	punct	_	_
+30	mentre	mentre	SCONJ	CS	_	33	mark	_	_
+31	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+33	rigettava	rigettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
+34-35	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+34	in	in	ADP	E	_	37	case	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+36	ostinato	ostinato	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+37	mutismo	mutismo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+38-39	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+38	di	di	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	agonia	agonia	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Fu una lotta accanita, in cui l'anima umana mostrava tutta la sua dolcezza e tutta la sua mostruosità, in cui l'amore era egoismo e l'egoismo amore.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	accanita	accanita	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	anima	anima	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	umana	umano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	mostrava	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+12	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	15	det:predet	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	20	det:predet	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	mostruosità	mostruosità	NOUN	S	Gender=Fem	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	27	obl	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	amore	amore	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+26	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+27	egoismo	egoismo	NOUN	S	Gender=Masc|Number=Sing	20	acl:relcl	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	egoismo	egoismo	NOUN	S	Gender=Masc|Number=Sing	27	conj	_	_
+31	amore	amore	NOUN	S	Gender=Masc|Number=Sing	30	compound	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

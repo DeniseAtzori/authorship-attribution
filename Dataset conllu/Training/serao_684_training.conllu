@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nelle atroci notti, oramai, una fatale convinzione si faceva posto nel suo spirito.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	atroci	atroco	NUM	N	NumType=Card	4	nummod	_	_
+4	notti	notte	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	oramai	oramai	ADV	B	_	12	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	fatale	fatale	ADJ	A	Number=Sing	10	amod	_	_
+10	convinzione	convinzione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	posto	posto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Come uomo, egli era distrutto:
+1	Come	come	ADP	E	_	2	case	_	_
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+6	distrutto	distruggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = distrutto come amante.
+1	distrutto	distruggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	amante	amante	NOUN	S	Number=Sing	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mai più, mai più avrebbe potuto accostarsi ad una donna, desiderandola, volendola;
+1	Mai	mai	ADV	B	_	8	advmod	_	_
+2	più	più	ADV	B	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	più	più	ADV	B	_	8	advmod	_	_
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
+8-9	accostarsi	_	_	_	_	_	_	_	_
+8	accostar	accostare	VERB	V	VerbForm=Inf	0	root	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	ad	a	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	desiderandola	desiderandolare	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16-17	volendola	_	_	_	_	_	_	_	SpaceAfter=No
+16	volendo	volere	VERB	V	VerbForm=Ger	8	advcl	_	_
+17	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 5
+# text = l'idea di un simile fatto, gli metteva un terrore folle, la crisi di un ferito che vede il ferro chirurgico.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	simile	simile	ADJ	A	Number=Sing	6	amod	_	_
+6	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	folle	folle	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	crisi	crisi	NOUN	S	Gender=Fem	11	appos	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ferito	ferito	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	chirurgico	chirurgico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

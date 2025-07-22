@@ -1,0 +1,158 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era appunto lui, l'uomo dal naso peperonico e dal viso scialbo.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+2	appunto	appunto	ADV	B	_	3	advmod	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	naso	naso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	peperonico	peperonico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	viso	viso	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+15	scialbo	scialbo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = «Non si affittava un quartino mobiliato, a quel terzo piano?»
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	affittava	affittare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	quartino	quartino	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	mobiliato	mobiliato	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	piano	piano	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+14	»	»	PUNCT	FB	_	4	punct	_	_
+
+# sent_id = 3
+# text = Il sor Alessandro squadrò l'onorevole Sangiorgio, adocchiò fra lume e lustro la medaglia d'oro e disse:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sor	sor	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	Alessandro	Alessandro	PROPN	SP	_	2	nmod	_	_
+4	squadrò	squadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	onorevole	onorevole	NOUN	S	Number=Sing	4	obj	_	_
+7	Sangiorgio	Sangiorgio	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	adocchiò	adocchiò	ADV	B	_	4	advmod	_	_
+10	fra	fra	ADP	E	_	11	case	_	_
+11	lume	lume	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	lustro	lustro	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	medaglia	medaglia	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+16	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	oro	oro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = «Sicuro, c'è un quartino da affittare, mobiliato:
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Sicuro	sicuro	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	quartino	quartino	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9	affittare	affittare	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	mobiliato	mobiliare	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = vado a prendere le chiavi.»
+1	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	prendere	prendere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	chiavi	chiave	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	1	punct	_	_
+
+# sent_id = 6
+# text = E ficcandosi in tasca le mani rovinate dai geloni, piantò il deputato sul pianerottolo.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2-3	ficcandosi	_	_	_	_	_	_	_	_
+2	ficcando	ficcare	VERB	V	VerbForm=Ger	13	advcl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	tasca	tasca	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	mani	mano	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+8	rovinate	rovinare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	dai	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	geloni	gelone	NOUN	S	Gender=Masc|Number=Plur	8	obl:agent	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	piantò	piantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pianerottolo	pianerottolo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 7
+# text = Dalla porta aperta un'anticameruccia si vedeva, con una sedia, un tavolino e un lume:
+1-2	Dalla	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	porta	porta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	anticameruccia	anticameruccia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lume	lume	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 8
+# text = e un odore di stantìo, di casa vecchia, di di polvere antica, pizzicava la gola.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	odore	odore	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	stantìo	stantìo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	polvere	polvere	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+14	antica	antico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	pizzicava	pizzicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	gola	gola	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

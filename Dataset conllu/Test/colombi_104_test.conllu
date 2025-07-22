@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Intanto, sebbene non piangessi più, continuavo a starmene nello stesso atteggiamento, col volto nascosto.
+1	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Intanto	intanto	ADV	B	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sebbene	sebbene	SCONJ	CS	_	9	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	piangessi	piangettere	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+7	più	più	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	continuavo	continuare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11-13	starmene	_	_	_	_	_	_	_	_
+11	star	stare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	expl	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+14-15	nello	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19-20	col	_	_	_	_	_	_	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	volto	volto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+22	nascosto	nascosto	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Quando si è piantato qualcuno in asso per andare a piangere dispettosamente in un canto, non è così facile asciugarsi gli occhi e tornare a dirgli tranquillamente:
+1	Quando	quando	SCONJ	CS	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	piantato	piantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+5	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	asso	asso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	andare	andare	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	piangere	piangere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+12	dispettosamente	dispettosamente	ADV	B	_	11	advmod	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	canto	canto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	così	così	ADV	B	_	20	advmod	_	_
+20	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+21-22	asciugarsi	_	_	_	_	_	_	_	_
+21	asciugar	asciugare	VERB	V	VerbForm=Inf	20	csubj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	tornare	tornare	VERB	V	VerbForm=Inf	21	conj	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28-29	dirgli	_	_	_	_	_	_	_	_
+28	dir	dire	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+30	tranquillamente	tranquillo	ADV	B	_	28	advmod	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	20	punct	_	_
+
+# sent_id = 3
+# text = «Eccomi, ho finito» a rischio di sentirsi ridere in volto.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Eccomi	Eccomi	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	5	punct	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	sentirsi	_	_	_	_	_	_	_	_
+10	sentir	sentire	VERB	V	VerbForm=Inf	8	acl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	ridere	ridere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	volto	volto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

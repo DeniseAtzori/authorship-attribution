@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poche, scarse, rare, gelide lacrime che chiunque ha amato con tenacia, con fedeltà, anche nell'abbandono, conosce bene:
+1	Poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	scarse	scarso	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	rare	rare	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	gelide	gelido	ADP	E	_	8	case	_	_
+8	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+10	chiunque	chiunque	PRON	PR	Number=Sing|PronType=Rel	24	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	tenacia	tenacia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	fedeltà	fedeltà	NOUN	S	Gender=Fem	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	anche	anche	ADV	B	_	22	advmod	_	_
+20-21	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	12	punct	_	_
+24	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+25	bene	bene	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = e che sono più amare e più corrodenti di tutti i singulti della passione.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	amare	amare	VERB	V	VerbForm=Inf	0	root	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	corrodenti	corrodente	ADJ	A	Number=Plur	5	conj	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	singulti	singulto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	passione	passione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Gli si gelavano sulle palpebre, sulle guance, mentre il pallido viso dell'abbandonato ancora più si scolorava, nel lento, molle e ostinato dolore.
+1	Gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	gelavano	gelavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	sulle	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	palpebre	palpebra	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8-9	sulle	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	guance	guance	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	22	punct	_	_
+12	mentre	mentre	SCONJ	CS	_	22	mark	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	pallido	pallido	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	viso	viso	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	abbandonato	abbandonato	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	ancora	ancora	ADV	B	_	20	advmod	_	_
+20	più	più	ADV	B	_	22	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	scolorava	scolorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	lento	lento	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	22	punct	_	_
+28	molle	molle	ADJ	A	Number=Sing	31	amod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	ostinato	ostinato	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

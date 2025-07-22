@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La bimba camminava lentamente, rasentando il muro, per la via stretta e tortuosa dei Mercanti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bimba	bimba	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	camminava	camminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	lentamente	lentamente	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	rasentando	rasentare	VERB	V	VerbForm=Ger	3	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	muro	muro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	via	via	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+13	stretta	stretto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	tortuosa	tortuoso	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Mercanti	mercante	PROPN	SP	_	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ella non guardava nelle botteghe, non alzava gli occhi a quella lunga striscia di cielo che appariva fra le alte case, non guardava neppure dinnanzi a sè.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	botteghe	bottega	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	alzava	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+14	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	striscia	striscia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	appariva	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+20	fra	fra	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	alte	alto	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+23	case	casa	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+27	neppure	neppure	ADV	BN	PronType=Neg	30	advmod	_	_
+28	dinnanzi	dinnanzi	ADP	E	_	30	case	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	sè	sè	PRON	PE	Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Guardava le pietre, come se le contasse.
+1	Guardava	Guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	pietre	pietra	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	come	come	ADV	B	_	8	case	_	_
+6	se	se	SCONJ	CS	_	5	fixed	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	contasse	contassa	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Camminava, senza curarsi del fango del selciato, degli urtoni che le davano, di qualche rara carrozza che passava.
+1	Camminava	Camminare	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	senza	senza	ADP	E	_	4	mark	_	_
+4-5	curarsi	_	_	_	_	_	_	_	_
+4	curar	curare	VERB	V	VerbForm=Inf	1	advcl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fango	fanire	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	selciato	selciato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	urtoni	urtone	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+18	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+22	rara	raro	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

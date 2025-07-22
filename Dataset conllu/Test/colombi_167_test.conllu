@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Eppure non lo ringraziai nè lo benedissi.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Eppure	eppure	CCONJ	CC	_	5	cc	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	ringraziai	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	nè	né	CCONJ	CC	_	8	cc	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	benedissi	benedissi	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il mio pensiero non andava al futuro per calcolarvi i mali preveduti da quel savio procedere.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	calcolarvi	_	_	_	_	_	_	_	_
+10	calcolar	calcolare	VERB	V	VerbForm=Inf	5	advcl	_	_
+11	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	10	iobj	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	mali	male	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+14	preveduti	prevedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	savio	savio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+18	procedere	procedere	VERB	V	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Stava nel presente, che aveva sognato divino e trovava arido e vuoto.
+1	Stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	presente	presente	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	sognato	sognare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+9	divino	divino	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+12	arido	arido	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	vuoto	vuoto	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Cercava il giovane innamorato e trovava l'uomo savio.
+1	Cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giovane	giovane	NOUN	S	Number=Sing	1	obj	_	_
+4	innamorato	innamorato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	savio	savio	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Nell'amarezza della delusione gettai sulla carta questa risposta:
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	gettai	gettare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	carta	carta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	7	punct	_	SpacesAfter=\n
+

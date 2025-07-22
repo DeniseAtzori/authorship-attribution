@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il salottino aveva un mobilio di tela stampata, grigio e rosa, molto carezzevole alla vista:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	salottino	salottino	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mobilio	mobilio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	tela	tela	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	stampata	stampato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	grigio	grigio	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	carezzevole	carezzevole	ADJ	A	Number=Sing	5	amod	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vista	vista	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = lo specchio era ovale con una cornice di legno, intagliato;
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	ovale	ovalere	ADJ	A	Number=Sing	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cornice	cornice	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	legno	legno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	intagliato	intagliato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = una _dormeuse_, lunga e bassa, era distesa presso il balcone, innanzi a cui pendevano delle tendine larghe, di mussola ricamata, molto fitta:
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	_dormeuse_	_dormeuse-	ADJ	NO	NumType=Ord	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+9	distesa	distendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	presso	presso	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	balcone	balcone	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	innanzi	innanzi	ADP	E	_	16	case	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+17	pendevano	pendevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	tendine	tendina	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+21	larghe	largo	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	mussola	mussola	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+25	ricamata	ricamare	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	20	punct	_	_
+27	molto	molto	ADV	B	_	28	advmod	_	_
+28	fitta	fitto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 4
+# text = senza bracciuoli, a pieghe profonde, esse trascinavansi per terra.
+1	senza	senza	ADP	E	_	2	case	_	_
+2	bracciuoli	bracciuolo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	pieghe	piega	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+6	profonde	profondo	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	trascinavansi	trascinavanso	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	terra	terra	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

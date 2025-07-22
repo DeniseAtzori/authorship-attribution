@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il giudice ascoltava l'imputata con un'attenzione che tradiva una certa deferenza.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ascoltava	ascoltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	imputata	imputata	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	tradiva	tradire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	certa	certo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	deferenza	deferenza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Egli cominciava a vedere qualche cosa di ideale in quei due popolani che aveva creduto dapprima due ladri volgari.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	cominciava	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ideale	ideale	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	popolani	popolano	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+16	dapprima	dapprima	ADV	B	_	15	advmod	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	ladri	ladro	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+19	volgari	volgari	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Forse non era più così profondamente convinto della loro colpabilità, e si insinuava nel suo spirito la persuasione che l'ignoranza, la superstizione, un sentimento religioso esaltato, avevano potuto avere una gran parte nei fatti per cui quei due giovani erano processati.
+1	Forse	forse	ADV	B	_	7	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+4	più	più	ADV	B	_	7	advmod	_	_
+5	così	così	ADV	B	_	7	cc	_	_
+6	profondamente	profondamente	ADV	B	_	7	advmod	_	_
+7	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	colpabilità	colpabilità	NOUN	S	Gender=Fem	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	insinuava	insinuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	persuasione	persuasione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+22	che	che	SCONJ	CS	_	36	mark	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	ignoranza	ignoranza	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	superstizione	superstizione	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+31	religioso	religioso	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+32	esaltato	esaltato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	24	punct	_	_
+34	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	aux	_	_
+35	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	aux	_	_
+36	avere	avere	VERB	V	VerbForm=Inf	21	advcl	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	gran	gran	ADJ	A	Number=Sing	39	amod	_	_
+39	parte	parte	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+40-41	nei	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	_
+43	per	per	ADP	E	_	44	case	_	_
+44	cui	cui	PRON	PR	PronType=Rel	49	obl	_	_
+45	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	47	det	_	_
+46	due	due	NUM	N	NumType=Card	47	nummod	_	_
+47	giovani	giovane	NOUN	S	Number=Plur	49	nsubj	_	_
+48	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	49	aux	_	_
+49	processati	processare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	42	acl:relcl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una delicata testa femminile, sfumata più che dipinta, gli diede all'occhio una grande dolcezza.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	testa	testa	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	femminile	femminile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	sfumata	sfumare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+7	più	più	ADV	B	_	6	advmod	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	dipinta	dipingere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+12	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	grande	grande	ADJ	A	Number=Sing	18	amod	_	_
+18	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Nell'attitudine e nel soave abbandono dell'omero ella sembrava stringersi al seno un bambinello.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	attitudine	attitudine	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	soave	soave	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+8	abbandono	abbandire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	omero	omero	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+14-15	stringersi	_	_	_	_	_	_	_	_
+14	stringer	stringere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	seno	seno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	bambinello	bambinello	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Contemplò a lungo questo dipinto, sentendosi rimestare in fondo all'anima un tumulto di desiderî e di sogni confusi e ancora la memoria di Gentile Lamberti venne a commuoverlo.
+1	Contemplò	Contemplare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	1	obl	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	dipinto	dipinto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7-8	sentendosi	_	_	_	_	_	_	_	_
+7	sentendo	sentire	VERB	V	VerbForm=Ger	9	advcl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	rimestare	rimestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	anima	anima	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tumulto	tumulto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	desiderî	desiderio	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	sogni	sogni	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+22	confusi	confuso	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	30	cc	_	_
+24	ancora	ancora	ADV	B	_	26	advmod	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Gentile	gentile	PROPN	SP	_	26	nmod	_	_
+29	Lamberti	Lamberti	PROPN	SP	_	28	flat:name	_	_
+30	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32-33	commuoverlo	_	_	_	_	_	_	_	SpaceAfter=No
+32	commuover	commuovere	VERB	V	VerbForm=Inf	30	advcl	_	_
+33	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+34	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

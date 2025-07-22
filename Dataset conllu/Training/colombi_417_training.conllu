@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Abbiamo sempre torto quando vogliamo ribellarci alle leggi della natura.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	torto	torgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7-8	ribellarci	_	_	_	_	_	_	_	_
+7	ribellar	ribellare	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	natura	natura	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Egli ha cercata la felicità in un amore impossibile;
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cercata	cercare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	felicità	felicità	NOUN	S	Gender=Fem	3	obj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	impossibile	impossibile	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = ed io ho cercata la giustizia in una separazione inumana.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cercata	cercare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	separazione	separazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	inumana	inumano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = E Dio ci ha puniti entrambi.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	Dio	Dio	PROPN	SP	_	5	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	puniti	punire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = L'ho fatto portare al cimitero di Monza, ed ho presa una casa vicina per andarlo a visitare ogni giorno finchè vivrò.»
+1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	portare	portare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Monza	Monza	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ed	e	CCONJ	CC	_	13	cc	_	_
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18-19	andarlo	_	_	_	_	_	_	_	_
+18	andar	andare	VERB	V	VerbForm=Inf	13	advcl	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	visitare	visitare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+22	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	finchè	finché	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	obj	_	_
+25	vivrò	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+27	»	»	PUNCT	FB	_	3	punct	_	SpacesAfter=\n
+

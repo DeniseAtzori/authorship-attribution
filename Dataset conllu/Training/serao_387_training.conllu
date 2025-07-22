@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Finalmente quello _sotto_ si risolveva a lasciare il _posto_ e la stanza da pranzo:
+1	Finalmente	finalmente	ADV	B	_	5	advmod	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	_sotto_	_sotto-	PUNCT	FB	_	2	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	risolveva	risolvere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	lasciare	lasciare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	_posto_	ExtraSubj=Yes|_posto_	ADJ	NO	NumType=Ord	7	obj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = allora si schiudevano le porte, gli armadi, si scostavano le sedie, le scrivanie, e i _nascosti_ fuggivano, al _posto_, strillando la loro vittoria.
+1	allora	allora	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	schiudevano	schiudere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	porte	porta	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	armadi	armadio	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	scostavano	scostare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	sedie	sedia	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	scrivanie	scrivania	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	_nascosti_	_nascosti-	PUNCT	FB	_	21	punct	_	_
+21	fuggivano	fuggire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	_posto_	ExtraSubj=Yes|_posto_	ADJ	NO	NumType=Ord	11	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	11	punct	_	_
+27	strillando	strillare	VERB	V	VerbForm=Ger	11	advcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	loro	loro	DET	AP	Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Mentre quello _sotto_ ne perseguitava uno, invano, gli altri sbucavano da tutte le parti, gridando, felici di non essere stati presi, correndo al _posto_.
+1	Mentre	mentre	SCONJ	CS	_	5	mark	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	_sotto_	_sotto-	PUNCT	FB	_	5	punct	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	perseguitava	perseguitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+6	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	invano	invano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	nsubj	_	_
+12	sbucavano	sbucare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	parti	parte	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	12	punct	_	_
+18	gridando	gridare	VERB	V	VerbForm=Ger	12	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	felici	felice	ADJ	A	Number=Plur	12	amod	_	_
+21	di	di	ADP	E	_	25	mark	_	_
+22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+23	essere	essere	AUX	VA	VerbForm=Inf	25	aux	_	_
+24	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	aux:pass	_	_
+25	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	12	punct	_	_
+27	correndo	correre	VERB	V	VerbForm=Ger	12	advcl	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	_posto_	ExtraSubj=Yes|_posto_	ADJ	NO	NumType=Ord	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

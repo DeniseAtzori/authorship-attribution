@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Sii la benvenuta, zia, nella mia villa modesta.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Sii	essere	PROPN	SP	_	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	benvenuta	benvenuta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	zia	zia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	villa	villa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+12	modesta	modesto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Vedrai che non ci starai troppo male.
+1	Vedrai	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+5	starai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	troppo	troppo	ADV	B	_	7	advmod	_	_
+7	male	male	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = I bimbi del paese ti ammireranno quando spiegherai loro i profondi misteri del sillabario, come il protagonista del tuo idillio non t'ha ammirata mai.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	paese	paese	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+7	ammireranno	ammirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	quando	quando	SCONJ	CS	_	10	mark	_	_
+9	spiegherai	spiegheere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	10	cop	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	advcl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	profondi	profondo	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	misteri	mistero	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sillabario	sillabario	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	come	come	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	protagonista	protagonista	NOUN	S	Number=Sing	28	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	idillio	idillio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	t'	ta	PRON	PI	Number=Sing|PronType=Ind	28	nsubj	_	SpaceAfter=No
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	ammirata	ammirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+29	mai	mai	ADV	B	_	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = E quando racconterai loro le storie dei Greci e dei Romani, ti vorranno bene come egli non te ne ha mai voluto.
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	quando	quando	SCONJ	CS	_	3	mark	_	_
+3	racconterai	racconteere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	16	advcl	_	_
+4	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	iobj	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	storie	storia	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Greci	Greci	PROPN	SP	_	6	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Romani	romani	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	16	obj	_	_
+16	vorranno	vorre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+17	bene	bene	ADV	B	_	16	advmod	_	_
+18	come	come	ADP	E	_	19	case	_	_
+19	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+20	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+21	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	25	obj	_	_
+22	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	25	iobj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	mai	mai	ADV	B	_	25	advmod	_	_
+25	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

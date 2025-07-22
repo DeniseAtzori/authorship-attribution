@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E la femminetta prese un'aria grave, la boccuccia stretta e il capo inchinato sopra una spalla.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	femminetta	femminetta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	aria	aria	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	grave	grave	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	boccuccia	boccuccia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11	stretta	stretto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	capo	capo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+15	inchinato	inchinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	sopra	sopra	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	spalla	spalla	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = In realtà, il salotto non era molto diverso da quello di Via Angelo Custode:
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Via	via	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	Angelo	Angelo	PROPN	SP	_	13	nmod	_	_
+15	Custode	custode	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = vi era più tappezzeria sbiadita, un maggior numero di fotografie, una seggiola americana a dondolo:
+1	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	tappezzeria	tappezzerio	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	sbiadita	sbiadita	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	9	amod	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	fotografie	fotografia	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	seggiola	seggiola	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+15	americana	americano	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	dondolo	dondolo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = la cornice dorata dello specchio aveva un velo verde, per preservarla dalle mosche.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cornice	cornice	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	dorata	dorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dello	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	velo	velo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	verde	verde	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	preservarla	_	_	_	_	_	_	_	_
+13	preservar	preservarre	VERB	V	VerbForm=Inf	9	acl	_	_
+14	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15-16	dalle	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	mosche	mosche	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

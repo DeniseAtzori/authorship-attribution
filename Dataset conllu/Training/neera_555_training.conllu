@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quante volte aveva già guardato quel rettangolo di tela dipinta?
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	guardato	guardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	rettangolo	rettangolo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tela	tela	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	dipinta	dipinta	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Quante volte!
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Assai prima di stemperare i colori sulla tavolozza, in quei divini e febbrili momenti che l'autore solo conosce, non l'aveva egli abbracciato tutto il suo lavoro, palpitante ancora della voluttà della concezione?
+1	Assai	assare	ADV	B	_	4	advmod	_	_
+2	prima	prima	ADV	B	_	4	mark	_	_
+3	di	di	ADP	E	_	2	fixed	_	_
+4	stemperare	stemperare	VERB	V	VerbForm=Inf	25	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	colori	colore	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tavolozza	tavolozza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	in	in	ADP	E	_	16	case	_	_
+12	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+13	divini	divino	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	febbrili	febbrile	ADJ	A	Number=Plur	13	conj	_	_
+16	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	autore	autore	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+20	solo	solo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	4	punct	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+25	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+26	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+27	abbracciato	abbracciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+28	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	31	det:predet	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	palpitante	palpitante	ADP	E	_	37	case	_	_
+34	ancora	ancora	ADV	B	_	37	advmod	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	voluttà	voluttà	NOUN	S	Gender=Fem	31	nmod	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	concezione	concezione	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	?	?	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 4
+# text = E quante ansie erano sopraggiunte in seguito alla ebbrezza prima!
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	3	det	_	_
+3	ansie	ansia	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	sopraggiunte	sopraggiungere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ebbrezza	ebbrezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	prima	prima	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ansie fatte più di ardore che di timore, perchè Flavio, non ambizioso, non presuntuoso, sentiva però la sicurezza che sta in fondo ad ogni vera anima di artista.
+1	Ansie	Ansie	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3	più	più	ADV	B	_	5	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	timore	timore	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	19	punct	_	_
+10	perchè	perché	SCONJ	CS	_	19	mark	_	_
+11	Flavio	Flavio	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	ambizioso	ambizioso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	presuntuoso	presuntuoso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+20	però	però	ADV	B	_	19	advmod	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+27	ad	a	ADP	E	_	30	case	_	_
+28	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	30	det	_	_
+29	vera	vero	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	anima	anima	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	artista	artista	NOUN	S	Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

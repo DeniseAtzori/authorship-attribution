@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mi trovavo un giorno nel negozio di un libraio quando entrò una bella ed elegante signora a ritirare dei libri in abbonamento.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	trovavo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	libraio	libraio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	quando	quando	SCONJ	CS	_	12	mark	_	_
+12	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+14	bella	bello	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+15	ed	e	CCONJ	CC	_	16	cc	_	_
+16	elegante	elegante	ADJ	A	Number=Sing	14	conj	_	_
+17	signora	signore	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	ritirare	ritirare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	libri	libro	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	abbonamento	abbonamento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Avendo preso interesse ad alcuni particolari della sua fisonomia, chiesi chi fosse.
+1	Avendo	avere	AUX	V	VerbForm=Ger	2	aux	_	_
+2	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	particolari	particolare	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	fisonomia	fisonomia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	chiesi	chiendere	NOUN	S	Gender=Masc|Number=Plur	10	appos	_	_
+13	chi	chi	PRON	PR	PronType=Rel	12	nsubj	_	_
+14	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Il libraio, che di frasi fatte ne ode tante, rispose enfaticamente:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	libraio	libraio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+7	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	xcomp	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	ode	ode	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+10	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+13	enfaticamente	enfaticamente	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = “È una vittima della società!
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	società	società	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = — Vale a dire?
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = — Sa....
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Sa...	Sa...	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

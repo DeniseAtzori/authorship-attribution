@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Mia signora e mia amica, il tempo della prova è quasi passato.
+1	“	“	PUNCT	FB	_	3	punct	_	SpacesBefore=\s\s|SpaceAfter=No
+2	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	amica	amico	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	prova	prova	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	quasi	quasi	ADV	B	_	15	advmod	_	_
+15	passato	passato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 2
+# text = Io potrò arrivare da un giorno all'altro, non so quando precisamente e perciò non dico ancor nulla a nessuno, ma a lei sì.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpacesAfter=\s\s\s
+2	potrò	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	quando	quando	SCONJ	CS	_	14	mark	_	_
+14	precisamente	preciso	ADV	B	_	12	advmod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	SpacesAfter=\s\s\s
+16	perciò	perciò	ADV	B	_	18	advmod	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	ancor	ancora	ADV	B	_	18	advmod	_	_
+20	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	obj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	ma	ma	CCONJ	CC	_	27	cc	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obl	_	_
+27	sì	sì	ADV	B	_	22	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Lei ha diritto di saper tutto da me.
+1	Lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpacesAfter=\s\s\s
+4	di	di	ADP	E	_	5	mark	_	_
+5	saper	sapere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

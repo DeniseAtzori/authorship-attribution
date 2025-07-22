@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Entrò allora nel tempio che era deserto.
+1	Entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	allora	allora	ADV	B	_	1	advmod	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tempio	tempio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	deserto	desrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = All'estremità della navata maggiore, davanti al vecchio altare dove un bassorilievo dorato risalta sullo sfondo di una tinta turchiniccia stridula e primitiva, era stato rizzato il catafalco.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	estremità	estremità	NOUN	S	Gender=Fem	32	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	navata	navata	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	davanti	davanti	ADV	B	_	13	case	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	altare	altare	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+14	dove	dove	ADV	B	_	18	advmod	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bassorilievo	bassorilievo	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	dorato	dorato	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	risalta	risaltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+19-20	sullo	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sfondo	sfondo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	tinta	tinta	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	turchiniccia	turchinicciare	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+26	stridula	stridula	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	primitiva	primitivo	ADJ	A	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	13	punct	_	_
+30	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+31	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	aux:pass	_	_
+32	rizzato	rizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	catafalco	catafalco	NOUN	S	Gender=Masc|Number=Sing	32	nsubj:pass	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 3
+# text = Lo scaccino girava ancora torno torno accomodando le pieghe del drappo nero;
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	scaccino	scaccino	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	girava	girare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	torno	torno	ADP	E	_	6	case	_	_
+6	torno	torno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	accomodando	accomodare	VERB	V	VerbForm=Ger	3	advcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	pieghe	piega	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	drappo	drappo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	nero	nero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = due banchi parati a lutto lo fiancheggiavano da una parte e dall'altra; alti candelabri tenevano gli angoli.
+1	due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	parati	parare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	lutto	lutto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	fiancheggiavano	fiancheggiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	18	punct	_	_
+16	alti	alto	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	candelabri	candelabro	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+18	tenevano	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	angoli	angolo	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

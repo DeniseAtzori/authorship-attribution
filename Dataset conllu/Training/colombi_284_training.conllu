@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ogni domenica la mamma veniva a vedermi con mia sorella; sedevo accanto a loro e facevamo lunghe conversazioni.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	vedermi	_	_	_	_	_	_	_	_
+7	veder	vedere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	13	punct	_	_
+13	sedevo	sedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	_
+14	accanto	accanto	ADV	B	_	16	case	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	13	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	facevamo	facere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	13	conj	_	_
+19	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	conversazioni	conversazione	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = La mamma s'informava de' miei studi;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+4	informava	informare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	de'	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	studi	studio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = la Margherita mi domandava se avevo scritto dei versi, e voleva vederli.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Margherita	Margherita	PROPN	SP	_	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	domandava	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	versi	verso	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14-15	vederli	_	_	_	_	_	_	_	SpaceAfter=No
+14	veder	vedere	VERB	V	VerbForm=Inf	4	conj	_	_
+15	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ma io passavo di volo sugli studi e sulla poesia.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	passavo	passare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	volo	volo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	sugli	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	studi	studio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Le mie facoltà intellettuali mi portavano alla letteratura, ma i miei gusti bellicosi mi facevano disprezzare quella gloria incruenta.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	facoltà	facoltà	NOUN	S	Gender=Fem	6	nsubj	_	_
+4	intellettuali	intellettuale	ADJ	A	Number=Plur	3	amod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+6	portavano	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	letteratura	letteratura	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	17	punct	_	_
+11	ma	ma	CCONJ	CC	_	17	cc	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+15	bellicosi	bellicoso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+18	disprezzare	disprezzare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+19	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	incruenta	incruento	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

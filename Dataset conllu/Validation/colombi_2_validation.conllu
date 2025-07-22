@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ahimè!
+1	Ahimè	ahimé	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = In tutta buona fede avrei accettato allora di passare la vita senza un'altra gioia, nè un altro affetto, nè un altro interesse, nè un'altra ambizione, fuorchè l'amore di quella donna.
+1	In	in	ADP	E	_	4	case	_	_
+2	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	4	det	_	_
+3	buona	buono	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	fede	fede	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	accettato	accettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	allora	allora	ADV	B	_	6	advmod	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	passare	passare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vita	vita	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	senza	senza	ADP	E	_	15	case	_	_
+13	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	altra	altro	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	nè	né	CCONJ	CC	_	20	cc	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	altro	altro	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	nè	né	CCONJ	CC	_	25	cc	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	altro	altro	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	nè	né	CCONJ	CC	_	30	cc	_	_
+28	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+29	altra	altro	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	ambizione	ambizione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	fuorchè	fuorché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	37	det	_	_
+37	donna	donna	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Non mi credevo suscettibile di altro sentimento.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	credevo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	suscettibile	suscettibile	ADJ	A	Number=Sing	3	xcomp	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	altro	altro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Al confronto di quell'attrazione potente, irresistibile, gli altri sentimenti mi sembravano meschine convenzioni sociali.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	quell'	quello	DET	DD	Number=Sing|PronType=Dem	6	det	_	SpaceAfter=No
+6	attrazione	attrazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	potente	potente	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	irresistibile	irresistibile	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	altri	altro	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	sembravano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	meschine	meschino	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+17	convenzioni	convenzione	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	sociali	sociale	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

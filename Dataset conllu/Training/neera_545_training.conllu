@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ricordo una cugina, grande; era maritata;
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cugina	cugina	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	grande	grande	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	9	punct	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+9	maritata	maritato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = non so di che età, ma giovane o almeno mi sembrava tale;
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	che	che	DET	DQ	PronType=Int	5	det	_	_
+5	età	età	NOUN	S	Gender=Fem	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	giovane	giovane	ADJ	A	Number=Sing	2	conj	_	_
+9	o	o	CCONJ	CC	_	12	cc	_	_
+10	almeno	almeno	ADV	B	_	12	advmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+13	tale	tale	PRON	PD	Number=Sing|PronType=Dem	12	obj	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = una mite creatura che vedevo raramente in casa del vescovo e mai altrove; aveva i capelli neri neri, pettinati lisci intorno alla fronte bianchissima.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mite	mito	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	creatura	creatura	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	raramente	raramente	ADV	B	_	5	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vescovo	vescovo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	mai	mai	ADV	B	_	14	advmod	_	_
+14	altrove	altrove	ADV	B	_	5	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	16	punct	_	_
+16	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	neri	nero	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+20	neri	nero	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	pettinati	pettinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+23	lisci	lisce	ADJ	A	Gender=Masc|Number=Plur	22	xcomp	_	_
+24	intorno	intorno	ADV	B	_	27	case	_	_
+25-26	alla	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	fronte	fronte	NOUN	S	Number=Sing	23	obl	_	_
+28	bianchissima	biancho	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mi voleva bene, mi proteggeva;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	proteggeva	proteggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = quando mi sgridavano troppo (perchè io fui sempre sgridato in tutta la mia vita) mi attirava a sè e mi nascondeva la faccia nel suo grembo.
+1	quando	quando	SCONJ	CS	_	3	mark	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	sgridavano	sgridare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
+4	troppo	troppo	ADV	B	_	3	advmod	_	_
+5	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+6	perchè	perché	SCONJ	CS	_	10	mark	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	sempre	sempre	ADV	B	_	10	advmod	_	_
+10	sgridato	sgridare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	in	in	ADP	E	_	15	case	_	_
+12	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	15	det:predet	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	10	punct	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
+18	attirava	attirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	obl	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+23	nascondeva	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	grembo	grembo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

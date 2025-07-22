@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Dà retta, — mi diceva.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Dà	dà	PROPN	SP	_	0	root	_	_
+3	retta	retto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	—	—	PUNCT	FF	_	7	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = — Codeste cose sono buone per le signorine venute al meno, che hanno la famiglia in città.
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	Codeste	Codesta	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	cose	coso	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	buone	buono	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	signorine	signorina	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	venute	venire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	meno	meno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	città	città	NOUN	S	Gender=Fem	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = — Andranno all'ufficio come tu dici;
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Andranno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	come	come	ADP	E	_	8	mark	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+8	dici	dire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ma accompagnate dalla mamma o dal babbo; e, fuori di là, saranno ancora coi loro parenti.
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	accompagnate	accompagnare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	dalla	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	2	obl:agent	_	_
+6	o	o	CCONJ	CC	_	9	cc	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	22	punct	_	_
+11	e	e	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	fuori	fuori	ADV	B	_	15	case	_	_
+14	di	di	ADP	E	_	13	fixed	_	_
+15	là	là	ADV	B	_	22	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	cop	_	_
+18	ancora	ancora	ADV	B	_	22	advmod	_	_
+19-20	coi	_	_	_	_	_	_	_	_
+19	con	con	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	parenti	parente	NOUN	S	Number=Plur	2	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Per quelle lo capisco;
+1	Per	per	ADP	E	_	2	case	_	_
+2	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+3	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	capisco	capire	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = è un lavoro come un altro.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = E poi ancora, se dentro gli uffici debbono stare cogli impiegati, non ce le dovrebbero mettere prima de' venticinque o trent'anni.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	poi	poi	ADV	B	_	10	advmod	_	_
+3	ancora	ancora	ADV	B	_	10	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	se	se	SCONJ	CS	_	10	mark	_	_
+6	dentro	dentro	ADV	B	_	10	advmod	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	uffici	ufficio	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	debbono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	stare	stare	VERB	V	VerbForm=Inf	0	root	_	_
+11-12	cogli	_	_	_	_	_	_	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	impiegati	impiegato	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+16	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+17	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+18	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	mettere	mettere	VERB	V	VerbForm=Inf	10	conj	_	_
+20	prima	prima	ADV	B	_	26	case	_	_
+21-22	de'	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	20	fixed	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+23	venticinque	venticinque	NUM	N	NumType=Card	26	nummod	_	_
+24	o	o	CCONJ	CC	_	25	cc	_	_
+25	trent'	trenta	NUM	N	NumType=Card	23	conj	_	SpaceAfter=No
+26	anni	anno	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

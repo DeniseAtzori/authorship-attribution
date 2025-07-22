@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una sera, nel dicembre, venendo dalla fontana, trovò don Ottaviano il parroco, Nicola Passaretti e Crescenzo che discutevano vivamente:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	venendo	venire	VERB	V	VerbForm=Ger	13	advcl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fontana	fontana	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	don	don	PROPN	SP	_	13	obj	_	_
+15	Ottaviano	Ottaviano	PROPN	SP	_	14	flat:name	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	parroco	parroco	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	Nicola	Nicola	PROPN	SP	_	14	nmod	_	_
+20	Passaretti	Passaretti	PROPN	SP	_	19	flat:name	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	Crescenzo	Crescenzo	PROPN	SP	_	19	conj	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	discutevano	discutere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+25	vivamente	vivo	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 2
+# text = questi tre andarono poscia a visitare Ciccotto e parlarono di nuovo.
+1	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nsubj	_	_
+3	andarono	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	poscia	poscia	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	visitare	visitare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	Ciccotto	Ciccotto	PROPN	SP	_	6	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	parlarono	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Lei non comprese.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	comprese	comprendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ma la sera del giorno seguente venne da Carinola Sabatino il macellaio e a Teresa si aggiunse Rosaria, la serva di Gasparre Rossi.
+1	Ma	ma	CCONJ	CC	_	18	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	seguente	seguente	ADJ	A	Number=Sing	6	amod	_	_
+8	venne	venire	ADJ	A	Number=Sing	3	amod	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	Carinola	Carinola	PROPN	SP	_	8	obl	_	_
+11	Sabatino	Sabatino	PROPN	SP	_	10	flat:name	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	macellaio	macellaio	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Teresa	Teresa	PROPN	SP	_	13	conj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	aggiunse	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	Rosaria	Rosaria	PROPN	SP	_	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	serva	serva	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Gasparre	Gasparre	PROPN	SP	_	22	nmod	_	_
+25	Rossi	Rossi	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

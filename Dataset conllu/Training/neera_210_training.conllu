@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Solamente è accendere ben molte girandole per ottenere un lumino da cercar lumache.
+1	Solamente	solo	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	accendere	accendere	VERB	V	VerbForm=Inf	0	root	_	_
+4	ben	bene	ADV	B	_	3	advmod	_	_
+5	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	girandole	girandola	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	ottenere	ottenere	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lumino	lumino	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	cercar	cercare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	lumache	lumaca	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Quando la gloria e il guadagno debbono restare così lontani, non val meglio rinunciare ad una impresa dove si sciupano invano tante energie che troverebbero migliore impiego altrove?
+1	Quando	quando	SCONJ	CS	_	8	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	guadagno	guadagno	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7	debbono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	restare	restare	VERB	V	VerbForm=Inf	13	advcl	_	_
+9	così	così	ADV	B	_	10	advmod	_	_
+10	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	val	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	meglio	meglio	ADV	B	_	13	advmod	_	_
+15	rinunciare	rinunciare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	ad	a	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	dove	dove	ADV	B	_	21	advmod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	sciupano	sciupare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	invano	invano	ADV	B	_	21	advmod	_	_
+23	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+24	energie	energia	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	troverebbero	trovare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	28	amod	_	_
+28	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	altrove	altrove	ADV	B	_	26	advmod	_	SpaceAfter=No
+30	?	?	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Questo io dico alle donne seriamente, onestamente, persuasa di fare a qualcuna un momentaneo dispiacere, e me ne duole, ma più persuasa ancora di evitare loro rancori e disinganni.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	seriamente	seriamente	ADV	B	_	9	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	onestamente	onestamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	persuasa	persuasa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	a	a	ADP	E	_	18	case	_	_
+15	qualcuna	qualcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	momentaneo	momentaneo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	dispiacere	dispiacere	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+22	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	23	iobj	_	_
+23	duole	duole	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	ma	ma	CCONJ	CC	_	27	cc	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	persuasa	persuasa	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	_
+28	ancora	ancora	ADV	B	_	27	advmod	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	evitare	evitare	VERB	V	VerbForm=Inf	27	advcl	_	_
+31	loro	loro	DET	AP	Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	rancori	rancoro	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	disinganni	disinganno	NOUN	S	Gender=Masc|Number=Plur	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,146 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non così _madame Héliotrope_!
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	così	così	ADV	B	_	4	advmod	_	_
+3	_madame	_madame	ADP	E	_	4	case	_	_
+4	Héliotrope_	Héliotrope-	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ella pareva perfettamente convinta che la loro unione temporanea sarebbe finita fra non molto per non riannodarsi più, mai più;
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	pareva	parere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	perfettamente	perfettamente	ADV	B	_	4	advmod	_	_
+4	convinta	convincere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	unione	unione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	temporanea	temporaneo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+12	fra	fra	ADP	E	_	14	case	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	molto	molto	ADV	B	_	11	advmod	_	_
+15	per	per	ADP	E	_	17	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17-18	riannodarsi	_	_	_	_	_	_	_	_
+17	riannodar	riannodare	VERB	V	VerbForm=Inf	11	advcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	più	più	ADV	B	_	17	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	mai	mai	ADV	B	_	22	advmod	_	_
+22	più	più	ADV	B	_	4	advmod	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = ella si prodigava tanto e parlava del suo avvenire senza Paolo, con una perfetta disinvoltura.
+1	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	prodigava	prodigare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	tanto	tanto	ADV	B	_	3	advmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	Paolo	Paolo	PROPN	SP	_	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	disinvoltura	disinvoltura	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = L'amante sorrideva e lasciava l'amata al suo gentile e ostinato capriccio.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amante	amante	NOUN	S	Number=Sing	3	nsubj	_	_
+3	sorrideva	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	lasciava	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	amata	amato	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	14	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+11	gentile	gentile	ADJ	A	Number=Sing	14	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	ostinato	ostinato	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	_
+14	capriccio	capriccio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Quando due si amano, nulla li divide, neppure la loro volontà: e il patto sarebbe caduto.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	due	due	NUM	N	NumType=Card	4	nummod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	amano	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	8	nsubj	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+8	divide	dividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	neppure	neppure	ADV	BN	PronType=Neg	13	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	loro	loro	DET	AP	Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	volontà	volontà	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	8	punct	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	patto	patto	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Così, _madame Héliotrope_ era più ardente, più appassionata, più intiera, nell'amore che doveva avere una tanto breve scadenza:
+1	Così	così	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	_madame	_madama	ADP	E	_	4	case	_	_
+4	Héliotrope_	ExtraSubj=Yes|Héliotrope_	PROPN	SP	_	7	obl	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	ardente	ardente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	appassionata	appassionato	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	intiera	intiero	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15-16	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	in	in	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	avere	avere	VERB	V	VerbForm=Inf	17	acl:relcl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+22	tanto	tanto	ADV	B	_	23	advmod	_	_
+23	breve	breve	ADJ	A	Number=Sing	24	amod	_	_
+24	scadenza	scadenza	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 7
+# text = mentre Paolo Collemagno amava meno, sapendo, di dover amar sempre.
+1	mentre	mentre	SCONJ	CS	_	4	mark	_	_
+2	Paolo	Paolo	PROPN	SP	_	4	nsubj	_	_
+3	Collemagno	Collemagno	PROPN	SP	_	2	flat:name	_	_
+4	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	meno	meno	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	sapendo	sapere	VERB	V	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	di	di	ADP	E	_	11	mark	_	_
+10	dover	dovere	AUX	VM	VerbForm=Inf	11	aux	_	_
+11	amar	amare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+12	sempre	sempre	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nessun uomo mai ha saputo, nessun uomo saprà mai chi sia e che cosa sia Massimo Dias.
+1	Nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	mai	mai	ADV	B	_	5	advmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	saprà	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+10	mai	mai	ADV	B	_	9	advmod	_	_
+11	chi	chi	PRON	PR	Number=Sing|PronType=Rel	17	nsubj	_	_
+12	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	che	che	DET	DQ	PronType=Int	15	det	_	_
+15	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	Massimo	Massimo	PROPN	SP	_	5	acl:relcl	_	_
+18	Dias	Dias	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Per conoscerlo, per intenderlo, per apprezzarlo in quel che è, in quel che vale, ci vuole una donna:
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	conoscerlo	_	_	_	_	_	_	_	SpaceAfter=No
+2	conoscer	conoscere	VERB	V	VerbForm=Inf	23	advcl	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6-7	intenderlo	_	_	_	_	_	_	_	SpaceAfter=No
+6	intender	intendere	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	apprezzarlo	_	_	_	_	_	_	_	_
+10	apprezzar	apprezzarre	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
+23	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	donna	donna	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	23	punct	_	_
+
+# sent_id = 3
+# text = e una donna che lo abbia avuto per amante come me, o che, almeno, sia stata amata da lui.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	amante	amante	NOUN	S	Number=Sing	7	obl	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	20	punct	_	_
+13	o	o	CCONJ	CC	_	20	cc	_	_
+14	che	che	PRON	PR	PronType=Rel	20	nsubj:pass	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	almeno	almeno	ADV	B	_	20	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl:agent	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

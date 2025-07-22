@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nervi irritati, collere, disprezzi, desiderii, morbosità, vigliaccherie, mestizie incurabili, tutte le miserie e tutte le grandezze umane, viaggianti in quel treno notturno, posavano, nella grande dolcezza dell'addormentamento.
+1	Nervi	Nervo	NOUN	S	Gender=Masc|Number=Plur	32	nsubj	_	_
+2	irritati	irritato	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	collere	collere	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	disprezzi	disprezzo	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	desiderii	desiderio	ADJ	NO	Number=Sing|NumType=Ord	1	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	morbosità	morbosità	NOUN	S	Gender=Fem	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	vigliaccherie	vigliaccheria	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	mestizie	mestizia	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+15	incurabili	incurabile	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	19	det:predet	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	miserie	miseria	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	23	det:predet	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	grandezze	grandezzo	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+24	umane	umano	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	viaggianti	viaggiare	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	1	acl	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	treno	treno	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	notturno	notturno	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	1	punct	_	_
+32	posavano	posare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34-35	nella	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	37	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	grande	grande	ADJ	A	Number=Sing	37	amod	_	_
+37	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+38-39	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+38	di	di	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	addormentamento	addormentamento	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 2
+# text = Il treno si portava via, alla loro sorte, triste, buona, mediocre, quegli spiriti sognanti e quelle forme abbattute nella quiete:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	treno	treno	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	via	via	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	triste	triste	ADJ	A	Number=Sing	4	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	buona	buono	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	mediocre	mediocre	VERB	V	VerbForm=Inf	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+19	spiriti	spirito	NOUN	S	Gender=Masc|Number=Plur	4	appos	_	_
+20	sognanti	sognante	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
+23	forme	forme	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+24	abbattute	abbattere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	quiete	quieta	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = quegli esseri godevano la profonda voluttà dell'annichilimento senza dolore, lasciando a una forza, fuor di loro, il trasportarli lontano.
+1	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	godevano	godere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	voluttà	voluttà	NOUN	S	Gender=Fem	3	obj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	annichilimento	annichilimento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	lasciando	lasciare	VERB	V	VerbForm=Ger	3	advcl	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	forza	forza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	fuor	fuora	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23-24	trasportarli	_	_	_	_	_	_	_	_
+23	trasportar	trasportare	VERB	V	VerbForm=Inf	3	conj	_	_
+24	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+25	lontano	lontano	ADV	B	_	23	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

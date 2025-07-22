@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Ch'egli era venuto al mondo in un quadro, e con due cuori.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ch'	perché	SCONJ	CS	_	5	mark	_	SpaceAfter=No
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	due	due	NUM	N	NumType=Card	16	nummod	_	_
+16	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ed aveva sempre vissuto in un quadro:
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = e perchè aveva due cuori era morto due volte.
+1	e	e	CCONJ	CC	_	7	cc	_	_
+2	perchè	poiperché	SCONJ	CS	_	3	mark	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	volte	volta	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Ma però la vita della gente che parla e ride e cammina non la sapeva, perchè nei quadri si vive in una continua tempesta;
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	però	però	ADV	B	_	13	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	ride	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	cammina	camminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	sapeva	sapere	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	perchè	perché	SCONJ	CS	_	23	mark	_	_
+19-20	nei	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	quadri	quadro	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+24	in	in	ADP	E	_	27	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	continua	continuo	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 5
+# text = ed omai voleva provarla anche lui quella esistenza tranquilla senza cornice...»
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	omai	omai	ADV	B	_	4	advmod	_	_
+3	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4-5	provarla	_	_	_	_	_	_	_	_
+4	provar	provare	VERB	V	VerbForm=Inf	0	root	_	_
+5	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+10	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	cornice...	cornice...	NOUN	S	_	9	nmod	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	4	punct	_	SpacesAfter=\n
+

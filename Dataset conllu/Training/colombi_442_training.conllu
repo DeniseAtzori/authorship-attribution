@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Scusa, interruppe la zia, lascia che questa storia la racconti io che la conosco meglio.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Scusa	scusa	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	interruppe	interrompere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	zia	zia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	lascia	lasciare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	storia	storia	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	racconti	racconto	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	xcomp	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	meglio	meglio	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Il qualcuno sapeva perfettamente d'essere amato, ed aveva fatta la sua brava corte per riescirci.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	perfettamente	perfettamente	ADV	B	_	3	advmod	_	_
+5	d'	di	ADP	E	_	7	mark	_	SpaceAfter=No
+6	essere	essere	AUX	VA	VerbForm=Inf	7	aux	_	_
+7	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	brava	bravo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	corte	corte	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17-18	riescirci	_	_	_	_	_	_	_	SpaceAfter=No
+17	riescir	riescire	VERB	V	VerbForm=Inf	15	acl	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	obj	_	_
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma se gli era caro farsi amare, ed essere preferito in società dalla zia che era una bella signorina molto elegante, gli era anche più cara la sua libertà;
+1	Ma	ma	CCONJ	CC	_	30	cc	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	caro	caro	ADJ	A	Gender=Masc|Number=Sing	30	advcl	_	_
+6-7	farsi	_	_	_	_	_	_	_	_
+6	far	fare	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	amare	amare	VERB	V	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ed	e	CCONJ	CC	_	12	cc	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	preferito	preferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	società	società	NOUN	S	Gender=Fem	12	obl	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	zia	zia	NOUN	S	Gender=Fem|Number=Sing	12	obl:agent	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	bella	bello	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	signorina	signorina	NOUN	S	Gender=Fem|Number=Sing	17	acl:relcl	_	_
+23	molto	molto	ADV	B	_	24	advmod	_	_
+24	elegante	elegante	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+26	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	iobj	_	_
+27	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
+28	anche	anche	ADV	B	_	30	advmod	_	_
+29	più	più	ADV	B	_	30	advmod	_	_
+30	cara	caro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	libertà	libertà	NOUN	S	Gender=Fem	30	nsubj	_	SpaceAfter=No
+34	;	;	PUNCT	FC	_	30	punct	_	_
+
+# sent_id = 4
+# text = e respingeva sempre nelle penombre d'un avvenire indeterminato la famosa catena coniugale, il cui nodo gordiano gli faceva paura.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	respingeva	respingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	penombre	penombre	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	indeterminato	indeterminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	famosa	famoso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	catena	catena	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	coniugale	coniugale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	cui	cui	DET	DR	PronType=Rel	18	det:poss	_	_
+18	nodo	nodo	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	gordiano	gordiano	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
+21	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+22	paura	paura	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

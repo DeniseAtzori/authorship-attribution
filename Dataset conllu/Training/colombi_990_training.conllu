@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «A Cerano, poco fuori dal paese, c’era un ponte sulla Morra, alto come un secondo piano, ed anche più.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	A	a	ADP	E	_	3	case	_	_
+3	Cerano	Cerano	PROPN	SP	_	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	poco	poco	ADV	B	_	6	advmod	_	_
+6	fuori	fuori	ADV	B	_	9	case	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+12	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Morra	Morra	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	alto	alto	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+20	come	come	ADP	E	_	23	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	piano	piano	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	ed	e	CCONJ	CC	_	27	cc	_	_
+26	anche	anche	ADV	B	_	27	advmod	_	_
+27	più	più	ADV	B	_	14	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Si chiamava:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = _Il ponte del diavolo_.
+1	_Il	_Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	diavolo_	ExtraSubj=Yes|diavolo_	PUNCT	FB	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Vi sono molti ponti che si chiamano così, sebbene non abbiano nulla di tremendo, di diabolicamente pauroso e bello, come il _Ponte del diavolo_ che i viaggiatori vanno ad ammirare sulla via del Gottardo.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	ponti	ponte	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	chiamano	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	così	così	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	sebbene	sebbene	CCONJ	CC	_	12	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	abbiano	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	12	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	tremendo	tremendo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	diabolicamente	diabolicamente	ADV	B	_	19	advmod	_	_
+19	pauroso	pauroso	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	bello	bello	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	come	come	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	_Ponte	_Ponte	PROPN	SP	_	32	obl	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	32	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+28	diavolo_	diavolo-	PUNCT	FB	_	32	punct	_	_
+29	che	che	SCONJ	CS	_	32	mark	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	viaggiatori	viaggiatore	NOUN	S	Gender=Masc|Number=Plur	32	nsubj	_	_
+32	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+33	ad	a	ADP	E	_	34	mark	_	_
+34	ammirare	ammirare	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35-36	sulla	_	_	_	_	_	_	_	_
+35	su	su	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	via	via	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Gottardo	Gottardo	PROPN	SP	_	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

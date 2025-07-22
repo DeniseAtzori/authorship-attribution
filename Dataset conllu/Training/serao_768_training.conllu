@@ -1,0 +1,134 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era alta la notte;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	alta	alto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = nella strada non passava alcuno;
+1-2	nella	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	strada	strada	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	alcuno	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = spesso, il freddo vento notturno agitava le fioche luci dei lampioni, riempiendo la via di bizzarre forme oscure;
+1	spesso	spesso	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	vento	vento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	notturno	notturno	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	agitava	agitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	fioche	fioca	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	luci	luce	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	lampioni	lampione	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	riempiendo	riempire	VERB	V	VerbForm=Ger	7	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	via	via	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	bizzarre	bizzarre	VERB	V	VerbForm=Inf	17	acl	_	_
+20	forme	forma	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+21	oscure	oscuro	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = o qualche viandante in ritardo, ignoto, a capo basso, passava senz'accorgersi di quel balcone quietamente, mitemente, illuminato, dietro il quale stava un'ombra immobile;
+1	o	o	CCONJ	CC	_	3	cc	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	viandante	viandante	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	ignoto	ignoto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	capo	capo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+11	basso	basso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	senz'	senza	ADP	E	_	15	mark	_	SpaceAfter=No
+15-16	accorgersi	_	_	_	_	_	_	_	_
+15	accorger	accorgere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	balcone	balcone	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	quietamente	quieto	ADV	B	_	13	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	mitemente	mitemente	ADV	B	_	13	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	13	punct	_	_
+24	illuminato	illuminare	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	13	punct	_	_
+26	dietro	dietro	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	quale	quale	PRON	PR	Number=Sing|PronType=Rel	29	obl	_	_
+29	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+30	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	immobile	immobile	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 5
+# text = qualche malinconica carrozza notturna, vuota, dal cocchiere sonnacchioso, dal sonnacchioso cavallo, veniva lentamente dall'alta ombra della via, si perdeva lentamente, lontana, nella bassa ombra della via.
+1	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+2	malinconica	malinconico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+4	notturna	notturno	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cocchiere	cocchiere	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+11	sonnacchioso	sonnacchioso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	sonnacchioso	sonnacchioso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	cavallo	cavallo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	lentamente	lentamente	ADV	B	_	18	advmod	_	_
+20-21	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+20	da	da	ADP	E	_	23	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+22	alta	alto	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	via	via	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	perdeva	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+30	lentamente	lentamente	ADV	B	_	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	29	punct	_	_
+32	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	29	xcomp	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	18	punct	_	_
+34-35	nella	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	37	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+37	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	via	via	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

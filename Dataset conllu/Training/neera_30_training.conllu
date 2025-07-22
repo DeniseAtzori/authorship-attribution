@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciò che ora esse vogliono non vale la pena del cambio.
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+3	ora	ora	ADV	B	_	7	advmod	_	_
+4	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+5	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	pena	pena	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Quand’anche riuscissero a fare quello che fa l’uomo, chi farebbe quello che non vogliono fare più?
+1	Quand’	Quandi	ADP	E	_	3	mark	_	SpaceAfter=No
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	riuscissero	riuscire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	chi	chi	PRON	PR	PronType=Rel	3	nsubj	_	_
+13	farebbe	fare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	fare	fare	VERB	V	VerbForm=Inf	14	acl:relcl	_	_
+19	più	più	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Esse credono di offrire buon giuoco al loro orgoglio e mai furono tanto umili confessando implicitamente di non aver fatto fin qui nulla che valga.
+1	Esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	offrire	offrire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	buon	buono	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	giuoco	giuoco	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	mai	mai	ADV	B	_	15	advmod	_	_
+13	furono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+14	tanto	tanto	ADV	B	_	15	advmod	_	_
+15	umili	umile	ADJ	A	Number=Plur	2	conj	_	_
+16	confessando	confessare	VERB	V	VerbForm=Ger	15	advcl	_	_
+17	implicitamente	implicitamente	ADV	B	_	16	advmod	_	_
+18	di	di	ADP	E	_	21	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	aver	avere	AUX	VA	VerbForm=Inf	21	aux	_	_
+21	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	xcomp	_	_
+22	fin	fino	ADP	E	_	23	case	_	_
+23	qui	qui	ADV	B	_	21	advmod	_	_
+24	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	obj	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	valga	valere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

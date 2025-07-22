@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Avevo perduto i genitori poco dopo la mia maggiorità, ed avevo menato una vita alquanto allegra, troppo forse, da cui m'ero ritirato da qualche anno col patrimonio ridotto a metà, e le facoltà digestive ridotte a zero.
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	poco	poco	ADV	B	_	9	advmod	_	_
+6	dopo	dopo	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	maggiorità	maggiorità	NOUN	S	Gender=Fem	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ed	e	CCONJ	CC	_	13	cc	_	_
+12	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	menato	menare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	alquanto	alquanto	ADV	B	_	17	advmod	_	_
+17	allegra	allegro	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	troppo	troppo	ADV	B	_	20	advmod	_	_
+20	forse	forse	ADV	B	_	17	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	15	punct	_	_
+22	da	da	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	26	obl	_	_
+24	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	obj	_	SpaceAfter=No
+25	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	ritirato	ritirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+29	anno	anno	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30-31	col	_	_	_	_	_	_	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+33	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	metà	metà	NOUN	S	Gender=Fem	33	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	39	punct	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	facoltà	facoltà	NOUN	S	Gender=Fem	2	conj	_	_
+40	digestive	digestivo	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+41	ridotte	ridurre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	39	acl	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	zero	zero	NUM	N	NumType=Card	41	nummod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non più pranzi d'amici, nè cene, nè ritrovi giovanili.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	pranzi	pranzi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	amici	amico	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	nè	né	CCONJ	CC	_	8	cc	_	_
+8	cene	cena	ADV	B	_	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	nè	né	CCONJ	CC	_	11	cc	_	_
+11	ritrovi	ritrovo	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+12	giovanili	giovanili	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ciascuno di codesti spassi lo scontavo, ormai, con una piccola malattia; ed avevo finito per condannarmi ad una vita d'isolamento, di bistecche e di _soda water_.
+1	Ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	codesti	codesto	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+4	spassi	spare	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	scontavo	scontavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	ormai	ormai	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	17	punct	_	_
+15	ed	e	CCONJ	CC	_	17	cc	_	_
+16	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	condannarmi	arma|condannarme	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+20	ad	a	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vita	vita	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+23	d'	di	ADP	E	_	24	case	_	SpaceAfter=No
+24	isolamento	isolamento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	bistecche	bistecca	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	_soda	_soda	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+31	water_	water-	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

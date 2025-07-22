@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Mi piacevate e mi piacete immensamente.
+1	--Mi	--Mi	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	piacevate	piacevare	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	piacete	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	immensamente	immenso	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = I vostri occhi così vivaci e tanto spesso pieni di malinconia, la vostra bocca sempre così fresca e dove il sorriso assume tante forme novelle e bizzarre, mi attirano irresistibilmente:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	vivaci	vivace	ADJ	A	Number=Plur	3	amod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	tanto	tanto	ADV	B	_	9	advmod	_	_
+8	spesso	spesso	ADV	B	_	9	advmod	_	_
+9	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	5	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+16	sempre	sempre	ADV	B	_	18	advmod	_	_
+17	così	così	ADV	B	_	18	advmod	_	_
+18	fresca	fresco	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20	dove	dove	ADV	B	_	23	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+23	assume	assumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+24	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	forme	forma	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+26	novelle	novei	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	bizzarre	bizzarre	ADJ	A	Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	31	iobj	_	_
+31	attirano	attirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+32	irresistibilmente	irresistibilmente	ADV	B	_	31	advmod	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = io adoro le vostre perfette mani e quando immagino che esse possano passare sui miei capelli, con una lenta carezza, fremo di un lungo brivido:
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	adoro	adorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+4	vostre	vostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+5	perfette	perfetto	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	mani	mano	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	quando	quando	SCONJ	CS	_	9	mark	_	_
+9	immagino	immagiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	passare	passare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+14-15	sui	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	con	con	ADP	E	_	22	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	lenta	lento	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	carezza	carezza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	fremo	fre	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	brivido	brivido	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = tutta la vostra persona esercita su me il fascino, che non si vince, dei corpi giovani e belli, fatti per l'amore...
+1	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	4	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	persona	persona	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	esercita	esercitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	corpi	corpio	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+19	giovani	giovane	ADJ	A	Number=Plur	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	belli	bello	ADJ	A	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	amore..	amore..	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

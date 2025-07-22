@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Che bisticcio!
+1	--Che	--Co	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	bisticcio	bisticcio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = esclamai figgendo sempre più i miei occhi ne' suoi e tenendole strette le mani.
+1	esclamai	esclamai	ADV	B	_	2	advmod	_	_
+2	figgendo	figgere	VERB	V	VerbForm=Ger	0	root	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	più	più	ADV	B	_	2	advmod	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+8-9	ne'	_	_	_	_	_	_	_	_
+8	ni	ne	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12-13	tenendole	_	_	_	_	_	_	_	_
+12	tenendo	tenere	VERB	V	VerbForm=Ger	2	conj	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+14	strette	stretta	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	mani	mano	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Siate sincera, Fulvia.
+1	Siate	Siato	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	sincera	sincera	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Fulvia	Fulvia	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Non fate dello spirito, non fate eccentricità.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dello	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	eccentricità	eccentricità	NOUN	S	Gender=Fem	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Siate un poco voi stessa.
+1	Siate	Siare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	poco	poco	ADV	B	_	4	advmod	_	_
+4	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	1	obj	_	_
+5	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = È vero che non mi amate più?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+6	amate	amare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	più	più	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Che una posa inelegante nel sonno ha potuto distruggere tutto il vostro amore?
+1	Che	che	SCONJ	CS	_	10	mark	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	posa	posa	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	inelegante	inelegante	ADJ	A	Number=Sing	3	amod	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux	_	_
+10	distruggere	distruggere	VERB	V	VerbForm=Inf	0	root	_	_
+11	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	14	det:predet	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Dite, Fulvia, non mi amate più?
+1	Dite	dire	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Fulvia	Fulvia	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	expl	_	_
+7	amate	amare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+8	più	più	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

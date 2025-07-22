@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Non vi nasconderò nulla, mi rispose.
+1	--Non	--Non	ADP	E	_	2	case	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+3	nasconderò	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
+4	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = --Ma non posso dirvi tutto ora, i vostri amici potrebbero venire;
+1	--Ma	--Ma	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	dirvi	_	_	_	_	_	_	_	_
+4	dir	dire	VERB	V	VerbForm=Inf	13	advcl	_	_
+5	vi	vi	ADV	B	_	4	advmod	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+7	ora	ora	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	venire	venire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 3
+# text = e poi certe cose sono più facili a scrivere che a dirsi.
+1	e	e	CCONJ	CC	_	7	cc	_	_
+2	poi	poi	ADV	B	_	7	advmod	_	_
+3	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	facili	facile	ADJ	A	Number=Plur	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	scrivere	scrivere	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12-13	dirsi	_	_	_	_	_	_	_	SpaceAfter=No
+12	dir	dire	VERB	V	VerbForm=Inf	9	ccomp	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Vi scriverò.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	scriverò	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Vi scriverò questa notte, e domani saprete tutto.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	scriverò	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	domani	domani	ADV	B	_	8	advmod	_	_
+8	saprete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	2	conj	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ma non sarà perchè mi aiutiate a sciogliermi dal mio impegno.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	perchè	poiperché	SCONJ	CS	_	6	mark	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+6	aiutiate	aiutiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	sciogliermi	sciogliermo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Sarà per giustificare, se è possibile, il mio strano contegno con voi.
+1	Sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	giustificare	giustificare	VERB	V	VerbForm=Inf	1	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	possibile	possibile	ADJ	A	Number=Sing	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	strano	strano	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	contegno	contegno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

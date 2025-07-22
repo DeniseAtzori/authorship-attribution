@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fino a pochi anni prima che io le conoscessi molto davvicino, le due zitellone avevano avuto la madre completamente cieca.
+1	Fino	fino	ADV	B	_	4	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+5	prima	prima	ADV	B	_	9	mark	_	_
+6	che	che	SCONJ	CS	_	5	fixed	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	conoscessi	conoscettere	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	davvicino	davvicino	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	zitellone	zitellone	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+16	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	madre	madre	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	completamente	completo	ADV	B	_	21	advmod	_	_
+21	cieca	cieco	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2
+# text = A quell'epoca un cugino parroco, cedeva alla vecchia parente un quartierino, annesso alla sua parrocchia di S. Giovanni; quattro camere ed un giardinetto.
+1	A	a	ADP	E	_	3	case	_	_
+2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	parroco	parroco	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	cedeva	cedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	parente	parente	NOUN	S	Number=Sing	8	obl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	quartierino	quartierino	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	annesso	annesso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	parrocchia	parrocchia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	S.	S.	PROPN	SP	_	20	nmod	_	_
+23	Giovanni	Giovanni	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	26	punct	_	_
+25	quattro	quattro	NUM	N	NumType=Card	26	nummod	_	_
+26	camere	camera	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+27	ed	e	CCONJ	CC	_	29	cc	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	giardinetto	giardinetto	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Lo cedeva gratuitamente, a condizione che le tre donne tenessero in ordine la biancheria della chiesa ed i paramenti.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	cedeva	cedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	gratuitamente	gratuitamente	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	tre	tre	NUM	N	NumType=Card	10	nummod	_	_
+10	donne	donna	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+11	tenessero	tenere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	biancheria	biancheria	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	ed	e	CCONJ	CC	_	21	cc	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	paramenti	paramento	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

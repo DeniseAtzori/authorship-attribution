@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In quel tempo, per mia colpa, dunque--più tardi, poi, intesi che era per colpa di Giustino Morelli--io finii per intorbidare la sorgente di ogni mia consolazione.
+1	In	in	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	dunque-	_	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	-più	-più	ADV	B	_	15	advmod	_	_
+11	tardi	tardi	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	poi	poi	ADV	B	_	15	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	intesi	intendere	ADJ	A	Number=Plur	7	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	7	acl:relcl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Giustino	Giustino	PROPN	SP	_	19	nmod	_	_
+22	Morelli	Morelli	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+24	-io	-io	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	finii	finii	ADJ	NO	Number=Sing|NumType=Ord	24	amod	_	_
+26	per	per	ADP	E	_	27	mark	_	_
+27	intorbidare	intorbidare	VERB	V	VerbForm=Inf	24	acl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	sorgente	sorgente	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	33	det	_	_
+32	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	consolazione	consolazione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Mentre prima ogni sua tenerezza mi sembrava una ricca parte fattami dal destino, e ne ringraziavo questo destino, adesso non me ne contentavo più.
+1	Mentre	mentre	SCONJ	CS	_	7	mark	_	_
+2	prima	prima	ADV	B	_	7	advmod	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	advcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	fattami	fattamare	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	destino	destino	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+18	ringraziavo	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	conj	_	_
+19	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	destino	destino	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	7	punct	_	_
+22	adesso	adesso	ADV	B	_	26	advmod	_	_
+23	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+24	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	expl	_	_
+25	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	26	iobj	_	_
+26	contentavo	contentavare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+27	più	più	ADV	B	_	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	26	punct	_	SpacesAfter=\n
+

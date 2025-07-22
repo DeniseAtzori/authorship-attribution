@@ -1,0 +1,139 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Herz è stato molto innamorato, molto fedele, molto passionale e insieme molto sentimentale, senza soffrire troppo, poichè le donne che lo hanno amato, erano alla sua altezza.
+1	Herz	Herz	PROPN	SP	_	5	nsubj:pass	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	innamorato	innamorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	fedele	fedele	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	passionale	passionale	ADJ	A	Number=Sing	5	amod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	insieme	insieme	ADV	B	_	15	advmod	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	sentimentale	sentimentale	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	senza	senza	ADP	E	_	18	mark	_	_
+18	soffrire	soffrire	VERB	V	VerbForm=Inf	5	advcl	_	_
+19	troppo	troppo	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	poichè	poiché	SCONJ	CS	_	33	mark	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	donne	donna	NOUN	S	Gender=Fem|Number=Plur	33	nsubj	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+26	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	23	punct	_	_
+29	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	33	cop	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	18	advcl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Così gli è entrata nell'anima una fatale fiducia di se stesso e dell'amore;
+1	Così	così	ADV	B	_	4	advmod	_	_
+2	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	entrata	entrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	anima	anima	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	fatale	fatale	ADJ	A	Number=Sing	10	amod	_	_
+10	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	nmod	_	_
+13	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = egli ha finito di temere le debolezze del suo temperamento;
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	temere	temere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	debolezze	debolezza	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	temperamento	temperamento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = egli è stato _certo_ di vincere _sempre_, vincere dandosi all'amore, naturalmente, tutto quanto, ma dandosi in una perfetta armonia di abbandono, ricevendo per quanto dava, inteso per quanto intendeva, compreso e preso per quanto egli comprendeva e prendeva: e non soffrendo.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+4	_certo_	_certo-	ADJ	NO	NumType=Ord	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	vincere	vincere	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	_sempre_	_sempre-	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	vincere	vincere	VERB	V	VerbForm=Inf	6	conj	_	_
+10-11	dandosi	_	_	_	_	_	_	_	_
+10	dando	dare	VERB	V	VerbForm=Ger	9	advcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	naturalmente	naturalmente	ADV	B	_	6	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	_
+19	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	18	fixed	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	6	punct	_	_
+21	ma	ma	CCONJ	CC	_	22	cc	_	_
+22-23	dandosi	_	_	_	_	_	_	_	_
+22	dando	dare	VERB	V	VerbForm=Ger	6	advcl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	in	in	ADP	E	_	27	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	armonia	armonia	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	22	punct	_	_
+31	ricevendo	ricevere	VERB	V	VerbForm=Ger	22	advcl	_	_
+32	per	per	ADP	E	_	33	case	_	_
+33	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	31	obl	_	_
+34	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	31	punct	_	_
+36	inteso	intendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl:relcl	_	_
+37	per	per	ADP	E	_	38	case	_	_
+38	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	36	obl	_	_
+39	intendeva	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	acl:relcl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	41	punct	_	_
+41	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	conj	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	conj	_	_
+44	per	per	ADP	E	_	45	case	_	_
+45	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	43	obl	_	_
+46	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	nsubj	_	_
+47	comprendeva	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	acl:relcl	_	_
+48	e	e	CCONJ	CC	_	49	cc	_	_
+49	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	conj	_	SpaceAfter=No
+50	:	:	PUNCT	FC	_	49	punct	_	_
+51	e	e	CCONJ	CC	_	53	cc	_	_
+52	non	non	ADV	BN	PronType=Neg	53	advmod	_	_
+53	soffrendo	soffrire	VERB	V	VerbForm=Ger	36	conj	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

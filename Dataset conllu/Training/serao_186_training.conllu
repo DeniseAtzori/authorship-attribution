@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ora, Luisa Cima era una donna di media statura, mentre le giapponesi sono piccole:
+1	Ora	ora	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Luisa	Luisa	PROPN	SP	_	7	nsubj	_	_
+4	Cima	cima	PROPN	SP	_	3	flat:name	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	media	medio	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	statura	statura	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	mentre	mentre	SCONJ	CS	_	16	mark	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	giapponesi	giapponese	NOUN	S	Number=Plur	16	nsubj	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	7	advcl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = aveva dei piedini lunghi e snelli, mentre le giapponesi li hanno brevi e rotondi:
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	piedini	piedine	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	snelli	snello	ADJ	A	Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	mentre	mentre	SCONJ	CS	_	13	mark	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	giapponesi	giapponese	NOUN	S	Number=Plur	13	nsubj	_	_
+12	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+13	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+14	brevi	brere	ADJ	A	Number=Plur	13	xcomp	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	rotondi	rotondo	ADJ	A	Number=Plur	14	conj	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 3
+# text = era pallida, sì, non tendente al giallo:
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	pallida	pallido	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	sì	sì	INTJ	I	Polarity=Pos	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	tendente	tendente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giallo	giallo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = aveva gli occhi larghi aperti, non così curiosamente piegati agli angoli sotto l'arco curioso delle sovracciglia.
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	larghi	largo	NOUN	S	Gender=Masc|Number=Plur	3	compound	_	_
+5	aperti	aperto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	così	così	ADV	B	_	10	advmod	_	_
+9	curiosamente	curioso	ADV	B	_	10	advmod	_	_
+10	piegati	piegare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+11-12	agli	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	angoli	angolo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	sotto	sotto	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	arco	arco	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+17	curioso	curioso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	sovracciglia	sovracciglia	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

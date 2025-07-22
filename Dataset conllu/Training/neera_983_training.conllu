@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma la Maria non si muove.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Maria	Maria	PROPN	SP	_	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = È la capoccia della compagnia, deve narrare in qual modo andò la gita e lo fa stando in piedi contro la tavola, addentando una mela acerba.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	capoccia	capoccia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	narrare	narrare	VERB	V	VerbForm=Inf	13	parataxis	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	qual	equale	DET	DQ	Number=Sing|PronType=Int	12	det	_	_
+12	modo	modo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+13	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	gita	gita	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+19	stando	stare	VERB	V	VerbForm=Ger	18	advcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+22	contro	contro	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	tavola	tavola|tavolo	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	13	punct	_	_
+26	addentando	addentare	VERB	V	VerbForm=Ger	13	advcl	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	mela	mela	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	acerba	acerbo	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Piccoletta, tarchiata, ha le braccia nude a metà, sode, un po’ ruvide per il vento e per il sole, colla pelle tesa fragrante di salute, scura verso le mani, più bianca nel risalire.
+1	Piccoletta	Piccoletta	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	tarchiata	tarchiata	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	nude	nudo	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	metà	metà	NOUN	S	Gender=Fem	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	sode	soda	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	po’	poco	ADV	B	_	16	advmod	_	_
+16	ruvide	ruvido	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	vento	vento	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sole	sole	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	colla	colla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+26	pelle	pelle	DET	RI	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	tesa	teso	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	fragrante	fragrante	ADJ	A	Number=Sing	27	amod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	salute	salute	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	scura	scuro	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+33	verso	verso	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	mani	mano	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	più	più	ADV	B	_	38	advmod	_	_
+38	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+39-40	nel	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	risalire	risalire	VERB	V	VerbForm=Inf	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

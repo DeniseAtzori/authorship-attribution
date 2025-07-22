@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tuttavia era stata una ragione abbastanza plausibile che l'aveva suscitata.
+1	Tuttavia	tuttavia	ADV	B	_	5	advmod	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	abbastanza	abbastanza	ADV	B	_	7	advmod	_	_
+7	plausibile	plausibile	ADJ	A	Number=Sing	5	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	suscitata	suscitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Per più d'un mese Tobie s'era mostrato preoccupatissimo della sua successione.
+1	Per	per	ADP	E	_	2	case	_	_
+2	più	più	ADV	B	_	9	advmod	_	_
+3	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mese	mese	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+6	Tobie	Tobie	PROPN	SP	_	9	nsubj	_	_
+7	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	preoccupatissimo	preoccupato	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	xcomp	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	successione	successione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Voleva far testamento;
+1	Voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	testamento	testamento	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = andava domandando a tutti come si facesse, come potesse esprimere validamente le sue ultime volontà un uomo che non sapeva scrivere;
+1	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	domandando	domandare	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obl	_	_
+5	come	come	SCONJ	CS	_	7	mark	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	facesse	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	come	come	SCONJ	CS	_	11	mark	_	_
+10	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	esprimere	esprimere	VERB	V	VerbForm=Inf	7	advcl	_	_
+12	validamente	valido	ADV	B	_	11	advmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+14	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	16	amod	_	_
+16	volontà	volontà	NOUN	S	Gender=Fem	11	obj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+22	scrivere	scrivere	VERB	V	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = e se fosse indispensabile ricorrere a un notaio, e se si dovesse pagarlo, e quanto.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	indispensabile	indispensabile	ADJ	A	Number=Sing	0	root	_	_
+5	ricorrere	ricorrere	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	notaio	notaio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	se	se	SCONJ	CS	_	14	mark	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+13	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14-15	pagarlo	_	_	_	_	_	_	_	SpaceAfter=No
+14	pagar	pagare	VERB	V	VerbForm=Inf	5	conj	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	quanto	quanto	ADV	B	_	14	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

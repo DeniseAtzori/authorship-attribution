@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Volgeva la fine di novembre, un novembre grigio e freddo che vestiva di tristezza tutte le cose;
+1	Volgeva	Volgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+9	grigio	grigio	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	vestiva	vestire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	18	det:predet	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = eppure, camminando sotto gli alberi mezzo sfrondati, nella reliquia delle foglie che già da lungo tempo cadute stendevano sul terreno un tappeto bruno chiazzato di giallo, era in me una insolita energia che mi faceva tenere la testa alta e aspirare con avidità la brezza pungente, già quasi invernale.
+1	eppure	eppure	SCONJ	CS	_	3	mark	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	camminando	camminare	VERB	V	VerbForm=Ger	0	root	_	_
+4	sotto	sotto	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	mezzo	mezzo	ADV	B	_	8	advmod	_	_
+8	sfrondati	sfrondato	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	reliquia	reliquia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	foglie	foglia	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+17	già	già	ADV	B	_	20	advmod	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+21	cadute	caduto	NOUN	S	Number=Sing	20	nmod	_	_
+22	stendevano	stendevare	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23-24	sul	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+28	bruno	bruno	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	chiazzato	chiazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	giallo	giallo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	20	punct	_	_
+33	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	cop	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	acl:relcl	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	insolita	insolito	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	_
+38	energia	energia	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+39	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+40	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	41	iobj	_	_
+41	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	acl:relcl	_	_
+42	tenere	tenere	VERB	V	VerbForm=Inf	41	ccomp	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	testa	testa	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+45	alta	alto	ADJ	A	Gender=Fem|Number=Sing	44	amod	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	aspirare	aspirare	VERB	V	VerbForm=Inf	41	conj	_	_
+48	con	con	ADP	E	_	49	case	_	_
+49	avidità	avidità	NOUN	S	Gender=Fem	47	obl	_	_
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	brezza	brezza	NOUN	S	Gender=Fem|Number=Sing	47	obj	_	_
+52	pungente	pungente	ADJ	A	Number=Sing	51	amod	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	51	punct	_	_
+54	già	già	ADV	B	_	56	advmod	_	_
+55	quasi	quasi	ADV	B	_	56	advmod	_	_
+56	invernale	invernale	ADJ	A	Number=Sing	51	amod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

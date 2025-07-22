@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ma noi fummo due albe!
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Ma	ma	CCONJ	CC	_	4	cc	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	fummo	fure	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	albe	alba	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Non ricorda, poichè ha nominato il destino, in qual modo lo stesso destino ci ha guidati l’uno verso l’altra?
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	poichè	poiché	SCONJ	CS	_	6	mark	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	nominato	nominare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	destino	destino	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	qual	equale	DET	DQ	Number=Sing|PronType=Int	12	det	_	_
+12	modo	modo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	destino	destino	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	iobj	_	_
+17	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	guidati	guidato	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	_
+21	verso	verso	ADP	E	_	23	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	20	nmod	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Lei non fu allettatrice, io non fui seduttore:
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	allettatrice	allettatore	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	fui	essere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	seduttore	seduttore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = mai sentimento nacque con maggiore spontaneità, con maggiore sincerità del nostro.
+1	mai	mai	ADV	B	_	3	advmod	_	_
+2	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	nacque	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	_
+6	spontaneità	spontaneità	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	10	amod	_	_
+10	sincerità	sincerità	NOUN	S	Gender=Fem	3	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	nostro	nostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Appunto, poichè un abisso ci divide, come dice lei, non la leggerezza dell’età, nemmeno l’occasione ci spinsero ad amarci.
+1	Appunto	appunto	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	abisso	abisso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	divide	dividere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	come	come	SCONJ	CS	_	10	mark	_	_
+10	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+11	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	leggerezza	leggerezza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+16-17	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	età	età	NOUN	S	Gender=Fem	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	24	punct	_	_
+20	nemmeno	nemmeno	ADV	BN	PronType=Neg	24	advmod	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	obj	_	_
+24	spinsero	spindere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+25	ad	a	ADP	E	_	26	mark	_	_
+26-27	amarci	_	_	_	_	_	_	_	SpaceAfter=No
+26	amar	amare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	26	expl	_	_
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Ci amiamo perchè non possiamo fare diversamente.
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+2	amiamo	amare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	perchè	perché	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	diversamente	diversamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

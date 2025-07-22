@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se anche lui avesse dovuto morire fra un anno, fra pochi mesi!
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	anche	anche	ADV	B	_	6	advmod	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+6	morire	morire	VERB	V	VerbForm=Inf	0	root	_	_
+7	fra	fra	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	fra	fra	ADP	E	_	13	case	_	_
+12	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = E lasciare la sua sposa vedova, così giovinetta...
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	lasciare	lasciare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	vedova	vedovo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	così	così	ADV	B	_	2	advmod	_	_
+9	giovinetta...	giovinetta.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E magari con un bambino;
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	magari	magari	ADV	B	_	5	advmod	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = un bambino gracile, malaticcio, come i figli della povera Elena...
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	gracile	gracile	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	malaticcio	malaticcio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	povera	povero	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	Elena..	Elena..	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E condannarla ad una vita d'abnegazione e senz'amore come quella della sua mamma!..
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2-3	condannarla	_	_	_	_	_	_	_	_
+2	condannar	condannare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	abnegazione	abnegazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	senz'	senza	ADP	E	_	11	case	_	SpaceAfter=No
+11	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	mamma!..	mamma!..	NOUN	S	_	13	nmod	_	_
+
+# sent_id = 6
+# text = Oh Dio Dio!
+1	Oh	oh	INTJ	I	_	2	discourse	_	_
+2	Dio	Dio	PROPN	SP	_	0	root	_	_
+3	Dio	dio	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma perchè morivano tutti.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	perchè	perché	SCONJ	CS	_	3	mark	_	_
+3	morivano	morire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = a quell'età?
+1	a	a	ADP	E	_	3	case	_	_
+2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	età	età	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Che maledizione li perseguitava?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	maledizione	maledizione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+4	perseguitava	perseguitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

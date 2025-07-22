@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Balzò in piedi e corse ad aprire la chiave della luce elettrica.
+1	Balzò	Balzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	corse	corsa	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+6	ad	a	ADP	E	_	7	mark	_	_
+7	aprire	aprire	VERB	V	VerbForm=Inf	1	xcomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	luce	luce	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	elettrica	elettrico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ah! quel volto!
+1	Ah	ah	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	4	punct	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	volto	volto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Egli stava riverso, col capo abbandonato, le palpebre chiuse in un languore mortale.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	riverso	riverso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	col	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	capo	capo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	abbandonato	abbandonato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	palpebre	palpebra	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+12	chiuse	chiuso	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	languore	languora	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	mortale	mortale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Le fini linee della guancia e del profilo, assottigliate in un ritiro improvviso del sangue, apparivano marmoree, accentuando l’espressione di immaterialità che lo rendeva simile in quell’istante a un deposto dalla croce.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	fini	fine	ADJ	A	Number=Plur	3	amod	_	_
+3	linee	linea	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	guancia	guancia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	assottigliate	assottigliare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ritiro	ritiro	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	3	punct	_	_
+21	apparivano	apparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+22	marmoree	marmoreo	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	accentuando	accentuare	VERB	V	VerbForm=Ger	21	advcl	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	immaterialità	immaterialità	NOUN	S	Gender=Fem	26	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+31	rendeva	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	acl:relcl	_	_
+32	simile	simile	ADJ	A	Number=Sing	31	xcomp	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34-35	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+34	qui	qui	ADV	B	_	32	advmod	_	_
+35	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	istante	istante	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	deposto	deposto	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40-41	dalla	_	_	_	_	_	_	_	_
+40	da	da	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	croce	croce	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 5
+# text = Si riscosse accorgendosi che l’amata andava in cerca di soccorso.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	riscosse	riscosso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	accorgendosi	_	_	_	_	_	_	_	_
+3	accorgendo	accorgire	VERB	V	VerbForm=Ger	2	advcl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	amata	amato	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cerca	cerca	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	soccorso	soccorso	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I giovinetti hanno riportate le novità raccolte al caffè o al _club_;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giovinetti	giovinetto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	riportate	riportare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	novità	novità	NOUN	S	Gender=Fem	4	obj	_	_
+7	raccolte	raccogliere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	caffè	caffè	NOUN	S	Gender=Masc	7	obl	_	_
+11	o	o	CCONJ	CC	_	14	cc	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	_club_	ExtraSubj=Yes|_club_	ADJ	NO	NumType=Ord	10	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = chi s'è sposato, o è in procinto di farlo, chi è morto, chi è innamorato;
+1	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+2	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sposato	sposare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	o	o	CCONJ	CC	_	9	cc	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	procinto	procinto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+11	far	fare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	chi	chi	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	chi	chi	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	innamorato	innamorato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = che _nuovissime_ promette il manifesto del Manzoni:
+1	che	che	SCONJ	CS	_	3	mark	_	_
+2	_nuovissime_	_nuovissime-	PUNCT	FB	_	3	punct	_	_
+3	promette	promettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	manifesto	manifesto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Manzoni	Manzoni	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = chi era la signora più brillante la sera innanzi alla Scala;
+1	chi	chi	PRON	PQ	PronType=Int	4	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	signora	signore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	brillante	brillante	ADJ	A	Number=Sing	4	amod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	innanzi	innanzi	ADV	B	_	12	advmod	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Scala	Scala	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = che cosa combinano di fare gli ammiratori per la beneficiata della prima donna o della prima ballerina.
+1	che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	combinano	combinare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ammiratori	ammiratore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	beneficiata	beneficiata	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	14	amod	_	_
+14	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	o	o	CCONJ	CC	_	19	cc	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	ballerina	ballerina	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

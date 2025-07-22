@@ -1,0 +1,132 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nè superiori nè inferiori — ecco la formula del buon senso.
+1	Nè	nè	CCONJ	CC	_	2	cc	_	_
+2	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	0	root	_	_
+3	nè	né	CCONJ	CC	_	4	cc	_	_
+4	inferiori	inferiore	ADJ	A	Degree=Cmp|Number=Plur	2	conj	_	_
+5	—	—	PUNCT	FF	_	2	punct	_	_
+6	ecco	ecco	ADV	B	_	2	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	formula	formula	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	buon	buono	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	senso	senso	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Se vi sono delle differenze sono differenze di sesso che indicano appunto le diverse missioni nelle due parti del medesimo tutto.
+1	Se	se	SCONJ	CS	_	8	mark	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	24	advcl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	indicano	indicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	appunto	appunto	ADV	B	_	12	advmod	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	missioni	missione	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+17-18	nelle	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	due	due	NUM	N	NumType=Card	20	nummod	_	_
+20	parti	parte	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	medesimo	medesimo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	nmod	_	_
+24	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 3
+# text = L’attività cerebrale e muscolare è indispensabile alla parte maschio e non lo è alla femmina, la quale ha ben altro a fare che sollevar pesi e calcolare incognite, perchè mi vorrete concedere che se a cercar fuscelli s’adoprerebbe volendo anche la femmina, il maschio non saprebbe in alcun modo ponzare le uova.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	attività	attività	NOUN	S	Gender=Fem	7	nsubj	_	_
+3	cerebrale	cerebrale	ADJ	A	Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	muscolare	muscolare	ADJ	A	Number=Sing	3	conj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	indispensabile	indispensabile	ADJ	A	Number=Sing	0	root	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	maschio	maschio	NOUN	S	Gender=Masc|Number=Sing	10	compound	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	femmina	femmina	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	quale	quale	PRON	PR	Number=Sing|PronType=Rel	22	nsubj	_	_
+22	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+23	ben	bene	ADV	B	_	24	advmod	_	_
+24	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	obj	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	fare	fare	VERB	V	VerbForm=Inf	24	acl	_	_
+27	che	che	SCONJ	CS	_	28	mark	_	_
+28	sollevar	sollevare	VERB	V	VerbForm=Inf	26	ccomp	_	_
+29	pesi	peso	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	calcolare	calcolare	VERB	V	VerbForm=Inf	28	conj	_	_
+32	incognite	incognito	ADJ	A	Gender=Fem|Number=Sing	31	xcomp	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	28	punct	_	_
+34	perchè	perché	SCONJ	CS	_	37	mark	_	_
+35	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	37	expl	_	_
+36	vorrete	vorere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	concedere	concedere	VERB	V	VerbForm=Inf	28	advcl	_	_
+38	che	che	SCONJ	CS	_	53	mark	_	_
+39	se	se	SCONJ	CS	_	44	mark	_	_
+40	a	a	ADP	E	_	41	mark	_	_
+41	cercar	cercare	VERB	V	VerbForm=Inf	44	advcl	_	_
+42	fuscelli	fuscello	NOUN	S	Gender=Masc|Number=Plur	41	obj	_	_
+43	s’	so	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	44	obj	_	SpaceAfter=No
+44	adoprerebbe	adopreere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	advcl	_	_
+45	volendo	volere	VERB	V	VerbForm=Ger	44	advcl	_	_
+46	anche	anche	ADV	B	_	48	advmod	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	femmina	femmina	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	44	punct	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	maschio	maschio	NOUN	S	Gender=Masc|Number=Sing	53	nsubj	_	_
+52	non	non	ADV	BN	PronType=Neg	53	advmod	_	_
+53	saprebbe	sapere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	_
+54	in	in	ADP	E	_	56	case	_	_
+55	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	56	det	_	_
+56	modo	modo	NOUN	S	Gender=Masc|Number=Sing	53	obl	_	_
+57	ponzare	ponzare	VERB	V	VerbForm=Inf	56	acl	_	_
+58	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	59	det	_	_
+59	uova	uovo	NOUN	S	Gender=Fem|Number=Plur	57	obj	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = E questa è la ragione che taglia la testa al toro.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	taglia	tagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	testa	testa	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	toro	toro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

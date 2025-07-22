@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma resta da provare che vi sia in ciò un miglioramento;
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	provare	provare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	miglioramento	miglioramento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = perchè questa appunto è la posa più antipatica del femminismo, di voler dar ad intendere che si migliora;
+1	perchè	perché	SCONJ	CS	_	6	mark	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	appunto	appunto	ADV	B	_	2	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	posa	posa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	antipatica	antipatico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	femminismo	femminismo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	di	di	ADP	E	_	15	mark	_	_
+14	voler	volere	AUX	VM	VerbForm=Inf	15	aux	_	_
+15	dar	dare	VERB	V	VerbForm=Inf	6	acl	_	_
+16	ad	a	ADP	E	_	17	mark	_	_
+17	intendere	intendere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	che	che	SCONJ	CS	_	20	mark	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+20	migliora	migliorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = mentre tutta codesta agitazione non rivela altro che lo stato convulsionario della società, febbrile, malcontenta, avida, insodisfatta, ammalata, che _con dar volta suo dolore scherma_.
+1	mentre	mentre	SCONJ	CS	_	6	mark	_	_
+2	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	4	det	_	_
+3	codesta	codesto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	agitazione	agitazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	stato	stato	NOUN	S	Gender=Masc|Number=Sing	6	advcl	_	_
+11	convulsionario	convulsionario	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	società	società	NOUN	S	Gender=Fem	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	febbrile	febbrile	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	malcontenta	malcontento	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	avida	avido	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	insodisfatta	insodisfatto	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	ammalata	ammalato	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	10	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	_con	_con	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	dar	dare	VERB	V	VerbForm=Inf	10	acl:relcl	_	_
+29	volta	volta	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+30	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+32	scherma_	scherma-	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

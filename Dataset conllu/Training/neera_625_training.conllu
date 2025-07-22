@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Flavio rise ancora senza rispondere.
+1	Flavio	Flavio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	rise	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4	senza	senza	ADP	E	_	5	mark	_	_
+5	rispondere	rispondere	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Cingeva entrambi una zona luminosa, calda di invisibili correnti, dove sbocciavano le loro tenere giovinezze come fiori che il sole ha raggiunti.
+1	Cingeva	Cingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obj	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	zona	zona	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+5	luminosa	luminoso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	invisibili	invisibile	ADJ	A	Number=Plur	10	amod	_	_
+10	correnti	corrente	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	dove	dove	ADV	B	_	13	advmod	_	_
+13	sbocciavano	sbocciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	tenere	tenere	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+17	giovinezze	giovinezza	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+18	come	come	ADP	E	_	19	case	_	_
+19	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sole	sole	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	raggiunti	raggiungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Anna pensò che riso e parole si riferivano senza dubbio a qualche loro precedente discorso e fu presa da un sentimento penoso di umiliazione che la ripiombò nel silenzio.
+1	Anna	Anna	PROPN	SP	_	2	nsubj	_	_
+2	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	riso	riso	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	riferivano	riferire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+9	senza	senza	ADP	E	_	10	case	_	_
+10	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+13	loro	loro	DET	AP	Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	precedente	precedente	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+15	discorso	discorso	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	18	obl:agent	_	_
+22	penoso	penoso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	umiliazione	umiliazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+27	ripiombò	ripiombare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ella sentì in quel momento l'amarezza della vita che passava.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

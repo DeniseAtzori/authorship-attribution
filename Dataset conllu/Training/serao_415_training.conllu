@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Più tardi, nell’estate, Canituccia e Ciccotto stavano più lungamente insieme.
+1	Più	più	ADV	B	_	2	advmod	_	_
+2	tardi	tardi	ADV	B	_	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	estate	estate	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	Canituccia	Canituccia	PROPN	SP	_	11	nsubj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Ciccotto	Ciccotto	PROPN	SP	_	8	conj	_	_
+11	stavano	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	lungamente	lungo	ADV	B	_	14	advmod	_	_
+14	insieme	insieme	ADV	B	_	11	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Se ne andavano all’alba a cercare granone, fichi e mele primaticce cadute dagli alberi, poichè Ciccotto era diventato forte, grande e grosso, mentre Canituccia rimaneva magra e debole.
+1	Se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	andavano	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	all’	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	alba	alba	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	cercare	cercare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+9	granone	granone	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	fichi	fico	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	mele	melo	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+14	primaticce	primaticcia	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+15	cadute	cadere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	dagli	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	15	obl:agent	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	poichè	poiché	INTJ	I	_	23	discourse	_	_
+21	Ciccotto	Ciccotto	PROPN	SP	_	23	nsubj	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+24	forte	forte	ADJ	A	Number=Sing	23	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	grande	grande	ADJ	A	Number=Sing	23	xcomp	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	23	punct	_	_
+30	mentre	mentre	SCONJ	CS	_	32	mark	_	_
+31	Canituccia	Canituccia	PROPN	SP	_	32	nsubj	_	_
+32	rimaneva	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	advcl	_	_
+33	magra	magro	ADJ	A	Gender=Fem|Number=Sing	32	xcomp	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	debole	debole	ADJ	A	Number=Sing	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Talvolta Ciccotto correva troppo per la bambina e questa si sentiva trascinare, spossata sotto il sollione bruciante, sulla terra secca e screpolata.
+1	Talvolta	talvolta	ADV	B	_	3	advmod	_	_
+2	Ciccotto	Ciccotto	PROPN	SP	_	3	nsubj	_	_
+3	correva	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	troppo	troppo	ADV	B	_	7	advmod	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+12	trascinare	trascinare	VERB	V	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	spossata	spossare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+15	sotto	sotto	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sollione	sollione	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	bruciante	bruciante	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20-21	sulla	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	terra	terra	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+23	secca	secco	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	screpolata	screpolato	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

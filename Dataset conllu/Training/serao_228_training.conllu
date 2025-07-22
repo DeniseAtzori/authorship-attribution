@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ah certo, certo, _qualcuno_ lo guardava per quegli occhi!
+1	Ah	ah	INTJ	I	_	8	discourse	_	_
+2	certo	certo	ADV	B	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	certo	certo	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	_qualcuno_	_qualcuno-	PUNCT	FB	_	4	punct	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Non osava fissarli, quegli occhi di animale quasi che essi gli parlassero di tutte le bontà umane che egli aveva disdegnate, di tutte le sofferenze umane che egli aveva disprezzate, di tutte le umane lacrime che per lui erano scorse invano:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	osava	osare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	fissarli	_	_	_	_	_	_	_	SpaceAfter=No
+3	fissar	fissare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	animale	animale	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	quasi	quasi	ADV	B	_	14	advmod	_	_
+11	che	che	SCONJ	CS	_	10	fixed	_	_
+12	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	parlassero	parlare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	18	det:predet	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	bontà	bontà	NOUN	S	Gender=Fem	14	obl	_	_
+19	umane	umano	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+21	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	disdegnate	disdegnare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	28	det:predet	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	sofferenze	sofferenza	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+29	umane	umano	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+30	che	che	PRON	PR	PronType=Rel	33	obj	_	_
+31	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+32	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+33	disprezzate	disprezzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	acl:relcl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	di	di	ADP	E	_	39	case	_	_
+36	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	39	det:predet	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+38	umane	umano	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+39	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	33	obl	_	_
+40	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+41	per	per	ADP	E	_	42	case	_	_
+42	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	obl	_	_
+43	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	44	aux	_	_
+44	scorse	scorrere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	39	acl:relcl	_	_
+45	invano	invano	ADV	B	_	44	advmod	_	SpaceAfter=No
+46	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = non osava fissarli, quasi che vi si trovasse, in essi, il rimprovero ignoto, mistico e austero che fa la Vita a chi non seppe conoscerla e non seppe, quindi, meritarla.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	osava	osare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	fissarli	_	_	_	_	_	_	_	SpaceAfter=No
+3	fissar	fissare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	quasi	quasi	ADV	B	_	10	advmod	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	vi	vi	ADV	B	_	10	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	trovasse	trovare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	rimprovero	rimprovero	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+17	ignoto	ignoto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	mistico	mistico	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	austero	austero	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	chi	chi	PRON	PR	Number=Sing|PronType=Rel	23	obl	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	seppe	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+30	conoscerla	conoscerla	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+33	seppe	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	quindi	quindi	ADV	B	_	2	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37-38	meritarla	_	_	_	_	_	_	_	SpaceAfter=No
+37	meritar	meritare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+38	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
+39	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

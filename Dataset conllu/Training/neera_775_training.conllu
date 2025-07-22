@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nel riattraversare la camera gli sguardi di entrambi caddero sul letto parato di rosso cupo, misterioso come un braciere nell’ombra.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	riattraversare	riattraversare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	camera	camera	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	entrambi	entrambi	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det	_	_
+10	caddero	caddero	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	letto	letto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+14	parato	parato	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	cupo	cupo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	misterioso	misterioso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	braciere	braciere	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23-24	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+23	in	in	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Moena rallentò il passo impercettibilmente;
+1	Moena	Moena	ADV	B	_	2	advmod	_	_
+2	rallentò	rallentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	passo	passo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	impercettibilmente	impercettibilmente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = la signora, pure impercettibilmente, arrossì; ma fuori riprese la sua disinvoltura che le era a un tempo lancia e scudo.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	pure	pure	ADV	B	_	5	advmod	_	_
+5	impercettibilmente	impercettibilmente	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	arrossì	arrossì	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	fuori	fuori	ADV	B	_	11	advmod	_	_
+11	riprese	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	disinvoltura	disinvoltura	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+16	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
+17	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+21	lancia	lancio	NOUN	S	Gender=Fem|Number=Sing	14	acl:relcl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	scudo	scudo	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Dinanzi alle vecchie case di Trento, italianamente calde di quella architettura che fa tanto sentire la nostalgia di sè a chi viaggia nei nordici paesi, la sua passione di patria prese il volo.
+1	Dinanzi	dinanzi	ADV	B	_	5	case	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	vecchie	vecchio	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	case	casa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Trento	Trento	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	italianamente	italiano	ADV	B	_	10	advmod	_	_
+10	calde	calde	ADJ	A	Number=Sing	5	amod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	architettura	architettura	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	tanto	tanto	ADV	B	_	15	advmod	_	_
+17	sentire	sentire	VERB	V	VerbForm=Inf	15	ccomp	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	nostalgia	nostalgia	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	sè	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	nmod	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	chi	chi	PRON	PR	Number=Sing|PronType=Rel	17	obl	_	_
+24	viaggia	viaggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+25-26	nei	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	nordici	nordici	NUM	N	NumType=Card	28	nummod	_	_
+28	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	patria	patria	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+35	prese	prendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Fin	32	acl	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	volo	volo	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

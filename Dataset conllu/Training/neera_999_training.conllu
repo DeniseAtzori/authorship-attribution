@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli tese le sue ali d'angelo, e passò dal mondo dell'innocenza a quello della penitenza, senza toccare il fuoco.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tese	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	ali	ala	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	angelo	angelo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	innocenza	innocenza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	penitenza	penitenza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	10	punct	_	_
+23	senza	senza	ADP	E	_	24	mark	_	_
+24	toccare	toccare	VERB	V	VerbForm=Inf	10	advcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = L'anima sua, monda di terrene passioni, poteva appropriarsi il detto dell'apostolo:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anima	anima	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	monda	monda	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	terrene	terrena	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	passioni	passioni	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11-12	appropriarsi	_	_	_	_	_	_	_	_
+11	appropriar	appropriarre	VERB	V	VerbForm=Inf	0	root	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	detto	detto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	apostolo	apostolo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = "La grazia comincia dove è spento l'orgoglio e quando l'uomo si è vuotato di sè, allora solo si riempie della sapienza.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dove	dove	ADV	B	_	7	advmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	spento	spegnere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	e	e	CCONJ	CC	_	23	cc	_	_
+11	quando	quando	SCONJ	CS	_	16	mark	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	vuotato	vuotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	sè	sè	PRON	PE	Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	allora	allora	ADV	B	_	23	advmod	_	_
+21	solo	solo	ADV	B	_	23	advmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	riempie	riempire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sapienza	sapienza	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	SpacesAfter=\n
+

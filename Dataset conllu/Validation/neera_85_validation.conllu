@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era, sopra un fondo giallo, una signora vestita di nero, col bel collo e colle braccia nude circondate da una trina vaporosa di una esecuzione e di un effetto sorprendenti.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	sopra	sopra	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	signora	signore	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+10	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	nero	nero	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14-15	col	_	_	_	_	_	_	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	bel	bello	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	collo	collo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	colle	_	_	_	_	_	_	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+22	nude	nudo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	circondate	circondare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	trina	trina	NOUN	S	Gender=Fem|Number=Sing	23	obl:agent	_	_
+27	vaporosa	vaporoso	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	esecuzione	esecuzione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	30	conj	_	_
+35	sorprendenti	sorprendente	ADJ	A	Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = La testa acconciata a _toupet_, colla cipria, nascondeva il colore dei capelli, ma l'arco fino delle sopraciglia era nero e di un nero più pallido un po' dorato, gli occhi, pieni di una grazia altera.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	testa	testa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	acconciata	acconciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	_toupet_	ExtraSubj=Yes|_toupet_	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	colla	colla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	cipria	ciprio	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	nascondeva	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	colore	colore	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	25	punct	_	_
+17	ma	ma	CCONJ	CC	_	25	cc	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	arco	arco	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+20	fino	fino	ADV	B	_	23	case	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	20	fixed	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	sopraciglia	sopraciglia	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+24	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+25	nero	nero	ADJ	A	Gender=Masc|Number=Sing	29	conj	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	nero	nero	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31	pallido	pallido	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	po'	poco	ADV	B	_	34	advmod	_	_
+34	dorato	dorato	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	39	punct	_	_
+39	pieni	pieno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+43	altera	altero	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

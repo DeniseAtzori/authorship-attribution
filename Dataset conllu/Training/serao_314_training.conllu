@@ -1,0 +1,142 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questa miss Geraldina Fitz-Gèrald di Gèrald Castle nel Somerset, morì a trentaquattro anni, dopo due anni di una crescente malattia di cuore, che le toglieva il respiro.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	miss	miss	NOUN	S	_	14	nsubj	_	_
+3	Geraldina	Geraldino	PROPN	SP	_	2	nmod	_	_
+4	Fitz	Fitz	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+6	Gèrald	Gèrald	PROPN	SP	_	3	flat:name	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Gèrald	Gèrald	PROPN	SP	_	2	nmod	_	_
+9	Castle	Castle	PROPN	SP	_	8	flat:name	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Somerset	Somerset	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	trentaquattro	trentaquattro	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	dopo	dopo	ADP	E	_	21	case	_	_
+20	due	due	NUM	N	NumType=Card	21	nummod	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	crescente	crescente	ADJ	A	Number=Sing	25	amod	_	_
+25	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	iobj	_	_
+31	toglieva	togliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = È la malattia dei grassi.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	grassi	grasso	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Di rossa divenne gialla; invece di dimagrare si gonfiò tutta.
+1	Di	di	ADP	E	_	2	case	_	_
+2	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	3	obl	_	_
+3	divenne	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	gialla	giallo	NOUN	S	Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	8	punct	_	_
+6	invece	invece	ADV	B	_	8	advmod	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	dimagrare	dimagrare	VERB	V	VerbForm=Inf	10	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	gonfiò	gonfiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Nell'albergo dove morì, dovettero ordinare una cassa grandissima per chiudervela dentro.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	dove	dove	ADV	B	_	7	advmod	_	_
+5	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	dovettero	dovettero	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+8	ordinare	ordinare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cassa	cassa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	grandissima	grande	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	chiudervela	chiudervelare	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	dentro	dentro	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Io l'ho vista questa morta.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	morta	morta	NOUN	S	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Sulla larga faccia, simile a quella di certi angioloni di marmo diventati gialli col tempo, sulla larga faccia bonaria stava il rancore doloroso di un essere innocente, inoffensivo, colpito da una grande ingiustizia.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	larga	largo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	simile	simile	ADJ	A	Number=Sing	4	amod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	obl	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	angioloni	angiolone	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	marmo	marmo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	diventati	diventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+15	gialli	giallo	NOUN	S	Gender=Masc|Number=Plur	14	xcomp	_	_
+16-17	col	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20-21	sulla	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	larga	largo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+24	bonaria	bonario	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	rancore	rancora	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+28	doloroso	doloroso	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	di	di	ADP	E	_	32	mark	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	essere	essere	AUX	V	VerbForm=Inf	32	cop	_	_
+32	innocente	innocente	ADJ	A	Number=Sing	27	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	inoffensivo	inoffensivo	ADJ	A	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	32	punct	_	_
+36	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+37	da	da	ADP	E	_	40	case	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	grande	grande	ADJ	A	Number=Sing	40	amod	_	_
+40	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	36	obl:agent	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	25	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le Amazzoni si bruciavano una mammella;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Amazzoni	Amazzoni	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	bruciavano	bruciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mammella	mammella	NOUN	S	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = niente a maravigliarsi che coi progressi della scienza non si possa praticare alle neonate una operazioncina che le liberi per sempre dalla maternità.
+1	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3-4	maravigliarsi	_	_	_	_	_	_	_	_
+3	maravigliar	maravigliare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	che	che	SCONJ	CS	_	15	mark	_	_
+6-7	coi	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+14	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	praticare	praticare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	neonate	neonata	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	operazioncina	operazioncina	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	liberi	libero	NOUN	S	Gender=Fem|Number=Plur	20	acl:relcl	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	sempre	sempre	ADV	B	_	23	advmod	_	_
+26-27	dalla	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	maternità	maternità	NOUN	S	Gender=Fem	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = È un’idea.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Solamente, appropriandosi i diritti dell’uomo, la donna non potrà cedergli i suoi.
+1	Solamente	solo	ADV	B	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	appropriandosi	_	_	_	_	_	_	_	_
+3	appropriando	appropriare	VERB	V	VerbForm=Ger	15	advcl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7-8	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	_
+15-16	cedergli	_	_	_	_	_	_	_	_
+15	ceder	cedere	VERB	V	VerbForm=Inf	0	root	_	_
+16	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = Sarà dunque una rapina senza compensi e senza profitto.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+2	dunque	dunque	ADV	B	_	4	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	rapina	rapina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	senza	senza	ADP	E	_	6	case	_	_
+6	compensi	compenso	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	senza	senza	ADP	E	_	9	case	_	_
+9	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = I femministi se la meriterebbero.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	femministi	femminista	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	meriterebbero	meritare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

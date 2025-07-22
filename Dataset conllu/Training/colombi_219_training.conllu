@@ -1,0 +1,146 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il _police sergeant_ accorse subito sul luogo con due periti, per rilevare se, e con quali mezzi, fosse avvenuta la violazione della tomba.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	_police	_police	NOUN	S	_	0	root	_	_
+3	sergeant_	sergeant-	PUNCT	FB	_	2	punct	_	_
+4	accorse	accorrere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5	subito	subito	ADV	B	_	4	advmod	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	periti	perito	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	rilevare	rilevare	VERB	V	VerbForm=Inf	4	advcl	_	_
+15	se	se	SCONJ	CS	_	23	mark	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	quali	quale	DET	DQ	Number=Plur|PronType=Int	20	det	_	_
+20	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	avvenuta	avvenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ed infatti si constatò che la pietra sepolcrale era stata smossa.
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	infatti	infatti	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	constatò	constatare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	pietra	pietra	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+8	sepolcrale	sepolcrale	ADJ	A	Number=Sing	7	amod	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	smossa	smuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ma restava a sapere se i ladri erano riusciti ad introdursi nella capella mortuaria, a forzare quella cassa tanto gelosamente chiusa.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	sapere	sapere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	se	se	SCONJ	CS	_	9	mark	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ladri	ladro	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11-12	introdursi	_	_	_	_	_	_	_	_
+11	introdur	introdurre	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	capella	capella	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	mortuaria	mortuario	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	forzare	forzare	VERB	V	VerbForm=Inf	11	conj	_	_
+20	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	cassa	cassa	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	tanto	tanto	ADV	B	_	23	advmod	_	_
+23	gelosamente	gelosamente	ADV	B	_	24	advmod	_	_
+24	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	19	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Si poteva presumere di no, dacchè nelle perquisizioni fatte all'atto dell'arresto sulla persona dei colpevoli, e nella mattina alle loro case, non s'era trovato nessun gioiello.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	presumere	presumere	VERB	V	VerbForm=Inf	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	no	no	ADV	BN	PronType=Neg	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	dacchè	dacché	ADV	B	_	10	advmod	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	perquisizioni	perquisizione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+11	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	atto	atto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	persona	persona	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	colpevoli	colpevole	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	28	punct	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	nella	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+29-30	alle	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	32	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+31	loro	loro	DET	AP	Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	case	casa	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	37	punct	_	_
+34	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+35	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl:impers	_	SpaceAfter=No
+36	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	aux	_	_
+37	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+38	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	39	det	_	_
+39	gioiello	gioiello	NOUN	S	Gender=Masc|Number=Sing	37	nsubj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Tuttavia bisognava procedere all'esame dei luoghi.
+1	Tuttavia	tuttavia	ADV	B	_	2	advmod	_	_
+2	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	procedere	procedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	esame	esame	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

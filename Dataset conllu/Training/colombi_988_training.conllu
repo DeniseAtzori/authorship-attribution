@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Molti, molti anni dopo, quando il piccolo Andrea era diventato il nonno, noi s’andava qualche rara volta in campagna per alcuni giorni sul lago d’Orta.
+1	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+5	dopo	dopo	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	quando	quando	SCONJ	CS	_	12	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	Andrea	Andrea	PROPN	SP	_	12	nsubj	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+17	s’	so	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+18	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	rara	raro	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	volta	volta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+26	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+27-28	sul	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	lago	lago	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	d’	di	ADP	E	_	31	case	_	SpaceAfter=No
+31	Orta	Orta	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 2
+# text = Là c’erano delle nostre compagne, che avevano una casa in riva al lago, una darsena, un canotto, un marinaio, o piuttosto un barcaiolo, marinaio d’acqua dolce.
+1	Là	là	ADV	B	_	3	advmod	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	compagne	compagna	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	riva	riva	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	lago	lago	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	darsena	darsena	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	canotto	canotto	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	marinaio	marinaio	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	31	punct	_	_
+28	o	o	CCONJ	CC	_	31	cc	_	_
+29	piuttosto	piuttosto	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	barcaiolo	barcaiolo	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_	_
+33	marinaio	marinaio	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+34	d’	di	ADP	E	_	35	case	_	SpaceAfter=No
+35	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+36	dolce	dolce	ADJ	A	Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

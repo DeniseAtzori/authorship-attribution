@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — L'ha sentito così!
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Bella scusa, perbacco!
+1	Bella	bello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	scusa	scusare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	perbacco	perbacco	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Cosa vuol dire sentire?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	sentire	sentire	VERB	V	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ragionare si deve.
+1	Ragionare	ragionare	VERB	V	VerbForm=Inf	3	advcl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	deve	dovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Qui abbiamo un individuo che sta aspettando (voglio per il momento concedere che questa cosa si capisca).
+1	Qui	qui	ADV	B	_	2	advmod	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	individuo	individuo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	aspettando	aspettare	VERB	V	VerbForm=Ger	4	acl:relcl	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	voglio	volere	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	momento	momento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	concedere	concedere	VERB	V	VerbForm=Inf	9	acl	_	_
+14	che	che	SCONJ	CS	_	18	mark	_	_
+15	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	capisca	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = L'idea prima che verrebbe ad ogni persona di criterio sarebbe di intitolarlo:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	prima	prima	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	verrebbe	verre	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	ad	a	ADP	E	_	8	case	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	persona	persona	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	criterio	criterio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	sarebbe	essere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	intitolarlo	_	_	_	_	_	_	_	SpaceAfter=No
+13	intitolar	intitolare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 7
+# text = _L'aspettativa_.
+1	_L'	_lo	ADV	B	_	0	root	_	SpaceAfter=No
+2	aspettativa_	aspettativa-	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Alla buonora!
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	buonora	buonore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ecco per lo meno un titolo semplice, espressivo, preciso.
+1	Ecco	ecco	ADV	B	_	6	advmod	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	meno	meno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	semplice	semplice	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	espressivo	espressivo	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	preciso	preciso	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

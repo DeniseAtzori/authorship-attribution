@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così, di lontano, egli formava sempre il disegno di non vedere mai più Clara.
+1	Così	così	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	lontano	lontano	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	formava	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	sempre	sempre	ADV	B	_	7	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	disegno	disegno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11	di	di	ADP	E	_	13	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	vedere	vedere	VERB	V	VerbForm=Inf	10	acl	_	_
+14	mai	mai	ADV	B	_	13	advmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	Clara	Clara	PROPN	SP	_	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ella gli scriveva delle lettere lunghe e bizzarre, con un'incoerenza sentimentale che sarebbe stata molto interessante e molto seducente per un uomo più giovane e più vivace, meno provato dai dolori della vita, ma che gli produceva un senso di ripulsa, di maggior distacco:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	scriveva	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	bizzarre	bizzarre	ADJ	A	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	incoerenza	incoerenza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+14	sentimentale	sentimentale	ADJ	A	Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+16	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	cop	_	_
+18	molto	molto	ADV	B	_	19	advmod	_	_
+19	interessante	interessante	ADJ	A	Number=Sing	13	acl:relcl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	molto	molto	ADV	B	_	22	advmod	_	_
+22	seducente	seducente	ADJ	A	Number=Sing	19	conj	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	giovane	giovane	ADJ	A	Number=Sing	25	amod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	più	più	ADV	B	_	30	advmod	_	_
+30	vivace	vivace	ADJ	A	Number=Sing	27	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	meno	meno	ADV	B	_	33	advmod	_	_
+33	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
+34-35	dai	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	33	obl:agent	_	_
+37-38	della	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	vita	vita	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	44	punct	_	_
+41	ma	ma	CCONJ	CC	_	44	cc	_	_
+42	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+43	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	iobj	_	_
+44	produceva	producere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	_	_
+45	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	senso	senso	NOUN	S	Gender=Masc|Number=Sing	44	obj	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	ripulsa	ripulsa	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	3	punct	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	52	amod	_	_
+52	distacco	distacco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+53	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = non rispondeva alle lettere.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

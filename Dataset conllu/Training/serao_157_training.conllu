@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cristina, chiamata, non accorse immediatamente:
+1	Cristina	Cristina	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	accorse	accorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	immediatamente	immediato	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = e allora, donna Emma Lieti quasi si sospese al cordone del campanello--giacché ella odiava esteticamente i bottoni elettrici--non potendo sopportare l'aspettazione.
+1	e	e	CCONJ	CC	_	9	cc	_	_
+2	allora	allora	ADV	B	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	Emma	Emma	PROPN	SP	_	4	nmod	_	_
+6	Lieti	lieto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+7	quasi	quasi	ADV	B	_	9	advmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	sospese	sospendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cordone	cordone	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+18	giacché	giacché	SCONJ	CS	_	20	mark	_	_
+19	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	odiava	odiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	parataxis	_	_
+21	esteticamente	estetico	ADV	B	_	20	advmod	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	bottoni	bottone	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+24	elettrici	elettrico	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+26	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	potendo	potere	AUX	VM	VerbForm=Ger	29	aux	_	_
+29	sopportare	sopportare	VERB	V	VerbForm=Inf	9	conj	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	aspettazione	aspettazione	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Infine, la desiderata giunse, nel suo vestito nero, nel suo gran grembiule di batista bianca guarnito di merletti, e con la sua aria indifferente e stanca.
+1	Infine	infine	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	desiderata	desiderata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	giunse	giunso	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+11	nero	nero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	17	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	gran	gran	ADJ	A	Number=Sing	17	amod	_	_
+17	grembiule	grembiula	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	batista	batista	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	guarnito	guarnire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	merletti	merletto	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	29	punct	_	_
+25	e	e	CCONJ	CC	_	29	cc	_	_
+26	con	con	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	aria	aria	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+30	indifferente	indifferente	ADJ	A	Number=Sing	29	amod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	stanca	stanco	ADJ	A	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

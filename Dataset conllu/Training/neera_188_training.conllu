@@ -1,0 +1,132 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Saranno cento persone intelligenti che lo leggeranno, cento cuori che batteranno all’unisono col vostro.
+1	Saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	cento	cento	NUM	N	NumType=Card	3	nummod	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	intelligenti	intelligente	ADJ	A	Number=Plur	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	leggeranno	leggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	cento	cento	NUM	N	NumType=Card	10	nummod	_	_
+10	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	batteranno	battere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	acl:relcl	_	_
+13-14	all’	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	unisono	esunisere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	obl	_	_
+16-17	col	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	vostro	vostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Aspettate le critiche con trepidazione.
+1	Aspettate	Aspettare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	1	nsubj:pass	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	trepidazione	trepidazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Rade rade, corte corte, svogliate, ne appare qualcuna finalmente.
+1	Rade	Rada	ADP	E	_	2	case	_	_
+2	rade	rada	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	corte	corte	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+5	corte	corto	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	svogliate	svogliare	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+10	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	qualcuna	qualcuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	nsubj	_	_
+12	finalmente	finalmente	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Sono tutte su uno stampo.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	0	root	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	stampo	stampo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Il sedicente critico col gesto disinvolto del ciarlatano che si prepara a fare la frittata in un cappello, vi sbriga in fretta raccontando a suo modo e col suo stile ciò che avete scritto a modo vostro collo stile vostro e dimentica lo sciagurato!
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	sedicente	sedicente	ADJ	A	Number=Sing	3	amod	_	_
+3	critico	critico	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+4-5	col	_	_	_	_	_	_	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	disinvolto	disinvolto	ADJ	A	Number=Sing	6	amod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ciarlatano	ciarlatare	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	prepara	preparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	frittata	frittata	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
+23	sbriga	sbrigere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+26	raccontando	raccontare	VERB	V	VerbForm=Ger	23	advcl	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	modo	modo	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	e	e	CCONJ	CC	_	34	cc	_	_
+31-32	col	_	_	_	_	_	_	_	_
+31	con	con	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	stile	stile	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	_
+35	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	26	obj	_	_
+36	che	che	PRON	PR	PronType=Rel	38	nsubj:pass	_	_
+37	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	38	aux:pass	_	_
+38	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl:relcl	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	modo	modo	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+41	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	collo	collo	NOUN	S	Gender=Masc|Number=Sing	38	nsubj:pass	_	_
+43	stile	stile	NOUN	S	Gender=Masc|Number=Sing	42	compound	_	_
+44	vostro	vostro	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	dimentica	dimenticare	ADJ	A	Gender=Fem|Number=Sing	44	conj	_	_
+47	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	obj	_	_
+48	sciagurato	sciagurato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl	_	SpaceAfter=No
+49	!	!	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 6
+# text = che i lavori di scorcio non riescono che ai grandi artisti.
+1	che	che	SCONJ	CS	_	7	mark	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	scorcio	scorcio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	grandi	grande	ADJ	A	Number=Plur	12	amod	_	_
+12	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

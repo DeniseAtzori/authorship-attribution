@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Chi sa!
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ella disse di sì.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	sì	sì	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Si rammentava bene, Paolo Herz, che ebbrezza era stata la sua, noi giorno del primo appuntamento, e come egli aveva avuto la febbre vorace dell'impazienza, spezzando il suo orologio, andando per le vie come folle.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	rammentava	rammentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	Paolo	Paolo	PROPN	SP	_	2	nsubj	_	_
+6	Herz	Herz	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+9	ebbrezza	ebbrezzare	NOUN	S	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+11	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
+16	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
+20	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	26	punct	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23	come	come	ADP	E	_	24	case	_	_
+24	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	_
+25	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	vorace	vorace	ADJ	A	Number=Sing	28	amod	_	_
+30-31	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+30	di	di	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	impazienza	impazienza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	26	punct	_	_
+34	spezzando	spezzare	VERB	V	VerbForm=Ger	26	advcl	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	34	punct	_	_
+39	andando	andare	VERB	V	VerbForm=Ger	34	advcl	_	_
+40	per	per	ADP	E	_	42	case	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	vie	via	NOUN	S	Gender=Fem|Number=Plur	39	obl	_	_
+43	come	come	ADP	E	_	44	case	_	_
+44	folle	folla	NOUN	S	Gender=Fem|Number=Plur	42	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 4
+# text = Poi... che era accaduto, poi?
+1	Poi...	Poi.	PUNCT	FF	_	4	punct	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	poi	poi	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = In un momento di maggiore impeto d'amore, donna Beatrice gli aveva detto, malinconicamente:
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	_
+6	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	Beatrice	Beatore	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+13	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	malinconicamente	malinconico	ADV	B	_	14	advmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	14	punct	_	SpacesAfter=\n
+

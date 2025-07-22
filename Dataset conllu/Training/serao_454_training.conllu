@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma l’ora lunga e difficile fu quella dei lavori donneschi.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	difficile	difficile	ADJ	A	Number=Sing	4	conj	_	_
+7	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	donneschi	donnesco	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Poche sapevano fare la calza, qualcuna sapeva far l’orlo:
+1	Poche	poco	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	sapevano	sapere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	calza	calza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	qualcuna	qualcuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	8	nsubj	_	_
+8	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+9	far	fare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	l’	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	orlo	orlo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = e di queste, poche avevano il filo e i ferri e l’ago e il ditale e qualche cosa da orlare.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	poche	poco	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	6	nsubj	_	_
+6	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	filo	filo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	ferri	ferro	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ago	ago	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ditale	ditale	ADJ	A	Number=Sing	6	conj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+21	da	da	ADP	E	_	22	mark	_	_
+22	orlare	orlare	VERB	V	VerbForm=Inf	20	acl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Santelia cuciva già una camicia.
+1	Santelia	Santelia	PROPN	SP	_	2	nsubj	_	_
+2	cuciva	cucire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	già	già	ADV	B	_	2	advmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	camicia	camicia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Cavalieri si bucò un ditino, ne sprizzò il sangue, lo succhiò e non volle più cucire.
+1	Cavalieri	Cavalieri	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	bucò	bucare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ditino	ditino	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	sprizzò	sprizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	succhiò	succhiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+17	più	più	ADV	B	_	16	advmod	_	_
+18	cucire	cucire	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

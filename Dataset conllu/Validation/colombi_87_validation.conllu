@@ -1,0 +1,175 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Povera Fulvia!
+1	Povera	povero	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Fulvia	Fulvia	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = non giudicarmi troppo severamente.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2-3	giudicarmi	_	_	_	_	_	_	_	_
+2	giudicar	giudicare	VERB	V	VerbForm=Inf	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	troppo	troppo	ADV	B	_	5	advmod	_	_
+5	severamente	severo	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = È il mio carattere così;
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = --io non so amare che a sbalzi.
+1	--io	--io	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	amare	amare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	sbalzi	sbalzo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = --Era certo studiando me, che la tua anima passionata inventava l'_episodio tempestoso_.
+1	--Era	--Ero	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	certo	certo	ADV	B	_	3	advmod	_	_
+3	studiando	studiare	VERB	V	VerbForm=Ger	0	root	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	anima	anima	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	passionata	passionato	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	inventava	inventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	_episodio	_episodio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	tempestoso_	tempestoso-	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Sì, il mio amore è splendido ed ardente come il lampo, ma rapido com'esso.
+1	Sì	sì	INTJ	I	Polarity=Pos	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	7	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	amore	amore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	splendido	splendido	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	ed	e	CCONJ	CC	_	9	cc	_	_
+9	ardente	ardente	ADJ	A	Number=Sing	7	conj	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lampo	lampo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	rapido	rapidere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+16	com'	come	SCONJ	CS	_	17	mark	_	SpaceAfter=No
+17	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = --Salgo troppo alto nella sfera della passione, per rimanervi; bisogna ch'io ridiscenda;
+1	--Salgo	--Salgo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	troppo	troppo	ADV	B	_	3	advmod	_	_
+3	alto	alto	ADV	B	_	1	advmod	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sfera	sfera	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	passione	passione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	rimanervi	_	_	_	_	_	_	_	SpaceAfter=No
+12	rimaner	rimanere	VERB	V	VerbForm=Inf	1	advcl	_	_
+13	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	12	obj	_	_
+14	;	;	PUNCT	FC	_	15	punct	_	_
+15	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+16	ch'	perché	SCONJ	CS	_	18	mark	_	SpaceAfter=No
+17	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	ridiscenda	ridiscendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = --ed allora la prosa della realtà mi gela il cuore,--poi mi innalzo di nuovo, ritrovo la luce, ritrovo l'ardore,--ma per perderli e ridiscendere ancora.
+1	--ed	--e	CCONJ	CC	_	9	cc	_	_
+2	allora	allora	ADV	B	_	9	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	prosa	prosa	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	realtà	realtà	NOUN	S	Gender=Fem	4	nmod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	gela	gelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+14	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+15	poi	poi	ADV	B	_	17	advmod	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	expl	_	_
+17	innalzo	innalzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	ritrovo	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	luce	luce	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	ritrovo	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	32	punct	_	SpaceAfter=No
+29	-	-	PUNCT	FF	_	32	punct	_	SpaceAfter=No
+30	-ma	-mare	ADV	B	_	32	advmod	_	_
+31	per	per	ADP	E	_	32	mark	_	_
+32-33	perderli	_	_	_	_	_	_	_	_
+32	perder	perdere	VERB	V	VerbForm=Inf	17	conj	_	_
+33	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	obj	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	ridiscendere	ridiscendere	VERB	V	VerbForm=Inf	32	conj	_	_
+36	ancora	ancora	ADV	B	_	35	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 9
+# text = --Perdonami, Fulvia; io non ne ho colpa;
+1	--Perdonami	--Perdonami	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Fulvia	Fulvia	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	8	punct	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 10
+# text = come tu non hai merito del tuo amore più durevole e profondo.
+1	come	come	ADP	E	_	2	case	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	merito	meritare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	durevole	durevole	ADJ	A	Number=Sing	9	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

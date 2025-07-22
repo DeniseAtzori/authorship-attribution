@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dacchè era al mondo, era avvezzo a trattarla con tanto rispetto, che gli sarebbe sembrato d'insultarla facendo allusione a quanto lei aveva confessato.
+1	Dacchè	Dacché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	avvezzo	avvezzo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	trattarla	_	_	_	_	_	_	_	_
+10	trattar	trattare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	tanto	tanto	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+18	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	sembrato	sembrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+20	d'	di	ADP	E	_	21	mark	_	SpaceAfter=No
+21-22	insultarla	_	_	_	_	_	_	_	_
+21	insultar	insultare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	facendo	fare	VERB	V	VerbForm=Ger	21	advcl	_	_
+24	allusione	allusione	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	23	obl	_	_
+27	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+28	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	confessato	confessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Era un argomento di cui non era possibile parlare fra loro.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	possibile	possibile	ADJ	A	Number=Sing	3	acl:relcl	_	_
+9	parlare	parlare	VERB	V	VerbForm=Inf	8	csubj	_	_
+10	fra	fra	ADP	E	_	11	case	_	_
+11	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Non avrebbe osato neppure di rivederla per qualche tempo;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	osato	osare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	neppure	neppure	ADV	BN	PronType=Neg	6	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	rivederla	_	_	_	_	_	_	_	_
+6	riveder	rivedere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = sarebbe bastato che i loro occhi si fossero incontrati, per confonderli e farli arrossire tutti e due.
+1	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	bastato	bastare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	loro	loro	DET	AP	Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	incontrati	incontrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	confonderli	_	_	_	_	_	_	_	_
+12	confonder	confondere	VERB	V	VerbForm=Inf	9	advcl	_	_
+13	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15-16	farli	_	_	_	_	_	_	_	_
+15	far	fare	VERB	V	VerbForm=Inf	12	conj	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	arrossire	arrossire	VERB	V	VerbForm=Inf	15	ccomp	_	_
+18	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	17	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	due	due	NUM	N	NumType=Card	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

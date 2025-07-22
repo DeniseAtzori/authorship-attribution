@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La camera da letto era accanto, lunga e stretta come il salotto.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	camera	camera	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	letto	letto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	accanto	accanto	ADV	B	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	stretta	stretto	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Nel senso della lunghezza vi era il letto.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	senso	senso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lunghezza	lunghezza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	letto	letto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Innanzi al letto un tappetino, come nel salotto, e accanto una poltrona di lana azzurra, con una macchia che aveva corroso il colore, nel fondo.
+1	Innanzi	innanzi	ADV	B	_	6	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	letto	letto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tappetino	tappetino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	come	come	ADV	B	_	11	advmod	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	accanto	accanto	ADV	B	_	16	advmod	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	lana	lana	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	azzurra	azzurro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	6	punct	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	macchia	macchia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	corroso	corrodere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	colore	colore	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	6	punct	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = All'altra parete un canterano, con un piano di legno un po' macchiato, qua e là enfiato, come se vi fossero stati poggiati dei bicchieri bagnati: sopra, due candelieri di ottone, senza candele.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	4	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	altra	altro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	parete	parete	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	canterano	canterano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	piano	piano	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	legno	legno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	po'	poco	ADV	B	_	15	advmod	_	_
+15	macchiato	macchiato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	qua	qua	ADV	B	_	20	advmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	là	là	ADV	B	_	20	advmod	_	_
+20	enfiato	enfiato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	6	punct	_	_
+22	come	come	ADV	B	_	27	advmod	_	_
+23	se	se	SCONJ	CS	_	27	mark	_	_
+24	vi	vi	ADV	B	_	27	advmod	_	_
+25	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+26	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	aux:pass	_	_
+27	poggiati	poggiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	bicchieri	bicchiere	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+31	bagnati	bagnare	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	6	punct	_	_
+33	sopra	sopra	ADV	B	_	35	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	due	due	NUM	N	NumType=Card	36	nummod	_	_
+36	candelieri	candeliere	NOUN	S	Gender=Masc|Number=Plur	6	appos	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	ottone	ottone	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	36	punct	_	_
+40	senza	senza	ADP	E	_	41	case	_	_
+41	candele	candela	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

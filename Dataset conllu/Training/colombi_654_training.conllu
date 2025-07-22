@@ -1,0 +1,126 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era guarita dalla convulsione;
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	guarita	guarire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	dalla	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	convulsione	convulsione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = però, dopo alcuni giorni, fu presa dal vaiuolo, che si sviluppò violento, terribile.
+1	però	però	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dopo	dopo	ADP	E	_	5	case	_	_
+4	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vaiuolo	vaiuolo	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	sviluppò	sviluppare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+16	violento	violento	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	terribile	terribile	ADJ	A	Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Il medico le aveva portata l'infezione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	medico	medico	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	portata	esporere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	infezione	infezione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = La sua forte natura, la sua gioventù lottarono lungamente, e trionfarono del male;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	forte	forte	ADJ	A	Number=Sing	4	amod	_	_
+4	natura	natura	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	gioventù	gioventù	NOUN	S	Gender=Fem	9	nsubj	_	_
+9	lottarono	lottare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	lungamente	lungo	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	trionfarono	trionfare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	male	male	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 5
+# text = ma la bella fanciulla rimase orrenda.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	bella	bello	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	orrenda	orrenda	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = La bocca era contorta, gli occhi loschi;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	contorta	contortare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+8	loschi	losco	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = la pelle violacea e fortemente butterata pareva la corteccia d'un popone;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	violacea	violaceo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	fortemente	fortemente	ADV	B	_	6	advmod	_	_
+6	butterata	butterato	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	_
+7	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	corteccia	corteccia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	popone	popone	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 8
+# text = ed uno stiramento di nervi sotto la guancia sinistra, torceva perennemente il collo da quella parte.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	stiramento	stiramento	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	nervi	nervo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	sotto	sotto	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	guancia	guancia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	torceva	torcere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	perennemente	perennemente	ADV	B	_	11	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	collo	collo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

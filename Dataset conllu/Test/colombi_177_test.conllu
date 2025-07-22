@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --«Addio, Fulvia.
+1	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	«	«	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+4	Addio	Addio	INTJ	I	_	6	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Fulvia	Fulvia	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Non mi rimproverate un ultimo sfogo dell'anima.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	rimproverate	rimproverare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	sfogo	sfogo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	anima	anima	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Io non sono temibile per voi.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	temibile	temibile	ADJ	A	Number=Sing	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non credo di esserlo stato mai dinanzi alla vostra fiera virtù.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	esserlo	_	_	_	_	_	_	_	_
+4	esser	essere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	stato	stato	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	mai	mai	ADV	B	_	4	advmod	_	_
+8	dinanzi	dinanzi	ADP	E	_	12	case	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	fiera	fiera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+13	virtù	virtù	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ma ora poi, mi sento disfatto in faccia a me stesso, e debbo esserlo anche in faccia a voi.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	ora	ora	ADV	B	_	6	advmod	_	_
+3	poi	poi	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	disfatto	disfatto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nmod	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	20	punct	_	_
+14	e	e	CCONJ	CC	_	20	cc	_	_
+15	debbo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+16-17	esserlo	_	_	_	_	_	_	_	_
+16	esser	essere	AUX	V	VerbForm=Inf	20	cop	_	_
+17	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+18	anche	anche	ADV	B	_	20	advmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = A rivederci, se il destino lo vorrà.
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	rivederci	_	_	_	_	_	_	_	SpaceAfter=No
+2	riveder	rivedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	se	se	SCONJ	CS	_	9	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	destino	destino	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	vorrà	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Quando vi stringerò la mano, la bella mano candida, mi troverete molto mutato.
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	stringerò	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	bella	bello	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	mano	mano	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+10	candida	candido	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	troverete	troveere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	3	conj	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	mutato	mutato	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

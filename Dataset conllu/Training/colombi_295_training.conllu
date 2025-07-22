@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Invocavo tutte le belve del giardino zoologico.
+1	Invocavo	Invocavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	belve	belva	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	zoologico	zoologico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Avrei voluto vederne gremita l'arena di Milano, udirne i ruggiti minacciosi.
+1	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3-4	vederne	_	_	_	_	_	_	_	_
+3	veder	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+5	gremita	gremitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	arena	arena	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Milano	Milano	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11-12	udirne	_	_	_	_	_	_	_	_
+11	udir	udire	VERB	V	VerbForm=Inf	5	conj	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ruggiti	ruggito	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	minacciosi	minaccioso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = E se una fanciulla che amavo ci avesse gettato il suo guanto, sarei corso in mezzo ad esse, e chinando il capo tra le fauci del leone, sotto l'occhio iniettato di sangue della iena, avrei raccolto l'oggetto prezioso.
+1	E	e	CCONJ	CC	_	15	cc	_	_
+2	se	se	SCONJ	CS	_	9	mark	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	amavo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+8	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	gettato	gettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	guanto	guanto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	corso	correre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18	ad	a	ADP	E	_	19	case	_	_
+19	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	chinando	chinare	VERB	V	VerbForm=Ger	15	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	capo	capo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	tra	tra	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	fauci	fauce	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	leone	leone	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	15	punct	_	_
+32	sotto	sotto	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+35	iniettato	iniettato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	iena	iena	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	15	punct	_	_
+42	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	raccolto	raccogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+45	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+46	prezioso	prezioso	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

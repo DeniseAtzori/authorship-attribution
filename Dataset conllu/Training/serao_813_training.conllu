@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le parve di uscire da un sogno triste:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parve	parva	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	uscire	uscire	VERB	V	VerbForm=Inf	2	acl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	triste	triste	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = il sole illuminava le prime case di Roma, e la nebbia romana, e il fumo del treno, una felicità di calore e di luce l'avvolse, scendendo dal vagone, poggiando la sua mano sottile guantata sempre di nero in quella tremante di Ferrante.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sole	sole	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	illuminava	illuminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	6	amod	_	_
+6	case	casa	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Roma	Roma	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+13	romana	romano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	treno	treno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	felicità	felicità	NOUN	S	Gender=Fem	3	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	calore	calore	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	luce	luce	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	avvolse	avvolse	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	3	punct	_	_
+32	scendendo	scendere	VERB	V	VerbForm=Ger	3	advcl	_	_
+33-34	dal	_	_	_	_	_	_	_	_
+33	da	da	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	vagone	vagone	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	32	punct	_	_
+37	poggiando	poggiare	VERB	V	VerbForm=Ger	32	advcl	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	mano	mano	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	_
+41	sottile	sottile	ADJ	A	Number=Sing	40	amod	_	_
+42	guantata	guantare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
+43	sempre	sempre	ADV	B	_	42	advmod	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	nero	nero	ADJ	A	Gender=Masc|Number=Sing	42	obl	_	_
+46	in	in	ADP	E	_	48	case	_	_
+47	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	48	det	_	_
+48	tremante	tremante	NOUN	S	Number=Sing	42	obl	_	_
+49	di	di	ADP	E	_	50	case	_	_
+50	Ferrante	Ferrante	PROPN	SP	_	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Si guardarono, così, lungamente, fra la folla, tenendosi per mano, camminando quasi portati.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	guardarono	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	così	così	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	lungamente	lungo	ADV	B	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	fra	fra	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	folla	folla	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12-13	tenendosi	_	_	_	_	_	_	_	_
+12	tenendo	tenere	VERB	V	VerbForm=Ger	2	advcl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	mano	mano	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	camminando	camminare	VERB	V	VerbForm=Ger	12	advcl	_	_
+18	quasi	quasi	ADV	B	_	19	advmod	_	_
+19	portati	portare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

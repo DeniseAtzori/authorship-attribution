@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Flavio si domandò quanti anni ella poteva avere.
+1	Flavio	Flavio	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	domandò	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	5	det	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	avere	avere	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Non era più un fanciullo, lui.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	più	più	ADV	B	_	5	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Conosceva la vita, aveva letto, aveva osservato.
+1	Conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	osservato	osservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Per la prima volta pensò perchè Anna non prendeva marito.
+1	Per	per	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+5	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	perchè	perché	SCONJ	CS	_	9	mark	_	_
+7	Anna	Anna	PROPN	SP	_	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+10	marito	marito	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ciò era per lo meno singolare; bella, ricca....
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	meno	meno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	singolare	singolare	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	8	punct	_	_
+8	bella	bello	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	ricca...	ricca.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Improvvisamente scosse il capo:
+1	Improvvisamente	improvvisamente	ADV	B	_	2	advmod	_	_
+2	scosse	scosso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = dove mai si sarebbe trovato l'uomo degno di lei?
+1	dove	dove	ADV	B	_	5	advmod	_	_
+2	mai	mai	ADV	B	_	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+8	degno	degno	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

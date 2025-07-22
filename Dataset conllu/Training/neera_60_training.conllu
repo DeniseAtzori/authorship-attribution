@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ecco dunque che per quanto ci si metta di buona volontà non si riesce mai a farsi intendere da tutti.
+1	Ecco	ecco	ADV	B	_	2	advmod	_	_
+2	dunque	dunque	ADV	B	_	14	advmod	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	8	obl	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	metta	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	buona	buono	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	volontà	volontà	NOUN	S	Gender=Fem	8	obl	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	mai	mai	ADV	B	_	14	advmod	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17-18	farsi	_	_	_	_	_	_	_	_
+17	far	fare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	obj	_	_
+19	intendere	intendere	VERB	V	VerbForm=Inf	17	ccomp	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = È scoraggiante, se vogliamo, non sufficiente tuttavia per farmi desistere dal consigliare quello che io credo il solo bene della donna.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	scoraggiante	scoraggiante	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	se	se	SCONJ	CS	_	5	mark	_	_
+5	vogliamo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	sufficiente	sufficiente	ADJ	A	Number=Sing	2	amod	_	_
+9	tuttavia	tuttavia	ADV	B	_	8	advmod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	desistere	desistere	VERB	V	VerbForm=Inf	11	acl	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	consigliare	consigliare	VERB	V	VerbForm=Inf	12	obl	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	obj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+18	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	solo	solo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	bene	bene	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	donna	donna	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E a questa donna, a questa ignota, a quest’una fra mille mi piace oggi rispondere perchè altre ne potranno approfittare, considerando anzitutto che in una questione d’interesse così generale, il caso isolato non ha alcun valore.
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	ignota	ignota	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	quest’	questo	DET	DD	Number=Sing|PronType=Dem	12	det	_	SpaceAfter=No
+12	una	uno	NUM	N	NumType=Card	16	obl	_	_
+13	fra	fra	ADP	E	_	14	case	_	_
+14	mille	mille	NUM	N	NumType=Card	12	nummod	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	oggi	oggi	ADV	B	_	16	advmod	_	_
+18	rispondere	rispondere	VERB	V	VerbForm=Inf	16	csubj	_	_
+19	perchè	perché	SCONJ	CS	_	23	mark	_	_
+20	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	23	nsubj	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	23	iobj	_	_
+22	potranno	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	23	aux	_	_
+23	approfittare	approfittare	VERB	V	VerbForm=Inf	18	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	considerando	considerare	VERB	V	VerbForm=Ger	23	advcl	_	_
+26	anzitutto	anzitutto	ADV	B	_	25	advmod	_	_
+27	che	che	SCONJ	CS	_	40	mark	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	questione	questione	NOUN	S	Gender=Fem|Number=Sing	40	obl	_	_
+31	d’	di	ADP	E	_	32	case	_	SpaceAfter=No
+32	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	così	così	ADV	B	_	34	advmod	_	_
+34	generale	generale	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	30	punct	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	caso	caso	NOUN	S	Gender=Masc|Number=Sing	40	nsubj	_	_
+38	isolato	isolato	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+39	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+40	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+41	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	42	det	_	_
+42	valore	valore	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era davvero elegante, ben fatta; vestita bene; era giovine, allegra, cordialissima, entrava subito in confidenza.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	davvero	davvero	ADV	B	_	3	advmod	_	_
+3	elegante	elegare	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ben	bene	ADV	B	_	6	advmod	_	_
+6	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	8	punct	_	_
+8	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+9	bene	bene	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	giovine	giovina	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	allegra	allegra	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	cordialissima	cordialo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+19	subito	subito	ADV	B	_	21	advmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	confidenza	confidenza	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Era una di quelle signore, colle quali gli uomini stanno volentieri in compagnia, perchè sanno discorrere, tolgono di mezzo la soggezione senza mai perdere la loro dignità di contegno, e non annoiano mai;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	signore	signore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7-8	colle	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	quali	quale	PRON	PR	Number=Plur|PronType=Rel	12	obl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+13	volentieri	volentieri	ADV	B	_	12	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	perchè	perché	SCONJ	CS	_	18	mark	_	_
+18	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+19	discorrere	discorrere	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	tolgono	tolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	soggezione	soggezione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+26	senza	senza	ADP	E	_	28	mark	_	_
+27	mai	mai	ADV	B	_	28	advmod	_	_
+28	perdere	perdere	VERB	V	VerbForm=Inf	21	advcl	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	loro	loro	DET	AP	Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	dignità	dignità	NOUN	S	Gender=Fem	28	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	contegno	contegno	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	37	punct	_	_
+35	e	e	CCONJ	CC	_	37	cc	_	_
+36	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+37	annoiano	annoiare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+38	mai	mai	ADV	B	_	37	advmod	_	SpaceAfter=No
+39	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = una di quelle donne di cui le altre dicono:
+1	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	donne	donna	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	9	nsubj	_	_
+9	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+

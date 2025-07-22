@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una malinconica amarezza trapelò dal suo accento.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	malinconica	malinconico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	trapelò	trapelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	accento	accento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Flavio la fissava cogli occhi sbarrati, non osando parlare, così pallido e immobile che si vedevano palpitare le sue narici come l'ala di un uccello prigioniero;
+1	Flavio	Flavio	PROPN	SP	_	3	nsubj	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	fissava	fissare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	cogli	_	_	_	_	_	_	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	sbarrati	sbarrato	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	osando	osare	VERB	V	VerbForm=Ger	3	conj	_	_
+11	parlare	parlare	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	così	così	ADV	B	_	14	advmod	_	_
+14	pallido	pallido	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	immobile	immobile	ADJ	A	Number=Sing	14	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	vedevano	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+20	palpitare	palpitare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	narici	naore	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+24	come	come	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	ala	ala	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	uccello	uccello	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	prigioniero	prigioniero	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = mentre in lei cresceva la sensazione di tedio che le veniva così spesso dalla presenza della sorella, che cercava di combattere con tutte le forze, ma che rinasceva sorda, implacabile, da sorgenti oscure e profonde che sfuggivano a qualsiasi ricerca.
+1	mentre	mentre	SCONJ	CS	_	4	mark	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+4	cresceva	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tedio	tedio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+12	così	così	ADV	B	_	13	advmod	_	_
+13	spesso	spesso	ADV	B	_	11	advmod	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	combattere	combattere	VERB	V	VerbForm=Inf	22	ccomp	_	_
+25	con	con	ADP	E	_	28	case	_	_
+26	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	28	det:predet	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	forze	forza	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	ma	ma	CCONJ	CC	_	32	cc	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	rinasceva	rinascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	_
+33	sorda	sordo	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	implacabile	implacabile	ADJ	A	Number=Sing	33	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	da	da	ADP	E	_	38	case	_	_
+38	sorgenti	sorgente	NOUN	S	Gender=Fem|Number=Plur	33	conj	_	_
+39	oscure	oscuro	ADJ	A	Gender=Fem|Number=Plur	38	amod	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	profonde	profondo	NOUN	S	Gender=Fem|Number=Plur	39	conj	_	_
+42	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+43	sfuggivano	sfuggire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	32	acl:relcl	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	46	det	_	_
+46	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	43	obl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

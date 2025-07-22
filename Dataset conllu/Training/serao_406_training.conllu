@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ben presto raggiunse Pasqualina e le consegnò trionfalmente il porcellino.
+1	Ben	bene	ADV	B	_	3	advmod	_	_
+2	presto	presto	ADV	B	_	3	advmod	_	_
+3	raggiunse	raggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Pasqualina	Pasqualina	PROPN	SP	_	7	nsubj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	iobj	_	_
+7	consegnò	consegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	trionfalmente	trionfalmente	ADV	B	_	7	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	porcellino	porcellino	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Pasqualina, all’oscuro, sorrideva.
+1	Pasqualina	Pasqualina	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	all’	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	oscuro	oscuro	NOUN	S	Gender=Masc	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	sorrideva	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Rientrarono in casa e Ciccotto fu portato nel suo stabbiolo, dove mangiò e si addormì immediatamente.
+1	Rientrarono	Rientrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	Ciccotto	Ciccotto	PROPN	SP	_	7	nsubj:pass	_	_
+6	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	stabbiolo	stabbiolo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	dove	dove	ADV	B	_	14	advmod	_	_
+14	mangiò	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	addormì	addormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+18	immediatamente	immediato	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Canituccia, ansante, aveva seguito tutte quelle operazioni.
+1	Canituccia	Canituccia	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ansante	ansante	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	seguito	seguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	quelle	quelle	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Aveva fame anche lei come Ciccotto.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	fame	fame	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	Ciccotto	Ciccotto	PROPN	SP	_	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Seguì Pasqualina in cucina, guardandola coi suoi grandi occhi selvaggi che non sapevano chiedere.
+1	Seguì	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Pasqualina	Pasqualina	PROPN	SP	_	1	obj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	guardandola	guardandolare	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+7-8	coi	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	11	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	grandi	grande	ADJ	A	Number=Plur	11	amod	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+12	selvaggi	selvaggio	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	sapevano	sapere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	chiedere	chiedere	VERB	V	VerbForm=Inf	6	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quell’argomento fu come una scudisciata sui lombi di poledri liberi.
+1-2	Quell’	_	_	_	_	_	_	_	SpaceAfter=No
+1	Qui	qui	ADV	B	_	7	advmod	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	scudisciata	scudisciata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8-9	sui	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	lombi	lombo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	poledri	poledro	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Tutti si slanciarono, chi difendendo, chi accusando.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	slanciarono	slanciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	obl	_	_
+6	difendendo	difendere	VERB	V	VerbForm=Ger	5	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	obj	_	_
+9	accusando	accusare	VERB	V	VerbForm=Ger	8	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Buona parte delle signore protestò di non avere letto il libro, ma tutte ne erano edotte:
+1	Buona	buono	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	signore	signore	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	protestò	protestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	xcomp	_	_
+7	di	di	ADP	E	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	avere	avere	AUX	VA	VerbForm=Inf	10	aux	_	_
+10	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	libro	libro	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	_
+15	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	18	nsubj:pass	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+17	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	aux:pass	_	_
+18	edotte	edurre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = la marchesa che sola non ne sapeva nulla se ne informò premurosamente dalla giovane signora vestita di bianco, la quale potè darle schiarimenti precisi per averlo letto, disse, senza accorgersene.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	marchesa	marchesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+4	sola	solare	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+8	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+9	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	informò	informare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+12	premurosamente	premurosamente	ADV	B	_	11	advmod	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	giovane	giovane	ADJ	A	Number=Sing	16	amod	_	_
+16	signora	signore	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	vestita	vestire	ADJ	A	Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	quale	quale	PRON	PR	Number=Sing|PronType=Rel	24	nsubj	_	_
+23	potè	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
+24-25	darle	_	_	_	_	_	_	_	_
+24	dar	dare	VERB	V	VerbForm=Inf	11	acl:relcl	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	schiarimenti	schiarimento	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27	precisi	preciso	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29-30	averlo	_	_	_	_	_	_	_	_
+29	aver	avere	VERB	V	VerbForm=Inf	27	advcl	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	letto	letto	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	11	punct	_	_
+33	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	senza	senza	ADP	E	_	36	mark	_	_
+36-38	accorgersene	_	_	_	_	_	_	_	SpaceAfter=No
+36	accorger	accorgere	VERB	V	VerbForm=Inf	33	advcl	_	_
+37	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl	_	_
+38	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	36	iobj	_	_
+39	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

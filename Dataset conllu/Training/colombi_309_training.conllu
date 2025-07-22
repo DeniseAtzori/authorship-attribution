@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per me, che non avevo una parola di scritto, fu un fulmine a ciel sereno.
+1	Per	per	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	parola	parola	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	scritto	scritto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	fulmine	fulmine	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	ciel	ciel	NOUN	S	Gender=Masc	14	nmod	_	_
+17	sereno	sereno	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Rimasi là alla sponda del lago, tenendo tra le mani l'epistola senza aver il coraggio di leggerla, e pensando con raccapriccio tutte le parole amare che c'erano dentro, mentre dietro a me, nel salotto, risuonavano le note soavi della _Dolce voluttà_ del Marchetti.
+1	Rimasi	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	là	là	ADV	B	_	1	advmod	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sponda	sponda	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	lago	lago	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	tenendo	tenere	VERB	V	VerbForm=Ger	1	advcl	_	_
+11	tra	tra	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	mani	mano	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	epistola	epistola	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+16	senza	senza	ADP	E	_	17	mark	_	_
+17	aver	avere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21-22	leggerla	_	_	_	_	_	_	_	SpaceAfter=No
+21	legger	leggere	VERB	V	VerbForm=Inf	19	acl	_	_
+22	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	pensando	pensare	VERB	V	VerbForm=Ger	21	conj	_	_
+26	con	con	ADP	E	_	27	case	_	_
+27	raccapriccio	raccapriccio	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+28	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	30	det:predet	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	parole	parola	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+31	amare	amare	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+32	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+33	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	34	expl	_	SpaceAfter=No
+34	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
+35	dentro	dentro	ADV	B	_	34	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	34	punct	_	_
+37	mentre	mentre	SCONJ	CS	_	46	mark	_	_
+38	dietro	dietro	ADV	B	_	40	case	_	_
+39	a	a	ADP	E	_	38	fixed	_	_
+40	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	46	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42-43	nel	_	_	_	_	_	_	_	_
+42	in	in	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	risuonavano	risuonare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	advcl	_	_
+47	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+48	note	nota	ADJ	A	Gender=Fem|Number=Plur	49	amod	_	_
+49	soavi	soavo	NOUN	S	Gender=Fem|Number=Plur	46	nsubj	_	_
+50-51	della	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	_Dolce	_Dolce	PROPN	SP	_	49	nmod	_	_
+53	voluttà_	voluttà-	PUNCT	FB	_	52	punct	_	_
+54-55	del	_	_	_	_	_	_	_	_
+54	di	di	ADP	E	_	56	case	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	Marchetti	Marchetti	PROPN	SP	_	52	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

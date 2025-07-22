@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In complesso non c’era niente da dire, sembravano brave persone.
+1	In	in	ADP	E	_	2	case	_	_
+2	complesso	complesso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	dire	dire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	sembravano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+11	brave	brave	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Dopo qualche tempo un ragazzetto di otto o dieci anni venne ad accrescere la famigliuola; chi era?
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ragazzetto	ragazzetto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	di	di	ADP	E	_	10	case	_	_
+7	otto	otto	NUM	N	NumType=Card	10	nummod	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	dieci	dieci	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+11	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	ad	a	ADP	E	_	13	mark	_	_
+13	accrescere	accrescere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	famigliuola	famigliuola	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	18	punct	_	_
+17	chi	chi	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Sulle prime lo dissero un parente, un garzone, che so io, ma a poco a poco si seppe la verità.
+1-2	Sulle	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	5	obl	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	dissero	dire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	parente	parente	NOUN	S	Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	garzone	garzone	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+13	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	22	punct	_	_
+16	ma	ma	CCONJ	CC	_	22	cc	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	poco	poco	ADV	B	_	22	advmod	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	poco	poco	ADV	B	_	22	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:pass	_	_
+22	seppe	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	verità	verità	NOUN	S	Gender=Fem	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Era un figlio nato loro prima del matrimonio, messo all’Ospizio dei trovatelli, dimenticato per tutti quegli anni e ripreso nel momento opportuno di sfruttarlo.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+6	prima	prima	ADV	B	_	9	case	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12-13	all’	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Ospizio	Ospizio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	trovatelli	trovatello	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+20	per	per	ADP	E	_	23	case	_	_
+21	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	23	det:predet	_	_
+22	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
+23	anni	anno	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	ripreso	riprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	momento	momento	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	opportuno	opportuno	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31-32	sfruttarlo	_	_	_	_	_	_	_	SpaceAfter=No
+31	sfruttar	sfruttare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+32	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

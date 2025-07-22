@@ -1,0 +1,144 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nessuna tristezza venne a turbare quegli ultimi istanti;
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	turbare	turbare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+7	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	istanti	istante	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = nessuno dei due chiese promesse, nessuno ne fece.
+1	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	chiese	chiese	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+6	promesse	promesso	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+10	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Erano certi oramai di amarsi e tanto bastava a renderli felici.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	oramai	oramai	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	amarsi	_	_	_	_	_	_	_	_
+5	amar	amare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	tanto	tanto	ADV	B	_	9	advmod	_	_
+9	bastava	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11-12	renderli	_	_	_	_	_	_	_	_
+11	render	rendere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+13	felici	felice	ADJ	A	Number=Plur	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = La fresca inconscienza dei sentimenti veri abbattendo fra loro ogni convenzionalismo li lasciava liberi nella loro natura di esseri superiori, cui, più della legge, guidava un delicato istinto e più del rispetto umano era freno un invincibile orrore della volgarità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	fresca	fresco	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	inconscienza	inconscienza	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	veri	vero	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	abbattendo	abbattere	VERB	V	VerbForm=Ger	14	advcl	_	_
+9	fra	fra	ADP	E	_	10	case	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	obl	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	convenzionalismo	convenzionalismo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+14	lasciava	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	14	xcomp	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	natura	natura	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	cui	cui	PRON	PR	PronType=Rel	31	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	più	più	ADV	B	_	31	advmod	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	legge	legge	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	guidava	guidare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	delicato	delicato	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+35	e	e	CCONJ	CC	_	42	cc	_	_
+36	più	più	ADV	B	_	42	advmod	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	_
+40	umano	umano	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+41	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	cop	_	_
+42	freno	freno	ADJ	A	Gender=Masc|Number=Sing	34	conj	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	invincibile	invincibile	ADJ	A	Number=Sing	45	amod	_	_
+45	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	42	nsubj	_	_
+46-47	della	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	volgarità	volgarità	NOUN	S	Gender=Fem	45	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Così, guardandosi negli occhi, poterono ancora quella sera sorridersi nella infinita dolcezza delle albe che appena colorano i lembi del cielo.
+1	Così	così	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	guardandosi	_	_	_	_	_	_	_	_
+3	guardando	guardare	VERB	V	VerbForm=Ger	13	advcl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5-6	negli	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	poterono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+10	ancora	ancora	ADV	B	_	12	advmod	_	_
+11	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	sera	sera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+13-14	sorridersi	_	_	_	_	_	_	_	_
+13	sorrider	sorridere	VERB	V	VerbForm=Inf	0	root	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	infinita	infinito	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	albe	alba	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	appena	appena	ADV	B	_	24	advmod	_	_
+24	colorano	colorere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	lembi	lembo	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

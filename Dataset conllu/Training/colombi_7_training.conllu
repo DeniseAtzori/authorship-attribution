@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per se stessa non comperava mai nulla.
+1	Per	per	ADP	E	_	5	mark	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	comperava	comperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Riceveva col salario i vestiti e le scarpe, come si usa in provincia, ed il denaro delle sue mesate lo metteva tutto da parte per quando avrebbe sposato il bersagliere.
+1	Riceveva	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	col	_	_	_	_	_	_	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	salario	salario	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	vestiti	vestito	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	scarpe	scarpa	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	come	come	SCONJ	CS	_	13	mark	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	usa	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	ed	e	CCONJ	CC	_	19	cc	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	mesate	mesata	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+24	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+25	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+26	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	28	obj	_	_
+27	da	da	ADP	E	_	28	case	_	_
+28	parte	parte	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	per	per	ADP	E	_	32	mark	_	_
+30	quando	quando	SCONJ	CS	_	29	fixed	_	_
+31	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	sposato	sposare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	bersagliere	bersagliere	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = S'era fatta lei stessa, col suo filato, varie pezze di tela che serbava preziosamente nel baule, e non ne avrebbe staccato da farsi una camicia per nulla al mondo.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7-8	col	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	filato	filato	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	varie	vario	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	pezze	pezzo	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	tela	tela	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	serbava	serbavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+18	preziosamente	preziosamente	ADV	B	_	17	advmod	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	baule	baule	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	27	punct	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+25	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	27	iobj	_	_
+26	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	staccato	staccato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+28	da	da	ADP	E	_	29	mark	_	_
+29-30	farsi	_	_	_	_	_	_	_	_
+29	far	fare	VERB	V	VerbForm=Inf	27	ccomp	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	camicia	camicia	NOUN	S	Gender=Fem|Number=Sing	29	xcomp	_	_
+33	per	per	ADP	E	_	34	case	_	_
+34	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	32	nmod	_	_
+35-36	al	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = I doni che le si facevano lungo l'anno, le strenne di Natale, tutto riponeva per quel giorno desiderato e lontano.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	doni	done	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+7	lungo	lungo	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	strenne	strenne	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Natale	Natale	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	_
+17	riponeva	riporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	desiderato	desiderato	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per tutto quel giorno non vidi Fulvia.
+1	Per	per	ADP	E	_	2	case	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	vidi	videre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Fulvia	Fulvia	PROPN	SP	_	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Omai non era più possibile l'illusione.
+1	Omai	Omai	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Non per convenienza, non per vegliare alla felicità di Giorgio, ma per me, per la mia propria felicità io mi sentivo attratto verso quella strana giovane;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	convenienza	convenienza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	vegliare	vegliare	VERB	V	VerbForm=Inf	0	root	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	felicità	felicità	NOUN	S	Gender=Fem	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Giorgio	Giorgio	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	25	punct	_	_
+14	ma	ma	CCONJ	CC	_	25	cc	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	per	per	ADP	E	_	22	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+20	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+21	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	felicità	felicità	NOUN	S	Gender=Fem	25	obl	_	_
+23	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	expl	_	_
+25	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	conj	_	_
+26	attratto	attratto	ADV	B	_	25	advmod	_	_
+27	verso	verso	ADP	E	_	29	case	_	_
+28	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+29	strana	strano	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+30	giovane	giovane	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+31	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = il suo sguardo, la sua voce, la lealtà del suo cuore avevano gettato nel mio i germi dell'amore.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	voce	voce	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lealtà	lealtà	NOUN	S	Gender=Fem	3	conj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	gettato	gettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	21	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	germi	germo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+22-23	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	di	di	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	amore	amore	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

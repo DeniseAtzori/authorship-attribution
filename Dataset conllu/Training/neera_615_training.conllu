@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Bisogna che ritornino alla pittura storica;
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Bisogna	bisognare	PROPN	SP	_	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	ritornino	ritornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	pittura	pittura	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	storica	storico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = non c'è altra salvezza.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	altra	altro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	salvezza	salvezza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Cosa vogliono dire tutti codesti fantocci?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	6	det	_	_
+5	codesti	codesto	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	fantocci	fantoccio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = La fantasia!
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Il sentimento!
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Baie.
+1	Baie	Baia	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Storia ci vuole; e disegno ci vuole.
+1	Storia	storia	PROPN	SP	_	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	8	punct	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	disegno	disegno	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Non c'è più nessuno che sappia disegnare.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	sappia	sapere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	disegnare	disegnare	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Vedere a' miei tempi l'Induni, il Focosi....
+1	Vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+2	a	a	ADP	E	_	5	case	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	5	punct	_	_
+4	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Induni	Induni	PROPN	SP	_	1	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Focosi...	Focosi...	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Vedere l'Emanuele Filiberto che getta ai piedi dell'ambasciatore spagnuolo le insegne del Toson d'oro!
+1	Vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Emanuele	Emanuele	PROPN	SP	_	1	obj	_	_
+4	Filiberto	Filiberto	PROPN	SP	_	3	flat:name	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	getta	gettare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	ambasciatore	ambasciatore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	spagnuolo	spagnuolo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	insegne	insegna	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Toson	Toson	PROPN	SP	_	15	nmod	_	_
+19	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	oro	oro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,131 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E mi figuravo i visi imbronciati delle mie nipotine capricciose;
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	figuravo	figurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	visi	viso	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	imbronciati	imbronciare	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	nipotine	nipotina	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+11	capricciose	capriccioso	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = la delusione melanconica delle più buone;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	melanconica	melanconico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	buone	buono	ADJ	A	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = lo stupore dei bambini, il loro risentimento dinanzi alle scarpette rimaste tutta la notte al freddo sul balcone e trovate il mattino vuote e raggrinzate dal gelo.
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	stupore	stupore	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	risentimento	risentimento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+10	dinanzi	dinanzi	ADV	B	_	13	case	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	scarpette	scarpetta	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+14	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	17	det:predet	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	notte	notte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	balcone	balcone	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	trovate	trovare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	vuote	vuoto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	raggrinzate	raggrinzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	conj	_	_
+31-32	dal	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	gelo	gelo	NOUN	S	Gender=Masc|Number=Sing	30	obl:agent	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 4
+# text = — Mi figuravo la casa triste, senza i gridi di sorpresa e di gioia, senza l'enfasi dei ringraziamenti, senza l'ansia del raccontare, senza l'entusiasmo romoroso assordante pei balocchi nuovi, senza l'animazione, l'orgasmo, la vita che anima le feste solenni.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	figuravo	figurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	triste	triste	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	senza	senza	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	gridi	gride	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	senza	senza	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	enfasi	enfasi	NOUN	S	Gender=Fem	3	obl	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	ringraziamenti	ringraziamento	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24	senza	senza	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	raccontare	raccontare	VERB	V	VerbForm=Inf	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	3	punct	_	_
+31	senza	senza	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+34	romoroso	romoroso	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	assordante	assordare	ADJ	A	Number=Sing	33	amod	_	_
+36	pei	peo	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	_
+37	balocchi	balocco	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+38	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	3	punct	_	_
+40	senza	senza	ADP	E	_	42	case	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+42	animazione	animazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	45	punct	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+45	orgasmo	orgasmo	NOUN	S	Gender=Masc|Number=Sing	42	conj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	3	punct	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+49	che	che	PRON	PR	PronType=Rel	52	case	_	_
+50	anima	anima	ADV	B	_	52	advmod	_	_
+51	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	52	det	_	_
+52	feste	feste	NOUN	S	Gender=Fem|Number=Plur	48	acl:relcl	_	_
+53	solenni	solenne	ADJ	A	Number=Plur	52	amod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

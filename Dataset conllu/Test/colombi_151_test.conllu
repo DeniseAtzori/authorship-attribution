@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Non potei occuparmi di nulla.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	potei	poteo	NUM	N	NumType=Card	4	nummod	_	_
+4	occuparmi	arma|occuparme	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Per me aspettare è sempre stata una così grande e laboriosa occupazione, che non mi fu mai possibile di far qualche altra cosa mentre aspetto una persona o un avvenimento importante.
+1	Per	per	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	aspettare	aspettare	VERB	V	VerbForm=Inf	0	root	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+5	sempre	sempre	ADV	B	_	12	advmod	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	laboriosa	laborioso	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	_
+12	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+17	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+18	mai	mai	ADV	B	_	19	advmod	_	_
+19	possibile	possibile	ADJ	A	Number=Sing	12	amod	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	far	fare	VERB	V	VerbForm=Inf	19	advcl	_	_
+22	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+23	altra	altro	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25	mentre	mentre	SCONJ	CS	_	26	mark	_	_
+26	aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	persona	persona	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	o	o	CCONJ	CC	_	31	cc	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	avvenimento	avvenimento	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+32	importante	importante	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sedetti sulla punta d'una sedia, nell'atto precario di chi sta per slanciarsi incontro a qualcheduno, ed aspettai.
+1	Sedetti	Sedetto	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	sulla	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	punta	punta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9-10	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	in	in	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	atto	atto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+12	precario	precario	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	chi	chi	PRON	PR	PronType=Rel	11	nmod	_	_
+15	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17-18	slanciarsi	_	_	_	_	_	_	_	_
+17	slanciar	slanciare	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	incontro	incontro	ADP	E	_	21	case	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	qualcheduno	qualcheduno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	ed	e	CCONJ	CC	_	24	cc	_	_
+24	aspettai	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

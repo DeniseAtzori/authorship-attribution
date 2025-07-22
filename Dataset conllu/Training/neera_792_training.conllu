@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Si sentiva buono, generoso, eroico.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	buono	buono	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	generoso	generoso	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	eroico	eroico	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Tutto ciò che di nobile e di elevato sta nella natura umana urgeva con dolce tumulto al suo cuore, pari al seme nascosto che solleva la terra e spinge in alto il rigoglio della messe.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	nobile	nobile	ADJ	A	Number=Sing	9	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	elevato	elevato	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+9	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	natura	natura	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	umana	umano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	urgeva	urgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	dolce	dolce	ADJ	A	Number=Sing	17	amod	_	_
+17	tumulto	tumulto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	pari	pari	ADJ	A	_	14	amod	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	seme	seme	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	nascosto	nascosto	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	solleva	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	terra	terra	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	spinge	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	alto	alto	ADV	B	_	33	advmod	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	rigoglio	rigoglio	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	messe	messa	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Nessuna forma religiosa si imponeva all’anelito del suo essere trasportato oltre ogni sensazione precisa, ma era il nucleo stesso di tutte le religioni nella sua indistruttibile essenza d’amore che divinizzava la visione terrena investendola della propria fiamma.
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	forma	forma	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	religiosa	religioso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	imponeva	imporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	all’	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	anelito	anelito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	suo	suo	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux	_	_
+13	trasportato	trasportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+14	oltre	oltre	ADP	E	_	16	case	_	_
+15	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	precisa	preciso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	ma	ma	CCONJ	CC	_	22	cc	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	nucleo	nucleo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+23	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	27	det:predet	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	religioni	religione	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+28-29	nella	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	32	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+30	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+31	indistruttibile	indistruttibile	ADJ	A	Number=Sing	32	amod	_	_
+32	essenza	essenza	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+33	d’	di	ADP	E	_	34	case	_	SpaceAfter=No
+34	amore	amore	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	divinizzava	divinizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	acl:relcl	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	visione	visione	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+39	terrena	terreno	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	_
+40-41	investendola	_	_	_	_	_	_	_	_
+40	investendo	investire	VERB	V	VerbForm=Ger	36	advcl	_	_
+41	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+42-43	della	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	45	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	fiamma	fiamma	NOUN	S	Gender=Fem|Number=Sing	40	obl	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

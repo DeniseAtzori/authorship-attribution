@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Al suo fianco Elvira leggeva la messa, voltando i fogli con un movimento compunto e grazioso della sua mano ferma;
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	Elvira	Elvira	PROPN	SP	_	6	nsubj	_	_
+6	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	messa	messa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	voltando	voltare	VERB	V	VerbForm=Ger	6	advcl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	fogli	foglio	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+16	compunto	compunto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	grazioso	grazioso	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	mano	mano	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+23	ferma	fermo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = movimento che ella compiva da cinque o sei anni, che avrebbe continuato a compiere per cinquanta o per sessanta ancora, mentre Anna inquieta cercava inutilmente la preghiera che rispondesse al suo intimo ardore.
+1	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	obj	_	_
+3	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	compiva	compivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	da	da	ADP	E	_	9	case	_	_
+6	cinque	cinque	NUM	N	NumType=Card	9	nummod	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	sei	sei	NUM	N	NumType=Card	6	conj	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	continuato	continuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	compiere	compiere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	cinquanta	cinquanta	NUM	N	NumType=Card	15	nummod	_	_
+18	o	o	CCONJ	CC	_	20	cc	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	sessanta	sessanta	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+21	ancora	ancora	ADV	B	_	26	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	mentre	mentre	SCONJ	CS	_	26	mark	_	_
+24	Anna	Anna	PROPN	SP	_	26	nsubj	_	_
+25	inquieta	inquieto	ADJ	A	Number=Sing	24	amod	_	_
+26	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+27	inutilmente	inutilmente	ADV	B	_	26	advmod	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	preghiera	preghiera	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	rispondesse	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32-33	al	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	36	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+34	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+35	intimo	intimo	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+36	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

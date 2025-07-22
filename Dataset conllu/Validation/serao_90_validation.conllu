@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nella bottega della guantaia, in via di Pietra, vi era ressa:
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	bottega	bottega	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	guantaia	guantaia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	via	via	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Pietra	pietra	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+14	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:pass	_	_
+15	ressa	rettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 2
+# text = la bella padrona bionda e alta, una milanese allegra, le due commesse, le due giovanettine magre, dagli occhi stanchi, non facevano che rivoltarsi indietro, ogni minuto, con le braccia tese, a prendere un cassetto di guanti dagli scaffali:
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	bella	bello	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+4	bionda	biondo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	alta	alto	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	milanese	milanese	ADJ	A	Number=Sing	10	amod	_	_
+10	allegra	allegra	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	due	due	NUM	N	NumType=Card	14	nummod	_	_
+14	commesse	commessa	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	giovanettine	giovanettina	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+19	magre	magro	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21-22	dagli	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+24	stanchi	stanco	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	3	punct	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+28	che	che	SCONJ	CS	_	29	mark	_	_
+29-30	rivoltarsi	_	_	_	_	_	_	_	_
+29	rivoltar	rivoltare	VERB	V	VerbForm=Inf	27	ccomp	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+31	indietro	indietro	ADV	B	_	29	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	27	punct	_	_
+33	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	34	det	_	_
+34	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	con	con	ADP	E	_	38	case	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+39	tese	tese	ADJ	A	Gender=Fem|Number=Plur	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	27	punct	_	_
+41	a	a	ADP	E	_	42	mark	_	_
+42	prendere	prendere	VERB	V	VerbForm=Inf	27	xcomp	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	cassetto	cassetto	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	guanti	guanto	NOUN	S	Gender=Masc|Number=Plur	44	nmod	_	_
+47-48	dagli	_	_	_	_	_	_	_	_
+47	da	da	ADP	E	_	49	case	_	_
+48	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	scaffali	scaffale	NOUN	S	Gender=Masc|Number=Plur	42	obl	_	SpaceAfter=No
+50	:	:	PUNCT	FC	_	27	punct	_	_
+
+# sent_id = 3
+# text = esse curvavano il capo a scegliere con le dita lunghe e agili, fra le paia, quel paio che cercavano.
+1	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	curvavano	curvare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	scegliere	scegliere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	dita	dito	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	agili	agile	ADJ	A	Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	fra	fra	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	paia	paia	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	paio	paio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	cercavano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

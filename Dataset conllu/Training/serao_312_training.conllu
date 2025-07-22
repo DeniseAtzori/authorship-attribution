@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È ridicolo.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ridicolo	ridicolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = È ridicolo per ogni chilogrammo, per ogni palmo, per tutta la sua estensione, per tutta la sua enormità.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ridicolo	ridicolo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	chilogrammo	chilograre	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	palmo	palmo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	per	per	ADP	E	_	15	case	_	_
+12	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	15	det:predet	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	estensione	estensione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	per	per	ADP	E	_	21	case	_	_
+18	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	21	det:predet	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	enormità	enormità	NOUN	S	Gender=Fem	15	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = È ridicolo ed è volgare.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ridicolo	ridicolo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	ed	e	CCONJ	CC	_	5	cc	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	volgare	volgare	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E per quanto le ottantamila lire fossero lì per sollievo, niuno osava affrontare tanto ridicolo e tanta volgarità.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	per	per	ADP	E	_	7	mark	_	_
+3	quanto	quanto	ADV	B	_	2	fixed	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	ottantamila	ottantamila	NUM	N	NumType=Card	6	nummod	_	_
+6	lire	lira	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+7	fossero	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	advcl	_	_
+8	lì	lì	ADV	B	_	7	advmod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	sollievo	sollievo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	niuno	niuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+13	osava	osare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	affrontare	affrontare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	ridicolo	ridicolo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	volgarità	volgarità	NOUN	S	Gender=Fem	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Miss Geraldina lo sapeva; richiesta, avrebbe rifiutato.
+1	Miss	Miss	PROPN	SP	_	4	nsubj	_	_
+2	Geraldina	Geraldino	PROPN	SP	_	1	flat:name	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	6	punct	_	_
+6	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	rifiutato	rifiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ma non la chiedevano.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	chiedevano	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

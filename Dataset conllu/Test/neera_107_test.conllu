@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se mio cugino mi avesse vista allora!
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+5	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	allora	allora	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = E se mi avesse vista quando caddi nel serbatoio dell'acqua per pigliare una farfalla che vi si era posata sopra!
+1	E	e	CCONJ	CC	_	0	root	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+4	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+6	quando	quando	SCONJ	CS	_	7	mark	_	_
+7	caddi	caddo	NOUN	S	Gender=Masc|Number=Plur	5	advcl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	serbatoio	serbatoio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	pigliare	pigliare	VERB	V	VerbForm=Inf	7	acl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	farfalla	farfalla	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	posata	posare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+23	sopra	sopra	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = E quando trovandomi accanto al cancello col grembialino pieno di nocciuole le diedi tutte a un vecchio mendicante che aveva fame e che intascò le nocciole gettandovi sopra uno sguardo desolato!
+1	E	e	CCONJ	CC	_	0	root	_	_
+2	quando	quando	SCONJ	CS	_	3	mark	_	_
+3-4	trovandomi	_	_	_	_	_	_	_	_
+3	trovando	trovare	VERB	V	VerbForm=Ger	1	advcl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	accanto	accanto	ADV	B	_	8	case	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cancello	cancello	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9-10	col	_	_	_	_	_	_	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	grembialino	grembialino	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	nocciuole	nocciuola	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	diedi	diede	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+17	tutte	tutto	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	mendicante	mendicante	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+24	fame	fame	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	intascò	intascare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	conj	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	nocciole	nocciola	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+30-31	gettandovi	_	_	_	_	_	_	_	_
+30	gettando	gettare	VERB	V	VerbForm=Ger	27	advcl	_	_
+31	vi	vi	ADV	B	_	30	advmod	_	_
+32	sopra	sopra	ADP	E	_	34	case	_	_
+33	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+35	desolato	desolare	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Il giardino conosceva la mia vita, anno per anno, giorno per giorno, mi aveva vista a ridere, mi aveva vista a piangere, mi vedeva ora immersa in quei pensieri;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	anno	anno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
+17	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	ridere	ridere	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	piangere	piangere	VERB	V	VerbForm=Inf	24	xcomp	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	obj	_	_
+29	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+30	ora	ora	ADV	B	_	31	advmod	_	_
+31	immersa	immergere	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	29	obj	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	34	det	_	_
+34	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+35	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = poveri pensieri senza dubbio, pensieri di donna....
+1	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	senza	senza	ADP	E	_	4	case	_	_
+4	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	donna...	donna...	NOUN	S	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

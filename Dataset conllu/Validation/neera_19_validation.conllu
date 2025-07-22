@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dove sarebbe l'idealità dell'amicizia se questa si limitasse a una dolce tolleranza e ad una amabilità benevola?
+1	Dove	dove	ADV	B	_	4	advmod	_	_
+2	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	idealità	idealità	NOUN	S	Gender=Fem	0	root	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	se	se	SCONJ	CS	_	11	mark	_	_
+9	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	limitasse	limitare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	dolce	dolce	ADJ	A	Number=Sing	15	amod	_	_
+15	tolleranza	tolleranza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	ad	a	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	amabilità	amabilità	NOUN	S	Gender=Fem	15	conj	_	_
+20	benevola	benevola	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Questo è ciò che si fa nel mondo, lo so bene e voi pure ve ne accontentereste.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	bene	bene	ADV	B	_	12	advmod	_	_
+14	e	e	CCONJ	CC	_	19	cc	_	_
+15	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	19	nsubj	_	_
+16	pure	pure	ADV	B	_	19	advmod	_	_
+17	ve	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	iobj	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+19	accontentereste	accontenteredere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Quattro chiacchiere, una passeggiata, una colazione fatta insieme, la scelta dello stesso sarto e il gusto per la stessa musica, ecco secondo voi l'amicizia!
+1	Quattro	quattro	NUM	N	NumType=Card	2	nummod	_	_
+2	chiacchiere	chiacchiere	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	colazione	colazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+9	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	insieme	insieme	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+14-15	dello	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	sarto	sarto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+21	per	per	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	musica	musica	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	ecco	ecco	ADV	B	_	30	advmod	_	_
+27	secondo	secondo	ADP	E	_	28	case	_	_
+28	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	26	obl	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+31	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ci vuole altro vi dico, altro, altro.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+4	vi	vi	ADV	B	_	5	advmod	_	_
+5	dico	dico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

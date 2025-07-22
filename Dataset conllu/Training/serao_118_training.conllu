@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A lei passavano negli occhi delle lacrime brucianti:
+1	A	a	ADP	E	_	2	case	_	_
+2	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+3	passavano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	brucianti	bruciante	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = e tutti i fiori rosei degli oleandri intorno ondeggiavano.
+1	e	e	CCONJ	CC	_	10	cc	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+5	rosei	roseo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	oleandri	oleandro	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+9	intorno	intorno	ADV	B	_	10	advmod	_	_
+10	ondeggiavano	ondeggiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Egli guardava Maria pensoso, triste:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	Maria	Maria	PROPN	SP	_	2	obj	_	_
+4	pensoso	pensoso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	triste	triste	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = forse ne aveva pietà, ma taceva.
+1	forse	forse	ADV	B	_	3	advmod	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	pietà	pietà	NOUN	S	Gender=Fem	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	taceva	tacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Camminavano ancora, ella con le braccia abbandonate, col bianco ombrellino che strisciava sul terreno fra le foglie secche e i fiori di oleandri caduti e quasi appassiti, con le spalle un po' curve, abbattuta da una infelicità che la vinceva anche nel fisico:
+1	Camminavano	Camminare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	ella	ellare	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	abbandonate	abbandonato	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10-11	col	_	_	_	_	_	_	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	ombrellino	ombrellino	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	strisciava	strisciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	fra	fra	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	foglie	foglia	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+22	secche	secca	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	oleandri	oleandro	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+28	caduti	caduto	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	quasi	quasi	ADV	B	_	31	advmod	_	_
+31	appassiti	appassito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	po'	poco	ADV	B	_	38	advmod	_	_
+38	curve	curva	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	abbattuta	abbattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	38	acl	_	_
+41	da	da	ADP	E	_	43	case	_	_
+42	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	infelicità	infelicità	NOUN	S	Gender=Fem	40	obl:agent	_	_
+44	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+45	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	46	obj	_	_
+46	vinceva	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	acl:relcl	_	_
+47	anche	anche	ADV	B	_	50	advmod	_	_
+48-49	nel	_	_	_	_	_	_	_	_
+48	in	in	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	fisico	fisico	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+51	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = egli accanto, sogguardandola, ma non trovando parole per confortarla.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	accanto	accanto	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sogguardandola	sogguardandolo	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	trovando	trovare	VERB	V	VerbForm=Ger	4	conj	_	_
+9	parole	parola	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	confortarla	_	_	_	_	_	_	_	SpaceAfter=No
+11	confortar	confortare	VERB	V	VerbForm=Inf	8	advcl	_	_
+12	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

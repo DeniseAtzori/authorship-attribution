@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --A martedì, rispose lei, abbassando gli occhi e facendosi rossa come una fiamma.
+1	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	A	a	ADP	E	_	4	case	_	_
+4	martedì	martedì	NOUN	S	Gender=Masc	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	abbassando	abbassare	VERB	V	VerbForm=Ger	6	advcl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13-14	facendosi	_	_	_	_	_	_	_	_
+13	facendo	fare	VERB	V	VerbForm=Ger	9	conj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	rossa	rosso	ADJ	A	Number=Sing	13	xcomp	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	fiamma	fiamma	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Egli si chinò e la baciò sulla fronte il che sollevò un vocío di commenti giulivi da parte della mamma, delle amiche, e di vari signori.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	chinò	chinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	baciò	baciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fronte	fronte	NOUN	S	Number=Sing	6	obl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	sollevò	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	vocío	vocío	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	giulivi	giulivo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	amiche	amico	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	31	punct	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	vari	vario	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+31	signori	signore	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma, nè Marco nè la Maria mostrarono d'udire quegli scherzi.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	nè	nè	CCONJ	CC	_	4	cc	_	_
+4	Marco	Marco	PROPN	SP	_	8	conj	_	_
+5	nè	nè	CCONJ	CC	_	8	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Maria	Maria	PROPN	SP	_	8	nsubj	_	_
+8	mostrarono	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	d'	di	ADP	E	_	10	mark	_	SpaceAfter=No
+10	udire	udire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	scherzi	scherzo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Per loro nulla era più serio del sentimento che li turbava.
+1	Per	per	ADP	E	_	2	case	_	_
+2	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+3	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	serio	serio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	turbava	turbare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Si strinsero la mano di nuovo e si separarono in silenzio.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	strinsero	strindere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	separarono	separare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

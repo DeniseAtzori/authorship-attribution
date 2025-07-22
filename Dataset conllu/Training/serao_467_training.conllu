@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Batte il sole di settembre sulla piazza di San Marco:
+1	Batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sole	sole	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	San	San	PROPN	SP	_	8	nmod	_	_
+11	Marco	Marco	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = è il pomeriggio silenzioso e chiaro.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	silenzioso	silenzioso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = La piazza è deserta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	deserta	deserto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Sotto le Procuratie passeggia qualche ozioso, con le lenti azzurre:
+1	Sotto	sotto	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	Procuratie	Procuratie	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+4	passeggia	passeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	ozioso	ozioso	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	lenti	lente	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+11	azzurre	azzurre	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = intorno ai tavolinucci del caffè Florian, due o tre veneziani sonnolenti guardano nel fondo delle loro tazze, con gli occhi socchiusi.
+1	intorno	intorno	ADV	B	_	4	case	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	tavolinucci	tavolinuccio	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	caffè	caffè	NOUN	S	Gender=Masc	4	nmod	_	_
+8	Florian	Florian	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	due	due	NUM	N	NumType=Card	13	nummod	_	_
+11	o	o	CCONJ	CC	_	12	cc	_	_
+12	tre	tre	NUM	N	NumType=Card	10	conj	_	_
+13	veneziani	veneziano	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	sonnolenti	sonnolente	ADJ	A	Number=Plur	13	amod	_	_
+15	guardano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	tazze	tazza	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	15	punct	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+27	socchiusi	socchiuso	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

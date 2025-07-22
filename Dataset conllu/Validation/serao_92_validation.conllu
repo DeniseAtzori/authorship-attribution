@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una signora provinciale, vestita di raso granato, con un cappellino bianco che l'affogava, sceglieva lungamente un paio di guanti, discutendo, facendo impazientire i tre o quattro che aspettavano, in un cantuccio:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+3	provinciale	provinciale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	raso	raso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	granato	granato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cappellino	cappellino	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+16	affogava	affogare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	sceglieva	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	lungamente	lungo	ADV	B	_	18	advmod	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	paio	paio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	guanti	guanto	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	18	punct	_	_
+25	discutendo	discutere	VERB	V	VerbForm=Ger	18	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	facendo	fare	VERB	V	VerbForm=Ger	25	advcl	_	_
+28	impazientire	impazientire	VERB	V	VerbForm=Inf	27	ccomp	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	tre	tre	NUM	N	NumType=Card	28	obj	_	_
+31	o	o	CCONJ	CC	_	32	cc	_	_
+32	quattro	quattro	NUM	N	NumType=Card	30	conj	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	aspettavano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	cantuccio	cantuccio	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+39	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 2
+# text = cercava il guanto stretto, non le piaceva che facesse pieghe;
+1	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	guanto	guanto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	piaceva	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	facesse	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+11	pieghe	piega	ADJ	A	Gender=Fem|Number=Plur	10	xcomp	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = poi blaterò contro la debolezza dei bottoni, attaccati con un punto solo, che saltavano via dopo un minuto.
+1	poi	poi	ADV	B	_	2	advmod	_	_
+2	blaterò	blatare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	contro	contro	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	bottoni	bottone	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	attaccati	attaccare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	punto	punto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	solo	solo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	saltavano	saltare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+18	via	via	ADV	B	_	17	advmod	_	_
+19	dopo	dopo	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

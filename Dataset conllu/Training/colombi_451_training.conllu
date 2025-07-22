@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Leoni aveva tanto, e tanto.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Leoni	Leoni	PROPN	SP	_	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	tanto	tanto	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	tanto	tanto	ADV	B	_	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Agli anni non ci si doveva badare, perchè gli uomini, che Dio li benedica!
+1-2	Agli	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	badare	badare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	perchè	perché	SCONJ	CS	_	17	mark	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	che	che	DET	DE	PronType=Exc	15	det	_	_
+15	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+17	benedica	benedire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = non invecchiano mai.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	invecchiano	invecchiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mai	mai	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Lei invece a ventitrè anni non era più giovine.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+2	invece	invece	ADV	B	_	9	advmod	_	_
+3	a	a	ADP	E	_	9	case	_	_
+4	ventitrè	ventitrè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	obl	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	giovine	giovino	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = E però, dacchè Leoni era disposto ad ammogliarsi, egli, babbo, credeva conveniente di non lasciarsi sfuggire quel partito.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dacchè	dacché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	Leoni	Leoni	PROPN	SP	_	7	nsubj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	disposto	disporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	ad	a	ADP	E	_	9	mark	_	_
+9-10	ammogliarsi	_	_	_	_	_	_	_	SpaceAfter=No
+9	ammogliar	ammogliare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	credeva	credere	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+17	conveniente	conveniente	ADJ	A	Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20-21	lasciarsi	_	_	_	_	_	_	_	_
+20	lasciar	lasciare	VERB	V	VerbForm=Inf	17	advcl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	sfuggire	sfuggire	VERB	V	VerbForm=Inf	20	ccomp	_	_
+23	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
+24	partito	partito	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

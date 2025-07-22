@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La bocca di Luisa è formata di labbra sottili e pallidette nel loro roseo tenue:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Luisa	Luisa	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	formata	formare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	labbra	labbro	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	sottili	sottile	ADJ	A	Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	pallidette	pallidetto	ADJ	A	Gender=Fem|Number=Plur	9	conj	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	16	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	roseo	roseo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	tenue	tenuo	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = i minuti denti, bianchissimi, nel sorriso che li scopre tutti, lasciano vedere una gengiva esangue anche essa.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+3	denti	dente	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	bianchissimi	biancho	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	scopre	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	lasciano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	vedere	vedere	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	gengiva	gengiva	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	esangue	esanguere	PRON	PI	Number=Sing|PronType=Ind	18	nmod	_	_
+20	anche	anche	ADV	B	_	21	advmod	_	_
+21	essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Luisa sorride quasi sempre: a bocca chiusa e pensosa, il suo volto è molto meno seducente, come accade a tante altre donne.
+1	Luisa	Luisa	PROPN	SP	_	2	nsubj	_	_
+2	sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quasi	quasi	ADV	B	_	4	advmod	_	_
+4	sempre	sempre	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	pensosa	pensoso	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	18	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	volto	volto	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	molto	molto	ADV	B	_	17	advmod	_	_
+17	meno	meno	ADV	B	_	18	advmod	_	_
+18	seducente	seducente	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	come	come	SCONJ	CS	_	21	mark	_	_
+21	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+24	altre	altro	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+25	donne	donna	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

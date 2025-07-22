@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Lontano, lontano, lontano vanno le memorie!
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Lontano	lontano	PROPN	SP	_	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	lontano	lontano	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	lontano	lontano	ADV	B	_	7	advmod	_	_
+7	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	memorie	memoria	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = — mormorò Flavio.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	mormorò	mormorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Flavio	Flavio	PROPN	SP	_	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = — Non è lei la piccola fata che io vedevo scendere, salire, nascondersi negli ampi cortinaggi cremisi che ornavano il salotto di mio zio vescovo?
+1	—	—	PUNCT	FF	_	7	punct	_	_
+2	Non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	fata	fata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+11	scendere	scendere	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	salire	salire	VERB	V	VerbForm=Inf	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15-16	nascondersi	_	_	_	_	_	_	_	_
+15	nasconder	nascondere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17-18	negli	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	ampi	ampio	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	cortinaggi	cortinaggio	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+21	cremisi	cremiso	ADJ	A	Number=Plur	20	amod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	ornavano	ornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	zio	zio	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	vescovo	vescovo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Lei sa pure che ebbi uno zio vescovo, che i parenti volevano farmi percorrere la carriera ecclesiastica?
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pure	pure	ADV	B	_	2	advmod	_	_
+4	che	che	SCONJ	CS	_	14	mark	_	_
+5	ebbi	ebbio	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	zio	zio	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+8	vescovo	vescovo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	che	che	SCONJ	CS	_	14	mark	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	parenti	parente	NOUN	S	Number=Plur	14	nsubj	_	_
+13	volevano	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	farmi	arma|farme	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+15	percorrere	percorrere	VERB	V	VerbForm=Inf	14	ccomp	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	ecclesiastica	ecclesiastico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ...
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Prima di essere laureato professore fui unto prete.
+1	Prima	prima	ADV	B	_	4	mark	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	laureato	laureato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	professore	professore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+6	fui	essere	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	unto	ungere	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	prete	prete	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella non verrà.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Me ne vado nel giardinetto della stazione dove crescono le rose delle quattro stagioni ed i gelsomini cremisi, in ritardo.
+1	Me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giardinetto	giardinetto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	dove	dove	ADV	B	_	11	advmod	_	_
+11	crescono	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	rose	rosa	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	quattro	quattro	NUM	N	NumType=Card	17	nummod	_	_
+17	stagioni	stagione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+18	ed	e	CCONJ	CC	_	20	cc	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	gelsomini	gelsomino	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+21	cremisi	cremiso	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Una lucertola mi guarda con i suoi occhietti sospettosi, una buona, simpatica e nervosa lucertola.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lucertola	lucertola	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	occhietti	occhietto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	sospettosi	sospettoso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+12	buona	buono	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	simpatica	simpatico	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	nervosa	nervoso	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+17	lucertola	lucertola	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Vorrei narrarle la mia disperazione, perchè ella non verrà.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	narrarle	_	_	_	_	_	_	_	_
+2	narrar	narrare	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	perchè	perché	SCONJ	CS	_	11	mark	_	_
+9	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Un carabiniere è ritto sotto la porta;
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carabiniere	carabiniere	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	ritto	riggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	sotto	sotto	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	porta	porta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = non mi guarda.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

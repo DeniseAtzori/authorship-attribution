@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In verità, Clara fu perfetta, quella sera.
+1	In	in	ADP	E	_	2	case	_	_
+2	verità	verità	NOUN	S	Gender=Fem	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Clara	Clara	PROPN	SP	_	6	nsubj	_	_
+5	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Giustamente malinconica, ella seppe a tempo sorridere, perchè il loro colloquio non cadesse nella tetraggine, dove sarebbero risorti gli amarissimi ricordi del passato:
+1	Giustamente	giustamente	ADV	B	_	2	advmod	_	_
+2	malinconica	malinconico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	seppe	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	sorridere	sorridere	VERB	V	VerbForm=Inf	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	perchè	perché	SCONJ	CS	_	15	mark	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	loro	loro	DET	AP	Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	cadesse	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tetraggine	tetraggine	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	dove	dove	ADV	B	_	22	advmod	_	_
+21	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	risorti	risortare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	amarissimi	amare	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	25	amod	_	_
+25	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	passato	passato	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = e tutta una dolcezza fioriva dalla sua malinconia e dal suo sorriso, dalle sue parole come dal suo silenzio.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	4	det:predet	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	fioriva	fiorire	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16-17	dalle	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+20	come	come	ADP	E	_	24	case	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	20	fixed	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Più, dal suo silenzio.
+1	Più	più	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

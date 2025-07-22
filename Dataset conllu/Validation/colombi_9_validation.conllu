@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fulvia aveva cantato quella sera con tanta grazia e tanta passione, che il pubblico l'aveva accolta con entusiastici applausi.
+1	Fulvia	Fulvia	ADV	B	_	3	advmod	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	cantato	cantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
+11	passione	passione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	che	che	SCONJ	CS	_	18	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+16	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+17	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	accolta	accogliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	entusiastici	entusiastico	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+21	applausi	applauso	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Nel camerino s'erano affollate le visite a complimentarla.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	camerino	camerino	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	affollate	affollato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	visite	visita	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	complimentarla	_	_	_	_	_	_	_	SpaceAfter=No
+10	complimentar	complimentare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Io l'avevo ascoltata da un palco di proscenio, ed amantissimo della musica, ero stato profondamente commosso dalla sua voce;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	ascoltata	ascoltare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	palco	palco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	proscenio	proscenio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ed	e	CCONJ	CC	_	15	cc	_	_
+12	amantissimo	amante	ADV	B	Degree=Abs	15	advmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	musica	musica	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	aux	_	_
+18	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+19	profondamente	profondamente	ADV	B	_	20	advmod	_	_
+20	commosso	commuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+21-22	dalla	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	voce	voce	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = dimenticai le parole poco lusinghiere per me che ella avea dette ad Albani e, nella sincerità dell'animo, le dissi porgendole la mano:
+1	dimenticai	dimenticai	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	poco	poco	ADV	B	_	5	advmod	_	_
+5	lusinghiere	lusinghiere	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+9	ella	ellare	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	avea	avea	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	dette	dire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	advcl	_	_
+12	ad	a	ADP	E	_	13	case	_	_
+13	Albani	Albani	PROPN	SP	_	11	obl	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sincerità	sincerità	NOUN	S	Gender=Fem	13	conj	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	animo	animo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	dissi	dissi	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+25-26	porgendole	_	_	_	_	_	_	_	_
+25	porgendo	porgire	VERB	V	VerbForm=Ger	1	advcl	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	mano	mano	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+

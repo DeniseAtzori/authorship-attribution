@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Non è punto vero che si ami un uomo per le sue qualità esterne o per le sue abitudini;
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	vero	vero	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	ami	amare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	qualità	qualità	NOUN	S	Gender=Fem	10	nmod	_	_
+15	esterne	esterno	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	o	o	CCONJ	CC	_	20	cc	_	_
+17	per	per	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	abitudini	abitudine	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = si amano le qualità e le abitudini per l'uomo.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:pass	_	_
+2	amano	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	qualità	qualità	NOUN	S	Gender=Fem	2	nsubj:pass	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	abitudini	abitudine	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = I primi amori che io sognava nel segreto del cuore, erano per eroi, per uomini fieri, dall'aspetto maschio, da' modi franchi, come i vostri, Max.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	amori	amore	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	sognava	sognavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	fieri	fiero	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22-23	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+22	da	da	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+25	maschio	maschio	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	16	punct	_	_
+27	da	da	ADP	E	_	29	case	_	SpaceAfter=No
+28	'	'	PUNCT	FB	_	29	punct	_	_
+29	modi	modo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+30	franchi	franco	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	16	punct	_	_
+32	come	come	ADP	E	_	36	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+34	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	36	det:poss	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	Max	Max	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così, io credo la più facile, la più deliziosa cosa per una madre, vestire il proprio bimbo.
+1	Così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	facile	facile	ADJ	A	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	deliziosa	delizioso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	madre	madre	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	vestire	vestire	VERB	V	VerbForm=Inf	7	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Vi deve essere una gioia minuta, ma molto acuta, nel preparare le leggiadre ed eleganti cose che renderanno più bella la propria creatura;
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	advmod	_	_
+2	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	minuta	minuto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	acuta	acuto	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	preparare	preparare	VERB	V	VerbForm=Inf	5	conj	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	leggiadre	leggiadre	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	ed	e	CCONJ	CC	_	19	cc	_	_
+18	eleganti	elegante	ADJ	A	Number=Plur	19	amod	_	_
+19	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	renderanno	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	bella	bello	ADJ	A	Gender=Fem|Number=Sing	21	xcomp	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = credo che debba essere una delle contentezze più intense della maternità, questa cura assidua e immaginosa, di adornare graziosamente questo essere piccoletto e bello.
+1	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+5	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	1	ccomp	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	contentezze	contentezza	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	intense	intenso	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	maternità	maternità	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	cura	cura	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+17	assidua	assiduo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	immaginosa	immaginoso	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	adornare	adornare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+23	graziosamente	graziosamente	ADV	B	_	22	advmod	_	_
+24	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	26	nsubj	_	_
+25	essere	essere	AUX	V	VerbForm=Inf	26	cop	_	_
+26	piccoletto	piccoletto	ADJ	A	Gender=Masc|Number=Sing	22	xcomp	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	bello	bello	ADJ	A	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ripresi la lettera incominciata, ed ebbi il coraggio crudele di compierla;
+1	Ripresi	riprendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+4	incominciata	incominciato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	ebbi	ebbo	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	conj	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+10	crudele	crudele	ADJ	A	Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	compierla	_	_	_	_	_	_	_	SpaceAfter=No
+12	compier	compiere	VERB	V	VerbForm=Inf	9	acl	_	_
+13	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = e quando l'ebbi fatta consegnare a Vittoria, mi sentii migliore.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	quando	quando	SCONJ	CS	_	5	mark	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ebbi	ebbio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	fatta	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	consegnare	consegnare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	sentii	sentio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ella mi rispose un biglietto rassegnato e melanconico in cui mi domandava di continuare a frequentare la sua casa per salvare le apparenze, per evitare i commenti.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	rassegnato	rassegnato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	melanconico	melanconico	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	domandava	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	continuare	continuare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	frequentare	frequentare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	salvare	salvare	VERB	V	VerbForm=Inf	12	advcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	apparenze	apparenza	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	3	punct	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26	evitare	evitare	VERB	V	VerbForm=Inf	3	advcl	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Nella gioia come nel dolore gli amori colpevoli impongono la finzione ed il calcolo.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+4	come	come	ADV	B	_	7	case	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	amori	amore	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	colpevoli	colpevole	ADJ	A	Number=Plur	9	amod	_	_
+11	impongono	imporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	finzione	finzione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	ed	e	CCONJ	CC	_	16	cc	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

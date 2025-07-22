@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Due o tre volte, durante questa penosissima scena, ella lo offese in un modo crudele, poichè era avvezza a calpestare i cuori che adorava, per poi adorarli più profondamente, dopo;
+1	Due	due	NUM	N	NumType=Card	4	nummod	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	tre	tre	NUM	N	NumType=Card	1	conj	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	durante	durante	ADP	E	_	9	case	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	penosissima	penoso	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	9	amod	_	_
+9	scena	scena	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	offese	offendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	modo	modo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	crudele	crudele	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	poichè	poiché	SCONJ	CS	_	21	mark	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+21	avvezza	avvezzare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	calpestare	calpestare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	adorava	adorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	per	per	ADP	E	_	31	mark	_	_
+30	poi	poi	ADV	B	_	31	advmod	_	_
+31-32	adorarli	_	_	_	_	_	_	_	_
+31	adorar	adorare	VERB	V	VerbForm=Inf	27	advcl	_	_
+32	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	obj	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	profondamente	profondamente	ADV	B	_	31	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	27	punct	_	_
+36	dopo	dopo	ADV	B	_	27	advmod	_	SpaceAfter=No
+37	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 2
+# text = ed egli sentì l'offesa, con un amaro piacere, giacchè essa lo autorizzava non a reagire, ma ad andarsene, per non ritornare mai più.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	offesa	offesa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	amaro	amaro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	giacchè	giacché	CCONJ	CC	_	15	cc	_	_
+13	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	autorizzava	autorizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	reagire	reagire	VERB	V	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	ma	ma	CCONJ	CC	_	22	cc	_	_
+21	ad	a	ADP	E	_	22	mark	_	_
+22-24	andarsene	_	_	_	_	_	_	_	SpaceAfter=No
+22	andar	andare	VERB	V	VerbForm=Inf	3	conj	_	_
+23	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
+25	,	,	PUNCT	FF	_	22	punct	_	_
+26	per	per	ADP	E	_	28	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	ritornare	ritornare	VERB	V	VerbForm=Inf	22	advcl	_	_
+29	mai	mai	ADV	B	_	30	advmod	_	_
+30	più	più	ADV	B	_	28	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

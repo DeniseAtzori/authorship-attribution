@@ -1,0 +1,143 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Tuttavia mi sembrava che Clelia si esagerasse il suo male.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Tuttavia	tuttavia	ADV	B	_	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	Clelia	Clelia	PROPN	SP	_	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	esagerasse	esagerare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	male	male	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Era magrissima è vero;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	magrissima	magro	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	2	csubj	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = ed aveva la voce debole.
+1	ed	e	CCONJ	CC	_	2	cc	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	voce	voce	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	debole	debole	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ma non era a letto, ed il suo volto animato della gioia non aveva l'aspetto d'un volto di persona gravemente ammalata.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	letto	letto	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ed	e	CCONJ	CC	_	10	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	volto	volto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	animato	animato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	volto	volto	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	persona	persona	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	gravemente	gravemente	ADV	B	_	25	advmod	_	_
+25	ammalata	ammalato	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 5
+# text = Ed io pensavo ancora che l'avrei fatta guarire a forza di cure e d'amore;
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+7	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+9	guarire	guarire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	forza	forza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cure	cura	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	amore	amore	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = che l'avrei resa felice, che l'avrei sposata subito, anche il domani, e l'avrei portata a Viareggio, e l'avrei condotta ogni giorno nella pineta.
+1	che	che	SCONJ	CS	_	4	mark	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	resa	rendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	felice	felice	ADJ	A	Number=Sing	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+9	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sposata	sposare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+11	subito	subito	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	anche	anche	ADV	B	_	15	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	domani	domani	NOUN	S	Gender=Masc	4	nsubj:pass	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+19	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Viareggio	Viareggio	PROPN	SP	_	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+26	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	condotta	condurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+28	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+29	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+30-31	nella	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	pineta	pineta	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Oh Dio!
+1	Oh	oh	INTJ	I	_	2	discourse	_	_
+2	Dio	Dio	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Si può forse morire quando si ama e si è amati così?
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	forse	forse	ADV	B	_	4	advmod	_	_
+4	morire	morire	VERB	V	VerbForm=Inf	0	root	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	amati	amare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
+12	così	così	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

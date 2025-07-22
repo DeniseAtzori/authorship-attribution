@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Col crescere dell'allegria i discorsi si portarono sulle donne.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2-3	Col	_	_	_	_	_	_	_	_
+2	Con	con	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	crescere	crescere	VERB	V	VerbForm=Inf	11	obl	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	allegria	allegria	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	portarono	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12-13	sulle	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	donne	donna	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Io, avendo già molto brindato alla salute del colonnello, mi trovavo sprovvisto di argomenti sentimentali e inforcai lì per lì un tema sulla inferiorità della donna sostenendo che non sa amare se non in un modo meschino, gretto e privo di poesia.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	avendo	avere	VERB	V	VerbForm=Ger	15	advcl	_	_
+4	già	già	ADV	B	_	6	advmod	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	brindato	brindato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	salute	salute	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	colonnello	colonnello	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	expl	_	_
+15	trovavo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	sprovvisto	sprovvisto	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	argomenti	argomente	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+19	sentimentali	sentimentale	ADJ	A	Number=Plur	18	amod	_	_
+20	e	e	CCONJ	CC	_	26	cc	_	_
+21	inforcai	inforcai	ADV	B	_	22	advmod	_	_
+22	lì	lì	ADV	B	_	26	advmod	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	lì	lì	ADV	B	_	22	advmod	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tema	tema	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+27-28	sulla	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	inferiorità	inferiorità	NOUN	S	Gender=Fem	26	nmod	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	donna	donna	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	sostenendo	sostenere	VERB	V	VerbForm=Ger	26	advcl	_	_
+34	che	che	SCONJ	CS	_	37	mark	_	_
+35	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+36	sa	sapere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	amare	amare	VERB	V	VerbForm=Inf	33	ccomp	_	_
+38	se	se	SCONJ	CS	_	42	mark	_	_
+39	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	modo	modo	NOUN	S	Gender=Masc|Number=Sing	37	advcl	_	_
+43	meschino	meschino	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	45	punct	_	_
+45	gretto	gretto	ADJ	A	Gender=Masc|Number=Sing	43	conj	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	privo	privo	ADJ	A	Gender=Masc|Number=Sing	43	conj	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

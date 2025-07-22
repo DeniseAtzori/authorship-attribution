@@ -1,0 +1,143 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Stava appeso alla parete principale del salotto un grande arazzo rappresentante la sete dei Crociati sotto Gerusalemme.
+1	Stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	appeso	appendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parete	parete	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	principale	principale	ADJ	A	Number=Sing	5	amod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	arazzo	arazzo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+13	rappresentante	rappresentare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	12	acl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sete	sete	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Crociati	Crociato	PROPN	SP	_	15	nmod	_	_
+19	sotto	sotto	ADP	E	_	20	case	_	_
+20	Gerusalemme	Gerusalemme	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Le due teste avvicinate della signora vestita di lilla e dell’ufficiale delle guide ne mascheravano il gruppo di mezzo dove era un soldato morto di una verità impressionante;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	teste	testa	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+4	avvicinate	avvicinare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lilla	lilla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	ufficiale	ufficiale	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	guide	guida	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+19	mascheravano	mascherare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	dove	dove	ADV	B	_	27	advmod	_	_
+25	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	soldato	soldato	NOUN	S	Gender=Masc|Number=Sing	21	acl:relcl	_	_
+28	morto	morto	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	verità	verità	NOUN	S	Gender=Fem	27	nmod	_	_
+32	impressionante	impressionante	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	;	;	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 3
+# text = e per tutto all’ingiro giacevano corpi straziati dallo spasimo, pupille rivolte al Cielo nella disperazione di un’ultima preghiera;
+1	e	e	CCONJ	CC	_	7	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	_
+4-5	all’	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	ingiro	ingiro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+7	giacevano	giacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	corpi	corpio	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	straziati	straziare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+10-11	dallo	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	spasimo	spasimo	NOUN	S	Gender=Masc|Number=Sing	9	obl:agent	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	pupille	pupilla	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+15	rivolte	rivolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Cielo	cielo	PROPN	SP	_	15	obl	_	_
+19-20	nella	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+24	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	preghiera	preghiera	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = ed elmi, scudi, lancie denudate sotto la luce gialla del sole, in vista delle mura fantastiche smerlate sopra un cielo di cobalto che i punti dell’arazzo picchiettavano minutamente.
+1	ed	e	CCONJ	CC	_	2	cc	_	_
+2	elmi	elma	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	scudi	scudo	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	lancie	lancie	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+7	denudate	denudare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8	sotto	sotto	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	luce	luce	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	gialla	giallo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sole	sole	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	vista	vista	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	mura	muro	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+21	fantastiche	fantastico	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	smerlate	smerlare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+23	sopra	sopra	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	cobalto	cobalto	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	che	che	PRON	PR	PronType=Rel	34	obj	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	punti	punto	NOUN	S	Gender=Masc|Number=Plur	34	nsubj	_	_
+31-32	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+31	di	di	ADP	E	_	33	case	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	arazzo	arazzo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	picchiettavano	picchiettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+35	minutamente	minuto	ADV	B	_	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

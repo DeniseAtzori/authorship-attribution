@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E la Teresa pensava d'andare a Monza sul tranvai, col suo vestito da festa;
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Teresa	Teresa	PROPN	SP	_	4	nsubj	_	_
+4	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	d'	di	ADP	E	_	6	mark	_	SpaceAfter=No
+6	andare	andare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Monza	Monza	PROPN	SP	_	6	obl	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tranvai	tranvai	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13-14	col	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	festa	festa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = e quel giovane che cantava, quello o un altro, era là sulla panchetta del tranvai che l'aspettava.
+1	e	e	CCONJ	CC	_	16	cc	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	giovane	giovane	NOUN	S	Number=Sing	16	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	cantava	cantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	conj	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+13	là	là	ADV	B	_	16	advmod	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	panchetta	panchetta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tranvai	tranvai	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+22	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = Andavano insieme;
+1	Andavano	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	insieme	insieme	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = lui la guardava negli occhi e lei si sentiva arrosire.
+1	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+11	arrosire	arrosire	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non parlavano, ma erano felici, felici in silenzio, finchè scendevano alla stazione, si pigliavano a braccetto, e via pel viale fin giù nel parco, dove sedevano accanto, sull'erba verde, sotto il cielo turchino...
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	parlavano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	ma	ma	CCONJ	CC	_	6	cc	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	felici	felice	ADJ	A	Number=Plur	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	felici	felice	ADJ	A	Number=Plur	2	amod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	finchè	finché	SCONJ	CS	_	13	mark	_	_
+13	scendevano	scendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	pigliavano	pigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	braccetto	braccetto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	27	punct	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24	via	via	ADV	B	_	27	advmod	_	_
+25-26	pel	_	_	_	_	_	_	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	viale	viale	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+28	fin	fino	ADP	E	_	29	case	_	_
+29	giù	giù	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	parco	parco	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	dove	dove	ADV	B	_	35	advmod	_	_
+35	sedevano	sedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	32	acl:relcl	_	_
+36	accanto	accanto	ADV	B	_	35	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	35	punct	_	_
+38-39	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+38	su	su	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	erba	erba	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+41	verde	verde	ADJ	A	Number=Sing	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	35	punct	_	_
+43	sotto	sotto	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+46	turchino..	turchino	NOUN	S	_	45	compound	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

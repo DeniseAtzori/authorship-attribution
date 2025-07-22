@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non potevo nemmeno pensar nulla.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	nemmeno	nemmeno	ADV	BN	PronType=Neg	4	advmod	_	_
+4	pensar	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+5	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Sul camino stava un orologiaccio di bronzo dorato, tutto giallo e lucido che pungeva gli occhi;
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	camino	camino	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	orologiaccio	orologiaccio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	bronzo	bronzo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	dorato	dorato	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	conj	_	_
+12	giallo	giallo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	lucido	lucido	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	pungeva	pungevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = ed io seguivo affannosamente il battito del suo pendolo col pensiero, ripetendo senza posa «verrà, non verrà; verrà, non verrà, ecc.»
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	seguivo	seguire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	affannosamente	affannosamente	ADV	B	_	3	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	battito	battito	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	pendolo	pendolo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11-12	col	_	_	_	_	_	_	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	ripetendo	ripetere	VERB	V	VerbForm=Ger	3	advcl	_	_
+16	senza	senza	ADP	E	_	17	case	_	_
+17	posa	posa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	«	«	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	conj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	24	punct	_	_
+24	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	parataxis	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	3	punct	_	_
+29	ecc.	eccetera	ADV	B	_	3	advmod	_	SpaceAfter=No
+30	»	»	PUNCT	FB	_	3	punct	_	_
+
+# sent_id = 4
+# text = Il pendolo diceva quelle parole ed il mio pensiero era forzato a ripeterle meccanicamente come se fosse montato col pendolo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pendolo	pendolo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	parole	parole	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	ed	e	CCONJ	CC	_	11	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	forzato	forzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13-14	ripeterle	_	_	_	_	_	_	_	_
+13	ripeter	ripetere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	meccanicamente	meccanicamente	ADV	B	_	13	advmod	_	_
+16	come	come	ADV	B	_	19	advmod	_	_
+17	se	se	SCONJ	CS	_	19	mark	_	_
+18	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	montato	montare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+20-21	col	_	_	_	_	_	_	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pendolo	pendolo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

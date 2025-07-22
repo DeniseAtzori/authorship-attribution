@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era in questo momento che si concentravano tutti i suoi pensieri e tutti i suoi sogni.
+1	Era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	concentravano	concentrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	11	det:predet	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	16	det:predet	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Si sarebbe egli inginocchiato innanzi all'amata che ritornava a lui e le avrebbe baciato il lembo dell'abito?
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+2	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	inginocchiato	inginocchiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	innanzi	innanzi	ADV	B	_	8	advmod	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	amata	amato	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	ritornava	ritornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+15	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	baciato	baciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lembo	lembo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	abito	abito	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Avrebbe egli detto, all'amata, una parola di adorazione?
+1	Avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	amata	amato	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	parola	parola	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	adorazione	adorazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Le avrebbe forse fatto qualche rimprovero per quel lungo anno di dolore e di solitudine, a cui Maria lo aveva condannato?
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	forse	forse	ADV	B	_	4	advmod	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	rimprovero	rimprovero	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+9	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+19	Maria	Maria	PROPN	SP	_	22	nsubj	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = No, no.
+1	No	no	INTJ	I	Polarity=Neg	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	no	no	ADV	BN	PronType=Neg	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli che aveva tanto desiderio di darmeli quanto io di saperli me li lasciò cadere dall'alto con preziosità ostentata.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+4	tanto	tanto	ADV	B	_	5	advmod	_	_
+5	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	darmeli	darmelo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	quanto	quanto	ADP	E	_	9	case	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	saperli	_	_	_	_	_	_	_	_
+11	saper	sapere	VERB	V	VerbForm=Inf	9	acl	_	_
+12	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	xcomp	_	_
+14	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+15	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	cadere	cadere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17-18	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+17	da	da	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	alto	alto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	preziosità	preziosità	NOUN	S	Gender=Fem	16	obl	_	_
+22	ostentata	ostentato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 2
+# text = Disse che la signora era vedova di un colonnello, che era molto distinta, che sembrava assai delicata di salute;
+1	Disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	signora	signore	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	vedova	vedovare	NOUN	S	Gender=Fem|Number=Sing	1	ccomp	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	colonnello	colonnello	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	distinta	distinto	ADJ	A	Gender=Fem|Number=Sing	6	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
+18	assai	assai	ADV	B	_	19	advmod	_	_
+19	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	17	xcomp	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	salute	salute	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = che la figlia le usava i più teneri riguardi, che era un piacere vederle insieme strette dal più soave degli affetti e così dignitose nella loro solitudine.
+1	che	che	SCONJ	CS	_	5	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	usava	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	teneri	tenero	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	riguardi	riguardo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	9	acl:relcl	_	_
+15-16	vederle	_	_	_	_	_	_	_	_
+15	veder	vedere	ADP	E	_	17	case	_	_
+16	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	insieme	insieme	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+18	strette	strere	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19-20	dal	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	soave	soave	ADJ	A	Number=Sing	18	obl	_	_
+23-24	degli	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	così	così	ADV	B	_	28	advmod	_	_
+28	dignitose	dignitoso	ADJ	A	Gender=Fem|Number=Plur	22	conj	_	_
+29-30	nella	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	32	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	loro	loro	DET	AP	Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

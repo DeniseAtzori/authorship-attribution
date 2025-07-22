@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vicenzino si sentì morire in cuore l'ultima gioia.
+1	Vicenzino	Vicenzino	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	morire	morire	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Non lo aveva amato mai;
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	mai	mai	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = non lo aveva compreso;
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = non era per lui che era rimasta fanciulla.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	fanciulla	fanciulla	PRON	PI	Number=Sing|PronType=Ind	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Era per un altro!
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Anche il suo passato, il solo ricordo che lo consolasse, il solo raggio d'amore della sua vita, era spento.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	passato	passato	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	solo	solo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	consolasse	consolare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	solo	solo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	raggio	raggio	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+16	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	vita	vita	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	8	punct	_	_
+23	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
+24	spento	spegnere	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 7
+# text = Ebbe uno di quegli impeti di dolore irresistibili, che possono sopraffare anche le anime più forti.
+1	Ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	impeti	impeto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	irresistibili	irresistibile	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	sopraffare	sopraffare	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+13	anche	anche	ADV	B	_	15	advmod	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	anime	anima	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	forti	forte	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

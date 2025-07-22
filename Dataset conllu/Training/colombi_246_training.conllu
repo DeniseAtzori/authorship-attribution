@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La tomba del Reed era rimasta intatta perchè nessuno attentava alla sua povera salma ignuda, e le ricche spoglie della vedova Blounty erano scomparse perchè tutto quel complotto era stato montato per riescire ad impadronirsi di quelle ricchezze.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Reed	Reed	PROPN	SP	_	2	nmod	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	intatta	intatto	ADJ	A	Gender=Fem|Number=Sing	7	xcomp	_	_
+9	perchè	perché	SCONJ	CS	_	11	mark	_	_
+10	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+11	attentava	attentavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	16	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	povera	povero	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	salma	salma	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	ignuda	ignudo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	ricche	ricco	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+22	spoglie	spoglia	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	vedova	vedova	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+26	Blounty	Blounty	PROPN	SP	_	25	nmod	_	_
+27	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	scomparse	scomparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+29	perchè	perché	SCONJ	CS	_	35	mark	_	_
+30	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	32	det:predet	_	_
+31	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	complotto	complotto	NOUN	S	Gender=Masc|Number=Sing	35	nsubj:pass	_	_
+33	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+34	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	aux:pass	_	_
+35	montato	montare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	ccomp	_	_
+36	per	per	ADP	E	_	37	mark	_	_
+37	riescire	riescire	VERB	V	VerbForm=Inf	35	advcl	_	_
+38	ad	a	ADP	E	_	39	mark	_	_
+39-40	impadronirsi	_	_	_	_	_	_	_	_
+39	impadronir	impadronire	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	43	det	_	_
+43	ricchezze	ricchezzo	NOUN	S	Gender=Fem|Number=Plur	39	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ed infatti gli imputati non avevano potuto provare di non essersi introdotti nel cimitero un'ora od anche più, prima del tempo che avevano indicato.
+1	Ed	e	CCONJ	CC	_	8	cc	_	_
+2	infatti	infatti	ADV	B	_	8	advmod	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	imputati	imputare	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
+8	provare	provare	VERB	V	VerbForm=Inf	0	root	_	_
+9	di	di	ADP	E	_	13	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11-12	essersi	_	_	_	_	_	_	_	_
+11	esser	essere	AUX	VA	VerbForm=Inf	13	aux	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	introdotti	introdurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	ora	ora	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+19	od	o	CCONJ	CC	_	21	cc	_	_
+20	anche	anche	ADV	B	_	21	advmod	_	_
+21	più	più	ADV	B	_	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	8	punct	_	_
+23	prima	prima	ADV	B	_	26	case	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	23	fixed	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	indicato	indicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

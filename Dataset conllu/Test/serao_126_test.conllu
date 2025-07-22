@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A un tratto solo, tutti i deputati furono al loro posto, in piedi, le tribune caddero in un grande silenzio, mentre fuori le trombe squillanti dei bersaglieri sonavano la fanfara reale.
+1	A	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4	solo	solo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	furono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	loro	loro	DET	AP	Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	posto	posto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	tribune	tribuna	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+20	caddero	cadderare	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	in	in	ADP	E	_	24	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	grande	grande	ADJ	A	Number=Sing	24	amod	_	_
+24	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	mentre	mentre	SCONJ	CS	_	34	mark	_	_
+27	fuori	fuori	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	trombe	trombi	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	_
+30	squillanti	squillante	ADJ	A	Number=Plur	29	amod	_	_
+31-32	dei	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	bersaglieri	bersagliere	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+34	sonavano	sonavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	fanfara	fanfara	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+37	reale	reale	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Poi un lunghissimo applauso scoppiò, applauso sordo e prolungato di mani inguantate:
+1	Poi	poi	ADV	B	_	5	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	lunghissimo	lungo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	4	amod	_	_
+4	applauso	applauso	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	scoppiò	scoppiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	applauso	applauso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	sordo	sordo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	prolungato	prolungato	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	mani	mano	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+13	inguantate	inguantato	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = le signore, in piedi, applaudivano anche esse, piegandosi sulle spalle dei deputati, per meglio vedere.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	signore	signore	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	applaudivano	applaudire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11-12	piegandosi	_	_	_	_	_	_	_	_
+11	piegando	piegare	VERB	V	VerbForm=Ger	7	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13-14	sulle	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	7	punct	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	meglio	meglio	ADV	B	_	22	advmod	_	_
+22	vedere	vedere	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

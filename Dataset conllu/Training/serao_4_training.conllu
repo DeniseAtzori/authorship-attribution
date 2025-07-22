@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io ebbi questa impressione, vivacemente:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ebbi	ebbo	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	vivacemente	vivacemente	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = e, non so perchè, impallidii dopo averla avuta.
+1	e	e	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	perchè	perché	SCONJ	CS	_	7	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	impallidii	impallidii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+8	dopo	dopo	SCONJ	CS	_	11	mark	_	_
+9-10	averla	_	_	_	_	_	_	_	_
+9	aver	avere	AUX	VA	VerbForm=Inf	11	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	avuta	avuta	NOUN	S	Gender=Fem|Number=Sing	7	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Subito, una curiosità ardente mi accese l'immaginazione:
+1	Subito	subito	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	curiosità	curiosità	NOUN	S	Gender=Fem	0	root	_	_
+5	ardente	ardente	ADJ	A	Number=Sing	4	amod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	accese	accendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = e, probabilmente, i miei occhi, rispondendo a quelli di Nino Stresa, dovettero contenere una interrogazione.
+1	e	e	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	probabilmente	probabilmente	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	rispondendo	rispondere	VERB	V	VerbForm=Ger	16	advcl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	9	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Nino	Nino	PROPN	SP	_	11	nmod	_	_
+14	Stresa	Stresa	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	dovettero	dovettero	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	contenere	contenere	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	interrogazione	interrogazione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 5
+# text = Non subito egli si avvicinò a me;
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	subito	subito	ADV	B	_	5	advmod	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	avvicinò	avvicinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = io fui costretta a ballare una _mazurka_ e gli passai a poca distanza tre volte.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	costretta	costringere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	ballare	ballare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	_mazurka_	ExtraSubj=Yes|_mazurka_	ADJ	NO	NumType=Ord	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	passai	passai	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	poca	poco	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
+13	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	tre	tre	NUM	N	NumType=Card	15	nummod	_	_
+15	volte	volta	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

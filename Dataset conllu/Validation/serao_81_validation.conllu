@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E lo condusse prima a San Giovanni Laterano poi a Santamaria Maggiore, deponendolo fedelmente alla porta.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	condusse	condurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	prima	prima	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	San	San	PROPN	SP	_	3	obl	_	_
+7	Giovanni	Giovanni	PROPN	SP	_	6	flat:name	_	_
+8	Laterano	Laterano	PROPN	SP	_	6	flat:name	_	_
+9	poi	poi	ADV	B	_	11	advmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Santamaria	Santamaria	PROPN	SP	_	6	nmod	_	_
+12	Maggiore	Maggiore	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14-15	deponendolo	_	_	_	_	_	_	_	_
+14	deponendo	deporre	VERB	V	VerbForm=Ger	3	advcl	_	_
+15	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	fedelmente	fedelmente	ADV	B	_	14	advmod	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	porta	porta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma quelle chiese erano più piccole di San Pietro:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	3	nsubj	_	_
+3	chiese	chiese	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	San	San	PROPN	SP	_	6	obl	_	_
+9	Pietro	Pietro	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = non lo maravigliarono neppure per la loro grandezza:
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	maravigliarono	maravigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	neppure	neppure	ADV	BN	PronType=Neg	8	advmod	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	grandezza	grandezza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = erano più mistiche, forse, ma la sua anima era chiusa ai dolci misteri della pietà religiosa:
+1	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	mistiche	mistico	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	forse	forse	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	12	punct	_	_
+7	ma	ma	CCONJ	CC	_	12	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	anima	anima	NOUN	S	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux:pass	_	_
+12	chiusa	chiudere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	dolci	dolce	ADJ	A	Number=Plur	16	amod	_	_
+16	misteri	mistero	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	pietà	pietà	NOUN	S	Gender=Fem	16	nmod	_	_
+20	religiosa	religioso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = egli andava su e giù, come un sonnambulo.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	su	su	ADV	B	_	2	advmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	giù	giù	ADV	B	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sonnambulo	sonnambulo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

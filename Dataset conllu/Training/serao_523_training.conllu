@@ -1,0 +1,139 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Sì, di sera.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Io vorrei andare in teatro dove papà una volta mi ha condotto, con mamma.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	dove	dove	ADV	B	_	7	advmod	_	_
+7	papà	papà	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	acl:relcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	condotto	condurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma ora papà non può accompagnarci più e andiamo a letto presto.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	ora	ora	ADV	B	_	6	advmod	_	_
+3	papà	papà	NOUN	S	Gender=Masc	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6-7	accompagnarci	_	_	_	_	_	_	_	_
+6	accompagnar	accompagnare	VERB	V	VerbForm=Inf	0	root	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+8	più	più	ADV	B	_	6	advmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	letto	letto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	presto	presto	ADV	B	_	10	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Egli viene a casa molto tardi, di notte, molto di notte, e cammina pian piano, nell’altra stanza, per non farci risvegliare.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	tardi	tardi	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	molto	molto	ADV	B	_	13	advmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	cammina	camminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	pian	pian	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	piano	piano	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20-21	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	23	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+22	altra	altro	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	per	per	ADP	E	_	27	mark	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27-28	farci	_	_	_	_	_	_	_	_
+27	far	fare	VERB	V	VerbForm=Inf	29	advcl	_	_
+28	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	29	expl	_	_
+29	risvegliare	risvegliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ma la mamma è sempre sveglia e sente:
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	sveglia	svegliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 6
+# text = qualche volta sono sveglio anch’io — Ecco papà — mi dice lei, sottovoce.
+1	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sveglio	svegliare	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+5	anch’	ancho	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+7	—	—	PUNCT	FF	_	8	punct	_	_
+8	Ecco	ecco	PROPN	SP	_	4	nsubj	_	_
+9	papà	papà	NOUN	S	Gender=Masc	8	compound	_	_
+10	—	—	PUNCT	FF	_	12	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+13	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	sottovoce	sottovoce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 7
+# text = Poi, quando papà entra, a darmi un bacio, noi chiudiamo gli occhi e fingiamo di dormire.
+1	Poi	poi	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quando	quando	SCONJ	CS	_	5	mark	_	_
+4	papà	papà	NOUN	S	Gender=Masc	5	nsubj	_	_
+5	entra	entro	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8-9	darmi	_	_	_	_	_	_	_	_
+8	dar	dare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	chiudiamo	chiudere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	fingiamo	fingare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	dormire	dormire	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

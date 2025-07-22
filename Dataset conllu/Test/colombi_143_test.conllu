@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Giunsi a Reggio a tarda sera.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Giunsi	Giunsi	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Reggio	Reggio	PROPN	SP	_	2	obl	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	tarda	tardo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La mattina seguente, appena alzata, mandai a prevenire l'impresario del mio arrivo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	seguente	seguente	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	appena	appena	ADV	B	_	6	advmod	_	_
+6	alzata	alzare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	mandai	mandare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	prevenire	prevenire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	impresario	impresario	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Alle undici egli arrivava da me.
+1-2	Alle	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	undici	undici	NUM	N	NumType=Card	5	obl	_	_
+4	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	arrivava	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Dovevo andar in iscena fra sei giorni.
+1	Dovevo	Dovere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	andar	andare	VERB	V	VerbForm=Inf	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	iscena	iscena	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	fra	fra	ADP	E	_	7	case	_	_
+6	sei	sei	NUM	N	NumType=Card	7	nummod	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Concertammo tutto per le prove al pianoforte e le prove d'orchestra, ed a misura ch'egli mi fissava le ore che dovevo consacrare al teatro, io compulsavo quante me ne rimarrebbero da dedicare a Max.
+1	Concertammo	Concertare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	prove	prova	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pianoforte	pianoforte	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	prove	prova	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	orchestra	orchestra	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	21	punct	_	_
+15	ed	e	CCONJ	CC	_	21	cc	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	misura	misura	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+18	ch'	che	ADV	B	_	21	advmod	_	SpaceAfter=No
+19	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+21	fissava	fissare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	ore	ora	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	che	che	PRON	PR	PronType=Rel	26	obj	_	_
+25	dovevo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	consacrare	consacrare	VERB	V	VerbForm=Inf	23	acl:relcl	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	1	punct	_	_
+31	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	compulsavo	compulsare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+33	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	34	det	_	_
+34	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	36	expl	_	_
+35	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	36	expl	_	_
+36	rimarrebbero	rimarre	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	ccomp	_	_
+37	da	da	ADP	E	_	38	mark	_	_
+38	dedicare	dedicare	VERB	V	VerbForm=Inf	36	advcl	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	Max	Max	PROPN	SP	_	38	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

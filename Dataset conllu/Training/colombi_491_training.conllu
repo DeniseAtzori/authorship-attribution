@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il giardiniere non sapeva come fosse l'orto di Renzo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giardiniere	giardiniere	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	come	come	SCONJ	CS	_	8	mark	_	_
+6	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	orto	orto	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Renzo	Renzo	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ma io, che in una precedente esistenza aveva udito leggere i _Promessi Sposi_, stando nei capelli d'una bella signora, ed ero morto soffocato tra due pagine di quel libro, compresi benissimo.
+1	Ma	ma	CCONJ	CC	_	27	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	precedente	precedente	ADJ	A	Number=Sing	8	amod	_	_
+8	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	udito	udire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+11	leggere	leggere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	_Promessi	_Promesso	PROPN	SP	_	11	obj	_	_
+14	Sposi_	Sposi-	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	stando	stare	VERB	V	VerbForm=Ger	11	advcl	_	_
+17-18	nei	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	d'	di	ADP	E	_	23	case	_	SpaceAfter=No
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	bella	bello	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	signora	signore	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	ed	e	CCONJ	CC	_	27	cc	_	_
+26	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+28	soffocato	soffocato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+29	tra	tra	ADP	E	_	31	case	_	_
+30	due	due	NUM	N	NumType=Card	31	nummod	_	_
+31	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_
+34	libro	libro	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	27	punct	_	_
+36	compresi	comprendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	advcl	_	_
+37	benissimo	bene	ADV	B	Degree=Abs	36	advmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 3
+# text = Lo slancio preso dal mio ramo non andava punto a genio del signor Botanico; provai un'angoscia indicibile.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	slancio	slancio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	ramo	ramo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	genio	genio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	signor	signore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+16	Botanico	Botanico	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	18	punct	_	_
+18	provai	provare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	conj	_	_
+19	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	indicibile	indicibile	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Oh notti atroci!
+1	Oh	oh	INTJ	I	_	2	discourse	_	_
+2	notti	notte	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	atroci	atroce	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Egli espiava, in quelle notti, la notte del suo peccato:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	espiava	espiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	quelle	quelle	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	notti	notte	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	peccato	peccato	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = egli la espiava in tutte le forme, le più crudeli:
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	espiava	espiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	forme	forma	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	crudeli	crudele	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = egli si odiava e si disprezzava:
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	odiava	odiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	disprezzava	disprezzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = egli che si era creduto grande e puro, innanzi alla perfida Luisa Cima, adesso si sentiva mille volte più basso di lei.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	grande	grande	ADJ	A	Number=Sing	5	xcomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	puro	puro	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	innanzi	innanzi	ADV	B	_	13	case	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	perfida	perfida	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+14	Luisa	Luisa	PROPN	SP	_	13	nmod	_	_
+15	Cima	cima	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	adesso	adesso	ADV	B	_	19	advmod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+20	mille	mille	NUM	N	NumType=Card	21	nummod	_	_
+21	volte	volta	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	basso	basso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n
+

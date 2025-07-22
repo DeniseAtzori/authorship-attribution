@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'acqua scrosciava violentissima;
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	scrosciava	scrosciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	violentissima	violento	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = per le fessure della porta entrava un vento gelato;
+1	per	per	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	fessure	fessure	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	porta	porta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vento	vento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	gelato	gelato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = i lampi e i tuoni si seguivano con una frequenza spaventosa.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	lampi	lampo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	tuoni	tuono	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	seguivano	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	frequenza	frequenza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	spaventosa	spaventoso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Uno specialmente fu così fragoroso che credetti ne sprofondasse la terra.
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+2	specialmente	specialmente	ADV	B	_	5	advmod	_	_
+3	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	fragoroso	fragoroso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	credetti	credeggere	NOUN	S	Gender=Masc	9	nsubj	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	sprofondasse	sprofondare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	terra	terra	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Oh! dov'era Lui?...
+1	Oh	oh	INTJ	I	_	5	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	1	punct	_	_
+3	dov'	dove	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+6	?..	?..	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = solo, nelle tenebre, fra l'imperversare della bufera....
+1	solo	solo	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nelle	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	tenebre	tenebra	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	fra	fra	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	imperversare	imperversare	VERB	V	VerbForm=Inf	0	root	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	bufera...	bufera...	NOUN	S	_	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = A questo pensiero il freddo che mi rattrappiva le membra divenne fuoco ardente.
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	rattrappiva	rattrappire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	membra	membro	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	divenne	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	11	xcomp	_	_
+13	ardente	ardente	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

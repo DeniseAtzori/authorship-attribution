@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lo ascoltò, serena, raccolta, con un'attenzione così dolce, che l'animo di Giovanni, restato in grande trepidanza sino all'entrata in teatro, si venne rassicurando, rianimando, rallegrando.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	ascoltò	ascoltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	raccolta	raccolgere	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	dolce	dolce	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	33	obj	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	animo	animo	NOUN	S	Gender=Masc|Number=Sing	33	nsubj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Giovanni	Giovanni	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	restato	restare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	grande	grande	ADJ	A	Number=Sing	23	amod	_	_
+23	trepidanza	trepidanza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	sino	sino	ADV	B	_	27	case	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	24	fixed	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	16	punct	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+32	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	aux	_	_
+33	rassicurando	rassicurare	VERB	V	VerbForm=Ger	10	acl:relcl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	rianimando	rianimare	VERB	V	VerbForm=Ger	33	advcl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	rallegrando	rallegrare	VERB	V	VerbForm=Ger	35	advcl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Due o tre volte, involontariamente, egli alluse al passato, giacchè troppo il suo amore mancato aveva influito sulla sua esistenza, deviandola, torcendola ad altri ideali dello spirito, più alti, più inaccessibili e più tormentosi.
+1	Due	due	NUM	N	NumType=Card	4	nummod	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	tre	tre	NUM	N	NumType=Card	1	conj	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	involontariamente	involontariamente	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	alluse	alludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	passato	passato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	21	punct	_	_
+14	giacchè	giacché	CCONJ	CC	_	21	cc	_	_
+15	troppo	troppo	ADV	B	_	18	advmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	amore	amore	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	mancato	mancato	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	influito	influire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+22-23	sulla	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	deviandola	deviandola	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	21	punct	_	_
+29-30	torcendola	_	_	_	_	_	_	_	_
+29	torcendo	torcere	VERB	V	VerbForm=Ger	21	advcl	_	_
+30	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	ad	a	ADP	E	_	33	case	_	_
+32	altri	altro	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+33	ideali	ideale	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+34-35	dello	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	più	più	ADV	B	_	39	advmod	_	_
+39	alti	alto	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	36	punct	_	_
+41	più	più	ADV	B	_	42	advmod	_	_
+42	inaccessibili	inaccessibile	ADJ	A	Number=Plur	36	amod	_	_
+43	e	e	CCONJ	CC	_	45	cc	_	_
+44	più	più	ADV	B	_	45	advmod	_	_
+45	tormentosi	tormentoso	ADJ	A	Gender=Masc|Number=Plur	42	conj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vicenzino era fuor di pericolo, ed in istato di essere condotto a casa.
+1	Vicenzino	Vicenzino	ADV	B	_	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	fuor	fuorre	VERB	V	VerbForm=Inf	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ed	e	CCONJ	CC	_	9	cc	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	istato	istato	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	condotto	condurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	casa	casa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma era ancora debolissimo;
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	debolissimo	debole	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = il viaggio era lungo, il caldo opprimente.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+8	opprimente	opprimente	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Bisognò farlo viaggiare comodamente, lasciarlo riposare una notte a Milano, un'altra a Novara.
+1	Bisognò	Bisognò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	farlo	_	_	_	_	_	_	_	_
+2	far	fare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	viaggiare	viaggiare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	comodamente	comodamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7-8	lasciarlo	_	_	_	_	_	_	_	_
+7	lasciar	lasciare	VERB	V	VerbForm=Inf	4	conj	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	riposare	riposare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	notte	notte	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Milano	Milano	PROPN	SP	_	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	altra	altro	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Novara	Novara	PROPN	SP	_	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Vincenzo lo accompagnava con una sollecitudine affettuosissima, scegliendo i treni del mattino per evitargli l'ardore dei vagoni infocati dal sole di agosto, procurandogli i brodi sostanziosi di cui aveva bisogno, reggendolo fra le sue braccia quando doveva fare qualche passo.
+1	Vincenzo	Vincenzo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	accompagnava	accompagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sollecitudine	sollecitudine	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	affettuosissima	affettuoso	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	scegliendo	scegliere	VERB	V	VerbForm=Ger	3	advcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	treni	treno	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16-17	evitargli	_	_	_	_	_	_	_	_
+16	evitar	evitare	VERB	V	VerbForm=Inf	9	advcl	_	_
+17	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	vagoni	vagoni	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	infocati	infocare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+24-25	dal	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	sole	sole	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	3	punct	_	_
+30-31	procurandogli	_	_	_	_	_	_	_	_
+30	procurando	procurare	VERB	V	VerbForm=Ger	3	advcl	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	brodi	brodo	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+34	sostanziosi	sostanzioso	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	cui	cui	PRON	PR	PronType=Rel	37	obl	_	_
+37	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	_
+38	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	40	punct	_	_
+40	reggendolo	reggendolo	NOUN	S	Gender=Masc|Number=Sing	37	nsubj	_	_
+41	fra	fra	ADP	E	_	44	case	_	_
+42	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+43	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	44	det:poss	_	_
+44	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	40	nmod	_	_
+45	quando	quando	SCONJ	CS	_	47	mark	_	_
+46	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	47	aux	_	_
+47	fare	fare	VERB	V	VerbForm=Inf	44	advcl	_	_
+48	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	49	det	_	_
+49	passo	passo	NOUN	S	Gender=Masc|Number=Sing	47	obj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

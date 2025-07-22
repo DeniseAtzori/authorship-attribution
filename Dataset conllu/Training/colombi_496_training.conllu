@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ad ogni maggio la vedevo tornare più alta, più bella.
+1	Ad	a	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	tornare	tornare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	alta	alto	ADJ	A	Gender=Fem|Number=Sing	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	bella	bello	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mi faceva un gran chiasso d'intorno.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	gran	grande	ADJ	A	Number=Sing	5	amod	_	_
+5	chiasso	chiasso	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	intorno	intorno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ripeteva le lezioni camminando su e giù accanto al vaso, con voce alta e monotona, ed alternando le risposte poco sicure, con domande fatte in tono cattedratico e colla voce grossa per imitare una maestra.
+1	Ripeteva	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	camminando	camminare	VERB	V	VerbForm=Ger	1	advcl	_	_
+5	su	su	ADV	B	_	4	advmod	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	giù	giù	ADV	B	_	11	advmod	_	_
+8	accanto	accanto	ADV	B	_	11	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vaso	vaso	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	voce	voce	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+15	alta	alto	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	monotona	monotono	ADJ	A	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	ed	e	CCONJ	CC	_	20	cc	_	_
+20	alternando	alternare	VERB	V	VerbForm=Ger	1	conj	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	risposte	risposta	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	poco	poco	ADV	B	_	24	advmod	_	_
+24	sicure	sicuro	ADV	B	_	22	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	con	con	ADP	E	_	27	case	_	_
+27	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+28	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	tono	tono	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+31	cattedratico	cattedratico	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	colla	collo	ADJ	A	Gender=Fem|Number=Sing	31	conj	_	_
+34	voce	voce	NOUN	S	Gender=Fem|Number=Sing	33	nsubj	_	_
+35	grossa	grosso	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+36	per	per	ADP	E	_	37	mark	_	_
+37	imitare	imitare	VERB	V	VerbForm=Inf	34	acl	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

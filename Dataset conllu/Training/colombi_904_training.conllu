@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Passeggiò un pezzo, agitato, nervoso, commosso, ma profondamente felice.
+1	Passeggiò	Passeggiò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	agitato	agitato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	nervoso	nervoso	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	commosso	commuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	profondamente	profondamente	ADV	B	_	13	advmod	_	_
+13	felice	felice	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Gli era sembrato di leggere una speranza in quegli occhi grigi.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	sembrato	sembrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	leggere	leggere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+11	grigi	grigio	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Non aveva più che un giorno da aspettare, poi potrebbe parlare del suo amore; parlarne a lei.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	2	advmod	_	_
+4	che	che	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	aspettare	aspettare	VERB	V	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	poi	poi	ADV	B	_	12	advmod	_	_
+11	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	parlare	parlare	VERB	V	VerbForm=Inf	2	conj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	18	punct	_	_
+18-19	parlarne	_	_	_	_	_	_	_	_
+18	parlar	parlare	VERB	V	VerbForm=Inf	2	conj	_	_
+19	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Vincenzo glielo avrebbe permesso.
+1	Vincenzo	Vincenzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	glielo	_	_	_	_	_	_	_	_
+2	glie	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Si figurava quel momento, ripeteva fra sè:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	figurava	figurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	ripeteva	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis	_	_
+7	fra	fra	ADP	E	_	8	case	_	_
+8	sè	sè	PRON	PE	Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = «O Elena, quanto ti amo!...»
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	O	o	CCONJ	CC	_	3	cc	_	_
+3	Elena	Elena	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quanto	quanto	ADV	B	_	6	case	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	conj	_	_
+7	amo!...	amo!.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	3	punct	_	SpacesAfter=\n
+

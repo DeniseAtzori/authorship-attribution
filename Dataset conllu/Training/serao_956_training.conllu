@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Clara soffocava per il battito del suo cuore:
+1	Clara	Clara	PROPN	SP	_	2	nsubj	_	_
+2	soffocava	soffocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	battito	battito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = e l'accoglienza che gli voleva fare, disinvolta e serena, come a un amico che venisse sempre, e le parole che gli voleva dire, tutto sparve, ed egli la trovò in mezzo alla stanza, aspettandolo con troppo palese ansietà e porgendogli una mano glaciale e tremante.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	disinvolta	disinvolto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	come	come	ADP	E	_	16	case	_	_
+14	a	a	ADP	E	_	13	fixed	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	venisse	venire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+19	sempre	sempre	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	parole	parola	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+26	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	dire	dire	VERB	V	VerbForm=Inf	23	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	3	punct	_	_
+29	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	30	nsubj	_	_
+30	sparve	sparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	35	punct	_	_
+32	ed	e	CCONJ	CC	_	35	cc	_	_
+33	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+35	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	conj	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+38-39	alla	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	30	punct	_	_
+42-43	aspettandolo	_	_	_	_	_	_	_	_
+42	aspettando	aspettare	VERB	V	VerbForm=Ger	30	advcl	_	_
+43	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	obj	_	_
+44	con	con	ADP	E	_	47	case	_	_
+45	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	47	det	_	_
+46	palese	palese	ADJ	A	Number=Sing	47	amod	_	_
+47	ansietà	ansietà	NOUN	S	Gender=Fem	42	obl	_	_
+48	e	e	CCONJ	CC	_	49	cc	_	_
+49-50	porgendogli	_	_	_	_	_	_	_	_
+49	porgendo	porgire	VERB	V	VerbForm=Ger	42	conj	_	_
+50	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	iobj	_	_
+51	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	mano	mano	NOUN	S	Gender=Fem|Number=Sing	49	obj	_	_
+53	glaciale	glaciale	ADJ	A	Number=Sing	52	amod	_	_
+54	e	e	CCONJ	CC	_	55	cc	_	_
+55	tremante	tremante	ADJ	A	Number=Sing	53	conj	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 3
+# text = Sedettero ambedue non accanto, ma dirimpetto:
+1	Sedettero	Sedettero	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ambedue	ambedue	PRON	PI	Number=Plur|PronType=Ind	1	obj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	accanto	accanto	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	dirimpetto	dirimpettere	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = taciturni, imbarazzati.
+1	taciturni	taciturno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	imbarazzati	imbarazzato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Clara non osava aprir bocca; intendeva che la sua voce l'avrebbe tradita.
+1	Clara	Clara	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	osava	osare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	aprir	aprire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	7	punct	_	_
+7	intendeva	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+8	che	che	SCONJ	CS	_	14	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	voce	voce	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+13	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	tradita	tradire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Egli guardava, come trasognato, i galloni rossi e azzurri che adornavano il vestito di lana bianca di Clara.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	trasognato	trasognare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	galloni	gallone	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+9	rossi	rosso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	azzurri	azzurro	ADJ	A	Gender=Masc|Number=Plur	9	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	adornavano	adornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	lana	lana	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Clara	Clara	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

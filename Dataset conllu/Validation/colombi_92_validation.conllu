@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Come vedete, la mia carriera s'iniziò tranquillamente, senza contrasti.
+1	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Come	come	SCONJ	CS	_	3	mark	_	_
+3	vedete	vedere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
+9	iniziò	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	tranquillamente	tranquillo	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	senza	senza	ADP	E	_	13	case	_	_
+13	contrasti	contrasto	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Non avevo una famiglia aristocratica che s'indignasse di vedermi sulle scene, e contro cui avessi a difendere l'arte incompresa.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	aristocratica	aristocratico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
+8	indignasse	indignare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	vedermi	_	_	_	_	_	_	_	_
+10	veder	vedere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+12-13	sulle	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	scene	scena	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	contro	contro	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+19	avessi	avere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	difendere	difendere	VERB	V	VerbForm=Inf	19	advcl	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	arte	arte	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	incompresa	incompresa	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = La mia famiglia è modestissima;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	modestissima	modesto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = non vanto passate grandezze;
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	vanto	vanto	ADV	B	_	3	advmod	_	_
+3	passate	passato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	grandezze	grandezzo	NOUN	S	Gender=Fem|Number=Plur	3	nsubj:pass	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = la mia vita d'artista non ha nulla di drammatico;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	artista	artista	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 6
+# text = tutto è prosa intorno a me.
+1	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	prosa	prosa	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	intorno	intorno	ADV	B	_	6	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Oh!
+1	Oh	oh	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Beatrice, come mai potè il sommo Alighieri illudersi al punto da creare per te un paradiso?
+1	Beatrice	Beatore	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	mai	mai	ADV	B	_	9	advmod	_	_
+5	potè	potere	SCONJ	CS	_	9	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sommo	sore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	Alighieri	Alighieri	PROPN	SP	_	7	nmod	_	_
+9-10	illudersi	_	_	_	_	_	_	_	_
+9	illuder	illudere	VERB	V	VerbForm=Inf	1	advcl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	da	da	ADP	E	_	15	mark	_	_
+15	creare	creare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	paradiso	Paradiso	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E come potè la marchesa di Pescara nella impossibilità di esplicare le proprie facoltà intellettive e spirituali lasciarci poesie che si ammirano ancora e avvincere a sè nella aureola purissima dell’ammirazione il più grande ingegno del suo tempo?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	potè	potere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	marchesa	marchesa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Pescara	Pescara	PROPN	SP	_	5	nmod	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	impossibilità	impossibilità	NOUN	S	Gender=Fem	5	nmod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	esplicare	esplicare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	facoltà	facoltà	NOUN	S	Gender=Fem	12	obj	_	_
+16	intellettive	intellettivo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	spirituali	spirituale	ADJ	A	Number=Plur	16	conj	_	_
+19-20	lasciarci	_	_	_	_	_	_	_	_
+19	lasciar	lasciare	VERB	V	VerbForm=Inf	3	csubj	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	expl	_	_
+21	poesie	poesia	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	ammirano	ammirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+25	ancora	ancora	ADV	B	_	24	advmod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	avvincere	avvincere	VERB	V	VerbForm=Inf	24	conj	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	obl	_	_
+30-31	nella	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	aureola	aureola	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+33	purissima	pure	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	32	amod	_	_
+34-35	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+34	di	di	ADP	E	_	36	case	_	_
+35	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	ammirazione	ammirazione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+38	più	più	ADV	B	_	39	advmod	_	_
+39	grande	grande	ADJ	A	Number=Sing	40	amod	_	_
+40	ingegno	ingegno	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+41-42	del	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	44	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+43	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	44	det:poss	_	_
+44	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+45	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io sono pigro e mi alzo abitualmente assai tardi.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	pigro	pigrare	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	alzo	alzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	abitualmente	abitualmente	ADV	B	_	6	advmod	_	_
+8	assai	assai	ADV	B	_	9	advmod	_	_
+9	tardi	tardi	ADV	B	_	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Dopo aver preso tranquillamente il caffè, feci aprire le finestre, ravviai i guanciali e le coltri, mi posi a sedere sul letto, ed alla luce d'un bel sole mattutino impresi a leggere quelle pagine colla tranquilla e benevola curiosità con cui si comincia un romanzo d'un autore noto e simpatico;
+1	Dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	tranquillamente	tranquillo	ADV	B	_	3	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caffè	caffè	NOUN	S	Gender=Masc	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	feci	feci	ADJ	A	Number=Plur	9	amod	_	_
+9	aprire	aprire	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	ravviai	ravviare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	9	conj	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	guanciali	guanciale	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	coltri	coltro	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	expl	_	_
+21	posi	posare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	sedere	sedere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24-25	sul	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	letto	letto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	31	punct	_	_
+28	ed	e	CCONJ	CC	_	31	cc	_	_
+29-30	alla	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	luce	luce	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+32	d'	di	ADP	E	_	35	case	_	SpaceAfter=No
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	bel	bello	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+35	sole	solo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+36	mattutino	mattutino	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+37	impresi	rendeimpre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	35	acl	_	_
+38	a	a	ADP	E	_	39	mark	_	_
+39	leggere	leggere	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	41	det	_	_
+41	pagine	pagine	NOUN	S	Gender=Fem|Number=Plur	39	obj	_	_
+42	colla	colla	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	_
+43	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	benevola	benevolare	ADJ	A	Gender=Fem|Number=Sing	43	conj	_	_
+46	curiosità	curiosità	NOUN	S	Gender=Fem	41	nmod	_	_
+47	con	con	ADP	E	_	48	case	_	_
+48	cui	cui	PRON	PR	PronType=Rel	50	obl	_	_
+49	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	50	expl	_	_
+50	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	acl:relcl	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	50	nsubj	_	_
+53	d'	di	ADP	E	_	55	case	_	SpaceAfter=No
+54	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	autore	autore	NOUN	S	Gender=Masc|Number=Sing	52	nmod	_	_
+56	noto	noto	ADJ	A	Gender=Masc|Number=Sing	52	amod	_	_
+57	e	e	CCONJ	CC	_	58	cc	_	_
+58	simpatico	simpatico	ADJ	A	Gender=Masc|Number=Sing	56	conj	_	SpaceAfter=No
+59	;	;	PUNCT	FC	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = --nè più nè meno.
+1	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+3	nè	nè	CCONJ	CC	_	6	cc	_	_
+4	più	più	ADV	B	_	6	advmod	_	_
+5	nè	nè	CCONJ	CC	_	6	cc	_	_
+6	meno	meno	ADV	B	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Di mio marito non disse una sola parola.
+1	Di	di	ADP	E	_	3	case	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	marito	marito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	parola	parola	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Sapeva senza dubbio che egli viveva quasi sempre lontano da me, ma avrebbe potuto chiedermi sue notizie;
+1	Sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	senza	senza	ADP	E	_	3	case	_	_
+3	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	quasi	quasi	ADV	B	_	8	advmod	_	_
+8	sempre	sempre	ADV	B	_	6	advmod	_	_
+9	lontano	lontano	ADV	B	_	11	case	_	_
+10	da	da	ADP	E	_	9	fixed	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux	_	_
+16-17	chiedermi	_	_	_	_	_	_	_	_
+16	chieder	chiedere	VERB	V	VerbForm=Inf	1	conj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+18	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = almeno mi parve che dovesse farlo.
+1	almeno	almeno	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6-7	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+6	far	fare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Mi domandò invece come passavo il mio tempo e se leggevo.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	domandò	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	invece	invece	ADV	B	_	2	advmod	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	passavo	passavo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	se	se	SCONJ	CS	_	11	mark	_	_
+11	leggevo	leggere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Leggere?
+1	Leggere	leggere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ciò mi sorprese un poco.
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	sorprese	sorprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	poco	poco	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = In realtà guardandomi attorno, non vedevo alcun libro nel mio salotto.
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3-4	guardandomi	_	_	_	_	_	_	_	_
+3	guardando	guardare	VERB	V	VerbForm=Ger	8	advcl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	attorno	attorno	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	libro	libro	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

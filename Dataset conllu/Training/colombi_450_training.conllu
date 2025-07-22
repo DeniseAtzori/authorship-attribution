@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — È vero, confessò Odda con sincerità.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	confessò	confessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	Odda	Odda	PROPN	SP	_	5	obj	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	sincerità	sincerità	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ho sognato anch'io la _mia_ famiglia colle sue cornici color di rosa e d'azzurro.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sognato	sognato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	anch'	anche	ADV	B	_	4	advmod	_	SpaceAfter=No
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	_mia_	ExtraSubj=Yes|_mia_	ADJ	NO	NumType=Ord	7	amod	_	_
+7	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+8-9	colle	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	12	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+10	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	cornici	cornico	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	color	colore	NOUN	S	Gender=Masc	2	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	azzurro	azzurro	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma è là nell'azzurro.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	là	là	ADV	B	_	0	root	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	azzurro	azzurro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Cosa farci?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2-3	farci	_	_	_	_	_	_	_	SpaceAfter=No
+2	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Vorresti ch'io stessi giorno e notte colla testa in mano pensando se verrà o se non verrà?
+1	Vorresti	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	ch'	ch'	ADV	B	_	3	advmod	_	SpaceAfter=No
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	notte	notte	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+8	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	testa	testa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	pensando	pensare	VERB	V	VerbForm=Ger	8	advcl	_	_
+13	se	se	SCONJ	CS	_	14	mark	_	_
+14	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	ccomp	_	_
+15	o	o	CCONJ	CC	_	18	cc	_	_
+16	se	se	SCONJ	CS	_	18	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	conj	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Oppure che, per farlo venire, prendessi il primo _partito_ venuto, e gli facessi fare la parte del protagonista come in una commedia, a rischio di trovare poi che quella parte non gli va, e di rovinare la produzione?
+1	Oppure	oppure	CCONJ	CC	_	5	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-6	farlo	_	_	_	_	_	_	_	_
+5	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	venire	venire	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	prendessi	prendettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+12	_partito_	_partito-	PUNCT	FB	_	11	punct	_	_
+13	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	nsubj:pass	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	facessi	facesso	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+18	fare	fare	VERB	V	VerbForm=Inf	17	acl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	protagonista	protagonista	NOUN	S	Number=Sing	20	nmod	_	_
+24	come	come	ADV	B	_	27	cc	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	commedia	commedia	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	trovare	trovare	VERB	V	VerbForm=Inf	27	acl	_	_
+33	poi	poi	ADV	B	_	32	advmod	_	_
+34	che	che	SCONJ	CS	_	39	mark	_	_
+35	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	36	det	_	_
+36	parte	parte	NOUN	S	Gender=Fem|Number=Sing	39	nsubj	_	_
+37	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+38	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	iobj	_	_
+39	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	ccomp	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	43	punct	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	di	di	ADP	E	_	43	mark	_	_
+43	rovinare	rovinare	VERB	V	VerbForm=Inf	39	conj	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	43	obj	_	SpaceAfter=No
+46	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Guardava, ma non vedeva:
+1	Guardava	Guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	ma	ma	CCONJ	CC	_	5	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = sentiva che il tempo passava, ecco tutto.
+1	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	passava	passavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	ecco	ecco	ADV	B	_	8	advmod	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Minuti secondi, minuti primi, ore?
+1	Minuti	minuto	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+5	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	ore	ora	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Tempo che passava.
+1	Tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Adesso quel silenzio, intorno, lo terrorizzava;
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	intorno	intorno	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	terrorizzava	terrorizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = e uno strazio nasceva, germogliava, cresceva dal fondo del suo essere convulso.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	strazio	strazio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	nasceva	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	germogliava	germogliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	cresceva	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	16	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+16	convulso	convulso	ADJ	A	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Nulla, intorno.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	intorno	intorno	ADV	B	_	4	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = La candela ardeva, con un battito leggiero e appena diradava le ombre.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	candela	candelare	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	ardeva	ardere	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	battito	battito	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+8	leggiero	leggiero	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	appena	appena	ADV	B	_	11	advmod	_	_
+11	diradava	diradare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	ombre	ombra	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

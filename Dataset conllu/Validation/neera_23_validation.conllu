@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma Alessio non si interessava a questo problema.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	Alessio	Alessio	PROPN	SP	_	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	interessava	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	problema	problema	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Io invece lo trovavo di una bellezza che non m'era apparsa mai prima di allora.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	invece	invece	ADV	B	_	4	advmod	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	trovavo	trovavo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	expl	_	SpaceAfter=No
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	apparsa	apparire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	mai	mai	ADV	B	_	16	advmod	_	_
+14	prima	prima	ADV	B	_	16	case	_	_
+15	di	di	ADP	E	_	14	fixed	_	_
+16	allora	allora	ADV	B	_	12	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Quanto dolore in quell'essere nobile oppresso da un destino inumano e quanta gioia nell'istante della liberazione!
+1	Quanto	quanto	ADV	B	_	2	advmod	_	_
+2	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	quell'	quello	DET	DD	Number=Sing|PronType=Dem	6	det	_	SpaceAfter=No
+5	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+6	nobile	nobile	ADJ	A	Number=Sing	2	amod	_	_
+7	oppresso	opprettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	destino	destino	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	inumano	inumano	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	quanta	quanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	14	det	_	_
+14	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+15-16	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	in	in	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	istante	istante	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+21	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Come egli doveva amare veramente chi lo aveva così veramente amato!
+1	Come	come	ADP	E	_	2	case	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+3	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	amare	amare	VERB	V	VerbForm=Inf	0	root	_	_
+5	veramente	veramente	ADV	B	_	4	advmod	_	_
+6	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	obj	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+9	così	così	ADV	B	_	11	advmod	_	_
+10	veramente	veramente	ADV	B	_	11	advmod	_	_
+11	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

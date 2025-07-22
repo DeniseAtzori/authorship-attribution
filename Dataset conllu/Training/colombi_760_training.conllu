@@ -1,0 +1,159 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Quella mattina, me la ricordo sempre.
+1	--Quella	--Quella	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sempre	sempre	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Tirava un vento che il battello a vapore saltava sul lago come un cervo nel bosco, e veniva giù una pioggerella diaccia, che era come sentirsi cadere addosso tante punte d'aghi.
+1	Tirava	Tirare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vento	vento	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	battello	battello	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	vapore	vapore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	saltava	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lago	lago	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cervo	cervo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	bosco	bosco	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+22	giù	giù	ADV	B	_	21	advmod	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	pioggerella	pioggerella	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25	diaccia	diaccia	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+29	come	come	ADP	E	_	30	mark	_	_
+30-31	sentirsi	_	_	_	_	_	_	_	_
+30	sentir	sentire	VERB	V	VerbForm=Inf	28	ccomp	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+32	cadere	cadere	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	addosso	addosso	ADV	B	_	32	advmod	_	_
+34	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	35	det	_	_
+35	punte	punta	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+36	d'	di	ADP	E	_	37	case	_	SpaceAfter=No
+37	aghi	ago	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Quando mi alzai, Michele era già uscito;
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	alzai	alzai	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Michele	Michele	PROPN	SP	_	8	nsubj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 4
+# text = e la Teresa dormiva nel mio letto tutta rossa in volto come un fiore;
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Teresa	Teresa	PROPN	SP	_	4	nsubj	_	_
+4	dormiva	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	letto	letto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	tutta	tutto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	rossa	rosso	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	volto	volto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = dormiva il dolce sonno della gioventù;
+1	dormiva	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	dolce	dolce	ADJ	A	Number=Sing	4	amod	_	_
+4	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gioventù	gioventù	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = ed io pensai:
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	pensai	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = «Che morire!
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Che	che	SCONJ	CS	_	3	mark	_	_
+3	morire	morire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = questa la salvo per me;
+1	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	salvo	salvo	ADJ	A	Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 9
+# text = il re non me la prende questa, e fra un mese sarà guarita;
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	re	re	NOUN	S	Gender=Masc	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	e	e	CCONJ	CC	_	14	cc	_	_
+10	fra	fra	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mese	mese	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+13	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+14	guarita	guarire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 10
+# text = non si muore con quei colori, e con quel sonno profondo».
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	muore	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	colori	colore	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+12	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

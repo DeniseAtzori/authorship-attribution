@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quel giorno non voleva metterci piede, a Montecitorio, non voleva per nulla occuparsi del mondo parlamentare:
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5-6	metterci	_	_	_	_	_	_	_	_
+5	metter	mettere	VERB	V	VerbForm=Inf	0	root	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+7	piede	piede	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Montecitorio	Montecitorio	PROPN	SP	_	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obl	_	_
+16-17	occuparsi	_	_	_	_	_	_	_	_
+16	occupar	occupare	VERB	V	VerbForm=Inf	13	csubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	parlamentare	parlamentare	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = aveva bisogno di veder Roma, di trovar casa.
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	veder	vedere	VERB	V	VerbForm=Inf	2	acl	_	_
+5	Roma	Roma	PROPN	SP	_	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	trovar	trovare	VERB	V	VerbForm=Inf	4	conj	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Egli s'indugiava alla finestra, volendo mettersi in giro, dopo colazione.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+3	indugiava	indugiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	volendo	volere	AUX	V	VerbForm=Ger	9	aux	_	_
+9-10	mettersi	_	_	_	_	_	_	_	_
+9	metter	mettere	VERB	V	VerbForm=Inf	3	conj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	giro	giro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	dopo	dopo	ADP	E	_	15	case	_	_
+15	colazione	colazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Si era svegliato di buon'ora, desto da un frastuono di voci e di risate, nella camera accanto.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	svegliato	svegliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	buon'	buono	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ora	ora	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	desto	dedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	frastuono	frastuono	NOUN	S	Gender=Masc|Number=Sing	8	obl:agent	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	voci	voce	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	risate	risata	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	camera	camera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+21	accanto	accanto	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Donna Clara Lieti, sotto l'atrio del gran portone magnatizio, in piazza Santi Apostoli, sentì un gran freddo.
+1	Donna	donna	PROPN	SP	_	19	nsubj	_	_
+2	Clara	Clara	PROPN	SP	_	1	flat:name	_	_
+3	Lieti	lieto	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	sotto	sotto	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	atrio	atrio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	gran	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	portone	portone	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	magnatizio	magnatizio	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+16	Santi	Santi	PROPN	SP	_	11	appos	_	_
+17	Apostoli	Apostoli	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	sentì	sentire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	gran	grande	ADJ	A	Number=Sing	22	amod	_	_
+22	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 2
+# text = Erano gli ultimi di febbraio:
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = ma sovra, nel salone, il caminetto era acceso, tanta gente vi si agitava, sotto le lampade coperte dai larghi paralumi rosei.
+1	ma	ma	CCONJ	CC	_	11	cc	_	_
+2	sovra	sovrare	ADV	B	_	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	salone	salone	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	caminetto	caminetto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	acceso	accendere	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
+14	gente	gente	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+15	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	agitava	agitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	sotto	sotto	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	lampade	lampada	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+22	coperte	coprire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23-24	dai	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	larghi	largo	NOUN	S	Gender=Masc|Number=Plur	22	obl:agent	_	_
+26	paralumi	paralume	ADJ	A	Number=Plur	25	amod	_	_
+27	rosei	roseo	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Giù la via era fredda, nella prima ora della sera:
+1	Giù	giù	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	via	via	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sera	sera	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = nè via Santi Apostoli è molto frequentata.
+1	nè	né	CCONJ	CC	_	3	cc	_	_
+2	via	via	ADV	B	_	3	advmod	_	_
+3	Santi	Santi	PROPN	SP	_	7	nsubj	_	_
+4	Apostoli	Apostoli	PROPN	SP	_	3	flat:name	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	frequentata	frequentato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parlava poco, ed era sempre dello stesso umore;
+1	Parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	poco	poco	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	10	punct	_	_
+4	ed	e	CCONJ	CC	_	10	cc	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+6	sempre	sempre	ADV	B	_	10	advmod	_	_
+7-8	dello	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	umore	umore	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = nè troppo serio, nè troppo gaio.
+1	nè	né	CCONJ	CC	_	3	cc	_	_
+2	troppo	troppo	ADV	B	_	3	advmod	_	_
+3	serio	serio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	nè	nè	CCONJ	CC	_	7	cc	_	_
+6	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	gaio	gaio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Aveva l'aria d'un cortigiano aspirante che facesse la sua pratica nell'etichetta di corte.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aria	aria	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cortigiano	cortigiano	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	aspirante	aspirante	ADJ	A	Number=Sing	6	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	facesse	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13-14	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	etichetta	etichetta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	corte	corte	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Quando lo conobbi mi fu antipatico.
+1	Quando	quando	SCONJ	CS	_	6	mark	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	conobbi	conobbio	NOUN	S	Number=Plur	6	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	antipatico	antipatico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Quando l'udii parlare, il suo accento straniero e la sua voce--sopra tutto la sua voce--finì di rendermelo repulsivo.
+1	Quando	quando	SCONJ	CS	_	21	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	udii	udio	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	_
+4	parlare	parlare	NOUN	S	Number=Plur	21	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	accento	accento	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+9	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	voce	voce	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+14	--sopra	--sopra	ADP	E	_	15	case	_	_
+15	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	voce	voce	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+19	-	-	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+21	finì	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	rendermelo	rendermelo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	repulsivo	repulsivo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
+

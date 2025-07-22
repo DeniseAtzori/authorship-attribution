@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Si inchinò molto ossequiosamente ed era sul punto di allontanarsi quando Alessio inciampando nel tappeto cadde a terra battendosi la fronte.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	inchinò	inchinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	ossequiosamente	ossequiosamente	ADV	B	_	2	advmod	_	_
+5	ed	e	CCONJ	CC	_	9	cc	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	allontanarsi	_	_	_	_	_	_	_	_
+11	allontanar	allontanare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	quando	quando	SCONJ	CS	_	19	mark	_	_
+14	Alessio	Alessio	PROPN	SP	_	19	nsubj	_	_
+15	inciampando	inciampare	VERB	V	VerbForm=Ger	19	advcl	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	cadde	caddere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	terra	terra	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22-23	battendosi	_	_	_	_	_	_	_	_
+22	battendo	battere	VERB	V	VerbForm=Ger	19	advcl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	fronte	fronte	NOUN	S	Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Gli strilli del mio bambino lo fecero tornare indietro e un poco forse le mie esclamazioni di dolore e i forti baci e le tenerezze che gli prodigavo per acchetarlo.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	strilli	strille	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	tornare	tornare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	indietro	indietro	ADV	B	_	9	advmod	_	_
+11	e	e	CCONJ	CC	_	17	cc	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	poco	poco	ADV	B	_	17	advmod	_	_
+14	forse	forse	ADV	B	_	13	advmod	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	esclamazioni	esclamazione	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	forti	forte	ADJ	A	Number=Plur	23	amod	_	_
+23	baci	baco	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	tenerezze	tenerezza	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+27	che	che	PRON	PR	PronType=Rel	29	obj	_	_
+28	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+29	prodigavo	prodigare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31-32	acchetarlo	_	_	_	_	_	_	_	SpaceAfter=No
+31	acchetar	acchetare	VERB	V	VerbForm=Inf	29	advcl	_	_
+32	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

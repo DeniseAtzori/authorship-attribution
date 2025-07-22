@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un acuto martirio diventarono da allora in poi i nostri colloqui, dove al simpatico abbandono subentrava la diffidenza e l'osservazione continua.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	acuto	acuto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	martirio	martirio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	diventarono	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	allora	allora	ADV	B	_	4	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	poi	poi	ADV	B	_	4	advmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	colloqui	colloquio	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	dove	dove	ADV	B	_	18	advmod	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	simpatico	simpatico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+18	subentrava	subentrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	diffidenza	diffidenza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	osservazione	osservazione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+24	continua	continuo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Il non venir più alla sera, in quell'ora che sembra stringere più dolcemente gli affetti, mi dava una vera e profonda malinconia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	venir	venire	VERB	V	VerbForm=Inf	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	quell'	quello	DET	DD	Number=Sing|PronType=Dem	11	det	_	SpaceAfter=No
+11	ora	ora	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	stringere	stringere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	dolcemente	dolcemente	ADV	B	_	14	advmod	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+21	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+23	vera	vero	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	_
+26	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sembrava una tacita conferma della sua minaccia:
+1	Sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tacita	tacita	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	conferma	confermo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = _Non mi avrete mai più così, mai più!_
+1	_Non	_Non	ADP	E	_	2	case	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	avrete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	così	così	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	mai	mai	ADV	B	_	9	advmod	_	_
+9	più	più	ADV	B	_	3	advmod	_	SpaceAfter=No
+10	!_	!_	PUNCT	FF	_	3	punct	_	SpacesAfter=\n
+

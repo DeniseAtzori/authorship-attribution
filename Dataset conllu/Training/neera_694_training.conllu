@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Essendosi stabilito il funerale per l’indomani, il medico le propose di passare la notte in casa sua, ma la signora dichiarò che non si sarebbe coricata.
+1-2	Essendosi	_	_	_	_	_	_	_	_
+1	Essendo	essere	AUX	V	VerbForm=Ger	3	aux	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:pass	_	_
+3	stabilito	stabilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	funerale	funerale	NOUN	S	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	indomani	indomani	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	medico	medico	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	propose	proposa	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	passare	passare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	notte	notte	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	ma	ma	CCONJ	CC	_	25	cc	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	signora	signore	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+25	dichiarò	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+26	che	che	SCONJ	CS	_	30	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+29	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	coricata	coricare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Accettò appena l’uomo che si era offerto per fare la guardia al cadavere permettendo alla serva di prendere qualche ora di riposo mentre ella stessa si sarebbe coricata senza spogliarsi sul divano del salotto.
+1	Accettò	Accettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	appena	appena	SCONJ	CS	_	4	mark	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj:pass	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	offerto	offrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	guardia	guardia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cadavere	cadavere	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	permettendo	permettere	VERB	V	VerbForm=Ger	10	advcl	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	serva	serva	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	prendere	prendere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+22	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	ora	ora	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	mentre	mentre	CCONJ	CC	_	31	cc	_	_
+27	ella	ella	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+28	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+30	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	coricata	coricare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	conj	_	_
+32	senza	senza	ADP	E	_	33	mark	_	_
+33-34	spogliarsi	_	_	_	_	_	_	_	_
+33	spogliar	spogliare	VERB	V	VerbForm=Inf	31	advcl	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+35-36	sul	_	_	_	_	_	_	_	_
+35	su	su	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	divano	dire	ADJ	A	Gender=Masc|Number=Sing	33	obl	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così questa giovane miss inglese viveva singolarmente, in Italia, a Sorrento, in un albergo, dove aveva bisogno di sedie fatte apposta, di letto fatto apposta, tutto vasto, tutto solido.
+1	Così	così	ADV	B	_	6	advmod	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	giovane	giovane	ADJ	A	Number=Sing	4	amod	_	_
+4	miss	miss	NOUN	S	Gender=Masc	6	nsubj	_	_
+5	inglese	inglese	ADJ	A	Number=Sing	4	amod	_	_
+6	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	singolarmente	singolarmente	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Italia	Italia	PROPN	SP	_	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Sorrento	Sorrento	PROPN	SP	_	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	dove	dove	ADV	B	_	20	advmod	_	_
+20	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+21	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	sedie	sedia	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+24	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+25	apposta	apposta	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	letto	letto	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+29	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+30	apposta	apposta	ADV	B	_	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	29	punct	_	_
+32	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	33	obj	_	_
+33	vasto	vasto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	advcl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	24	punct	_	_
+35	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	36	obl	_	_
+36	solido	solido	ADJ	A	Gender=Masc|Number=Sing	24	advcl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Pranzava nella sua stanza, sola; leggicchiava storie d'amore che non la riguardavano e versi che nessuno mai le avrebbe mormorati;
+1	Pranzava	Pranzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	9	punct	_	_
+9	leggicchiava	leggicchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+10	storie	storia	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	riguardavano	riguardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	versi	vergere	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+20	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	nsubj	_	_
+21	mai	mai	ADV	B	_	24	advmod	_	_
+22	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	24	iobj	_	_
+23	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	mormorati	mormorare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = canticchiava ritornelli amorosi; dipingeva all'acquerello qualche veduta di Sorrento; sempre sola.
+1	canticchiava	canticchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ritornelli	ritornello	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+3	amorosi	amoroso	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	5	punct	_	_
+5	dipingeva	dipingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	acquerello	acquerello	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	veduta	veduta	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Sorrento	Sorrento	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	15	punct	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	sola	solo	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Che cosa?
+1	--Che	--Co	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = rispose Vicenzino che, assorto nella sua estasi d'amore, non aveva capito nulla.
+1	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Vicenzino	Vicenzino	PROPN	SP	_	1	obj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	assorto	assorgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9-10	estasi	_	_	_	_	_	_	_	_
+9	esta	esta	NOUN	S	Number=Sing	5	obl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+17	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = L'Elena lo guardò meravigliata, co' suoi grandi occhi grigi e limpidi.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Elena	Elena	PROPN	SP	_	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	meravigliata	meravigliare	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	co'	coco	ADP	E	_	10	case	_	_
+8	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	grandi	grande	ADJ	A	Number=Plur	10	amod	_	_
+10	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+11	grigi	grigio	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	limpidi	limpidio	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ma, all'incontrare quello sguardo, Vicenzino si fece rosso come una fiamma, e, sentendo di non poter tacere più a lungo, si alzò ed uscì in giardino.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	mark	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	incontrare	incontrare	VERB	V	VerbForm=Inf	0	root	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	_
+7	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	Vicenzino	Vicenzino	PROPN	SP	_	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fiamma	fiamma	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	29	punct	_	_
+17	e	e	CCONJ	CC	_	29	cc	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	29	punct	_	_
+19	sentendo	sentire	VERB	V	VerbForm=Ger	29	advcl	_	_
+20	di	di	ADP	E	_	23	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	poter	potere	AUX	VM	VerbForm=Inf	23	aux	_	_
+23	tacere	tacere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+24	più	più	ADV	B	_	23	advmod	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	19	punct	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+30	ed	e	CCONJ	CC	_	31	cc	_	_
+31	uscì	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

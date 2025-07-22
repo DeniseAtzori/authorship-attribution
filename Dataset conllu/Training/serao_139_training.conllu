@@ -1,0 +1,143 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Erano le undici, la via di Santa Lucia era tutta presa dal sole, Vicenzella non stava più alle mosse:
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	undici	undici	NUM	N	NumType=Card	4	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	via	via	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Santa	Santa	PROPN	SP	_	6	nmod	_	_
+9	Lucia	Lucia	PROPN	SP	_	8	flat:name	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+12	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sole	sole	NOUN	S	Gender=Masc|Number=Sing	12	obl:agent	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	Vicenzella	Vicenzella	PROPN	SP	_	19	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	_
+20	più	più	ADV	B	_	19	advmod	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	mosse	muovere	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 2
+# text = Fortuna, seduta per terra, accanto a lei, dormicchiava.
+1	Fortuna	fortuna	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	seduta	sedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	terra	terra	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	accanto	accanto	ADV	B	_	9	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	dormicchiava	dormicchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Come l'ora del mezzodì si approssimava, la vendita del polipo cotto cominciava.
+1	Come	come	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mezzodì	mezzodì	NOUN	S	Gender=Masc	3	nmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	approssimava	approssimare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vendita	vendita	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	polipo	polipo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	cotto	cotto	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	cominciava	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Vicenzella aveva tre o quattro piattelli di cretaglia bianca, sul parapetto della via:
+1	Vicenzella	Vicenzello	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	quattro	quattro	NUM	N	NumType=Card	3	conj	_	_
+6	piattelli	piattello	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cretaglia	cretaglia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	parapetto	parapetto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	via	via	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = appena un avventore si presentava, ella immergeva lo schidioncino nella pignatta, ne traeva un pezzo di polipo, tutto riccio e lo metteva sul piattello, aggiungendovi un pezzo di galletta, già molle, e una cucchiaiata di brodo rosso.
+1	appena	appena	ADV	B	_	5	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	avventore	avventore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	presentava	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	immergeva	immergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	schidioncino	schidioncino	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pignatta	pignatta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+16	traeva	traere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	polipo	polipo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obj	_	_
+23	riccio	riccio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+26	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	conj	_	_
+27-28	sul	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	piattello	piattello	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31-32	aggiungendovi	_	_	_	_	_	_	_	_
+31	aggiungendo	aggiungere	VERB	V	VerbForm=Ger	26	advcl	_	_
+32	vi	vi	ADV	B	_	31	advmod	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	galletta	galletta	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	39	punct	_	_
+38	già	già	ADV	B	_	39	advmod	_	_
+39	molle	molle	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	43	punct	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	cucchiaiata	cucchiaiata	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	brodo	brodo	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+46	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

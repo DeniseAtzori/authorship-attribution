@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il terzo ricordo era un pacchetto di lettere, quaranta o cinquanta, forse:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pacchetto	pacchetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	quaranta	quaranta	NUM	N	NumType=Card	6	nummod	_	_
+11	o	o	CCONJ	CC	_	12	cc	_	_
+12	cinquanta	cinquanta	NUM	N	NumType=Card	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	forse	forse	ADV	B	_	6	advmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = molto minutamente scritte, con una calligrafia lieve e volante, che pareva riempisse di alucce il foglio.
+1	molto	molto	ADV	B	_	2	advmod	_	_
+2	minutamente	minuto	ADV	B	_	3	advmod	_	_
+3	scritte	scrivere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	calligrafia	calligrafia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	lieve	lieve	ADJ	A	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	volante	volante	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+14	riempisse	riempire	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	alucce	aluccia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	foglio	foglio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Portavano, tutte, solo la data del giorno, non l'anno, una firma:
+1	Portavano	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	solo	solo	ADV	B	_	7	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	data	data	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	anno	anno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	firma	firma	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = Eva.
+1	Eva	Eva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Chi era, dunque, costei?
+1	Chi	chi	PRON	PQ	PronType=Int	6	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	dunque	dunque	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	costei	coste	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Egli non lo aveva mai saputo.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

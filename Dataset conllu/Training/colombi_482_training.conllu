@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Oh! io ho un altro amore, rispose Odda prendendole il braccio e traendola in disparte.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Oh	oh	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	5	punct	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Odda	Odda	PROPN	SP	_	10	obj	_	_
+12-13	prendendole	_	_	_	_	_	_	_	_
+12	prendendo	prendere	VERB	V	VerbForm=Ger	10	advcl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17-18	traendola	_	_	_	_	_	_	_	_
+17	traendo	trarre	VERB	V	VerbForm=Ger	12	conj	_	_
+18	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	disparte	disparte	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Sposerò i miei pennelli.
+1	Sposerò	Sposare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	pennelli	pennello	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Finora furono sempre compiacenti con me, mi tennero buona compagnia, e la pace ha sempre regnato in famiglia.
+1	Finora	finora	ADV	B	_	4	advmod	_	_
+2	furono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	compiacenti	compiacere	ADJ	A	Number=Plur	0	root	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	expl	_	_
+9	tennero	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	buona	buono	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	_
+13	e	e	CCONJ	CC	_	18	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pace	pace	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	sempre	sempre	ADV	B	_	18	advmod	_	_
+18	regnato	regnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Il babbo lo diceva:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = «Impara l'arte e mettila da parte.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Impara	imparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	arte	arte	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	mettila	mettila	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = »
+1	»	»	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 7
+# text = Ora è venuto il momento di trarne profitto.
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	trarne	_	_	_	_	_	_	_	_
+7	trar	trarre	VERB	V	VerbForm=Inf	5	acl	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+9	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = È una fortuna che sia là da parte.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	là	là	ADV	B	_	3	acl:relcl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

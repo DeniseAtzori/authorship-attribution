@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per voi muoio, signora:
+1	Per	per	ADP	E	_	3	case	_	_
+2	voi	vo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	muoio	muoio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	signora	signore	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = morire per voi, significa morire per lui:
+1	morire	morire	VERB	V	VerbForm=Inf	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	morire	morire	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = voi siete lui.
+1	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+2	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = E le ultime torbide visioni di quest'ora terribile, queste visioni che mi fanno fremere di angoscia, di gelosia, di odio, mi mostrano sempre voi e lui, sempre insieme;
+1	E	e	CCONJ	CC	_	27	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	ultime	ultimo	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	_
+4	torbide	torbide	ADP	E	_	5	case	_	_
+5	visioni	visione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	quest'	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	terribile	terribile	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	visioni	visione	NOUN	S	Gender=Fem|Number=Plur	3	appos	_	_
+13	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	fremere	fremera	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	gelosia	gelosia	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	odio	odio	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	3	punct	_	_
+26	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+27	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	sempre	sempre	ADV	B	_	29	advmod	_	_
+29	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	27	obj	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	27	punct	_	_
+33	sempre	sempre	ADV	B	_	34	advmod	_	_
+34	insieme	insieme	ADV	B	_	27	advmod	_	SpaceAfter=No
+35	;	;	PUNCT	FC	_	27	punct	_	_
+
+# sent_id = 5
+# text = e le schernitrici visioni mi dicono che, morendo, io vi unisco più saldamente, che eravate amanti e che io vi rendo compiici.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	schernitrici	schernitrico	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+4	visioni	visione	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	13	mark	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	morendo	morire	VERB	V	VerbForm=Ger	13	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	13	iobj	_	_
+13	unisco	unire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	saldamente	saldamente	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+18	eravate	erare	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	amanti	amare	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	13	acl:relcl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	conj	_	_
+23	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	24	expl	_	_
+24	rendo	rendere	VERB	V	VerbForm=Ger	22	advcl	_	_
+25	compiici	compiico	ADJ	A	Gender=Masc|Number=Plur	24	xcomp	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Oh Dio, Dio, Dio, non avere scampo neppure nella morte!
+1	Oh	oh	INTJ	I	_	2	discourse	_	_
+2	Dio	dio	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Dio	dio	PROPN	SP	_	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	2	conj	_	_
+10	scampo	scampo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	neppure	neppure	ADV	BN	PronType=Neg	14	advmod	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	morte	morte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

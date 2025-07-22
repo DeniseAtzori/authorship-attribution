@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Amore, amor proprio, vanità, sincerità, non una cosa che non avesse la sua tortura, in quel tradimento.
+1	Amore	amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	amor	amorre	VERB	V	VerbForm=Inf	1	acl	_	_
+4	proprio	proprio	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	vanità	vanità	NOUN	S	Gender=Fem	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	sincerità	sincerità	NOUN	S	Gender=Fem	1	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	tradimento	tradimento	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Egli negò sempre, continuamente, anche innanzi alle prove: e la sua negazione che mi parve una sfrontatezza, irritò maggiormente il mio furore geloso.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	negò	negare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	continuamente	continuamente	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	innanzi	innanzi	ADV	B	_	2	advmod	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	prove	prova	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+13	e	e	CCONJ	CC	_	23	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	negazione	negazione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sfrontatezza	sfrontatezza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	16	punct	_	_
+23	irritò	irrite	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+24	maggiormente	maggiormente	ADV	B	_	23	advmod	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	furore	furore	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+28	geloso	geloso	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Compresi, più tardi, quanta tenerezza e quanto rispetto vi era in quella negazione del tradimento.
+1	Compresi	comprendere	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	tardi	tardi	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	quanta	quanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	7	det	_	_
+7	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	quanto	quanto	ADV	B	_	12	mark	_	_
+10	rispetto	rispetto	ADV	B	_	12	advmod	_	_
+11	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+12	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	negazione	negazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tradimento	tradimento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

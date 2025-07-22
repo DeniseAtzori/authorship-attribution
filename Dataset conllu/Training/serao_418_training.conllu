@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma spesso il fuoco era spento e Canituccia andava a dormire, ancora inzuppata dalla pioggia.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	spesso	spesso	ADV	B	_	6	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	spento	spegnere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	Canituccia	Canituccia	PROPN	SP	_	9	nsubj	_	_
+9	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	dormire	dormire	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	ancora	ancora	ADV	B	_	14	advmod	_	_
+14	inzuppata	inzuppare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	14	obl:agent	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = In quel mese di novembre, dissero in Ventaroli che Maria la _rossa_ era morta a Capua di una tifoidea, e il parroco, dopo la messa, aveva portato l’esempio nella predica, facendo arrossire Concetta di Raffaele Palmese e Nicoletta di Peppino Morra che avevano qualche rimorso sulla coscienza.
+1	In	in	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	mese	mese	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	dissero	dire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Ventaroli	Ventaroli	PROPN	SP	_	7	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+11	Maria	Maria	PROPN	SP	_	15	nsubj	_	_
+12	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	_rossa_	_rossa-	PUNCT	FB	_	11	punct	_	_
+14	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Capua	Capua	PROPN	SP	_	15	obl	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	tifoidea	tifoidea	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	parroco	parroco	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	dopo	dopo	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	messa	messa	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+31	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+34-35	nella	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	predica	predica	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	31	punct	_	_
+38	facendo	fare	VERB	V	VerbForm=Ger	31	advcl	_	_
+39	arrossire	arrossire	VERB	V	VerbForm=Inf	38	xcomp	_	_
+40	Concetta	Concetta	PROPN	SP	_	39	obj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	Raffaele	Raffaele	PROPN	SP	_	40	nmod	_	_
+43	Palmese	Palmese	PROPN	SP	_	42	flat:name	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	Nicoletta	Nicoletta	PROPN	SP	_	42	conj	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	Peppino	Peppino	PROPN	SP	_	45	nmod	_	_
+48	Morra	Morra	PROPN	SP	_	47	flat:name	_	_
+49	che	che	PRON	PR	PronType=Rel	50	nsubj	_	_
+50	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	40	acl:relcl	_	_
+51	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	52	det	_	_
+52	rimorso	rimorso	NOUN	S	Gender=Masc|Number=Sing	50	obj	_	_
+53-54	sulla	_	_	_	_	_	_	_	_
+53	su	su	ADP	E	_	55	case	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	52	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Dissero a Canituccia che la madre era morta, ma lei non capì nulla e stette ad ascoltare come una stupida.
+1	Dissero	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Canituccia	Canituccia	PROPN	SP	_	1	obl	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	madre	madre	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	capì	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+14	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	stette	stettere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+17	ad	a	ADP	E	_	18	mark	_	_
+18	ascoltare	ascoltare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	stupida	stupida	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

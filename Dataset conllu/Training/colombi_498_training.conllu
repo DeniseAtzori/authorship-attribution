@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Posava sul mio vaso la gabbia del canarino, e gli diceva molte cose graziose, molti vezzeggiativi, a cui il canarino rispondeva gorgheggiando.
+1	Posava	Posare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	sul	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	vaso	vaso	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gabbia	gabbia	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	canarino	canarino	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+15	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	graziose	grazioso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	vezzeggiativi	vezzeggiativo	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	26	obl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	canarino	canarino	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+26	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+27	gorgheggiando	gorgheggiare	VERB	V	VerbForm=Ger	26	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Allora erano grandi elogi, grandi ammirazioni pel suo canto e pe' suoi occhi innamorati;
+1	Allora	allora	ADV	B	_	4	advmod	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	grandi	grande	ADJ	A	Number=Plur	4	amod	_	_
+4	elogi	elogio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	grandi	grande	ADJ	A	Number=Plur	7	amod	_	_
+7	ammirazioni	ammirazione	NOUN	S	Gender=Fem|Number=Plur	4	appos	_	_
+8-9	pel	_	_	_	_	_	_	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	canto	canto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13-14	pe'	_	_	_	_	_	_	_	_
+13	pi	pio	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+17	innamorati	innamorato	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = ed io ero geloso.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	geloso	geloso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non de' suoi occhi, che per la bellezza non avevo nulla da invidiargli;
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2-3	de'	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+13	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	12	obj	_	_
+14	da	da	ADP	E	_	15	mark	_	_
+15-16	invidiargli	_	_	_	_	_	_	_	SpaceAfter=No
+15	invidiar	invidiare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+17	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = ma dei suoi gorgheggi.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	gorgheggi	gorgheggio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Oh come avrei voluto sciogliere anch'io una canzone a quella bella fanciulla!
+1	Oh	oh	INTJ	I	_	5	discourse	_	_
+2	come	come	ADV	B	_	5	advmod	_	_
+3	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
+5	sciogliere	sciogliere	VERB	V	VerbForm=Inf	0	root	_	_
+6	anch'	anche	ADV	B	_	7	advmod	_	SpaceAfter=No
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	nmod	_	_
+12	bella	bello	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --La tisi non perdona.
+1	--La	--La	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tisi	tisi	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	perdona	perdonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Io pure dovrò andarmene come i miei fratelli.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	pure	pure	ADV	B	_	4	advmod	_	_
+3	dovrò	dovere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4-6	andarmene	_	_	_	_	_	_	_	_
+4	andar	andare	VERB	V	VerbForm=Inf	0	root	_	_
+5	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+7	come	come	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Questo pensiero si formulò nel cervello di Marco come una verità accertata, indiscutibile.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	formulò	formulare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Marco	Marco	PROPN	SP	_	7	nmod	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	verità	verità	NOUN	S	Gender=Fem	7	nmod	_	_
+13	accertata	accertato	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	indiscutibile	indiscutibile	ADJ	A	Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Gli pareva impossibile di non averlo saputo prima.
+1	Gli	lo	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	pareva	parere	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	impossibile	impossibile	ADJ	A	Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	8	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6-7	averlo	_	_	_	_	_	_	_	_
+6	aver	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+9	prima	prima	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Era alto e sottile; era magro anzi.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	alto	alto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	sottile	sottile	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	magro	magro	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+8	anzi	anzi	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ecco perchè sua madre non gli aveva mai voluto parlare delle malattie de' suoi poveri morti.
+1	Ecco	ecco	ADV	B	_	7	advmod	_	_
+2	perchè	poiperché	SCONJ	CS	_	7	mark	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	madre	madre	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+7	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	mai	mai	ADV	B	_	7	advmod	_	_
+9	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux	_	_
+10	parlare	parlare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14-15	de'	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	morti	morto	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

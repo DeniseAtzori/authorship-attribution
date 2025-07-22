@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ma crede che, se avessi trovato un uomo come l'avrei voluto, non l'avrei preferito ai pennelli ed alla tavolozza?
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Ma	ma	CCONJ	CC	_	3	cc	_	_
+3	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	19	mark	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	19	punct	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	l'	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	14	iobj	_	SpaceAfter=No
+13	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	preferito	preferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+20-21	ai	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	pennelli	pennello	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	ed	e	CCONJ	CC	_	26	cc	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	tavolozza	tavolozza	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+27	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = E che il mio babbo non avrebbe approvata quella preferenza?
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	approvata	approvare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	preferenza	preferenza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Ma che!
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	che	che	ADV	B	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Le pare?
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	2	iobj	_	_
+2	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Il babbo ha voluto che imparassi un'arte, e se l'avessi preferito mi avrebbe fatto imparare una scienza, o tutt'altra cosa, unicamente per prepararmi una passione di ripiego.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	imparassi	imparare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	arte	arte	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	17	punct	_	_
+10	e	e	CCONJ	CC	_	17	cc	_	_
+11	se	se	SCONJ	CS	_	14	mark	_	_
+12	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+13	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	preferito	preferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+16	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+18	imparare	imparare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	o	o	CCONJ	CC	_	25	cc	_	_
+23	tutt'	tutto	ADP	E	_	25	case	_	SpaceAfter=No
+24	altra	altro	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	4	punct	_	_
+27	unicamente	unico	ADV	B	_	29	advmod	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	prepararmi	arma|prepararme	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	passione	passione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	ripiego	ripiego	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Egli diceva:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

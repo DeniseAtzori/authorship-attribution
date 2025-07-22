@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anche una curiosità mi venne e insieme un timore.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	curiosità	curiosità	NOUN	S	Gender=Fem	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	insieme	insieme	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	timore	timore	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Quale contegno avrebbe Egli tenuto d'ora in avanti?
+1	Quale	quale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	contegno	contegno	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	Egli	Egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	ora	ora	ADV	B	_	5	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	avanti	avanti	ADV	B	_	5	advmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Mi avrebbe chiesto scusa?
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	scusa	scusare	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Questo lo giudicavo indispensabile.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giudicavo	giudicavo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+4	indispensabile	indispensabile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Egli aveva mancato verso di me in tutti i modi, abusando della mia inesperienza, della mia solitudine e della mia fiducia in Lui.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	mancato	mancare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	verso	verso	ADP	E	_	6	case	_	_
+5	di	di	ADP	E	_	4	fixed	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	modi	modo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	abusando	abusare	VERB	V	VerbForm=Ger	3	advcl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	inesperienza	inesperienza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Era stato vile, era stato vile.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
+3	vile	vile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	vile	vile	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

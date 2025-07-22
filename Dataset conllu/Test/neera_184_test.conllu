@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La chiesa del nostro villaggio era piccolina e molto antica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	piccolina	piccolino	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	antica	antico	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Collocata sopra una altura, vi si accedeva per uno di quei sentieri scaglionati nella montagna, dove l'erba cresce tra sasso e sasso, che è così dolce salire lentamente nelle mattine bianche o nei pomeriggi soleggiati, colla pace nello spirito e la fede nel cuore.
+1	Collocata	Collocare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+2	sopra	sopra	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	altura	altura	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	accedeva	accedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	sentieri	sentiero	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	scaglionati	scaglionare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	dove	dove	ADV	B	_	22	advmod	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	erba	erba	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+23	tra	tra	ADP	E	_	24	case	_	_
+24	sasso	sasso	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	sasso	sasso	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+29	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	così	così	ADV	B	_	31	advmod	_	_
+31	dolce	dolce	ADJ	A	Number=Sing	24	acl:relcl	_	_
+32	salire	salire	VERB	V	VerbForm=Inf	31	csubj	_	_
+33	lentamente	lentamente	ADV	B	_	32	advmod	_	_
+34-35	nelle	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	mattine	mattina	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	_
+37	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+38	o	o	CCONJ	CC	_	41	cc	_	_
+39-40	nei	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	pomeriggi	pomeriggio	NOUN	S	Gender=Masc|Number=Plur	36	conj	_	_
+42	soleggiati	soleggiato	ADJ	A	Gender=Masc|Number=Plur	41	amod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	colla	colla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+45	pace	pace	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	_
+46-47	nello	_	_	_	_	_	_	_	_
+46	in	in	ADP	E	_	48	case	_	_
+47	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	_
+49	e	e	CCONJ	CC	_	51	cc	_	_
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	fede	fede	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+52-53	nel	_	_	_	_	_	_	_	_
+52	in	in	ADP	E	_	54	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

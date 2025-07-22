@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quella notte, solo nel letto in cui aveva sempre dormito col suo vecchio parente, ebbe dei sogni agitati.
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	notte	notte	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	solo	solo	ADV	B	_	7	advmod	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	letto	letto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	dormito	dormire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13-14	col	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	17	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	parente	parente	NOUN	S	Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	agitati	agitato	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 2
+# text = I vicini, dalla stanza accanto, lo udirono singhiozzare nel sonno, e la Margherita dichiarò che bisognava dargli sulla voce, perchè non avesse a far scene che finirebbero per farlo ammalare anche lui.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	vicini	vicino	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+7	accanto	accanto	ADV	B	_	10	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	udirono	udire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	singhiozzare	singhiozzare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Margherita	Margherita	PROPN	SP	_	19	nsubj	_	_
+19	dichiarò	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+20	che	che	SCONJ	CS	_	21	mark	_	_
+21	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	_	_
+22-23	dargli	_	_	_	_	_	_	_	_
+22	dar	darre	VERB	V	VerbForm=Inf	21	xcomp	_	_
+23	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	iobj	_	_
+24-25	sulla	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	voce	voce	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	22	punct	_	_
+28	perchè	perché	SCONJ	CS	_	30	mark	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	advcl	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32	far	fare	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	scene	scena	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+34	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+35	finirebbero	finire	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+36	per	per	ADP	E	_	37	mark	_	_
+37-38	farlo	_	_	_	_	_	_	_	_
+37	far	fare	VERB	V	VerbForm=Inf	35	advcl	_	_
+38	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
+39	ammalare	ammalare	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	anche	anche	ADV	B	_	41	advmod	_	_
+41	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

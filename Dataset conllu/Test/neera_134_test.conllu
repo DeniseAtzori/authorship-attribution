@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poco dopo tutta la casa era buia, tutti gli usci e le finestre chiuse, il silenzio profondo.
+1	Poco	poco	ADV	B	_	7	advmod	_	_
+2	dopo	dopo	ADP	E	_	5	case	_	_
+3	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	buia	buio	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	usci	usce	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+15	chiuse	chiuso	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	11	appos	_	_
+19	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Cogli occhi sbarrati nella oscurità io mi domandavo ancora:
+1-2	Cogli	_	_	_	_	_	_	_	_
+1	Con	con	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+4	sbarrati	sbarrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	oscurità	oscurità	NOUN	S	Gender=Fem	4	obl	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+10	domandavo	domandare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	ancora	ancora	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 3
+# text = Perchè non è venuto?
+1	Perchè	perché	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = e di tutti i sentimenti provati in quelle ventiquattr'ore;
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	provati	provato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	6	obl	_	_
+9	ventiquattr'	ventiquattr'	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+10	ore	ora	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = lo sdegno, la vergogna, la pietà, il perdono, il rimorso, la tristezza, quest'ultima sola rimase dilagante, sconfinata.
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pietà	pietà	NOUN	S	Gender=Fem	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	perdono	perdono	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	rimorso	rimorso	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	quest'	questo	DET	DD	Number=Sing|PronType=Dem	22	det	_	SpaceAfter=No
+20	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	22	amod	_	_
+21	sola	solo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	rimase	rimanere	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+23	dilagante	dilagante	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	sconfinata	sconfinato	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

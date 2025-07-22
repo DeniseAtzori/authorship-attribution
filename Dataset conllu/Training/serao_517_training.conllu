@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cesare si faceva serio per un istante e la fissava, come diffidente.
+1	Cesare	Cesare	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	serio	serio	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	istante	istante	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fissava	fissare	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	diffidente	diffidente	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma vedeva negli occhi di Flavia tanta umile curiosità, tanto interesse affettuoso, che il suo sospetto si dileguava.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	negli	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Flavia	Flavia	PROPN	SP	_	5	nmod	_	_
+8	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+9	umile	umile	ADJ	A	Number=Sing	10	amod	_	_
+10	curiosità	curiosità	NOUN	S	Gender=Fem	2	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	tanto	tanto	ADV	B	_	13	advmod	_	_
+13	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+14	affettuoso	affettuoso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	che	che	SCONJ	CS	_	21	mark	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	dileguava	dileguare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Allora, col suo sorriso orgoglioso di padre felice, egli le parlava del suo bimbo, che si chiamava Paolo come il nonno, che non voleva essere più chiamato _bebè_, perchè era grande, perchè aveva dieci anni.
+1	Allora	allora	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	col	_	_	_	_	_	_	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+7	orgoglioso	orgoglioso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	padre	padre	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	felice	felice	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+23	Paolo	Paolo	PROPN	SP	_	22	xcomp	_	_
+24	come	come	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	33	nsubj:pass	_	_
+29	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+30	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+31	essere	essere	AUX	VA	VerbForm=Inf	33	aux:pass	_	_
+32	più	più	ADV	B	_	33	advmod	_	_
+33	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+34	_bebè_	_bebè-	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	14	punct	_	_
+36	perchè	perché	SCONJ	CS	_	38	mark	_	_
+37	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	cop	_	_
+38	grande	grande	ADJ	A	Number=Sing	14	advcl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	14	punct	_	_
+40	perchè	perché	SCONJ	CS	_	41	mark	_	_
+41	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+42	dieci	dieci	NUM	N	NumType=Card	43	nummod	_	_
+43	anni	anno	NOUN	S	Gender=Masc|Number=Plur	41	obj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

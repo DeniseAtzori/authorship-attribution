@@ -1,0 +1,156 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In quella giornata di domenica, la bimba si sentiva morire.
+1	In	in	ADP	E	_	3	case	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	morire	morire	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Ogni tanto le mancavano le forze e si sedeva per terra.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	tanto	tanto	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	mancavano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	forze	forza	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	sedeva	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	terra	terra	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Le botteghe erano chiuse, i viandanti frettolosi non le davano retta, dirigendosi tutti alle strade superiori, scomparendo _lassù_:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	botteghe	bottega	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	chiuse	chiuso	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	viandanti	viandante	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+8	frettolosi	frettoloso	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+12	retta	retta	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14-15	dirigendosi	_	_	_	_	_	_	_	_
+14	dirigendo	dirigere	VERB	V	VerbForm=Ger	11	advcl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	14	obj	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	strade	strada	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+20	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	4	punct	_	_
+22	scomparendo	scomparire	VERB	V	VerbForm=Ger	4	advcl	_	_
+23	_lassù_	_lassù-	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = ella li seguiva macchinalmente, con lo sguardo.
+1	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+3	seguiva	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	macchinalmente	macchinalmente	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Entrò nella chiesa di Portanova.
+1	Entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Portanova	Portanova	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = La chiesa era vuota, le parve immensa e paurosa; ebbe una sensazione di freddo, co’ suoi piedini nudi sul marmo;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	parve	parva	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+8	immensa	immenso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	paurosa	paurosa	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	12	punct	_	_
+12	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	co’	coo	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+19	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	piedini	piedine	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+21	nudi	nudo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	marmo	marmo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = il sagrestano l’acchiappò e la mise fuori.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sagrestano	sagrestare	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	l’	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	acchiappò	acchiappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	fuori	fuori	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ella riprese la sua corsa nelle strade spopolate:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	riprese	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	nelle	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	strade	strada	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+9	spopolate	spopolato	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 9
+# text = si vide sola, disperata.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sola	solo	ADJ	A	Gender=Fem|Number=Sing	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	disperata	disperare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Tutti erano andati _lassù_.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	_lassù_	_lassù-	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

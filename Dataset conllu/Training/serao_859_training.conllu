@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli non rispose, nè prima, nè dopo, sentendo la crescente crudeltà di quel dialogo.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	nè	nè	CCONJ	CC	_	6	cc	_	_
+6	prima	prima	ADV	B	_	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	nè	nè	CCONJ	CC	_	11	cc	_	_
+9	dopo	dopo	ADP	E	_	11	case	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	sentendo	sentire	VERB	V	VerbForm=Ger	3	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	crescente	crescente	ADJ	A	Number=Sing	14	amod	_	_
+14	crudeltà	crudeltà	NOUN	S	Gender=Fem	11	obj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Non rispose e volse il capo altrove.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	volse	volgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	capo	capo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	altrove	altrove	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Allora ella, con l'aria di una persona perfettamente convinta, guardò un'altra volta le sue ultime violette e con un atto risoluto, le buttò in laguna, tutte.
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	aria	aria	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	persona	persona	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	perfettamente	perfetto	ADV	B	_	11	advmod	_	_
+11	convinta	convinto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	altra	altro	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	volta	volta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+18	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+19	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	20	amod	_	_
+20	violette	violetta	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	atto	atto	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+25	risoluto	risoluto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+28	buttò	buttare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	laguna	laguna	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	13	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Ostinatamente, per nascondere il rivolgimento del suo spirito, egli guardava dall'altra parte;
+1	Ostinatamente	Ostinatamente	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	nascondere	nascondere	VERB	V	VerbForm=Inf	13	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rivolgimento	rivolgimento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14-15	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+14	da	da	ADP	E	_	17	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+16	altra	altro	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 5
+# text = e anch'essa si mise a fissare un punto qualunque dell'orizzonte.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	anch'	anche	ADV	B	_	3	advmod	_	SpaceAfter=No
+3	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	fissare	fissare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	punto	punto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	qualunque	qualunque	ADJ	A	Number=Sing	9	amod	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	orizzonte	orizzonte	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

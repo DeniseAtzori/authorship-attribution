@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Moltissimo--mi rispose premurosamente.
+1	--Moltissimo	--Moltissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	-mi	-mo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	premurosamente	premurosamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = --Non potete credere come sia rapida in me la successione delle idee.
+1	--Non	--Non	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	potete	potere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	credere	credere	VERB	V	VerbForm=Inf	0	root	_	_
+4	come	come	SCONJ	CS	_	6	mark	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	rapida	rapidare	ADJ	A	Gender=Fem|Number=Sing	3	advcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	successione	successione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	idee	idea	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Io penso ora ad una quantità di cose alle quali voi non avete mai pensato.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ora	ora	ADV	B	_	2	advmod	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	quantità	quantità	NOUN	S	Gender=Fem	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	quali	quale	PRON	PR	Number=Plur|PronType=Rel	16	obl	_	_
+12	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	16	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	mai	mai	ADV	B	_	16	advmod	_	_
+16	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Vi sono delle catene d'amore tristi e terribili, dolorosi avvicendamenti di passione e di sdegno, di fiamma e di gelo.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	catene	catena	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	tristi	triste	ADJ	A	Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	terribili	terribili	ADJ	A	Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	dolorosi	doloroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	avvicendamenti	avvicendamento	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	passione	passione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	fiamma	fiamma	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	gelo	gelo	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Mi pare qualche volta di vedervi un occulto giudizio, un castigo che si riverbera di persona in persona per qualche colpa comune che tutti debbono scontare.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	vedervi	_	_	_	_	_	_	_	_
+6	veder	vedere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	vi	vi	ADV	B	_	6	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	occulto	occulto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	castigo	castigo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	riverbera	riverberare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	persona	persona	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	persona	persona	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+24	comune	comune	ADJ	A	Number=Sing	23	amod	_	_
+25	che	che	PRON	PR	PronType=Rel	28	obj	_	_
+26	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	28	nsubj	_	_
+27	debbono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	scontare	scontare	VERB	V	VerbForm=Inf	23	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

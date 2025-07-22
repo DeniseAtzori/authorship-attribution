@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vincenzo non amava il latino.
+1	Vincenzo	Vincenzo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	latino	latino	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Quella lingua morta non voleva entrargli nella testa.
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	morta	morto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6-7	entrargli	_	_	_	_	_	_	_	_
+6	entrar	entrare	VERB	V	VerbForm=Inf	0	root	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	testa	testa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Appena usciva di classe sentiva il bisogno di darsi movimento, di gridare, di reagire in tutti i modi a quella quiete opprimente.
+1	Appena	appena	ADV	B	_	2	advmod	_	_
+2	usciva	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	classe	classe	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	csubj	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	darsi	_	_	_	_	_	_	_	_
+9	dar	dare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	gridare	gridare	VERB	V	VerbForm=Inf	9	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	reagire	reagire	VERB	V	VerbForm=Inf	14	xcomp	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	21	det:predet	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	modi	modo	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	24	obl	_	_
+24	quiete	quieto	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+25	opprimente	opprimente	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = L'idea del cómpito lo crucciava, ed egli rimandava a più tardi l'ingrato dovere; e quando per forza ci si metteva, aveva tardato tanto che non c'era più tempo per tutto, e lasciava indietro il lavoro latino, il più lungo e difficile.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cómpito	cómpito	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	crucciava	crucciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	_
+10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	rimandava	rimandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	tardi	tardi	ADV	B	_	11	advmod	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	ingrato	ingrato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	7	punct	_	_
+19	e	e	CCONJ	CC	_	28	cc	_	_
+20	quando	quando	SCONJ	CS	_	25	mark	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	forza	forza	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	25	expl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl:impers	_	_
+25	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	tardato	tardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+29	tanto	tanto	ADV	B	_	28	advmod	_	_
+30	che	che	SCONJ	CS	_	33	mark	_	_
+31	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+32	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	33	expl	_	SpaceAfter=No
+33	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	ccomp	_	_
+34	più	più	ADV	B	_	33	advmod	_	_
+35	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	lasciava	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	conj	_	_
+41	indietro	indietro	ADV	B	_	40	advmod	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	_
+44	latino	latino	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	28	punct	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	più	più	ADV	B	_	48	advmod	_	_
+48	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	28	obl	_	_
+49	e	e	CCONJ	CC	_	50	cc	_	_
+50	difficile	difficile	ADJ	A	Number=Sing	48	conj	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

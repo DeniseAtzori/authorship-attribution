@@ -1,0 +1,157 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lagnarmene!
+1-3	Lagnarmene	_	_	_	_	_	_	_	SpaceAfter=No
+1	Lagnar	Lagnare	VERB	V	VerbForm=Inf	0	root	_	_
+2	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	1	iobj	_	_
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Io!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Il suo profumo m'inebbriava;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No
+5	inebbriava	inebbriare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = il suo sguardo attraeva il mio;
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	attraeva	attraere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mio	mio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = un senso ignoto di dolcezza m'inondava il calice.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senso	senso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	ignoto	ignoto	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	SpaceAfter=No
+7	inondava	inondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	calice	calice	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Avrei voluto possedere la bellezza della camelia, il profumo della vaniglia; mi sentivo umile, bruna, piccina;
+1	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	possedere	possedere	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	camelia	camelia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vaniglia	vaniglia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	17	punct	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	expl	_	_
+17	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+18	umile	umile	ADJ	A	Number=Sing	17	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	bruna	bruna	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	piccina	piccino	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = ed una stilla trasparente bagnò il velluto delle mie foglie.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	stilla	stilla	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	trasparente	trasparente	ADJ	A	Number=Sing	3	amod	_	_
+5	bagnò	bagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	velluto	velluto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	foglie	foglia	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Gli uomini la credettero rugiada, ma il Tulipano vide che era una lagrima.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	credettero	credettero	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	rugiada	rugiada	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Tulipano	Tulipano	PROPN	SP	_	10	nsubj	_	_
+10	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	che	che	SCONJ	CS	_	14	mark	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	lagrima	lagrima	NOUN	S	Gender=Fem|Number=Sing	10	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = In quel punto passò un soffio di vento.
+1	In	in	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	soffio	soffio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	vento	vento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Egli vi si piegò sotto, si lasciò spingere, ed il fulvo de' suoi lunghi petali sfiorò il fulvo de' miei, mentre tornava ad olezzare dolcemente.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	piegò	piegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	sotto	sotto	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	spingere	spingere	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ed	e	CCONJ	CC	_	13	cc	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fulvo	fulvo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+14-15	de'	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	lunghi	lungo	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	petali	petale	ADJ	A	Number=Plur	17	amod	_	_
+19	sfiorò	sfiorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	fulvo	fulvo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	de'	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	mentre	mentre	SCONJ	CS	_	27	mark	_	_
+27	tornava	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+28	ad	a	ADP	E	_	29	mark	_	_
+29	olezzare	olezzare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	dolcemente	dolcemente	ADV	B	_	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

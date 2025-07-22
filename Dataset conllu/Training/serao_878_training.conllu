@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era il solo che aveva intravveduto la loro passione:
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	solo	solo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	intravveduto	intravvedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	passione	passione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = e trovandoli colà non mostrò nè meraviglia nè freddezza.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2-3	trovandoli	_	_	_	_	_	_	_	_
+2	trovando	trovare	VERB	V	VerbForm=Ger	6	advcl	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	colà	colà	ADV	B	_	2	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	mostrò	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	nè	nè	CCONJ	CC	_	8	cc	_	_
+8	meraviglia	meraviglia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	nè	nè	CCONJ	CC	_	10	cc	_	_
+10	freddezza	freddezza	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Per una stranezza Grazia e Ferrante oppressi dalla solitudine e dalle loro segrete torture morali, per quanto prima avevano odiato ogni contatto umano, per tanto in quel giorno furono contenti di trovare quell'amico, quel terzo.
+1	Per	per	ADP	E	_	3	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	stranezza	stranezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	Grazia	grazia	PROPN	SP	_	3	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Ferrante	Ferrante	PROPN	SP	_	3	conj	_	_
+7	oppressi	opprettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12-13	dalle	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	16	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	segrete	segrete	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	torture	tortura	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+17	morali	morale	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	3	nmod	_	_
+21	prima	prima	ADV	B	_	23	advmod	_	_
+22	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	odiato	odiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	advcl	_	_
+24	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	25	det	_	_
+25	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	umano	umano	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	23	punct	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	tanto	tanto	ADV	B	_	34	advmod	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+33	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	34	cop	_	_
+34	contenti	contento	ADJ	A	Number=Plur	20	acl:relcl	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	trovare	trovare	VERB	V	VerbForm=Inf	34	advcl	_	_
+37	quell'	quello	DET	DD	Number=Sing|PronType=Dem	38	det	_	SpaceAfter=No
+38	amico	amico	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	3	punct	_	_
+40	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	41	det	_	_
+41	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

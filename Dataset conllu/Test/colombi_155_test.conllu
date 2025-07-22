@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «La cosa mi giustificava completamente.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	giustificava	giustificare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	completamente	completamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Nessun codice a questo mondo può esigere che una donna conservi il suo sangue freddo dinanzi a un sorcio.
+1	Nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	codice	codice	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	esigere	esigere	VERB	V	VerbForm=Inf	0	root	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	conservi	conservare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	dinanzi	dinanzi	ADV	B	_	19	case	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sorcio	sorcio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = La cameriera, meno riguardosa di me, perdette ogni contegno al solo nome dell'inoffensivo animale e si pose a strillare come una pazza.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cameriera	cameriera	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	meno	meno	ADV	B	_	5	advmod	_	_
+5	riguardosa	riguardoso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	perdette	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	contegno	contegno	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	solo	solo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	nome	nome	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	inoffensivo	inoffensivo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	animale	animale	ADJ	A	Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	strillare	strillare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	come	come	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Tutti i forestieri si affacciarono alle loro porte, tutti si diedero a cercare eroicamente quel sorcio di fantasia.
+1	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	forestieri	forestiere	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	affacciarono	affacciarere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	porte	porta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	diedero	diederare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	cercare	cercare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	eroicamente	eroico	ADV	B	_	15	advmod	_	_
+17	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	sorcio	sorcio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Anche il nuovo arrivato dal pastrano bigio uscì nel corridoio.
+1	Anche	anche	ADV	B	_	9	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+3	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+4	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	pastrano	pastrano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	bigio	bigio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+9	uscì	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	corridoio	corridoio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Non era Max.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	Max	Max	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'eccesso della sua felicità gli pesava sulla coscienza come un rimorso.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	felicità	felicità	NOUN	S	Gender=Fem	2	nmod	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	pesava	pesare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	come	come	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	rimorso	rimorso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Sentiva di doverla rivelare all'amico;
+1	Sentiva	sentiva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	5	mark	_	_
+3-4	doverla	_	_	_	_	_	_	_	_
+3	dover	dovere	AUX	VM	VerbForm=Inf	5	aux	_	_
+4	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	rivelare	rivelare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	amico	amico	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = l'aveva attinta nella sua casa, gli era venuta da lui, ed aveva potuto fargliene un segreto!
+1	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	attinta	attingere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ed	e	CCONJ	CC	_	18	cc	_	_
+16	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+17	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux	_	_
+18-20	fargliene	_	_	_	_	_	_	_	_
+18	far	fare	VERB	V	VerbForm=Inf	11	conj	_	_
+19	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	iobj	_	_
+20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+23	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Alla sua fantasia indebolita questo sembrava un atto di mala fede, una colpa.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	indebolita	indebolito	ADJ	A	Number=Sing	4	amod	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+7	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	atto	atto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	mala	malo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	fede	fede	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Vincenzo si avvicinò, cupo, senza parlare, e l'ammalato gli disse:
+1	Vincenzo	Vincenzo	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	avvicinò	avvicinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	cupo	cupo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	senza	senza	ADP	E	_	8	mark	_	_
+8	parlare	parlare	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ammalato	ammalato	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	SpacesAfter=\n
+

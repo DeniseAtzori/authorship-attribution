@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E dietro la singolarità di questi occhi, che a volte sembrano quelli di una andalusa vivace, a volte quelli di un arabo ravvolto nel _burnous_, vi è un bizzarro temperamento di fanciullo.
+1	E	e	CCONJ	CC	_	31	cc	_	_
+2	dietro	dietro	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	singolarità	singolarità	NOUN	S	Gender=Fem	31	nsubj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	volte	volta	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+12	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+13	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	12	obj	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	andalusa	andalusa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	vivace	vivace	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	volte	volte	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+21	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	13	appos	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	arabo	arabo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	ravvolto	ravvogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	_burnous_	ExtraSubj=Yes|_burnous_	ADJ	NO	NumType=Ord	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	4	punct	_	_
+30	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	31	expl	_	_
+31	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	bizzarro	bizzarro	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	temperamento	temperamento	NOUN	S	Gender=Masc|Number=Sing	31	nsubj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 2
+# text = Egli non vuole essere baciato:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	baciato	baciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = non bacia mai.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	bacia	baciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mai	mai	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Se gli parlate come a un bambino, egli vi guarda serio serio, volta le spalle e se ne va.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	parlate	parlare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	advcl	_	_
+4	come	come	ADP	E	_	7	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	serio	serio	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+13	serio	serio	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	volta	voltare	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	_
+21	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

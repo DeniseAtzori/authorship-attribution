@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutta la sua passione, tutta la sua dedizione erano vane.
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	4	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	passione	passione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	9	det:predet	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	dedizione	dedizione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+10	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	vane	vano	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = L’estasi amorosa le poteva far credere in certi istanti di formare un’anima sola, ma non era vero.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2-3	estasi	_	_	_	_	_	_	_	_
+2	esta	esta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	amorosa	amoroso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+6	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	far	fare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+8	credere	credere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	istanti	istante	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	formare	formare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	anima	anima	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	sola	solo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	ma	ma	CCONJ	CC	_	21	cc	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+21	vero	vero	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Le loro anime restavano due anche nei momenti della maggiore intimità come erano due i loro corpi per quanto un disperato amplesso li avvincesse in questo desiderio supremo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	anime	anima	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	restavano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	due	due	NUM	N	NumType=Card	4	obj	_	_
+6	anche	anche	ADV	B	_	9	advmod	_	_
+7-8	nei	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	13	amod	_	_
+13	intimità	intimità	NOUN	S	Gender=Fem	9	nmod	_	_
+14	come	come	SCONJ	CS	_	19	mark	_	_
+15	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+16	due	due	NUM	N	NumType=Card	19	nummod	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	corpi	corpo	NOUN	S	Gender=Masc|Number=Plur	4	advcl	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	19	nmod	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	amplesso	amplesso	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+25	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	obj	_	_
+26	avvincesse	avvincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	supremo	supremo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

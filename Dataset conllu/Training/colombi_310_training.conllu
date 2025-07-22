@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che cosa mi diceva?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Non lo seppi mai.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	seppi	seppo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	mai	mai	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = — Era andata a seppellirsi nelle onde coi suggelli intatti, portando il suo segreto nella tomba, come si dice nei romanzi a tinte scure.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	seppellirsi	_	_	_	_	_	_	_	_
+5	seppellir	seppellire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7-8	nelle	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	onde	onda	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10-11	coi	_	_	_	_	_	_	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	suggelli	suggello	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+13	intatti	intatto	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	portando	portare	VERB	V	VerbForm=Ger	3	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19-20	nella	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	come	come	SCONJ	CS	_	25	mark	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl:impers	_	_
+25	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+26-27	nei	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	tinte	tinta	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+31	scure	scuro	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Se era in versi l'avranno letta le ondine, se era in prosa gli agoni del lago, che piacciono tanto ai buongustai di Milano.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	versi	verso	NOUN	S	Gender=Masc|Number=Plur	7	advcl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	avranno	avranno	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	letta	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	ondine	ondine	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	se	se	SCONJ	CS	_	14	mark	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	prosa	prosa	NOUN	S	Gender=Fem|Number=Sing	7	advcl	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	agoni	agone	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	lago	lago	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	piacciono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23	tanto	tanto	ADV	B	_	22	advmod	_	_
+24-25	ai	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	buongustai	buongustaio	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Milano	Milano	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

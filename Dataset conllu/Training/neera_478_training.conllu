@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma chi era l'uomo che aveva osato mettersi di fronte a Gentile Lamberti?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	chi	chi	PRON	PQ	PronType=Int	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	osato	osare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9-10	mettersi	_	_	_	_	_	_	_	_
+9	metter	mettere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fronte	fronte	NOUN	S	Number=Sing	9	obl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Gentile	gentile	PROPN	SP	_	9	obl	_	_
+15	Lamberti	Lamberti	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = l'uomo freddo che aveva abbandonata la donna amata alla vigilia di diventar madre?
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	abbandonata	abbandonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vigilia	vigilia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	diventar	diventare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	madre	madre	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = l'uomo calcolatore che misurava odiosamente in una lettera di amore le parole e le espressioni?
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	calcolatore	calcolatore	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	misurava	misurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	odiosamente	odiosamente	ADV	B	_	5	advmod	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	amore	amore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	parole	parola	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	espressioni	espressione	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Anna si provò a rievocare le persone che frequentavano la casa dieci anni prima e tornò a guardare le confuse iniziali del suggello, ma non resistette all'indagine.
+1	Anna	Anna	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	provò	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	rievocare	rievocare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	frequentavano	frequentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	dieci	dieci	NUM	N	NumType=Card	13	nummod	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	prima	prima	ADV	B	_	9	advmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	guardare	guardare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	confuse	confuso	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	iniziali	iniziale	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	suggello	suggello	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	ma	ma	CCONJ	CC	_	28	cc	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	resistette	resistere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	conj	_	_
+29-30	all'	_	_	_	_	_	_	_	SpaceAfter=No
+29	a	a	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

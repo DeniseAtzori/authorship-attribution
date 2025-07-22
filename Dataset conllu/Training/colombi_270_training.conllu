@@ -1,0 +1,134 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per buona sorte, il sacerdote era un uomo rigido, che biasimava i giuramenti audaci, e tutto quanto tendeva al fanatismo.
+1	Per	per	ADP	E	_	3	case	_	_
+2	buona	buono	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sacerdote	sacerdote	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	rigido	rigido	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	biasimava	biasimare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	giuramenti	giuramento	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	audaci	audaco	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	nsubj	_	_
+20	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	9	conj	_	_
+21	tendeva	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fanatismo	fanatismo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Le rimproverò quell'atto che non considerò come religioso;
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	rimproverò	rimproverare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	quell'	quello	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+4	atto	atto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	considerò	considerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	religioso	religioso	ADJ	A	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = le disse che doveva parlare in omaggio alla verità, se credeva che la sua rivelazione potesse salvare la vita e provare l'innocenza di Seth.
+1	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	parlare	parlare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	verità	verità	NOUN	S	Gender=Fem	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	se	se	SCONJ	CS	_	13	mark	_	_
+13	credeva	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+14	che	che	SCONJ	CS	_	19	mark	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	rivelazione	rivelazione	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+18	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	salvare	salvare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	provare	provare	VERB	V	VerbForm=Inf	19	conj	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	innocenza	innocenza	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Seth	Seth	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Le rimproverò pure la sua ostinazione a credere che uno spirito le avesse parlato;
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	rimproverò	rimproverare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	pure	pure	ADV	B	_	6	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	ostinazione	ostinazione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	credere	credere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+13	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = era superstizione ed orgoglio.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	superstizione	superstizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	ed	e	CCONJ	CC	_	4	cc	_	_
+4	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Come poteva supporsi tanto privilegiata da Dio, perchè s'avesse a rinnovare per lui un miracolo che appena era avvenuto per i più grandi profeti?
+1	Come	come	SCONJ	CS	_	3	mark	_	_
+2	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3-4	supporsi	_	_	_	_	_	_	_	_
+3	suppor	supporre	VERB	V	VerbForm=Inf	0	root	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	tanto	tanto	ADV	B	_	6	advmod	_	_
+6	privilegiata	privilegiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Dio	dio	PROPN	SP	_	6	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	perchè	perché	SCONJ	CS	_	12	mark	_	_
+11	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	SpaceAfter=No
+12	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	rinnovare	rinnovare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	miracolo	miracolo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	appena	appena	ADV	B	_	22	advmod	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	per	per	ADP	E	_	27	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	grandi	grande	ADJ	A	Number=Plur	27	amod	_	_
+27	profeti	profeto	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+28	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

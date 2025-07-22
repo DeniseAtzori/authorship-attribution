@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Allora provavo il bisogno di accertarmi della sua esistenza.
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	provavo	provavare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	accertarmi	_	_	_	_	_	_	_	_
+6	accertar	accertare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Nè volevo parlare per non rompere l'incanto:
+1	Nè	né	ADV	B	_	3	advmod	_	_
+2	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+4	per	per	ADP	E	_	6	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	rompere	rompere	VERB	V	VerbForm=Inf	3	advcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	incanto	incanto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = e mi passavo la sinistra mano dietro il dorso, e colla punta delle dita sfiorava il gomito del suo braccio che posava sul mio.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	passavo	passare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	mano	mano	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	_
+7	dietro	dietro	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dorso	dorso	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	punta	punta	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	dita	dito	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	sfiorava	sfiorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	gomito	gomito	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	posava	posare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	_
+26-27	sul	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	mio	mio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Se aveva le maniche serrate ai polsi, le mie dita non incontravano che la stoffa dell'abito, ed ella non s'avvedeva di nulla.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	maniche	manica	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	serrate	serrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	polsi	polso	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	dita	dito	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	incontravano	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	che	che	SCONJ	CS	_	26	mark	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	abito	abito	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	26	punct	_	_
+22	ed	e	CCONJ	CC	_	26	cc	_	_
+23	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+24	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+25	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	SpaceAfter=No
+26	avvedeva	avvedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	ccomp	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

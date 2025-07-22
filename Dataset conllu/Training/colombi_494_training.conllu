@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fui sottoposto ad un'operazione dolorosa.
+1	Fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	sottoposto	sottoporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	ad	a	ADP	E	_	5	case	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	dolorosa	doloroso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Mi si schiacciò con un sasso l'estremità del gambo;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	schiacciò	schiacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sasso	sasso	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	estremità	estremità	NOUN	S	Gender=Fem	6	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	gambo	gambo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = mi fu ravvolto intorno alla parte schiacciata qualche cosa come dei fili, poi fui piantato in terra.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	ravvolto	ravvogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	intorno	intorno	ADV	B	_	7	case	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	schiacciata	schiacciare	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+11	come	come	ADP	E	_	14	case	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	fili	filo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	poi	poi	ADV	B	_	18	advmod	_	_
+17	fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	piantato	piantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	terra	terra	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ma tutto codesto era fatto con garbo infinito, da due manine minuscole e liscie, ed io pensavo nel mio dolore, che molti ammalati avrebbero voluto esser guariti a quel modo.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	codesto	codesto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	garbo	garbo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	infinito	infinito	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	manine	manina	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+13	minuscole	minuscolo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	liscie	liscio	ADJ	A	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	ed	e	CCONJ	CC	_	19	cc	_	_
+18	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	5	punct	_	_
+25	che	che	SCONJ	CS	_	31	mark	_	_
+26	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	27	det	_	_
+27	ammalati	ammalare	NOUN	S	Gender=Masc|Number=Plur	31	nsubj	_	_
+28	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+29	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	aux	_	_
+30	esser	essere	AUX	VA	VerbForm=Inf	31	aux	_	_
+31	guariti	guarito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_
+34	modo	modo	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

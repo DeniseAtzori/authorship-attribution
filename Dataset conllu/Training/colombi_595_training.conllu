@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Chi lo sa?
+1	--Chi	--Chi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = È il nostro male di famiglia;
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	male	male	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = ne portiamo il germe nascendo...
+1	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	portiamo	portare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	germe	germa	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	nascendo..	nascendo	NOUN	S	_	4	compound	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ma questo non importa, soggiunse Marco sedendo accanto alla signora Bellazio, che a quel discorso era caduta sulla sedia in una profonda desolazione.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	soggiunse	soggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+7	Marco	Marco	PROPN	SP	_	6	obj	_	_
+8	sedendo	sedere	VERB	V	VerbForm=Ger	6	advcl	_	_
+9	accanto	accanto	ADV	B	_	12	case	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	signora	signore	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	Bellazio	Bellazio	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+19	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	caduta	cadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+21-22	sulla	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	in	in	ADP	E	_	27	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	desolazione	desolazione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Non importa ch'io viva qualche anno più o meno.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ch'	perché	SCONJ	CS	_	5	mark	_	SpaceAfter=No
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	viva	vivo	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	più	più	ADV	B	_	7	advmod	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	meno	meno	ADV	B	_	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Quello che mi affligge è di non averci pensato, avanti di contrarre un'impegno colla Maria...
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	affligge	affliggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+6	di	di	ADP	E	_	10	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8-9	averci	_	_	_	_	_	_	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	10	aux	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	avanti	avanti	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	contrarre	contrarre	VERB	V	VerbForm=Inf	10	advcl	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	colla	colla	NOUN	S	Gender=Fem|Number=Sing	16	compound	_	_
+18	Maria..	Maria..	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Io non ho diritto di prender moglie per trasmettere ai figli la disgrazia che ha colpiti tutti noi...
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	prender	prendere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	trasmettere	trasmettere	VERB	V	VerbForm=Inf	6	advcl	_	_
+10-11	ai	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	disgrazia	disgrazia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	colpiti	colpire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+18	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	19	det	_	_
+19	noi..	noi	NOUN	S	_	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Tutta notte vegliai, angosciata dalla paura di non destarmi abbastanza presto per essere in ordine a quell'ora mattutina.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	vegliai	vegliai	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	angosciata	angosciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	paura	paura	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12-13	destarmi	_	_	_	_	_	_	_	_
+12	destar	destare	VERB	V	VerbForm=Inf	9	acl	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	abbastanza	abbastanza	ADV	B	_	12	advmod	_	_
+15	presto	presto	ADV	B	_	12	advmod	_	_
+16	per	per	ADP	E	_	19	mark	_	_
+17	essere	essere	AUX	V	VerbForm=Inf	19	cop	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	12	advcl	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	quell'	quello	DET	DD	Number=Sing|PronType=Dem	22	det	_	SpaceAfter=No
+22	ora	ora	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	mattutina	mattutino	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Alle sei mi alzai senz'aver chiuso un occhio.
+1-2	Alle	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	sei	sei	NUM	N	NumType=Card	5	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	alzai	alzai	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	senz'	senza	ADP	E	_	8	mark	_	SpaceAfter=No
+7	aver	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Alle sette ero vestita per ricevere.
+1-2	Alle	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	sette	sette	NUM	N	NumType=Card	5	obl	_	_
+4	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	ricevere	ricevere	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Con un'ora dinanzi a me, guardai trenta volte l'orologio e feci dei calcoli infinitesimali, per persuadermi che avevo il tempo di prendere il caffè prima che Max venisse.
+1	Con	con	ADP	E	_	3	case	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4	dinanzi	dinanzi	ADV	B	_	6	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	guardai	guardare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	trenta	trenta	NUM	N	NumType=Card	10	nummod	_	_
+10	volte	volta	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	feci	fece	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	calcoli	calcolo	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	infinitesimali	infinitesimale	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21-22	persuadermi	_	_	_	_	_	_	_	_
+21	persuader	persuadere	VERB	V	VerbForm=Inf	8	advcl	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+23	che	che	SCONJ	CS	_	24	mark	_	_
+24	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	21	ccomp	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	prendere	prendere	VERB	V	VerbForm=Inf	26	acl	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	caffè	caffè	NOUN	S	Gender=Masc	28	obj	_	_
+31	prima	prima	ADV	B	_	34	mark	_	_
+32	che	che	SCONJ	CS	_	31	fixed	_	_
+33	Max	Max	PROPN	SP	_	34	nsubj	_	_
+34	venisse	venire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

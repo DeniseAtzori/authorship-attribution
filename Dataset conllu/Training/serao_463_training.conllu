@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Se avessi quattrini, comprerei quel _fratello Girard_ che fa le capriole con le mani e coi piedi:
+1	—	—	PUNCT	FF	_	6	punct	_	_
+2	Se	se	SCONJ	CS	_	4	mark	_	_
+3	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	quattrini	quattrino	ADJ	A	Gender=Masc|Number=Plur	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	comprerei	comprare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	_fratello	_fratello	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	Girard_	ExtraSubj=Yes|Girard_	PROPN	SP	_	8	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	capriole	capriola	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	mani	mano	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	coi	_	_	_	_	_	_	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = forse costa cinque lire e mamma non vuole mai spendere più di venticinque soldi.
+1	forse	forse	ADV	B	_	2	advmod	_	_
+2	costa	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cinque	cinque	NUM	N	NumType=Card	4	nummod	_	_
+4	lire	lira	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	mai	mai	ADV	B	_	10	advmod	_	_
+10	spendere	spendere	VERB	V	VerbForm=Inf	2	conj	_	_
+11	più	più	ADV	B	_	14	advmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	venticinque	venticinque	NUM	N	NumType=Card	14	nummod	_	_
+14	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Comprerei anche quel sorcetto che si dà la corda e corre per la casa:
+1	Comprerei	Compreere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	sorcetto	sorcetto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:pass	_	_
+7	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	corda	corda	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = la palla elastica non la voglio, perchè è brutta, perchè ne ho avute tante....
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	palla	palla	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	elastica	elastico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	voglio	voglio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	perchè	poiperché	SCONJ	CS	_	10	mark	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	2	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	perchè	perché	SCONJ	CS	_	15	mark	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	avute	avere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_
+16	tante...	tante.	NOUN	S	_	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

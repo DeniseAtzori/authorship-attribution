@@ -1,0 +1,126 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che importava che non lo tradissi?
+1	Che	che	SCONJ	CS	_	2	mark	_	_
+2	importava	importavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	tradissi	tradiggere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Che importava che lo amassi, e gli fossi fedele, ed odiassi addirittura il suo rivale, e non gli permettessi neppure una parola che potesse offendere mio marito?
+1	Che	che	SCONJ	CS	_	2	advmod	_	_
+2	importava	importavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	amassi	amare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	fossi	fosso	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+10	fedele	fedele	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	odiassi	odiare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	addirittura	addirittura	ADV	B	_	13	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	rivale	rivale	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	gli	lo	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	permettessi	permettettere	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+23	neppure	neppure	ADV	BN	PronType=Neg	22	advmod	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	parola	parola	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	offendere	offendere	VERB	V	VerbForm=Inf	25	acl:relcl	_	_
+29	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	marito	marito	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+31	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = — Le apparenze erano contro di me;
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	apparenze	apparenza	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	contro	contro	ADV	B	_	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = agivo come non avrebbe agito nessuna donna rispettabile; se Marco mi avesse sorpresa a quegli appuntamenti, o chiunque altri m'avesse sorpresa invece di lui, avrebbe avuto diritto di giudicarmi colpevole.
+1	agivo	agivo	ADJ	A	Gender=Masc|Number=Sing	30	xcomp	_	_
+2	come	come	SCONJ	CS	_	5	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	agito	agire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+6	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	rispettabile	rispettabile	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+10	se	se	SCONJ	CS	_	14	mark	_	_
+11	Marco	Marco	PROPN	SP	_	14	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+13	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	sorpresa	sorprendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
+17	appuntamenti	appuntamento	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	o	o	CCONJ	CC	_	20	cc	_	_
+20	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	14	conj	_	_
+21	altri	altri	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	nsubj	_	_
+22	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	obj	_	SpaceAfter=No
+23	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	sorpresa	sorprendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+25	invece	invece	ADV	B	_	27	case	_	_
+26	di	di	ADP	E	_	25	fixed	_	_
+27	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	14	punct	_	_
+29	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+31	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33-34	giudicarmi	_	_	_	_	_	_	_	_
+33	giudicar	giudicare	VERB	V	VerbForm=Inf	31	acl	_	_
+34	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	33	iobj	_	_
+35	colpevole	colpevole	ADJ	A	Number=Sing	33	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 5
+# text = — Da un giorno all'altro potevo scontrarmi in una signora che sapesse le mie uscite misteriose, e mi rifiutasse il saluto.
+1	—	—	PUNCT	FF	_	22	punct	_	_
+2	Da	da	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	8	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	potevo	potere	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	scontrarmi	arma|scontrarme	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	signora	signore	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	sapesse	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	uscite	uscita	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+18	misteriose	misterioso	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	iobj	_	_
+22	rifiutasse	rifiutare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+

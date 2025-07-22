@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dovette cercare di dar lezioni in paese, farsi ripetitore presso vari studenti del liceo, per sovvenire ai bisogni della casa e del vecchio infermo.
+1	Dovette	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	_
+2	cercare	cercare	VERB	V	VerbForm=Inf	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	dar	dare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9-10	farsi	_	_	_	_	_	_	_	_
+9	far	fare	VERB	V	VerbForm=Inf	2	conj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	iobj	_	_
+11	ripetitore	ripetitore	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	presso	presso	ADP	E	_	14	case	_	_
+13	vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	sovvenire	sovvenire	VERB	V	VerbForm=Inf	2	advcl	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	bisogni	bisogno	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	casa	casa	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	e	e	CCONJ	CC	_	31	cc	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	infermo	infermo	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Tra i suoi doveri ecclesiastici e quelli d'insegnante, faceva una vita laboriosa, occupato tutte le ore del giorno, e spesso strappato al sonno la notte, per accorrere al letto di qualche ammalato.
+1	Tra	tra	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	doveri	dovere	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+5	ecclesiastici	ecclesiastico	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	conj	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	insegnante	insegnante	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+14	laboriosa	laborioso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+17	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	19	det:predet	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	ore	ora	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	spesso	spesso	ADV	B	_	26	advmod	_	_
+26	strappato	strappare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	notte	notte	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	16	punct	_	_
+33	per	per	ADP	E	_	34	mark	_	_
+34	accorrere	accorrere	VERB	V	VerbForm=Inf	16	advcl	_	_
+35-36	al	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	letto	letto	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	40	det	_	_
+40	ammalato	ammalato	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

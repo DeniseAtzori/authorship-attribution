@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sette od otto candelabri accesi versavano la loro piena luce sui vestiti, sui mantelli, sui mille complementi della beltà femminile e tutto il salone era occupato, nella sua grandezza!
+1	Sette	sette	NUM	N	NumType=Card	4	nummod	_	_
+2	od	o	CCONJ	CC	_	3	cc	_	_
+3	otto	otto	NUM	N	NumType=Card	1	conj	_	_
+4	candelabri	candelabro	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	accesi	accese	ADJ	A	Number=Plur	4	amod	_	_
+6	versavano	versare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	luce	luce	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+11-12	sui	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	vestiti	vestito	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15-16	sui	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	mantelli	mantello	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19-20	sui	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	mille	mille	NUM	N	NumType=Card	22	nummod	_	_
+22	complementi	complemento	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	beltà	beltà	NOUN	S	Gender=Fem	22	nmod	_	_
+26	femminile	femminile	ADJ	A	Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	32	cc	_	_
+28	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	30	det:predet	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	salone	salone	NOUN	S	Gender=Masc|Number=Sing	32	nsubj	_	_
+31	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34-35	nella	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	37	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	grandezza	grandezza	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+38	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Non credeva, non supponeva neppure di aver avuto e di aver cambiati tanti abiti l'anno prima, ed ebbe un senso di grazioso imbarazzo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credeva	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	supponeva	supporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+6	neppure	neppure	ADV	BN	PronType=Neg	5	advmod	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	di	di	ADP	E	_	13	mark	_	_
+12	aver	avere	AUX	VA	VerbForm=Inf	13	aux	_	_
+13	cambiati	cambiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	_
+14	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	anno	anno	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	prima	prima	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	ed	e	CCONJ	CC	_	21	cc	_	_
+21	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	senso	senso	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	grazioso	grazioso	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	imbarazzo	imbarazzo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

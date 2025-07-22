@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quel giovine non era facile ad entrare in discorso.
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	giovine	giovina	NOUN	S	Gender=Masc	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+6	ad	a	ADP	E	_	7	mark	_	_
+7	entrare	entrare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ma una volta entrato, era piacevolissimo, e qualche volta s'abbandonava ad un'allegria clamorosa.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	entrato	entrato	NOUN	S	Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	piacevolissimo	piacevolissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	volta	volta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+12	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	SpaceAfter=No
+13	abbandonava	abbandonavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+14	ad	a	ADP	E	_	16	case	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	allegria	allegria	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	clamorosa	clamoroso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Ma bisognava che altri lo eccitasse.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	eccitasse	eccitare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Sembrava una di quelle macchine che, appena montate, vanno, vanno con una celerità sorprendente;
+1	Sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	1	obj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	appena	appena	ADV	B	_	9	advmod	_	_
+9	montate	montato	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	celerità	celerità	NOUN	S	Gender=Fem	13	obl	_	_
+17	sorprendente	sorprendente	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = ma se le vediamo ferme, non possiamo persuaderci che quegli ammassi di ordigni muti ed inerti abbiano in sè la facoltà di tanto rumore, di tanto movimento.
+1	ma	ma	CCONJ	CC	_	9	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	obj	_	_
+4	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5	ferme	ferma	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9-10	persuaderci	_	_	_	_	_	_	_	_
+9	persuader	persuadere	VERB	V	VerbForm=Inf	0	root	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	expl	_	_
+11	che	che	SCONJ	CS	_	19	mark	_	_
+12	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	ammassi	ammasso	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	ordigni	ordigno	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	muti	muto	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	ed	e	CCONJ	CC	_	18	cc	_	_
+18	inerti	inerto	ADJ	A	Gender=Masc|Number=Plur	16	conj	_	_
+19	abbiano	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	obl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	facoltà	facoltà	NOUN	S	Gender=Fem	19	obj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
+26	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	19	punct	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_
+30	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

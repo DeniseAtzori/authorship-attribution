@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi sedette sullo scalino del focolare, senza dir nulla.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	sedette	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	sullo	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	scalino	scalino	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	focolare	focolare	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11	dir	dire	VERB	V	VerbForm=Inf	2	advcl	_	_
+12	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La contadina si era seduta sulla panca ed aveva ricominciato il suo rosario.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	contadina	contadino	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	seduta	sedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	panca	panca	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	ricominciato	ricominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	rosario	rosario	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Pregava monotonamente¹ e senza fervore.
+1	Pregava	Pregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	monotonamente¹	monotonamente¹	PROPN	SP	_	1	obj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	senza	senza	ADP	E	_	5	case	_	_
+5	fervore	fervore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = La bambina, curva per non sentire lo spasimo dello stomaco, seguiva con gli occhi quella preghiera.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	curva	curvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	sentire	sentire	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	spasimo	spasimo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	dello	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	seguiva	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	preghiera	preghiero	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Non pensava neppure più:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	neppure	neppure	ADV	BN	PronType=Neg	4	advmod	_	_
+4	più	più	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = aveva semplicemente e unicamente fame.
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	semplicemente	semplicemente	ADV	B	_	1	advmod	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	unicamente	unico	ADV	B	_	5	advmod	_	_
+5	fame	fame	ADJ	A	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

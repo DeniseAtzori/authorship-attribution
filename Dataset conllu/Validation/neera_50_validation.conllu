@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che cosa intendeva Egli dunque per bellezza?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+3	intendeva	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	Egli	Egli	PROPN	SP	_	3	nsubj	_	_
+5	dunque	dunque	ADV	B	_	4	advmod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Quale significato misterioso racchiudeva per Lui questa parola comune?
+1	Quale	quale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	significato	significato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	misterioso	misterioso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	racchiudeva	racchiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	parola	parola	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+9	comune	comune	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Io vedevo bene che non c'era ombra di vanteria ne' suoi discorsi, che tutto ciò che Egli faceva e diceva, se pure aveva rispondenza con una intima nota di orgoglio, non era affatto da confondersi colla volgare superbia e colla vanità impotente.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	advcl	_	_
+8	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	vanteria	vanteria	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	ne'	_	_	_	_	_	_	_	_
+11	ni	ne	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
+18	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	acl:relcl	_	_
+19	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+20	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	se	se	SCONJ	CS	_	27	mark	_	_
+26	pure	pure	ADV	B	_	27	advmod	_	_
+27	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	advcl	_	_
+28	rispondenza	rispondenza	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+29	con	con	ADP	E	_	32	case	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+32	nota	nota	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	7	punct	_	_
+36	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+37	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	cop	_	_
+38	affatto	affatto	ADV	B	_	40	advmod	_	_
+39	da	da	ADP	E	_	40	mark	_	_
+40-41	confondersi	_	_	_	_	_	_	_	_
+40	confonder	confonder	VERB	V	VerbForm=Inf	42	advcl	_	_
+41	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl	_	_
+42	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+43	volgare	volgare	VERB	V	VerbForm=Inf	42	xcomp	_	_
+44	superbia	superbia	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	colla	collare	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	_
+47	vanità	vanità	NOUN	S	Gender=Fem	43	obj	_	_
+48	impotente	impotente	ADJ	A	Number=Sing	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Gli dissi:
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dissi	dissi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

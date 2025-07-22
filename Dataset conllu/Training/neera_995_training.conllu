@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nessuna melanconia si mesceva a questo saluto che il solitario dava tutte le sere ai suoi monti;
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	melanconia	melanconia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	mesceva	mescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	saluto	salere	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	solitario	solitario	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+12	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	14	det:predet	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	sere	sera	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	monti	monte	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = nessuna preoccupazione terrena, nessun timore per il domani.
+1	nessuna	nessuno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	terrena	terreno	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	timore	timore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	domani	domani	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Semplice e calma, la sua anima riposava nella natura di cui gli era penetrata in tutte le fibre la placidità maestosa.
+1	Semplice	semplice	ADJ	A	Number=Sing	8	amod	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	calma	calma	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	anima	anima	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	riposava	riposare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	natura	natura	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+14	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	penetrata	penetrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	20	det:predet	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	fibre	fibra	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	placidità	placidità	NOUN	S	Gender=Fem	16	nsubj	_	_
+23	maestosa	maestoso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Non come uomo perduto in un deserto, ma come simile, vivente fra i suoi simili, egli intendeva il silenzio dell'ombra.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+4	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	deserto	deserto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	come	come	ADV	B	_	11	advmod	_	_
+11	simile	simile	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	vivente	vivente	ADV	B	_	11	advmod	_	_
+14	fra	fra	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	simili	simile	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	intendeva	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n
+

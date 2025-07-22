@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Allora mi allontanai per lasciarla calmarsi, ed andai a sedermi al pianoforte.
+1	Allora	allora	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	allontanai	allontanai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-6	lasciarla	_	_	_	_	_	_	_	_
+5	lasciar	lasciare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7-8	calmarsi	_	_	_	_	_	_	_	SpaceAfter=No
+7	calmar	calmarzo	NOUN	S	Gender=Fem	5	obj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ed	e	CCONJ	CC	_	11	cc	_	_
+11	andai	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13-14	sedermi	_	_	_	_	_	_	_	_
+13	seder	sedere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pianoforte	pianoforte	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = C'erano due sgabelli rimasti dal mattino quando forse si era suonato a quattro mani.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	sgabelli	sgabello	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	quando	quando	SCONJ	CS	_	13	mark	_	_
+10	forse	forse	ADV	B	_	13	advmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	suonato	suonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	quattro	quattro	NUM	N	NumType=Card	16	nummod	_	_
+16	mani	mano	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Io mi sedetti dalla parte dei bassi, e curvandomi con molto disagio suonai la sinfonia del _Freyschütz;_ poi l'aria del tenore nel primo atto:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	sedetti	sedeggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	bassi	basso	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12-13	curvandomi	_	_	_	_	_	_	_	_
+12	curvando	curvare	VERB	V	VerbForm=Ger	3	conj	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	disagio	disagio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	suonai	suonare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	12	advcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sinfonia	sinfonia	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	_Freyschütz;_	_freyschütz;_	PROPN	SP	_	19	nmod	_	_
+23	poi	poi	ADV	B	_	25	advmod	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	aria	aria	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	tenore	tenore	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	32	amod	_	_
+32	atto	atto	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = _L'onda, il colle, il prato, il bosco._
+1	_L'	_il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	onda	onda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5-6	colle	_	_	_	_	_	_	_	SpaceAfter=No
+5	con	con	ADP	E	_	6	case	_	_
+6	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	conj	_	_
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	prato	prato	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	conj	_	_
+12	bosco._	ExtraSubj=Yes|bosco._	PUNCT	FB	_	2	punct	_	SpacesAfter=\n
+

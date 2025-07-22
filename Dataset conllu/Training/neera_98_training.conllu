@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fin qui la logica.
+1	Fin	fino	ADP	E	_	2	case	_	_
+2	qui	qui	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	logica	logica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = È lecito tuttavia sperare nelle forze segrete della natura che ridona tante volte la vita quando i medici hanno già pronunciato la condanna.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	lecito	lecito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	tuttavia	tuttavia	ADV	B	_	2	advmod	_	_
+4	sperare	sperare	VERB	V	VerbForm=Inf	2	csubj	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	forze	forza	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	segrete	segreto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	natura	natura	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	ridona	ridonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	volte	volta	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+18	quando	quando	SCONJ	CS	_	23	mark	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	medici	medico	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	già	già	ADV	B	_	23	advmod	_	_
+23	pronunciato	pronunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Certo se la società è ammalata al punto da avere tutti i suoi organi in isfacelo, i suoi giorni sono contati, non v’ha dubbio;
+1	Certo	certo	ADV	B	_	23	advmod	_	_
+2	se	se	SCONJ	CS	_	6	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	società	società	NOUN	S	Gender=Fem	6	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	ammalata	ammalare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	avere	avere	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det:predet	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	organi	organo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	isfacelo	isfacelo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+23	contati	contare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+26	v’	vo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+27	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+28	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	23	punct	_	_
+
+# sent_id = 4
+# text = e nello stesso modo che curvi sul cuore di un ammalato ne interroghiamo i battiti per sapere quanto vivrà, la donna che è il centro della vita universale ci darà la misura del pericolo.
+1	e	e	CCONJ	CC	_	15	cc	_	_
+2-3	nello	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	modo	modo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	curvi	curvare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ammalato	ammalato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+15	interroghiamo	interroghare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	battiti	battito	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	sapere	sapere	VERB	V	VerbForm=Inf	15	advcl	_	_
+20	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	19	obj	_	_
+21	vivrà	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	donna	donna	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+25	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	centro	centro	NOUN	S	Gender=Masc|Number=Sing	24	acl:relcl	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	vita	vita	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	universale	universale	ADJ	A	Number=Sing	31	amod	_	_
+33	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	34	iobj	_	_
+34	darà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	advcl	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	misura	misura	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

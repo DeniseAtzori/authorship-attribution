@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Dunque ora sei sicuro.
+1	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+3	Dunque	dunque	ADV	B	_	6	advmod	_	_
+4	ora	ora	ADV	B	_	6	advmod	_	_
+5	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ed il medico continuò a parlargli di quell'argomento.
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	medico	medico	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	continuò	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	parlargli	_	_	_	_	_	_	_	_
+6	parlar	parlare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	quell'	quello	DET	DD	Number=Sing|PronType=Dem	10	det	_	SpaceAfter=No
+10	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Gli narrò molti casi, di famiglie colpite da una malattia ereditaria, nelle quali poi il contagio s'era arrestato per non ripetersi più per molte e molte generazioni.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	narrò	narrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	casi	caso	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	colpite	colpire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	8	obl:agent	_	_
+12	ereditaria	ereditario	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14-15	nelle	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	quali	quale	PRON	PR	Number=Plur|PronType=Rel	22	obl	_	_
+17	poi	poi	ADV	B	_	22	advmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	contagio	contagio	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+20	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	SpaceAfter=No
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+23	per	per	ADP	E	_	25	mark	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25-26	ripetersi	_	_	_	_	_	_	_	_
+25	ripeter	ripetere	VERB	V	VerbForm=Inf	22	advcl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27	più	più	ADV	B	_	29	advmod	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	molte	molto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	25	obl	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	32	det	_	_
+32	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Del resto Marco non ci pensava più da un pezzo, ed anche indipendentemente dalla ragione suprema che gli aveva data sua madre, non capiva come mai avesse potuto lasciarsi impressionare a quel modo.
+1-2	Del	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	Marco	Marco	PROPN	SP	_	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+7	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	più	più	ADV	B	_	7	advmod	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ed	e	CCONJ	CC	_	15	cc	_	_
+14	anche	anche	ADV	B	_	15	advmod	_	_
+15	indipendentemente	indipendentemente	ADV	B	_	7	conj	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	suprema	supremo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+21	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+24	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	madre	madre	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	capiva	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+29	come	come	ADP	E	_	33	mark	_	_
+30	mai	mai	ADV	B	_	33	advmod	_	_
+31	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+32	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	aux	_	_
+33-34	lasciarsi	_	_	_	_	_	_	_	_
+33	lasciar	lasciare	VERB	V	VerbForm=Inf	28	advcl	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+35	impressionare	impressionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	38	det	_	_
+38	modo	modo	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

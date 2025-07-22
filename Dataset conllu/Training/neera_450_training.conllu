@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una grande commozione si impossessò di Anna;
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	A	Number=Sing	3	amod	_	_
+3	commozione	commozione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	impossessò	impossessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Anna	Anna	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = Antonietta Lamberti era il nome di sua madre.
+1	Antonietta	Antonietta	PROPN	SP	_	5	nsubj	_	_
+2	Lamberti	Lamberti	PROPN	SP	_	1	flat:name	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	nome	nome	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	madre	madre	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Nella fervente ammirazione del padre suo ella aveva forse soffocato il culto della memoria materna e la sorpresa e lo sbigottimento della scoperta si mescevano a un senso penoso di rimorso.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	fervente	fervente	ADJ	A	Number=Sing	4	amod	_	_
+4	ammirazione	ammirazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+9	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	forse	forse	ADV	B	_	12	advmod	_	_
+12	soffocato	soffocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	culto	culto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	materna	materno	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+22	e	e	CCONJ	CC	_	29	cc	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	sbigottimento	sbigottimento	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	mescevano	mescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	senso	senso	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	penoso	penoso	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	rimorso	rimorso	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = Sua madre!
+1	Sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = una figura alta, evanescente;
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	figura	figura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	alta	alto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	evanescente	evanescente	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = un volto scolorito, un sorriso senza luce, un abito grigio con trine bianche;
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	volto	volto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	scolorito	scolorito	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	luce	luce	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	abito	abito	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+12	grigio	grigio	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	trine	trina	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = così la rivedeva, non più di così.
+1	così	così	ADV	B	_	3	advmod	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	rivedeva	rivedevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	più	più	ADV	B	_	3	advmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	così	così	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

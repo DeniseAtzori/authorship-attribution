@@ -1,0 +1,157 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Sì--disse Giorgio con semplicità,--Era buona e pia;
+1	--Sì	--Sì	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Giorgio	Giorgio	PROPN	SP	_	4	obj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	semplicità	semplicità	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+9	--Era	--Era	PROPN	SP	_	4	nsubj	_	_
+10	buona	buono	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	pia	pio	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = ma mi ha amato, con tanto ingenuo trasporto, che io consumato alle esaltazioni della passione, fui scosso per la prima volta.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	tanto	tanto	ADV	B	_	9	advmod	_	_
+8	ingenuo	ingenuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+13	consumato	consumare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	esaltazioni	esaltazione	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	passione	passione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	fui	essere	PRON	PR	PronType=Rel	13	obj	_	_
+22	scosso	scuotere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	per	per	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	26	amod	_	_
+26	volta	volta	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Era così geloso il marito, che non le lasciava un'ora di libertà:
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	geloso	gelodere	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	marito	marito	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	iobj	_	_
+10	lasciava	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ora	ora	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	libertà	libertà	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = qualche volta soltanto, quando ella andava in chiesa, poichè ella era cattolica e lui ateo.
+1	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+3	soltanto	soltanto	ADV	B	_	14	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	cattolica	cattolicare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	conj	_	_
+17	ateo	ateo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Bene, la cercai in chiesa:
+1	Bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cercai	cercare	NOUN	S	_	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = ella tremava, povera piccola, poichè diceva che questo era un sacrilegio, un'offesa a Dio, il quale ci avrebbe puniti, nell'amore nostro.
+1	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tremava	tremare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	povera	povero	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	poichè	poiché	SCONJ	CS	_	8	mark	_	_
+8	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sacrilegio	sacrilegio	NOUN	S	Gender=Masc|Number=Sing	8	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	offesa	offesa	NOUN	S	Gender=Fem|Number=Sing	13	appos	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Dio	dio	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	quale	quale	PRON	PR	Number=Sing|PronType=Rel	24	nsubj	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	iobj	_	_
+23	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	puniti	punire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26-27	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	in	in	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	amore	amore	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+29	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma non poteva fuggirmi come io non potea trattenermi dal seguirla dovunque, dovunque....
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4-5	fuggirmi	_	_	_	_	_	_	_	_
+4	fuggir	fuggire	VERB	V	VerbForm=Inf	0	root	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	potea	poteare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+10	trattenermi	trattenermo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13-14	seguirla	_	_	_	_	_	_	_	_
+13	seguir	seguire	VERB	V	VerbForm=Inf	9	obl	_	_
+14	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	dovunque	dovunque	NUM	N	NumType=Card	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	dovunque...	dovunque.	NUM	N	NumType=Card	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

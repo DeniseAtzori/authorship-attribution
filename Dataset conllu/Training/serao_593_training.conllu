@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Paolo Herz ebbe un moto d'ira, il primo.
+1	Paolo	Paolo	PROPN	SP	_	3	nsubj	_	_
+2	Herz	Herz	PROPN	SP	_	1	flat:name	_	_
+3	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	moto	moto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	ira	ira	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Partì da quella casa, pensando che ella non lo avrebbe richiamato.
+1	Partì	Partì	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	pensando	pensare	VERB	V	VerbForm=Ger	1	advcl	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	richiamato	richiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = No.
+1	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Canticchiava ella, come un fanciulletto.
+1	Canticchiava	Canticchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fanciulletto	fanciulletto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Suppose che, giunto a casa sua, un biglietto lo avrebbe richiamato.
+1	Suppose	Supporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	13	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	13	punct	_	_
+4	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+12	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	richiamato	richiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = No.
+1	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Si torturò tutto il pomeriggio, non uscendo, attendendo questo appello.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	torturò	torturare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	uscendo	uscire	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	attendendo	attendere	VERB	V	VerbForm=Ger	8	advcl	_	_
+11	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	appello	appello	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = No.
+1	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Anzi qualcuno gli disse che Luisa Cima era andata alla passeggiata, e che dei giovanotti l'accompagnavano e che ella rideva.
+1	Anzi	anzi	ADV	B	_	4	advmod	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	Luisa	Luisa	PROPN	SP	_	9	nsubj	_	_
+7	Cima	cima	PROPN	SP	_	6	flat:name	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	20	punct	_	_
+14	e	e	CCONJ	CC	_	20	cc	_	_
+15	che	che	SCONJ	CS	_	20	mark	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	giovanotti	giovanotto	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+19	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+20	accompagnavano	accompagnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+23	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	rideva	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

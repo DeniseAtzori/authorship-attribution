@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Molte volte Canituccia attirava Ciccotto verso un posto dove aveva visto l’erba che poteva piacergli:
+1	Molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+3	Canituccia	Canituccia	PROPN	SP	_	4	nsubj	_	_
+4	attirava	attiravare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	Ciccotto	Ciccotto	ADV	B	_	4	advmod	_	_
+6	verso	verso	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	dove	dove	ADV	B	_	11	advmod	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	erba	erba	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16-17	piacergli	_	_	_	_	_	_	_	SpaceAfter=No
+16	piacer	piacere	VERB	V	VerbForm=Inf	13	acl:relcl	_	_
+17	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+18	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = qualche volta Ciccotto trascinava Canituccia verso un campo verde.
+1	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	Ciccotto	Ciccotto	PROPN	SP	_	4	nsubj	_	_
+4	trascinava	trascinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	Canituccia	Canituccia	PROPN	SP	_	4	obj	_	_
+6	verso	verso	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	campo	campo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	verde	verde	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = A mezzogiorno la bambina mangiava un pezzo di pane.
+1	A	a	ADP	E	_	2	case	_	_
+2	mezzogiorno	mezzogiorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	mangiava	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	pane	pane	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Erravano insieme nel pomeriggio di primavera, sino all’imbrunire.
+1	Erravano	Errare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	insieme	insieme	ADV	B	_	5	case	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	2	fixed	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	sino	sino	ADV	B	_	12	case	_	_
+10-11	all’	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	9	fixed	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	imbrunire	imbrunire	VERB	V	VerbForm=Inf	1	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Non si lasciavano che alla casa, quando Ciccotto andava a dormire, e Canituccia, dopo avere ingoiato una minestra di cicoria fredda, o pochi ceci, o un po’ di cotenna col pane, andava anch’essa a dormire.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	lasciavano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	40	mark	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	40	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	quando	quando	SCONJ	CS	_	11	mark	_	_
+10	Ciccotto	Ciccotto	PROPN	SP	_	11	nsubj	_	_
+11	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	advcl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	dormire	dormire	VERB	V	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	Canituccia	Canituccia	PROPN	SP	_	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	dopo	dopo	SCONJ	CS	_	20	mark	_	_
+19	avere	avere	AUX	VA	VerbForm=Inf	20	aux	_	_
+20	ingoiato	ingoiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	minestra	minestra	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	cicoria	cicoria	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	o	o	CCONJ	CC	_	29	cc	_	_
+28	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+29	ceci	cece	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	35	punct	_	_
+31	o	o	CCONJ	CC	_	35	cc	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	po’	poco	ADV	B	_	35	advmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	cotenna	cotenna	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+36-37	col	_	_	_	_	_	_	_	_
+36	con	con	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	pane	pane	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	11	punct	_	_
+40	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+41	anch’	ancho	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	SpaceAfter=No
+42	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+43	a	a	ADP	E	_	44	mark	_	_
+44	dormire	dormire	VERB	V	VerbForm=Inf	40	xcomp	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

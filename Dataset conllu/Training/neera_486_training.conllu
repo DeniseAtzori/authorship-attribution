@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo intanto la consolava;
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	intanto	intanto	ADV	B	_	4	advmod	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	consolava	consolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = la certezza che la lettera non esisteva più e che tutto ciò che era già morto prima di essa — amore, illusioni, colpa — tornava a morire.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	esisteva	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+8	più	più	ADV	B	_	7	advmod	_	_
+9	e	e	CCONJ	CC	_	27	cc	_	_
+10	che	che	PRON	PR	PronType=Rel	27	obj	_	_
+11	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	27	nsubj	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+15	già	già	ADV	B	_	16	advmod	_	_
+16	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	prima	prima	ADV	B	_	19	case	_	_
+18	di	di	ADP	E	_	17	fixed	_	_
+19	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+20	—	—	PUNCT	FF	_	21	punct	_	_
+21	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	illusioni	illusione	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+26	—	—	PUNCT	FF	_	12	punct	_	_
+27	tornava	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	morire	morire	VERB	V	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Qualche cosa dell'orgoglio dei giustizieri sosteneva la sua mano tremante intanto che colle molle andava raccattando i più piccoli frammenti di carta mezzo bruciati per ricacciarli nel fuoco.
+1	Qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	giustizieri	giustiziere	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	sosteneva	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	mano	mano	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+13	tremante	tremante	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	14	det	_	_
+14	intanto	intanto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+16-17	colle	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	molle	molla	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+19	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+20	raccattando	raccattare	VERB	V	VerbForm=Ger	19	advcl	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	frammenti	frammento	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	carta	carta	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	bruciati	bruciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
+29	per	per	ADP	E	_	30	mark	_	_
+30-31	ricacciarli	_	_	_	_	_	_	_	_
+30	ricacciar	ricacciare	VERB	V	VerbForm=Inf	28	advcl	_	_
+31	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
+32-33	nel	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aveva il profilo duro, l'occhiaia profonda, il mento fortemente disegnato degli uomini in cui predomina la volontà.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	duro	duro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	occhiaia	occhiaio	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+8	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mento	mento	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+12	fortemente	fortemente	ADV	B	_	13	advmod	_	_
+13	disegnato	disegnato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+14-15	degli	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+19	predomina	predominare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	volontà	volontà	NOUN	S	Gender=Fem	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Io non so quanto tempo passasse nel più assoluto silenzio.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	5	det	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+6	passasse	passare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	11	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Alessio si era addormentato colle sue manine nelle mie.
+1	Alessio	Alessio	PROPN	SP	_	4	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	addormentato	addormentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	colle	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	manine	manina	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	mie	mia	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Un rumore di carri trascinati a stento sulla ripa vicina, le zampe dei cavalli scalpitanti, gli urli e le grida dei carrettieri non lo svegliarono.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	31	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	carri	carro	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	trascinati	trascinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	stento	stento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ripa	ripa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	zampe	zampa	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	cavalli	cavallo	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	scalpitanti	scalpitante	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	31	punct	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21-22	urli	_	_	_	_	_	_	_	_
+21	ur	ur	NOUN	S	_	31	nsubj	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	obj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	grida	grida	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	carrettieri	carrettiere	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+30	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+31	svegliarono	svegliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\n
+

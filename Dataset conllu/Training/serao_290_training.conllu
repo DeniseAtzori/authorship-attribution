@@ -1,0 +1,124 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nulla.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Si mosse:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	mosse	muovere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = andò sino alla porta, origliò, se per le scale alcuno salisse.
+1	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	sino	sino	ADV	B	_	5	case	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	porta	porta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	origliò	origliò	ADV	B	_	1	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	se	se	SCONJ	CS	_	14	mark	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	scale	scala	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+13	alcuno	alcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+14	salisse	salire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Nulla.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Andò presso alla finestra, sollevò una tenda, guardò nella via:
+1	Andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	_
+2	presso	presso	ADV	B	_	1	advmod	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	sollevò	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tenda	tenda	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	via	via	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 6
+# text = i passanti erano rari, rarissime le donne, niuna si fermava.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	passanti	passante	NOUN	S	Number=Plur	4	nsubj	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	rari	raro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	rarissime	raro	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	donne	donna	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	niuna	niuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	12	obj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	fermava	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Talvolta, prima, tardava; anche oggi, dunque, poteva tardare.
+1	Talvolta	talvolta	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	prima	prima	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tardava	tardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	oggi	oggi	ADV	B	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	dunque	dunque	ADV	B	_	5	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	tardare	tardare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = Cavò il suo orologio e si mise a seguire le sfere del minuti secondi col tichettìo che gli cresceva di fragore, nel cervello.
+1	Cavò	Cavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	seguire	seguire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	sfere	sfera	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	secondi	secondo	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16-17	col	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tichettìo	tichettìo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
+21	cresceva	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	fragore	fragore	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,146 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era una situazione insopportabile.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	insopportabile	insopportabile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il mio carattere se ne risentiva;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	risentiva	risentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = rimpiangevo ardentemente la mia felicità perduta.
+1	rimpiangevo	rimpiangere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ardentemente	ardentemente	ADV	B	_	1	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	felicità	felicità	NOUN	S	Gender=Fem	1	obj	_	_
+6	perduta	perduto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mi pareva d'esser punita troppo severamente delle colpe passate, e mi ribellavo contro i rigori della giustizia.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	d'	di	ADP	E	_	5	mark	_	SpaceAfter=No
+4	esser	essere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	punita	punire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	troppo	troppo	ADV	B	_	7	advmod	_	_
+7	severamente	severo	ADV	B	_	10	advmod	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	colpe	colpa	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+11	passate	passato	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+15	ribellavo	ribellavare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	_
+16	contro	contro	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	rigori	rigore	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Sentirmi onesta e fedele, ed esser condannata ad apparire infedele e disonesta;
+1-2	Sentirmi	_	_	_	_	_	_	_	_
+1	Sentir	sentire	VERB	V	VerbForm=Inf	0	root	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	onesta	onesto	ADJ	A	Number=Sing	1	xcomp	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	fedele	fedele	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ed	e	CCONJ	CC	_	9	cc	_	_
+8	esser	essere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	condannata	condannare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11	apparire	apparire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	infedele	infedele	ADJ	A	Number=Sing	11	xcomp	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	disonesta	disonesto	ADJ	A	Number=Sing	12	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = era un supplizio atroce; e non vedevo alcuna via per uscirne;
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	supplizio	supplizio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	atroce	atroce	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+9	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	via	via	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	uscirne	_	_	_	_	_	_	_	SpaceAfter=No
+12	uscir	uscire	VERB	V	VerbForm=Inf	10	acl	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	12	iobj	_	_
+14	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = e non ero abbastanza colpevole per avere il coraggio di quelle viltà.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	abbastanza	abbastanza	ADV	B	_	5	advmod	_	_
+5	colpevole	colpevole	ADJ	A	Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	avere	avere	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	viltà	viltà	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Ogni giorno mi sentivo più abbattuta;
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	abbattuta	abbattuto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 9
+# text = lottavo tra l'ansia di ricuperare fin l'ultima lettera, e lo scoraggiamento che mi spingeva ad abbandonare quella partita tremenda.
+1	lottavo	lottare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	ricuperare	ricuperare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	fin	fino	ADP	E	_	10	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	scoraggiamento	scoraggiamento	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	spingeva	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+18	ad	a	ADP	E	_	19	mark	_	_
+19	abbandonare	abbandonare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	partita	partita	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	tremenda	tremendo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Ma che!
+1	--Ma	--mare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	obj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Figurati che ho scambiato una camicia alla signora e non ha voluto pagare.
+1	Figurati	Figurare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scambiato	scambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	camicia	camicia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
+14	pagare	pagare	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = È proprio una disperazione.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	proprio	proprio	ADV	B	_	4	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Stasera, vedi, avevo promesso a Ciccillo, a quel povero fratello mio, così buono, di fargli certi maccheroni con le alici e con l'olio, che gli piacciono tanto.
+1	Stasera	stasera	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Ciccillo	Ciccillo	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+12	povero	povero	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	così	così	ADV	B	_	17	advmod	_	_
+17	buono	buono	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	fargli	_	_	_	_	_	_	_	_
+20	far	fare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+21	gli	gli	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	certi	certo	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	maccheroni	maccherone	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	alici	alice	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	olio	olio	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+33	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	iobj	_	_
+34	piacciono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+35	tanto	tanto	ADV	B	_	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Sta fresco!
+1	Sta	stare	NOUN	S	Number=Sing	0	root	_	_
+2	fresco	fresco	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Pane e acqua se li vuole.
+1	Pane	pane	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	6	cc	_	_
+3	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+6	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

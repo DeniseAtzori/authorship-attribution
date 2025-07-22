@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli si è incontrato in due o tre donne, qualcuna semplice e umile, qualche altra superba e appassionata;
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	9	case	_	_
+6	due	due	NUM	N	NumType=Card	9	nummod	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	tre	tre	NUM	N	NumType=Card	6	conj	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	qualcuna	qualcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
+12	semplice	semplice	ADJ	A	Number=Sing	4	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	umile	umile	ADJ	A	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+17	altra	altro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	superba	superba	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	appassionata	appassionare	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = ed egli ha dato e ha ricevuto felicità, ha dato e ha ricevuto spasimo, ebbrezza, delirio, in uno scambio abbastanza giusto.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+8	felicità	felicità	NOUN	S	Gender=Fem	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+15	spasimo	spasimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	ebbrezza	ebbrezza	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	scambio	scambio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+24	abbastanza	abbastanza	ADV	B	_	25	advmod	_	_
+25	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = È stato amato, per quanto ha amato:
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	3	obl	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = combinazione rara, rarissima, che è data in sorte solo a coloro che la vita vuole favorire.
+1	combinazione	combinazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	rara	raro	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	rarissima	raro	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj:pass	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	solo	solo	ADV	B	_	13	advmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	8	obl	_	_
+14	che	che	SCONJ	CS	_	18	mark	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	favorire	favorire	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

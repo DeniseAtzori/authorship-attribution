@@ -1,0 +1,133 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ad un tratto, un pensiero terribile gli balenò alla mente.
+1	Ad	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	terribile	terribile	ADJ	A	Number=Sing	6	amod	_	_
+8	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	balenò	balenare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mente	mente	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Quale sarebbe ora l'avvenire di Vincenzo?
+1	Quale	quale	PRON	PQ	Number=Sing|PronType=Int	0	root	_	_
+2	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	ora	ora	ADV	B	_	1	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Vincenzo	Vincenzo	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Aveva voluto uccidersi per non farsi prete, ed era per rimetterlo in quella condizione odiosa ch'egli l'aveva salvato?
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3-4	uccidersi	_	_	_	_	_	_	_	_
+3	uccider	uccidere	VERB	V	VerbForm=Inf	0	root	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	per	per	ADP	E	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7-8	farsi	_	_	_	_	_	_	_	_
+7	far	fare	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	prete	pere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	rimetterlo	_	_	_	_	_	_	_	_
+14	rimetter	rimettere	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	odiosa	odioso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	ch'	che	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+21	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+22	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	salvato	salvare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	SpaceAfter=No
+25	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Salvarlo dalla morte non era più un bene, se non poteva anche salvarlo da quel destino che gli faceva orrore, se non poteva renderlo felice.
+1-2	Salvarlo	_	_	_	_	_	_	_	_
+1	Salvar	salvare	VERB	V	VerbForm=Inf	10	csubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3-4	dalla	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	morte	morte	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8	più	più	ADV	B	_	10	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bene	bene	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	se	se	SCONJ	CS	_	16	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16-17	salvarlo	_	_	_	_	_	_	_	_
+16	salvar	salvare	VERB	V	VerbForm=Inf	10	advcl	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	destino	destino	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+23	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+24	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	16	punct	_	_
+26	se	se	SCONJ	CS	_	29	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29-30	renderlo	_	_	_	_	_	_	_	_
+29	render	rendere	VERB	V	VerbForm=Inf	16	advcl	_	_
+30	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	felice	felice	ADJ	A	Number=Sing	29	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = A queste riflessioni gravi e penose, il sentimento di responsabilità si faceva sentire potentemente nel cuore onesto di Vicenzino, e lo turbava come una minaccia.
+1	A	a	ADP	E	_	3	case	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	riflessioni	riflessione	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+4	gravi	grave	ADJ	A	Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	penose	penoso	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	responsabilità	responsabilità	NOUN	S	Gender=Fem	9	nmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	sentire	sentire	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	potentemente	potentemente	ADV	B	_	14	advmod	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	onesto	onesto	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Vicenzino	Vicenzino	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+25	turbava	turbavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+26	come	come	ADP	E	_	28	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

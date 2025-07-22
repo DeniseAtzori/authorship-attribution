@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La visione si allargava allo sguardo profetico di Ariele.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	visione	visione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	allargava	allargare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	allo	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	profetico	profetico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Ariele	Ariele	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Era pur stato un tedesco che affacciandosi a quei monti aveva esclamato:
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+2	pur	pure	ADV	B	_	5	advmod	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tedesco	tedesco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+7-8	affacciandosi	_	_	_	_	_	_	_	_
+7	affacciando	affacciare	VERB	V	VerbForm=Ger	13	advcl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	monti	monte	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	esclamato	esclamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = “Qui incomincia l’Italia„.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Qui	qui	ADV	B	_	3	advmod	_	_
+3	incomincia	incominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Italia	Italia	PROPN	SP	_	3	obj	_	SpaceAfter=No
+6	„	„	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Parla dunque il diritto dei popoli nella bandiera naturale che gli stranieri incontrano appena usciti dai loro paesi brumosi salutando l’Italia nei colori del nostro cielo e del nostro mare, negli occhi delle nostre donne, nei segni della nostra storia.
+1	Parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dunque	dunque	ADV	B	_	1	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+11	naturale	naturale	ADJ	A	Number=Sing	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	stranieri	straniero	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+15	incontrano	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+16	appena	appena	ADV	B	_	15	advmod	_	_
+17	usciti	uscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	advcl	_	_
+18-19	dai	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	17	obl:agent	_	_
+22	brumosi	brumoso	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	salutando	salutare	VERB	V	VerbForm=Ger	17	advcl	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	Italia	Italia	PROPN	SP	_	23	obj	_	_
+26-27	nei	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	colori	colore	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+33	e	e	CCONJ	CC	_	37	cc	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	37	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	mare	mare	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	1	punct	_	_
+39-40	negli	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+42-43	delle	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	45	case	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+44	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	donne	donna	NOUN	S	Gender=Fem|Number=Plur	41	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	1	punct	_	_
+47-48	nei	_	_	_	_	_	_	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	segni	segno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+50-51	della	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	53	case	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+52	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	53	det:poss	_	_
+53	storia	storia	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

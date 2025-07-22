@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I monelli ed i guatteri si divertivano di quel selvaggio.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	monelli	monello	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	ed	e	CCONJ	CC	_	5	cc	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	guatteri	guattero	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	divertivano	divertire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	selvaggio	selvaggio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Lo spiavano per coglierlo sul fatto, e quando stava per mordere al suo pasto, gli gridavano imitando i camerieri che servivano i signori nell'osteria:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	spiavano	spiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4-5	coglierlo	_	_	_	_	_	_	_	_
+4	coglier	cogliere	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	quando	quando	SCONJ	CS	_	12	mark	_	_
+12	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	mordere	mordere	VERB	V	VerbForm=Inf	12	advcl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	pasto	pasto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
+21	gridavano	gridare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+22	imitando	imitare	VERB	V	VerbForm=Ger	21	advcl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	camerieri	cameriere	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	servivano	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	signori	signore	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+29-30	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+29	in	in	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	osteria	osteria	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = «Filetto al sugo!
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Filetto	filettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sugo	sugo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Costolette alla marsigliese!
+1	Costolette	Costolettere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	marsigliese	marsigliese	NOUN	S	Number=Sing	1	obl	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Servito!» Pietro non capiva la burla, ma capiva che lo burlavano, e mostrava i pugni ai monelli.
+1	Servito	servire	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	»	»	PUNCT	FB	_	1	punct	_	_
+4	Pietro	Pietro	PROPN	SP	_	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	capiva	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	burla	burla	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	capiva	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	burlavano	burlavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	mostrava	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20-21	ai	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	monelli	monello	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

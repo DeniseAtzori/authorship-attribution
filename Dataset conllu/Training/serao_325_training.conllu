@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fra quei due vi era un continuo scambio di vita.
+1	Fra	fra	ADP	E	_	3	case	_	_
+2	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	due	due	NUM	N	NumType=Card	8	obl	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	continuo	continuo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	scambio	scambio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Si sorridevano col medesimo sorriso;
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	sorridevano	sorridere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	col	_	_	_	_	_	_	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	medesimo	medesimo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = si guardavano e l'idea andava dall'uno all'altro, senza bisogno di parola.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	guardavano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	idea	idea	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	senza	senza	ADP	E	_	15	case	_	_
+15	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	parola	parola	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ancora egli sedeva ai piedi della madre e le appoggiava il capo sulle ginocchia, mentre la mano delicata e lieve di lei gli carezzava i capelli, mentre la voce bassa susurrava a lei le parole della vita--ma questo bambino era un uomo, a diciannove anni, forte, virile, coraggioso, apprezzatore sereno degli uomini e delle cose.
+1	Ancora	ancora	ADV	B	_	3	advmod	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	sedeva	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	madre	madre	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	iobj	_	_
+12	appoggiava	appoggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	capo	capo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	sulle	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	ginocchia	ginocchio	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	mentre	mentre	SCONJ	CS	_	28	mark	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	mano	mano	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+22	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	lieve	lieve	ADJ	A	Number=Sing	22	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+27	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+28	carezzava	carezzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	12	punct	_	_
+32	mentre	mentre	SCONJ	CS	_	36	mark	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	voce	voce	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	_
+35	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+36	susurrava	susurrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obl	_	_
+39	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	parole	parola	NOUN	S	Gender=Fem|Number=Plur	36	obj	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	vita--ma	vita--ma	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+44	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	45	det	_	_
+45	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	48	nsubj	_	_
+46	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	cop	_	_
+47	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	36	advcl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	48	punct	_	_
+50	a	a	ADP	E	_	52	case	_	_
+51	diciannove	diciannove	NUM	N	NumType=Card	52	nummod	_	_
+52	anni	anno	NOUN	S	Gender=Masc|Number=Plur	48	nmod	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	48	punct	_	_
+54	forte	forte	ADJ	A	Number=Sing	48	amod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	56	punct	_	_
+56	virile	virile	ADJ	A	Number=Sing	54	conj	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	58	punct	_	_
+58	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	54	conj	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	36	punct	_	_
+60	apprezzatore	apprezzatore	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+61	sereno	sereno	ADJ	A	Gender=Masc|Number=Sing	60	amod	_	_
+62-63	degli	_	_	_	_	_	_	_	_
+62	di	di	ADP	E	_	64	case	_	_
+63	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	64	det	_	_
+64	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	60	nmod	_	_
+65	e	e	CCONJ	CC	_	68	cc	_	_
+66-67	delle	_	_	_	_	_	_	_	_
+66	di	di	ADP	E	_	68	case	_	_
+67	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	68	det	_	_
+68	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	64	conj	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

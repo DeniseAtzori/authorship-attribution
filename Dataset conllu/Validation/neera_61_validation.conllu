@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mio cugino veniva regolarmente a trovarmi, sereno, calmo;
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	regolarmente	regolarmente	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	trovarmi	arma|trovarme	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	sereno	sereno	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	calmo	calmo	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = mi portava i suoi libri, li discuteva con me, voleva assolutamente che gliene dicessi il mio parere.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	libri	libro	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+8	discuteva	discutere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	parataxis	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	voleva	volere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	assolutamente	assolutamente	ADV	B	_	16	mark	_	_
+14	che	che	SCONJ	CS	_	13	fixed	_	_
+15	gliene	glenere	ADV	B	_	16	advmod	_	_
+16	dicessi	dicettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	advcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	parere	parere	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Io sbagliavo spesso ed Egli si accingeva a correggere le mie idee con pazienza, con una tenacia amorevole di uomo convinto, penetrato della sua missione.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sbagliavo	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	spesso	spesso	ADV	B	_	2	advmod	_	_
+4	ed	e	CCONJ	CC	_	7	cc	_	_
+5	Egli	Egli	PROPN	SP	_	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	accingeva	accingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	correggere	correggere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	idee	idea	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	pazienza	pazienza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tenacia	tenacia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+19	amorevole	amorevole	ADJ	A	Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	penetrato	penetrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	missione	missione	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Nei giorni migliori, quando lo capivo bene, gli si manifestava in volto una gran gioia e una luce spirituale raggiava nel sorriso che si schiudeva sulla sua bocca come un fiore al sole.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+4	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	quando	quando	SCONJ	CS	_	13	mark	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	capivo	capivo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+9	bene	bene	ADV	B	_	13	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	manifestava	manifestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	in	in	ADP	E	_	15	mark	_	_
+15	volto	volto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	gran	grande	ADJ	A	Number=Sing	18	amod	_	_
+18	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	luce	luce	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	spirituale	spirituale	ADJ	A	Number=Sing	21	amod	_	_
+23	raggiava	raggiavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	schiudeva	schiudevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	_
+30-31	sulla	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+34	come	come	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+37-38	al	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	sole	sole	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

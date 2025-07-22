@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutto il tempo della visita fui inquieto e distratto.
+1	Tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	visita	visita	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+7	fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	inquieto	inquieto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	distratto	distratto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Non udivo che cosa mi dicesse la mamma;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	udivo	udivo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	DET	DQ	PronType=Int	4	det	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	dicesse	dire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = mi voltavo ogni volta che s'apriva l'uscio;
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	voltavo	voltare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	SpaceAfter=No
+7	apriva	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ero sulle spine.
+1	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2-3	sulle	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	spine	spina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Che fosse già andata in campagna?
+1	Che	che	SCONJ	CS	_	4	advmod	_	_
+2	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = E non avessi a vederla per tutto l'anno;....
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	avessi	avettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	vederla	_	_	_	_	_	_	_	_
+5	veder	vedere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	;....	;....	PUNCT	FF	_	3	punct	_	_
+
+# sent_id = 7
+# text = e forse mai più!
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	forse	forse	ADV	B	_	4	advmod	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	più	più	ADV	B	_	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Suo fratello era maggiore di me; l'anno seguente doveva entrare all'Accademia.
+1	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
+2	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	4	punct	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	seguente	seguente	ADJ	A	Number=Sing	9	amod	_	_
+11	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	entrare	entrare	VERB	V	VerbForm=Inf	4	conj	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Accademia	Accademia	PROPN	SP	_	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

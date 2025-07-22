@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se andava in un teatro era alle terze rappresentazioni, in serate vuote;
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	terze	terzo	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+10	rappresentazioni	rappresentazione	NOUN	S	Gender=Fem|Number=Plur	9	compound	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	serate	serata	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+14	vuote	vuoto	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = e dieci minuti dopo il suo arrivo, entrava lui, nel palco, si sedeva in fondo, ella si tirava indietro, un poco.
+1	e	e	CCONJ	CC	_	9	cc	_	_
+2	dieci	dieci	NUM	N	NumType=Card	3	nummod	_	_
+3	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+4	dopo	dopo	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	palco	palco	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	sedeva	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	tirava	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+24	indietro	indietro	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	poco	poco	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Vestiva di scuro, sempre;
+1	Vestiva	Vestiva	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	scuro	scuro	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	sempre	sempre	ADV	B	_	1	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = sapeva di piacergli così.
+1	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	piacergli	_	_	_	_	_	_	_	_
+3	piacer	piacere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+5	così	così	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Si può essere una semplice amica, ma si deve piacere all'amico.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	semplice	semplice	ADJ	A	Number=Sing	6	amod	_	_
+6	amica	amico	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+10	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	piacere	piacere	VERB	V	VerbForm=Inf	6	conj	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	amico	amico	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

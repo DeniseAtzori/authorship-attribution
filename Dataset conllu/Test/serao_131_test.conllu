@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il Re entrò, improvvisamente:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Re	re	PROPN	SP	_	3	nsubj	_	_
+3	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	improvvisamente	improvviso	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = non era giunto il suono della marcia reale.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	suono	suono	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	marcia	marcia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	reale	reale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Egli comparve dalla porta di destra, in mezzo alla sua Casa, ai ministri, ai dieci deputati che lo avevano ricevuto, e in tre passi fu sotto al baldacchino, avanti alla poltrona:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	comparve	comparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	dalla	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	porta	porta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	destra	destra	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	ministri	ministro	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20-21	ai	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	dieci	dieci	NUM	N	NumType=Card	23	nummod	_	_
+23	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+26	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	37	punct	_	_
+29	e	e	CCONJ	CC	_	37	cc	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	tre	tre	NUM	N	NumType=Card	32	nummod	_	_
+32	passi	passo	NOUN	S	Gender=Masc|Number=Plur	37	obl	_	_
+33	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	cop	_	_
+34	sotto	sotto	ADV	B	_	37	advmod	_	_
+35-36	al	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	baldacchino	baldacchino	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	2	punct	_	_
+39	avanti	avanti	ADV	B	_	2	advmod	_	_
+40-41	alla	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+43	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = due o tre volte si voltò a destra, a sinistra, con quei suoi scatti nervosi, di temperamento irrequieto e mal represso.
+1	due	due	NUM	N	NumType=Card	4	nummod	_	_
+2	o	o	CCONJ	CC	_	4	cc	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	voltò	volte	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	destra	destra	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+15	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	scatti	scatto	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+17	nervosi	nervoso	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	temperamento	temperamento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+21	irrequieto	irrequieto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	mal	male	ADJ	A	Number=Sing	24	amod	_	_
+24	represso	represso	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

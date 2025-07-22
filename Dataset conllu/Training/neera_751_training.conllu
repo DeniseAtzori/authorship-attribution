@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma non potevano più reggere.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	reggere	reggere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Le parole ridotte a sillabe, a piccoli gridi gutturali, morivano nell’ansia dei loro petti.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+3	ridotte	ridurre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	sillabe	sillabo	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	gridi	gride	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+10	gutturali	gutturale	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	morivano	morire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13-14	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	petti	petto	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Il respiro affannoso di Moena seguiva da presso la donna:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	affannoso	affannoso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Moena	Moena	PROPN	SP	_	2	nmod	_	_
+6	seguiva	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	presso	presso	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = ella se lo sentiva penetrare nei capelli, sul collo nudo giù per il filo delle reni.
+1	ella	ellare	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	sentiva	sentiva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	penetrare	penetrare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	collo	collo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13	nudo	nudo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	giù	giù	ADV	B	_	12	advmod	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	filo	filo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	reni	reni	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = L’ultimo silenzio fu uno strazio di passione.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	strazio	strazio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	passione	passione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

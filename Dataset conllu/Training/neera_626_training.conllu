@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parlarono un po' di tempo di boschi, di montagne, di sentieri ombrosi, di escursioni da farsi tutti e tre insieme, perchè Flavio doveva andare a trovarle.
+1	Parlarono	Parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	boschi	bosco	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	montagne	montagna	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sentieri	sentiero	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+14	ombrosi	ombroso	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	escursioni	escursioni	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+18	da	da	ADP	E	_	19	mark	_	_
+19-20	farsi	_	_	_	_	_	_	_	_
+19	far	fare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	obj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	tre	tre	NUM	N	NumType=Card	21	conj	_	_
+24	insieme	insieme	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	perchè	perché	SCONJ	CS	_	29	mark	_	_
+27	Flavio	Flavio	PROPN	SP	_	29	nsubj	_	_
+28	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	andare	andare	VERB	V	VerbForm=Inf	1	advcl	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31-32	trovarle	_	_	_	_	_	_	_	SpaceAfter=No
+31	trovar	trovare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+32	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Elvira se lo fece promettere ripetutamente.
+1	Elvira	Elvirare	ADV	B	_	4	advmod	_	_
+2	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	promettere	promettere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	ripetutamente	ripetutamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = A poco a poco però l'ardore del conversare le venne meno, il corpo le si piegava spossato, affranto.
+1	A	a	ADP	E	_	2	case	_	_
+2	poco	poco	ADV	B	_	7	advmod	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	poco	poco	ADV	B	_	5	advmod	_	_
+5	però	però	ADV	B	_	7	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	conversare	conversare	VERB	V	VerbForm=Inf	7	nmod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	venne	venne	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	meno	meno	ADV	B	_	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+17	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+19	piegava	piegare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	spossato	spossato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	10	punct	_	_
+22	affranto	affranto	ADV	B	_	10	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

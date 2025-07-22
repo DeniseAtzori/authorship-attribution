@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Avevo promesso a Clelia di scriverle da Livorno la prima lettera.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Clelia	Clelia	PROPN	SP	_	3	obl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	scriverle	_	_	_	_	_	_	_	_
+7	scriver	scrivere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	7	obj	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	Livorno	Livorno	PROPN	SP	_	7	obl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma quando presi la penna per scrivere a lei che stimavo tanto, alla mia sposa, in una camera profanata dalla presenza di quell'avventuriera, sentii una profonda vergogna di me, e per non mentire non scrissi nulla.
+1	Ma	ma	CCONJ	CC	_	30	cc	_	_
+2	quando	quando	SCONJ	CS	_	3	mark	_	_
+3	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	penna	penna	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	scrivere	scrivere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	stimavo	stimavare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+12	tanto	tanto	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	camera	camera	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+22	profanata	profanare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23-24	dalla	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	22	obl:agent	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	quell'	quello	DET	DD	Number=Sing|PronType=Dem	28	det	_	SpaceAfter=No
+28	avventuriera	avventuriera	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	21	punct	_	_
+30	sentii	sentio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	40	punct	_	_
+37	e	e	CCONJ	CC	_	40	cc	_	_
+38	per	per	ADP	E	_	40	mark	_	_
+39	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+40	mentire	mentire	VERB	V	VerbForm=Inf	30	conj	_	_
+41	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+42	scrissi	scriggere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	40	conj	_	_
+43	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	42	obj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 3
+# text = L'amavo con tutta l'anima ma le ero infedele;
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amavo	amavo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	anima	anima	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+9	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	infedele	infedele	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = cosa avrei potuto dirle in quell'ora che non ripugnasse alla mia coscienza?
+1	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+2	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4-5	dirle	_	_	_	_	_	_	_	_
+4	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+5	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	quell'	quello	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	ripugnasse	ripugnare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,140 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ma se uno giunge alfine, perchè non sarei io?„
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	5	cc	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+5	giunge	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	alfine	alfine	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	perchè	perché	SCONJ	CS	_	11	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	advcl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+13	„	„	PUNCT	FF	_	11	punct	_	_
+
+# sent_id = 2
+# text = L’interruzione mi viene fatta da una soave voce femminile.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	interruzione	interruzione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	soave	soave	ADJ	A	Number=Sing	9	amod	_	_
+9	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+10	femminile	femminile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ebbene, sì, perchè non sareste voi?
+1	Ebbene	ebbene	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sì	sì	INTJ	I	Polarity=Pos	7	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	perchè	perché	SCONJ	CS	_	7	advmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	sareste	saredere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Vi prendo in parola signora.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	expl	_	_
+2	prendo	prendere	VERB	V	VerbForm=Ger	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	parola	parola	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	signora	signore	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ecco dunque che avete rinunciato alla speranza dei lauti guadagni, che avete visto in qual modo il pubblico accoglie le nuove pubblicazioni e sapete quanta fatica e quanta coscienza costa un libro sul quale il primo venuto può sputar sopra impunemente e sapete il calcolo che vi è permesso fare sull’aiuto degli amici, sulla solerzia degli editori, sull’intelligenza dei critici.
+1	Ecco	ecco	ADV	B	_	22	advmod	_	_
+2	dunque	dunque	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	rinunciato	rinunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	lauti	lauta	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	guadagni	guadagno	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	qual	equale	DET	DQ	Number=Sing|PronType=Int	19	det	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+22	accoglie	accogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+25	pubblicazioni	pubblicazione	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	conj	_	_
+28	quanta	quanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	29	det	_	_
+29	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	quanta	quanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	32	det	_	_
+32	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	29	conj	_	_
+33	costa	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	libro	libro	NOUN	S	Gender=Masc|Number=Sing	33	nsubj	_	_
+36-37	sul	_	_	_	_	_	_	_	_
+36	su	su	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	quale	quale	PRON	PR	Number=Sing|PronType=Rel	43	obl	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	41	amod	_	_
+41	venuto	venuto	NOUN	S	Gender=Masc|Number=Sing	43	nsubj	_	_
+42	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	sputar	sputare	VERB	V	VerbForm=Inf	35	acl:relcl	_	_
+44	sopra	sopra	ADP	E	_	45	case	_	_
+45	impunemente	impunemente	ADV	B	_	43	advmod	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	43	conj	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	47	obj	_	_
+50	che	che	PRON	PR	PronType=Rel	53	nsubj	_	_
+51	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	53	expl	_	_
+52	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux	_	_
+53	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	acl:relcl	_	_
+54	fare	fare	VERB	V	VerbForm=Inf	53	xcomp	_	_
+55-56	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+55	su	su	ADP	E	_	57	case	_	_
+56	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	57	det	_	_
+57	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	54	obl	_	_
+58-59	degli	_	_	_	_	_	_	_	_
+58	di	di	ADP	E	_	60	case	_	_
+59	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	60	det	_	_
+60	amici	amico	NOUN	S	Gender=Masc|Number=Plur	57	nmod	_	SpaceAfter=No
+61	,	,	PUNCT	FF	_	64	punct	_	_
+62-63	sulla	_	_	_	_	_	_	_	_
+62	su	su	ADP	E	_	64	case	_	_
+63	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	solerzia	solerzia	NOUN	S	Gender=Fem|Number=Sing	57	conj	_	_
+65-66	degli	_	_	_	_	_	_	_	_
+65	di	di	ADP	E	_	67	case	_	_
+66	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	67	det	_	_
+67	editori	editore	NOUN	S	Gender=Masc|Number=Plur	64	nmod	_	SpaceAfter=No
+68	,	,	PUNCT	FF	_	71	punct	_	_
+69-70	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+69	su	su	ADP	E	_	71	case	_	_
+70	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	71	det	_	_
+71	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	57	conj	_	_
+72-73	dei	_	_	_	_	_	_	_	_
+72	di	di	ADP	E	_	74	case	_	_
+73	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	74	det	_	_
+74	critici	critico	NOUN	S	Gender=Masc|Number=Plur	71	nmod	_	SpaceAfter=No
+75	.	.	PUNCT	FS	_	33	punct	_	SpacesAfter=\n
+

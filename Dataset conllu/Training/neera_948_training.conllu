@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella si pose un dito sulle labbra invitandolo al silenzio ma tutte le sue torture l’avevano ripresa.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dito	dito	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	sulle	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9-10	invitandolo	_	_	_	_	_	_	_	_
+9	invitando	invitare	VERB	V	VerbForm=Ger	3	advcl	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	ma	ma	CCONJ	CC	_	21	cc	_	_
+15	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	18	det:predet	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	torture	tortura	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+19	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+20	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	ripresa	riprendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Eccola dunque, lei, l’invincibile, nella camera del suo amante;
+1	Eccola	Eccolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dunque	dunque	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	invincibile	invincibila	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	camera	camera	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	amante	amante	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = eccola travolta dalla volgarità dei soliti amori, decaduta da tutti i suoi sogni.
+1	eccola	eccolo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	travolta	travolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	dalla	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	volgarità	volgarità	NOUN	S	Gender=Fem	2	obl:agent	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	soliti	solito	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	amori	amore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	decaduta	decadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+12	da	da	ADP	E	_	16	case	_	_
+13	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	16	det:predet	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Potrebbe lasciare anche lei un ricordo in quella casa un nastro, un guanto, e quel nastro e quel guanto andrebbero confusi chi sa con quanti altri, dimenticato alfine, spazzato via....
+1	Potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	lasciare	lasciare	VERB	V	VerbForm=Inf	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nastro	nastro	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	guanto	guanto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	nastro	nastro	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	guanto	guanto	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+22	andrebbero	andere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+23	confusi	confondere	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+24	chi	chi	PRON	PR	PronType=Rel	22	nsubj	_	_
+25	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	28	det	_	_
+28	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+31	alfine	alfine	ADV	B	_	30	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	spazzato	spazzato	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	via...	via.	NOUN	S	_	30	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

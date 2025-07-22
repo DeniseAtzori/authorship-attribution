@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'indomani replica dell'incontro dal pasticciere, e dell'inseguimento fino in via Cernaia.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	indomani	indomani	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	replica	replico	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pasticciere	pasticciere	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	inseguimento	inseguimento	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+15	fino	fino	ADV	B	_	18	case	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	via	via	NOUN	S	Gender=Fem|Number=Sing	15	fixed	_	_
+18	Cernaia	Cernaia	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Quel giorno pranzai in una trattoria da quelle parti per non iscostarmi troppo, e verso le sette andai a passeggiare dinanzi alla palazzina aspettando di vedere il servitore.
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	pranzai	pranzare	ADV	B	_	6	advmod	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	trattoria	trattoria	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	parti	parte	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	per	per	ADP	E	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12-13	iscostarmi	_	_	_	_	_	_	_	_
+12	iscostar	iscostare	VERB	V	VerbForm=Inf	2	acl	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	troppo	troppo	ADV	B	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	verso	verso	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	sette	sette	NUM	N	NumType=Card	20	obl	_	_
+20	andai	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	passeggiare	passeggiare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	dinanzi	dinanzi	ADV	B	_	26	case	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	palazzina	palazzina	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+27	aspettando	aspettare	VERB	V	VerbForm=Ger	22	advcl	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	vedere	vedere	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	servitore	servitore	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Avevo preparato un biglietto rispettoso, serio, pratico, degno d'una giovine inglese.
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	preparato	preparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	rispettoso	rispettoso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	serio	serio	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	pratico	pratico	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	degno	degno	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+12	d'	da	ADP	E	_	14	case	_	SpaceAfter=No
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	giovine	giovina	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	inglese	inglese	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

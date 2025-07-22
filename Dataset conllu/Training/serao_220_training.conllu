@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era a piazza Venezia, quando si decise.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	Venezia	Venezia	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	quando	quando	SCONJ	CS	_	8	mark	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	decise	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = E prese per il Corso, sulla diritta.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Corso	Corso	PROPN	SP	_	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	diritta	diritta	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Qualcuno lo salutò, egli non riconobbe chi fosse e passò innanzi:
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	salutò	salute	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	riconobbe	riconoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	obj	_	_
+9	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+12	innanzi	innanzi	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = varii lo fermarono, eran creditori di piccole, di grandi somme e la domanda variava, ora brutale, ora piagnolosa, ma insistente, ma implacabile, lo avean saputo ricco e gli avean fatto credito, e credevan che avesse denaro ancora, credean che si negasse per mala volontà.
+1	varii	varire	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	fermarono	fermarono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	eran	eran	ADJ	A	_	6	amod	_	_
+6	creditori	creditore	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+7	di	di	ADP	E	_	12	case	_	_
+8	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	grandi	grande	ADJ	A	Number=Plur	12	amod	_	_
+12	somme	somma	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+16	variava	variavo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	ora	ora	ADV	B	_	19	advmod	_	_
+19	brutale	brutale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	ora	ora	ADV	B	_	22	advmod	_	_
+22	piagnolosa	piagnoloso	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	ma	ma	CCONJ	CC	_	25	cc	_	_
+25	insistente	insistente	ADJ	A	Number=Sing	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	ma	ma	CCONJ	CC	_	28	cc	_	_
+28	implacabile	implacabile	ADJ	A	Number=Sing	22	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	15	punct	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	avean	avean	NOUN	S	Gender=Masc|Number=Sing	15	appos	_	_
+32	saputo	sapere	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+33	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	avean	avean	NOUN	S	Gender=Masc	33	conj	_	_
+37	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
+38	credito	credito	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	15	punct	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	credevan	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+42	che	che	SCONJ	CS	_	43	mark	_	_
+43	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	ccomp	_	_
+44	denaro	denarare	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+45	ancora	ancora	ADV	B	_	43	advmod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	43	punct	_	_
+47	credean	credean	NOUN	S	Gender=Masc	43	obj	_	_
+48	che	che	PRON	PR	PronType=Rel	50	nsubj	_	_
+49	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	50	expl	_	_
+50	negasse	negare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	47	acl:relcl	_	_
+51	per	per	ADP	E	_	53	case	_	_
+52	mala	malo	ADJ	A	Gender=Fem|Number=Sing	53	amod	_	_
+53	volontà	volontà	NOUN	S	Gender=Fem	50	obl	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

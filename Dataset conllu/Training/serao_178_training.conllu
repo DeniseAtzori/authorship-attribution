@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi, le nuvole si addensarono un poco:
+1	Poi	poi	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	addensarono	addensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	poco	poco	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = il cielo si oscurò:
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	oscurò	oscurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = essi, ridendo, amandosi, adorandosi, crearono un ricovero di una capanna dal tetto sfondato:
+1	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ridendo	ridere	VERB	V	VerbForm=Ger	11	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	amandosi	_	_	_	_	_	_	_	SpaceAfter=No
+5	amando	amare	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8-9	adorandosi	_	_	_	_	_	_	_	SpaceAfter=No
+8	adorando	adorare	VERB	V	VerbForm=Ger	5	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	crearono	creare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ricovero	ricovero	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	capanna	capanna	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tetto	tetto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	sfondato	sfondato	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 4
+# text = ma ne uscirono subito, per correre sotto una grande quercia: pure, la pioggia li colse e tutta la veste di seta fu bagnata.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	uscirono	uscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	subito	subito	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	correre	correre	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	sotto	sotto	ADP	E	_	11	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	quercia	quercia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	_
+13	pure	pure	ADV	B	_	18	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+18	colse	cogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+19	e	e	CCONJ	CC	_	26	cc	_	_
+20	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	22	det:predet	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	veste	veste	NOUN	S	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	seta	seta	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	bagnata	bagnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = _Madame la marquise_ fu così lieta e così felice per quella pioggia che le rovinava la sua bella veste e batteva i suoi piedini in terra e il suo amante, in quell'ora, credette di morire d'amore!
+1	_Madame	_Madame	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	marquise_	ExtraSubj=Yes|marquise_	PUNCT	FB	_	6	punct	_	_
+4	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	così	così	ADV	B	_	6	advmod	_	_
+6	lieta	lieto	ADJ	A	Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	felice	felice	ADJ	A	Number=Sing	6	conj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+15	rovinava	rovinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+18	bella	bello	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	veste	veste	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	batteva	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	piedini	piedine	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	terra	terra	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	amante	amante	NOUN	S	Number=Sing	6	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	quell'	quello	DET	DD	Number=Sing|PronType=Dem	34	det	_	SpaceAfter=No
+34	ora	ora	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	30	punct	_	_
+36	credette	credere	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+37	di	di	ADP	E	_	38	mark	_	_
+38	morire	morire	VERB	V	VerbForm=Inf	36	acl	_	_
+39	d'	di	ADP	E	_	40	case	_	SpaceAfter=No
+40	amore	amore	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
+41	!	!	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

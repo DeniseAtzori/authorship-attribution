@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --«Vi sono periodi nella vita in cui si sveglia nell'uomo tutta la parte che gli è toccata nella grande eredità del male.
+1	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	periodi	periodare	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	sveglia	svegliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	19	det:predet	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	toccata	toccare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	27	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	grande	grande	ADJ	A	Number=Sing	27	amod	_	_
+27	eredità	eredità	NOUN	S	Gender=Fem	23	obl	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	male	male	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Io mi trovo in uno di cotesti periodi.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	cotesti	cotesto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	periodi	periodo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Non mi sono mai sentito così parente (alla lontana) coi malfattori d'alta e bassa sfera, come ora, e pensando a voi ed al giovane tedesco.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	così	così	ADV	B	_	5	advmod	_	_
+7	parente	parente	ADV	B	_	5	advmod	_	_
+8	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	lontana	lontano	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	_
+13-14	coi	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	malfattori	malfattore	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+16	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+17	alta	alto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	_
+20	sfera	sfera	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22	come	come	ADP	E	_	23	case	_	_
+23	ora	ora	ADV	B	_	5	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	pensando	pensare	VERB	V	VerbForm=Ger	5	conj	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	26	obl	_	_
+29	ed	e	CCONJ	CC	_	32	cc	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	giovane	giovane	NOUN	S	Number=Sing	28	conj	_	_
+33	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

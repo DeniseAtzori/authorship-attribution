@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così è di me, lettori.
+1	Così	così	ADV	B	_	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	lettori	lettore	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Sto liquidando l'aureo capitale delle memorie, e mi appiglio ai piccoli fatti, ai particolari, alle sensazioni mute;
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	liquidando	liquidare	VERB	V	VerbForm=Ger	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	aureo	aureo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	capitale	capitale	ADJ	A	Number=Sing	4	amod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	memorie	memoria	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	expl	_	_
+12	appiglio	appigliare	ADV	B	_	2	conj	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18-19	ai	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	particolari	particolare	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22-23	alle	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	sensazioni	sensazione	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+25	mute	muto	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = e tremo di por mano al grande avvenimento che forma la base del mio romanzo, delle mie gioie, perchè sento che con quello avrò esaurito il tesoro delle dolci ricordanze;
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	tremo	tre	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	por	porre	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+9	avvenimento	avvenimento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	forma	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	base	base	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	gioie	gioia	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	perchè	perché	SCONJ	CS	_	25	mark	_	_
+25	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+26	che	che	SCONJ	CS	_	29	mark	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	29	obl	_	_
+29	avrò	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	25	ccomp	_	_
+30	esaurito	esaurire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	xcomp	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	tesoro	tesoro	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+35	dolci	dolce	ADJ	A	Number=Plur	36	amod	_	_
+36	ricordanze	ricordanza	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+37	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = mi resterà il dolore, la prosa....
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	resterà	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	prosa...	prosa...	NOUN	S	_	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = poi l'isolamento, la miseria del cuore.
+1	poi	poi	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	isolamento	isolamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	miseria	miseria	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

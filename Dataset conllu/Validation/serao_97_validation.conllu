@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La guantaia bionda e ridente non si stancava, non perdeva mai la testa, si chinava sempre amabilmente, rispondeva con una cortesia di venditrice signorile settentrionale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	guantaia	guantaia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	bionda	biondo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	ridente	ridente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	stancava	stancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	perdeva	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+12	mai	mai	ADV	B	_	11	advmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	testa	testa	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	chinava	chinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+18	sempre	sempre	ADV	B	_	17	advmod	_	_
+19	amabilmente	amabilmente	ADV	B	_	17	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	cortesia	cortesia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	venditrice	venditore	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	signorile	signorile	ADJ	A	Number=Sing	26	amod	_	_
+28	settentrionale	settentrionale	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Aveva consumata la sua provvisione di cravatte bianche, e quando arrivò l'onorevole di Santamarta, un siciliano biondo, dall'aria mefistofelica, a chiederne una, ella si desolò:
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	consumata	consumare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	provvisione	provvisione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	cravatte	cravatta	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	34	punct	_	_
+10	e	e	CCONJ	CC	_	34	cc	_	_
+11	quando	quando	SCONJ	CS	_	12	mark	_	_
+12	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	advcl	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	onorevole	onorevole	NOUN	S	Number=Sing	12	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Santamarta	Santamarta	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	siciliano	siciliano	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+20	biondo	biondo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	12	punct	_	_
+22-23	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+22	da	da	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	aria	aria	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+25	mefistofelica	mefistofelico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	12	punct	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28-29	chiederne	_	_	_	_	_	_	_	_
+28	chieder	chiedere	VERB	V	VerbForm=Inf	12	advcl	_	_
+29	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	28	iobj	_	_
+30	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	28	obj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	12	punct	_	_
+32	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+34	desolò	desolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = il marchese di Santamarta era un cliente di tutto l'anno.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	marchese	marchese	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Santamarta	Santamarta	PROPN	SP	_	2	nmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cliente	cliente	NOUN	S	Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nmod	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	anno	anno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

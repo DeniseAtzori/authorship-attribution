@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La sua voce era velata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	velata	velare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = China la fronte sull’omero dell’Unica sembrava riposare in soave dolcezza come uno che da gran tempo non riposa, e lei, sovrastandogli col capo, muta lo riguardava alla tenue chiarità del cielo che per la finestra aperta rompeva appena le tenebre con un lontano riflesso lunare.
+1	China	Chinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fronte	fronte	NOUN	S	Number=Sing	10	nsubj	_	_
+4-5	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+4	su	su	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	omero	omero	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Unica	unica	PROPN	SP	_	6	nmod	_	_
+10	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+11	riposare	riposare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	soave	soave	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	dolcezza	dolcezzare	ADV	B	_	13	advmod	_	_
+15	come	come	ADP	E	_	16	case	_	_
+16	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	gran	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	riposa	riposare	ADJ	A	_	16	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	10	punct	_	_
+27-28	sovrastandogli	_	_	_	_	_	_	_	_
+27	sovrastando	sovrastare	VERB	V	VerbForm=Ger	10	advcl	_	_
+28	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+29-30	col	_	_	_	_	_	_	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	capo	capo	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	10	punct	_	_
+33	muta	muta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+34	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+35	riguardava	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	advcl	_	_
+36-37	alla	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	39	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	tenue	tenue	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	chiarità	chiarità	NOUN	S	Gender=Fem	35	obl	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43	che	che	PRON	PR	PronType=Rel	48	nsubj	_	_
+44	per	per	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	48	obl	_	_
+47	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	_
+48	rompeva	rompevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	acl:relcl	_	_
+49	appena	appena	ADV	B	_	51	advmod	_	_
+50	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
+51	tenebre	tenebra	NOUN	S	Gender=Fem|Number=Plur	48	obj	_	_
+52	con	con	ADP	E	_	55	case	_	_
+53	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+54	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	55	amod	_	_
+55	riflesso	riflesso	NOUN	S	Gender=Masc|Number=Sing	51	nmod	_	_
+56	lunare	lunare	ADJ	A	Number=Sing	55	amod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sentiva l’amata la gravità dell’ora adducente una fase nuova al loro affetto e desiderosa di cimentare il proprio coraggio gli alitò sul volto:
+1	Sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	amata	amato	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gravità	gravità	NOUN	S	Gender=Fem	9	nsubj	_	_
+6-7	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	adducente	adducente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fase	fase	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	affetto	affetto	ADJ	A	Gender=Masc|Number=Sing	11	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	desiderosa	desiderosa	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	cimentare	cimentare	VERB	V	VerbForm=Inf	11	acl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
+25	alitò	alitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	advcl	_	_
+26-27	sul	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	volto	volto	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = — Parli.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2-3	Parli	_	_	_	_	_	_	_	SpaceAfter=No
+2	Par	Parre	VERB	V	VerbForm=Inf	0	root	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

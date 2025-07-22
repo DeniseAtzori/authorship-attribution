@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Nulla glielo impedisce nell'eccitamento di una crisi politica, nell'ardore di una battaglia; ma il giorno dopo tornerà ad essere estraneo a tutto quel che si fa pel suo paese;
+1	--Nulla	--Nulla	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	glielo	_	_	_	_	_	_	_	_
+2	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	iobj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+4	impedisce	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5-6	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	eccitamento	eccitamento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	crisi	crisi	NOUN	S	Gender=Fem	7	nmod	_	_
+11	politica	politico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13-14	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	24	punct	_	_
+20	ma	ma	CCONJ	CC	_	24	cc	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+23	dopo	dopo	ADV	B	_	22	advmod	_	_
+24	tornerà	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+25	ad	a	ADP	E	_	27	mark	_	_
+26	essere	essere	AUX	V	VerbForm=Inf	27	cop	_	_
+27	estraneo	estraneo	ADJ	A	Gender=Masc|Number=Sing	24	xcomp	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_
+30	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	27	obl	_	_
+31	che	che	PRON	PR	PronType=Rel	33	obj	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl:impers	_	_
+33	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+34-35	pel	_	_	_	_	_	_	_	_
+34	per	per	ADP	E	_	37	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	paese	paese	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+38	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = sarà sempre un prete, ed io sento che son nato per essere un soldato.
+1	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+2	sempre	sempre	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	prete	prete	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ed	e	CCONJ	CC	_	8	cc	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	son	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+12	per	per	ADP	E	_	15	mark	_	_
+13	essere	essere	AUX	V	VerbForm=Inf	15	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	soldato	soldato	NOUN	S	Gender=Masc|Number=Sing	11	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Oh, se non avessi quel benefizio che mi lega...
+1	Oh	oh	INTJ	I	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	avessi	avere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	advcl	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	benefizio	benefizio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	acl:relcl	_	_
+10	lega...	lega.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

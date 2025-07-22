@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Giorgio era pallidissimo;
+1	Giorgio	Giorgio	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	pallidissimo	pallido	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = aveva l'occhio spento;
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	spento	spento	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = una nube di tristezza pareva velargli la fronte;
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nube	nube	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	velargli	_	_	_	_	_	_	_	_
+6	velar	velare	VERB	V	VerbForm=Inf	5	advcl	_	_
+7	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fronte	fronte	NOUN	S	Number=Sing	6	obj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = i suoi atti erano lenti, la sua voce fioca.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	atti	atto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	lenti	lento	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+10	fioca	fioco	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Disse:
+1	Disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = «_Buona sera, Fulvia_» come avrebbe detto «_Requiescat in pace_.»
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	_Buona	_Buona	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Fulvia_	Fulvia-	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	5	punct	_	_
+7	come	come	SCONJ	CS	_	9	mark	_	_
+8	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+10	«	«	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	_Requiescat	_Requiescat	PROPN	SP	_	9	nsubj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	pace_	pace-	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	5	punct	_	_
+
+# sent_id = 7
+# text = Lo trovai molto ridicolo.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	trovai	trovare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	ridicolo	ridicolo	NOUN	S	Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Gli gridai alla mia volta «_Buona sera, Giorgio!_» come avrei gridato «_Viva l'Italia!_»
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	gridai	gridaio	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	_Buona	_Buona	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	Giorgio	Giorgio	PROPN	SP	_	2	appos	_	SpaceAfter=No
+12	!_	!_	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	11	punct	_	_
+14	come	come	SCONJ	CS	_	16	mark	_	_
+15	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	gridato	gridare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+17	«	«	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	_Viva	_viva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	Italia!_	italia!_	PROPN	SP	_	18	obj	_	SpaceAfter=No
+21	»	»	PUNCT	FB	_	18	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’unica figliuola di un albergatore ricco:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	figliuola	figliuola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	albergatore	albergatore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = non ha la mamma.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Il padre, che l’adora, l’ha affidata alla cameriera maggiore che se la porta dapertutto, in cucina, in cantina, nelle soffitte, negli appartamenti, al salone di ricevimento, sempre con lei.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	adora	adora	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	affidata	affidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cameriera	cameriera	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+19	dapertutto	dapertutto	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	10	punct	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	cantina	cantina	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	10	punct	_	_
+27-28	nelle	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	soffitte	soffitta	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31-32	negli	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	appartamenti	appartamento	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	10	punct	_	_
+35-36	al	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	salone	salone	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	ricevimento	ricevimento	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	10	punct	_	_
+41	sempre	sempre	ADV	B	_	43	advmod	_	_
+42	con	con	ADP	E	_	43	case	_	_
+43	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = La bambina — dieci anni — vive in questo grande andirivieni, tra una folla che si rinnova sempre.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	—	—	PUNCT	FF	_	2	punct	_	_
+4	dieci	dieci	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	—	—	PUNCT	FF	_	7	punct	_	_
+7	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	andirivieni	andirivieno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	tra	tra	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	folla	folla	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	rinnova	rinnovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	sempre	sempre	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

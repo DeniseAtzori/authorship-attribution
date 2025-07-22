@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non voleva dimenticare.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	dimenticare	dimenticare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Al contrario, se vi era pensiero dolce per lei in fondo al suo dolore era appunto la sicurezza del ricordo perenne, di un legame ininterrotto collo spirito di colui che ella sentiva ancora vibrare intensamente dentro di sè.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	se	se	SCONJ	CS	_	8	mark	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+9	dolce	dolce	ADJ	A	Number=Sing	8	amod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+19	appunto	appunto	ADV	B	_	21	advmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	perenne	perenne	ADJ	A	_	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	legame	legame	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+30	ininterrotto	ininterrurre	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	collo	collo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+32	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	colui	colui	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	32	nmod	_	_
+35	che	che	PRON	PR	PronType=Rel	37	obj	_	_
+36	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	acl:relcl	_	_
+38	ancora	ancora	ADV	B	_	37	advmod	_	_
+39	vibrare	vibrare	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	intensamente	intenso	ADV	B	_	39	advmod	_	_
+41	dentro	dentro	ADV	B	_	43	case	_	_
+42	di	di	ADP	E	_	41	fixed	_	_
+43	sè	sè	PRON	PE	Person=3|PronType=Prs	39	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 3
+# text = Suo padre non era stato solamente l'autore de' suoi giorni, la persona che le tradizioni, l'abitudine, l'interesse insegnano a obbedire e ad amare.
+1	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	solamente	solo	ADV	B	_	8	advmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	autore	autore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	de'	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	persona	persona	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+16	che	che	PRON	PR	PronType=Rel	25	obj	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	tradizioni	tradizione	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	abitudine	abitudine	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+25	insegnano	insegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	obbedire	obbedire	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	ad	a	ADP	E	_	30	mark	_	_
+30	amare	amare	VERB	V	VerbForm=Inf	27	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

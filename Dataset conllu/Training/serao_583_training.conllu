@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bisogna pensare sovra ogni altra cosa che ella è una donna fatta per l'amore, che ella è buonina, ma che è anche un poco stupida.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pensare	pensare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	sovra	sovrare	ADP	E	_	6	case	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+5	altra	altro	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+18	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20	buonina	buonina	ADJ	A	Gender=Fem|Number=Sing	19	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	28	punct	_	_
+22	ma	ma	CCONJ	CC	_	28	cc	_	_
+23	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+25	anche	anche	ADV	B	_	27	advmod	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	poco	poco	ADV	B	_	28	advmod	_	_
+28	stupida	stupida	ADJ	A	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Per aggiungere un ultimo tratto, Chérie è quasi sempre allegra:
+1	Per	per	ADP	E	_	2	mark	_	_
+2	aggiungere	aggiungere	VERB	V	VerbForm=Inf	11	advcl	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	Chérie	Chérie	PROPN	SP	_	11	nsubj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	quasi	quasi	ADV	B	_	10	advmod	_	_
+10	sempre	sempre	ADV	B	_	11	advmod	_	_
+11	allegra	allegro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = il che è consolante, per chi la conosce e per chi le vuol bene.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	consolante	consolare	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	obl	_	_
+8	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	conosce	conoscia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	conj	_	_
+13	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	vuol	volere	ADJ	A	_	15	amod	_	_
+15	bene	bene	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ella crede che l'allegria conservi la salute e la beltà;
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	allegria	allegria	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	conservi	conservare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	salute	salute	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	beltà	beltà	NOUN	S	Gender=Fem	8	conj	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = e a trenta anni, per questo, pare molto più giovane.
+1	e	e	CCONJ	CC	_	9	cc	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	trenta	trenta	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	molto	molto	ADV	B	_	9	advmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	giovane	giovane	ADJ	A	Number=Sing	9	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma le mani mi tremavano convulse, e la voce poi!
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	mani	mano	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	tremavano	tremare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	convulse	convulso	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	poi	poi	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = M'attaccai al cordone del campanello, e suonai come se avesse preso fuoco alla stanza.
+1	M'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
+2	attaccai	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cordone	cordone	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	suonai	suonare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	come	come	ADV	B	_	15	advmod	_	_
+13	se	se	SCONJ	CS	_	15	mark	_	_
+14	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+16	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non avevo che questo pensiero:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = _svegliarlo!_
+1-2	_svegliarlo	_	_	_	_	_	_	_	SpaceAfter=No
+1	_svegliar	_svegliare	VERB	V	VerbForm=Inf	0	root	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	!_	!_	PUNCT	FF	_	1	punct	_	_
+
+# sent_id = 5
+# text = Così quando un servo ed una cameriera accorsero spaventati per vedere che cosa accadesse, fui sul punto di gridare:
+1	Così	così	ADV	B	_	8	advmod	_	_
+2	quando	quando	SCONJ	CS	_	8	mark	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	servo	servo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	ed	e	CCONJ	CC	_	7	cc	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cameriera	cameriera	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+8	accorsero	accordere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	spaventati	spaventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	advcl	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	vedere	vedere	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	14	nsubj	_	_
+14	accadesse	accadere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	fui	fuo	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	punto	punto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	gridare	gridare	VERB	V	VerbForm=Inf	19	acl	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 6
+# text = È svegliato?
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	svegliato	svegliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Per buona sorte l'abitudine della società ci muta la natura e ci governa.
+1	Per	per	ADP	E	_	3	case	_	_
+2	buona	buono	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	abitudine	abitudine	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	società	società	NOUN	S	Gender=Fem	5	nmod	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	iobj	_	_
+10	muta	mutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	natura	natura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+15	governa	governare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

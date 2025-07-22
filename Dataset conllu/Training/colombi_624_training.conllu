@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La risposta, sebbene molto ritardata, era piena di malinconia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	sebbene	sebbene	CCONJ	CC	_	6	cc	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	ritardata	ritardato	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = La mamma ritrovava tutta la sua tenerezza.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ritrovava	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	7	det:predet	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = «Si struggeva di vedere Marco.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	struggeva	struggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	vedere	vedere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	Marco	Marco	PROPN	SP	_	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Sapeva che la vita attiva lo aveva fortificato, che era anzi sulla via d'ingrassare.
+1	Sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	attiva	attivo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	fortificato	fortificato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+12	anzi	anzi	ADV	B	_	15	advmod	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	via	via	NOUN	S	Gender=Fem|Number=Sing	8	acl:relcl	_	_
+16	d'	da	ADP	E	_	17	mark	_	SpaceAfter=No
+17	ingrassare	ingrassare	VERB	V	VerbForm=Inf	15	acl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Il medico glie lo aveva scritto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	medico	medico	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	iobj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Le era riserbata quella gioia dopo tanti dolori, di sapere che suo figlio vivrebbe lungamente, sano, con una famiglia rigogliosa.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	riserbata	riserbare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	sapere	sapere	VERB	V	VerbForm=Inf	3	advcl	_	_
+12	che	che	SCONJ	CS	_	15	mark	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	vivrebbe	vivere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	lungamente	lungo	ADV	B	_	18	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	sano	sare	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+23	rigogliosa	rigoglioso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Oh quanto desiderava di vederla quella famiglia, quanto!»
+1	Oh	oh	INTJ	I	_	3	discourse	_	_
+2	quanto	quanto	ADV	B	_	3	advmod	_	_
+3	desiderava	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	vederla	_	_	_	_	_	_	_	_
+5	veder	vedere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	quanto	quanto	ADV	B	_	3	advmod	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	3	punct	_	SpacesAfter=\n
+

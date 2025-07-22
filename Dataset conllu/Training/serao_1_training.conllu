@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La prima volta in cui Nino Stresa mi mancò di rispetto, fu in un ballo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+6	Nino	Nino	PROPN	SP	_	9	nsubj	_	_
+7	Stresa	Stresa	PROPN	SP	_	6	flat:name	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	mancò	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ballo	ballo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = Ero vestita di broccato bianco, quella sera:
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	broccato	broccato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = e il busto del vestito era sostenuto, sulle spalle, da due fascie di brillanti che formavano manica.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	busto	busto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	sostenuto	sostenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10-11	sulle	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	due	due	NUM	N	NumType=Card	16	nummod	_	_
+16	fascie	fascie	NOUN	S	Gender=Fem|Number=Plur	8	obl:agent	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	brillanti	brillante	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	formavano	formavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+21	manica	manico	ADJ	A	Gender=Fem|Number=Sing	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Egli, Nino Stresa, mi cominciò a guardare, di lontano, poco dopo la mia apparizione nel ballo:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Nino	Nino	PROPN	SP	_	1	appos	_	_
+4	Stresa	Stresa	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	guardare	guardare	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	lontano	lontano	ADV	B	_	7	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	poco	poco	ADV	B	_	18	advmod	_	_
+15	dopo	dopo	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	apparizione	apparizione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ballo	ballo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 5
+# text = e non potei più fare un movimento per passeggiare o per ballare, senza sentire il suo sguardo fermo sovra me.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	potei	poteo	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	csubj	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	passeggiare	passeggiare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	o	o	CCONJ	CC	_	12	cc	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	ballare	ballare	VERB	V	VerbForm=Inf	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	senza	senza	ADP	E	_	15	mark	_	_
+15	sentire	sentire	VERB	V	VerbForm=Inf	3	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19	fermo	fermo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	sovra	sovrare	ADP	E	_	21	case	_	_
+21	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

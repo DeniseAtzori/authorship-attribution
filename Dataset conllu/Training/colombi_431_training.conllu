@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Cara mamma.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = I miei studi sono compiuti gloriosamente;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	studi	studio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	compiuti	compiere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	gloriosamente	gloriosamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = l'esito dell'esame è più che sicuro;
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	esito	esito	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	esame	esame	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	più	più	ADV	B	_	9	advmod	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 4
+# text = credo anzi che mi manderanno la banda municipale per farmi onore, perchè pare che io abbia un ingegno sorprendente.
+1	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anzi	anzi	ADV	B	_	5	mark	_	_
+3	che	che	SCONJ	CS	_	2	fixed	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	manderanno	mandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	banda	banda	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	municipale	municipale	ADJ	A	Number=Sing	7	amod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	onore	onore	NOUN	S	Gender=Masc|Number=Sing	10	compound	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	perchè	perché	SCONJ	CS	_	14	mark	_	_
+14	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ingegno	ingegno	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	sorprendente	sorprendente	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Tutti ne parlano;
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = una contessa _di mia intima conoscenza_, mi assicura che _tutta la parte intelligente e gentile di Torino corre a portarmi il suo tributo d'ammirazione_.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	contessa	contesso	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	_di	_do	ADJ	A	Number=Plur	5	amod	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	intima	intima	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+6	conoscenza_	ExtraSubj=Yes|conoscenza_	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	assicura	assicurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	19	mark	_	_
+11	_tutta	_tuttare	DET	T	Gender=Fem|Number=Sing|PronType=Tot	13	det	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+14	intelligente	intelligente	ADJ	A	Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	gentile	gentile	ADJ	A	Number=Sing	14	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Torino	Torino	PROPN	SP	_	13	nmod	_	_
+19	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21-22	portarmi	_	_	_	_	_	_	_	_
+21	portar	portare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	tributo	tributo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+26	d'	di	ADP	E	_	27	case	_	SpaceAfter=No
+27	ammirazione_	ammirazione-	PUNCT	FB	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Io però non l'ho ancora ricevuto in causa di uno sbaglio d'indirizzo;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	però	però	ADV	B	_	7	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	causa	causa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sbaglio	sbaglio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 8
+# text = ma prima di partire ne farò ricerca e te lo porterò.
+1	ma	ma	CCONJ	CC	_	6	cc	_	_
+2	prima	prima	ADV	B	_	4	mark	_	_
+3	di	di	ADP	E	_	2	fixed	_	_
+4	partire	partire	VERB	V	VerbForm=Inf	6	advcl	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	expl	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	porterò	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

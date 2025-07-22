@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era chiaro che non era punto innamorata del suo sposo.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	_
+7	innamorata	innamorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sposo	sposo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Forse gli aveva portato quel tanto di affetto di cui era capace il suo cuore.
+1	Forse	forse	ADV	B	_	4	advmod	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	tanto	tanto	NOUN	S	Gender=Masc	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	capace	capace	ADJ	A	Number=Sing	8	acl:relcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ma in lei il sentimento religioso era il solo capace di un grande sviluppo;
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	religioso	religioso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	solo	solo	ADV	B	_	10	advmod	_	_
+10	capace	capace	ADJ	A	Number=Sing	0	root	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	grande	grande	ADJ	A	Number=Sing	14	amod	_	_
+14	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 4
+# text = in quella creatura, apparentemente delicata e fredda, c'era la stoffa di cui si fanno le martiri.
+1	in	in	ADP	E	_	3	case	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	apparentemente	apparentemente	ADV	B	_	6	advmod	_	_
+6	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	SpaceAfter=No
+11	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:pass	_	_
+17	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	martiri	martire	NOUN	S	Number=Plur	17	nsubj:pass	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

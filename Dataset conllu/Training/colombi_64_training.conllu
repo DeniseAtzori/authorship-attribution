@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il bambino contento di quella promessa, stese le braccia verso la suora che lo prese in grembo;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	contento	contento	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	stese	stendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	verso	verso	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	suora	suora	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	grembo	grembo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = poi ricominciò le sue chiacchierine sconclusionate, con certe note acute, certe risate argentine, che echeggiavano stranamente fra le muraglie nude della cella.
+1	poi	poi	ADV	B	_	2	advmod	_	_
+2	ricominciò	ricominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	chiacchierine	chiacchierina	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	sconclusionate	sconclusionato	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	note	nota	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+11	acute	acuto	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	risate	risata	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+15	argentine	argentino	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	echeggiavano	echeggiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+19	stranamente	strano	ADV	B	_	18	advmod	_	_
+20	fra	fra	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	muraglie	muraglia	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+23	nude	nudo	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	cella	cella	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E suor Maria, abbracciandolo stretto, benediva il cielo che, per una vita di carità, le aveva concesso un amore; e pensando all'avvenire non si sentiva più sola.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	suor	suorre	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	abbracciandolo	_	_	_	_	_	_	_	_
+5	abbracciando	abbracciare	VERB	V	VerbForm=Ger	9	advcl	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stretto	stretto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	benediva	benedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	22	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	carità	carità	NOUN	S	Gender=Fem	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	22	iobj	_	_
+21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	concesso	concedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	amore	amore	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	33	punct	_	_
+26	e	e	CCONJ	CC	_	33	cc	_	_
+27	pensando	pensare	VERB	V	VerbForm=Ger	33	advcl	_	_
+28-29	all'	_	_	_	_	_	_	_	SpaceAfter=No
+28	a	a	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+31	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl:impers	_	_
+33	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+34	più	più	ADV	B	_	35	advmod	_	_
+35	sola	solo	ADJ	A	Gender=Fem|Number=Sing	33	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

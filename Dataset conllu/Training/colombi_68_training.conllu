@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una conversazione da far dormire in piedi.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conversazione	conversazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	far	fare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	dormire	dormire	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La contessa cercò di metterci qua e là qualche parola spiritosa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	contessa	contessa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	cercò	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	metterci	_	_	_	_	_	_	_	_
+5	metter	mettere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+7	qua	qua	ADV	B	_	5	advmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	là	là	ADV	B	_	7	conj	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	parola	parola	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+12	spiritosa	spiritoso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma non si sentiva a suo agio, ed a Fausto fecero l'effetto d'una guarnizione di tartufi e d'un bicchiere di bordeaux introdotti improvvisamente nel _menu_ di un pranzo casalingo.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	agio	agio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ed	e	CCONJ	CC	_	12	cc	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Fausto	Fausto	PROPN	SP	_	12	obl	_	_
+12	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	guarnizione	guarnizione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	tartufi	tartufo	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	d'	di	ADP	E	_	23	case	_	SpaceAfter=No
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	bicchiere	bicchiere	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	bordeaux	bordeaux	NOUN	S	Gender=Masc	23	nmod	_	_
+26	introdotti	introdurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+27	improvvisamente	improvvisamente	ADV	B	_	26	advmod	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	_menu_	_menu-	ADJ	NO	NumType=Ord	26	obl	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34	casalingo	casalingo	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non erano in armonia con tutto il resto, stonavano.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	armonia	armonia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	8	det:predet	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	resto	resto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	stonavano	stonare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

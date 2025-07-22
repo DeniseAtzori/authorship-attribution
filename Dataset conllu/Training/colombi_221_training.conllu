@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma l'avello non era solitario;
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	avello	avello	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	solitario	solitario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = non era la morta che s'era risvegliata.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	morta	morta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	risvegliata	risvegliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Anche la cassa di ferro era stata forzata tutt'in giro dov'era saldata.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cassa	cassa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	forzata	forzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	tutt'	tutto	PRON	PI	Number=Sing|PronType=Ind	8	obl	_	SpaceAfter=No
+10	in	in	ADP	E	_	11	case	_	_
+11	giro	giro	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+12	dov'	dove	ADV	B	_	14	advmod	_	SpaceAfter=No
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	saldata	saldare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = I periti dichiararono che l'operazione doveva essere stata compiuta con uno scalpello tagliente, sul quale s'era picchiato con un martello o con un sasso;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	periti	perite	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	dichiararono	dichiarare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+7	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	10	aux	_	_
+9	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	compiuta	compiere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	scalpello	scalpello	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	tagliente	tagliente	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	quale	quale	PRON	PR	Number=Sing|PronType=Rel	21	obl	_	_
+19	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	picchiato	picchiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	martello	martello	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	o	o	CCONJ	CC	_	28	cc	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sasso	sasso	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = e non poteva essere stata fatta in meno d'un'ora, dato che ci avessero lavorato due persone.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	6	aux	_	_
+5	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	meno	meno	ADV	B	_	6	advmod	_	_
+9	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	ora	ora	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	iobj	_	_
+16	avessero	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+18	due	due	NUM	N	NumType=Card	19	nummod	_	_
+19	persone	persona	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

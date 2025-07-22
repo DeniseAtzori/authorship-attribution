@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ce ne fu uno che imprese un viaggio d'esplorazione nei labirinti d'un orecchio;
+1	Ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	imprese	imprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	esplorazione	esplorazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	nei	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	labirinti	labirinto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+14	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = ma la scrofa, sentendosi solleticata, diede uno scossone che lo fece cadere a terra con tutti i suoi compagni.
+1	ma	ma	CCONJ	CC	_	9	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	scrofa	scrofa	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	sentendosi	_	_	_	_	_	_	_	_
+5	sentendo	sentire	VERB	V	VerbForm=Ger	9	advcl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	solleticata	solleticare	ADJ	A	Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	scossone	scossone	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+15	cadere	cadere	VERB	V	VerbForm=Inf	14	xcomp	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	terra	terra	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	con	con	ADP	E	_	22	case	_	_
+19	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	22	det:predet	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = E che pigolìo allora, che chiocciare della mamma spaurita, che batter d'ali, che vocio per tutto il cortile!...
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	3	obj	_	_
+3	pigolìo	pigolìo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	allora	allora	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+7	chiocciare	chiocciare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	spaurita	spaurito	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	batter	battere	VERB	V	VerbForm=Inf	10	acl:relcl	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	ali	ala	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	vocio	vociare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+20	per	per	ADP	E	_	23	case	_	_
+21	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	23	det:predet	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cortile	cortile	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	!..	!..	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

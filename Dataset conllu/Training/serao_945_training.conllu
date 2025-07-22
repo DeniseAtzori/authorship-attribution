@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella voleva espiare il suo passato, soffrendo come egli aveva sofferto, dando il suo cuore a un essere che non poteva più amarla;
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	espiare	espiare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	passato	passato	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	soffrendo	soffrire	VERB	V	VerbForm=Ger	12	advcl	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	dando	dare	VERB	V	VerbForm=Ger	12	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	essere	essere	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+23	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	amarla	amarlare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = voleva espiare di non avere amato, amando senza speranza, solitaria anima che recitava un monologo appassionato e doloroso.
+1	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	espiare	espiare	VERB	V	VerbForm=Inf	0	root	_	_
+3	di	di	ADP	E	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	avere	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	amando	amare	VERB	V	VerbForm=Ger	6	advcl	_	_
+9	senza	senza	ADP	E	_	10	case	_	_
+10	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	solitaria	solitario	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	anima	anima	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	recitava	recitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	monologo	monologo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	appassionato	appassionato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	doloroso	doloroso	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = In fondo, come per tutti i grandi penitenti, la sua espiazione sarebbe stata anche il pascolo della sua anima.
+1	In	in	ADP	E	_	2	case	_	_
+2	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADP	E	_	9	case	_	_
+5	per	per	ADP	E	_	9	case	_	_
+6	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	grandi	grande	ADJ	A	Number=Plur	9	amod	_	_
+9	penitenti	penitento	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	18	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	espiazione	espiazione	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+14	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+15	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	cop	_	_
+16	anche	anche	ADV	B	_	18	advmod	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pascolo	pascolo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	anima	anima	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

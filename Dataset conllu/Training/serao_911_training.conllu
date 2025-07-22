@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella vi arrivò prima.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	prima	prima	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Vi era un gran ballo, quella sera, all'Ambasciata d'Inghilterra, e tutta la grande società romana era colà:
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	gran	gran	ADJ	A	Number=Sing	5	amod	_	_
+5	ballo	ballo	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Ambasciata	ambasciata	PROPN	SP	_	23	obl	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	Inghilterra	Inghilterra	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	23	punct	_	_
+16	e	e	CCONJ	CC	_	23	cc	_	_
+17	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	20	det:predet	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	grande	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	società	società	NOUN	S	Gender=Fem	23	nsubj	_	_
+21	romana	romano	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+23	colà	cole	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	23	punct	_	_
+
+# sent_id = 3
+# text = l'Argentina era quasi vuota, male illuminata, freddina:
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Argentina	Argentina	PROPN	SP	_	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	quasi	quasi	ADV	B	_	5	advmod	_	_
+5	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	male	male	ADV	B	_	8	advmod	_	_
+8	illuminata	illuminato	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	freddina	freddino	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = pochi amatori di musica antica stavano nelle poltrone, immobili, a pregustare le melodie incantatrici.
+1	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	amatori	amatore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	musica	musica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	antica	antico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	stavano	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7-8	nelle	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	poltrone	poltrona	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	immobili	immobile	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	pregustare	pregustare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	melodie	melodia	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	incantatrici	incantatrico	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Clara era vestita di nero:
+1	Clara	Clara	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	nero	nero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = stava in un palco di terza fila, di fianco, scelto apposta:
+1	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	palco	palco	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	fila	fila	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	_	_
+13	apposta	apposta	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = una veletta nera le scendeva dal cappellino molto semplice e molto carino.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	veletta	veletta	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	nera	nero	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	scendeva	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cappellino	cappellino	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	semplice	semplice	ADJ	A	Number=Sing	8	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	carino	carino	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

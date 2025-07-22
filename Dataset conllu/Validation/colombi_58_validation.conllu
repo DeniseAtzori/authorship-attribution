@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era la sera d'una domenica.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Fulvia non doveva cantare, ed era rimasta in casa.
+1	Fulvia	Fulvia	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	cantare	cantare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ed	e	CCONJ	CC	_	8	cc	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Giorgio, un altro amico ed io passavamo la sera con lei.
+1	Giorgio	Giorgio	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	altro	altro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	amico	amico	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	conj	_	_
+8	passavamo	passare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = La via Manzoni brulicava di folla elegante.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	via	via	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Manzoni	Manzoni	PROPN	SP	_	2	nmod	_	_
+4	brulicava	brulicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	folla	folla	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	elegante	elegante	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = «Usciamo sul terrazzo a vedere le signore che tornano dal Corso» disse Fulvia.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Usciamo	uscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	terrazzo	terrazzo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	vedere	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	signore	signore	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	tornano	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Corso	Corso	PROPN	SP	_	11	obl	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	2	punct	_	_
+16	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+17	Fulvia	Fulvia	PROPN	SP	_	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ed uscì.
+1	Ed	e	CCONJ	CC	_	2	cc	_	_
+2	uscì	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Io me le posi a destra, l'altro signore a sinistra.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	me	me	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	posi	posi	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	destra	destra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	altro	altro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	signore	signore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Il resto del terrazzo era ingombro di fiori.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	resto	resto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	terrazzo	terrazzo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	ingombro	ingombro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Giorgio rimase dietro a lei.
+1	Giorgio	Giorgio	PROPN	SP	_	2	nsubj	_	_
+2	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dietro	dietro	ADV	B	_	5	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era tutta nera, come le altre, ma mancava di quella grazia civettuola della gondola di passeggiata:
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	nera	nero	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	mancava	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	grazia	grazio	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	civettuola	civettuola	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	gondola	gondola	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = non aveva, a prua, il rostro lucido;
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	prua	prua	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rostro	rostro	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+9	lucido	lucido	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = era più larga, più piatta;
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	larga	largo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	piatta	piatto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = si dondolava goffamente sulle acque: e i due gondolieri, invece del solito gabbano fra cittadino e marinaro, invece del solito berretto, portavano una giacchetta nera e un cappello a cilindro, con una coccarda nera.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	dondolava	dondolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	goffamente	goffamente	ADV	B	_	2	advmod	_	_
+4-5	sulle	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	acque	acqua	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	gondolieri	gondoliere	NOUN	S	Gender=Masc|Number=Plur	29	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	invece	invece	ADV	B	_	16	case	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	13	fixed	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	solito	solito	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+17	gabbano	gabbano	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	fra	fra	ADP	E	_	19	case	_	_
+19	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	marinaro	marinaro	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	16	punct	_	_
+23	invece	invece	ADV	B	_	26	case	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	23	fixed	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	solito	solito	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+27	berretto	berretto	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	portavano	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	giacchetta	giacchetta	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	nera	nero	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	cilindro	cilindro	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	31	punct	_	_
+39	con	con	ADP	E	_	41	case	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	coccarda	coccarda	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+42	nera	nero	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Stava ferma, la gondola, innanzi a un portoncino aperto;
+1	Stava	stare	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+2	ferma	fermare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gondola	gondola	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	innanzi	innanzi	ADV	B	_	10	advmod	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	portoncino	portoncino	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+11	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = due o tre donne erano sotto il portoncino.
+1	due	due	NUM	N	NumType=Card	4	nummod	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	tre	tre	NUM	N	NumType=Card	1	conj	_	_
+4	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+6	sotto	sotto	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	portoncino	portoncino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

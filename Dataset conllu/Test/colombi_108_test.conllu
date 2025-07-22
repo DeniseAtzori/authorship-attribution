@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Così passarono gli ultimi tre anni ch'io rimasi in collegio.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Così	così	ADV	B	_	3	advmod	_	_
+3	passarono	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+5	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+6	tre	tre	NUM	N	NumType=Card	7	nummod	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+8	ch'	che	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	rimasi	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	advcl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	collegio	collegio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ci eravamo promessi di sposarci, quando la sua posizione sarebbe più assicurata.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	promessi	promettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	sposarci	_	_	_	_	_	_	_	SpaceAfter=No
+5	sposar	sposare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	quando	quando	SCONJ	CS	_	14	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	assicurata	assicurare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Era una promessa vaga, che si perdeva in un avvenire indefinito;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	promessa	promesso	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	vaga	vaga	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	perdeva	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	indefinito	indefinito	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = ma io ne ero felice.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+4	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	felice	felice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Non avrei desiderato anticiparla.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	desiderato	desiderare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	anticiparla	_	_	_	_	_	_	_	SpaceAfter=No
+4	anticipar	anticipare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Dovevo fare la carriera del teatro.
+1	Dovevo	Dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ed allora sarei libera di vederlo sempre, di parlargli, di fare insieme delle passeggiate solitarie.
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	allora	allora	ADV	B	_	4	advmod	_	_
+3	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	libera	libero	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	vederlo	_	_	_	_	_	_	_	_
+6	veder	vedere	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	sempre	sempre	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	parlargli	_	_	_	_	_	_	_	SpaceAfter=No
+11	parlar	parlare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+12	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+16	insieme	insieme	ADV	B	_	19	case	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	16	fixed	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	passeggiate	passeggiata	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+20	solitarie	solitario	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

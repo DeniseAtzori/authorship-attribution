@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I singulti di Fulvia s'erano allentati man mano.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	singulti	singulto	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Fulvia	Fulvia	PROPN	SP	_	2	nmod	_	_
+5	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	SpaceAfter=No
+6	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	allentati	allentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	man	mano	NOUN	S	Gender=Fem|Number=Sing	7	xcomp	_	_
+9	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Mi voltai.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	voltai	voltare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ella stava guardandomi col mento appoggiato alle mani incrociate;
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3-4	guardandomi	_	_	_	_	_	_	_	_
+3	guardando	guardare	VERB	V	VerbForm=Ger	0	root	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+5-6	col	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mento	mento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	appoggiato	appoggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	mani	mano	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	incrociate	incrociato	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = era accesa in volto ed aveva gli occhi gonfi.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	accesa	accendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	volto	volto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	ed	e	CCONJ	CC	_	6	cc	_	_
+6	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	gonfi	gonfio	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Mi baciai una mano poi vi soffiai sopra per mandarle il bacio.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	baciai	baciare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	poi	poi	ADV	B	_	7	advmod	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	iobj	_	_
+7	soffiai	soffiare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	sopra	sopra	ADV	B	_	7	advmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	mandarle	_	_	_	_	_	_	_	_
+10	mandar	mandare	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ella volle sorridermi, ma le lagrime tornarono ad empirle gli occhi.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	sorridermi	_	_	_	_	_	_	_	SpaceAfter=No
+3	sorrider	sorrider	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+9	tornarono	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11-12	empirle	_	_	_	_	_	_	_	_
+11	empir	empire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Allora le dissi:
+1	Allora	allora	ADV	B	_	3	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	dissi	dissi	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	SpacesAfter=\n
+

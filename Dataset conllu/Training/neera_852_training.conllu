@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella non lo ritenne.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	ritenne	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Sfinita, abbandonata sui cuscini del divano le cantava ancora nell’orecchio la voce di Moena “come nessuna mi ebbe, come nessuna mi avrà„ e una ebbrezza meravigliosa la invase, qual di lama che penetra senza far soffrire, in fondo, in fondo, in fondo, fino a dare la dolcissima morte.
+1	Sfinita	Sfinita	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	abbandonata	abbandonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+4-5	sui	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	cuscini	cuscino	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	divano	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	9	obj	_	_
+11	cantava	cantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+12	ancora	ancora	ADV	B	_	11	advmod	_	_
+13-14	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	voce	voce	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Moena	Moena	PROPN	SP	_	24	nmod	_	_
+20	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+21	come	come	ADP	E	_	23	case	_	_
+22	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	obl	_	_
+24	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	come	come	ADP	E	_	29	mark	_	_
+27	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	28	det	_	_
+28	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	iobj	_	_
+29	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	advcl	_	SpaceAfter=No
+30	„	„	PUNCT	FF	_	24	punct	_	_
+31	e	e	CCONJ	CC	_	36	cc	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	ebbrezza	ebbrezza	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	_
+34	meravigliosa	meraviglioso	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+35	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+36	invase	invase	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	24	punct	_	_
+38	qual	quale	PRON	PQ	PronType=Int	24	obj	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	lama	lama	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+41	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+42	penetra	penetrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+43	senza	senza	ADP	E	_	44	mark	_	_
+44	far	fare	VERB	V	VerbForm=Inf	42	advcl	_	_
+45	soffrire	soffrire	VERB	V	VerbForm=Inf	44	ccomp	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	24	punct	_	_
+47	in	in	ADP	E	_	48	case	_	_
+48	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	24	punct	_	_
+50	in	in	ADP	E	_	51	case	_	_
+51	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	24	punct	_	_
+53	in	in	ADP	E	_	54	case	_	_
+54	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	24	punct	_	_
+56	fino	fino	ADV	B	_	58	mark	_	_
+57	a	a	ADP	E	_	56	fixed	_	_
+58	dare	dare	VERB	V	VerbForm=Inf	24	advcl	_	_
+59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+60	dolcissima	dolce	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	61	amod	_	_
+61	morte	morto	NOUN	S	Gender=Fem|Number=Sing	58	obj	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	24	punct	_	SpacesAfter=\n
+

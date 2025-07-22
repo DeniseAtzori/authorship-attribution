@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Ed uscii in punta di piedi pensando a quella consolazione che mi restava, in mezzo a tanti guai.
+1	--Ed	--Ed	NOUN	S	Gender=Masc	0	root	_	_
+2	uscii	uscii	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	punta	punta	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	pensando	pensare	VERB	V	VerbForm=Ger	1	acl	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	consolazione	consolazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+19	guai	guaio	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Quando mi accorsi che pioveva, non tornai neppure indietro a pigliare l'ombrello per non svegliare la mia figliola.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	accorsi	accorrere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	pioveva	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	tornai	tornare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	neppure	neppure	ADV	BN	PronType=Neg	10	advmod	_	_
+10	indietro	indietro	ADV	B	_	8	advmod	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	pigliare	pigliare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ombrello	ombrello	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	per	per	ADP	E	_	17	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	svegliare	svegliare	VERB	V	VerbForm=Inf	14	acl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	figliola	figliola	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Per che cosa svegliarla?
+1	Per	per	ADP	E	_	3	case	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4-5	svegliarla	_	_	_	_	_	_	_	SpaceAfter=No
+4	svegliar	svegliare	VERB	V	VerbForm=Inf	0	root	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = per condurla a piangere laggiù alla stazione?
+1	per	per	ADP	E	_	2	mark	_	_
+2-3	condurla	_	_	_	_	_	_	_	_
+2	condur	condurre	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	piangere	piangere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	laggiù	laggiù	ADV	B	_	5	advmod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = C'è sempre tempo di piangere a questo mondo.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	piangere	piangere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = C'erano dei capponi dagli occhi ardenti come brace, che si scotevano tutti in uno sforzo supremo per tirar su una gamba sotto l'ala.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	capponi	cappone	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6-7	dagli	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	ardenti	ardere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	5	acl	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	brace	brace	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	scotevano	scotere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+16	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	obl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	supremo	supremo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	tirar	tirare	VERB	V	VerbForm=Inf	15	advcl	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	gamba	gamba	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	sotto	sotto	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	ala	ala	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ma la catena era ben salda, ed i due piedi dovevano rimanere immobili sul fondo della prigione;
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	catena	catena	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	ben	bene	ADV	B	_	6	advmod	_	_
+6	salda	saldo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	13	punct	_	_
+8	ed	e	CCONJ	CC	_	13	cc	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	rimanere	rimanere	VERB	V	VerbForm=Inf	6	conj	_	_
+14	immobili	immobile	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	prigione	prigione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = ed i capponi gorgogliavano una specie d'imprecazione e gli occhi fosforescenti mandavano lampi.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	capponi	cappone	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	gorgogliavano	gorgogliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	specie	specie	NOUN	S	Gender=Fem	13	obj	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	imprecazione	imprecazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	fosforescenti	fosforescente	ADJ	A	Number=Plur	11	amod	_	_
+13	mandavano	mandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+14	lampi	lampo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

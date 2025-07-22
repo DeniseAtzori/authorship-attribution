@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Magdalen!
+1	Magdalen	Magdalen	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = sua sposa!
+1	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Cominciai a tremare per tutte le membra.
+1	Cominciai	Cominciai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	tremare	tremare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	membra	membro	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Le mie idee si confondevano.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	idee	idea	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	confondevano	confondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Magdalen!
+1	Magdalen	Magdalen	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = E mi sentivo scricchiolare nella tasca del soprabito le sue lettere firmate miss Gemmy.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	scricchiolare	scricchiolare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tasca	tasca	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	soprabito	soprabito	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+14	firmate	firmare	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	miss	miss	PROPN	SW	Foreign=Yes	13	nmod	_	_
+16	Gemmy	Gemmy	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Sua sposa;
+1	Sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = ed aveva scritto a me che accettava il dono nuziale, ed era disposta a sposarmi!
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	accettava	accettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dono	dono	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	nuziale	nuziale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ed	e	CCONJ	CC	_	14	cc	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:pass	_	_
+14	disposta	disposto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	sposarmi	arma|sposarme	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ebbi paura d'impazzire.
+1	Ebbi	Ebbo	DET	T	Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
+2	paura	paura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	d'	di	ADP	E	_	4	mark	_	SpaceAfter=No
+4	impazzire	impazzire	VERB	V	VerbForm=Inf	2	acl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

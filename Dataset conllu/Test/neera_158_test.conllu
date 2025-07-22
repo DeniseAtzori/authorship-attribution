@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Rovesciai la testa indietro come trascinata dalla musica, presa da un accesso di ilarità convulsa e prolungata.
+1	Rovesciai	Rovesciai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	testa	testa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	indietro	indietro	ADV	B	_	1	advmod	_	_
+5	come	come	SCONJ	CS	_	6	mark	_	_
+6	trascinata	trascinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	musica	musica	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	ilarità	ilarità	NOUN	S	Gender=Fem	14	nmod	_	_
+17	convulsa	convulso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	prolungata	prolungato	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Egli stava in piedi e teneva fra le mani un piccolo regolo che aveva levato in quel momento dal tavolino.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+7	fra	fra	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	mani	mano	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	regolo	regolo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	levato	levare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	momento	momento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19-20	dal	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = I nostri occhi si incontrarono con un incrociamento acuto, quasi feroce da parte sua.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	incontrarono	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	incrociamento	incrociamento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	acuto	acuto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	quasi	quasi	ADV	B	_	12	advmod	_	_
+12	feroce	feroce	ADJ	A	Number=Sing	8	amod	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = "Vi batterei" disse.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	batterei	battere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	5	punct	_	_
+5	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Se non fosse stato quello sguardo avrei potuto credere che si trattasse di uno scherzo, ma in quello sguardo avevo veramente sentita la percossa.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+6	sguardo	sguardo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux	_	_
+9	credere	credere	VERB	V	VerbForm=Inf	0	root	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	trattasse	trattare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	scherzo	scherzo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	ma	ma	CCONJ	CC	_	20	cc	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	obl	_	_
+20	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+21	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	23	aux	_	_
+22	veramente	veramente	ADV	B	_	23	advmod	_	_
+23	sentita	sentire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	percossa	percossa	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

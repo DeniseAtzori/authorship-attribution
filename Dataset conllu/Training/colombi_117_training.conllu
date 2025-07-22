@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I _Promessi sposi_ legati in rosso, volta a volta li abbiamo avuti tutti;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	_Promessi	_Promesso	PROPN	SP	_	13	nsubj	_	_
+3	sposi_	sposi-	PUNCT	FB	_	4	punct	_	_
+4	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	rosso	rosso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+12	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	avuti	avere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 2
+# text = poi L'_Angela Maria_ del Carcano, poi la _Corinne_ della Staël;
+1	poi	poi	ADV	B	_	3	advmod	_	_
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	_Angela	_Angela	PROPN	SP	_	0	root	_	_
+4	Maria_	Maria-	PROPN	SP	_	3	flat:name	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Carcano	Carcano	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	poi	poi	ADV	B	_	11	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	_Corinne_	_corinne_	PROPN	SP	_	3	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Staël	Staël	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = e così via via, man mano che crescevamo, si passava dalla _Bibliothèque Rose_ della Ségur, che ci aveva inspirati i primi entusiasmi, fino a libri meno rosei che ci facevano pensare e piangere.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	così	così	ADV	B	_	4	advmod	_	_
+3	via	via	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	via	via	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	man	mano	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	6	compound	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	crescevamo	crescere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	_Bibliothèque	_Bibliothèque	PROPN	SP	_	12	obl	_	_
+16	Rose_	Rose-	PROPN	SP	_	15	flat:name	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Ségur	Ségur	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	inspirati	inspirare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	27	amod	_	_
+27	entusiasmi	entusiasmo	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	fino	fino	ADV	B	_	31	case	_	_
+30	a	a	ADP	E	_	29	fixed	_	_
+31	libri	libro	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+32	meno	meno	ADV	B	_	33	advmod	_	_
+33	rosei	roseo	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	36	iobj	_	_
+36	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	31	acl:relcl	_	_
+37	pensare	pensare	VERB	V	VerbForm=Inf	36	xcomp	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	piangere	piangere	VERB	V	VerbForm=Inf	37	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

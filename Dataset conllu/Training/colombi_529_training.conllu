@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non sapevo chi fosse.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	obj	_	_
+4	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Aveva l'aspetto ed il vestire d'una straniera.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	ed	e	CCONJ	CC	_	6	cc	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vestire	vestire	VERB	V	VerbForm=Inf	3	conj	_	_
+7	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	straniera	straniero	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E la signora che l'accompagnava, piccola, grossa, col viso infiammato, ed una pioggia di ricci d'un biondo scialbo misto di grigio lungo le guancie, gli abiti corti, le scarpe di grossa pelle a doppia suola, ed un lungo velo turchino sopra un cappello ridicolo, era quanto si potesse desiderare di meno bello, ma di più _touriste_.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	57	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+6	accompagnava	accompagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	grossa	grosso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12-13	col	_	_	_	_	_	_	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	viso	viso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+15	infiammato	infiammato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	ed	e	CCONJ	CC	_	19	cc	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	ricci	riccio	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	d'	da	ADP	E	_	25	case	_	SpaceAfter=No
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	biondo	biondo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	scialbo	scialbo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	misto	misto	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	grigio	grigio	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	lungo	lungo	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	guancie	guancia	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	3	punct	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+35	corti	corto	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	3	punct	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	scarpe	scarpa	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	grossa	grosso	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	_
+41	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	doppia	doppio	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+44	suola	suolo	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	49	punct	_	_
+46	ed	e	CCONJ	CC	_	49	cc	_	_
+47	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+48	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	_
+49	velo	velo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+50	turchino	turcare	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	_
+51	sopra	sopra	ADP	E	_	53	case	_	_
+52	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	50	obl	_	_
+54	ridicolo	ridicolo	ADJ	A	Gender=Masc|Number=Sing	53	amod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	3	punct	_	_
+56	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	57	cop	_	_
+57	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	0	root	_	_
+58	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	60	expl:impers	_	_
+59	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	60	aux	_	_
+60	desiderare	desiderare	VERB	V	VerbForm=Inf	57	acl:relcl	_	_
+61	di	di	ADP	E	_	63	case	_	_
+62	meno	meno	ADV	B	_	63	advmod	_	_
+63	bello	bello	ADJ	A	Gender=Masc|Number=Sing	60	obl	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	67	punct	_	_
+65	ma	ma	CCONJ	CC	_	67	cc	_	_
+66	di	di	ADP	E	_	67	case	_	_
+67	più	più	ADV	B	_	57	conj	_	_
+68	_touriste_	_touriste-	PUNCT	FB	_	57	punct	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	57	punct	_	SpacesAfter=\n
+

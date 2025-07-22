@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Amico mio, vorrei poter dare in questo istante alla sacra parola amico il suo significato più profondo e più ardente per dedicarla a te!
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Amico	amico	PROPN	SP	_	7	nsubj	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	poter	potere	AUX	VM	VerbForm=Inf	7	aux	_	_
+7	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	istante	istante	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sacra	sacro	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	parola	parola	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+15	amico	amico	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	significato	significato	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	ardente	ardente	ADJ	A	Number=Sing	20	conj	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25-26	dedicarla	_	_	_	_	_	_	_	_
+25	dedicar	dedicare	VERB	V	VerbForm=Inf	18	acl	_	_
+26	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	25	obl	_	SpaceAfter=No
+29	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Tante, troppe donne hanno già detto di amarti;
+1	Tante	tanto	PROPN	SP	_	7	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	donne	donna	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	già	già	ADV	B	_	7	advmod	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	amarti	amarto	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = te lo diranno ancora.
+1	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	diranno	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Io voglio oltrepassare questa misura limitata dell’amore umano.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	oltrepassare	oltrepassare	VERB	V	VerbForm=Inf	0	root	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	misura	misura	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	limitata	limitato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	umano	umano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Io voglio essere tu!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = E poichè soffri ora spasmodicamente, voglio soffrire anch’io per te, con te, inondarmi di tutte le tue lagrime, sanguinare di tutte le tue ferite.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	soffri	soffre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	ora	ora	ADV	B	_	3	advmod	_	_
+5	spasmodicamente	spasmodicamente	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	soffrire	soffrire	VERB	V	VerbForm=Inf	0	root	_	_
+9	anch’	ancho	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17-18	inondarmi	_	_	_	_	_	_	_	_
+17	inondar	inondare	VERB	V	VerbForm=Inf	8	conj	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+19	di	di	ADP	E	_	23	case	_	_
+20	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	23	det:predet	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	tue	tuo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	sanguinare	sanguinare	VERB	V	VerbForm=Inf	8	conj	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	29	det:predet	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	tue	tua	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+30	ferite	ferito	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Mio povero fanciullo, che cosa posso fare?
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+2	povero	povero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	DET	DQ	PronType=Int	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+7	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

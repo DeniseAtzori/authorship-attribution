@@ -1,0 +1,139 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Di giocattoli non ne vuole.
+1	Di	di	ADP	E	_	2	case	_	_
+2	giocattoli	giocattolo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Bisogna fargli un bel ragionamento, logico, tranquillo, parlandogli come a un grande:
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	fargli	_	_	_	_	_	_	_	_
+2	far	fare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	bel	bello	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	ragionamento	ragionamento	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	logico	logico	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	tranquillo	tranquillo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12-13	parlandogli	_	_	_	_	_	_	_	_
+12	parlando	parlare	VERB	V	VerbForm=Ger	1	advcl	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+14	come	come	ADP	E	_	17	case	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	grande	grande	ADJ	A	Number=Sing	12	obl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = allora vi risponde, quetamente, certe cose profonde che egli pensa.
+1	allora	allora	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quetamente	quetamente	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+9	profonde	profondere	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+11	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Non provate a raccontargli delle storie, delle fiabe:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	provate	provare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4-5	raccontargli	_	_	_	_	_	_	_	_
+4	raccontar	raccontare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	storie	storia	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	fiabe	fiabo	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = è lui che ve ne racconta, che le inventa, forse.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	ve	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+10	inventa	inventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	forse	forse	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Si pianta ritto innanzi a voi, concentrato, guardandosi la punta delle scarpe, coll’indice appuntato all’angolo delle labbra, e vi dice sottovoce, come se parlasse a se stesso, la fiaba, la leggenda.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	pianta	pianta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ritto	riggere	NOUN	S	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	innanzi	innanzi	ADV	B	_	6	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	concentrato	concentrato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10-11	guardandosi	_	_	_	_	_	_	_	_
+10	guardando	guardare	VERB	V	VerbForm=Ger	8	advcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	punta	punta	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	scarpe	scarpa	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18-19	coll’	_	_	_	_	_	_	_	SpaceAfter=No
+18	co	co	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	indice	indice	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	appuntato	appuntare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+22-23	all’	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25-26	delle	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	31	expl	_	_
+31	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+32	sottovoce	sottovoce	ADV	B	_	31	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	31	punct	_	_
+34	come	come	ADV	B	_	36	advmod	_	_
+35	se	se	SCONJ	CS	_	36	mark	_	_
+36	parlasse	parlare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	advcl	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	obl	_	_
+39	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	31	punct	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	fiaba	fiaba	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	31	punct	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	leggenda	leggenda	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

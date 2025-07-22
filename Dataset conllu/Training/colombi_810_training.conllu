@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --È andata da' suoi, mi disse.
+1	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+3	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	7	case	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	7	punct	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+10	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Gliel'ho detto ancora che non deve crucciarsi a quel modo.
+1-2	Gliel'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	iobj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	ancora	ancora	ADV	B	_	9	advmod	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9-10	crucciarsi	_	_	_	_	_	_	_	_
+9	crucciar	crucciare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	modo	modo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = S'avrebbe pari se s'avesse a far così.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	SpaceAfter=No
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	pari	pari	ADJ	A	_	0	root	_	_
+4	se	se	SCONJ	CS	_	6	mark	_	_
+5	s'	s'	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	SpaceAfter=No
+6	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	far	fare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	così	così	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Anche a mio fratello è morta una bimba quest'inverno;
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	quest'	questo	DET	DD	Number=Sing|PronType=Dem	10	det	_	SpaceAfter=No
+10	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 5
+# text = e bella, e prosperosa!
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	prosperosa	prosperoso	ADV	B	_	2	conj	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = È morta in due giorni di quel male in gola;
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	male	male	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	gola	gola	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = ed aveva già quattro anni....
+1	ed	e	CCONJ	CC	_	2	cc	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	già	già	ADV	B	_	2	advmod	_	_
+4	quattro	quattro	NUM	N	NumType=Card	5	nummod	_	_
+5	anni...	anni...	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

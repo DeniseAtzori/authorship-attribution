@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il più vecchio della casa era il babbo, che non aveva ancora quarant'anni;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+14	ancora	ancora	ADV	B	_	13	advmod	_	_
+15	quarant'	quaranta	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = erano tutti sani, tutti belli, tutti allegri.
+1	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	obl	_	_
+3	sani	sano	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	_
+6	belli	bello	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+9	allegri	allegro	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Dal mattino alla sera la spinetta non si chiudeva mai, e le sue note stridenti straziavano senza posa i nervi dei vicini;
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	spinetta	spinetta	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	chiudeva	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	mai	mai	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	19	punct	_	_
+14	e	e	CCONJ	CC	_	19	cc	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	note	nota	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+18	stridenti	stridente	ADJ	A	Number=Plur	17	amod	_	_
+19	straziavano	straziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	_
+20	senza	senza	ADP	E	_	21	case	_	_
+21	posa	posa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	nervi	nervo	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	vicini	vicino	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 4
+# text = ma i Cavalletti avevano dei nervi robusti, e sopportavano con serenità olimpica le stonature, le voci rauche ed affannose di quell'invalida, che da tempi immemorabili formava il diletto della famiglia.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Cavalletti	Cavalletti	PROPN	SP	_	4	nsubj	_	_
+4	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	nervi	nervo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	robusti	robusto	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	sopportavano	sopportare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	serenità	serenità	NOUN	S	Gender=Fem	11	obl	_	_
+14	olimpica	olimpico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	stonature	stonatura	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	voci	voce	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+20	rauche	rauco	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	ed	e	CCONJ	CC	_	22	cc	_	_
+22	affannose	affannoso	ADJ	A	Gender=Fem|Number=Plur	20	conj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	quell'	quello	DET	DD	Number=Sing|PronType=Dem	25	det	_	SpaceAfter=No
+25	invalida	invalido	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+28	da	da	ADP	E	_	29	case	_	_
+29	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	_
+30	immemorabili	immemorabile	ADJ	A	Number=Plur	29	amod	_	_
+31	formava	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	diletto	diletto	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma il dissidio che era fra noi, anteriore all'amore, sorgente dalla nostra medesima essenza, non sparve per l'amore.
+1	Ma	ma	CCONJ	CC	_	22	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dissidio	dissidio	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+6	fra	fra	ADP	E	_	7	case	_	_
+7	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	anteriore	anteriore	ADJ	A	Degree=Cmp|Number=Sing	3	amod	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	amore	amore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	sorgente	sorgente	NOUN	S	Gender=Fem|Number=Sing	12	compound	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	19	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+17	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+18	medesima	medesimo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	essenza	essenza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	3	punct	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	sparve	sparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	amore	amore	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 2
+# text = Noi avemmo delle ore violente di passione, in cui sembrò che il raro, l'altissimo miracolo della fusione delle anime fosse accaduto:
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	avemmo	avee	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	ore	ora	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	violente	violento	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+12	sembrò	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+13	che	che	SCONJ	CS	_	27	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	raro	raro	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+18	altissimo	alto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	19	amod	_	_
+19	miracolo	miracolo	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fusione	fusione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	anime	anima	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = ma come l'ora declinava, le anime si staccavano, gelide, e gli amanti si guardavano in viso, quasi estranei, imminenti nemici.
+1	ma	ma	CCONJ	CC	_	10	cc	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+5	declinava	declinare	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	anime	anima	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	staccavano	staccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	gelide	gelide	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	amanti	amante	NOUN	S	Number=Plur	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	guardavano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	viso	viso	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	10	punct	_	_
+22	quasi	quasi	ADV	B	_	23	advmod	_	_
+23	estranei	estranei	ADJ	A	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	imminenti	imminente	ADJ	A	Number=Plur	26	amod	_	_
+26	nemici	nemici	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

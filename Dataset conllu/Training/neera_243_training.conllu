@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Due donne, l’una seduta ritta, l’altra sdraiata sopra un divano con una sigaretta fra le dita:
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	seduta	seduta	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7	ritta	ritto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	altra	altro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	sdraiata	sdraiata	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	sopra	sopra	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	divano	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sigaretta	sigaretta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	fra	fra	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	dita	dito	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = questo il gruppo che uno scultore milanese presentò alcuni anni or sono ad una mostra di belle arti col titolo:
+1	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	obj	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	scultore	scultore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	milanese	milanese	ADJ	A	Number=Sing	6	amod	_	_
+8	presentò	presente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+9	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	or	or	ADJ	A	Degree=Cmp|Number=Sing	10	amod	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	ad	a	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	belle	bello	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	arti	arte	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19-20	col	_	_	_	_	_	_	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 3
+# text = _Schiave bianche._
+1	_Schiave	_Schiave	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	bianche._	ExtraSubj=Yes|bianche._	ADJ	NO	NumType=Ord	1	amod	_	_
+
+# sent_id = 4
+# text = Il gruppo per ragioni di pudore fu respinto e durante qualche tempo, esposto nella vetrina di un negozio, attirò gli sguardi di tutti i curiosi i quali naturalmente scissi in due fazioni approvavano o biasimavano il verdetto del comitato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	pudore	pudore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	respinto	respingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	e	e	CCONJ	CC	_	14	cc	_	_
+10	durante	durante	ADP	E	_	12	case	_	_
+11	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	esposto	esporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vetrina	vetrina	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	attirò	attirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	28	det:predet	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	curiosi	curiosi	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	quali	quale	PRON	PR	Number=Plur|PronType=Rel	32	nsubj	_	_
+31	naturalmente	naturalmente	ADV	B	_	32	advmod	_	_
+32	scissi	sciggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	due	due	NUM	N	NumType=Card	35	nummod	_	_
+35	fazioni	fazione	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+36	approvavano	approvare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	32	conj	_	_
+37	o	o	CCONJ	CC	_	38	cc	_	_
+38	biasimavano	biasimare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	conj	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	verdetto	verdetto	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+41-42	del	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

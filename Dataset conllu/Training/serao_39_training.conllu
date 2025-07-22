@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io ho sofferto immensamente, allora, poichè anche, mi vergognava di soffrire:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	immensamente	immenso	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	allora	allora	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	poichè	poiché	CCONJ	CC	_	12	cc	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	vergognava	vergognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	soffrire	soffrire	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = poichè, io non voleva che la gente conoscesse il mio stato;
+1	poichè	poiché	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	conoscesse	conoscere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	stato	stato	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = poichè io celava con cura gelosa tutti i miei dolori, non volendo perdere, oltre la felicità, anche il mio decoro di donna.
+1	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	celava	celare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	cura	cura	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	gelosa	geloso	ADJ	A	_	5	amod	_	_
+7	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	nmod	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	volendo	volere	AUX	V	VerbForm=Ger	14	aux	_	_
+14	perdere	perdere	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	oltre	oltre	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	felicità	felicità	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	anche	anche	ADV	B	_	23	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	decoro	decoro	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	donna	donna	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Il solo che mi ha aiutato in quel tempo a soffrire, è stato Giustino Morelli.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	solo	solo	ADV	B	_	15	advmod	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	soffrire	soffrire	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+15	Giustino	Giustino	PROPN	SP	_	0	root	_	_
+16	Morelli	Morelli	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

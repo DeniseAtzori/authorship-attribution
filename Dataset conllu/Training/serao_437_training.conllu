@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quello che abbonda in lui è una immaginazione quasi orientale, piena di sogni:
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	abbonda	abbondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	quasi	quasi	ADV	B	_	10	advmod	_	_
+10	orientale	orientale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = è una virilità di volontà inflessibile.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	virilità	virilità	NOUN	S	Gender=Fem	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	volontà	volontà	NOUN	S	Gender=Fem	3	nmod	_	_
+6	inflessibile	inflessibile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Egli vi dice: imparerò a nuotare l’anno venturo, quando sarò _proprio_ un uomo.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	imparerò	imparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	nuotare	nuotare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	venturo	venturo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	quando	quando	SCONJ	CS	_	16	mark	_	_
+13	sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	16	cop	_	_
+14	_proprio_	_proprio-	PUNCT	FB	_	16	punct	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = È il più piccolo fra i due fratellini:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	fra	fra	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	fratellini	fratellino	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = ma il più grande, Paolo, è un bambinone biondo e grassoccio, bianco, roseo e liscio come una mela, dagli occhi azzurri e timidi, che parla poco, sorride spesso e se ne sta, placido, placido, lasciandosi proteggere da Ruggero che è il più piccolo.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	grande	grande	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Paolo	Paolo	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bambinone	bambinone	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	biondo	biondo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	grassoccio	grassoccio	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	roseo	roseo	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	liscio	liscio	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mela	mela	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24-25	dagli	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+27	azzurri	azzurro	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	timidi	timido	ADJ	A	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	22	punct	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+33	poco	poco	ADV	B	_	32	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+36	spesso	spesso	ADV	B	_	35	advmod	_	_
+37	e	e	CCONJ	CC	_	40	cc	_	_
+38	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	40	expl:impers	_	_
+39	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	40	expl	_	_
+40	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	42	punct	_	_
+42	placido	placido	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	35	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	placido	placido	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46-47	lasciandosi	_	_	_	_	_	_	_	_
+46	lasciando	lasciare	VERB	V	VerbForm=Ger	44	advcl	_	_
+47	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	46	expl	_	_
+48	proteggere	proteggere	VERB	V	VerbForm=Inf	46	xcomp	_	_
+49	da	da	ADP	E	_	50	case	_	_
+50	Ruggero	Ruggero	PROPN	SP	_	48	obl	_	_
+51	che	che	PRON	PR	PronType=Rel	55	nsubj	_	_
+52	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	cop	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+54	più	più	ADV	B	_	55	advmod	_	_
+55	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	50	acl:relcl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

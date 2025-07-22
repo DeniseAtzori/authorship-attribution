@@ -1,0 +1,145 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Allora, accanto a questo bimbo snello e pallido, di una bellezza pensierosa e sentimentale, si fermò una bambina.
+1	Allora	allora	ADV	B	_	19	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	accanto	accanto	ADV	B	_	6	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+7	snello	snello	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	pallido	pallido	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+14	pensierosa	pensieroso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	sentimentale	sentimentale	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	fermò	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 2
+# text = Era una ragazzina di sarta:
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ragazzina	ragazzino	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sarta	sarta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = portava uno scatolone ovale, coperto di pelle nera, con una larga correggia passata al braccio.
+1	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	scatolone	scatolone	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	ovale	ovale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	coperto	coprire	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	nera	nero	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	larga	largo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	correggia	correggia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+15	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Lo scatolone poggiava sul fianco e la faceva piegare tutta da una parte.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	scatolone	scatolone	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	poggiava	poggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+10	piegare	piegare	VERB	V	VerbForm=Inf	9	advcl	_	_
+11	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	obj	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Vestiva di nero, un nero stinto, dove diventato rossastro, dove verdastro: portava un cappellino di paglia nero, vecchio, circondato da un brutto nastro.
+1	Vestiva	Vestiva	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	nero	nero	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	nero	nero	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	stinto	stinto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	dove	dove	ADV	B	_	10	advmod	_	_
+10	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	rossastro	rossastro	ADJ	A	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	dove	dove	ADV	B	_	16	advmod	_	_
+14	verdastro	verdastro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	14	punct	_	_
+16	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cappellino	cappellino	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	paglia	paglia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	nero	nero	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	18	punct	_	_
+25	circondato	circondare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+26	da	da	ADP	E	_	29	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	nastro	nastro	NOUN	S	Gender=Masc|Number=Sing	25	obl:agent	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ella stessa era bruttissima, capelli rossi, viso macchiato di lentiggini, occhi senza ciglia, naso rincagnato.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+2	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	bruttissima	brutto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+7	rossi	rosso	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	viso	viso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+10	macchiato	macchiato	NOUN	S	Gender=Masc|Number=Sing	9	xcomp	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	lentiggini	lentiggine	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+15	senza	senza	ADP	E	_	16	case	_	_
+16	ciglia	ciglio	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	naso	naso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	rincagnato	rincagnato	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Essa, invece di guardare i giocattoli,
+1	Essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	5	mark	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	guardare	guardare	VERB	V	VerbForm=Inf	1	advcl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	giocattoli	giocattolo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+

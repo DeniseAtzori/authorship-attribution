@@ -1,0 +1,150 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Prima una sbarra di un verdino pallidissimo, che saliva, parallela, all'orizzonte:
+1	Prima	prima	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sbarra	sbarra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	verdino	verdino	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	pallidissimo	pallido	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	saliva	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	parallela	parallela	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	orizzonte	orizzonte	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = poi un chiarore livido, freddo, di cui sembrava potersi vedere la lentissima dilatazione sull'alto del cielo.
+1	poi	poi	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	chiarore	chiarore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	livido	livido	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+10	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+11-12	potersi	_	_	_	_	_	_	_	_
+11	poter	potere	AUX	VM	VerbForm=Inf	13	aux	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	vedere	vedere	VERB	V	VerbForm=Inf	10	csubj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	lentissima	lentio	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	16	amod	_	_
+16	dilatazione	dilatazione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+17-18	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+17	su	su	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	alto	alto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = In quella glacialità di notte spirante, la campagna romana si apriva, vastissima.
+1	In	in	ADP	E	_	3	case	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	glacialità	glacialità	NOUN	S	Gender=Fem	12	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	notte	notte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	spirante	spirante	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	romana	romano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	apriva	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	vastissima	vasto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = Dallo sportello presso cui stava ritto, Francesco Sangiorgio la guardava.
+1-2	Dallo	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sportello	sportello	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+4	presso	presso	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	7	obl	_	_
+6	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	ritto	riggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	Francesco	Francesco	PROPN	SP	_	0	root	_	_
+10	Sangiorgio	Sangiorgio	PROPN	SP	_	9	flat:name	_	_
+11	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	guardava	guardare	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Era un'ampiezza di pianura il cui colore ancora non si scorgeva, ma che, qua e là ondulava, come le dune d'un mare poco lontano;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ampiezza	ampiezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	pianura	pianura	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	cui	cui	DET	DR	PronType=Rel	8	det:poss	_	_
+8	colore	colore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+9	ancora	ancora	ADV	B	_	12	advmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	scorgeva	scorgevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	20	punct	_	_
+14	ma	ma	CCONJ	CC	_	20	cc	_	_
+15	che	che	PRON	PR	PronType=Rel	20	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	qua	qua	ADV	B	_	20	advmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	là	là	ADV	B	_	17	conj	_	_
+20	ondulava	ondulare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	come	come	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	dune	duna	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+25	d'	di	ADP	E	_	27	case	_	SpaceAfter=No
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mare	mare	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	poco	poco	ADV	B	_	29	advmod	_	_
+29	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+30	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = e la penombra fitta, con quella scialba irradiazione che ancora non arrivava a vincerla, dava alla campagna romana uno sconfinamento di deserto.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	penombra	penombra	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+4	fitta	fitto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	scialba	scialbo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	irradiazione	irradiazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	ancora	ancora	ADV	B	_	13	advmod	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	arrivava	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	vincerla	vincerla	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	romana	romano	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sconfinamento	sconfinamento	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	deserto	deserto	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

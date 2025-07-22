@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'Orsola aveva preparato un buon fuoco e dei cordiali.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Orsola	Orsola	PROPN	SP	_	4	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	preparato	preparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	buon	buono	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	cordiali	cordiale	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ella mi aiutò efficacemente a sostenere e a confortare la derelitta al primo arrivo.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	aiutò	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	efficacemente	efficacemente	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	sostenere	sostenere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	confortare	confortare	VERB	V	VerbForm=Inf	6	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	derelitta	derelitta	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Più tardi, quando l'ebbi condotta nella sua camera e che il sonno venne finalmente a calmarla, quando la vidi riposante e sicura sotto il mio tetto, affidata a me, protetta da me, una larga onda di dolcezza mi invase e pensai che Lui in quello stesso momento doveva essermi vicino coll'anima.
+1	Più	più	ADV	B	_	2	advmod	_	_
+2	tardi	tardi	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quando	quando	SCONJ	CS	_	7	mark	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ebbi	ebbio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	condotta	condurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	camera	camera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12	e	e	CCONJ	CC	_	19	cc	_	_
+13	che	che	SCONJ	CS	_	19	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+16	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+17	finalmente	finalmente	ADV	B	_	19	advmod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	calmarla	calmarla	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	7	punct	_	_
+21	quando	quando	SCONJ	CS	_	46	mark	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	vidi	vidio	NOUN	S	Gender=Fem|Number=Plur	46	nsubj	_	_
+24	riposante	riposante	ADJ	A	Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	24	conj	_	_
+27	sotto	sotto	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	tetto	tetto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	affidata	affidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	32	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	30	punct	_	_
+36	protetta	proteggere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+37	da	da	ADP	E	_	38	case	_	_
+38	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	36	obl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	23	punct	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	larga	largo	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+42	onda	onda	NOUN	S	Gender=Fem|Number=Sing	46	nsubj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+45	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	46	iobj	_	_
+46	invase	invadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	pensai	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	46	conj	_	_
+49	che	che	SCONJ	CS	_	56	mark	_	_
+50	Lui	lui	PROPN	SP	_	56	nsubj	_	_
+51	in	in	ADP	E	_	52	case	_	_
+52	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	56	obl	_	_
+53	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	52	amod	_	_
+54	momento	momento	NOUN	S	Gender=Masc|Number=Sing	56	nsubj	_	_
+55	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	56	aux	_	_
+56	essermi	essermo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	48	advcl	_	_
+57	vicino	vicino	ADV	B	_	56	advmod	_	_
+58	coll'	collo	DET	RI	Definite=Ind|Number=Sing|PronType=Art	59	det	_	SpaceAfter=No
+59	anima	anima	NOUN	S	Gender=Fem|Number=Sing	56	obj	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	56	punct	_	SpacesAfter=\n
+

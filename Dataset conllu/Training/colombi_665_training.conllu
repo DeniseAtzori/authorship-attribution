@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma sempre lavorando.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	sempre	sempre	ADV	B	_	3	advmod	_	_
+3	lavorando	lavorare	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = In casa loro, il balcone aperto era l'unico distintivo dell'estate;
+1	In	in	ADP	E	_	2	case	_	_
+2	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+3	loro	loro	DET	AP	Poss=Yes|PronType=Prs	2	det:poss	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	balcone	balcone	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+7	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	unico	unico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	distintivo	distintivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	estate	estate	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = il caldanino ai piedi era l'unico distintivo dell'inverno.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caldanino	caldanino	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	unico	unico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	distintivo	distintivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Il fuoco non era mai acceso nel camino fuorchè quando s'aveva a preparare il pranzo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	acceso	accendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	camino	camino	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+10	fuorchè	fuorché	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	quando	quando	SCONJ	CS	_	13	mark	_	_
+12	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	SpaceAfter=No
+13	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	preparare	preparare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Stufe non ce n'erano.
+1	Stufe	Stufe	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = I caldanini erano fatti colla carbonella e duravano tutto il giorno;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	caldanini	caldanino	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	colla	colla	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	carbonella	carbonella	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	duravano	durare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+9	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	11	det:predet	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = e dovevano prepararli in quelle ore mattutine che non mi riescì mai di sorprendere, quando nessuno, tranne le due zitellone, era fuori dal letto.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3-4	prepararli	_	_	_	_	_	_	_	_
+3	preparar	preparare	VERB	V	VerbForm=Inf	0	root	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	ore	ora	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+8	mattutine	mattutina	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	riescì	riescire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+13	mai	mai	ADV	B	_	12	advmod	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	sorprendere	sorprendere	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	quando	quando	SCONJ	CS	_	29	mark	_	_
+18	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	29	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	tranne	tranne	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	due	due	NUM	N	NumType=Card	23	nummod	_	_
+23	zitellone	zitellone	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+26	fuori	fuori	ADV	B	_	29	case	_	_
+27-28	dal	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	26	fixed	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	letto	letto	NOUN	S	Gender=Masc|Number=Sing	15	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

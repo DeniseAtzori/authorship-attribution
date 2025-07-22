@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il viaggiatore domandò subito chi era quella vecchia a cui si rendevano insigni onori ed ebbe in risposta che si trattava del suo funerale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viaggiatore	viaggiatore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	domandò	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	subito	subito	ADV	B	_	3	advmod	_	_
+5	chi	chi	PRON	PQ	PronType=Int	7	nsubj	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	obj	_	_
+8	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	rendevano	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+13	insigni	insigne	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	onori	onore	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+15	ed	e	CCONJ	CC	_	16	cc	_	_
+16	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	trattava	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	funerale	funerale	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Come?
+1	Come	come	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Seppellite i vivi?
+1	Seppellite	Seppellire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	vivi	vivo	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = esclamò il viaggiatore scandolezzato.
+1	esclamò	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	viaggiatore	viaggiatore	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	scandolezzato	scandolezzato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = E così era.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = La tribù, nomade, non potendo trascinare in lunghi viaggi i vecchi e gli infermi, li uccideva al principio di ogni spedizione, dando loro il contentino di un bel funerale anticipato ed ubbriacandoli con tanto rumore e tanto lucicchio, che la vittima stessa, stordita, camminava incontro alla morte come verso una apoteosi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tribù	tribù	NOUN	S	Gender=Fem	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	nomade	nomada	NOUN	S	Gender=Fem|Number=Plur	2	appos	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	potendo	potere	AUX	VM	VerbForm=Ger	8	aux	_	_
+8	trascinare	trascinare	VERB	V	VerbForm=Inf	0	root	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	vecchi	vecchio	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	infermi	infermo	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+19	uccideva	uccidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	principio	principio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	25	det	_	_
+25	spedizione	spedizione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	19	punct	_	_
+27	dando	dare	VERB	V	VerbForm=Ger	19	advcl	_	_
+28	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	27	iobj	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	contentino	contentino	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	bel	bello	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	funerale	funerale	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+35	anticipato	anticipato	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+36	ed	e	CCONJ	CC	_	37	cc	_	_
+37-38	ubbriacandoli	_	_	_	_	_	_	_	_
+37	ubbriacando	ubbriacare	VERB	V	VerbForm=Ger	8	conj	_	_
+38	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	obj	_	_
+39	con	con	ADP	E	_	41	case	_	_
+40	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	41	det	_	_
+41	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+42	e	e	CCONJ	CC	_	44	cc	_	_
+43	tanto	tanto	ADV	B	_	44	advmod	_	_
+44	lucicchio	lucicchio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	8	punct	_	_
+46	che	che	SCONJ	CS	_	53	mark	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	53	nsubj	_	_
+49	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	48	punct	_	_
+51	stordita	stordita	NOUN	S	Gender=Fem|Number=Sing	48	appos	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	48	punct	_	_
+53	camminava	camminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+54	incontro	incontro	ADV	B	_	53	advmod	_	_
+55-56	alla	_	_	_	_	_	_	_	_
+55	a	a	ADP	E	_	57	case	_	_
+56	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	morte	morte	NOUN	S	Gender=Fem|Number=Sing	53	obl	_	_
+58	come	come	ADV	B	_	61	advmod	_	_
+59	verso	verso	ADP	E	_	61	case	_	_
+60	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	apoteosi	apoteoso	NOUN	S	Gender=Fem|Number=Sing	53	obl	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

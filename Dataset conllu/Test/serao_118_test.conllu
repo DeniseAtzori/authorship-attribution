@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Oh! era quello l'onorevole Cavalieri, il calabrese, così ingenuamente goffo?
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	Oh	oh	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	onorevole	onorevole	NOUN	S	Number=Sing	5	nmod	_	_
+8	Cavalieri	Cavalieri	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	calabrese	calabresa	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	così	così	ADV	B	_	14	advmod	_	_
+14	ingenuamente	ingenuo	ADV	B	_	15	advmod	_	_
+15	goffo	goffo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = — Un patriota?
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	patriota	patriota	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = — Sì, capiva bene, ammetteva i suoi meriti, ma aveva troppe decorazioni!
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Sì	sì	INTJ	I	Polarity=Pos	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	capiva	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	ammetteva	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	meriti	merito	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+14	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	decorazioni	decorazione	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = — E l'omettino magro, dalla spazzola di capelli biondi tetro e dagli occhi grigi, era quello Guido Dalma, il deputato letterato che parlava alla Camera di Ofelia e alle signore della fondiaria?
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	E	e	CCONJ	CC	_	4	cc	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	omettino	omettino	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+5	magro	magro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	spazzola	spazzola	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	biondi	biondo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	tetro	tetro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	conj	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	dagli	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+18	grigi	grigio	NOUN	S	Gender=Masc|Number=Plur	17	compound	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+21	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+22	Guido	Guido	PROPN	SP	_	21	nsubj	_	_
+23	Dalma	Dalma	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	22	appos	_	_
+27	letterato	letterato	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Camera	Camera	PROPN	SP	_	29	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	Ofelia	Ofelia	PROPN	SP	_	32	nmod	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	_
+36-37	alle	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	signore	signore	NOUN	S	Gender=Fem|Number=Plur	32	conj	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	fondiaria	fondiaria	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+42	?	?	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 5
+# text = Perchè non lo facevano Ministro quel Guido Dalma?
+1	Perchè	perché	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	Ministro	Ministro	PROPN	SP	_	4	xcomp	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	Guido	Guido	PROPN	SP	_	4	nsubj	_	_
+8	Dalma	Dalma	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ci vuol molto a essere ministro.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+2	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	molto	molto	ADV	B	_	6	advmod	_	_
+4	a	a	ADP	E	_	6	mark	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+6	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era, difatti, seduta accanto a lui, sul divano, e gli aveva passato un braccio sotto il braccio;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	12	punct	_	_
+3	difatti	difatti	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	seduta	sedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+6	accanto	accanto	ADV	B	_	8	case	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	divano	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+16	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	sotto	sotto	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 2
+# text = aveva appoggiata lievemente la testa sulla sua spalla.
+1	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	appoggiata	appoggiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	lievemente	lievemente	ADV	B	_	2	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	testa	testa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	spalla	spalla	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Un lungo silenzio:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = ma ella, a occhi bassi, sentiva che il respiro di Giovanni diventava affannoso.
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	bassi	basso	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Giovanni	Giovanni	PROPN	SP	_	11	nmod	_	_
+14	diventava	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+15	affannoso	affannoso	ADJ	A	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Allora, pian piano, levò gli occhi, lo guardò, gli mormorò:
+1	Allora	allora	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	pian	pian	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	piano	piano	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	levò	levare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	mormorò	mormorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	6	punct	_	SpacesAfter=\n
+

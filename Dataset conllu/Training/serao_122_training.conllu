@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così, Mario Felice la vinceva.
+1	Così	così	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Mario	Mario	PROPN	SP	_	6	nsubj	_	_
+4	Felice	Felice	PROPN	SP	_	3	flat:name	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	vinceva	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Innanzi alla negazione precisa, assoluta dell'amor suo, tutta la forza di abnegazione di Maria svaniva.
+1	Innanzi	innanzi	ADP	E	_	4	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	negazione	negazione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+5	precisa	preciso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	amor	amore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	15	det:predet	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	forza	forza	NOUN	S	Gender=Fem|Number=Sing	10	compound	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	abnegazione	abnegazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Maria	Maria	PROPN	SP	_	15	nmod	_	_
+20	svaniva	svanivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 3
+# text = Ella non resisteva a quella negazione, ciò la esasperava e l'avviliva, non trovava nulla da risponderle, il suo sdegno era grande come il suo terrore.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	resisteva	resistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	negazione	negazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+9	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	esasperava	esasperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	l'	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+13	avviliva	avviliva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+17	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	16	obj	_	_
+18	da	da	ADP	E	_	19	mark	_	_
+19-20	risponderle	_	_	_	_	_	_	_	SpaceAfter=No
+19	risponder	rispondere	VERB	V	VerbForm=Inf	17	acl	_	_
+20	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+21	,	,	PUNCT	FF	_	26	punct	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+25	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
+26	grande	grande	ADJ	A	Number=Sing	3	conj	_	_
+27	come	come	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ma che uomo era dunque, questo Mario Felice, a cui ella si era avvinta?
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+5	dunque	dunque	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	Mario	Mario	PROPN	SP	_	0	root	_	_
+9	Felice	Felice	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+13	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	avvinta	avvincere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Ma che sciagurata natura di uomo, senza fede e senza speranza, senza entusiasmo e senza carità, ella si era messa ad adorare?
+1	Ma	ma	CCONJ	CC	_	23	cc	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	sciagurata	sciagurare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	23	advcl	_	_
+4	natura	natura	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	senza	senza	ADP	E	_	9	case	_	_
+9	fede	fede	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	senza	senza	ADP	E	_	15	case	_	_
+15	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	senza	senza	ADP	E	_	18	case	_	_
+18	carità	carità	NOUN	S	Gender=Fem	9	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	ad	a	ADP	E	_	25	mark	_	_
+25	adorare	adorare	VERB	V	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
+26	?	?	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 6
+# text = Egli non l'aveva amata giammai; questa era la sola certezza.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+6	giammai	giammai	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	5	punct	_	_
+8	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	12	nsubj	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sola	solo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

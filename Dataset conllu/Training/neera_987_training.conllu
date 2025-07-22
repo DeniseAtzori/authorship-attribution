@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’ora culminante di tale abbandono ricorreva ogni giorno al tramonto del sole.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ora	ora	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	culminante	culminante	ADJ	A	Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	tale	tale	DET	DD	Number=Sing|PronType=Dem	6	det	_	_
+6	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	ricorreva	ricorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tramonto	tramonto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sole	sole	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Le piaceva allora portarsi all’entrata del bosco, presso alcuni scalini di pietra dai quali aveva visto arrivare Ariele.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	piaceva	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	allora	allora	ADV	B	_	2	advmod	_	_
+4-5	portarsi	_	_	_	_	_	_	_	_
+4	portar	portare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6-7	all’	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bosco	bosco	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	presso	presso	ADP	E	_	15	case	_	_
+14	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	scalini	scalino	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	pietra	pietra	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	dai	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	quali	quale	PRON	PR	Number=Plur|PronType=Rel	22	obl	_	_
+21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+23	arrivare	arrivare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+24	Ariele	Ariele	PROPN	SP	_	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sedeva abbattuta, chiuso il capo nel suo velo bianco, chiuse le mani in grembo, simile a un marmoreo simulacro del dolore, a una sfinge dal segreto inviolato.
+1	Sedeva	sedere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	abbattuta	abbattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	capo	capo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	velo	velo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	chiuse	chiudere	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	mani	mano	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	grembo	grembo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	simile	simile	ADJ	A	Number=Sing	15	amod	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	marmoreo	marmoreo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	simulacro	simulacro	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	sfinge	sfinge	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+31-32	dal	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	inviolato	inviolato	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

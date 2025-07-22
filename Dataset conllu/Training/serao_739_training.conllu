@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nel primo cassetto stanno i ricordi delle donne che egli ha amate.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	cassetto	cassetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	donne	donna	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+12	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	amate	amare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Vi è una cintura di seta, molto scolorita;
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cintura	cintura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	seta	seta	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	scolorita	scolorito	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = apparteneva a una bellissima donna quarantenne di cui egli si era innamorato, verso i venti anni.
+1	apparteneva	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	5	amod	_	_
+5	donna	donna	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	quarantenne	quarantenne	ADJ	A	Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+9	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	innamorato	innamorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	verso	verso	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	venti	venti	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Questa donna era stata molto amica di sua madre e veniva spesso in casa, sempre vestita con grande eleganza, un po' imbellettata, moltissimo profumata, con certi fruscî inebbrianti di gonne di seta, lasciando vedere i suoi piedini calzati di calze di seta trasparenti e di minute scarpette.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	amica	amico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	madre	madre	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+12	spesso	spesso	ADV	B	_	11	advmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	sempre	sempre	ADV	B	_	17	advmod	_	_
+17	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	grande	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	eleganza	eleganza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	po'	poco	ADV	B	_	24	advmod	_	_
+24	imbellettata	imbellettato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	moltissimo	molto	ADV	B	Degree=Abs	27	advmod	_	_
+27	profumata	profumato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	31	det	_	_
+31	fruscî	fruscio	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+32	inebbrianti	inebbriante	ADJ	A	Number=Plur	31	amod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	gonne	gonna	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	seta	seta	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	27	punct	_	_
+38	lasciando	lasciare	VERB	V	VerbForm=Ger	27	advcl	_	_
+39	vedere	vedere	VERB	V	VerbForm=Inf	38	ccomp	_	_
+40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+41	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	piedini	piedine	NOUN	S	Gender=Masc|Number=Plur	39	obj	_	_
+43	calzati	calzato	ADJ	A	Gender=Masc|Number=Plur	42	amod	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	calze	calza	NOUN	S	Gender=Fem|Number=Plur	42	nmod	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	seta	seta	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+48	trasparenti	trasparente	ADJ	A	Number=Plur	47	amod	_	_
+49	e	e	CCONJ	CC	_	51	cc	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	minute	minuto	NOUN	S	Gender=Fem|Number=Plur	47	conj	_	_
+52	scarpette	scarpetto	ADJ	A	Gender=Fem|Number=Plur	51	amod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

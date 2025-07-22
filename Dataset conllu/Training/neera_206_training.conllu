@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ognuno di essi era ben disposto a festeggiare la scrittrice quando nel suo interno la considerava come un leggiadro puppazzetto del suo medesimo sogno, inoffensivo, divertente, forse utile.
+1	Ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj:pass	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+5	ben	bene	ADV	B	_	6	advmod	_	_
+6	disposto	disporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	festeggiare	festeggiare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	scrittrice	scrittore	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	quando	quando	CCONJ	CC	_	17	cc	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	interno	interno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+16	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	considerava	considerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+18	come	come	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	leggiadro	leggiadro	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	puppazzetto	puppazzetto	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	26	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+25	medesimo	medesimo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	inoffensivo	inoffensivo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	divertente	divertente	ADJ	A	Number=Sing	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	forse	forse	ADV	B	_	33	advmod	_	_
+33	utile	utile	ADJ	A	Number=Sing	28	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ma è tutt’altra cosa se la donna diviene una rivale nella concorrenza.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	tutt’	tutto	DET	T	Gender=Fem|Number=Sing	5	det	_	SpaceAfter=No
+4	altra	altro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	se	se	SCONJ	CS	_	9	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	diviene	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rivale	rivale	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Vi ricordate il papato di prete Pero?
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	ricordate	ricordare	VERB	V	Mood=Imp|Number=Plur|Person=2	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	papato	papato	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	prete	prete	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	Pero	pero	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = — _Questo è un papa che ci crede._ — _E’ un papaccio in buona fede._ — _Diamogli l’arsenico._
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	_Questo	_Questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	papa	papa	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+8	crede._	crede.-	PUNCT	FB	_	7	punct	_	_
+9	—	—	PUNCT	FF	_	7	punct	_	_
+10	_E’	_Eo	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	papaccio	papaccio	NOUN	S	Gender=Masc|Number=Sing	5	acl:relcl	_	_
+13	in	in	ADP	E	_	17	case	_	_
+14	buona	buono	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+15	fede._	fede.-	PUNCT	FB	_	14	punct	_	_
+16	—	—	PUNCT	FF	_	17	punct	_	_
+17	_Diamogli	_Diamogli	PROPN	SP	_	19	nmod	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	arsenico._	ExtraSubj=Yes|arsenico._	PUNCT	FB	_	12	punct	_	SpacesAfter=\n
+

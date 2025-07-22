@@ -1,0 +1,126 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Soffriva profondamente, perchè non era amata abbastanza, perchè non era neppure certa di essere amata:
+1	Soffriva	Soffrire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	profondamente	profondamente	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	perchè	perché	SCONJ	CS	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+8	abbastanza	abbastanza	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	perchè	perché	SCONJ	CS	_	14	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	neppure	neppure	ADV	BN	PronType=Neg	14	advmod	_	_
+14	certa	certo	ADJ	A	Gender=Fem|Number=Sing	1	advcl	_	_
+15	di	di	ADP	E	_	17	mark	_	_
+16	essere	essere	AUX	VA	VerbForm=Inf	17	aux:pass	_	_
+17	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = dentro le vene ardeva il sangue per collere improvvise:
+1	dentro	dentro	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	vene	vena	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+4	ardeva	ardere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	collere	collere	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	improvvise	improvvettere	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = cento volte ella sentiva la tentazione di scacciare Giovanni da sè, di non vederlo mai più.
+1	cento	cento	NUM	N	NumType=Card	2	nummod	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+3	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tentazione	tentazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	scacciare	scacciare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	Giovanni	Giovanni	PROPN	SP	_	8	obl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	sè	sè	PRON	PE	Person=3|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	di	di	ADP	E	_	15	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15-16	vederlo	_	_	_	_	_	_	_	_
+15	veder	vedere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	mai	mai	ADV	B	_	15	advmod	_	_
+18	più	più	ADV	B	_	15	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ma il pensiero che egli, veramente, la credesse ancora una perfida femmina, capace del male per la voluttà del male, ma l'idea di desolare ancora Giovanni, con una catastrofe spirituale, tale che per sempre ne restasse violata la sua memoria, la rigettavano nell'amore e nel sacrificio.
+1	Ma	ma	CCONJ	CC	_	52	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	52	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	veramente	vero	ADV	B	_	10	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	credesse	credere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+11	ancora	ancora	ADV	B	_	10	advmod	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	perfida	perfida	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	femmina	femmina	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	capace	capace	ADJ	A	Number=Sing	14	amod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	male	male	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	voluttà	voluttà	NOUN	S	Gender=Fem	16	obl	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	male	male	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	ma	ma	CCONJ	CC	_	29	cc	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	idea	idea	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31	desolare	desolare	VERB	V	VerbForm=Inf	29	acl	_	_
+32	ancora	ancora	ADV	B	_	31	advmod	_	_
+33	Giovanni	Giovanni	PROPN	SP	_	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	con	con	ADP	E	_	37	case	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	catastrofe	catastrofe	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+38	spirituale	spirituale	ADJ	A	Number=Sing	37	amod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	33	punct	_	_
+40	tale	tale	DET	DD	Number=Sing|PronType=Dem	41	det	_	_
+41	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+42	per	per	ADP	E	_	43	case	_	_
+43	sempre	sempre	ADV	B	_	45	advmod	_	_
+44	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	45	iobj	_	_
+45	restasse	restare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	_
+46	violata	violare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	45	advcl	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+48	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	46	nsubj:pass	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	3	punct	_	_
+51	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	52	obj	_	_
+52	rigettavano	rigettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+53-54	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+53	in	in	ADP	E	_	55	case	_	_
+54	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	55	det	_	_
+55	amore	amore	NOUN	S	Gender=Masc|Number=Sing	52	obl	_	_
+56	e	e	CCONJ	CC	_	59	cc	_	_
+57-58	nel	_	_	_	_	_	_	_	_
+57	in	in	ADP	E	_	59	case	_	_
+58	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	sacrificio	sacrificio	NOUN	S	Gender=Masc|Number=Sing	55	conj	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	52	punct	_	SpacesAfter=\n
+

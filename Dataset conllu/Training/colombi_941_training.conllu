@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quelle fatiche, nelle quali si esaurivano le sue forze giovanili, lo lasciavano prostrato, e la sua mente stanca non aspirava che al breve riposo che le era concesso.
+1	Quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	16	nsubj	_	_
+2	fatiche	fatica	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	quali	quale	PRON	PR	Number=Plur|PronType=Rel	8	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	esaurivano	esaurire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	forze	forza	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+12	giovanili	giovanili	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+15	lasciavano	lasciare	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	prostrato	prostrato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	24	punct	_	_
+18	e	e	CCONJ	CC	_	24	cc	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	mente	mente	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+22	stanca	stanco	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	aspirava	aspirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
+25	che	che	SCONJ	CS	_	29	mark	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	breve	breve	ADJ	A	Number=Sing	29	amod	_	_
+29	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+30	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+31	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	iobj	_	_
+32	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+33	concesso	concedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = Così viveva relativamente tranquillo, troppo occupato per pensare ad altre eccitazioni, ad altre tempeste.
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	relativamente	relativamente	ADV	B	_	4	advmod	_	_
+4	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	troppo	troppo	ADV	B	_	7	advmod	_	_
+7	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	pensare	pensare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	ad	a	ADP	E	_	12	case	_	_
+11	altre	altro	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	eccitazioni	eccitazione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	ad	a	ADP	E	_	16	case	_	_
+15	altre	altro	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	tempeste	tempesta	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Soltanto la presenza dell'Elena qualche volta lo turbava.
+1	Soltanto	soltanto	ADV	B	_	10	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Elena	Elena	PROPN	SP	_	3	nmod	_	_
+7	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	turbava	turbare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Se le donne sapessero quali tesori racchiude il cuore di un giovane!
+1	--Se	--Se	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	sapessero	sapere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+5	quali	quale	DET	DQ	Number=Plur|PronType=Int	6	det	_	_
+6	tesori	tesore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	racchiude	racchiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giovane	giovane	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Più siamo nobili e buoni e più elevato è il nostro sogno femminile.
+1	Più	più	ADV	B	_	3	advmod	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	nobili	nobile	ADJ	A	Number=Plur	12	csubj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	3	conj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	elevato	elevato	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	femminile	femminile	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Noi allora non vediamo la donna, la inventiamo, la fabbrichiamo noi con quanto c'è di meglio nella nostra fantasia.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	allora	allora	ADV	B	_	1	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	inventiamo	inventare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	fabbrichiamo	fabbrichare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	_
+16	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	SpaceAfter=No
+17	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	meglio	meglio	ADV	B	_	17	advmod	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = L'animo nostro allora come un albero in fiore, mette tutti i giorni un germoglio nuovo e tutti insieme noi li raggruppiamo intorno al nostro fantasma ideale.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	animo	animo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	nostro	nostro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	allora	allora	ADV	B	_	2	advmod	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	albero	albero	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	germoglio	germoglio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+17	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	23	cc	_	_
+19	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	23	obl	_	_
+20	insieme	insieme	ADV	B	_	21	case	_	_
+21	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	23	obl	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+23	raggruppiamo	raggruppare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+24	intorno	intorno	ADV	B	_	28	case	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+29	ideale	ideale	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Ma poi viene un momento....
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	momento...	momento...	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = basta, ho forse torto di parlarvi così.
+1	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	forse	forse	ADV	B	_	5	advmod	_	_
+5	torto	torto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	parlarvi	_	_	_	_	_	_	_	_
+7	parlar	parlare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	expl	_	_
+9	così	così	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma dalla finestra, vedevo sempre la stazione, che s'era svegliata anche lei.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	sempre	sempre	ADV	B	_	6	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	SpaceAfter=No
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	svegliata	svegliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Sotto la porta, un facchino si stirava le braccia.
+1	Sotto	sotto	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	porta	porta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	facchino	facchino	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	stirava	stirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Uscii, non ne potevo più.
+1	Uscii	Uscii	ADJ	NO	Number=Sing|NumType=Ord	5	xcomp	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	potevo	potere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	più	più	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Nel crepuscolo mattinale la serva spazzava, in basso, la stanza da pranzo.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	crepuscolo	crepuscolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	mattinale	mattinale	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	serva	servire	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	spazzava	spazzare	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	basso	basso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Le dissi che andavo a passeggiare.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	dissi	dissi	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	passeggiare	passeggiare	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sorrise.
+1	Sorrise	Sorrise	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Non capii quel sorriso.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	capii	capii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ero inebetito.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	inebetito	inebetire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

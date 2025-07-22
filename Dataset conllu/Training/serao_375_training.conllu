@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Passò il tempo, così.
+1	Passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	così	così	ADV	B	_	1	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Imbruniva: i fiori cadevano più lenti, il clamore era più basso, la folla si diradava.
+1	Imbruniva	Imbrunivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	cadevano	cadevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	lenti	lento	ADJ	A	Gender=Masc|Number=Plur	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	clamore	clamore	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	basso	basso	ADJ	A	Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	folla	folla	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	diradava	diradare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Accanto alla bimba passò una leggiadra apparizione di donna, dall’abito nero, succinto e ricco, dal volto bianco e sorridente, dagli enormi brillanti alle orecchie delicate:
+1	Accanto	accanto	ADV	B	_	4	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	bimba	bimba	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+5	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	leggiadra	leggiadro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	apparizione	apparizione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12-13	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	abito	abito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+15	nero	nero	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	succinto	succinto	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	5	punct	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	volto	volto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+24	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	sorridente	sorridente	ADJ	A	Number=Sing	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	23	punct	_	_
+28-29	dagli	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	31	case	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	enormi	enorme	ADJ	A	Number=Plur	31	amod	_	_
+31	brillanti	brillante	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+32-33	alle	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+35	delicate	delicato	ADJ	A	Gender=Fem|Number=Plur	34	amod	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = portava in mano un cestino di fiori, a mazzetti e disciolti.
+1	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	mano	mano	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cestino	cesto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	mazzetti	mazzetto	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	disciolti	disciolto	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Era una fioraia meravigliosa, che accumulava denari nel fondo del cestino.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fioraia	fioraia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	meravigliosa	meraviglioso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	accumulava	accumulare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+8	denari	denaro	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cestino	cesto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

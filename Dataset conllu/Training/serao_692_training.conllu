@@ -1,0 +1,137 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Poi, non so come, giacchè la transizione mi sfugge, viene il giorno, viene l'ora in cui voi, a un tratto, mi riapparite in tutta la vostra seduzione.
+1	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	Poi	poi	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+7	come	come	SCONJ	CS	_	9	mark	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	giacchè	giacché	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	transizione	transizione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	sfugge	sfuggire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	ora	ora	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+24	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	21	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	31	iobj	_	_
+31	riapparite	riapparire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+32	in	in	ADP	E	_	36	case	_	_
+33	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	36	det:predet	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	seduzione	seduzione	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 2
+# text = Sarà, forse, un vestito che vi va bene;
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	forse	forse	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	bene	bene	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = un significato più tenero degli occhi;
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	significato	significato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	tenero	tenero	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = qualche cosa di più mite nel sorriso;
+1	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	mite	mire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = una posa più stanca, più abbandonata del vostro bel corpo;
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	posa	posa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	stanca	stanco	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	abbandonata	abbandonato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	12	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	bel	bello	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = un tocco fuggevole della vostra cara mano nella mia...
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tocco	tocco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	fuggevole	fuggevole	ADJ	A	Number=Sing	2	amod	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	8	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	cara	caro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mia...	mia...	NOUN	S	_	2	nmod	_	_
+
+# sent_id = 7
+# text = non so!
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Allora l'antica incantatrice mi prende, mi riprendo ed io sono suo.
+1	Allora	allora	ADV	B	_	6	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	antica	antico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	incantatrice	incantatore	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+9	riprendo	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	ed	e	CCONJ	CC	_	13	cc	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sola nella mia stanza, mi esaltai tutto il giorno con quei pensieri, colla visione di quelle scene strazianti.
+1	Sola	solare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	esaltai	esaltare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+9	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	11	det:predet	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
+14	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+17	visione	visione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+20	scene	scena	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+21	strazianti	straziante	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = — Stavo così male che potei evitare d'andare a pranzo;
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Stavo	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	così	così	ADV	B	_	4	advmod	_	_
+4	male	male	ADV	B	_	2	advmod	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	potei	poteo	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	evitare	evitare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+8	d'	di	ADP	E	_	9	mark	_	SpaceAfter=No
+9	andare	andare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = avevo pianto in modo da sfigurarmi, e poi avevo bisogno di non distrarmi dal mio proposito.
+1	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	pianto	piangere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	modo	modo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	sfigurarmi	arma|sfigurarme	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	poi	poi	ADV	B	_	10	advmod	_	_
+10	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	_
+11	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+12	di	di	ADP	E	_	14	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	distrarmi	arma|distrarme	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	acl	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Era la prima volta che non andavo a pranzo con mio marito;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	marito	marito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = pensavo:
+1	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+

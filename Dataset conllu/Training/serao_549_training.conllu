@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gli occhi di Luisa Cima sono oscuri, di tinta incerta.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Luisa	Luisa	PROPN	SP	_	2	nmod	_	_
+5	Cima	cima	PROPN	SP	_	4	flat:name	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	oscuri	oscuro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tinta	tinta	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+11	incerta	incerto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ma oscuri, non neri:
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	oscuri	oscuro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	neri	nero	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = vi è chi li ha visti marrone oscuro e chi grigio scuri:
+1	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	marrone	marrone	ADJ	A	_	8	amod	_	_
+8	oscuro	oscuro	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	conj	_	_
+11	grigio	grigio	NOUN	S	Gender=Masc|Number=Sing	10	appos	_	_
+12	scuri	scuro	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = mai neri.
+1	mai	mai	ADV	B	_	2	advmod	_	_
+2	neri	nero	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = La loro espressione è sempre duplice:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	duplice	duplice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 6
+# text = tenerezza e malizia, miste insieme.
+1	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	malizia	malizia	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	miste	medere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	insieme	insieme	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Spesso vi è lotta intima, fra queste due espressioni:
+1	Spesso	spesso	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+5	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	fra	fra	ADP	E	_	10	case	_	_
+8	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	espressioni	espressione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = vince l'una o l'altra, secondo il momento.
+1	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	1	nsubj	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	secondo	secondo	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	momento	momento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

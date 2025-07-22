@@ -1,0 +1,143 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E fece per balzar giù dalla carrozza, come se volesse prendere il treno.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	balzar	balzare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	giù	giù	PRON	PI	PronType=Ind	4	obj	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	come	come	ADV	B	_	13	advmod	_	_
+11	se	se	SCONJ	CS	_	13	mark	_	_
+12	volesse	volere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	prendere	prendere	VERB	V	VerbForm=Inf	2	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	treno	treno	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Davvero il dolore e lo spavento lo facevano delirare.
+1	Davvero	davvero	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	8	cc	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	spavento	spavento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+9	delirare	delirare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Il cocchiere lo trattenne, e, un po' colle buone, un po' colla violenza, riuscì a persuaderlo che il treno era passato da mezz'ora, per conseguenza prima che egli avesse ricevuta la lettera di Vincenzo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cocchiere	cocchiere	NOUN	S	_	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	trattenne	trattenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	17	punct	_	_
+6	e	e	CCONJ	CC	_	17	cc	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	17	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po'	poco	ADV	B	_	17	advmod	_	_
+10-11	colle	_	_	_	_	_	_	_	_
+10	con	con	ADP	E	_	17	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+12	buone	buono	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	po'	poco	ADV	B	_	16	advmod	_	_
+16	colla	colla	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	riuscì	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21-22	persuaderlo	_	_	_	_	_	_	_	_
+21	persuader	persuadere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	che	che	SCONJ	CS	_	27	mark	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	treno	treno	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+26	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	mezz'	mezzo	DET	DD	Number=Sing|PronType=Dem	30	det	_	SpaceAfter=No
+30	ora	ora	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	27	punct	_	_
+32	per	per	ADP	E	_	33	case	_	_
+33	conseguenza	conseguenza	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+34	prima	prima	ADV	B	_	38	mark	_	_
+35	che	che	SCONJ	CS	_	34	fixed	_	_
+36	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
+37	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	aux	_	_
+38	ricevuta	ricevere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	Vincenzo	Vincenzo	PROPN	SP	_	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Era commosso anche lui da quella disperazione, e frustava i cavalli senza pietà, e li faceva volare addirittura sulla strada maestra.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	commosso	commuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	frustava	frustare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	cavalli	cavallo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	senza	senza	ADP	E	_	14	case	_	_
+14	pietà	pietà	NOUN	S	Gender=Fem	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+18	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+19	volare	volare	VERB	V	VerbForm=Inf	18	ccomp	_	_
+20	addirittura	addirittura	ADV	B	_	19	advmod	_	_
+21-22	sulla	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	strada	strada	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	maestra	maestro	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ma Vicenzino si impazientiva di rimanere inerte in carrozza;
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	Vicenzino	Vicenzino	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	impazientiva	impazientire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	rimanere	rimanere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	inerte	inerto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	xcomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = batteva i piedi furiosamente, si mordeva i pugni, si strappava i capelli.
+1	batteva	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	furiosamente	furiosamente	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	mordeva	mordere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	strappava	strappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

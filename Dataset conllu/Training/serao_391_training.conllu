@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi, cominciammo a seccarci.
+1	Poi	poi	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	cominciammo	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	seccarci	_	_	_	_	_	_	_	SpaceAfter=No
+5	seccar	seccare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Poichè Michele non ci trovava, era meglio uscire di là e andargli a dire che era uno scemo, uno scemone, che gliel’avevamo fatta.
+1	Poichè	poiPoiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	Michele	Michele	PROPN	SP	_	9	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+5	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	meglio	meglio	ADV	B	_	9	advmod	_	_
+9	uscire	uscire	VERB	V	VerbForm=Inf	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	là	là	ADV	B	_	9	advmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13-14	andargli	_	_	_	_	_	_	_	_
+13	andar	andare	VERB	V	VerbForm=Inf	9	conj	_	_
+14	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	dire	dire	VERB	V	VerbForm=Inf	13	advcl	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+19	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	nsubj	_	_
+20	scemo	sce	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	scemone	scemone	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+26	gliel’	igliel	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	28	obj	_	SpaceAfter=No
+27	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Ma che!
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	che	che	ADV	B	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Noi premevamo sul fondo e il canestrone rimaneva ritto, con le sue pareti alte come quelle di una torre:
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	premevamo	premere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	canestrone	canestrone	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	rimaneva	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+10	ritto	ritto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	pareti	parete	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+16	alte	alto	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	come	come	ADP	E	_	18	case	_	_
+18	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	16	obl	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	torre	torre	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = non sapevamo rovesciarlo più, per uscirne.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	sapevamo	sapere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3-4	rovesciarlo	_	_	_	_	_	_	_	_
+3	rovesciar	rovesciare	VERB	V	VerbForm=Inf	0	root	_	_
+4	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	più	più	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8-9	uscirne	_	_	_	_	_	_	_	SpaceAfter=No
+8	uscir	uscire	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

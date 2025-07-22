@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Infine potranno avere il naso camuso o gli occhi piccoli o la bocca grande — ma avranno sempre qualche cosa bella:
+1	Infine	infine	ADV	B	_	3	advmod	_	_
+2	potranno	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	naso	naso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	camuso	camuso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+10	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+14	grande	grande	ADJ	A	Number=Sing	13	amod	_	_
+15	—	—	PUNCT	FF	_	17	punct	_	_
+16	ma	ma	CCONJ	CC	_	17	cc	_	_
+17	avranno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+18	sempre	sempre	ADV	B	_	17	advmod	_	_
+19	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+21	bella	bello	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = o la guancia rotonda o la delicatezza della pelle o la morbidezza dei capelli, o avranno, nello insieme, tanta grazia soave, tanta freschezza, tanta gioventù che vale come bellezza.
+1	o	o	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	guancia	guancia	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+4	rotonda	rotondo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	o	o	CCONJ	CC	_	7	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	delicatezza	delicatezza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	morbidezza	morbidezza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	o	o	CCONJ	CC	_	19	cc	_	_
+19	avranno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21-22	nello	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	insieme	insieme	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	19	punct	_	_
+25	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	26	det	_	_
+26	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+27	soave	soave	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
+30	freschezza	freschezza	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	33	det	_	_
+33	gioventù	gioventù	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+34	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+35	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+36	come	come	ADP	E	_	37	case	_	_
+37	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 3
+# text = Vi sono uomini brutti e vi sono uomini ripugnanti:
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	brutti	brutto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	vi	vi	ADV	B	_	8	advmod	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+9	ripugnanti	ripugnante	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ma Dio volle che non vi fosse infanzia senza sorriso e senza fascino di amore.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	Dio	Dio	PROPN	SP	_	3	nsubj	_	_
+3	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+7	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	infanzia	infanziare	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	_
+9	senza	senza	ADP	E	_	10	case	_	_
+10	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	senza	senza	ADP	E	_	13	case	_	_
+13	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	amore	amore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

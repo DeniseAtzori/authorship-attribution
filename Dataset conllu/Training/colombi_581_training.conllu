@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marco si ricordò infatti quella giovinetta.
+1	Marco	Marco	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	ricordò	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	infatti	infatti	ADV	B	_	3	advmod	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	giovinetta	giovinetto	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = L'aveva osservata poco;
+1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	osservata	osservare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	poco	poco	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = gli era sembrata una bambina.
+1	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	sembrata	sembrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ma dopo quel discorso ci pensò, se la richiamò alla mente, bella, ingenua nella sua gioventù immacolata, e provò un turbamento al pensare che quella fanciulletta candida la darebbero a lui, che potrebbe essere sua, vivere con lui nella più stretta intimità.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	dopo	dopo	ADP	E	_	4	case	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	se	se	SCONJ	CS	_	10	mark	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	richiamò	richiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mente	mente	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	bella	bello	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	ingenua	ingenuo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	gioventù	gioventù	NOUN	S	Gender=Fem	17	obl	_	_
+22	immacolata	immacolato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	provò	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	turbamento	turbamento	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	pensare	pensare	VERB	V	VerbForm=Inf	25	obl	_	_
+31	che	che	SCONJ	CS	_	33	mark	_	_
+32	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	33	nsubj	_	_
+33	fanciulletta	fanciulletto	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
+34	candida	candida	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+35	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+36	darebbero	dare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	parataxis	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	36	punct	_	_
+40	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+41	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+42	essere	essere	AUX	VA	VerbForm=Inf	45	cop	_	_
+43	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	45	punct	_	_
+45	vivere	vivere	VERB	V	VerbForm=Inf	33	acl:relcl	_	_
+46	con	con	ADP	E	_	47	case	_	_
+47	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	obl	_	_
+48-49	nella	_	_	_	_	_	_	_	_
+48	in	in	ADP	E	_	52	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+50	più	più	ADV	B	_	51	advmod	_	_
+51	stretta	stretto	ADJ	A	Gender=Fem|Number=Sing	52	amod	_	_
+52	intimità	intimità	NOUN	S	Gender=Fem	45	obl	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	45	punct	_	SpacesAfter=\n
+

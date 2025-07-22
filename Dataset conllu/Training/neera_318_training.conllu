@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ecco la maternità offerta a tutte le donne.
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	maternità	maternità	NOUN	S	Gender=Fem	0	root	_	_
+4	offerta	offrire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = C’è da rifare il mondo, nientemeno, e si vorrebbe che la donna andasse a perder tempo in cattedra e al fôro!
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	rifare	rifare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	nientemeno	nientemeno	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	donna	donna	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	andasse	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	perder	perdere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	cattedra	cattedra	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	fôro	fôro	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+26	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = “L’uomo di domani non è forse colui che oggi la madre alleva?
+1	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	domani	domani	ADV	B	_	3	advmod	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	forse	forse	ADV	B	_	9	advmod	_	_
+9	colui	colui	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+10	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+11	oggi	oggi	ADV	B	_	14	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	madre	madre	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	alleva	allevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = E chi per necessità di cose è destinato a tale preziosa missione, dovrà rifiutarsi dal fare ciò che tutti fanno per fini assai inferiori, dal dedicarsi cioè interamente al conseguimento del proprio scopo?„ Meditare questo periodo e meditare pure il seguente.
+1	E	e	CCONJ	CC	_	15	cc	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	15	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	necessità	necessità	NOUN	S	Gender=Fem	8	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	tale	tale	DET	DD	Number=Sing|PronType=Dem	12	det	_	_
+11	preziosa	prezioso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	missione	missione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	_
+15-16	rifiutarsi	_	_	_	_	_	_	_	_
+15	rifiutar	rifiutare	VERB	V	VerbForm=Inf	0	root	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	15	obl	_	_
+20	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+22	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	23	nsubj	_	_
+23	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	fini	fine	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+26	assai	assai	ADV	B	_	27	advmod	_	_
+27	inferiori	inferiore	ADJ	A	Degree=Cmp|Number=Plur	25	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29-30	dal	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31-32	dedicarsi	_	_	_	_	_	_	_	_
+31	dedicar	dedicare	VERB	V	VerbForm=Inf	15	conj	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	obj	_	_
+33	cioè	cioè	ADV	B	_	31	advmod	_	_
+34	interamente	interamente	ADV	B	_	31	advmod	_	_
+35-36	al	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	conseguimento	conseguimento	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	41	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+42	?	?	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+43	„	„	PUNCT	FF	_	44	punct	_	_
+44	Meditare	meditare	VERB	V	VerbForm=Inf	15	advcl	_	_
+45	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	46	det	_	_
+46	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	44	obj	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	meditare	meditare	VERB	V	VerbForm=Inf	44	conj	_	_
+49	pure	pure	ADV	B	_	48	advmod	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	seguente	seguente	NOUN	S	Gender=Masc|Number=Sing	48	obj	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

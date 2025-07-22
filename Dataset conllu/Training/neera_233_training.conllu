@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non è vero che l’evocazione è perfetta?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	evocazione	evocazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	3	csubj	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma l’autore è così innamorato del suo soggetto che soggiunge ancora: “Creare della gioia e beneficare l’umanità.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	autore	autore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	così	così	ADV	B	_	6	advmod	_	_
+6	innamorato	innamorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	soggetto	soggetto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	soggiunge	soggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	ancora	ancora	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	10	punct	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Creare	creare	VERB	V	VerbForm=Inf	10	acl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	beneficare	beneficare	VERB	V	VerbForm=Inf	16	conj	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	umanità	umanità	NOUN	S	Gender=Fem	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Cleopatra fece della sua vita una grande opera d’arte.
+1	Cleopatra	Cleopatra	PROPN	SP	_	2	nsubj	_	_
+2	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+9	opera	opera	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	arte	arte	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = La sua vita è un capolavoro vissuto„.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	capolavoro	capolavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	vissuto	vivere	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	„	„	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Su la qual cosa non credo che i femministi saranno d’accordo con lui.
+1	Su	su	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	qual	equale	ADJ	A	_	4	amod	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	femministi	femminista	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+10	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	ccomp	_	_
+11	d’	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

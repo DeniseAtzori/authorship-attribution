@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vi è un’eco anche per il silenzio.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	eco	eco	NOUN	S	Number=Sing	0	root	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Esso era impressionante nella oscurità che li circondava, mentre l’incenso della foresta dai vivi turiboli delle conifere erette a candelabri sembrava accompagnare il mistero di un rito dolce e solenne;
+1	Esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	impressionante	impressionare	ADJ	A	Number=Sing	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	oscurità	oscurità	NOUN	S	Gender=Fem	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	circondava	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	mentre	mentre	SCONJ	CS	_	27	mark	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	incenso	incenso	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	foresta	foresta	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	dai	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	vivi	vivo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	turiboli	turibole	ADJ	A	Number=Plur	16	amod	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	conifere	conifera	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+24	erette	erigere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	candelabri	candelabro	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+27	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+28	accompagnare	accompagnare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	rito	rito	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	dolce	dolce	ADJ	A	Number=Sing	33	amod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	solenne	solenne	ADJ	A	Number=Sing	34	conj	_	SpaceAfter=No
+37	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = ed ogni forma nuova di cespuglio o viluppo di rami, ferendo quell’unico dei loro sensi che non fosse assorbito dall’estasi, li richiamava alla visione di una realtà così palpitante che il battito dei loro cuori si arrestava.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	forma	forma	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+4	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cespuglio	cespuglio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	viluppo	viluppo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	rami	ramo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	ferendo	ferendere	VERB	V	VerbForm=Ger	3	advcl	_	_
+13-14	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+13	qui	qui	ADV	B	_	12	advmod	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	unico	unico	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	sensi	senso	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj:pass	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux:pass	_	_
+23	assorbito	assorbire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+24-25	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+24	da	da	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26-27	estasi	_	_	_	_	_	_	_	SpaceAfter=No
+26	esta	esta	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
+30	richiamava	richiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+31-32	alla	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	visione	visione	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	realtà	realtà	NOUN	S	Gender=Fem	33	nmod	_	_
+37	così	così	ADV	B	_	38	advmod	_	_
+38	palpitante	palpitante	ADJ	A	Number=Sing	36	amod	_	_
+39	che	che	SCONJ	CS	_	47	mark	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	battito	battito	NOUN	S	Gender=Masc|Number=Sing	47	nsubj	_	_
+42-43	dei	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	45	case	_	_
+43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+44	loro	loro	DET	AP	Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	41	nmod	_	_
+46	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	47	expl	_	_
+47	arrestava	arrestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	advcl	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	30	punct	_	SpacesAfter=\n
+

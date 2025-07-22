@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Santo è il rimorso — ribattè il giovane — se conduce alla conversione.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Santo	santo	PRON	PQ	Number=Sing|PronType=Int	0	root	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	rimorso	rimorso	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	—	—	PUNCT	FF	_	7	punct	_	_
+7	ribattè	ribattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giovane	giovane	NOUN	S	Number=Sing	7	nsubj	_	_
+10	—	—	PUNCT	FF	_	7	punct	_	_
+11	se	se	SCONJ	CS	_	12	mark	_	_
+12	conduce	condurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	conversione	conversione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Vada, vada al Garda e ne parli e lo faccia conoscere.
+1	Vada	andare	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Garda	Garda	PROPN	SP	_	3	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9-10	parli	_	_	_	_	_	_	_	_
+9	par	parre	VERB	V	VerbForm=Inf	13	conj	_	_
+10	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	conoscere	conoscere	VERB	V	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Noi trentini ci interessiamo a tutte le questioni che interessano il regno, ma abbiamo bisogno che anche i nostri fratelli si interessino a noi.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	trentini	trentino	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	interessiamo	interessare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	questioni	questione	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	interessano	interessare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	regno	regno	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17	che	che	SCONJ	CS	_	23	mark	_	_
+18	anche	anche	ADV	B	_	21	advmod	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	interessino	interessino	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = — Il Garda è una delle porte del Trentino, la più affascinante, e l’oro tedesco la insidia senza posa.
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Garda	Garda	PROPN	SP	_	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	porte	porta	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Trentino	Trentino	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	affascinante	affascinante	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	oro	oro	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+20	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	insidia	insidiare	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+23	senza	senza	ADP	E	_	24	case	_	_
+24	posa	posa	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Noi dobbiamo vegliare per conservarla italiana.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	vegliare	vegliare	VERB	V	VerbForm=Inf	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-6	conservarla	_	_	_	_	_	_	_	_
+5	conservar	conservare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	italiana	italiano	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

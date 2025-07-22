@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Forse, senza che egli neppure ne abbia sentore, in quei periodi di pace del volto, rinasce in lui l'antica, avita conscienza germanica, fatta di speculazioni spirituali, di contemplazioni pure e poetiche.
+1	Forse	forse	ADV	B	_	20	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	senza	senza	ADP	E	_	8	mark	_	_
+4	che	che	SCONJ	CS	_	3	fixed	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+6	neppure	neppure	ADV	BN	PronType=Neg	8	advmod	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+9	sentore	sentore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	periodi	periodo	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	pace	pace	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	volto	volto	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20	rinasce	rinascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	antica	antico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	avita	avitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+27	conscienza	conscienza	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+28	germanica	germanico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	27	punct	_	_
+30	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	speculazioni	speculazione	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	_
+33	spirituali	spirituale	ADJ	A	Number=Plur	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	32	punct	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	contemplazioni	contemplazione	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+37	pure	pure	ADV	B	_	36	advmod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	poetiche	poetico	ADJ	A	Gender=Fem|Number=Plur	37	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 2
+# text = In quei momenti, Paolo Herz è bello:
+1	In	in	ADP	E	_	3	case	_	_
+2	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Paolo	Paolo	PROPN	SP	_	8	nsubj	_	_
+6	Herz	Herz	PROPN	SP	_	5	flat:name	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 3
+# text = le donne, spesso, gli hanno imposto di tacere e di pensare, quando era accanto a loro.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	spesso	spesso	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	imposto	imporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	tacere	tacere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	pensare	pensare	VERB	V	VerbForm=Inf	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	quando	quando	SCONJ	CS	_	19	mark	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+17	accanto	accanto	ADV	B	_	19	case	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se la maternità abbisogna di una preparazione fisica, altrettanto — e come!
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	maternità	maternità	NOUN	S	Gender=Fem	4	nsubj	_	_
+4	abbisogna	abbisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	preparazione	preparazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	altrettanto	altrettanto	ADV	B	_	4	advmod	_	_
+11	—	—	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	come	come	ADV	B	_	4	conj	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = — si dovrebbe preparare lo sviluppo delle qualità superiori che trasformano gradatamente la madre in nutrice, poi in educatrice e in guida.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	preparare	preparare	VERB	V	VerbForm=Inf	0	root	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	qualità	qualità	NOUN	S	Gender=Fem	6	nmod	_	_
+10	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	9	amod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	trasformano	trasformare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	gradatamente	gradatamente	ADV	B	_	12	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	madre	madre	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	nutrice	nutore	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	poi	poi	ADV	B	_	21	advmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	educatrice	educatore	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	guida	guida	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Si obbietta che non tutte le donne diventano madri.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	obbietta	obbiettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+8	diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	madri	madre	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Pur troppo!
+1	Pur	pure	ADV	B	_	2	advmod	_	_
+2	troppo	troppo	ADV	B	_	3	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 5
+# text = Ma pieno è il mondo di bimbi abbandonati, educati male, offesi in mille modi, tratti al vizio ed alla perdizione, senza amore, senza carezze, senza dolci parole.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	abbandonati	abbandonato	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	educati	educare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+11	male	male	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	offesi	offendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	mille	mille	NUM	N	NumType=Card	16	nummod	_	_
+16	modi	modo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	vizio	vizio	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	ed	e	CCONJ	CC	_	25	cc	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	perdizione	perdizione	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	senza	senza	ADP	E	_	28	case	_	_
+28	amore	amore	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	18	punct	_	_
+30	senza	senza	ADP	E	_	31	case	_	_
+31	carezze	carezza	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	18	punct	_	_
+33	senza	senza	ADP	E	_	35	case	_	_
+34	dolci	dolce	ADJ	A	Number=Plur	35	amod	_	_
+35	parole	parola	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

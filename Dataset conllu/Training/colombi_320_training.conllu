@@ -1,0 +1,132 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Bella Viola, è un pezzo che vado strisciandoti intorno.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Bella	bella	PROPN	SP	_	7	nsubj	_	_
+3	Viola	viola	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10-11	strisciandoti	_	_	_	_	_	_	_	_
+10	strisciando	strisciare	VERB	V	VerbForm=Ger	9	advcl	_	_
+11	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+12	intorno	intorno	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ammiro il tuo volto timido e pensoso.
+1	Ammiro	ammirare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	volto	volto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	timido	timido	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	pensoso	pensoso	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Lascia che mi avvicini a te; coprimi della tua ombra.
+1	Lascia	lasciare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	avvicini	avvicino	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	1	punct	_	_
+8	coprimi	coprimo	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ti vorrò bene come una sorella.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
+2	vorrò	vorrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = So che hai innamorato il Tulipano bruno;
+1	So	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	innamorato	innamorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Tulipano	Tulipano	PROPN	SP	_	4	obj	_	_
+7	bruno	bruno	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = ma le barriere che ha intorno lo tengono lontano da te.
+1	ma	ma	CCONJ	CC	_	8	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	barriere	barriera	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+6	intorno	intorno	ADV	B	_	8	advmod	_	_
+7	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	tengono	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	lontano	lontano	ADV	B	_	11	case	_	_
+10	da	da	ADP	E	_	9	fixed	_	_
+11	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Dammi ospitalità fra le tue foglie, e tu m'insegnerai parole d'amore;
+1	Dammi	dare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ospitalità	ospitalità	NOUN	S	Gender=Fem	1	obj	_	_
+3	fra	fra	ADP	E	_	6	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	tue	tuo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	foglie	foglia	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
+10	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	SpaceAfter=No
+11	insegnerai	insegneere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+12	parole	parola	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 8
+# text = ed io andrò da te a lui e gliele recherò.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	andrò	andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	gliele	gliele	ADJ	A	Number=Sing	7	conj	_	_
+10	recherò	recare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Tu penserai per me, io striscierò per te.
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	penserai	penseere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	striscierò	strisciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	conj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = —
+1	—	—	PUNCT	FF	_	0	root	_	SpacesAfter=\n
+

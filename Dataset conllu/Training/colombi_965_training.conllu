@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E gli rinacque la speranza di vedersi crescere intorno i bimbi dell'amico, di aiutarlo ad allevarli ed istruirli, di trovare un pascolo pel suo cuore amoroso in quei nuovi affetti.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	rinacque	rinacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	vedersi	_	_	_	_	_	_	_	_
+7	veder	vedere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	crescere	crescere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	intorno	intorno	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	bimbi	bimbio	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	amico	amico	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18-19	aiutarlo	_	_	_	_	_	_	_	_
+18	aiutar	aiutare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	ad	a	ADP	E	_	21	mark	_	_
+21-22	allevarli	_	_	_	_	_	_	_	_
+21	allevar	allevare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+23	ed	e	CCONJ	CC	_	24	cc	_	_
+24-25	istruirli	_	_	_	_	_	_	_	SpaceAfter=No
+24	istruir	istruire	VERB	V	VerbForm=Inf	18	conj	_	_
+25	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	obj	_	_
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	trovare	trovare	VERB	V	VerbForm=Inf	24	advcl	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	pascolo	pascolo	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31-32	pel	_	_	_	_	_	_	_	_
+31	per	per	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+35	amoroso	amoroso	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+36	in	in	ADP	E	_	39	case	_	_
+37	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	39	det	_	_
+38	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	39	amod	_	_
+39	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Vincenzo non ne parlava mai.
+1	Vincenzo	Vincenzo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	obj	_	_
+5	mai	mai	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Forse aveva anche lui un segreto come l'Elena.
+1	Forse	forse	ADV	B	_	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	Elena	Elena	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Forse se lo chiudeva nell'anima come lei fin dal giorno in cui aveva preferito morire che vivere senz'amore.
+1	Forse	forse	ADV	B	_	4	advmod	_	_
+2	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	chiudeva	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	anima	anima	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+10	fin	fino	ADP	E	_	13	case	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	10	fixed	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+16	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	preferito	preferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	morire	morire	VERB	V	VerbForm=Inf	17	xcomp	_	_
+19	che	che	SCONJ	CS	_	20	mark	_	_
+20	vivere	vivere	VERB	V	VerbForm=Inf	18	ccomp	_	_
+21	senz'	senza	ADP	E	_	22	case	_	SpaceAfter=No
+22	amore	amore	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ma Vicenzino aveva bisogno di quel conforto ora che l'amico stava per lasciarlo;
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	Vicenzino	Vicenzino	PROPN	SP	_	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	conforto	conforto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	ora	ora	ADV	B	_	7	advmod	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	amico	amico	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	lasciarlo	_	_	_	_	_	_	_	SpaceAfter=No
+14	lasciar	lasciare	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = ed il giorno della sua partenza gli disse:
+1	ed	e	CCONJ	CC	_	9	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	SpacesAfter=\n
+

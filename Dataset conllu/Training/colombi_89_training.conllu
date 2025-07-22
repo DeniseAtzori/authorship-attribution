@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Queste non avevano un vero fervore religioso.
+1	Queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	vero	vero	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	fervore	fervore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	religioso	religioso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Avevano accolti sentimenti e credenze, senza discuterli, e come cose indiscutibili.
+1	Avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	accolti	accogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	credenze	credenza	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	senza	senza	ADP	E	_	8	mark	_	_
+8-9	discuterli	_	_	_	_	_	_	_	SpaceAfter=No
+8	discuter	discutere	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+14	indiscutibili	indiscutibile	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non provavano gran dolcezza nelle preghiere, nè estasi nella meditazione;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	provavano	provavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	gran	grande	ADJ	A	Number=Sing	4	amod	_	_
+4	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	preghiere	preghiera	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	nè	né	CCONJ	CC	_	10	cc	_	_
+10-11	estasi	_	_	_	_	_	_	_	_
+10	esta	estare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	meditazione	meditazione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = non si commovevano alla confessione nè alla comunione;
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	commovevano	commovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	nè	né	CCONJ	CC	_	10	cc	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	comunione	comunione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = ma avrebbero creduto di commettere un'enormità trascurando quei sacramenti, o perdendo la messa una domenica.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	commettere	commettere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	enormità	enormità	NOUN	S	Gender=Fem	5	obj	_	_
+8	trascurando	trascurare	VERB	V	VerbForm=Ger	5	advcl	_	_
+9	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	sacramenti	sacramento	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	perdendo	perdere	VERB	V	VerbForm=Ger	10	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	messa	messa	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

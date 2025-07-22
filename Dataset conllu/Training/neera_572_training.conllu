@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A questo modo lo spettatore saprà almeno quello che il pittore ha voluto fare.
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	spettatore	spettatore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	saprà	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	almeno	almeno	ADV	B	_	8	advmod	_	_
+8	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pittore	pittore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	8	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ma qui chi ci capisce nulla?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	qui	qui	ADV	B	_	5	advmod	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+5	capisce	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = _Viene!_ E perchè non _Va?_ Anzi _Sta_, dal momento che non c'è nessuno che si muove?
+1	_Viene	_viene	ADV	B	_	0	root	_	SpaceAfter=No
+2	!_	!_	PUNCT	FF	_	1	punct	_	_
+3	E	e	CCONJ	CC	_	6	cc	_	_
+4	perchè	poiperché	SCONJ	CS	_	6	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	_Va	_Va	PROPN	SP	_	1	conj	_	SpaceAfter=No
+7	?_	?_	PUNCT	FF	_	9	punct	_	_
+8	Anzi	anzi	ADV	B	_	9	advmod	_	_
+9	_Sta_	_Sta-	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	SpaceAfter=No
+17	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	_
+18	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Questo titolo è una corbelleria, un gabbaprossimo, un nonsenso.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	corbelleria	corbelleria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	gabbaprossimo	gabbaprossimo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nonsenso	nonsenso	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Lo dico chiaro e tondo:
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dico	dico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	tondo	tondo	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = un nonsenso.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nonsenso	nonsenso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

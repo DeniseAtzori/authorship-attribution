@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella gli mandava degli appuntamenti;
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	mandava	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	appuntamenti	appuntamento	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = Giovanni vi mancava, due o tre volte.
+1	Giovanni	Giovanni	PROPN	SP	_	3	nsubj	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	mancava	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	due	due	NUM	N	NumType=Card	8	nummod	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	tre	tre	NUM	N	NumType=Card	5	conj	_	_
+8	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Perchè, alla quarta volta, egli non resisteva più e vi andava, riluttante, pieno di tutte le incertezze?
+1	Perchè	perché	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	quarta	quarto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	resisteva	resistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	più	più	ADV	B	_	10	advmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	14	iobj	_	_
+14	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	riluttante	riluttante	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	22	det:predet	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	incertezze	incertezza	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Egli non se lo spiegava:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	spiegava	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = e nella sua timida immaginazione, il fascino di Clara assumeva un aspetto onnipossente;
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	6	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+5	timida	timido	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Clara	Clara	PROPN	SP	_	9	nmod	_	_
+12	assumeva	assumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	onnipossente	onnipossente	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 6
+# text = Giovanni aveva bisogno di credere a un potere ascoso, rarissimo, unico, per spiegare la mollezza della sua volontà.
+1	Giovanni	Giovanni	PROPN	SP	_	2	nsubj	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	credere	credere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	potere	potere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	ascoso	ascoso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	rarissimo	raro	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	unico	unico	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	spiegare	spiegare	VERB	V	VerbForm=Inf	5	advcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mollezza	mollezza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	volontà	volontà	NOUN	S	Gender=Fem	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

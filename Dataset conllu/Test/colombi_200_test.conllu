@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E sentivo orrore di me.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Impaurita de' miei sentimenti, li prendevo tutti in mala parte.
+1	Impaurita	Impaurita	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	de'	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+8	prendevo	prendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	conj	_	_
+9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	obl	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	mala	malo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Se un accattone m'avesse commossa domandandomi un soldo, mi sarei accusata d'amare quell'accattone.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	accattone	accattone	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	SpaceAfter=No
+5	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	commossa	commuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+7-8	domandandomi	_	_	_	_	_	_	_	_
+7	domandando	domandare	VERB	V	VerbForm=Ger	6	advcl	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	soldo	soldo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+13	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	accusata	accusare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	d'	di	ADP	E	_	16	mark	_	SpaceAfter=No
+16	amare	amare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	quell'	quello	DET	DD	Number=Sing|PronType=Dem	18	det	_	SpaceAfter=No
+18	accattone	accattone	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 4
+# text = Se un poeta ignoto m'avesse commossa colle sue rime, o un maestro colle sue melodie, mi sarei accusata d'amare quel poeta e quel maestro.
+1	Se	se	SCONJ	CS	_	7	mark	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	ignoto	ignoto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
+6	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	commossa	commuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+8-9	colle	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	rime	rima	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	o	o	CCONJ	CC	_	15	cc	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+16-17	colle	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	melodie	melodia	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	7	punct	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+22	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	accusata	accusare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	d'	di	ADP	E	_	25	mark	_	SpaceAfter=No
+25	amare	amare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+27	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	_
+30	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	23	punct	_	SpacesAfter=\n
+

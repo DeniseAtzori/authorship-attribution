@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lo trovai in via Pio Quinto, all'altro capo della città.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	trovai	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	via	via	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	Pio	Pio	PROPN	SP	_	4	nmod	_	_
+6	Quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	11	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	altro	altro	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	città	città	NOUN	S	Gender=Fem	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Mi presentai sotto il nome di Ernesto, e posi il cartellino collo stesso nome sull'uscio.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	presentai	presentare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sotto	sotto	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	nome	nome	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Ernesto	Ernesto	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	posi	posare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cartellino	cartellino	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	collo	collo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+15	nome	nome	NOUN	S	Gender=Masc|Number=Sing	12	compound	_	_
+16-17	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+16	su	su	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Poi scrissi a mia madre che avevo conosciuto un altro Eustacchio Rossi, e la pregai di dirigermi le sue lettere al nome di Ernesto per evitare confusioni.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	scrissi	scriggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	madre	madre	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	altro	altro	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	Eustacchio	Eustacchio	PROPN	SP	_	8	obj	_	_
+12	Rossi	Rossi	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	21	punct	_	_
+14	e	e	CCONJ	CC	_	21	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pregai	pregaio	NOUN	S	_	21	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	dirigermi	dirigermo	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	nome	nome	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Ernesto	Ernesto	PROPN	SP	_	24	nmod	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	evitare	evitare	VERB	V	VerbForm=Inf	21	acl	_	_
+29	confusioni	confusioni	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per più d'un mese non udii parlar d'altro che di fallimento, di sindaci di fallimento, tanto per cento, ecc. ecc.
+1	Per	per	ADP	E	_	2	case	_	_
+2	più	più	ADV	B	_	5	advmod	_	_
+3	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mese	mese	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	udii	udii	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	parlar	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+11	che	che	CCONJ	CC	_	13	cc	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	sindaci	sindaco	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	tanto	tanto	ADV	B	_	24	advmod	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	cento	cento	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	ecc.	eccetera	ADV	B	_	25	advmod	_	_
+25	ecc	eccetera	ADV	B	_	8	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Non credevo di veder più la fine di quel discorso;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credevo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	veder	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	più	più	ADV	B	_	4	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fine	fine	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = e mi faceva una gran pena.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	gran	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	pena	pena	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = La signora Rosa non era più giallina, ma color d'arancio, e non mangiava più.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	Rosa	Rosa	PROPN	SP	_	2	nmod	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	giallina	giallino	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	color	colorre	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	conj	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	arancio	arancio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	mangiava	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+17	più	più	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

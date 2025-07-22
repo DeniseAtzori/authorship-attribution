@@ -1,0 +1,156 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Francesco Sangiorgio, maravigliato di quella immensità di mura, cercava di orientarsi:
+1	Francesco	Francesco	PROPN	SP	_	11	nsubj	_	_
+2	Sangiorgio	Sangiorgio	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	maravigliato	maravigliato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	immensità	immensità	NOUN	S	Gender=Fem	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	mura	muro	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	orientarsi	_	_	_	_	_	_	_	SpaceAfter=No
+13	orientar	orientare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 2
+# text = dov'era, dunque, il podio imperiale, dove erano la tribuna delle vestali e quella dei sacerdoti?
+1	dov'	dove	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	dunque	dunque	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	podio	podio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	imperiale	imperiale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	dove	dove	ADV	B	_	11	advmod	_	_
+11	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tribuna	tribuna	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	11	nsubj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	vestali	vestale	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	13	conj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	sacerdoti	sacerdote	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Arrivò nel centro, ma non capì che fossero quelle costruzioni del sottosuolo.
+1	Arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	centro	centro	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	capì	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	fossero	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+11	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	costruzioni	costruzione	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sottosuolo	sottosuolo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Sì, era maestoso il Colosseo, ma la luce sporca di una giornata piovosa gli toglieva una parte della maestà, mostrandone il lato sudicio e tutto lo sgretolamento del tempo.
+1	Sì	sì	INTJ	I	Polarity=Pos	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	maestoso	maestoso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Colosseo	Colosseo	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	17	punct	_	_
+8	ma	ma	CCONJ	CC	_	17	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	luce	luce	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+11	sporca	sporco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	piovosa	piovoso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+17	toglieva	togliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	maestà	maestà	NOUN	S	Gender=Fem	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	17	punct	_	_
+24-25	mostrandone	_	_	_	_	_	_	_	_
+24	mostrando	mostrare	VERB	V	VerbForm=Ger	17	advcl	_	_
+25	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	24	iobj	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	lato	lato	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+28	sudicio	sudicio	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	32	det:predet	_	_
+31	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	sgretolamento	sgretolamento	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = La campagna attorno, fuori, era vastissima:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	attorno	attorno	ADV	B	_	4	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	fuori	fuori	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	vastissima	vasto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 6
+# text = una vegetazione ricca di campagna umida:
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vegetazione	vegetazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	umida	umido	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = ma non un canto d'uccello, non una voce di animale, non la voce di un uomo.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	canto	canto	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	uccello	uccello	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	voce	voce	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	animale	animale	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	voce	voce	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

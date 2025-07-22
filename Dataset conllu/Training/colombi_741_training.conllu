@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutta la famiglia si commoveva, piangeva, lo trovava sublime.
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	commoveva	commovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	piangeva	piangere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+11	sublime	sublime	ADJ	A	Gender=Fem|Number=Plur	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Poi, «con quella bontà delle persone d'ingegno», diceva la Maddalena, la faceva provare a recitare anche lei.
+1	Poi	poi	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	con	con	ADP	E	_	6	case	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	bontà	bontà	NOUN	S	Gender=Fem	1	obl	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	ingegno	ingegno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Maddalena	Maddalena	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+19	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
+20	provare	provare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	recitare	recitare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	anche	anche	ADV	B	_	24	advmod	_	_
+24	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = E lei declamava con enfasi dei versi di libretti d'opera, che erano la sua passione;
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	declamava	declamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	enfasi	enfasi	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	versi	verso	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	libretti	libretto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	opera	opera	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+15	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	passione	passione	NOUN	S	Gender=Fem|Number=Sing	10	acl:relcl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = ce n'erano di quelli che la facevano sempre piangere, specialmente quelli della _Traviata:
+1	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+9	sempre	sempre	ADV	B	_	8	advmod	_	_
+10	piangere	piangere	VERB	V	VerbForm=Inf	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	specialmente	specialmente	ADV	B	_	10	advmod	_	_
+13	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	10	obj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	_Traviata	_Traviata	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = «Croce e delizia al cor»_.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Croce	Croce	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	delizia	delizia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cor	cor	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+9	_	-	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

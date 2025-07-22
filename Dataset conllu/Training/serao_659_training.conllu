@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli obbedì, subito.
+1	Egli	i	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	obbedì	obbedì	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	subito	subito	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Tutta la gaia luce meridiana entrò nell'austera stanza e la riempì di pulviscolo d'oro.
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gaia	gaia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	luce	luce	NOUN	S	Gender=Fem|Number=Sing	3	compound	_	_
+5	meridiana	meridiano	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	in	in	ADP	E	_	10	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+9	austera	austero	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	riempì	riempì	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	pulviscolo	pulviscolo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	oro	oro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Qual viso era quello di Paolo!
+1	Qual	equale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	viso	viso	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Paolo	Paolo	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Pallido di un pallore terreo e con gli occhi rossi e le tempie rosse, come se invece di lacrime, fosse salita colà un'onda di sangue, con lo sguardo torbido e smarrito, tutti i suoi anni parean passati dalla bella virilità, all'accasciamento e allo sconforto di un'età più lontana.
+1	Pallido	pallido	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pallore	pallore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	terreo	terreo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+10	rossi	rosso	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	tempie	tempia	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+14	rosse	rosso	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	come	come	ADV	B	_	23	advmod	_	_
+17	se	se	SCONJ	CS	_	23	mark	_	_
+18	invece	invece	ADV	B	_	20	advmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	salita	salire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+24	colà	colà	ADV	B	_	23	advmod	_	_
+25	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	onda	onda	NOUN	S	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	1	punct	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+33	torbido	torbido	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	smarrito	smarrito	ADJ	A	Gender=Masc|Number=Sing	33	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	1	punct	_	_
+37	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	40	det:predet	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	_
+41	parean	parean	ADV	B	_	42	advmod	_	_
+42	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	40	acl	_	_
+43-44	dalla	_	_	_	_	_	_	_	_
+43	da	da	ADP	E	_	46	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	bella	bello	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	_
+46	virilità	virilità	NOUN	S	Gender=Fem	42	obl:agent	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	1	punct	_	_
+48-49	all'	_	_	_	_	_	_	_	SpaceAfter=No
+48	a	a	ADP	E	_	50	case	_	_
+49	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	_
+50	accasciamento	accasciamento	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+51	e	e	CCONJ	CC	_	54	cc	_	_
+52-53	allo	_	_	_	_	_	_	_	_
+52	a	a	ADP	E	_	54	case	_	_
+53	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	sconforto	sconforto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+55	di	di	ADP	E	_	57	case	_	_
+56	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	57	det	_	SpaceAfter=No
+57	età	età	NOUN	S	Gender=Fem	54	nmod	_	_
+58	più	più	ADV	B	_	59	advmod	_	_
+59	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	57	amod	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

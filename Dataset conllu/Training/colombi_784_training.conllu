@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Che progresso!
+1	--Che	--Co	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	progresso	progresso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = esclamava il signor Carpi giubilando.
+1	esclamava	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	signor	signore	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	Carpi	Carpi	PROPN	SP	_	3	nmod	_	_
+5	giubilando	giubilare	VERB	V	VerbForm=Ger	1	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Quando penso a certi vecchi alari di ferro che ho trovati nel castello di Trestelle quando l'ho comperato, e che ornavano il focolare ospitale di quei marchesi!
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+5	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	alari	alare	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	trovati	trovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	castello	castello	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Trestelle	Trestelle	PROPN	SP	_	14	nmod	_	_
+17	quando	quando	SCONJ	CS	_	20	mark	_	_
+18	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+19	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	comperato	comperare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	ornavano	ornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	focolare	focolare	NOUN	S	Gender=Masc	24	obj	_	_
+27	ospitale	ospitale	ADJ	A	Number=Sing	26	amod	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	30	det	_	_
+30	marchesi	marchese	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+31	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Io non sono marchese;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	marchese	marchese	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = i miei avi non so che fossero alle crociate;
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	avi	avo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	7	mark	_	_
+7	fossero	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	crociate	crociata	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = eppure con questi alari se ne comprerebbero dieci paia di quelli là.
+1	eppure	eppure	CCONJ	CC	_	7	cc	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	alari	alare	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+5	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	comprerebbero	comprare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	dieci	dieci	NUM	N	NumType=Card	9	nummod	_	_
+9	paia	paia	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	9	nmod	_	_
+12	là	là	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Al punto cui sono giunti ora il _comfort_ e l'eleganza, la vita riesce veramente bella.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+4	cui	cui	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	giunti	giungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	ora	ora	ADV	B	_	6	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	_comfort_	ExtraSubj=Yes|_comfort_	PUNCT	FB	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	eleganza	eleganza	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vita	vita	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	veramente	veramente	ADV	B	_	18	advmod	_	_
+18	bella	bello	ADJ	A	Gender=Fem|Number=Sing	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

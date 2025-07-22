@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — L’alba non mi deve trovare qui.
+1	—	—	PUNCT	FF	_	7	punct	_	_
+2	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	alba	alba	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+6	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	trovare	trovare	VERB	V	VerbForm=Inf	0	root	_	_
+8	qui	qui	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Più che il pericolo mio penso che se mi arrestassero non potrei servire la causa nei fini che mi sono proposto.
+1	Più	più	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	penso	pensare	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+8	se	se	SCONJ	CS	_	10	mark	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+10	arrestassero	arrestare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	advcl	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	servire	servire	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	causa	causa	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	nei	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	fini	fine	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	expl	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	proposto	proporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Fui scelto per una missione difficile che mi colma di gioia ma anche di responsabilità.
+1	Fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	aux	_	_
+2	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	missione	missione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	difficile	difficile	ADJ	A	Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	colma	colmare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	ma	ma	CCONJ	CC	_	15	cc	_	_
+13	anche	anche	ADV	B	_	15	advmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	responsabilità	responsabilità	NOUN	S	Gender=Fem	9	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Dipende da una risposta che avrò domani il sapere come e dove mi sia possibile agire.
+1	Dipende	dipendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+6	avrò	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	_
+7	domani	domani	ADV	B	_	6	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sapere	sapere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+10	come	come	SCONJ	CS	_	15	mark	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	dove	dove	ADV	B	_	15	advmod	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+14	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	possibile	possibile	ADJ	A	Number=Sing	9	ccomp	_	_
+16	agire	agire	VERB	V	VerbForm=Inf	15	csubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

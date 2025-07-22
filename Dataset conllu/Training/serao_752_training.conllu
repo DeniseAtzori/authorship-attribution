@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il primo, fra essi, è un crocifisso di argento, oscurato dagli anni e come consunto dai mistici baci di una pura bocca orante:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	fra	fra	ADP	E	_	5	case	_	_
+5	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	crocifisso	crocifisso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	argento	argento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	oscurato	oscurato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+14-15	dagli	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl:agent	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	come	come	SCONJ	CS	_	19	mark	_	_
+19	consunto	consunto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+20-21	dai	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	mistici	mistico	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	baci	baco	NOUN	S	Gender=Masc|Number=Plur	19	obl:agent	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	pura	puro	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+28	orante	orante	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = non è un crocifisso di quelli che portano sospeso al collo, da un cordoncino, le persone pie;
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	crocifisso	crocifisso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	portano	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	sospeso	sospendere	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	collo	collo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cordoncino	cordoncino	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	persone	persona	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+20	pie	pio	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = è di quelli che si tengono attaccati al muro, presso il letto, e innanzi ai quali ci s'inginocchia, pregando.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	tengono	tenere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	attaccati	attaccare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	muro	muro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	presso	presso	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	letto	letto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	23	punct	_	_
+16	e	e	CCONJ	CC	_	23	cc	_	_
+17	innanzi	innanzi	ADV	B	_	23	advmod	_	_
+18-19	ai	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	quali	quale	PRON	PR	Number=Plur|PronType=Rel	23	obl	_	_
+21	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	23	iobj	_	_
+22	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	SpaceAfter=No
+23	inginocchia	inginocchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	pregando	pregare	VERB	V	VerbForm=Ger	23	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

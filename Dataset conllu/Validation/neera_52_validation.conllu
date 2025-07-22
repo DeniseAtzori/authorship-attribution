@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Come più vivo sentii quel giorno il vuoto della sua partenza!
+1	Come	come	ADV	B	_	4	advmod	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	sentii	sentio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Lo sentii con una acuta nostalgia di tutto il mio essere, con un sentimento crescente del nulla in cui vivevo, in cui ero sempre vissuta.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sentii	sentio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	acuta	acuta	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	nostalgia	nostalgio	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	15	case	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	15	det:predet	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+11	essere	essere	AUX	V	VerbForm=Inf	15	cop	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+16	crescente	crescere	ADJ	A	Number=Sing	15	amod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	nulla	nulla	NOUN	S	Gender=Masc	15	nmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+22	vivevo	vivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	28	obl	_	_
+26	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	28	aux	_	_
+27	sempre	sempre	ADV	B	_	28	advmod	_	_
+28	vissuta	vivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Senza padre, senza marito, senza fratelli, il mio cuore riposava nell'amore per il mio piccino;
+1	Senza	senza	ADP	E	_	2	case	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	senza	senza	ADP	E	_	5	case	_	_
+5	marito	marito	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	riposava	riposare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	amore	amore	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	per	per	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	piccino	piccino	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 4
+# text = ma accanto a questo amore fatto di protezione e di rinuncia, quali nuovi diritti si ergevano imperiosi a domandare la loro parte?
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	accanto	accanto	ADV	B	_	5	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	amore	amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	rinuncia	rinuncia	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	quali	quale	DET	DQ	Number=Plur|PronType=Int	15	det	_	_
+14	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+15	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	ergevano	ergere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	imperiosi	imperioso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	domandare	domandare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	parte	parte	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Una aspirazione di vita superiore mi dominava come sola meta degna, quasi il perchè di una esistenza che avevo fino allora sciupata meschinamente senz'alcun frutto.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	aspirazione	aspirazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	dominava	dominare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	sola	solo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	meta	meta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	degna	degno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	quasi	quasi	ADV	B	_	15	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	perchè	perchè	NOUN	S	Gender=Masc	7	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+20	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+21	fino	fino	ADV	B	_	23	advmod	_	_
+22	allora	allora	ADV	B	_	21	advmod	_	_
+23	sciupata	sciupare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+24	meschinamente	meschinamente	ADV	B	_	23	advmod	_	_
+25	senz'	senza	ADP	E	_	27	case	_	SpaceAfter=No
+26	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+27	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

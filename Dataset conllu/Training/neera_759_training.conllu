@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le parole, soffocate, ella più che intenderle le indovinò.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	soffocate	soffocare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ella	ellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	più	più	ADV	B	_	6	advmod	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9-10	intenderle	_	_	_	_	_	_	_	_
+9	intender	intendere	VERB	V	VerbForm=Inf	12	ccomp	_	_
+10	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	indovinò	indovinò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Maternamente gli pose una mano sui capelli, penetrata del suo soffrire, tutta assorbendo quella sincerità d’uomo che saliva a lei in uno di quei momenti di dedizione assoluta che trasfigurano il senso elevandolo alla poesia del mistero.
+1	Maternamente	Materno	ADV	B	_	3	advmod	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	sui	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	penetrata	penetrare	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	soffrire	soffrire	VERB	V	VerbForm=Inf	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	nmod	_	_
+17	assorbendo	assorbire	VERB	V	VerbForm=Ger	16	advcl	_	_
+18	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	sincerità	sincerità	NOUN	S	Gender=Fem	17	obj	_	_
+20	d’	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	saliva	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obl	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	30	det	_	_
+30	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	dedizione	dedizione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+34	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+35	trasfigurano	trasfigurare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	senso	senso	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38-39	elevandolo	_	_	_	_	_	_	_	_
+38	elevando	elevare	VERB	V	VerbForm=Ger	35	advcl	_	_
+39	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obj	_	_
+40-41	alla	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Lo chiamò pronunciando il suo nome per la prima volta.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	chiamò	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	pronunciando	pronunciare	VERB	V	VerbForm=Ger	2	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	nome	nome	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

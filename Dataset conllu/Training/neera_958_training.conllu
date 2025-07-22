@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Qualunque cosa avvenga, — egli diceva, — non posso nemmeno immaginare di vivere senza di te!
+1	Qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	avvenga	avvenire	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	—	—	PUNCT	FF	_	7	punct	_	_
+6	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	—	—	PUNCT	FF	_	2	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	nemmeno	nemmeno	ADV	BN	PronType=Neg	13	advmod	_	_
+13	immaginare	immaginare	VERB	V	VerbForm=Inf	0	root	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	vivere	vivere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	senza	senza	ADP	E	_	18	case	_	_
+17	di	di	ADP	E	_	16	fixed	_	_
+18	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obl	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Ma lei col tormentoso presagio che fa di certe anime il carnefice di sè stesse vedeva già il suo posto vuoto e l’aria agitata un dì dalle loro parole starsi immobile nella tragica immobilità che circonda i sepolcri.
+1	Ma	ma	CCONJ	CC	_	17	cc	_	_
+2	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+3-4	col	_	_	_	_	_	_	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	tormentoso	tormentoso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	presagio	presagio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	anime	anima	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	carnefice	carnefice	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	obl	_	_
+16	stesse	stesso	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	17	nsubj	_	_
+17	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+18	già	già	ADV	B	_	17	advmod	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	posto	posto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+22	vuoto	vuoto	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	l’	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	aria	aria	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+26	agitata	agitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	dì	dì	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29-30	dalle	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	32	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+31	loro	loro	DET	AP	Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	parole	parola	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+33-34	starsi	_	_	_	_	_	_	_	_
+33	star	stare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+35	immobile	immobile	ADJ	A	Number=Sing	33	xcomp	_	_
+36-37	nella	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	39	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	tragica	tragico	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	_
+39	immobilità	immobilità	NOUN	S	Gender=Fem	33	obl	_	_
+40	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+41	circonda	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	sepolcri	sepolcro	NOUN	S	Gender=Masc|Number=Plur	41	obj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

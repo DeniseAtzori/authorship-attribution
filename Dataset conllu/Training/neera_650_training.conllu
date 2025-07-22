@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anna cedette, affranta.
+1	Anna	Anno	PROPN	SP	_	4	nsubj	_	_
+2	cedette	cedetto	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	affranta	affranto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = I discorsi che Gentile Lamberti aveva tenuti alla figlia prediletta sulla elevazione dei sentimenti, sulla loro applicazione alle energie superiori, le tornavano in mente con una precisione che nello stato d'animo in cui si trovava doveva necessariamente assumere il carattere di un misterioso avvertimento.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	29	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+4	Gentile	gentile	PROPN	SP	_	7	nsubj	_	_
+5	Lamberti	Lamberti	PROPN	SP	_	4	flat:name	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	tenuti	tenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	prediletta	prediletto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	elevazione	elevazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+23-24	alle	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	energie	energia	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+26	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	29	obj	_	_
+29	tornavano	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	mente	mente	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+32	con	con	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	precisione	precisione	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+35	che	che	PRON	PR	PronType=Rel	38	cc	_	_
+36-37	nello	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	stato	stato	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	_
+39	d'	di	ADP	E	_	40	case	_	SpaceAfter=No
+40	animo	animo	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	cui	cui	PRON	PR	PronType=Rel	44	obl	_	_
+43	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	44	expl	_	_
+44	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	acl:relcl	_	_
+45	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	47	aux	_	_
+46	necessariamente	necessariamente	ADV	B	_	47	advmod	_	_
+47	assumere	assumere	VERB	V	VerbForm=Inf	44	xcomp	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	47	obj	_	_
+50	di	di	ADP	E	_	53	case	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+52	misterioso	misterioso	ADJ	A	Gender=Masc|Number=Sing	53	amod	_	_
+53	avvertimento	avvertimento	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 3
+# text = Appunto perchè ella era _la figlia_ le spettava esclusivamente l'obbligo di continuare l'opera.
+1	Appunto	appunto	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	perchè	poiperché	SCONJ	CS	_	5	mark	_	_
+3	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	_la	_lare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	figlia_	figlia-	PUNCT	FB	_	8	punct	_	_
+7	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	8	iobj	_	_
+8	spettava	spettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	parataxis	_	_
+9	esclusivamente	esclusivamente	ADV	B	_	8	advmod	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	continuare	continuare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	opera	opera	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

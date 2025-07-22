@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quel mobile erano i fornelli; ma non funzionavano da fornelli.
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	mobile	mobile	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	fornelli	fornello	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	funzionavano	funzionare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	fornelli	fornello	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Nei due vani, destinati ad accogliere il carbone acceso, erano stati messi due grandi bacini di terra, che lungo il giorno stavano coperti da un'asse sul quale si stendeva il tappeto.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	vani	vano	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	destinati	destinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+7	ad	a	ADP	E	_	8	mark	_	_
+8	accogliere	accogliere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	acceso	acceso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+14	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16	due	due	NUM	N	NumType=Card	18	nummod	_	_
+17	grandi	grande	ADJ	A	Number=Plur	18	amod	_	_
+18	bacini	bacino	NOUN	S	Gender=Masc|Number=Plur	15	nsubj:pass	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	terra	terra	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+23	lungo	lungo	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+26	stavano	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	coperti	coprire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	asse	asse	NOUN	S	_	27	obl	_	_
+31-32	sul	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	quale	quale	PRON	PR	Number=Sing|PronType=Rel	35	obl	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+35	stendeva	stendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Nel vuoto sotto i fornelli c'era il secchio coll'acqua, c'era la mestola e c'erano due casseruole lucenti, avanzo della passata grandezza, che non s'adoperavano mai.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	sotto	sotto	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	fornelli	fornello	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	secchio	secchio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	coll'	collo	DET	DD	Number=Sing|PronType=Dem	12	det	_	SpaceAfter=No
+12	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+15	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mestola	mestola	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	SpaceAfter=No
+20	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+21	due	due	NUM	N	NumType=Card	22	nummod	_	_
+22	casseruole	casseruola	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+23	lucenti	lucente	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	avanzo	avanzo	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	passata	passata	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	grandezza	grandezzo	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+32	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+33	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	SpaceAfter=No
+34	adoperavano	adoperare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	_
+35	mai	mai	ADV	B	_	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

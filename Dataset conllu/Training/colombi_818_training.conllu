@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quel giorno, dopo essere entrati con tanto chiasso, le tre bimbe ed il fanciulletto ammutolirono subito appena s'avvidero che il babbo era già in casa.
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dopo	dopo	SCONJ	CS	_	6	mark	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	advcl	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	chiasso	chiasso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	tre	tre	NUM	N	NumType=Card	13	nummod	_	_
+13	bimbe	bimba	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+14	ed	e	CCONJ	CC	_	16	cc	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	fanciulletto	fanciulletto	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+17	ammutolirono	ammutolire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	subito	subito	ADV	B	_	21	advmod	_	_
+19	appena	appena	ADV	B	_	21	advmod	_	_
+20	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+21	avvidero	avviderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+22	che	che	SCONJ	CS	_	28	mark	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+25	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+26	già	già	ADV	B	_	28	advmod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	casa	casa	NOUN	S	Gender=Fem|Number=Sing	21	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2
+# text = Lo salutarono, poi si raggrupparono intorno al tavolo per guardare la stiratora, che badava a dire:
+1	Lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	salutarono	salutarono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	poi	poi	ADV	B	_	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	raggrupparono	raggruppare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	intorno	intorno	ADV	B	_	6	advmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	guardare	guardare	VERB	V	VerbForm=Inf	6	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	stiratora	stiratora	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	badava	badare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	dire	dire	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = «Laura, non appoggiare i gomiti sulla salvietta che non la posso piegare.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Laura	Laura	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	appoggiare	appoggiare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	gomiti	gomito	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	salvietta	salvietta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+14	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	piegare	piegare	VERB	V	VerbForm=Inf	10	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Maria, tira indietro le manine, bada che il ferro scotta.
+1	Maria	Maria	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	indietro	indietro	ADV	B	_	3	advmod	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	manine	manina	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	bada	bada	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	che	che	SCONJ	CS	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	scotta	scotto	ADJ	A	_	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = »
+1	»	»	PUNCT	FB	_	0	root	_	SpacesAfter=\n
+

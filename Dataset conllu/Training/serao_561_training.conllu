@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così, desumendo sempre da quello che essa fa, quello che Luisa è, si forma la figura morale di una donnina perfida.
+1	Così	così	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	desumendo	desumere	VERB	V	VerbForm=Ger	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+13	Luisa	Luisa	PROPN	SP	_	17	nsubj	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	forma	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	figura	figura	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	morale	morale	ADJ	A	Number=Sing	19	amod	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	donnina	donnina	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+24	perfida	perfida	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La parola perfida non basta:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	parola	parola	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	perfida	perfida	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = si può arrivare a perversa.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	perversa	perverso	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Questa donna, sovra tutto, non ama che se stessa, così follemente, che quasi mai l'egoismo fu spinto a tale estremo segno.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sovra	sovra	ADP	E	_	5	case	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	22	mark	_	_
+10	se	se	SCONJ	CS	_	22	mark	_	_
+11	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	così	così	ADV	B	_	14	advmod	_	_
+14	follemente	follemente	ADV	B	_	11	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	10	fixed	_	_
+17	quasi	quasi	ADV	B	_	18	advmod	_	_
+18	mai	mai	ADV	B	_	16	advmod	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	egoismo	egoismo	NOUN	S	Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+21	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+23	a	a	ADP	E	_	26	case	_	_
+24	tale	tale	DET	DD	Number=Sing|PronType=Dem	26	det	_	_
+25	estremo	estremo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	segno	segno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

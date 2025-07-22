@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi un giorno, entrando a pranzo dalla padrona di casa lo vidi là, alla tavola della pensione.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	entrando	entrare	VERB	V	VerbForm=Ger	14	advcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	vidi	videre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	là	là	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tavola	tavola|tavolo	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = — Aveva veduto dove abitavo, ed era venuto;
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	dove	dove	ADV	B	_	5	advmod	_	_
+5	abitavo	abitavo	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ed	e	CCONJ	CC	_	9	cc	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = s'era anche collocato accanto a me.
+1	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	collocato	collocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	accanto	accanto	ADV	B	_	7	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non mi aveva parlato brutalmente in istrada.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	brutalmente	brutalmente	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	istrada	istrada	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Aveva presa una via lunga, mi si presentava come si usa tra gente ammodo.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	via	via	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	expl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	presentava	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+10	come	come	SCONJ	CS	_	12	mark	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	usa	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+13	tra	tra	ADP	E	_	14	case	_	_
+14	gente	gente	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	ammodo	ammodo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = — Gliene tenni conto; forse troppo.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Gliene	Glenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tenni	tenne	ADJ	A	Number=Plur	4	amod	_	_
+4	conto	conto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	7	punct	_	_
+6	forse	forse	ADV	B	_	7	advmod	_	_
+7	troppo	troppo	ADV	B	_	2	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non era ben certo che il pensionato fosse cavaliere, ma qualche cosa di simile doveva pur essere e ad abbondare di cortesia in quel momento gli parve atto diplomatico.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	ben	bene	ADV	B	_	4	advmod	_	_
+4	certo	certo	ADV	B	_	0	root	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pensionato	pensionato	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	cavaliere	cavaliere	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	28	punct	_	_
+11	ma	ma	CCONJ	CC	_	28	cc	_	_
+12	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	simile	simile	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+16	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+17	pur	pure	ADV	B	_	28	advmod	_	_
+18	essere	essere	AUX	V	VerbForm=Inf	28	cop	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	ad	a	ADP	E	_	21	mark	_	_
+21	abbondare	abbondare	VERB	V	VerbForm=Inf	18	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	cortesia	cortesia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	momento	momento	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+27	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+28	parve	parva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+29	atto	atto	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+30	diplomatico	diplomatico	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Senonchè il vecchio sembrava totalmente ricaduto nelle sue meditazioni e se ne stava a capo basso ciondolando la fronte dinanzi al caminetto.
+1	Senonchè	Senonché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	totalmente	totalmente	ADV	B	_	4	advmod	_	_
+6	ricaduto	ricadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+7-8	nelle	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	meditazioni	meditazione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+14	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	capo	capo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+17	basso	basso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	ciondolando	ciondolare	VERB	V	VerbForm=Ger	4	advcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fronte	fronte	NOUN	S	Number=Sing	18	obj	_	_
+21	dinanzi	dinanzi	ADV	B	_	24	case	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	21	fixed	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	caminetto	caminetto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Fu Anna che gli si fece dolcemente da presso, ponendo una mano sul bracciuolo della poltrona dove egli stava seduto.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	Anna	Anna	PROPN	SP	_	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+7	dolcemente	dolcemente	ADV	B	_	6	advmod	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	presso	presso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	ponendo	porre	VERB	V	VerbForm=Ger	2	advcl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mano	mano	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bracciuolo	bracciuolo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	dove	dove	ADV	B	_	23	advmod	_	_
+21	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	seduto	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Si voltò rapidamente, scusandosi:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	voltò	volte	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	rapidamente	rapidamente	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	scusandosi	_	_	_	_	_	_	_	SpaceAfter=No
+5	scusando	scusare	VERB	V	VerbForm=Ger	2	advcl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Troppo zelo, cara zia.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	zelo	zelo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	cara	caro	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	zia	zia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Pensa che avrai altro a fare, ed il tuo tempo sarà prezioso laggiù.
+1	Pensa	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	avrai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+4	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	13	punct	_	_
+8	ed	e	CCONJ	CC	_	13	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	cop	_	_
+13	prezioso	prezioso	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+14	laggiù	laggiù	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Vi saranno i vecchi poveri che aspetteranno un brodo per riscaldarsi lo stomaco;
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	aspetteranno	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	acl:relcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	brodo	brodo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	riscaldarsi	_	_	_	_	_	_	_	_
+11	riscaldar	riscaldare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = i malati poveri che avranno bisogno della medicina;
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	malati	malato	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	avranno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	acl:relcl	_	_
+6	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = vi sarà della gente che avrà fame; dell'altra che avrà freddo;
+1	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gente	gente	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	acl:relcl	_	_
+8	fame	fame	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	9	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	acl:relcl	_	_
+15	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = e dei poveri piccini che il Padre Eterno, in un momento di distrazione, avrà mandati al mondo senza ricordarsi di provvederli del loro piccolo bagaglio di fascie e pannolini.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	piccini	piccino	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Padre	padre	PROPN	SP	_	17	nsubj	_	_
+9	Eterno	eterno	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	momento	momento	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	distrazione	distrazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	_
+18	mandati	mandare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	xcomp	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	senza	senza	ADP	E	_	23	mark	_	_
+23-24	ricordarsi	_	_	_	_	_	_	_	_
+23	ricordar	ricordare	VERB	V	VerbForm=Inf	18	advcl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26-27	provvederli	_	_	_	_	_	_	_	_
+26	provveder	provvedere	VERB	V	VerbForm=Inf	23	xcomp	_	_
+27	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	expl	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	32	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+30	loro	loro	DET	AP	Poss=Yes|PronType=Prs	32	det:poss	_	_
+31	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+32	bagaglio	bagaglio	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	fascie	fascie	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	pannolini	pannolino	NOUN	S	Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

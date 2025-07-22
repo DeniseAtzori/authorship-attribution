@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «La porta accanto alla mia era aperta.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	La	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	accanto	accanto	ADV	B	_	8	case	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	era	era	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = E nella notte precedente e nella mattina, quella camera non era abitata.
+1	E	e	CCONJ	CC	_	15	cc	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notte	notte	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+5	precedente	precedente	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	camera	camera	NOUN	S	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:pass	_	_
+15	abitata	abitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Vi avevano dunque installato un forestiere giunto allora con quella corsa mattinale.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+2	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	dunque	dunque	ADV	B	_	4	advmod	_	_
+4	installato	installare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	forestiere	forestiere	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	allora	allora	ADV	B	_	7	advmod	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12	mattinale	mattinale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = E mi pareva che da quell'apertura spalancata uscisse una luce color di rosa;
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	quell'	quello	DET	DD	Number=Sing|PronType=Dem	7	det	_	SpaceAfter=No
+7	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+8	spalancata	spalancato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	uscisse	uscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	luce	luce	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	color	colore	ADJ	A	Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = e sentivo che là dentro era la felicità.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	là	là	ADV	B	_	8	advmod	_	_
+5	dentro	dentro	ADV	B	_	8	advmod	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	felicità	felicità	NOUN	S	Gender=Fem	2	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Dall'uscio della mia stanza potevo veder entro la stanza vicina;
+1-2	Dall'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Da	da	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	veder	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+10	entro	entro	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 7
+# text = ma l'imposta della porta aperta me ne mascherava una parte.
+1	ma	ma	CCONJ	CC	_	10	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	imposta	imposta	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	porta	porta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+10	mascherava	mascherare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Non vedevo il letto.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	letto	letto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

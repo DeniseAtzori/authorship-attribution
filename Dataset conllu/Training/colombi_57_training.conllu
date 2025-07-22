@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Invece entrando, vide una corsia lunga lunga, con un altare in fondo come una chiesa, ed una sfilata di letti, quasi tutti occupati da figure macilente con un berretto bianco;
+1	Invece	invece	ADV	B	_	2	advmod	_	_
+2	entrando	entrare	VERB	V	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	corsia	corsia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	altare	altare	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	ed	e	CCONJ	CC	_	21	cc	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sfilata	sfilata	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	letti	letto	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	4	punct	_	_
+25	quasi	quasi	ADV	B	_	26	advmod	_	_
+26	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	27	obl	_	_
+27	occupati	occupare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	advcl	_	_
+28	da	da	ADP	E	_	29	case	_	_
+29	figure	figura	NOUN	S	Gender=Fem|Number=Plur	27	obl:agent	_	_
+30	macilente	macilente	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	berretto	berretto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+34	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = vide le monache con quella vestitura stravagante, che passavano, come ombre, di letto in letto, parlando piano, e fermandosi appena;
+1	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	monache	monaca	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	vestitura	vestitura	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+7	stravagante	stravagante	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	passavano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	ombre	ombra	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	letto	letto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	letto	letto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	10	punct	_	_
+20	parlando	parlare	VERB	V	VerbForm=Ger	10	advcl	_	_
+21	piano	piano	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24-25	fermandosi	_	_	_	_	_	_	_	_
+24	fermando	fermare	VERB	V	VerbForm=Ger	10	conj	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	obj	_	_
+26	appena	appena	ADV	B	_	24	advmod	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = udì quel rumore triste di tossi, di rantoli, di scodelle urtate, di lamenti, ripercosso dalle vôlte immense; ed ebbe paura.
+1	udì	udire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	triste	triste	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tossi	tosso	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	rantoli	rantolo	NOUN	S	Gender=Fem	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	scodelle	scodella	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+13	urtate	urtato	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	lamenti	lamento	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	ripercosso	ripercuovere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+19-20	dalle	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	vôlte	vôlta	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+22	immense	immenso	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	25	punct	_	_
+24	ed	e	CCONJ	CC	_	25	cc	_	_
+25	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+26	paura	paura	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

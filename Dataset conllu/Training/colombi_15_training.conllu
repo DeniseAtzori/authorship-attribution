@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io sapeva che la povera donna aveva sempre destinato quanto possedeva al bersagliere; tutti lo sapevano;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	povera	povero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	sempre	sempre	ADV	B	_	9	advmod	_	_
+9	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+10	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	9	obj	_	_
+11	possedeva	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	bersagliere	bersagliere	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	18	punct	_	_
+16	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	sapevano	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = ma non c'era nulla di scritto;
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	4	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	scritto	scrivere	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = non aveva neppure potuto dirlo formalmente a voce prima di morire, perchè era delirante.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	neppure	neppure	ADV	BN	PronType=Neg	5	advmod	_	_
+4	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
+5-6	dirlo	_	_	_	_	_	_	_	_
+5	dir	dire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	formalmente	formalmente	ADV	B	_	5	advmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	prima	prima	ADV	B	_	12	mark	_	_
+11	di	di	ADP	E	_	10	fixed	_	_
+12	morire	morire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	perchè	perché	SCONJ	CS	_	16	mark	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	delirante	delirare	ADJ	A	Number=Sing	5	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E quei parenti, due villani, lenti, freddi ed avidi, che non avevano fatto mai nulla per lei, si portarono via il frutto delle sue fatiche e privazioni, la dote del bersagliere, il tesoro d'amore, che la poveretta aveva impiegato tredici anni a raccogliere.
+1	E	e	CCONJ	CC	_	24	cc	_	_
+2	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	parenti	parente	NOUN	S	Number=Plur	24	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	villani	villano	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	lenti	lento	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	freddi	freddo	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	avidi	avido	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+18	mai	mai	ADV	B	_	17	advmod	_	_
+19	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obj	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	portarono	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	via	via	ADV	B	_	24	advmod	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	fatiche	fatica	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	privazioni	privazione	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	24	punct	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	dote	dote	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	bersagliere	bersagliere	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	24	punct	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	tesoro	tesoro	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+43	d'	di	ADP	E	_	44	case	_	SpaceAfter=No
+44	amore	amore	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	42	punct	_	_
+46	che	che	SCONJ	CS	_	50	mark	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	poveretta	poveretta	NOUN	S	Gender=Fem|Number=Sing	50	nsubj	_	_
+49	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	50	aux	_	_
+50	impiegato	impiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	advcl	_	_
+51	tredici	tredici	NUM	N	NumType=Card	52	nummod	_	_
+52	anni	anno	NOUN	S	Gender=Masc|Number=Plur	50	obj	_	_
+53	a	a	ADP	E	_	54	mark	_	_
+54	raccogliere	raccogliere	VERB	V	VerbForm=Inf	50	xcomp	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	24	punct	_	SpacesAfter=\n
+

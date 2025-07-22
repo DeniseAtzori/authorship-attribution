@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tobie non avrebbe mai osato rivolgersi direttamente a quel personaggio alto e misterioso che vedeva ogni sera sotto nuovi aspetti e con nuovo prestigio.
+1	Tobie	Tobie	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	osato	osare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	rivolgersi	_	_	_	_	_	_	_	_
+6	rivolger	rivolgere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	direttamente	direttamente	ADV	B	_	6	advmod	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12	alto	alto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	misterioso	misterioso	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	sera	sera	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	sotto	sotto	ADP	E	_	21	case	_	_
+20	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+21	aspetti	aspetto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	prestigio	prestigio	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ma da tutti gli impiegati, da tutti i subalterni del teatro gli faceva portare la sua supplica di accoglierlo nella compagnia, e stava sempre aspettando una risposta.
+1	Ma	ma	CCONJ	CC	_	15	cc	_	_
+2	da	da	ADP	E	_	5	case	_	_
+3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	impiegati	impiegato	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	subalterni	subalterno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+15	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	portare	portare	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	supplica	supplica	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21-22	accoglierlo	_	_	_	_	_	_	_	_
+21	accoglier	accogliere	VERB	V	VerbForm=Inf	19	acl	_	_
+22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+29	sempre	sempre	ADV	B	_	30	advmod	_	_
+30	aspettando	aspettare	VERB	V	VerbForm=Ger	15	conj	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

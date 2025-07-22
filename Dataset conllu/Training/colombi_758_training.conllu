@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quella poca tela messa da parte per la ragazza la vendetti;
+1	Quella	quello	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	poca	poco	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	tela	tela	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vendetti	vendetto	NOUN	S	Gender=Masc	4	nsubj:pass	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = e poi gli diedi fin il mio anello nuziale, che lo vendesse a Milano per procurarsi qualche soldo.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	diedi	diede	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	fin	fino	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	anello	anello	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	nuziale	nuziale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	vendesse	vendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Milano	Milano	PROPN	SP	_	13	obl	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17-18	procurarsi	_	_	_	_	_	_	_	_
+17	procurar	procurare	VERB	V	VerbForm=Inf	13	advcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	soldo	soldo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = La mia figliola, poveretta, diceva:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	figliola	figliola	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	poveretta	poveretto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = «Dategli tutto, mamma; accontentatelo, perchè sarà lui che dovrà darvi pane quando sarete vecchia;
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2-3	Dategli	_	_	_	_	_	_	_	_
+2	Date	dare	VERB	V	Mood=Imp|Number=Plur|Person=2	0	root	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	8	punct	_	_
+8	accontentatelo	accontentatelo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	perchè	perché	SCONJ	CS	_	12	mark	_	_
+11	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	advcl	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	_
+15-16	darvi	_	_	_	_	_	_	_	_
+15	dar	dare	VERB	V	VerbForm=Inf	12	acl:relcl	_	_
+16	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	15	iobj	_	_
+17	pane	pane	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	quando	quando	SCONJ	CS	_	20	mark	_	_
+19	sarete	sarete	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	15	advcl	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = io me ne vado con questa tosse;
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	tosse	tosse	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = m'ha uccisa la filanda».
+1	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	uccisa	uccidere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	filanda	filanda	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

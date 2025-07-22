@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Avevo provato l'umiliazione di dover scantonare in fretta in fretta per non incontrare il signor Tale o la signora Talaltra, che conoscevano il giovane a cui davo il braccio.
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	umiliazione	umiliazione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	dover	dovere	AUX	VM	VerbForm=Inf	7	aux	_	_
+7	scantonare	scantonare	VERB	V	VerbForm=Inf	4	acl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12	per	per	ADP	E	_	14	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	incontrare	incontrare	VERB	V	VerbForm=Inf	7	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	signor	signore	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	Tale	Tale	PROPN	SP	_	16	nmod	_	_
+18	o	o	CCONJ	CC	_	20	cc	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	signora	signore	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+21	Talaltra	Talaltro	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	16	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	conoscevano	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	giovane	giovane	NOUN	S	Number=Sing	24	obj	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+29	davo	dare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Avevo veduto i garzoni d'albergo sogghignare quando entravo con lui.
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	garzoni	garzone	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	sogghignare	sogghignare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+8	quando	quando	SCONJ	CS	_	9	mark	_	_
+9	entravo	entrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ora non sogghignavano più.
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sogghignavano	sogghignare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = S'inchinavano seri seri, e mi chiamano rispettosamente _la signora_.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	SpaceAfter=No
+2	inchinavano	inchinare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	seri	sero	ADJ	A	Gender=Masc|Number=Plur	2	xcomp	_	_
+4	seri	serio	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	chiamano	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	rispettosamente	rispettosamente	ADV	B	_	10	advmod	_	_
+10	_la	_la	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	signora_	signora-	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

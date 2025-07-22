@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aveva temuto tutta la vita quel peccato;
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	temuto	temere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	peccato	peccato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = temuto dapprima e combattuto per religiosità di sentimento come onta e disonore massimo.
+1	temuto	temere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	dapprima	dapprima	ADV	B	_	1	advmod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	combattuto	combattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	religiosità	religiosità	NOUN	S	Gender=Fem	4	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	onta	onta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	disonore	disonore	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+13	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Assurgendo in seguito ad un più alto concetto di dignità, aveva intuito l’orrore degli amplessi mentiti e divisi e la responsabilità grave sopra tutte del contrabbando coniugale per cui il frutto dell’amore clandestino usurpa il nome e i diritti della prole legittima.
+1	Assurgendo	Assurgere	VERB	V	VerbForm=Ger	13	advcl	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	ad	a	ADP	E	_	8	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	alto	alto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	dignità	dignità	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	intuito	intuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16-17	degli	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	amplessi	amplesso	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	mentiti	mentito	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	divisi	diviso	ADJ	A	Gender=Masc|Number=Plur	19	conj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	responsabilità	responsabilità	NOUN	S	Gender=Fem	13	conj	_	_
+25	grave	grave	ADJ	A	Number=Sing	24	amod	_	_
+26	sopra	sopra	ADP	E	_	27	case	_	_
+27	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	24	nmod	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	contrabbando	contrabbando	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+31	coniugale	coniugale	ADJ	A	Number=Sing	30	amod	_	_
+32	per	per	ADP	E	_	33	case	_	_
+33	cui	cui	PRON	PR	PronType=Rel	40	obl	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	40	nsubj	_	_
+36-37	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+36	di	di	ADP	E	_	38	case	_	_
+37	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	amore	amore	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	clandestino	clandestino	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+40	usurpa	usurpare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	nome	nome	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	_
+43	e	e	CCONJ	CC	_	45	cc	_	_
+44	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	42	conj	_	_
+46-47	della	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	prole	prole	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+49	legittima	legittimo	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

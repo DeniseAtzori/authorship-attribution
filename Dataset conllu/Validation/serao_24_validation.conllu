@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non poteva, non sapeva formarsi l'idea che quelle quattro lettere, come scolpite nel granito, rappresentavano.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	formarsi	_	_	_	_	_	_	_	_
+6	formar	formare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	idea	idea	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	che	che	SCONJ	CS	_	21	mark	_	_
+11	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	21	nsubj	_	_
+12	quattro	quattro	NUM	N	NumType=Card	13	nummod	_	_
+13	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	come	come	ADP	E	_	16	case	_	_
+16	scolpite	scolpire	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	granito	granito	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	rappresentavano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il senso che quello fosse un nome di una città, di un grande agglomeramento di case e di popolo, gli sfuggiva:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senso	senso	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+5	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	nome	nome	NOUN	S	Gender=Masc|Number=Sing	2	acl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	città	città	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	grande	grande	ADJ	A	Number=Sing	15	amod	_	_
+15	agglomeramento	agglomeramento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	case	casa	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+23	sfuggiva	sfuggiva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	23	punct	_	_
+
+# sent_id = 3
+# text = Roma gli era ignota.
+1	Roma	Roma	PROPN	SP	_	4	nsubj	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	ignota	ignotare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Per mancanza di tempo, per non sciupare del denaro, ragione di tutte più forte, avvocatuccio ignoto, individuo insignificante, egli non era mai stato a Roma.
+1	Per	per	ADP	E	_	2	case	_	_
+2	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	per	per	ADP	E	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	sciupare	sciupare	VERB	V	VerbForm=Inf	29	advcl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+14	di	di	ADP	E	_	20	case	_	_
+15	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	20	det	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	forte	forte	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	avvocatuccio	avvocatuccio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	ignoto	ignoto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	individuo	individuo	NOUN	S	Gender=Masc|Number=Sing	20	appos	_	_
+23	insignificante	insignificante	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	8	punct	_	_
+25	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+26	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+27	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+28	mai	mai	ADV	B	_	29	advmod	_	_
+29	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Roma	Roma	PROPN	SP	_	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	29	punct	_	SpacesAfter=\n
+

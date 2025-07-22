@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le statistiche parlano chiaro in proposito.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	statistiche	statistica	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	chiaro	chiaro	ADV	B	_	3	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il contributo maggiore fornito all’alcoolismo delle donne era fino a pochi anni fa additato primo nelle erbivendole, le quali alzate di buon mattino ed esposte ai rigori del freddo sulle piazze segnavano nientemeno che il cento per cento;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+4	fornito	fornire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	alcoolismo	alcoolismo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	donne	donna	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+12	fino	fino	ADV	B	_	15	case	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+16	fa	fare	ADV	B	_	15	advmod	_	_
+17	additato	additato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+18	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	17	xcomp	_	_
+19-20	nelle	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21-22	erbivendole	_	_	_	_	_	_	_	SpaceAfter=No
+21	erbivendo	erbivere	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	,	,	PUNCT	FF	_	15	punct	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	quali	quale	PRON	PR	Number=Plur|PronType=Rel	41	nsubj	_	_
+26	alzate	alzata	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	buon	buono	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	ed	e	CCONJ	CC	_	31	cc	_	_
+31	esposte	esporre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	conj	_	_
+32-33	ai	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	rigori	rigore	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38-39	sulle	_	_	_	_	_	_	_	_
+38	su	su	ADP	E	_	40	case	_	_
+39	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	piazze	piazza	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+41	segnavano	segnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+42	nientemeno	nientemeno	ADV	B	_	41	advmod	_	_
+43	che	che	SCONJ	CS	_	45	mark	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	cento	cento	NUM	N	NumType=Card	41	obl	_	_
+46	per	per	ADP	E	_	47	case	_	_
+47	cento	cento	NUM	N	NumType=Card	45	nummod	_	SpaceAfter=No
+48	;	;	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 3
+# text = venivano poi a distanza le cuoche, le lavandaie; ultime fra tutte e con un contributo debolissimo le cucitrici ed in generale le donne residenti in casa.
+1	venivano	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	poi	poi	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	cuoche	cuoca	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	lavandaie	lavandaia	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	6	punct	_	_
+11	ultime	ultimo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+12	fra	fra	ADP	E	_	13	case	_	_
+13	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	11	obl	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+18	debolissimo	debole	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	17	amod	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	cucitrici	cucitore	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+21	ed	e	CCONJ	CC	_	25	cc	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	generale	generale	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	donne	donna	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	_
+26	residenti	residente	ADJ	A	Number=Plur	25	amod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	casa	casa	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Infine decidevamo di ficcarci due o tre nel gallinaio, spaventando le galline;
+1	Infine	infine	ADV	B	_	2	advmod	_	_
+2	decidevamo	decidere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	ficcarci	_	_	_	_	_	_	_	_
+4	ficcar	ficcare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+6	due	due	NUM	N	NumType=Card	4	nummod	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	tre	tre	NUM	N	NumType=Card	6	conj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	gallinaio	gallinaio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	spaventando	spaventare	VERB	V	VerbForm=Ger	2	advcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	galline	gallina	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = un altro paio dentro l’_arca_, dove s’impastava il pane, tenendone un po’ sollevato il coperchio per respirare;
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	paio	paio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	dentro	dentro	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	_arca_	ExtraSubj=Yes|_arca_	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dove	dove	ADV	B	_	10	advmod	_	_
+9	s’	so	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	iobj	_	SpaceAfter=No
+10	impastava	impastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pane	pane	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14-15	tenendone	_	_	_	_	_	_	_	_
+14	tenendo	tenere	VERB	V	VerbForm=Ger	10	advcl	_	_
+15	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	po’	poco	ADV	B	_	18	advmod	_	_
+18	sollevato	sollevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	coperchio	coperchio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	respirare	respirare	VERB	V	VerbForm=Inf	20	acl	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = e qualcun altro saliva sopra gli armadii, a rischio di rompersi il collo:
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	qualcun	qualcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	_
+4	saliva	saliva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	sopra	sopra	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	armadii	armadio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	rompersi	_	_	_	_	_	_	_	_
+12	romper	rompere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	collo	collo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = la più piccola, Adelina, si andava maliziosamente a ficcare dietro Mariagrazia, la serva che filava e non si moveva più per non _scoprire_ Adelina.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Adelina	Adelina	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	maliziosamente	maliziosamente	ADV	B	_	8	advmod	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	ficcare	ficcare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+12	dietro	dietro	ADV	B	_	13	advmod	_	_
+13	Mariagrazia	Mariagrazia	PROPN	SP	_	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	serva	serva	NOUN	S	Gender=Fem|Number=Sing	13	appos	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	filava	filare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+22	moveva	movere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+23	più	più	ADV	B	_	22	advmod	_	_
+24	per	per	ADP	E	_	27	case	_	_
+25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+26	_scoprire_	_scoprire-	PUNCT	FB	_	27	punct	_	_
+27	Adelina	Adelina	PROPN	SP	_	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

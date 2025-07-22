@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La sora Virginia inchinò il capo e gli tese una manina, come una gran signora.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sora	sora	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Virginia	Virginia	PROPN	SP	_	2	nmod	_	_
+4	inchinò	inchinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	capo	capo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	tese	tesa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	manina	manina	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	come	come	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	gran	grande	ADJ	A	Number=Sing	16	amod	_	_
+16	signora	signore	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ancora, per le scale, egli restava sbalordito e stanco di quel chiacchiericcio:
+1	Ancora	ancora	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	scale	scala	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	restava	restare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	sbalordito	sbalordito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	stanco	stanco	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	chiacchiericcio	chiacchiericcio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = e già gli sembrava di aver visitato dieci case.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	già	già	ADV	B	_	4	advmod	_	_
+3	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	aver	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+7	visitato	visitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+8	dieci	dieci	NUM	N	NumType=Card	9	nummod	_	_
+9	case	casa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Aveva due altri indirizzi sul pezzetto di carta e gli veniva meno la voglia di recarvisi.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	due	due	NUM	N	NumType=Card	4	nummod	_	_
+3	altri	altro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	indirizzi	indirizzo	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pezzetto	pezzetto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	carta	carta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+12	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+13	meno	meno	ADV	B	_	12	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	recarvisi	recarviso	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

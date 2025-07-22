@@ -1,0 +1,139 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I nostri ospiti erano una famiglia di formalisti, dalle virtù e dai sentimenti di parata.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	ospiti	ospite	NOUN	S	Number=Plur	6	nsubj	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	formalisti	formalista	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10-11	dalle	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	virtù	virtù	NOUN	S	Gender=Fem	6	conj	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	dai	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	parata	parata	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Si guardarono l'un l'altro inorriditi.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	guardarono	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	un	uno	NOUN	S	Gender=Masc	2	nsubj	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obj	_	_
+7	inorriditi	inorridito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Fulvia non se ne avvide.
+1	Fulvia	Fulvia	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	avvide	avvidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = E ricadde nelle sue preoccupazioni.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	ricadde	ricaddere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nelle	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	preoccupazioni	preoccupazione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Allora io volli parlare, scherzare, far dello spirito, per divergere i pensieri di quei pedanti dalla parola avventata di Fulvia.
+1	Allora	allora	ADV	B	_	4	advmod	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	volli	vollo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	obj	_	_
+4	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	scherzare	scherzare	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	far	fare	VERB	V	VerbForm=Inf	4	conj	_	_
+9-10	dello	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	divergere	divergere	VERB	V	VerbForm=Inf	11	acl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+19	pedanti	pedante	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20-21	dalla	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	parola	parola	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	avventata	avventato	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Fulvia	Fulvia	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = E, per eccitarmi ad un brio fittizio, mi diedi a bere un bicchiere sull'altro;
+1	E	e	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4-5	eccitarmi	_	_	_	_	_	_	_	_
+4	eccitar	eccitare	VERB	V	VerbForm=Inf	12	advcl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	ad	a	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	brio	brio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	fittizio	fittizio	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	diedi	diedere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	bere	bere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bicchiere	bicchiere	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+17	su	su	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 7
+# text = e tosto mi sentii animato fino all'esaltazione, ed accaparrai io solo tutta l'attenzione della compagnia.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	tosto	tondere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	sentii	sentii	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	animato	animare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	fino	fino	ADV	B	_	9	case	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	6	fixed	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	esaltazione	esaltazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	accaparrai	accaparere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	solo	solo	ADV	B	_	12	advmod	_	_
+15	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	17	det:predet	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

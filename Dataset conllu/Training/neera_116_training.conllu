@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che fosse dittatrice di sentimenti gentili o monaca consigliera di sante abnegazioni, l’influenza della donna nel Medio Evo è grande.
+1	Che	che	SCONJ	CS	_	3	mark	_	_
+2	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	dittatrice	dittatore	NOUN	S	Number=Plur	24	advcl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	gentili	gentile	ADJ	A	Number=Plur	5	amod	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	monaca	monaco	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9	consigliera	consigliero	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	sante	sante	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	12	det	_	_
+12	abnegazioni	abnegazione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	donna	donna	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Medio	Medio	PROPN	SP	_	18	nmod	_	_
+22	Evo	Evo	PROPN	SP	_	21	flat:name	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	grande	grande	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 2
+# text = Temperò i costumi rozzi e violenti, pose nel cuore dell’uomo altri desideri che non fossero di stragi e di sangue.
+1	Temperò	Temperò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	costumi	costume	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	rozzi	rozzo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	violenti	violento	ADJ	A	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	altri	altro	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	desideri	desidere	NOUN	S	Gender=Masc|Number=Plur	14	appos	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	fossero	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	stragi	strago	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ricompensando i prodi col suo sorriso elevò l’amore e dalla stessa fonte che l’aveva resa oggetto di bassa considerazione seppe far raggiare la sua gloria maggiore.
+1	Ricompensando	Ricompensare	VERB	V	VerbForm=Ger	24	advcl	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	prodi	prodo	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4-5	col	_	_	_	_	_	_	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+8	elevò	elevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	fonte	fonte	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	resa	rendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+20	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	19	xcomp	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	seppe	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	far	fare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+26	raggiare	raggiare	VERB	V	VerbForm=Inf	25	ccomp	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+30	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 4
+# text = Coll’amore poggiato in alto la donna fu regina.
+1-2	Coll’	_	_	_	_	_	_	_	SpaceAfter=No
+1	Co	co	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	poggiato	poggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	alto	alto	ADV	B	_	4	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	regina	reginare	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

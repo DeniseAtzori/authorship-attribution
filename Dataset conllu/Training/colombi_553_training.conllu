@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I polli avevano una cella per ciascuno;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	polli	pollo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cella	cella	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = erano incatenati pei piedi al fondo;
+1	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	incatenati	incatenare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	pei	peo	NUM	N	NumType=Card	4	nummod	_	_
+4	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = non si potevano muovere, nè vedevano nulla a destra nè a manca.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	muovere	muovere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	nè	nè	CCONJ	CC	_	7	cc	_	_
+7	vedevano	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+8	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	7	obj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	destra	destra	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	nè	né	CCONJ	CC	_	13	cc	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	manca	manca	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Udivano gli altri prigionieri gorgogliare qualche _cocò-cocò_, o mandare una specie di rantolo;
+1	Udivano	Udire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	altri	altro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	prigionieri	prigioniero	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	gorgogliare	gorgogliare	VERB	V	VerbForm=Inf	1	csubj	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	_cocò	_cocò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+9	cocò_	cocò-	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	o	o	CCONJ	CC	_	12	cc	_	_
+12	mandare	mandare	VERB	V	VerbForm=Inf	5	conj	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	specie	specie	NOUN	S	Gender=Fem	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	rantolo	rantolo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = e sporgevano il capo curiosamente dal vano dinanzi della stìa;
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	sporgevano	sporgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	capo	capo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	curiosamente	curiosamente	ADV	B	_	8	advmod	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vano	re	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	dinanzi	dinanzi	ADV	B	_	12	case	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stìa	stìa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 6
+# text = ma non vedevano che la penombra vuota della stanzaccia, che era quasi una cantina, perchè si dovevano scendere parecchi scalini per arrivarci, ed era debolmente rischiarata da due fori aperti nell'alto della parete.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	vedevano	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	31	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	penombra	penombra	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+7	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	stanzaccia	stanzaccia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+14	quasi	quasi	ADV	B	_	16	advmod	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cantina	cantina	NOUN	S	Gender=Fem|Number=Sing	6	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	perchè	perché	SCONJ	CS	_	21	mark	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	scendere	scendere	VERB	V	VerbForm=Inf	16	advcl	_	_
+22	parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+23	scalini	scalino	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25-26	arrivarci	_	_	_	_	_	_	_	SpaceAfter=No
+25	arrivar	arrivare	VERB	V	VerbForm=Inf	21	advcl	_	_
+26	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	25	obj	_	_
+27	,	,	PUNCT	FF	_	6	punct	_	_
+28	ed	e	CCONJ	CC	_	31	cc	_	_
+29	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+30	debolmente	debolmente	ADV	B	_	31	advmod	_	_
+31	rischiarata	rischiarare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	due	due	NUM	N	NumType=Card	34	nummod	_	_
+34	fori	foro	NOUN	S	Gender=Masc|Number=Plur	31	obl:agent	_	_
+35	aperti	aperto	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	_
+36-37	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+36	in	in	ADP	E	_	38	case	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	alto	alto	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	parete	parete	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vincenzo, che giunse in paese pochi giorni prima delle nozze, trovò il cugino molto abbattuto.
+1	Vincenzo	Vincenzo	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	giunse	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	prima	prima	ADV	B	_	8	advmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	molto	molto	ADV	B	_	18	advmod	_	_
+18	abbattuto	abbattuto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Ma la sua venuta fece tanto piacere a Vicenzino, che presto le traccie della sua stanchezza scomparvero.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	venuta	venuta	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Vicenzino	Vicenzino	PROPN	SP	_	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	14	case	_	_
+12	presto	predere	ADV	B	_	14	advmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	traccie	traccia	NOUN	S	Gender=Fem|Number=Plur	9	acl:relcl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19	scomparvero	scomparvero	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Fu soltanto un po' commosso il giorno della cerimonia nel benedire gli sposi, e dovette scusarsi di non fare nessun discorso di circostanza in causa di quel suo malessere nervoso, per cui alla menoma lettura, alla menoma parola un po' tenera, si turbava fino al pianto.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+2	soltanto	soltanto	ADV	B	_	5	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	po'	poco	ADV	B	_	5	advmod	_	_
+5	commosso	commuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	benedire	benedire	VERB	V	VerbForm=Inf	5	obl	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	sposi	sposo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	dovette	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+19-20	scusarsi	_	_	_	_	_	_	_	_
+19	scusar	scusare	VERB	V	VerbForm=Inf	13	conj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	di	di	ADP	E	_	23	mark	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	fare	fare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+24	nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	25	det	_	_
+25	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	circostanza	circostanza	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	causa	causa	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
+32	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	malessere	malessere	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+34	nervoso	nervoso	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	33	punct	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	cui	cui	PRON	PR	PronType=Rel	52	obl	_	_
+38-39	alla	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	41	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	menoma	menomo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	41	amod	_	_
+41	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	52	obl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	41	punct	_	_
+43-44	alla	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	46	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	menoma	menomo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	46	amod	_	_
+46	parola	parola	NOUN	S	Gender=Fem|Number=Sing	41	conj	_	_
+47	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	po'	poco	ADV	B	_	49	advmod	_	_
+49	tenera	tenero	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	41	punct	_	_
+51	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	52	expl	_	_
+52	turbava	turbavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	_
+53	fino	fino	ADV	B	_	56	case	_	_
+54-55	al	_	_	_	_	_	_	_	_
+54	a	a	ADP	E	_	53	fixed	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	pianto	pianto	NOUN	S	Gender=Masc|Number=Sing	52	obl	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

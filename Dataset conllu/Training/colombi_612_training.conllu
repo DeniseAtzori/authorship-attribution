@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Erano appena le nove, e sarebbe stato impossibile andare a quell'ora in casa Nardi.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	appena	appena	ADV	B	_	4	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	nove	nove	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+9	impossibile	impossibile	ADJ	A	Number=Sing	4	conj	_	_
+10	andare	andare	VERB	V	VerbForm=Inf	9	csubj	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	quell'	quello	DET	DD	Number=Sing|PronType=Dem	13	det	_	SpaceAfter=No
+13	ora	ora	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+16	Nardi	Nardi	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Impiegò il tempo che gli rimaneva da aspettare, a scrivere una lettera a sua madre, invece di quella che aveva preparata.
+1	Impiegò	Impiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	rimaneva	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	aspettare	aspettare	VERB	V	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	scrivere	scrivere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	madre	madre	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	invece	invece	ADV	B	_	20	case	_	_
+19	di	di	ADP	E	_	18	fixed	_	_
+20	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	1	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	preparata	preparare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Le notificò la sua risoluzione di rinunciare al patrimonio Bellazio, ed aggiunse dei rimpianti per la sua lontananza e delle espressioni affettuose, molto al disotto però della tenerezza vivissima che provava in quel momento per lei.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	notificò	notificare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	risoluzione	risoluzione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	rinunciare	rinunciare	VERB	V	VerbForm=Inf	5	acl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	Bellazio	Bellazio	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ed	e	CCONJ	CC	_	14	cc	_	_
+14	aggiunse	aggiungere	ADJ	A	Gender=Fem|Number=Plur	10	conj	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	rimpianti	rimpiante	NOUN	S	Number=Plur	14	obl	_	_
+18	per	per	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	lontananza	lontananza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	espressioni	espressioni	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	_
+26	affettuose	affettuoso	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	7	punct	_	_
+28	molto	molto	ADV	B	_	31	advmod	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	disotto	disotto	ADV	B	_	32	advmod	_	_
+32	però	però	ADV	B	_	7	advmod	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+36	vivissima	vivissimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	35	amod	_	_
+37	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+38	provava	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	acl:relcl	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	41	det	_	_
+41	momento	momento	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+42	per	per	ADP	E	_	43	case	_	_
+43	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	38	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Temeva che qualsiasi manifestazione insolita potesse parere un'allusione alla confessione ricevuta, e si trattenne per non dir troppo.
+1	Temeva	Temere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	insolita	insolito	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	parere	parere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	allusione	allusione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	ricevuta	ricevuto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	trattenne	trattenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+18	per	per	ADP	E	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	dir	dire	VERB	V	VerbForm=Inf	17	advcl	_	_
+21	troppo	troppo	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

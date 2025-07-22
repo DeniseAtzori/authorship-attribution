@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il portoncino segnato col numero 50 in via Angelo Custode, era discosto due botteghe da un palazzo magnatizio, bigio, triste, dal portone chiuso.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	portoncino	portoncino	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	segnato	segnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	col	_	_	_	_	_	_	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	numero	numero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	50	50	NUM	N	NumType=Card	6	nummod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	via	via	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	Angelo	Angelo	PROPN	SP	_	9	nmod	_	_
+11	Custode	custode	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	discosto	discorre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	due	due	NUM	N	NumType=Card	16	nummod	_	_
+16	botteghe	bottega	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	magnatizio	magnatizio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	bigio	bigio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	triste	triste	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	portone	portone	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+29	chiuso	chiuso	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Francesco Sangiorgio esitò un momento:
+1	Francesco	Francesco	PROPN	SP	_	3	nsubj	_	_
+2	Sangiorgio	Sangiorgio	PROPN	SP	_	1	flat:name	_	_
+3	esitò	esitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = non vi era nessuno cui chiedere informazioni.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+5	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+6	chiedere	chiedere	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+7	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Uno dei due battenti del portoncino era chiuso, l'altro socchiuso;
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	battenti	battente	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	portoncino	portoncino	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	chiuso	chiuso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	altro	altro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	socchiuso	socchiuso	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 5
+# text = il deputato si cacciò per un andito semibuio e vi fece sei o sette passi, sino a che arrivò a un principio di scale.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deputato	deputato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	cacciò	cacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	andito	andito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	semibuio	semibuio	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	vi	vi	ADV	B	_	11	advmod	_	_
+11	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	sei	sei	NUM	N	NumType=Card	15	nummod	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	sette	sette	NUM	N	NumType=Card	12	conj	_	_
+15	passi	passo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	sino	sino	ADP	E	_	19	case	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	che	che	PRON	PR	PronType=Rel	20	obl	_	_
+20	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	principio	principio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	scale	scala	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

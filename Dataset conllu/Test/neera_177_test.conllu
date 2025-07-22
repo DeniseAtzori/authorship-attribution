@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Noi nell'amore vogliamo il trionfo sempre, la vittoria sempre e quando non ci riesce di ottenerli il nostro cuore è così vasto che accogliamo in esso l'odio e la vendetta.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2-3	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	vogliamo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	trionfo	trionfo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	sempre	sempre	ADV	B	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+12	sempre	sempre	ADV	B	_	11	advmod	_	_
+13	e	e	CCONJ	CC	_	26	cc	_	_
+14	quando	quando	SCONJ	CS	_	17	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+17	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19-20	ottenerli	_	_	_	_	_	_	_	_
+19	ottener	ottenere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	così	così	ADV	B	_	26	advmod	_	_
+26	vasto	vasto	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+27	che	che	SCONJ	CS	_	28	mark	_	_
+28	accogliamo	accoglare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obl	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	odio	odio	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	vendetta	vendetta	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Misere, misere animuccie che ci venite a parlare di perdono nello stesso modo che rechereste colle vostre piccole e bianche mani inermi un secchiolino d'acqua per spegnere un incendio!
+1	Misere	Misere	X	X	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	misere	misere	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	animuccie	animuccia	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj:pass	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	_
+7	venite	venire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	parlare	parlare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	perdono	perdere	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12-13	nello	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	modo	modo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	rechereste	recheredere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+18-19	colle	_	_	_	_	_	_	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	vostre	vostre	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+21	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	21	conj	_	_
+24	mani	mano	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+25	inermi	inerme	ADJ	A	Number=Plur	24	amod	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	secchiolino	secchiolino	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	d'	di	ADP	E	_	29	case	_	SpaceAfter=No
+29	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31	spegnere	spegnere	VERB	V	VerbForm=Inf	27	acl	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	incendio	incendio	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+34	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

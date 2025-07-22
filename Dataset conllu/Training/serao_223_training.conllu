@@ -1,0 +1,169 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A un tratto, sentì un urto contro una gamba:
+1	A	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sentì	sentire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	urto	urto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	contro	contro	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	gamba	gamba	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = si voltò.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	voltò	volte	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Gli veniva dietro un cane e lo guardava.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	dietro	dietro	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cane	cane	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Era un bruttissimo, sporchissimo e magro cane, che pareva avesse addosso dieci giorni di vagabondaggio e di fame, pel fango della campagna;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+3	bruttissimo	brutto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	sporchissimo	sporchissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	3	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	magro	magro	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+8	cane	cane	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+12	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	addosso	addosso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+14	dieci	dieci	NUM	N	NumType=Card	15	nummod	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	vagabondaggio	vagabondaggio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	fame	fame	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22-23	pel	_	_	_	_	_	_	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fango	fango	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 5
+# text = un cane che faceva schifo.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cane	cane	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	schifo	schifo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Donde era sbucato?
+1	Donde	Donde	ADV	B	_	3	advmod	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	sbucato	sbucare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Julian Sorel non avrebbe potuto dirlo.
+1	Julian	Julian	PROPN	SP	_	6	nsubj	_	_
+2	Sorel	Sorel	PROPN	SP	_	1	flat:name	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+6-7	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
+6	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Non vi erano più case, sulla via Flaminia: forse era sbucato, inopinatamente, dalla viottola dell'Arco Scuro che porta alla piana dell'acqua Acetosa.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	case	casa	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	via	via	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	Flaminia	Flaminia	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+12	forse	forse	ADV	B	_	14	advmod	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	sbucato	sbucare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	inopinatamente	inopinatamente	ADV	B	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	viottola	viottola	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	Arco	Arco	PROPN	SP	_	20	nmod	_	_
+24	Scuro	scuro	PROPN	SP	_	23	flat:name	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	piana	piano	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+30-31	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+30	di	di	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	Acetosa	Acetosa	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Gli veniva dietro, forse, da qualche tempo:
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	dietro	dietro	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	forse	forse	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = e guardava Julian Sorel, coi suoi buoni e dolci occhi di cane.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	Julian	Julian	PROPN	SP	_	2	obj	_	_
+4	Sorel	Sorel	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6-7	coi	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	12	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+8	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+9	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	dolci	dolce	ADJ	A	Number=Plur	9	conj	_	_
+12	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cane	cane	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

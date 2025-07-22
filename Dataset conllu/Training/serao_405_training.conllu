@@ -1,0 +1,124 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciccotto era un porcellino bianco — roseo, con una macchia grigia sulla schiena, grassottello e rotondetto.
+1	Ciccotto	Ciccotto	ADV	B	_	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	porcellino	porcellino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	—	—	PUNCT	FF	_	4	punct	_	_
+7	roseo	roseo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	macchia	macchia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+12	grigia	grigio	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	schiena	schiena	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	grassottello	grassottello	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	rotondetto	rotondetto	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Canituccia gridò dalla gioia, prese nelle braccia Ciccotto e se ne tornò indietro, con l’ultimo sforzo delle sue gambe di bambina Rideva, parlava, si stringeva al petto Ciccotto per non farlo scappare, e Ciccotto, con le corte gambe pendenti, grugniva tranquillamente.
+1	Canituccia	Canituccia	PROPN	SP	_	2	nsubj	_	_
+2	gridò	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	dalla	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	prese	prendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Fin	2	conj	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	Ciccotto	Ciccotto	PROPN	SP	_	10	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+15	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+16	indietro	indietro	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+20	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+21	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+22-23	delle	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	Rideva	rideva	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+33	stringeva	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+34-35	al	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	petto	petto	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+37	Ciccotto	Ciccotto	PROPN	SP	_	36	nmod	_	_
+38	per	per	ADP	E	_	40	mark	_	_
+39	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+40-41	farlo	_	_	_	_	_	_	_	_
+40	far	fare	VERB	V	VerbForm=Inf	33	advcl	_	_
+41	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+42	scappare	scappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	45	punct	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	Ciccotto	Ciccotto	PROPN	SP	_	42	conj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	42	punct	_	_
+47	con	con	ADP	E	_	50	case	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+49	corte	corto	ADJ	A	Gender=Fem|Number=Plur	50	amod	_	_
+50	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	42	obl	_	_
+51	pendenti	pendente	ADJ	A	Number=Plur	50	amod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	53	punct	_	_
+53	grugniva	grugnire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+54	tranquillamente	tranquillo	ADV	B	_	53	advmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Canituccia correva di nuovo, pensando che avrebbe mangiato.
+1	Canituccia	Canituccia	ADV	B	_	2	advmod	_	_
+2	correva	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	pensando	pensare	VERB	V	VerbForm=Ger	2	advcl	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Di lontano vide la figura di Pasqualina sul portone e a tiro di voce le gridò:
+1	Di	di	ADP	E	_	2	case	_	_
+2	lontano	lontano	ADV	B	_	3	advmod	_	_
+3	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	figura	figura	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Pasqualina	Pasqualina	PROPN	SP	_	5	nmod	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	portone	portone	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	tiro	tiro	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	voce	voce	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	gridò	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	17	punct	_	SpacesAfter=\n
+

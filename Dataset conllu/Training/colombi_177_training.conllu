@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non avevo speranza di commovere Edmondo;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	commovere	commovere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	Edmondo	Edmondo	PROPN	SP	_	5	obj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = ero certa che la prima volta che avessi mancato di rispondere al suo richiamo imperioso, avrebbe mandate le lettere a mio marito.
+1	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	certa	certo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	19	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	mancato	mancare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	rispondere	rispondere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	richiamo	richiamo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	imperioso	imperioso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	mandate	mandare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	marito	marito	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Era irritato dalle mie continue ripulse, dall'indifferenza con cui lo trattavo;
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	irritato	irritare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	dalle	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	mie	mio	NOUN	S	Gender=Fem|Number=Plur	2	obl:agent	_	_
+6	continue	continue	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	ripulse	ripulso	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9-10	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+9	da	da	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	11	nmod	_	_
+14	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	trattavo	trattare	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = era geloso del mio amore per Marco, non aspettava più che un'occasione per vendicarsi di tutto.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	geloso	geloso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	Marco	Marco	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+12	più	più	ADV	B	_	11	advmod	_	_
+13	che	che	SCONJ	CS	_	15	mark	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17-18	vendicarsi	_	_	_	_	_	_	_	_
+17	vendicar	vendicare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

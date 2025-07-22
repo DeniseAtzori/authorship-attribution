@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Io non ero svenuto:
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	svenuto	svenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = feci un altro sforzo per dirlo, ma fu impossibile.
+1	feci	feci	NUM	N	_	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	altro	altro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6-7	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
+6	dir	dire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	impossibile	impossibile	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Cercai di accennare colla mano, ma, con infinito terrore, sentii che la mano rimaneva immobile come di piombo;
+1	Cercai	Cercaio	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	accennare	accennare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	colla	colla	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	13	punct	_	_
+7	ma	ma	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	infinito	infinito	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	sentii	sentio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mano	mano	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+17	rimaneva	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	_	_
+18	immobile	immobile	ADJ	A	Number=Sing	17	xcomp	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	piombo	piombo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = volli scuotere il capo, ma anche il congegno del collo non giocava più;
+1	volli	vollo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	14	nsubj	_	_
+2	scuotere	scuotere	VERB	V	VerbForm=Inf	14	advcl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	congegno	congegno	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	collo	collo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	giocava	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	più	più	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 5
+# text = avevo perduto la facoltà di muovermi!
+1	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	facoltà	facoltà	NOUN	S	Gender=Fem	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	muovermi	muovermo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

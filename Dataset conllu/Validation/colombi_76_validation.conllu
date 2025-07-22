@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma intanto la vedevo, e la vedevo piangere, e quel pianto era d'amore per me.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	intanto	intanto	ADV	B	_	4	advmod	_	_
+3	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	vedevo	vedevo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	vedevo	vedere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	piangere	piangere	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	16	punct	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	pianto	pianto	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	amore	amore	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = A poco a poco il mio stato di passività si andò animando d'una sensazione dolce.
+1	A	a	ADP	E	_	2	case	_	_
+2	poco	poco	ADV	B	_	7	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	poco	poco	ADV	B	_	7	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	stato	stato	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	passività	passività	NOUN	S	Gender=Fem	7	nmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	animando	animare	VERB	V	VerbForm=Ger	11	advcl	_	_
+13	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	dolce	dolce	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Provavo, dirò così, l'ebrezza di soffrire insieme.
+1	Provavo	Provavo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dirò	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	così	così	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ebrezza	ebrezza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	soffrire	soffrire	VERB	V	VerbForm=Inf	7	acl	_	_
+10	insieme	insieme	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Il desiderio conteso, le aspirazioni ferventi verso una meta impossibile, sono lo stato più confacente al mio carattere.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	conteso	conteso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	aspirazioni	aspirazione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+7	ferventi	fervente	ADJ	A	Number=Plur	6	amod	_	_
+8	verso	verso	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	meta	meta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	impossibile	impossibile	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	stato	stato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	confacente	confacente	ADJ	A	Number=Sing	15	amod	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

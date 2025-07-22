@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lontano, nella gran rotonda luminosa era un cicalìo di bimbi e un cicalìo di passeri e il rombo sordo della città giungeva ancora colà.
+1	Lontano	lontano	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	gran	gran	ADJ	A	Number=Sing	6	amod	_	_
+6	rotonda	rotonda	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+7	luminosa	luminoso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cicalìo	cicalìo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cicalìo	cicalìo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	passeri	passere	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	rombo	rombo	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+21	sordo	sordo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	città	città	NOUN	S	Gender=Fem	20	nmod	_	_
+25	giungeva	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+26	ancora	ancora	ADV	B	_	25	advmod	_	_
+27	colà	colà	NOUN	S	Gender=Fem	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Bastava allontanarsi cento passi, verso il mare, perchè ogni rumore svanisse nell'aria lieve:
+1	Bastava	Bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	allontanarsi	_	_	_	_	_	_	_	_
+2	allontanar	allontanare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	cento	cento	NUM	N	NumType=Card	5	nummod	_	_
+5	passi	passo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mare	mare	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	perchè	perché	SCONJ	CS	_	14	mark	_	_
+12	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	svanisse	svanire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+15-16	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	in	in	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	aria	aria	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	lieve	lieve	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = e la solitudine del parco era solo turbata da qualche rara persona che passeggiava, lentamente riscaldandosi al sole, un vecchio o un convalescente i cui occhi senza fiamma e senza forza non avean più curiosità:
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	parco	parco	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	turbata	turbare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+12	rara	raro	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	persona	persona	NOUN	S	Gender=Fem|Number=Sing	9	obl:agent	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	passeggiava	passeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	lentamente	lentamente	ADV	B	_	15	advmod	_	_
+18-19	riscaldandosi	_	_	_	_	_	_	_	_
+18	riscaldando	riscaldare	VERB	V	VerbForm=Ger	15	advcl	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sole	sole	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	9	punct	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+26	o	o	CCONJ	CC	_	28	cc	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	convalescente	convalescente	NOUN	S	Number=Sing	25	conj	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	cui	cui	DET	DR	PronType=Rel	31	det:poss	_	_
+31	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+32	senza	senza	ADP	E	_	33	case	_	_
+33	fiamma	fiamma	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	senza	senza	ADP	E	_	36	case	_	_
+36	forza	forza	NOUN	S	Gender=Fem|Number=Sing	33	conj	_	_
+37	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+38	avean	avean	ADV	B	_	40	advmod	_	_
+39	più	più	ADV	B	_	38	advmod	_	_
+40	curiosità	curiosità	NOUN	S	Gender=Fem	33	conj	_	SpaceAfter=No
+41	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 4
+# text = turbato tavolta, il profondo silenzio vegetale dal fruscio di un getto di acqua, con cui un invisibile giardiniere inaffiava un'aiuola.
+1	turbato	turbare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	tavolta	tavolta	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+7	vegetale	vegetale	ADJ	A	Number=Sing	6	amod	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fruscio	fruscio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	getto	getto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	invisibile	invisibile	ADJ	A	Number=Sing	21	amod	_	_
+21	giardiniere	giardiniere	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	inaffiava	inaffiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+23	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	aiuola	aiuola	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

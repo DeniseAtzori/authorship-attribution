@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In Grecia, tra le raffinatezze di una vita lussuriosa, l’arte sorgendo dai limbi informi modellò i primi capolavori sotto l’ispirazione delle donna.
+1	In	in	ADP	E	_	2	case	_	_
+2	Grecia	Grecia	PROPN	SP	_	19	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tra	tra	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	raffinatezze	raffinatezza	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	lussuriosa	lussurioso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	arte	arte	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+14	sorgendo	sorgere	VERB	V	VerbForm=Ger	13	acl	_	_
+15-16	dai	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	limbi	limbo	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	informi	informe	ADJ	A	Number=Plur	17	amod	_	_
+19	modellò	modellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	22	amod	_	_
+22	capolavori	capolavoro	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+23	sotto	sotto	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	ispirazione	ispirazione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+26-27	delle	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	donna	donna	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 2
+# text = Da animale domestico ella salì al grado di cortigiana.
+1	Da	da	ADP	E	_	2	case	_	_
+2	animale	animale	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	domestico	domestico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	salì	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	grado	grado	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	cortigiana	cortigiano	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Fu adulata, fu incensata.
+1	Fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	adulata	adulato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	incensata	incensare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il paganesimo trovò in lei la più perfetta espressione del suo culto ed Aspasia scuotendo i braccialetti d’oro sul capo inebbriato di Pericle potè annunciare ridendo che il tempo delle catene era finito.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	paganesimo	paganesimo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	culto	culto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	ed	e	CCONJ	CC	_	15	cc	_	_
+15	Aspasia	Aspasia	PROPN	SP	_	16	conj	_	_
+16	scuotendo	scuotere	VERB	V	VerbForm=Ger	3	advcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	braccialetti	braccialetto	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	d’	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	oro	oro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	capo	capo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+24	inebbriato	inebbriato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Pericle	Pericle	PROPN	SP	_	23	nmod	_	_
+27	potè	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	_
+28	annunciare	annunciare	VERB	V	VerbForm=Inf	3	conj	_	_
+29	ridendo	ridere	VERB	V	VerbForm=Ger	28	advcl	_	_
+30	che	che	SCONJ	CS	_	37	mark	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	37	nsubj	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	catene	catena	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+36	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	aux	_	_
+37	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	ccomp	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

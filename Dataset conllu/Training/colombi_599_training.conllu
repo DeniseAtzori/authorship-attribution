@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma sua madre attribuì quella malinconia all'allontanamento della sposa, alle speranze che aveva lasciate svanire, e non gliene parlò.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	madre	madre	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	attribuì	attribuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	allontanamento	allontanamento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	speranze	speranza	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	lasciate	lasciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	svanire	svanire	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	gliene	glenere	SCONJ	CS	_	25	mark	_	_
+25	parlò	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Alla fine di settembre madre e figlio andarono ad abitare il nuovo alloggio preparato per gli sposi;
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	madre	madre	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+9	andarono	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11	abitare	abitare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	preparato	preparare	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	sposi	sposo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = ma la sposa non c'era, e l'inaugurazione del quartierino elegante fu tutt'altro che festosa.
+1	ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	17	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	inaugurazione	inaugurazione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	quartierino	quartierino	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	elegante	elegante	ADJ	A	Number=Sing	13	amod	_	_
+15	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+16	tutt'	tutto	PRON	PI	Number=Sing|PronType=Ind	17	obl	_	SpaceAfter=No
+17	altro	altro	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	_
+18	che	che	ADP	E	_	19	case	_	_
+19	festosa	festoso	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = La camera nuziale rimase chiusa, e Marco si fece mettere un letto nello studio, una stanzetta piccola dove stava rinchiuso tutte le ore che non erano reclamate dalle sue occupazioni fuori di casa, assorto in lunghe letture.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	camera	camera	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	nuziale	nuziale	ADJ	A	Number=Sing	2	amod	_	_
+4	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	Marco	Marco	PROPN	SP	_	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	mettere	mettere	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	letto	letto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	nello	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	studio	studio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	stanzetta	stanzetta	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+20	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	dove	dove	ADV	B	_	23	advmod	_	_
+22	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	rinchiuso	rinchiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+24	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	26	det:predet	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	ore	ora	NOUN	S	Gender=Fem|Number=Plur	23	nsubj:pass	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj:pass	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	aux:pass	_	_
+30	reclamate	reclamare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+31-32	dalle	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	34	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+33	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	occupazioni	occupazione	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	_
+35	fuori	fuori	ADV	B	_	37	case	_	_
+36	di	di	ADP	E	_	35	fixed	_	_
+37	casa	casa	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	19	punct	_	_
+39	assorto	assorgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	42	amod	_	_
+42	letture	lettura	NOUN	S	Gender=Fem|Number=Plur	39	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

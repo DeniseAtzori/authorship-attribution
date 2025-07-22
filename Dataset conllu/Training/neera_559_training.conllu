@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Contento era e non era.
+1	Contento	contento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Il dualismo esistente in ogni uomo, ma non mai così vivo come quando un'opera sta per uscire dai misteri del nulla, si imponeva alla sua coscienza vigile.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dualismo	dualismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	esistente	esistere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	acl	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	ma	ma	CCONJ	CC	_	12	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	mai	mai	ADV	B	_	12	advmod	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+13	come	come	SCONJ	CS	_	28	mark	_	_
+14	quando	quando	SCONJ	CS	_	28	mark	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	opera	opera	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+17	sta	stare	ADJ	A	Number=Sing	16	amod	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	uscire	uscire	VERB	V	VerbForm=Inf	16	acl	_	_
+20-21	dai	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	misteri	mistero	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	nulla	nulla	NOUN	S	Gender=Masc	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	16	punct	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	imponeva	imporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+29-30	alla	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	32	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+33	vigile	vigile	ADJ	A	Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Se egli considerava l'opera nel riflesso del fuoco interno che l'aveva concepita la vedeva rifulgere della più vivida luce.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	considerava	considerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	opera	opera	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	riflesso	riflesso	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	interno	interno	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	concepita	concepire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+17	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	rifulgere	rifulgere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	24	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	vivida	vivido	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	luce	luce	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma in quella scena terribile, io aveva smarrita la testa.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	scena	scena	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+5	terribile	terribile	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	smarrita	smarrire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	testa	testa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Lo lasciai, così.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	lasciai	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	così	così	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non volli più vederlo;
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	volli	vollo	ADJ	A	Number=Plur	4	amod	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4-5	vederlo	_	_	_	_	_	_	_	SpaceAfter=No
+4	veder	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = lo fuggii.
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fuggii	fuggio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Indescrivibili tormenti!
+1	Indescrivibili	Indescrivibile	ADJ	A	Number=Plur	2	amod	_	_
+2	tormenti	tormento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ero innamoratissima di lui e tutta la mia anima come la mia persona gli apparteneva:
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	innamoratissima	innamoratissimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	9	det:predet	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	anima	anima	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+10	come	come	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	persona	persona	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+14	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+15	apparteneva	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = figuratevi, dunque, quale violenza io doveva fare a me stessa per non vederlo, per non scrivergli, per non pronunziare neppure il suo nome.
+1	figuratevi	figurare	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dunque	dunque	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	quale	quale	DET	DQ	Number=Sing|PronType=Int	6	det	_	_
+6	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	1	acl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+12	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	per	per	ADP	E	_	15	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15-16	vederlo	_	_	_	_	_	_	_	SpaceAfter=No
+15	veder	vedere	VERB	V	VerbForm=Inf	9	advcl	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	per	per	ADP	E	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20-21	scrivergli	_	_	_	_	_	_	_	SpaceAfter=No
+20	scriver	scrivere	VERB	V	VerbForm=Inf	9	advcl	_	_
+21	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+22	,	,	PUNCT	FF	_	9	punct	_	_
+23	per	per	ADP	E	_	25	mark	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	pronunziare	pronunziare	VERB	V	VerbForm=Inf	9	advcl	_	_
+26	neppure	neppure	ADV	BN	PronType=Neg	25	advmod	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	nome	nome	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

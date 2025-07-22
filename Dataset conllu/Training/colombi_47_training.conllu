@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Morto, no;
+1	--Morto	--Morto	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	no	no	ADV	BN	PronType=Neg	1	conj	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = lo sarei stato fra pochi minuti, e nessuno avrebbe sospettato mai che avevo vissuto fin allora:
+1	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	fra	fra	ADP	E	_	6	case	_	_
+5	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	sospettato	sospettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+12	mai	mai	ADV	B	_	11	advmod	_	_
+13	che	che	SCONJ	CS	_	15	mark	_	_
+14	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+16	fin	fino	ADP	E	_	17	case	_	_
+17	allora	allora	ADV	B	_	15	advmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = perchè il _curare_ paralizza la circolazione come paralizza tutti i movimenti, perchè, come s'è detto, agisce sui nervi motori.
+1	perchè	perché	SCONJ	CS	_	4	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	_curare_	ExtraSubj=Yes|_curare_	PUNCT	FB	_	4	punct	_	_
+4	paralizza	paralizza	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	come	come	SCONJ	CS	_	8	mark	_	_
+8	paralizza	paralizza	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+9	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	movimenti	movimento	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	perchè	poiperché	SCONJ	CS	_	20	mark	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	20	punct	_	_
+15	come	come	SCONJ	CS	_	18	mark	_	_
+16	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	SpaceAfter=No
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	agisce	agire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+21-22	sui	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	24	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	nervi	nervo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	motori	motore	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ma se colla respirazione artificiale si riesce in tempo a ravvivare la circolazione ed a mantenerla per un tempo sufficiente, il _curare_ si elimina per le vie ordinarie e l'ammalato guarisce.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+4	respirazione	respirazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	artificiale	artificiale	ADJ	A	Number=Sing	4	amod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	ravvivare	ravvivare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	ed	e	CCONJ	CC	_	16	cc	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	mantenerla	_	_	_	_	_	_	_	_
+16	mantener	mantenere	VERB	V	VerbForm=Inf	7	conj	_	_
+17	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	sufficiente	sufficiente	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	7	punct	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	_curare_	_curare-	PUNCT	FB	_	26	punct	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl:impers	_	_
+26	elimina	eliminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	vie	via	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	_
+30	ordinarie	ordinario	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	ammalato	ammalato	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	_
+34	guarisce	guariscia	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

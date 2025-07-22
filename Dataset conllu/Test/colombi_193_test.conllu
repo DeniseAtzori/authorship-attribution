@@ -1,0 +1,147 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Max era innamorato d'un'altra e non pensava più a me.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Max	Max	PROPN	SP	_	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	innamorato	innamorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	altra	altro	ADJ	A	Gender=Fem|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+11	più	più	ADV	B	_	10	advmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = O aveva rinnovata la sua relazione colla marchesa Vittoria, e stava a Monza nella villa di lei, e non aveva nemmanco idea della mia lettera e del mio arrivo.
+1	O	o	CCONJ	CC	_	3	cc	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	rinnovata	rinnovare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	colla	colla	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	marchesa	marcheso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+9	Vittoria	vittoria	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Monza	Monza	PROPN	SP	_	12	obl	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	villa	villa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+24	nemmanco	nemmanco	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+25	idea	idea	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+30	e	e	CCONJ	CC	_	34	cc	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = O la lettera l'aveva ricevuta, sì;
+1	O	o	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	ricevuta	ricevere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	sì	sì	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = ma giudicava la mia condotta severamente;
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	giudicava	giudicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	condotta	condotta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	severamente	severo	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = come meritava.
+1	come	come	ADV	B	_	2	advmod	_	_
+2	meritava	meritare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Gli sembravo un'avventuriera, una donna senza decoro ad andarmene così di città in città per dare appuntamento ad un giovinotto in una camera d'albergo.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	sembravo	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	avventuriera	avventuriera	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+8	senza	senza	ADP	E	_	9	case	_	_
+9	decoro	decoro	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11-13	andarmene	_	_	_	_	_	_	_	_
+11	andar	andare	VERB	V	VerbForm=Inf	7	acl	_	_
+12	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	expl	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+14	così	così	ADV	B	_	11	advmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	città	città	NOUN	S	Gender=Fem	11	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	città	città	NOUN	S	Gender=Fem	16	nmod	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	dare	dare	VERB	V	VerbForm=Inf	11	advcl	_	_
+21	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+22	ad	a	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	giovinotto	giovinotto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	camera	camera	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	d'	di	ADP	E	_	29	case	_	SpaceAfter=No
+29	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = E non si degnava neppure dì venire a porgermi la mano.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	degnava	degnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	neppure	neppure	ADV	BN	PronType=Neg	6	advmod	_	_
+6	dì	dì	NOUN	S	Gender=Masc	4	obj	_	_
+7	venire	venire	VERB	V	VerbForm=Inf	6	acl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	porgermi	porgermo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mano	mano	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Era un rimprovero, una lezione.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rimprovero	rimprovero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,126 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Signore Iddio, vi ringrazio.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Signore	signore	PROPN	SP	_	6	nsubj	_	_
+3	Iddio	Iddio	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	6	iobj	_	_
+6	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Siate benedetto, o Signore, nel vostro splendore e nella vostra oscurità, nel bene che fate e nel male che permettete, nella rivelazione e nel mistero, in questo mondo e nell'altro, perché Voi solo sapete.
+1	Siate	Siato	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	benedetto	benedetto	ADJ	A	Gender=Masc|Number=Sing	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	Signore	signore	PROPN	SP	_	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	splendore	splendore	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	oscurità	oscurità	NOUN	S	Gender=Fem	1	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	bene	bene	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+21	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	male	male	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	permettete	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	1	punct	_	_
+29-30	nella	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	rivelazione	rivelazione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	nel	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	1	punct	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	39	det	_	_
+39	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+40	e	e	CCONJ	CC	_	48	cc	_	_
+41-42	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+41	in	in	ADP	E	_	43	case	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+43	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	48	obl	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	perché	perché	SCONJ	CS	_	48	mark	_	_
+46	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	48	nsubj	_	_
+47	solo	solo	ADV	B	_	48	advmod	_	_
+48	sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Restino con Voi i cuori puri che mai non conobbero i turbamenti del peccato;
+1	Restino	restare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	Voi	Vo	PRON	PE	Number=Plur|Person=2|PronType=Prs	1	obl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	_
+6	puri	puro	ADJ	A	Number=Plur	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	mai	mai	ADV	B	_	10	advmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	conobbero	cono	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	turbamenti	turbamento	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	peccato	peccato	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = vengano a Voi i cuori ardenti che la passione tormenta;
+1	vengano	verre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Voi	Vo	PRON	PE	Number=Plur|Person=2|PronType=Prs	1	obl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	_
+6	ardenti	ardere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	5	acl	_	_
+7	che	che	SCONJ	CS	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	passione	passione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	tormenta	tormento	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = accoglieteci tutti, mio Dio, nella vostra misericordia.
+1-2	accoglieteci	_	_	_	_	_	_	_	_
+1	accogliete	accogliere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	1	expl	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	misericordia	misericordia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	SpacesAfter=\n
+

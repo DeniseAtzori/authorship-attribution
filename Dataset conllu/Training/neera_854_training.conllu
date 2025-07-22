@@ -1,0 +1,126 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quattro finestre aperte dànno su un cortile magramente alberato, battuto in pieno dal sole;
+1	Quattro	quattro	NUM	N	NumType=Card	2	nummod	_	_
+2	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	aperte	aperto	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	dànno	dàre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cortile	cortile	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	magramente	magro	ADV	B	_	9	advmod	_	_
+9	alberato	alberato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	11	obl	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sole	sole	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = un sole fastidioso che le tende di cannuccia non riescono a tenere lontano, che penetra afoso attraverso gli interstizi gialli e ripercotendosi sul giallo delle pareti diffonde nell’aria un tono persistente e monotono di landa, di aridità, di deserto.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sole	sole	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	fastidioso	fastidioso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	tende	tenda	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cannuccia	cannuccia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	tenere	tenere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	penetra	penetrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	afoso	afoso	ADJ	A	Gender=Masc|Number=Sing	16	xcomp	_	_
+18	attraverso	attraverso	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	interstizi	interstizio	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+21	gialli	giallo	ADJ	A	Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23-24	ripercotendosi	_	_	_	_	_	_	_	_
+23	ripercotendo	ripercotere	VERB	V	VerbForm=Ger	16	conj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25-26	sul	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	giallo	giallo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	pareti	parete	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+31	diffonde	diffondere	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+32-33	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+32	in	in	ADP	E	_	34	case	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	aria	aria	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	tono	tono	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+37	persistente	persistente	ADJ	A	Number=Sing	36	amod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	monotono	monotono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	landa	landa	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	44	punct	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	aridità	aridità	NOUN	S	Gender=Fem	41	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	47	punct	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	deserto	deserto	NOUN	S	Gender=Masc|Number=Sing	41	conj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Il crocifisso rigido e il rigido ritratto femminile e le carte geografiche col loro reticolato asciutto, tutto pieno della noia e della fatica delle scolare, aggravano l’aere di un imponderabile senso di tedio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	crocifisso	crocifisso	NOUN	S	Gender=Masc|Number=Sing	32	nsubj	_	_
+3	rigido	rigido	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	rigido	rigido	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	ritratto	ritratto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+8	femminile	femminile	ADJ	A	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	carte	carta	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+12	geografiche	geografico	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13-14	col	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	17	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	reticolato	reticolato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	asciutto	asciutto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	32	nsubj	_	_
+20	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	noia	noia	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	scolare	scolare	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	19	punct	_	_
+32	aggravano	aggravare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	aere	aera	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+35	di	di	ADP	E	_	38	case	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	imponderabile	imponderabile	ADJ	A	Number=Sing	38	amod	_	_
+38	senso	senso	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	tedio	tedio	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	32	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Il signore viene pel quartierino?
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	signore	signore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	pel	_	_	_	_	_	_	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	quartierino	quartierino	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Va via, Nanna.
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	via	via	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Nanna	Nanna	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Si accomodi, si accomodi pure:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	accomodi	accomodare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	accomodi	accomodare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	pure	pure	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = sono a sua disposizione.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Scusi, sa, il modo come la ricevo, ma la mattina non si finisce mai di vestirsi:
+1	Scusi	Scuso	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ricevo	ricevo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	16	punct	_	_
+11	ma	ma	CCONJ	CC	_	16	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
+16	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	mai	mai	ADV	B	_	16	advmod	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19-20	vestirsi	_	_	_	_	_	_	_	SpaceAfter=No
+19	vestir	vestire	VERB	V	VerbForm=Inf	16	xcomp	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = si va a teatro, qualche volta, con Toto, a sentir la Marini, si fa tardi, la mattina rincresce, naturalmente, di levarsi su...».
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	Toto	Toto	PROPN	SP	_	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	sentir	sentire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Marini	Marini	PROPN	SP	_	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+18	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	tardi	tardi	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+23	rincresce	rincresce	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	naturalmente	naturalmente	ADV	B	_	2	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	2	punct	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28-29	levarsi	_	_	_	_	_	_	_	_
+28	levar	levare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+30	su...	su.	PUNCT	FS	_	28	punct	_	SpaceAfter=No
+31	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

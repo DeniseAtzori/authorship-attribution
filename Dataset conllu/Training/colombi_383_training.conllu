@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Dopo la morte di Clelia non avevo più provata la menoma simpatia per nessuna donna.
+1	—	—	PUNCT	FF	_	10	punct	_	_
+2	Dopo	dopo	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	morte	morte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Clelia	Clelia	PROPN	SP	_	4	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	aux	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	provata	provare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	menoma	menomo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	simpatia	simpatia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
+16	donna	donna	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Mi erano tutte indifferenti, e le sfuggivo.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
+4	indifferenti	indifferente	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	sfuggivo	sfuggivo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ma la vista di quella signora mi fece un'impressione strana.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vista	vista	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	signora	signore	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	strana	strano	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Mi parve che avesse in sè qualche cosa della mia povera sposa;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	sè	sè	PRON	PE	Person=3|PronType=Prs	4	obl	_	_
+7	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	13	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+12	povera	povero	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = mi parve che quegli occhi scintillanti mi parlassero di lei.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+6	scintillanti	scintillante	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	parlassero	parlare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Non le somigliava punto, eppure me la ricordava.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	somigliava	somigliare	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	eppure	eppure	CCONJ	CC	_	9	cc	_	_
+7	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	ricordava	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Mi pareva che quella signora ed io fossimo amici da un pezzo, e che ella conoscesse tutti i miei dolori; e senza quasi volerlo, la seguii.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	signora	signore	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	conj	_	_
+8	fossimo	essere	AUX	V	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	amici	amico	NOUN	S	Gender=Masc|Number=Plur	2	ccomp	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	conoscesse	conoscere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+18	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	21	det:predet	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	27	punct	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24	senza	senza	ADP	E	_	27	case	_	_
+25	quasi	quasi	ADV	B	_	27	advmod	_	_
+26-27	volerlo	_	_	_	_	_	_	_	SpaceAfter=No
+26	voler	volere	AUX	VM	VerbForm=Inf	27	cop	_	_
+27	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	conj	_	_
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	seguii	seguio	NOUN	S	Gender=Masc|Number=Plur	27	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

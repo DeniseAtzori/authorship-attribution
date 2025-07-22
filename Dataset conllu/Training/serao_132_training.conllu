@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nella convalescenza, ella scrisse a Mario Felice, tristamente, delle lettere piene di lagrime:
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	convalescenza	convalescenza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	scrisse	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Mario	Mario	PROPN	SP	_	6	obl	_	_
+9	Felice	Felice	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	tristamente	tristamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+16	piene	pieno	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = ed egli le rispose con molta tenerezza, senza una parola di amore, ma con tenerezza, con molta tenerezza, che si sarebbero riveduti, là, in quel viale degli oleandri che era il nido più caro e più poetico del loro amore.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	senza	senza	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	parola	parola	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	riveduti	rivedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl:relcl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	là	là	ADV	B	_	26	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	26	punct	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	viale	viale	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+33-34	degli	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	oleandri	oleandro	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+36	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+37	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	cop	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	nido	nido	NOUN	S	Gender=Masc|Number=Sing	35	acl:relcl	_	_
+40	più	più	ADV	B	_	41	advmod	_	_
+41	caro	caro	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+42	e	e	CCONJ	CC	_	44	cc	_	_
+43	più	più	ADV	B	_	44	advmod	_	_
+44	poetico	poetico	ADJ	A	Gender=Masc|Number=Sing	41	conj	_	_
+45-46	del	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	48	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	loro	loro	DET	AP	Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	amore	amore	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma le donne, le educatrici nate, se perdono in tal modo la bussola dove anderemo a finire?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	educatrici	educatore	NOUN	S	Gender=Fem|Number=Plur	3	appos	_	_
+7	nate	nato	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	se	se	SCONJ	CS	_	10	mark	_	_
+10	perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	tal	tale	DET	DD	Number=Sing|PronType=Dem	13	det	_	_
+13	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	bussola	bussola	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+16	dove	dove	ADV	B	_	17	advmod	_	_
+17	anderemo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	15	acl:relcl	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	finire	finire	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Esse hanno in mano la coscienza del fanciullo, che è la sola cosa necessaria, e non se ne curano;
+1	Esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sola	solo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	9	acl:relcl	_	_
+16	necessaria	necessario	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	22	punct	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+22	curano	curare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = ed hanno l’istruzione della quale si può fare a meno, che forma tutto il loro tripudio.
+1	ed	e	CCONJ	CC	_	2	cc	_	_
+2	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	quale	quale	PRON	PR	Number=Sing|PronType=Rel	10	obl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	meno	meno	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	forma	formare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	19	det:predet	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	tripudio	tripudio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Esse difatti vi parleranno sempre dell’intelligenza dei loro figli, dimenticando che l’intelligenza non è che una impugnatura sulla quale bisogna innestare una punta di ben terso acciaio se si vuole che l’opera sua nel mondo sia profittevole.
+1	Esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	difatti	difatti	CCONJ	CC	_	4	cc	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+4	parleranno	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	sempre	sempre	ADV	B	_	4	advmod	_	_
+6-7	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	dimenticando	dimenticare	VERB	V	VerbForm=Ger	4	advcl	_	_
+15	che	che	SCONJ	CS	_	19	mark	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+20	che	che	SCONJ	CS	_	22	mark	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	impugnatura	impugnatura	NOUN	S	Gender=Fem|Number=Sing	19	advcl	_	_
+23-24	sulla	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	quale	quale	PRON	PR	Number=Sing|PronType=Rel	26	obl	_	_
+26	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+27	innestare	innestare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	punta	punta	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	ben	bene	ADV	B	_	33	advmod	_	_
+32	terso	terso	ADP	E	_	33	case	_	_
+33	acciaio	acciaiare	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+34	se	se	SCONJ	CS	_	36	mark	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl:impers	_	_
+36	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+37	che	che	SCONJ	CS	_	45	mark	_	_
+38	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	opera	opera	NOUN	S	Gender=Fem|Number=Sing	45	nsubj	_	_
+40	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	43	det:poss	_	_
+41-42	nel	_	_	_	_	_	_	_	_
+41	in	in	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+44	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+45	profittevole	profittevole	ADJ	A	Number=Sing	36	ccomp	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

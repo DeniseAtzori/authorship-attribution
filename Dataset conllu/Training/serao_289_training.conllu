@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Erano le cinque, l'ora del convegno.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	cinque	cinque	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ora	ora	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	convegno	convegno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Egli balzò in piedi, tendendo l'orecchio.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	balzò	balzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	tendendo	tendere	VERB	V	VerbForm=Ger	2	advcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Nessun rumore.
+1	Nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Passarono dei minuti; poi, varii minuti; poi, molti minuti.
+1	Passarono	Passarono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	9	punct	_	_
+6	poi	poi	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	varii	varire	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	minuti	minuto	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	14	punct	_	_
+11	poi	poi	ADV	B	_	14	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ritto, immobile, in mezzo alla stanza, rigido di ansietà, egli aspettava.
+1	Ritto	Ritto	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	immobile	immobile	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	rigido	rigido	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	ansietà	ansietà	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 6
+# text = Nulla.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Udì, una volta, un passo:
+1	Udì	Udì	INTJ	I	Polarity=Pos	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 8
+# text = ma nessun giro di serratura vi corrispose:
+1	ma	ma	CCONJ	CC	_	7	cc	_	_
+2	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	giro	giro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	serratura	serratura	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	iobj	_	_
+7	corrispose	corrisporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 9
+# text = e la sua persona s'irrigidì, di nuovo, in una intensità terribile di aspettativa.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	persona	persona	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+6	irrigidì	irrigidire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	intensità	intensità	NOUN	S	Gender=Fem	6	obl	_	_
+14	terribile	terribile	ADJ	A	Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	aspettativa	aspettativa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

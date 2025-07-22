@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Oh! Dio!
+1	--Oh	--oh	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	3	punct	_	_
+3	Dio	dio	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Di tutti i miei dolori, quello è stato il più crudele, esclamò la vecchia.
+1	Di	di	ADP	E	_	5	case	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	crudele	crudele	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	esclamò	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vecchia	vecchio	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Da quel giorno che Michele me l'aveva detto, non potei più levarmelo dalla mente che se ne andava.
+1	Da	da	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+5	Michele	Michele	PROPN	SP	_	9	nsubj	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+7	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	potei	poteo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	levarmelo	levarmelo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mente	mente	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	_
+21	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = Più la vedevo rossa, e più pensavo:
+1	Più	più	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vedevo	vedevo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = «Ecco; ha la febbre che la brucia di dentro».
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ecco	ecco	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	brucia	brucia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	dentro	dentro	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

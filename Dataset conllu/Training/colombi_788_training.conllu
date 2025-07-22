@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Se ne vedono pochi!
+1	--Se	--Se	ADV	B	_	3	advmod	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = esclamò il dottor Valeri.
+1	esclamò	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	Valeri	Valeri	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E non sai che il fabbricante ne manda migliaia e migliaia di questo stessissimo modello per tutto il mondo?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fabbricante	fabbricante	NOUN	S	Number=Sing	8	nsubj	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	manda	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	stessissimo	stesso	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	15	amod	_	_
+15	modello	modello	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	per	per	ADP	E	_	19	case	_	_
+17	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	19	det:predet	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Già, sono copiati, e male, da un paio d'alari del museo di Cluny, che ricordo benissimo, e che vidi anche incisi in un libro del Lacroix.
+1	Già	già	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	copiati	copiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	male	male	ADV	B	_	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	paio	paio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	alari	alare	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	museo	museo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Cluny	Cluny	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+21	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+22	benissimo	bene	ADV	B	Degree=Abs	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	vidi	videre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+27	anche	anche	ADV	B	_	28	advmod	_	_
+28	incisi	incidere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	xcomp	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	libro	libro	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Lacroix	Lacroix	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Figurarsi che gusto, avere un oggetto che conoscevo a memoria prima di possederlo, e che forse m'accadrà d'incontrare domani in dieci case d'amici.
+1-2	Figurarsi	_	_	_	_	_	_	_	_
+1	Figurar	Figurare	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	che	che	DET	DQ	PronType=Int	4	det	_	_
+4	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	avere	avere	VERB	V	VerbForm=Inf	1	conj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+10	conoscevo	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	prima	prima	ADV	B	_	15	mark	_	_
+14	di	di	ADP	E	_	13	fixed	_	_
+15-16	possederlo	_	_	_	_	_	_	_	SpaceAfter=No
+15	posseder	possedere	VERB	V	VerbForm=Inf	10	advcl	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	22	punct	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	forse	forse	ADV	B	_	22	advmod	_	_
+21	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	iobj	_	SpaceAfter=No
+22	accadrà	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+23	d'	di	ADP	E	_	24	mark	_	SpaceAfter=No
+24	incontrare	incontrare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	domani	domani	ADV	B	_	24	advmod	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	dieci	dieci	NUM	N	NumType=Card	28	nummod	_	_
+28	case	casa	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+29	d'	di	ADP	E	_	30	case	_	SpaceAfter=No
+30	amici	amico	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Metteva conto di spender cento lire per questo!
+1	Metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	conto	conto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	spender	spender	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	cento	cento	NUM	N	NumType=Card	6	nummod	_	_
+6	lire	lira	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Da qualche anno si va adottando nelle famiglie un'usanza che si chiama _I desideri_.
+1	Da	da	ADP	E	_	3	case	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	adottando	adottare	ADV	B	_	5	advmod	_	_
+7-8	nelle	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	usanza	usanza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	_I	_I	PROPN	SP	_	14	xcomp	_	_
+16	desideri_	desideri-	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Quando s'avvicinano le feste, — Natale e Capo d'anno, — ogni individuo della famiglia scrive sopra un foglietto i suoi desideri.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+3	avvicinano	avvicinare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	feste	feste	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	—	—	PUNCT	FF	_	5	punct	_	_
+8	Natale	Natale	PROPN	SP	_	5	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Capo	Capo	PROPN	SP	_	8	conj	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	—	—	PUNCT	FF	_	3	punct	_	_
+15	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	individuo	individuo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	sopra	sopra	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	foglietto	foglietto	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	desideri	desidere	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 3
+# text = Grandi e piccoli, modesti ed arditi, li enumera tutti;
+1	Grandi	Grande	PROPN	SP	_	10	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	modesti	modesto	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	arditi	ardito	ADJ	A	Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+10	enumera	enumerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 4
+# text = non si sa mai cosa possa accadere!
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mai	mai	ADV	B	_	7	advmod	_	_
+5	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	7	nsubj	_	_
+6	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	accadere	accadere	VERB	V	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = La borsa dei vecchi parenti è inesauribile come il loro affetto;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	parenti	parente	NOUN	S	Number=Plur	2	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	inesauribile	inesauribile	ADJ	A	Number=Sing	0	root	_	_
+9	come	come	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 6
+# text = e la provvidenza divina è infinita.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	provvidenza	provvidenza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	divina	divino	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	infinita	infinire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

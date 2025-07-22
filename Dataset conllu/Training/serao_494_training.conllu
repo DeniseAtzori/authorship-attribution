@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Suo padre è un giornalista, sua madre una maestra di lingue straniere.
+1	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giornalista	giornalista	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	madre	madre	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	straniere	straniero	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il bimbo ha otto anni, ma pare che ne abbia dodici per le strane cose che sa, per le singolari risposte che dà.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	otto	otto	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	dodici	dodici	NUM	N	NumType=Card	11	obj	_	_
+13	per	per	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	strane	strano	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	per	per	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	singolari	singolare	ADJ	A	Number=Plur	23	amod	_	_
+23	risposte	risposta	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Egli è già stato a Venezia, a Firenze, a Napoli, non gli resta più nessuna impressione di paesaggio per la sua gioventù:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Venezia	Venezia	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Firenze	Firenze	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Napoli	Napoli	PROPN	SP	_	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+16	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	più	più	ADV	B	_	16	advmod	_	_
+18	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	paesaggio	paesaggio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	per	per	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	gioventù	gioventù	NOUN	S	Gender=Fem	16	obl	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 4
+# text = egli si stringe nelle spalle quando gli nominano il Vesuvio o la gondola.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	stringe	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	quando	quando	SCONJ	CS	_	9	mark	_	_
+8	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	nominano	nominare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Vesuvio	Vesuvio	PROPN	SP	_	9	nsubj	_	_
+12	o	o	CCONJ	CC	_	14	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	gondola	gondola	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

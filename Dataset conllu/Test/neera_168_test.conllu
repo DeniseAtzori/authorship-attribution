@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Qualche idea se non assolutamente simile certo molto vicina, era già stata scambiata fra noi in occasione della mia visita alla Querciaia.
+1	Qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	assolutamente	assolutamente	ADV	B	_	6	advmod	_	_
+6	simile	simile	ADJ	A	Number=Sing	14	nsubj:pass	_	_
+7	certo	certo	ADV	B	_	9	advmod	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:pass	_	_
+12	già	già	ADV	B	_	14	advmod	_	_
+13	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	scambiata	scambiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+15	fra	fra	ADP	E	_	16	case	_	_
+16	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	visita	visita	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Querciaia	Querciaio	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ero stata io a parlarne per la prima, ed Egli aveva allora guardate le mie mani e gli era sembrato forse che somigliassero a quelle della sua bisavola....
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	parlarne	_	_	_	_	_	_	_	_
+5	parlar	parlare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ed	e	CCONJ	CC	_	15	cc	_	_
+12	Egli	Egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+14	allora	allora	ADV	B	_	15	advmod	_	_
+15	guardate	guardare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	conj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	mani	mano	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	iobj	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	sembrato	sembrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	forse	forse	ADV	B	_	22	advmod	_	_
+24	che	che	SCONJ	CS	_	25	mark	_	_
+25	somigliassero	somigliare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	ccomp	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	25	obl	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	bisavola...	bisavola...	NOUN	S	_	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,132 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Andare alla fabbrica rappresenta ai loro occhi la compagnia, la solidarietà, l’indipendenza — a ore fisse è vero — ma sicura e senza controllo.
+1	Andare	andare	VERB	V	VerbForm=Inf	5	csubj	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fabbrica	fabbrica	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	solidarietà	solidarietà	NOUN	S	Gender=Fem	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	indipendenza	indipendenza	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+18	—	—	PUNCT	FF	_	17	punct	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	ore	ora	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+21	fisse	fisso	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	vero	vero	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+24	—	—	PUNCT	FF	_	26	punct	_	_
+25	ma	ma	CCONJ	CC	_	26	cc	_	_
+26	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	senza	senza	ADP	E	_	29	case	_	_
+29	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Hanno ragione?
+1	Hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Hanno torto?
+1	Hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	torto	torgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ...
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Un domestico del duca di Choiseul che fu ministro sotto Luigi XV rifiutò la promozione che il suo padrone gli offriva di passare da valletto d’anticamera e guardaportone perchè — diceva lui — stando negli appartamenti aveva occasione di vedere trenta volte al giorno il duca e la duchessa e giù, alla porta, non avrebbero fatto altro che passare di tanto in tanto.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	domestico	domestico	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	duca	duca	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Choiseul	Choiseul	PROPN	SP	_	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	5	acl:relcl	_	_
+11	sotto	sotto	ADP	E	_	12	case	_	_
+12	Luigi	Luigi	PROPN	SP	_	10	nmod	_	_
+13	XV	XV	PROPN	SP	_	12	flat:name	_	_
+14	rifiutò	rifiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	promozione	promozione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	che	che	SCONJ	CS	_	22	mark	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+21	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	iobj	_	_
+22	offriva	offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	passare	passare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	valletto	valletto	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+27	d’	di	ADP	E	_	28	case	_	SpaceAfter=No
+28	anticamera	anticamera	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	guardaportone	guardaportorre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+31	perchè	perché	SCONJ	CS	_	33	mark	_	_
+32	—	—	PUNCT	FF	_	33	punct	_	_
+33	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	advcl	_	_
+34	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+35	—	—	PUNCT	FF	_	33	punct	_	_
+36	stando	stare	VERB	V	VerbForm=Ger	33	advcl	_	_
+37-38	negli	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	appartamenti	appartamento	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	_
+40	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	63	parataxis	_	_
+41	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	40	obj	_	_
+42	di	di	ADP	E	_	43	mark	_	_
+43	vedere	vedere	VERB	V	VerbForm=Inf	41	acl	_	_
+44	trenta	trenta	NUM	N	NumType=Card	45	nummod	_	_
+45	volte	volta	NOUN	S	Gender=Fem|Number=Plur	43	obl	_	_
+46-47	al	_	_	_	_	_	_	_	_
+46	a	a	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	duca	duca	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+51	e	e	CCONJ	CC	_	53	cc	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	duchessa	duchessa	NOUN	S	Gender=Fem|Number=Sing	50	conj	_	_
+54	e	e	CCONJ	CC	_	55	cc	_	_
+55	giù	giù	ADV	B	_	50	conj	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	40	punct	_	_
+57-58	alla	_	_	_	_	_	_	_	_
+57	a	a	ADP	E	_	59	case	_	_
+58	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	porta	porta	NOUN	S	Gender=Fem|Number=Sing	40	obl	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	40	punct	_	_
+61	non	non	ADV	BN	PronType=Neg	63	advmod	_	_
+62	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	63	aux	_	_
+63	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	xcomp	_	_
+64	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	63	obj	_	_
+65	che	che	SCONJ	CS	_	66	mark	_	_
+66	passare	passare	VERB	V	VerbForm=Inf	63	ccomp	_	_
+67	di	di	ADP	E	_	68	case	_	_
+68	tanto	tanto	ADV	B	_	66	advmod	_	_
+69	in	in	ADP	E	_	70	case	_	_
+70	tanto	tanto	ADV	B	_	66	advmod	_	SpaceAfter=No
+71	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

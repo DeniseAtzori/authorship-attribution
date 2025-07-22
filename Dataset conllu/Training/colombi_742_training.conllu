@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E ne ebbe infatti di quegli allori che, sebbene senza radici e destinati ad appassire presto, giovano sempre ad un artista.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	infatti	infatti	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	allori	allore	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	19	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	sebbene	sebbene	CCONJ	CC	_	12	cc	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	radici	radice	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	destinati	destinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+15	ad	a	ADP	E	_	16	mark	_	_
+16	appassire	appassire	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	presto	presto	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	giovano	giovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+20	sempre	sempre	ADV	B	_	19	advmod	_	_
+21	ad	a	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	artista	artista	NOUN	S	Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma quanto ad offrirli alla «sua fanciulla» non ci pensò affatto.
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2	quanto	quanto	ADV	B	_	4	advmod	_	_
+3	ad	a	ADP	E	_	4	mark	_	_
+4-5	offrirli	_	_	_	_	_	_	_	_
+4	offrir	offrire	VERB	V	VerbForm=Inf	14	advcl	_	_
+5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	10	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	«	«	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	»	»	PUNCT	FB	_	4	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	affatto	affatto	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = La Maddalena cominciò dallo scrivere lettere piene di fiducia e d'amore, e dal parlare con tutti del suo fidanzato, del suo sposo, coll'idea di dare all'assente una prova di fedeltà.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Maddalena	Maddalena	PROPN	SP	_	3	nsubj	_	_
+3	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	dallo	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	scrivere	scrivere	VERB	V	VerbForm=Inf	3	obl	_	_
+7	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+8	piene	pieno	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	parlare	parlare	VERB	V	VerbForm=Inf	7	conj	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	sposo	sposo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	18	punct	_	_
+31	coll'	collo	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	idea	idea	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34	dare	dare	VERB	V	VerbForm=Inf	32	acl	_	_
+35-36	all'	_	_	_	_	_	_	_	SpaceAfter=No
+35	a	a	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	assente	assente	ADJ	A	Number=Sing	34	obl	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	prova	prova	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	fedeltà	fedeltà	NOUN	S	Gender=Fem	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

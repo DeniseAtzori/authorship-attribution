@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E poi fuggire e non vederla mai più.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	fuggire	fuggire	VERB	V	VerbForm=Inf	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6-7	vederla	_	_	_	_	_	_	_	_
+6	veder	vedere	VERB	V	VerbForm=Inf	3	conj	_	_
+7	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	mai	mai	ADV	B	_	6	advmod	_	_
+9	più	più	ADV	B	_	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Vedevo chiaro il mio dovere.
+1	Vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	chiaro	chiaro	ADV	B	_	1	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Vedevo la viltà dell'azione che commettevo tacendo.
+1	Vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	viltà	viltà	NOUN	S	Gender=Fem	1	obj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	azione	azione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	commettevo	commettere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	tacendo	tacere	VERB	V	VerbForm=Ger	6	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ma avevo il delirio della passione.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	passione	passione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E non la disingannai:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	disingannai	disingannaio	NOUN	S	_	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = e rimasi.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	rimasi	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = E lasciai che il nostro amore aumentasse ogni giorno.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	lasciai	lasciare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	aumentasse	aumentare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Lasciai che la sua anima si esaltasse in questa passione fino a non poter più vivere senza di me.
+1	Lasciai	Lasciai	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	anima	anima	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	esaltasse	esaltarre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	passione	passione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	fino	fino	ADV	B	_	16	mark	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	poter	potere	AUX	VM	VerbForm=Inf	16	aux	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	vivere	vivere	VERB	V	VerbForm=Inf	7	advcl	_	_
+17	senza	senza	ADP	E	_	19	case	_	_
+18	di	di	ADP	E	_	17	fixed	_	_
+19	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Venne il termine dell'anno scolastico;
+1	Venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	termine	termine	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	scolastico	scolastico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = tutti gli altri esami andarono così così, tanto da passar la classe.
+1	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	altri	altro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	esami	esame	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	andarono	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	così	così	ADV	B	_	5	advmod	_	_
+7	così	così	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	tanto	tanto	ADV	B	_	11	advmod	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	passar	passare	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	classe	classe	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ma quando Vincenzo si trovò alle prese colla traduzione latina si sentì perduto.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	quando	quando	SCONJ	CS	_	5	mark	_	_
+3	Vincenzo	Vincenzo	PROPN	SP	_	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	prese	presa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	obl	_	_
+9	colla	collare	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	latina	latino	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+14	perduto	perduto	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Vide svanire la sua veste da prete, si vide con vergogna ridivenuto un semplice fanciullo come gli altri, in pantaloni e giubba, senza la menoma speranza di piviale e mitra d'oro.
+1	Vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	svanire	svanire	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	veste	veste	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	prete	prete	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	ridivenuto	ridivenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	semplice	semplice	ADJ	A	Number=Sing	16	amod	_	_
+16	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	pantaloni	pantalone	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	giubba	giubba	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	10	punct	_	_
+26	senza	senza	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	menoma	menomo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	29	amod	_	_
+29	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	piviale	piviale	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	mitra	mitra	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	_
+34	d'	di	ADP	E	_	35	case	_	SpaceAfter=No
+35	oro	oro	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

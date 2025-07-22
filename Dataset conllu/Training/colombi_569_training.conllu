@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La Teresa lo ascoltava stupefatta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Teresa	Teresa	PROPN	SP	_	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	ascoltava	ascoltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	stupefatta	stupefatta	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = «Sì; era crudele.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	5	discourse	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	crudele	crudele	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Povere bestie!
+1	Povere	povero	VERB	V	VerbForm=Inf	0	root	_	_
+2	bestie	bestia	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Farle vivacchiare a quel modo prive d'aria e di luce, toglier loro la libertà di starnazzare, e d'appollaiarsi, condannarle a non gustar mai le delizie del greppo, contrariare tutti gli istinti della loro natura!
+1-2	Farle	_	_	_	_	_	_	_	_
+1	Far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+2	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	vivacchiare	vivacchiare	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	prive	privo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	aria	aria	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	luce	luce	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	toglier	togliere	VERB	V	VerbForm=Inf	7	conj	_	_
+15	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	14	iobj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	libertà	libertà	NOUN	S	Gender=Fem	14	obj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	starnazzare	starnazzare	VERB	V	VerbForm=Inf	17	acl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	d'	da	ADP	E	_	23	mark	_	SpaceAfter=No
+23-24	appollaiarsi	_	_	_	_	_	_	_	SpaceAfter=No
+23	appollaiar	appollaiare	VERB	V	VerbForm=Inf	19	conj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26-27	condannarle	_	_	_	_	_	_	_	_
+26	condannar	condannare	VERB	V	VerbForm=Inf	7	conj	_	_
+27	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	a	a	ADP	E	_	30	mark	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	gustar	gustare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+31	mai	mai	ADV	B	_	30	advmod	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	delizie	delizia	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	greppo	greppo	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	contrariare	contrariare	VERB	V	VerbForm=Inf	1	conj	_	_
+39	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	41	det:predet	_	_
+40	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	istinti	istinto	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+42-43	della	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	45	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	loro	loro	DET	AP	Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	natura	natura	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+46	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = e perchè?
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	perchè	perché	ADV	B	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Per il vantaggio di pochi signori che al loro _greppo_ troveranno un bocconcino più saporito....
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	signori	signore	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	_greppo_	_greppo-	PUNCT	FB	_	12	punct	_	_
+12	troveranno	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	bocconcino	bocconcino	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	saporito...	saporito.	PUNCT	FS	_	12	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Povere bestie! Povere bestie!»
+1	Povere	povero	VERB	V	VerbForm=Inf	0	root	_	_
+2	bestie	bestia	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	4	punct	_	_
+4	Povere	povere	VERB	V	VerbForm=Inf	2	acl	_	_
+5	bestie	bestio	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	1	punct	_	SpacesAfter=\n
+

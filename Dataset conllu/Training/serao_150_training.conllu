@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anche Carmela sparì, con un passo rapido, portando la canestra vuota della biancheria sul fianco.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	Carmela	Carmela	PROPN	SP	_	0	root	_	_
+3	sparì	sparì	INTJ	I	Polarity=Pos	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	passo	passo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	rapido	rapido	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	portando	portare	VERB	V	VerbForm=Ger	7	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	canestra	canestra	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	biancheria	biancheria	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Già il tramonto discendeva sul mare e sulla strada, ma Ciccillo non era comparso, non compariva.
+1	Già	già	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tramonto	tramonto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	discendeva	discendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mare	mare	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	strada	strada	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	ma	ma	CCONJ	CC	_	17	cc	_	_
+14	Ciccillo	Ciccillo	PROPN	SP	_	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	comparso	comparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	compariva	comparivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Gesualda era tornata, col suo passo di oca grassa, col suo pugno pieno di soldi:
+1	Gesualda	Gesualdo	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	col	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	passo	passo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	oca	oca	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	grassa	grasso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13-14	col	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	pugno	pugno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+17	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = e si era portata con sé Fortuna, in casa, per cucinare un po' di pranzo.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	Fortuna	fortuna	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	cucinare	cucinare	VERB	V	VerbForm=Inf	4	advcl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	po'	poco	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = La piccolina venne a cercare quattro soldi a Vicenzella, per sua matrigna.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	piccolina	piccolina	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	cercare	cercare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	quattro	quattro	NUM	N	NumType=Card	7	nummod	_	_
+7	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Vicenzella	Vicenzella	PROPN	SP	_	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	matrigna	matrigna	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

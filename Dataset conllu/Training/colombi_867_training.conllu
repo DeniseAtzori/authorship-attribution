@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ripensò quell'immenso passaggio di soldati francesi che aveva veduti nel 59.
+1	Ripensò	Ripensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+3	immenso	immenso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	francesi	francese	ADJ	A	Number=Plur	6	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	veduti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	59	59	NUM	N	NumType=Card	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Suo padre, con una coccarda tricolore sul cappello, lo aveva condotto a Vercelli, dove, in piedi sopra un tavolino da caffè, aveva veduto per ore ed ore sfilare soldati e baionette, ed aveva udito gridare:
+1	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	coccarda	coccardo	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+7	tricolore	tricolore	ADJ	A	Number=Sing	6	amod	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+13	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	condotto	condurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Vercelli	Vercelli	PROPN	SP	_	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	dove	dove	ADV	B	_	29	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+22	sopra	sopra	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	caffè	caffè	NOUN	S	Gender=Masc	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	21	punct	_	_
+28	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+30	per	per	ADP	E	_	31	case	_	_
+31	ore	ora	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+32	ed	e	CCONJ	CC	_	34	cc	_	_
+33	ore	ora	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	_
+34	sfilare	sfilare	VERB	V	VerbForm=Inf	29	conj	_	_
+35	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	baionette	baionetta	NOUN	S	Gender=Fem|Number=Plur	35	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	41	punct	_	_
+39	ed	e	CCONJ	CC	_	41	cc	_	_
+40	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+41	udito	udire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+42	gridare	gridare	VERB	V	VerbForm=Inf	41	xcomp	_	SpaceAfter=No
+43	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 3
+# text = «Viva l'Italia!
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Viva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Italia	Italia	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Viva l'Italia!» Anche lui aveva gridato colla sua esile vocina da fanciullo, ed i soldati si erano messi a ridere, dicendo:
+1	Viva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Italia	Italia	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	1	punct	_	_
+6	Anche	anche	ADV	B	_	7	advmod	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	gridato	gridare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	_
+10	colla	colla	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+12	esile	esile	ADJ	A	Number=Sing	13	amod	_	_
+13	vocina	vocina	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	22	punct	_	_
+17	ed	e	CCONJ	CC	_	22	cc	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	conj	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	ridere	ridere	VERB	V	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	dicendo	dire	VERB	V	VerbForm=Ger	24	advcl	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = «_Le petit prêtre_».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	_Le	_Le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	petit	petit	NOUN	S	_	0	root	_	_
+4	prêtre_	ExtraSubj=Yes|prêtre_	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

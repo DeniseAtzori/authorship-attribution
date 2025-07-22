@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Sentite.
+1	--Sentite	--Sentita	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Voi sapete che io ho un carattere sentimentale e un temperamento amoroso.
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	sentimentale	sentimentale	ADJ	A	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	temperamento	temperamento	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+12	amoroso	amoroso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = L'amore, così, è stato il grande affare della mia vita.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	così	così	ADV	B	_	10	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	grande	grande	ADJ	A	Number=Sing	10	amod	_	_
+10	affare	affare	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Io ho amato varie volte e con entusiasmo, con profondità.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	varie	vario	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	profondità	profondità	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Le donne che ebbero tutto me stesso, mi meritavano, non mi meritavano, erano, sovra tutto, degne di tanto amore, io non lo so!
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	ebbero	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+7	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	meritavano	meritare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	meritavano	meritare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	sovra	sovrare	ADP	E	_	19	case	_	_
+19	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	degne	degno	ADJ	A	Gender=Fem|Number=Plur	10	xcomp	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	24	det	_	_
+24	amore	amore	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	10	punct	_	_
+26	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+29	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+30	!	!	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = So che mi detti ad esse e all'amore, con trasporto.
+1	So	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	detti	dire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5	ad	a	ADP	E	_	6	case	_	_
+6	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	amore	amore	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Quel vecchio avrà esauriti i suoi.
+1	--Quel	--Quello	NOUN	S	Gender=Masc	3	nsubj	_	_
+2	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	esauriti	esaurire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	nsubj:pass	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Noi abbiamo goduti dei giorni di felicità?
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	goduti	godere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	felicità	felicità	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Li sconteremo più tardi colle ricordanze e coi confronti.
+1	Li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+2	sconteremo	scontare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	tardi	tardi	ADV	B	_	2	advmod	_	_
+5-6	colle	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	ricordanze	ricordanza	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	coi	_	_	_	_	_	_	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = L'ha detto anche Dante che la ricordanza dei giorni felici è il maggiore dei dolori.
+1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	Dante	Dante	PROPN	SP	_	3	nsubj	_	_
+6	che	che	SCONJ	CS	_	15	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ricordanza	ricordanza	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	felici	felice	ADJ	A	Number=Plur	11	amod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	maggiore	maggiore	NOUN	S	Gender=Masc|Number=Sing	3	ccomp	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = È un fatto che la somma della felicità è uguale per ogni vita umana.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	11	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	somma	somma	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	felicità	felicità	NOUN	S	Gender=Fem	6	nmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	uguale	uguale	ADJ	A	Number=Sing	3	ccomp	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	umana	umano	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

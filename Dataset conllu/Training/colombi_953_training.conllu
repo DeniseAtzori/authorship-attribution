@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Intanto il vecchio parroco sentiva il peso di quei due anni di più, ed aveva rinunciato alla sua carica, che, dopo la Pasqua, doveva essere occupata da Vicenzino.
+1	Intanto	intanto	ADV	B	_	5	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	parroco	parroco	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	peso	peso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	più	più	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ed	e	CCONJ	CC	_	17	cc	_	_
+16	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	rinunciato	rinunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	carica	carica	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	31	nsubj:pass	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	dopo	dopo	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Pasqua	Pasqua	PROPN	SP	_	31	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+30	essere	essere	AUX	VA	VerbForm=Inf	31	aux:pass	_	_
+31	occupata	occupare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+32	da	da	ADP	E	_	33	case	_	_
+33	Vicenzino	Vicenzino	PROPN	SP	_	31	obl:agent	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mancava poco più d'un mese all'avverarsi del melanconico sogno, lungamente vagheggiato, di trasportare il vecchio zio e la cugina nella casa parrocchiale, e di stabilirvisi in famiglia, pel calmo ed uniforme avvenire che li aspettava.
+1	Mancava	Mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	poco	poco	ADV	B	_	3	advmod	_	_
+3	più	più	ADV	B	_	6	advmod	_	_
+4	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9-10	avverarsi	_	_	_	_	_	_	_	_
+9	avverar	avverare	VERB	V	VerbForm=Inf	1	obl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	melanconico	melanconico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	lungamente	lungo	ADV	B	_	17	advmod	_	_
+17	vagheggiato	vagheggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	trasportare	trasportare	VERB	V	VerbForm=Inf	9	advcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	zio	zio	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	cugina	cugina	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+27-28	nella	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	casa	casa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+30	parrocchiale	parrocchiale	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	stabilirvisi	stabilirviso	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	9	punct	_	_
+38-39	pel	_	_	_	_	_	_	_	_
+38	per	per	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	calmo	calmo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+41	ed	e	CCONJ	CC	_	42	cc	_	_
+42	uniforme	uniforma	NOUN	S	Gender=Fem|Number=Plur	40	conj	_	_
+43	avvenire	avvenire	ADJ	A	Gender=Fem|Number=Plur	42	amod	_	_
+44	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+45	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	obj	_	_
+46	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	acl:relcl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

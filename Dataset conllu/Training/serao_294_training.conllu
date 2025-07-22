@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli non si levò dal divano dove si era buttato, che udendo battere mezzanotte a una chiesa poco lontana, con suono cristallino.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	levò	levare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	divano	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+8	dove	dove	ADV	B	_	11	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	buttato	buttare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	udendo	udire	VERB	V	VerbForm=Ger	11	advcl	_	_
+15	battere	battere	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+16	mezzanotte	mezzanotte	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20	poco	poco	ADV	B	_	21	advmod	_	_
+21	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	suono	suono	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	cristallino	cristallino	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = La candela era quasi consumata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	candela	candelare	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+4	quasi	quasi	ADV	B	_	5	advmod	_	_
+5	consumata	consumare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Maria non era venuta.
+1	Maria	Maria	PROPN	SP	_	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Freddamente si rammentò tutto quello che era accaduto, fra loro, nel passato, come se ne vedesse la rappresentazione in uno specchio:
+1	Freddamente	Freddamente	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	rammentò	rammentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	fra	fra	ADP	E	_	11	case	_	_
+11	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	passato	passato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	come	come	ADV	B	_	20	advmod	_	_
+18	se	se	SCONJ	CS	_	20	mark	_	_
+19	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+20	vedesse	vedere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	rappresentazione	rappresentazione	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = egli si guardò attorno, freddamente, trovando sopratutto quell'amore e quella donna riflessi e viventi e pur finiti, dapertutto.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	attorno	attorno	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	freddamente	freddo	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	trovando	trovare	VERB	V	VerbForm=Ger	3	advcl	_	_
+9	sopratutto	sopratutto	ADV	B	_	8	advmod	_	_
+10	quell'	quello	DET	DD	Number=Sing|PronType=Dem	11	det	_	SpaceAfter=No
+11	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	donna	donna	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+15	riflessi	riflesso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	viventi	vivente	ADJ	A	Number=Plur	15	conj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	pur	pure	ADV	B	_	20	advmod	_	_
+20	finiti	finire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	dapertutto	dapertutto	ADV	B	_	20	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

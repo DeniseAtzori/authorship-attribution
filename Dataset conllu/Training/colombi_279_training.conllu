@@ -1,0 +1,169 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — No;
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = per amor del cielo, ch'io non mi metta altri delitti sulla coscienza.
+1	per	per	ADP	E	_	2	case	_	_
+2	amor	amore	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	ch'	perché	SCONJ	CS	_	11	mark	_	SpaceAfter=No
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	metta	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	altri	altro	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	delitti	delitto	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Era un anno che ambivo quel tesoro e non osavo portarci la mano per paura che mi scoprissero.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	ambivo	ambire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	tesoro	tesoro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	osavo	osare	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11-12	portarci	_	_	_	_	_	_	_	_
+11	portar	portare	VERB	V	VerbForm=Inf	3	conj	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mano	mano	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	paura	paura	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	scoprissero	scoprire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Il primo sospettato sarei stato io.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	sospettato	sospettato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Quando vidi quei due idioti, ed udii la loro stupida storia del morto, pensai di profittare della loro intrusione nel cimitero per farli credere colpevoli del furto.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	vidi	videre	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+3	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	idioti	idiota	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ed	e	CCONJ	CC	_	8	cc	_	_
+8	udii	udii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	stupida	stupida	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	storia	storia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	morto	morto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	pensai	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	profittare	profittare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	intrusione	intrusione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28-29	farli	_	_	_	_	_	_	_	_
+28	far	fare	VERB	V	VerbForm=Inf	19	advcl	_	_
+29	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	obj	_	_
+30	credere	credere	VERB	V	VerbForm=Inf	28	ccomp	_	_
+31	colpevoli	colpevole	ADJ	A	Number=Plur	30	xcomp	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	furto	furto	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 6
+# text = Mi premunii degli strumenti;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	premunii	premunio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = ero coraggioso e forte e non credevo che i morti parlassero;
+1	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	forte	forte	ADJ	A	Number=Sing	2	conj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	credevo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	morti	morto	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+11	parlassero	parlasdere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = non credevo in Dio;
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credevo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Dio	dio	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 9
+# text = non credevo nell'altra vita;
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credevo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	in	in	ADP	E	_	6	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	altra	altro	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = li avevo sempre visti così insensibili e muti i cadaveri degli uomini....
+1	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+2	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	così	così	ADV	B	_	6	advmod	_	_
+6	insensibili	insensibile	ADJ	A	Number=Plur	4	xcomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	muti	mere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	cadaveri	cadavere	NOUN	S	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	uomini...	uomini...	NOUN	S	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

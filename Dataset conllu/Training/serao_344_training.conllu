@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quanto vi odio, per quello che siete, per quello che rappresentate!
+1	Quanto	quanto	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	expl	_	_
+3	odio	odiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	siete	siere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+13	rappresentate	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = I miei occhi sono neri e anche se l'amore m'ispira tutta la sua tenerezza, io non posso dominarne il fiero lampo:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	neri	nero	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	12	cc	_	_
+7	anche	anche	ADV	B	_	12	advmod	_	_
+8	se	se	SCONJ	CS	_	12	mark	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	SpaceAfter=No
+12	ispira	ispirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	16	det:predet	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	dominarne	dominarno	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	fiero	fiero	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	lampo	lampo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = i vostri occhi sono azzurri, con un'espressione d'infantile candore.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	azzurri	azzurro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+11	infantile	infantile	ADJ	A	Number=Sing	12	amod	_	_
+12	candore	candore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = I miei capelli sono neri e si torcono in masse brune:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	neri	nero	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	torcono	torcere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	masse	massa	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+11	brune	brune	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = i vostri biondi capelli vi mettono un'aureola dolcissima alla fronte e alle tempie.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+2	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	biondi	biondo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	aureola	aureola	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	dolcissima	dolce	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fronte	fronte	NOUN	S	Number=Sing	6	obl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	tempie	tempia	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

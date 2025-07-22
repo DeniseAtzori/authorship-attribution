@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Enrico Tazzoli, il martire di Belfiore, ebbe dalla madre il cuore ardente e coraggioso come quasi tutti — mirabile accordo femminile — gli eroi del nostro risorgimento.
+1	Enrico	Enrico	PROPN	SP	_	9	nsubj	_	_
+2	Tazzoli	Tazzoli	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	martire	martire	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Belfiore	Belfiore	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	madre	madre	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+15	ardente	ardente	ADJ	A	Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	_
+18	come	come	ADP	E	_	20	case	_	_
+19	quasi	quasi	ADV	B	_	20	advmod	_	_
+20	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	obl	_	_
+21	—	—	PUNCT	FF	_	14	punct	_	_
+22	mirabile	mirabile	ADJ	A	Number=Sing	23	amod	_	_
+23	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+24	femminile	femminile	ADJ	A	Number=Sing	23	amod	_	_
+25	—	—	PUNCT	FF	_	23	punct	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	risorgimento	risorgimento	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = E come non pensare alla scontrosa malata anima di Leopardi senza ricordare con istintivo movimento di ricerca quella donna così poco donna che fu la contessa Leopardi nata marchesa Antici?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	come	come	ADV	B	_	4	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	scontrosa	scontroso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	malata	malata	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	anima	animo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Leopardi	Leopardi	PROPN	SP	_	8	nmod	_	_
+12	senza	senza	ADP	E	_	13	mark	_	_
+13	ricordare	ricordare	VERB	V	VerbForm=Inf	4	advcl	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	istintivo	istintivo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	donna	donna	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+21	così	così	ADV	B	_	23	advmod	_	_
+22	poco	poco	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	23	det	_	_
+23	donna	donna	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	contessa	contessa	NOUN	S	Gender=Fem|Number=Sing	23	acl:relcl	_	_
+28	Leopardi	Leopardi	PROPN	SP	_	27	nmod	_	_
+29	nata	nascere	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	marchesa	marchesa	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	Antici	Antici	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+32	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = In qual modo si sarebbe svolto con un’altra madre il genio dell’autore di Ginestra?
+1	In	in	ADP	E	_	3	case	_	_
+2	qual	equale	DET	DQ	Number=Sing|PronType=Int	3	det	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+5	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	svolto	svolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	altra	altro	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	madre	madre	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	genio	genio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+13-14	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	autore	autore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Ginestra	Ginestra	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ...
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

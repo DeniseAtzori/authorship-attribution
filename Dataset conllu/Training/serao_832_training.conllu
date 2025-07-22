@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una novella impensata trasformazione si faceva in lei:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	novella	novella	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	impensata	impensare	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = ella si sentiva fatta di umana argilla, si sentiva donna, si sentiva felice di quella libertà conquistata a prezzo di tante lacrime, assaporava con lentezza raffinata la sua parte di felicità terrena.
+1	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	umana	umano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	argilla	argilla	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+11	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+15	felice	felice	ADJ	A	Number=Sing	14	xcomp	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	libertà	libertà	NOUN	S	Gender=Fem	15	obl	_	_
+19	conquistata	conquistare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+24	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	assaporava	assaporare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	lentezza	lentezza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29	raffinata	raffinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	parte	parte	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	felicità	felicità	NOUN	S	Gender=Fem	32	nmod	_	_
+35	terrena	terreno	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ferrante, con lo sguardo profondo dell'amore, le leggeva nell'anima;
+1	Ferrante	Ferrante	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+6	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	12	obj	_	_
+12	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13-14	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	anima	anima	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 4
+# text = uno strano sorriso di conquista gli vagava sulle labbra; ed ella che vedeva questo sorriso di conquista, non se ne offendeva, no, anzi ne pareva singolarmente orgogliosa.
+1	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	strano	strano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	conquista	conquista	NOUN	S	Number=Sing	3	nmod	_	_
+6	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+7	vagava	vagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8-9	sulle	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	13	punct	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	conquista	conquista	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+22	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl:impers	_	_
+23	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	24	iobj	_	_
+24	offendeva	offendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	no	no	INTJ	I	Polarity=Neg	24	obj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	anzi	anzi	ADV	B	_	30	advmod	_	_
+29	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	30	iobj	_	_
+30	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	_
+31	singolarmente	singolarmente	ADV	B	_	32	advmod	_	_
+32	orgogliosa	orgoglioso	ADJ	A	Gender=Fem|Number=Sing	30	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La moda è sempre semplice per i bimbi e per le bimbe.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	moda	moda	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	semplice	semplice	ADJ	A	Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	bimbi	bimbio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	bimbe	bimba	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Quei corpi piccini sono così puri di linee o così graziosamente grassotti, che non hanno bisogno di tutte le balze, di tutte le pieghe, di tutte le arricciature di cui abbiamo bisogno — o fingiamo di avere — noi altre donne.
+1	Quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	corpi	corpo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	piccini	piccino	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	così	così	ADV	B	_	6	advmod	_	_
+6	puri	puro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	linee	linea	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+9	o	o	CCONJ	CC	_	12	cc	_	_
+10	così	così	ADV	B	_	12	advmod	_	_
+11	graziosamente	grazioso	ADV	B	_	12	advmod	_	_
+12	grassotti	grassotto	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+17	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	21	det:predet	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	balze	balze	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	26	det:predet	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	pieghe	piega	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	31	punct	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	31	det:predet	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	arricciature	arricciatura	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	cui	cui	PRON	PR	PronType=Rel	34	obl	_	_
+34	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+35	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+36	—	—	PUNCT	FF	_	8	punct	_	_
+37	o	o	CCONJ	CC	_	38	cc	_	_
+38	fingiamo	fingare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+39	di	di	ADP	E	_	40	mark	_	_
+40	avere	avere	VERB	V	VerbForm=Inf	38	xcomp	_	_
+41	—	—	PUNCT	FF	_	44	punct	_	_
+42	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	44	nsubj	_	_
+43	altre	altro	ADJ	A	Gender=Fem|Number=Plur	44	amod	_	_
+44	donne	donna	NOUN	S	Gender=Fem|Number=Plur	38	obj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

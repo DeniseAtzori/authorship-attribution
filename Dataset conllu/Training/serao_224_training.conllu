@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il povero cane prese il calcio in una spalla e guaì dolorosamente:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	povero	povero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	cane	cane	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	spalla	spalla	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	guaì	guaì	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	dolorosamente	doloroso	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = ma sempre guardando Julian Sorel, lo seguì ancora.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	sempre	sempre	ADV	B	_	3	advmod	_	_
+3	guardando	guardare	VERB	V	VerbForm=Ger	8	advcl	_	_
+4	Julian	Julian	PROPN	SP	_	3	obj	_	_
+5	Sorel	Sorel	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	seguì	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	ancora	ancora	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Quello si fermò, turbato assai.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	fermò	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	turbato	turbare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+6	assai	assai	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Perchè lo seguiva, quel cane, così ostinatamente, anche dopo essere stato battuto?
+1	Perchè	perché	ADV	B	_	3	advmod	_	_
+2	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	seguiva	seguiva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	cane	cane	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	ostinatamente	ostinatamente	ADV	B	_	15	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	anche	anche	ADV	B	_	15	advmod	_	_
+12	dopo	dopo	SCONJ	CS	_	15	mark	_	_
+13	essere	essere	AUX	VA	VerbForm=Inf	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Perchè lo guardava con quegli occhi che parevano umani, tanto esprimevano la pietà e il dolore?
+1	Perchè	perché	ADV	B	_	3	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	parevano	parere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+9	umani	umani	ADJ	A	Gender=Masc|Number=Plur	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	tanto	tanto	ADV	B	_	12	advmod	_	_
+12	esprimevano	esprimere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	pietà	pietà	NOUN	S	Gender=Fem	12	nsubj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

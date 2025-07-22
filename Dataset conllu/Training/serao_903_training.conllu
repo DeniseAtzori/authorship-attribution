@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Vi rammentate, Clara, che vi ho voluto bene così teneramente e che non me ne avete voluto mai?
+1	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+2	-Vi	-Vi	ADV	B	_	3	advmod	_	_
+3	rammentate	rammentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Clara	Clara	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+8	vi	vi	ADV	B	_	10	advmod	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11	bene	bene	ADV	B	_	10	advmod	_	_
+12	così	così	ADV	B	_	10	advmod	_	_
+13	teneramente	tenero	ADV	B	_	10	advmod	_	_
+14	e	e	CCONJ	CC	_	20	cc	_	_
+15	che	che	SCONJ	CS	_	20	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+17	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	expl	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+19	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+21	mai	mai	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Vi ricordate che avete lasciato che io vi amassi, incoraggiandomi talvolta, talvolta avvilendomi, facendomi passare dalla gioia alla disperazione, in un giorno, e non volendomi bene mai, mai, nè prima, nè dopo, nè mai?
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	ricordate	ricordare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	9	iobj	_	_
+9	amassi	amare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11-12	incoraggiandomi	_	_	_	_	_	_	_	_
+11	incoraggiando	incoraggiare	VERB	V	VerbForm=Ger	2	advcl	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+13	talvolta	talvolta	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	talvolta	talvolta	ADV	B	_	16	advmod	_	_
+16-17	avvilendomi	_	_	_	_	_	_	_	SpaceAfter=No
+16	avvilendo	avvilere	VERB	V	VerbForm=Ger	11	advcl	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19-20	facendomi	_	_	_	_	_	_	_	_
+19	facendo	fare	VERB	V	VerbForm=Ger	11	advcl	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
+21	passare	passare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+22-23	dalla	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	alla	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	21	punct	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+35-36	volendomi	_	_	_	_	_	_	_	_
+35	volendo	volere	VERB	V	VerbForm=Ger	19	advcl	_	_
+36	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	35	obj	_	_
+37	bene	bene	ADV	B	_	35	advmod	_	_
+38	mai	mai	ADV	B	_	35	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	35	punct	_	_
+40	mai	mai	ADV	B	_	35	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	43	punct	_	_
+42	nè	nè	CCONJ	CC	_	43	cc	_	_
+43	prima	prima	ADV	B	_	35	advmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	nè	nè	CCONJ	CC	_	46	cc	_	_
+46	dopo	dopo	ADV	B	_	43	advmod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	49	punct	_	_
+48	nè	nè	CCONJ	CC	_	49	cc	_	_
+49	mai	mai	ADV	B	_	46	conj	_	SpaceAfter=No
+50	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = È vero, o no?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	no	no	ADV	BN	PronType=Neg	2	conj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La mia situazione diveniva intollerabile;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	diveniva	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	intollerabile	intollerabile	ADJ	A	Number=Sing	4	xcomp	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = i miei petali ammolliti dall'aria pesante, mi si erano ripiegati sull'occhio;
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	petali	petale	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+4	ammolliti	ammollire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	aria	aria	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	pesante	pesante	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	ripiegati	ripiegare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+14	su	su	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 3
+# text = ero ricaduta nell'oscurità;
+1	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	ricaduta	ricadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	in	in	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	oscurità	oscurità	NOUN	S	Gender=Fem	2	obl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = il mio stelo si indeboliva sempre.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	stelo	stelo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	indeboliva	indebolire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	sempre	sempre	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Floscia, ricurva, sfiorando già col capo la terra aspettavo ad ogni minuto la morte;
+1	Floscia	floscia	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ricurva	ricurvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sfiorando	sfiorare	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	già	già	ADV	B	_	5	advmod	_	_
+7-8	col	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	capo	capo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	terra	terra	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+12	aspettavo	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+13	ad	a	ADP	E	_	15	case	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	morte	morte	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = quando ad un tratto udii uno scricchiolìo, poi il rumore di qualche cosa che si spezza.
+1	quando	quando	SCONJ	CS	_	7	mark	_	_
+2	ad	a	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	udii	udii	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	scricchiolìo	scricchiolìo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	poi	poi	ADV	B	_	11	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	spezza	spezzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

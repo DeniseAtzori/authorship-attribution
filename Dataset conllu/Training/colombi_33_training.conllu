@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Un grido generale, disperato, s'alzò da tutti i petti;
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	grido	grido	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	generale	generale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
+9	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	13	det:predet	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	petti	petto	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = tutti gli sguardi, tutte le braccia si tesero verso di me:
+1	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	braccia	braccia	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	tesero	tedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	verso	verso	ADP	E	_	12	case	_	_
+11	di	di	ADP	E	_	10	fixed	_	_
+12	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = esclamazioni d'orrore, di spavento, di rimprovero, di minaccia, si incrociarono; tutti parlavano, tutti gesticolavano senza intendersi, mentre il professore più frenetico di tutti, picchiava disperatamente i pugni sulla tavola urlando:
+1	esclamazioni	esclamazione	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+2	d'	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	spavento	spavento	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	rimprovero	rimprovero	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	incrociarono	incrociarere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	18	punct	_	_
+17	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	nsubj	_	_
+18	parlavano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	nsubj	_	_
+21	gesticolavano	gesticolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+22	senza	senza	ADP	E	_	23	mark	_	_
+23-24	intendersi	_	_	_	_	_	_	_	SpaceAfter=No
+23	intender	intendere	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	mentre	mentre	SCONJ	CS	_	34	mark	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	professore	professore	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	_
+29	più	più	ADV	B	_	30	advmod	_	_
+30	frenetico	frenetico	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	28	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	28	punct	_	_
+34	picchiava	picchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	_
+35	disperatamente	disperatamente	ADV	B	_	34	advmod	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	_
+38-39	sulla	_	_	_	_	_	_	_	_
+38	su	su	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	tavola	tavola|tavolo	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+41	urlando	urlare	VERB	V	VerbForm=Ger	34	advcl	_	SpaceAfter=No
+42	:	:	PUNCT	FC	_	15	punct	_	SpacesAfter=\n
+

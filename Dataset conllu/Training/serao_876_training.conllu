@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I viali dell'isola erano deserti e il piccolo _tramvai_ andava e veniva, pian piano, vuoto, tanto per fare le sue corse di quel giorno.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	viali	viale	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	isola	isola	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	deserti	deserto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+11	_tramvai_	_tramvai-	PUNCT	FB	_	10	punct	_	_
+12	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	pian	pian	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	piano	piano	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	vuoto	vuoto	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	tanto	tanto	ADV	B	_	23	advmod	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	fare	fare	VERB	V	VerbForm=Inf	14	advcl	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	corse	corsa	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Lo stabilimento aveva tutte le porte dei suoi camerini aperte;
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	stabilimento	stabilimento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	porte	porta	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	camerini	camerino	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	aperte	aperto	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = alcune sbattevano contro le pareti, per il vento forte del mare, le onde schiumavano rabbiose contro i pali, frangendosi.
+1	alcune	alcuno	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	sbattevano	sbattere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	contro	contro	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	pareti	parete	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vento	vento	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+10	forte	forte	ADJ	A	Number=Sing	9	amod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mare	mare	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	onde	onda	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+17	schiumavano	schiumavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+18	rabbiose	rabbiosa	ADJ	A	Gender=Fem|Number=Plur	17	xcomp	_	_
+19	contro	contro	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	pali	palo	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23-24	frangendosi	_	_	_	_	_	_	_	SpaceAfter=No
+23	frangendo	frangire	VERB	V	VerbForm=Ger	17	advcl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

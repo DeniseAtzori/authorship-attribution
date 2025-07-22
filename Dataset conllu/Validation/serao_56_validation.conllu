@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Francesco Sangiorgio, vinto da quella quiete, da quell'aria calda, dalla mollezza della grande poltrona di velluto azzurro cupo, appoggiava la testa a una mano, tenendo sempre sollevato il numero del _Diritto_ o dell'_Opinione_ che stava leggendo.
+1	Francesco	Francesco	PROPN	SP	_	26	nsubj	_	_
+2	Sangiorgio	Sangiorgio	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	obl	_	_
+7	quiete	quieto	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	quell'	quello	DET	DD	Number=Sing|PronType=Dem	11	det	_	SpaceAfter=No
+11	aria	aria	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+12	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mollezza	mollezza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	grande	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	velluto	vellvere	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	azzurro	azzurro	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	cupo	cupo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	appoggiava	appoggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	testa	testa	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	mano	mano	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	26	punct	_	_
+33	tenendo	tenere	VERB	V	VerbForm=Ger	26	advcl	_	_
+34	sempre	sempre	ADV	B	_	33	advmod	_	_
+35	sollevato	sollevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	xcomp	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	numero	numero	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	_Diritto_	_diritto_	PROPN	SP	_	37	nmod	_	_
+41	o	o	CCONJ	CC	_	44	cc	_	_
+42-43	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+42	di	di	ADP	E	_	44	case	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+44	_Opinione_	_opinione_	PROPN	SP	_	40	conj	_	_
+45	che	che	PRON	PR	PronType=Rel	47	nsubj	_	_
+46	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	47	aux	_	_
+47	leggendo	leggere	VERB	V	VerbForm=Ger	44	acl:relcl	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 2
+# text = Un sopore gli scendeva su tutti i nervi, come rilassati in quell'ambiente caldo e silenzioso;
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sopore	sopore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	scendeva	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	nervi	nervo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	come	come	SCONJ	CS	_	11	mark	_	_
+11	rilassati	rilassare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	advcl	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	quell'	quello	DET	DD	Number=Sing|PronType=Dem	14	det	_	SpaceAfter=No
+14	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	silenzioso	silenzioso	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = ma nel sopore, dietro la mano che gli copriva gli occhi, egli ascoltava.
+1	ma	ma	CCONJ	CC	_	16	cc	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sopore	sopore	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	dietro	dietro	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	copriva	coprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	ascoltava	ascoltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

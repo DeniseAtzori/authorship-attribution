@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I suoi avi di Germania gli hanno trasmessa questa eredità del sentimento, molle e rorida, e il sangue bruciante meridionale, col suo effuso ardore non è giunto a inaridirla.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	avi	avo	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Germania	Germania	PROPN	SP	_	3	nmod	_	_
+6	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	trasmessa	trasmettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	eredità	eredità	NOUN	S	Gender=Fem	8	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	molle	molle	ADJ	A	Number=Sing	13	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	rorida	rorido	ADJ	A	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+22	bruciante	bruciante	ADJ	A	Number=Sing	21	amod	_	_
+23	meridionale	meridionale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25-26	col	_	_	_	_	_	_	_	_
+25	con	con	ADP	E	_	29	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+27	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+28	effuso	effuso	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+30	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+31	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34-35	inaridirla	_	_	_	_	_	_	_	SpaceAfter=No
+34	inaridir	inaridire	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+36	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Pure, sino a trentaquattro anni, Paolo Herz ha amato ed è stato amato, senza che l'amore, anche a grandi altezze di temperatura, gli infliggesse le torture che subiscono gli animi deboli:
+1	Pure	pure	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sino	sino	ADV	B	_	6	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	trentaquattro	trentaquattro	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	Paolo	Paolo	PROPN	SP	_	11	nsubj	_	_
+9	Herz	Herz	PROPN	SP	_	8	flat:name	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	ed	e	CCONJ	CC	_	15	cc	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	senza	senza	ADP	E	_	20	case	_	_
+18	che	che	SCONJ	CS	_	17	fixed	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	anche	anche	ADV	B	_	25	advmod	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	grandi	grande	ADJ	A	Number=Plur	25	amod	_	_
+25	altezze	altezza	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	temperatura	temperatura	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	iobj	_	_
+30	infliggesse	infliggere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	torture	tortura	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	subiscono	subire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	animi	animo	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	_
+37	deboli	debole	ADJ	A	Number=Plur	36	amod	_	SpaceAfter=No
+38	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = nessuna tragica lotta interiore lo ha travolto.
+1	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+2	tragica	tragico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	interiore	interiore	ADJ	A	Number=Sing	3	amod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	travolto	travolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Si ricorda la festa da ballo di martedì?
+1	--Si	--Si	PROPN	SP	_	2	nsubj	_	_
+2	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	festa	festa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	ballo	ballo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	martedì	martedì	NOUN	S	Gender=Masc	4	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Io, senza esser punto innamorata di Giorgio, avevo avuto la debolezza di farmi bella per lui.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	senza	senza	ADP	E	_	5	mark	_	_
+4	esser	essere	AUX	VA	VerbForm=Inf	5	cop	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	11	advcl	_	_
+6	innamorata	innamorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Giorgio	Giorgio	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	farmi	arma|farme	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	bella	bello	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Mi pareva che mi amasse come vorrei essere amata io, per una leggerezza di cui mi vergogno, desideravo di sentirmelo dire colla sua voce appassionata.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	amasse	amare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+6	come	come	SCONJ	CS	_	9	mark	_	_
+7	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj:pass	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	leggerezza	leggerezza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	18	obl	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	vergogno	vergogre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	desideravo	desideravo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	xcomp	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	sentirmelo	sentirmelo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	dire	dire	VERB	V	VerbForm=Inf	22	acl	_	_
+24	colla	colla	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+25	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	voce	voce	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	appassionata	appassionato	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Giorgio m'invitò a danzare, e mi fece danzare davvero.
+1	Giorgio	Giorgio	PROPN	SP	_	3	nsubj	_	_
+2	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+3	invitò	invitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	danzare	danzare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	danzare	danzare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11	davvero	davvero	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ma quando mi strinse al suo cuore, e forse la parola d'amore stava per sfuggirgli dal labbro, quell'abbraccio mi lasciò fredda.
+1	Ma	ma	CCONJ	CC	_	27	cc	_	_
+2	quando	quando	SCONJ	CS	_	4	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	strinse	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	advcl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	16	punct	_	_
+10	e	e	CCONJ	CC	_	16	cc	_	_
+11	forse	forse	ADV	B	_	16	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	parola	parola	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	amore	amore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18-19	sfuggirgli	_	_	_	_	_	_	_	_
+18	sfuggir	sfuggire	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	labbro	labbro	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	4	punct	_	_
+24	quell'	quello	DET	DD	Number=Sing|PronType=Dem	25	det	_	SpaceAfter=No
+25	abbraccio	abbraccio	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+26	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+27	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	27	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 6
+# text = Egli lo sentì, e tacque.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	tacque	tacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

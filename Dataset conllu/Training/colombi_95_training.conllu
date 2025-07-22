@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Ma, no, bimba mia.
+1	--Ma	--Ma	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	no	no	INTJ	I	Polarity=Neg	5	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Non far la ritrosa.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ritrosa	ritrosa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Credi che io non abbia capito che tu ci pativi a veder me e la Rosa che ci vogliamo bene?
+1	Credi	credere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	expl	_	_
+10	pativi	pativare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	veder	vedere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Rosa	Rosa	PROPN	SP	_	13	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	expl	_	_
+19	vogliamo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	bene	bene	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ho visto che avevi spesso gli occhi rossi, specialmente dacchè abbiamo delle speranze...
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	avevi	avere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	spesso	spesso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	rossi	rosso	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	specialmente	specialmente	ADV	B	_	12	advmod	_	_
+11	dacchè	dacché	SCONJ	CS	_	12	mark	_	_
+12	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	speranze...	speranze...	NOUN	S	_	12	obl	_	_
+
+# sent_id = 5
+# text = Si sa, una ragazza alla tua età, desidera d'andare a posto anche lei, e la vista della felicità degli altri aumenta la sua impazienza...
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	età	età	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	desidera	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	d'	da	ADP	E	_	13	mark	_	SpaceAfter=No
+13	andare	andare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	posto	posto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	28	punct	_	_
+19	e	e	CCONJ	CC	_	28	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vista	vista	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	felicità	felicità	NOUN	S	Gender=Fem	21	nmod	_	_
+25-26	degli	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	nmod	_	_
+28	aumenta	aumentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	impazienza...	impazienza...	NOUN	S	_	28	obj	_	SpacesAfter=\n
+

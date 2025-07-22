@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Chiamatela pure Elvira; è il nome che io vi davo nei primi tempi, ricordate?
+1	Chiamatela	Chiamatelare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pure	pure	ADV	B	_	3	advmod	_	_
+3	Elvira	Elvira	PROPN	SP	_	1	obj	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	7	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	nome	nome	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	11	expl	_	SpacesAfter=\s\s\s
+11	davo	dare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+12-13	nei	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	15	amod	_	_
+15	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	ricordate	ricordare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	xcomp	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = quando non conoscevo ancora il vostro.
+1	quando	quando	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	conoscevo	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpacesAfter=\s\s\s
+6	vostro	vostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = È un nome che amo e pronunciandolo penserete che io pure l'ho tante volte pronunciato.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	nome	nome	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7-8	pronunciandolo	_	_	_	_	_	_	_	_
+7	pronunciando	pronunciare	VERB	V	VerbForm=Ger	5	conj	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	penserete	penserete	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	pure	pure	ADV	B	_	14	advmod	_	SpacesAfter=\s\s\s
+13	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+14	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+15	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	volte	volta	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+17	pronunciato	pronunciare	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Mi dite che non somiglia all'altra vostra figlia.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	dite	dire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	somiglia	somigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	5	obl	_	SpacesAfter=\s\s\s
+9	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

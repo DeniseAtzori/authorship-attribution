@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gli sarebbe, certo, mancata la voce, per dire nulla:
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+2	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	certo	certo	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	mancata	mancato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	voce	voce	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	dire	dire	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = gli sarebbero, certo, mancate le forze per prostrarsi e adorare.
+1	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	certo	certo	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	mancate	mancare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	forze	forza	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	prostrarsi	_	_	_	_	_	_	_	_
+10	prostrar	prostrare	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	adorare	adorare	VERB	V	VerbForm=Inf	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non avrebbe fatto altro che aprire le braccia e chiudere sul suo petto affannoso e scoppiante pel palpito, la cara piccola persona, deciso a non lasciarla fuggire più, poichè ella era solamente il suo amore e la sua vita.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	aprire	aprire	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	chiudere	chiudere	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	petto	petto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	affannoso	affannoso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	scoppiante	scoppiante	ADJ	A	Number=Sing	15	conj	_	_
+18-19	pel	_	_	_	_	_	_	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	palpito	palpito	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	41	punct	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+23	cara	cara	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+24	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	persona	persona	NOUN	S	Gender=Fem|Number=Sing	41	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	deciso	deciso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+28	a	a	ADP	E	_	30	mark	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30-31	lasciarla	_	_	_	_	_	_	_	_
+30	lasciar	lasciare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+31	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+32	fuggire	fuggire	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	più	più	ADV	B	_	32	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	25	punct	_	_
+35	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+36	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+37	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	cop	_	_
+38	solamente	solamente	ADV	B	_	41	advmod	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	amore	amore	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+42	e	e	CCONJ	CC	_	45	cc	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	vita	vita	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

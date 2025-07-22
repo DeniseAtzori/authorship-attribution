@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marco era un nobile cuore.
+1	Marco	Marco	PROPN	SP	_	5	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nobile	nobile	ADJ	A	Number=Sing	5	amod	_	_
+5	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il suo amore da uomo maturo, un amore profondo senza tempeste, mi riposava delle tempeste passate.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	maturo	maturo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+10	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	tempeste	tempesta	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	riposava	riposare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	tempeste	tempesta	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+19	passate	passato	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Mi sentivo così tranquilla, così rassicurata, dacchè m'appoggiavo a lui, che rinunciavo a pensare, a volere.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	così	così	ADV	B	_	4	advmod	_	_
+4	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	così	così	ADV	B	_	7	advmod	_	_
+7	rassicurata	rassicurare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	dacchè	dacché	CCONJ	CC	_	11	cc	_	_
+10	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	expl	_	SpaceAfter=No
+11	appoggiavo	appoggiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	conj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+16	rinunciavo	rinunciavare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	pensare	pensare	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	volere	volere	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Egli pensava e voleva per me.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Era padre, amico, sposo ad un tempo.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	amico	amico	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	sposo	sposo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+7	ad	a	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

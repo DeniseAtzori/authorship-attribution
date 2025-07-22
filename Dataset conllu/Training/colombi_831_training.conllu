@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dio, se ci ha patito!
+1	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	patito	patito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = E la vostra povera mamma,--io le ho sapute da lei tutte queste cose, che mi voleva bene, e mi diceva tutto per isfogarsi,--non fu più lei dopo quel gran cruccio, e per la pena di veder suo marito umiliato a quel modo;
+1	E	e	CCONJ	CC	_	11	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	povera	povero	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+8	-io	-io	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+9	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	sapute	sapere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	16	det	_	_
+16	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+20	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+21	bene	bene	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+25	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
+26	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obj	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28-29	isfogarsi	_	_	_	_	_	_	_	SpaceAfter=No
+28	isfogar	isfogare	VERB	V	VerbForm=Inf	25	advcl	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+30	,	,	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+31	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+32	-	-	PUNCT	FF	_	36	punct	_	SpaceAfter=No
+33	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+34	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	cop	_	_
+35	più	più	ADV	B	_	36	advmod	_	_
+36	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+37	dopo	dopo	ADP	E	_	40	case	_	_
+38	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	40	det	_	_
+39	gran	grande	ADJ	A	Number=Sing	40	amod	_	_
+40	cruccio	cruccio	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	36	punct	_	_
+42	e	e	CCONJ	CC	_	45	cc	_	_
+43	per	per	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	pena	pena	NOUN	S	Gender=Fem|Number=Sing	36	conj	_	_
+46	di	di	ADP	E	_	47	mark	_	_
+47	veder	vedere	VERB	V	VerbForm=Inf	45	acl	_	_
+48	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	marito	marito	NOUN	S	Gender=Masc|Number=Sing	47	obj	_	_
+50	umiliato	umiliare	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	_
+51	a	a	ADP	E	_	53	case	_	_
+52	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	53	det	_	_
+53	modo	modo	NOUN	S	Gender=Masc|Number=Sing	47	obl	_	SpaceAfter=No
+54	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = si può dire che è stato quello il principio della sua malattia, povera donna, che Dio l'abbia in gloria.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	ccomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	principio	principio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	povera	povero	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+16	donna	donna	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	Dio	Diare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	abbia	abbia	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

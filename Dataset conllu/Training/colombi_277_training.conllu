@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — La verità si è fatta chiara da sè.
+1	—	—	PUNCT	FF	_	6	punct	_	_
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	verità	verità	NOUN	S	Gender=Fem	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	chiara	chiara	ADJ	A	Gender=Fem|Number=Sing	6	xcomp	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	sè	sè	PRON	PE	Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Gli imputati sono ignoranti, fanatici, ma sono innocenti del furto.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	imputati	imputare	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ignoranti	ignorante	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	fanatici	fanatico	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	innocenti	innocente	ADJ	A	Number=Plur	4	conj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	furto	furto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Al principio della seduta, quando il fonografo ripetè il testamento del maniaco Tobie Reed, un uomo mise un grido e cadde in convulsioni atroci laggiù presso la porta.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	principio	principio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	seduta	seduta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	quando	quando	SCONJ	CS	_	11	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fonografo	fonografo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	ripetè	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	testamento	testamento	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	maniaco	maniaco	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	Tobie	Tobie	PROPN	SP	_	16	nmod	_	_
+18	Reed	Reed	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	grido	grido	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	cadde	cadda	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	convulsioni	convulsione	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+29	atroci	atroce	ADJ	A	Number=Plur	28	amod	_	_
+30	laggiù	laggiù	ADV	B	_	33	advmod	_	_
+31	presso	presso	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	porta	porta	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 4
+# text = Dacchè durano i dibattimenti avevo sempre osservato quell'individuo dalla fisonomia volpina.
+1	Dacchè	Dacché	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	iobj	_	_
+2	durano	durare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	dibattimenti	dibattimento	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	osservato	osservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	quell'	quello	DET	DD	Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+9	individuo	individuo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fisonomia	fisonomia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	volpina	volpino	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vuole la donna riescire utile e compiere fino in fondo la sua missione?
+1	Vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	riescire	riescire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	utile	utile	ADJ	A	Number=Sing	4	xcomp	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	compiere	compiere	VERB	V	VerbForm=Inf	5	conj	_	_
+8	fino	fino	ADV	B	_	10	case	_	_
+9	in	in	ADP	E	_	8	fixed	_	_
+10	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	missione	missione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Si alzi e tenda le braccia;
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	alzi	alzare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	tenda	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = nel breve cerchio della sua persona troverà tanto bene da fare, silenziosamente, quanto le trombe di cento Comitati non faranno mai.
+1-2	nel	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	breve	breve	ADJ	A	Number=Sing	4	amod	_	_
+4	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	persona	persona	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	troverà	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	advcl	_	_
+10	tanto	tanto	ADV	B	_	11	advmod	_	_
+11	bene	bene	ADV	B	_	9	advmod	_	_
+12	da	da	ADP	E	_	13	mark	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	silenziosamente	silenzioso	ADV	B	_	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	quanto	quanto	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	trombe	tromba	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	cento	cento	NUM	N	NumType=Card	22	nummod	_	_
+22	Comitati	comitato	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	faranno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+25	mai	mai	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 4
+# text = Ogni donna faccia così, e sarà per tutta la terra come un onda propagata di piccoli cerchi armonici, come una rete di sottile incanto dove si acquieteranno le ire degli uomini.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	così	così	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	11	punct	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	11	det:predet	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	terra	terra	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+12	come	come	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	onda	onda	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+15	propagata	propagato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+18	cerchi	cerchio	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+19	armonici	armonico	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	come	come	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	rete	rete	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	sottile	sottile	ADJ	A	Number=Sing	26	amod	_	_
+26	incanto	incanto	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	dove	dove	ADV	B	_	29	advmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	acquieteranno	acquietare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	26	acl:relcl	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	ire	ira	NOUN	S	Gender=Fem|Number=Plur	29	nsubj	_	_
+32-33	degli	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

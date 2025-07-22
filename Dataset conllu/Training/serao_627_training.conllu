@@ -1,0 +1,149 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gli sembrò di essere diventato una creatura perfetta.
+1	Gli	lo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sembrò	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	5	xcomp	_	_
+8	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Egli solo sapeva amare.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	solo	solo	ADV	B	_	3	advmod	_	_
+3	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	amare	amare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Cacciato via, egli si ostinava ad amare; abbandonato, egli restava costante; schernito, egli era ancora l'umile adoratore; brutalmente vilipeso, egli restava buono, onesto, fedele.
+1	Cacciato	cacciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+2	via	via	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	ostinava	ostinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	ad	a	ADP	E	_	8	mark	_	_
+8	amare	amare	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	8	punct	_	_
+10	abbandonato	abbandonato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+14	costante	costante	ADJ	A	Number=Sing	13	xcomp	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	16	punct	_	_
+16	schernito	schernire	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+20	ancora	ancora	ADV	B	_	19	advmod	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+22	umile	umile	ADJ	A	Number=Sing	23	amod	_	_
+23	adoratore	adoratore	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	29	punct	_	_
+25	brutalmente	brutalmente	ADV	B	_	29	advmod	_	_
+26	vilipeso	vilipeso	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+30	buono	buono	ADJ	A	Gender=Masc|Number=Sing	29	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	onesto	onesto	ADJ	A	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	fedele	fedele	ADJ	A	Number=Sing	30	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Sovra tutto, fedele!
+1	Sovra	Sovro	ADP	E	_	2	case	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	fedele	fedele	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = In alto, in alto era messa Luisa, nel suo spirito e nessuna mano poteva tentare di abbatterne la figura, di toglierle quel unico posto.
+1	In	in	ADP	E	_	2	case	_	_
+2	alto	alto	ADV	B	_	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	alto	alto	ADV	B	_	7	obl	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	Luisa	Luisa	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
+16	mano	mano	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	tentare	tentare	VERB	V	VerbForm=Inf	7	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	abbatterne	_	_	_	_	_	_	_	_
+20	abbatter	abbattere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	figura	figura	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26-27	toglierle	_	_	_	_	_	_	_	_
+26	toglier	togliere	VERB	V	VerbForm=Inf	20	advcl	_	_
+27	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	_
+29	unico	unico	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+30	posto	posto	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Nessuna mano!
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	mano	mano	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = E, superbamente, egli credette che giammai prima, giammai più, nel mondo, una donna era stata amata, potesse essere amata, come Luisa Cima da Paolo Herz.
+1	E	e	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	superbamente	superbamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	credette	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	giammai	giammare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+9	prima	prima	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	giammai	giammare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+12	più	più	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	donna	donna	NOUN	S	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+21	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+25	essere	essere	AUX	VA	VerbForm=Inf	26	aux:pass	_	_
+26	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	come	come	ADP	E	_	29	case	_	_
+29	Luisa	Luisa	PROPN	SP	_	26	obl	_	_
+30	Cima	cima	PROPN	SP	_	29	flat:name	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	Paolo	Paolo	PROPN	SP	_	26	obl:agent	_	_
+33	Herz	Herz	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+

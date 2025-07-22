@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La sua intelligenza e le sue funzioni fisiologiche si esercitano in senso centripeto;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	funzioni	funzione	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+8	fisiologiche	fisiologiche	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	esercitano	esercitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	senso	senso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	centripeto	centripeto	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 2
+# text = in lei nulla è determinato dal mondo esterno;
+1	in	in	ADP	E	_	2	case	_	_
+2	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+3	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	determinato	determinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	esterno	esterno	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = il ragionamento stesso non cede che a considerazioni affatto intime.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ragionamento	ragionamento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	cede	cedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	8	case	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	considerazioni	considerazione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	affatto	affatto	ADV	B	_	10	advmod	_	_
+10	intime	intimo	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ciò che il suo compagno domanda ai contatti della folla, la donna lo aspetta da una specie di divinazione famigliare„.
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	obl	_	_
+2	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	domanda	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	contatti	contatto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	folla	folla	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	donna	donna	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	specie	specie	NOUN	S	Gender=Fem	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	divinazione	divinazione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	famigliare	famigliare	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	„	„	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

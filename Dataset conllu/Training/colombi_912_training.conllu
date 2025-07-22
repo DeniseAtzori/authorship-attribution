@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --C'è un battito lievissimo, irregolare, ma c'è.
+1	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+3	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	battito	battito	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	lievissimo	lieve	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	irregolare	irregolare	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	SpaceAfter=No
+13	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = E subito prendendo il moribondo per le spalle, lo tirò sino alla sponda del letto, e gli abbassò il capo fin quasi in terra, poi si mise a stropicciargli forte tutto il corpo.
+1	E	e	CCONJ	CC	_	11	cc	_	_
+2	subito	subito	ADV	B	_	3	advmod	_	_
+3	prendendo	prendere	VERB	V	VerbForm=Ger	11	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	moribondo	moribondo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	tirò	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	sino	sino	ADV	B	_	15	case	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sponda	sponda	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	letto	letto	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	iobj	_	_
+22	abbassò	abbassare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	capo	capo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	fin	fino	ADP	E	_	28	case	_	_
+26	quasi	quasi	ADV	B	_	28	advmod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	terra	terra	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	poi	poi	ADV	B	_	32	advmod	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34-35	stropicciargli	_	_	_	_	_	_	_	_
+34	stropicciar	stropicciarre	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+36	forte	forte	ADJ	A	Number=Sing	39	amod	_	_
+37	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	39	det:predet	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Dopo alcuni minuti la pelle cominciò ad arrossire un pochino, e le pulsazioni si fecero più distinte.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ad	a	ADP	E	_	8	mark	_	_
+8	arrossire	arrossire	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pochino	pochino	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	16	punct	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	pulsazioni	pulsazione	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	distinte	distinto	ADJ	A	Gender=Fem|Number=Plur	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ma il malato era talmente dissanguato, che non ricuperava i sensi.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	malato	malato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	talmente	talmente	ADV	B	_	6	advmod	_	_
+6	dissanguato	dissanguato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	ricuperava	ricuperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	sensi	senso	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Il rum, l'etere, tutti i cordiali portati sollecitamente dal farmacista, non riescirono a farlo rinvenire.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rum	rum	NOUN	S	Gender=Masc	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	etere	etere	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cordiali	cordiale	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+10	portati	portare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11	sollecitamente	sollecitamente	ADV	B	_	10	advmod	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	farmacista	farmacista	NOUN	S	Number=Sing	10	obl:agent	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	riescirono	riescire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19-20	farlo	_	_	_	_	_	_	_	_
+19	far	fare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	rinvenire	rinvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

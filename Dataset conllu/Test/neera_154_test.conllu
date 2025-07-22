@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una volta restammo soli.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	restammo	restare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	soli	solo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Cadeva il giorno abbreviato da una nebbia umida e densa.
+1	Cadeva	Cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	abbreviato	abbreviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	umida	umido	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	densa	denso	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Non reggendo più a ricamare nella luce incerta della finestra mi alzai per mettere a posto il lavoro e trovandomi accanto al cembalo mi posi a riordinare la musica, così, automaticamente, forse per sfuggire un'intima sensazione di imbarazzo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	reggendo	reggere	VERB	V	VerbForm=Ger	0	root	_	_
+3	più	più	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	ricamare	ricamare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	luce	luce	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	incerta	incerto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+14	alzai	alzare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	mettere	mettere	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	posto	posto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22-23	trovandomi	_	_	_	_	_	_	_	_
+22	trovando	trovare	VERB	V	VerbForm=Ger	16	conj	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	obj	_	_
+24	accanto	accanto	ADV	B	_	27	case	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cembalo	cembalo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+28	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	iobj	_	_
+29	posi	posare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	xcomp	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	riordinare	riordinare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	musica	musica	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	2	punct	_	_
+35	così	così	ADV	B	_	37	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	automaticamente	automaticamente	ADV	B	_	2	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	2	punct	_	_
+39	forse	forse	ADV	B	_	41	advmod	_	_
+40	per	per	ADP	E	_	41	mark	_	_
+41	sfuggire	sfuggire	VERB	V	VerbForm=Inf	2	advcl	_	_
+42	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+43	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	44	amod	_	_
+44	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	imbarazzo	imbarazzo	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Egli aveva certo un progetto nella sua mente perchè mi si avvicinò col volto torbido e chiuso.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	certo	certo	ADV	B	_	2	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	mente	mente	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+10	perchè	perché	SCONJ	CS	_	13	mark	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	avvicinò	avvicinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+14-15	col	_	_	_	_	_	_	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	volto	volto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	torbido	torbido	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	chiuso	chiuso	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

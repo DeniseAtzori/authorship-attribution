@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In collegio mi avevano parlato, è vero, degli eroi greci e romani e in chiesa dei nostri santi martiri;
+1	In	in	ADP	E	_	2	case	_	_
+2	collegio	collegio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+4	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13	greci	greco	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	romani	romano	ADJ	A	Gender=Masc|Number=Plur	13	conj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	santi	santo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+23	martiri	martire	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = avevo anche letto in una Antologia classica gli squarci dei migliori poeti, ma tutta questa gente era così lontana da me che io non la potei mai rivestire di carne e di ossa, nè pensare mai che fossero miei simili.
+1	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Antologia	antologia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	classica	classico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9-10	squarci	_	_	_	_	_	_	_	_
+9	squar	square	VERB	V	VerbForm=Inf	3	xcomp	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	expl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	14	amod	_	_
+14	poeti	poeta	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	22	punct	_	_
+16	ma	ma	CCONJ	CC	_	22	cc	_	_
+17	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	19	det:predet	_	_
+18	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	gente	gente	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+21	così	così	ADV	B	_	22	advmod	_	_
+22	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	14	conj	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	22	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+26	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+29	potei	poteo	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+30	mai	mai	ADV	B	_	29	advmod	_	_
+31	rivestire	rivestire	VERB	V	VerbForm=Inf	29	xcomp	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	carne	carne	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	ossa	ossa	NOUN	S	Gender=Fem|Number=Plur	33	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	39	punct	_	_
+38	nè	né	CCONJ	CC	_	39	cc	_	_
+39	pensare	pensare	VERB	V	VerbForm=Inf	31	conj	_	_
+40	mai	mai	ADV	B	_	39	advmod	_	_
+41	che	che	SCONJ	CS	_	43	mark	_	_
+42	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	43	cop	_	_
+43	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	39	ccomp	_	_
+44	simili	simile	ADJ	A	Number=Plur	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

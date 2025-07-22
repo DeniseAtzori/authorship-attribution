@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mentre Giustino Morelli si concentrava nelle poetiche visioni, in me tutti gli istinti della vita e della giovinezza fremevano, rivoltandosi, contro il dolore.
+1	Mentre	mentre	SCONJ	CS	_	5	mark	_	_
+2	Giustino	Giustino	PROPN	SP	_	5	nsubj	_	_
+3	Morelli	Morelli	PROPN	SP	_	2	flat:name	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	concentrava	concentrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	nelle	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	poetiche	poetico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	visioni	visione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+13	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	istinti	istinto	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vita	vita	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	giovinezza	giovinezza	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+23	fremevano	fremere	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	5	punct	_	_
+25-26	rivoltandosi	_	_	_	_	_	_	_	SpaceAfter=No
+25	rivoltando	rivoltare	VERB	V	VerbForm=Ger	5	advcl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	contro	contro	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = L'amante mio--ma forse egli era l'amante?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amante	amante	NOUN	S	Number=Sing	9	nsubj	_	_
+3	mio-	_	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	-ma	-mo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+5	forse	forse	ADV	B	_	9	advmod	_	_
+6	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	amante	amante	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = --mi guardava come spaventato, e bene spesso io ho visto in lui la mestizia di una immensa delusione.
+1	--mi	--mo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	come	come	SCONJ	CS	_	4	mark	_	_
+4	spaventato	spaventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	11	punct	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	bene	bene	ADV	B	_	11	advmod	_	_
+8	spesso	spesso	ADV	B	_	11	advmod	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mestizia	mestizia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	immensa	immenso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Sentivo, così, vagamente, di decadere nel suo spirito, e mentre ciò mi esasperava, mentre io lo trovava un gelido sognatore, un poeta dell'amore, un ardor di passione mi spingeva a lui potentemente, come alla sola creatura umana degna dell'amor mio.
+1	Sentivo	sentivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	così	così	ADV	B	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	vagamente	vago	ADV	B	_	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	decadere	decadere	VERB	V	VerbForm=Inf	1	conj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	39	punct	_	_
+14	e	e	CCONJ	CC	_	39	cc	_	_
+15	mentre	mentre	SCONJ	CS	_	18	mark	_	_
+16	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	18	nsubj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	esasperava	esasperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	mentre	mentre	SCONJ	CS	_	23	mark	_	_
+21	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+23	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	advcl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	gelido	gelido	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	sognatore	sognatore	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	39	nsubj	_	_
+30-31	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+30	di	di	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	amore	amore	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	ardor	ardor	NOUN	S	Gender=Masc|Number=Sing	39	nsubj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	passione	passione	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+38	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	39	obj	_	_
+39	spingeva	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+40	a	a	ADP	E	_	41	case	_	_
+41	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obl	_	_
+42	potentemente	potentemente	ADV	B	_	39	advmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	39	punct	_	_
+44	come	come	ADP	E	_	48	case	_	_
+45-46	alla	_	_	_	_	_	_	_	_
+45	a	a	ADP	E	_	44	fixed	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+47	sola	solo	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	_
+48	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+49	umana	umano	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	_
+50	degna	degnare	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	48	nmod	_	_
+51-52	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+51	di	di	ADP	E	_	53	case	_	_
+52	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	53	det	_	_
+53	amor	amore	NOUN	S	Gender=Masc	50	nmod	_	_
+54	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	53	det:poss	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	39	punct	_	SpacesAfter=\n
+

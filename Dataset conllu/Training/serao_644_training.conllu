@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lo sapeva egli, forse, se donna Beatrice Somma fosse morta o viva?
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	forse	forse	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	se	se	SCONJ	CS	_	12	mark	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+9	Beatrice	Beatore	PROPN	SP	_	8	nmod	_	_
+10	Somma	somma	PROPN	SP	_	9	flat:name	_	_
+11	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	morta	morto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La sua passione, soddisfatta, era durata assai poco:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	passione	passione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	soddisfatta	soddisfatto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	durata	durare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	assai	assai	ADV	B	_	10	advmod	_	_
+10	poco	poco	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 3
+# text = ella l'aveva veduta finire, con viso calmo in apparenza, ma forse straziata da questo ultimo errore che aveva commesso.
+1	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	veduta	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	finire	finire	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	viso	viso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	calmo	calmo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	apparenza	apparenza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	forse	forse	ADV	B	_	15	advmod	_	_
+15	straziata	straziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+16	da	da	ADP	E	_	19	case	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+18	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
+19	errore	errore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	commesso	commettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Era partita donna Beatrice; sparita.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+4	Beatrice	Beatore	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	6	punct	_	_
+6	sparita	sparire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Morta o viva?
+1	Morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	viva	vivere	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Aveva delirato per lei: per lei aveva desiderato la morte:
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	delirato	delirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	desiderato	desiderare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	morte	morte	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = ma non ne sapeva nulla.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

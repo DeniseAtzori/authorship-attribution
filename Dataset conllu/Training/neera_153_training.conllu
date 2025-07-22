@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I concorsi di bellezza sono stati offerti alla loro precoce vanità;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	concorsi	concorso	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	offerti	offrire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	12	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	precoce	precoce	ADJ	A	Number=Sing	12	amod	_	_
+12	vanità	vanità	NOUN	S	Gender=Fem	7	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = si sono ideate esposizioni per essi e le famiglie non hanno mai fatto tanti sacrifici come ne fanno ora per circondare di rose le picciolette esistenze.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ideate	ideare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	esposizioni	esposizione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nmod	_	_
+7	e	e	CCONJ	CC	_	13	cc	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	mai	mai	ADV	B	_	13	advmod	_	_
+13	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+14	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	sacrifici	sacrificio	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	come	come	ADP	E	_	18	mark	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+18	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+19	ora	ora	ADV	B	_	18	advmod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	circondare	circondare	VERB	V	VerbForm=Inf	18	advcl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	rose	rosa	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	picciolette	piccioletto	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+26	esistenze	esistenza	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma quanti sono compresi dalla riverenza del mistero?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	quanti	quanto	PRON	PQ	Gender=Masc|Number=Plur|PronType=Int	4	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	compresi	comprendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	riverenza	riverenza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = quanti intendono nella culla l’altare?
+1	quanti	quanto	PRON	PQ	Gender=Masc|Number=Plur|PronType=Int	2	nsubj	_	_
+2	intendono	intendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	culla	culla	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	altare	altare	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Quanti nell’amore per il bimbo includono il rispetto alla sua innocenza ed alla sua libertà?
+1	Quanti	quanto	PRON	PQ	Gender=Masc|Number=Plur|PronType=Int	8	nsubj	_	_
+2-3	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	includono	includere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	innocenza	innocenza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	ed	e	CCONJ	CC	_	19	cc	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	libertà	libertà	NOUN	S	Gender=Fem	14	conj	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

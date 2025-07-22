@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma Flavia non si scoraggiò.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	Flavia	Flavia	PROPN	SP	_	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	scoraggiò	scoraggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ogni tanto, quando la tenerezza di Cesare per lei fluiva più larga, ella si faceva tutta buona, tutta pia, per chiedergli di condurle il bambino.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	tanto	tanto	NOUN	S	Gender=Masc	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quando	quando	SCONJ	CS	_	11	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Cesare	Cesare	PROPN	SP	_	6	nmod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+11	fluiva	fluire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	larga	largo	ADJ	A	Gender=Fem|Number=Sing	11	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+18	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	22	det	_	_
+19	buona	buono	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	22	det:poss	_	_
+22	pia	pia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	17	punct	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25-26	chiedergli	_	_	_	_	_	_	_	_
+25	chieder	chiedere	VERB	V	VerbForm=Inf	17	advcl	_	_
+26	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28-29	condurle	_	_	_	_	_	_	_	_
+28	condur	condurre	VERB	V	VerbForm=Inf	25	xcomp	_	_
+29	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Invano egli taceva o cercava di mutar discorso:
+1	Invano	invano	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	taceva	tacevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	mutar	mutare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = Flavia vi ritornava, ostinata nel suo desiderio.
+1	Flavia	Flavia	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	ritornava	ritornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ostinata	ostinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Fino a che Cesare, infastidito che ella non comprendesse l’indelicatezza di questo capriccio, le rispose:
+1	Fino	fino	ADV	B	_	4	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	che	che	DET	DQ	PronType=Int	4	det	_	_
+4	Cesare	Cesare	PROPN	SP	_	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	infastidito	infastidire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	comprendesse	comprendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	indelicatezza	indelicatezza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	capriccio	capriccio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	rispose	rispondere	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	18	punct	_	SpacesAfter=\n
+

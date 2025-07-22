@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Molti scultori e pittori avrebbero voluto averla per modello;
+1	Molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	scultori	scultore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	pittori	pittore	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+5	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
+7-8	averla	_	_	_	_	_	_	_	_
+7	aver	avere	VERB	V	VerbForm=Inf	0	root	_	_
+8	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	modello	modello	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = soltanto il suo decoro non le aveva permesso di prodigare alle arti i tesori della sua bellezza.
+1	soltanto	soltanto	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	decoro	decoro	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	prodigare	prodigare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	arti	arte	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	tesori	tesore	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = E le proposte di matrimonio che aveva avute!
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	proposte	proposta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+8	avute	avere	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Tutte di giovani bellissimi, facoltosissimi, nobili come tanti re.
+1	Tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	giovani	giovane	NOUN	S	Number=Plur	1	nmod	_	_
+4	bellissimi	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	facoltosissimi	facoltoso	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	nobili	nobili	ADJ	A	Number=Plur	3	conj	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	re	re	NOUN	S	Gender=Masc	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Non diceva mai perchè non ne avesse accettata nessuna.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	mai	mai	ADV	B	_	2	advmod	_	_
+4	perchè	perché	SCONJ	CS	_	8	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+7	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	accettata	accettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+9	nessuna	nessuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

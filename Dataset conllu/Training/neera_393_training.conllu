@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ogni primavera, innanzi che il fico mettesse le fronde, il portinaio saliva con una scala a mano a verificare lo stato dei rami;
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	innanzi	innanzi	ADV	B	_	8	mark	_	_
+5	che	che	SCONJ	CS	_	4	fixed	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fico	fico	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	mettesse	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	fronde	fronda	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	portinaio	portinaio	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	saliva	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	scala	scala	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	mano	mano	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	verificare	verificare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	stato	stato	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	rami	ramo	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 2
+# text = poi tendeva dei fili di ferro affinchè la glicine che cadeva abbondantissima dal terrazzo non andasse dispersa;
+1	poi	poi	ADV	B	_	2	advmod	_	_
+2	tendeva	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	fili	filo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	affinchè	affinché	SCONJ	CS	_	18	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	glicine	glicina	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	cadeva	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13	abbondantissima	abbondante	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	12	xcomp	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	terrazzo	terrazzo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	andasse	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+19	dispersa	disperso	ADJ	A	Gender=Masc|Number=Plur	18	xcomp	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = egli la obbligava a vestire il muro nel posto lasciato libero dal fico.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	obbligava	obbligare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	vestire	vestire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	muro	muro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	posto	posto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	libero	libero	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fico	fico	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

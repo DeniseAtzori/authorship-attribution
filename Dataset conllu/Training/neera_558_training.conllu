@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Flavio aveva promesso alle signorine Lamberti di portare il quadro per mostrarlo loro, innanzi di mandarlo alla Esposizione che doveva rivelare al pubblico il suo nome ignoto.
+1	Flavio	Flavio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	signorine	signorina	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	Lamberti	Lamberti	PROPN	SP	_	6	nmod	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	portare	portare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	mostrarlo	_	_	_	_	_	_	_	_
+13	mostrar	mostrare	VERB	V	VerbForm=Inf	9	advcl	_	_
+14	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	innanzi	innanzi	ADP	E	_	19	mark	_	_
+18	di	di	ADP	E	_	17	fixed	_	_
+19-20	mandarlo	_	_	_	_	_	_	_	_
+19	mandar	mandare	VERB	V	VerbForm=Inf	15	advcl	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Esposizione	Esposizione	PROPN	SP	_	19	obl	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	rivelare	rivelare	VERB	V	VerbForm=Inf	23	acl:relcl	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	nome	nome	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+33	ignoto	ignoto	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Compreso di molta dolcezza e di una certa piacevole agitazione, nella quale i ricordi avevano tanta parte, almeno quanto la speranza, si diede a spolverare, a lisciare la tela, allontanandola di qualche passo per giudicarne l'effetto e poi riavvicinandosi precipitosamente per verificare un piccolo punto nero, un errore di ombreggiatura, un granello di sabbia:
+1	Compreso	comprendere	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+4	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	e	e	CCONJ	CC	_	10	cc	_	_
+6	di	di	ADP	E	_	10	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	certa	certo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+9	piacevole	piacevole	ADJ	A	Number=Sing	10	amod	_	_
+10	agitazione	agitazione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	quale	quale	PRON	PR	Number=Sing|PronType=Rel	17	obl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+17	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+18	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	almeno	almeno	ADV	B	_	24	advmod	_	_
+22	quanto	quanto	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	17	punct	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	spolverare	spolverare	VERB	V	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32	lisciare	lisciare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	tela	tela	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	allontanandola	allontanandola	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	39	det	_	_
+39	passo	passo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40	per	per	ADP	E	_	41	mark	_	_
+41-42	giudicarne	_	_	_	_	_	_	_	_
+41	giudicar	giudicare	VERB	V	VerbForm=Inf	39	acl	_	_
+42	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	41	iobj	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+44	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	_
+45	e	e	CCONJ	CC	_	47	cc	_	_
+46	poi	poi	ADV	B	_	47	advmod	_	_
+47-48	riavvicinandosi	_	_	_	_	_	_	_	_
+47	riavvicinando	riavvicinare	VERB	V	VerbForm=Ger	41	conj	_	_
+48	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	47	expl	_	_
+49	precipitosamente	precipitosamente	ADV	B	_	47	advmod	_	_
+50	per	per	ADP	E	_	51	mark	_	_
+51	verificare	verificare	VERB	V	VerbForm=Inf	47	advcl	_	_
+52	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+53	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	54	amod	_	_
+54	punto	punto	NOUN	S	Gender=Masc|Number=Sing	51	obj	_	_
+55	nero	nero	ADJ	A	Gender=Masc|Number=Sing	54	amod	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	54	punct	_	_
+57	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	errore	errore	NOUN	S	Gender=Masc|Number=Sing	51	xcomp	_	_
+59	di	di	ADP	E	_	60	case	_	_
+60	ombreggiatura	ombreggiatura	NOUN	S	Gender=Fem|Number=Sing	58	nmod	_	SpaceAfter=No
+61	,	,	PUNCT	FF	_	63	punct	_	_
+62	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	granello	granello	NOUN	S	Gender=Masc|Number=Sing	58	conj	_	_
+64	di	di	ADP	E	_	65	case	_	_
+65	sabbia	sabbia	NOUN	S	Gender=Fem|Number=Sing	63	nmod	_	SpaceAfter=No
+66	:	:	PUNCT	FC	_	27	punct	_	_
+
+# sent_id = 3
+# text = meno ancora, un sospetto.
+1	meno	meno	ADV	B	_	5	advmod	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

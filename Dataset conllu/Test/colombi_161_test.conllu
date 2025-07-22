@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --«Mi conosco, Fulvia; anche qualche colloquio;
+1	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Fulvia	Fulvia	PROPN	SP	_	5	obj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	5	punct	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = anche l'amarezza d'una partenza e non sarei più padrone di me.
+1	anche	anche	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Se io venissi a Reggio, sareste voi disposta a rompere ogni altro impegno, a vincolarvi con me, ad esser mia, ed a seguirmi a Milano, o a lasciare che io vi segua sempre e dovunque?
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	venissi	veniggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Reggio	Reggio	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	sareste	saresta	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	9	obj	_	_
+8	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	9	nsubj	_	_
+9	disposta	disporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	rompere	rompere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+13	altro	altro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17-18	vincolarvi	_	_	_	_	_	_	_	_
+17	vincolar	vincolare	VERB	V	VerbForm=Inf	11	conj	_	_
+18	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	17	expl	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	ad	a	ADP	E	_	23	mark	_	_
+23	esser	essere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+24	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	expl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	ed	e	CCONJ	CC	_	28	cc	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28-29	seguirmi	_	_	_	_	_	_	_	_
+28	seguir	seguire	VERB	V	VerbForm=Inf	23	conj	_	_
+29	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	obj	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Milano	Milano	PROPN	SP	_	35	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	o	o	CCONJ	CC	_	35	cc	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	lasciare	lasciare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+36	che	che	SCONJ	CS	_	39	mark	_	_
+37	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	39	nsubj	_	_
+38	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	39	expl	_	_
+39	segua	seguire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
+40	sempre	sempre	ADV	B	_	39	advmod	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	dovunque	dovunque	ADV	B	_	39	conj	_	SpaceAfter=No
+43	?	?	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

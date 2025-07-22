@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Voi cascate dalle nuvole.
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	0	root	_	_
+2	cascate	cascare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	dalle	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	2	obl:agent	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Come!
+1	Come	come	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = È questo il vostro lavoro?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Luisa intanto non è il nome della protagonista;
+1	Luisa	Luiso	PROPN	SP	_	6	nsubj	_	_
+2	intanto	intanto	ADV	B	_	1	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nome	nome	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	protagonista	protagonista	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 5
+# text = è quello di una sorella che il critico non nomina neppure e che deve essere il filo d’Arianna di tutto il romanzo.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	critico	critico	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	nomina	nominare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	neppure	neppure	ADV	BN	PronType=Neg	10	advmod	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+14	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	filo	filo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+18	d’	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	Arianna	Arianna	PROPN	SP	_	17	nmod	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	23	det:predet	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Così non si capisce nulla.
+1	Così	così	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	capisce	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = E la grazia dei particolari?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	particolari	particolare	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = E la forza del dialogo?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	forza	forza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = E la vita dei personaggi?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = E l’idealità del concetto informatore?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	idealità	idealità	NOUN	S	Gender=Fem	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	informatore	informatora	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Nulla, nulla, nulla.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	nulla	nulla	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

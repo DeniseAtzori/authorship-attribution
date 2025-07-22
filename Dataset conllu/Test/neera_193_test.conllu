@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nevicava da tre giorni senza interruzione;
+1	Nevicava	Nevicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	senza	senza	ADP	E	_	6	case	_	_
+6	interruzione	interruzione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = un deserto bianco mi separava da ogni essere vivente.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	deserto	deserto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	separava	separavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	da	da	ADP	E	_	9	mark	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+9	vivente	vivente	ADJ	A	Number=Sing	5	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Sapevo da Pietro che le strade erano quasi impraticabili e mi parve una giustificazione sufficiente per mio cugino che non vedevo da due settimane, motivo per cui restai molto sorpresa una mattina, al trovarmelo innanzi.
+1	Sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	Pietro	Pietro	PROPN	SP	_	1	obl	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	strade	strada	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	quasi	quasi	ADV	B	_	9	advmod	_	_
+9	impraticabili	impraticabile	ADJ	A	Number=Plur	1	ccomp	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	giustificazione	giustificazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	sufficiente	sufficiente	ADJ	A	Number=Sing	14	amod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	due	due	NUM	N	NumType=Card	24	nummod	_	_
+24	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	37	nsubj	_	_
+27	per	per	ADP	E	_	28	case	_	_
+28	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+29	restai	restare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	molto	molto	ADV	B	_	31	advmod	_	_
+31	sorpresa	sorpresa	ADJ	A	Gender=Fem|Number=Sing	29	xcomp	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	26	punct	_	_
+35-36	al	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	trovarmelo	trovarmelo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+38	innanzi	innanzi	ADV	B	_	37	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

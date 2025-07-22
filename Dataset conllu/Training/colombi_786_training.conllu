@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il giorno dopo andò egli stesso nel miglior negozio della città, fece metter sossopra ogni cosa, fece una scelta, poi si pentì, poi scelse di nuovo;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	dopo	dopo	ADV	B	_	4	advmod	_	_
+4	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	egli	ello	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	miglior	migliore	ADJ	A	Degree=Cmp|Number=Sing	10	amod	_	_
+10	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	città	città	NOUN	S	Gender=Fem	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+16	metter	mettere	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	sossopra	sossopra	ADP	E	_	19	case	_	_
+18	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	poi	poi	ADV	B	_	27	advmod	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	pentì	pentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	poi	poi	ADV	B	_	30	advmod	_	_
+30	scelse	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+33	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = mutò parere una dozzina di volte, e finì per comprare due buoni alari di ferro nichellato, con _motivi_ di bronzo dorato, che pagò circa un centinaio di lire.
+1	mutò	mutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	parere	parere	VERB	V	VerbForm=Inf	1	csubj	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	dozzina	dozzina	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	volte	volta	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	finì	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	comprare	comprare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	due	due	NUM	N	NumType=Card	14	nummod	_	_
+13	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	alari	alare	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	nichellato	nichellato	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	con	con	ADP	E	_	23	case	_	_
+20	_motivi_	_motivi-	PUNCT	FB	_	23	punct	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	bronzo	bronzo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	dorato	dorato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	pagò	pagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+27	circa	circa	ADV	B	_	26	advmod	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	centinaio	centinaio	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	lire	lira	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Regalò alla cuoca i loro modesti predecessori, che passarono a deliziare la famiglia del quarto piano, e collocò nel caminetto i nuovi alari maestosi e lucenti.
+1	Regalò	regalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cuoca	cuoca	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	modesti	modesto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	predecessori	predecessorio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	passarono	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	deliziare	deliziare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
+19	piano	piano	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	collocò	collocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	caminetto	caminetto	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+28	alari	alare	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+29	maestosi	maestoso	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	lucenti	lucente	ADJ	A	Number=Plur	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

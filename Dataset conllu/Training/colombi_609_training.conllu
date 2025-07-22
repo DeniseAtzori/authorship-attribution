@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dopo quella rivelazione le cose erano mutate per lui.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	rivelazione	rivelazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+6	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	mutate	mutare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Il patrimonio del signor Bellazio non gli apparteneva.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	signor	signore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Bellazio	Bellazio	PROPN	SP	_	5	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	apparteneva	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Egli poteva, per salvare l'onore di sua madre, portarne il nome, ma non voleva appropriarsene il denaro.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	salvare	salvare	VERB	V	VerbForm=Inf	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	onore	onore	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	madre	madre	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12-13	portarne	_	_	_	_	_	_	_	_
+12	portar	portare	VERB	V	VerbForm=Inf	5	conj	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	12	iobj	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	nome	nome	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	ma	ma	CCONJ	CC	_	20	cc	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20-22	appropriarsene	_	_	_	_	_	_	_	_
+20	appropriar	appropriarre	VERB	V	VerbForm=Inf	5	conj	_	_
+21	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Quando aveva domandata la mano della Maria era quasi ricco;
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	domandata	domandare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Maria	Maria	PROPN	SP	_	5	nmod	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	quasi	quasi	ADV	B	_	11	advmod	_	_
+11	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 5
+# text = ora possedeva soltanto il suo impiego e poche migliaia di lire guadagnate nella sua brevissima carriera da ingegnere, e che aveva già spese in parte per addobbare la sua nuova casa.
+1	ora	ora	ADV	B	_	2	advmod	_	_
+2	possedeva	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	soltanto	soltanto	ADV	B	_	6	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	lire	lira	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	guadagnate	guadagnascere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	17	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	brevissima	breve	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	17	amod	_	_
+17	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	ingegnere	ingegnere	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+24	già	già	ADV	B	_	25	advmod	_	_
+25	spese	spendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	parte	parte	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29	addobbare	addobbare	VERB	V	VerbForm=Inf	25	advcl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+32	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	casa	casa	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

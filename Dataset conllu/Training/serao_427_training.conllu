@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella porta quel poetico e soave nome che Leopardi ha amato:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+4	poetico	poetico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	soave	soave	ADJ	A	Number=Sing	4	conj	_	_
+7	nome	nome	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	Leopardi	Leopardi	PROPN	SP	_	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = Nerina.
+1	Nerina	Nerina	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E in tutta la persona di questa fanciulletta alta e sottile è diffuso un mite riflesso di poesia.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	persona	persona	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	fanciulletta	fanciulletta	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	alta	alto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	sottile	sottile	ADJ	A	Number=Sing	9	conj	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mite	mito	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+16	riflesso	riflesso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = La mollezza dei capelli castagni, abbandonata in lunghe anella sulle spalle, lascia libera una fronte larga, bianca e spirituale:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mollezza	mollezza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	castagni	castagno	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	abbandonata	abbandonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	anella	anella	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	sulle	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	lascia	lasciare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	libera	libero	ADJ	A	Gender=Fem|Number=Sing	16	xcomp	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fronte	fronte	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20	larga	largo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	20	conj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	spirituale	spirituale	ADJ	A	Number=Sing	20	conj	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 5
+# text = fronte pensierosa, come i grandi occhi bruni, egiziani;
+1	fronte	fronte	NOUN	S	Number=Sing	0	root	_	_
+2	pensierosa	pensieroso	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	come	come	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	grandi	grande	ADJ	A	Number=Plur	7	amod	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+8	bruni	bruno	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	egiziani	egiziano	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = occhi limpidi e profondi, pieni di calma, a cui un principio di miopia dà, talvolta, una incertezza come di sogno, o una finezza elegante di sguardo.
+1	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	limpidi	limpido	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	profondi	profondo	ADJ	A	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	calma	calma	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	principio	principio	NOUN	S	Gender=Masc|Number=Sing	1	acl:relcl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	miopia	miopio	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	dà	dà	ADV	B	_	19	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	talvolta	talvolta	ADV	B	_	16	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	incertezza	incertezza	NOUN	S	Gender=Fem|Number=Sing	13	appos	_	_
+22	come	come	ADP	E	_	24	case	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	o	o	CCONJ	CC	_	28	cc	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	finezza	finezza	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+29	elegante	elegante	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	28	acl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Te ne ho forse domandati?
+1	—	—	PUNCT	FF	_	6	punct	_	_
+2	Te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	forse	forse	ADV	B	_	6	advmod	_	_
+6	domandati	domandare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = — ribattè con arroganza scotendo le foglioline, per dissipare l'abbattimento che le avevano cagionato quelle memorie.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	ribattè	ribattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	arroganza	arroganza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	scotendo	scotere	VERB	V	VerbForm=Ger	2	advcl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	foglioline	fogliolina	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	dissipare	dissipare	VERB	V	VerbForm=Inf	5	advcl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	abbattimento	abbattimento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+15	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	cagionato	cagionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	memorie	memoria	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = — Io ti racconto la mia storia al momento di finire questa vita.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	racconto	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	finire	finire	VERB	V	VerbForm=Inf	10	acl	_	_
+13	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = È un esame severo che faccio a me stessa;
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	esame	esame	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	severo	severo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+6	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = non cerco nè lodi nè biasimo.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	cerco	cercare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nè	né	CCONJ	CC	_	4	cc	_	_
+4	lodi	lodare	ADJ	A	Number=Plur	2	conj	_	_
+5	nè	nè	CCONJ	CC	_	6	cc	_	_
+6	biasimo	biasimo	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quale mai Calvario aveva egli percorso?
+1	Quale	quale	ADP	E	_	2	case	_	_
+2	mai	mai	ADV	B	_	4	advmod	_	_
+3	Calvario	Calvario	PROPN	SP	_	4	nsubj	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	egli	ello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Quali cadute lo avevano prostrato?
+1	Quali	quale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	cadute	caduta	NOUN	S	Number=Sing	5	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	prostrato	prostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Da quali, da quanti amari calici era sceso il tossico e l’assenzio a violare il fiore delle sue labbra?
+1	Da	da	ADP	E	_	2	case	_	_
+2	quali	quale	PRON	PR	Number=Plur|PronType=Rel	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	6	det	_	_
+6	amari	amare	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+7	calici	calico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	sceso	scendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tossico	tossico	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	assenzio	assenzio	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	violare	violare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Molte cose egli aveva dette, ma le più sottili, le più profonde rimanevano chiuse nel cavo delle sue guancie emaciate, nella piega dolorosa della sua fronte dove raggiava il pallore dei martiri, nell’arco dei suoi occhi dove moriva un sogno di eroi.
+1	Molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	dette	dire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	sottili	sottile	ADJ	A	Number=Plur	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	profonde	profondo	ADJ	A	Gender=Fem|Number=Plur	15	nsubj	_	_
+15	rimanevano	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+16	chiuse	chiuso	ADJ	A	Gender=Fem|Number=Plur	15	xcomp	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	cavo	cavo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	guancie	guancia	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+24	emaciate	emaciato	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+26-27	nella	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	piega	piega	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+29	dolorosa	doloroso	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	fronte	fronte	NOUN	S	Number=Sing	28	nmod	_	_
+34	dove	dove	ADV	B	_	35	advmod	_	_
+35	raggiava	raggiavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	pallore	pallore	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38-39	dei	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	martiri	martire	NOUN	S	Number=Plur	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	35	punct	_	_
+42-43	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+42	in	in	ADP	E	_	44	case	_	_
+43	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+44	arco	arco	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+45-46	dei	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	48	case	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+47	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	44	nmod	_	_
+49	dove	dove	ADV	B	_	50	advmod	_	_
+50	moriva	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	acl:relcl	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	50	obj	_	_
+53	di	di	ADP	E	_	54	case	_	_
+54	eroi	eroe	NOUN	S	Gender=Masc|Number=Plur	52	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

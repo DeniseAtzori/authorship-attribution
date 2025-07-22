@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La sua perversione ha seduzioni latenti, prima, poi palesi, poi sfrontate:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	perversione	perversione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	seduzioni	seduzione	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	latenti	latente	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	prima	prima	ADV	B	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	poi	poi	ADV	B	_	11	advmod	_	_
+11	palesi	palese	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	poi	poi	ADV	B	_	14	advmod	_	_
+14	sfrontate	sfrontare	ADJ	A	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = e infine, ella rimane nel sangue di coloro che l'hanno amata, come una infermità corrompitrice.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	infine	infine	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	infermità	infermità	NOUN	S	Gender=Fem	5	obl	_	_
+19	corrompitrice	corrompitore	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Nell'egual modo come una donna leale, nobile e generosa ha bisogno di vivere continuatamente nell'esercizio di queste virtù, e di questi puri elementi nutrisce con compiacenza l'anima sua, così Luisa Cima chiede, per esser felice, di poter compire gli atti capricciosi e crudeli che le ispirano i suoi istinti di perfidia e di perversione.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	4	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	egual	eeguale	ADJ	A	_	4	amod	_	_
+4	modo	modo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+8	leale	leale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	nobile	nobile	ADJ	A	Number=Sing	8	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	generosa	generoso	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	vivere	vivere	VERB	V	VerbForm=Inf	14	acl	_	_
+17	continuatamente	continuatamente	ADV	B	_	16	advmod	_	_
+18-19	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	in	in	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
+23	virtù	virtù	NOUN	S	Gender=Fem	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	29	punct	_	_
+25	e	e	CCONJ	CC	_	29	cc	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	29	det	_	_
+28	puri	puro	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+29	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+30	nutrisce	nutrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+31	con	con	ADP	E	_	32	case	_	_
+32	compiacenza	compiacenza	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	anima	anima	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+35	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	13	punct	_	_
+37	così	così	ADV	B	_	38	advmod	_	_
+38	Luisa	Luisa	PROPN	SP	_	40	obj	_	_
+39	Cima	cima	PROPN	SP	_	38	flat:name	_	_
+40	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	13	punct	_	_
+42	per	per	ADP	E	_	44	mark	_	_
+43	esser	essere	AUX	V	VerbForm=Inf	44	cop	_	_
+44	felice	felice	ADJ	A	Number=Sing	13	advcl	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	48	punct	_	_
+46	di	di	ADP	E	_	48	mark	_	_
+47	poter	potere	AUX	VM	VerbForm=Inf	48	aux	_	_
+48	compire	compire	VERB	V	VerbForm=Inf	13	conj	_	_
+49	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	atti	atto	NOUN	S	Gender=Masc|Number=Plur	48	obj	_	_
+51	capricciosi	capriccioso	ADJ	A	Gender=Masc|Number=Plur	50	amod	_	_
+52	e	e	CCONJ	CC	_	53	cc	_	_
+53	crudeli	crudele	ADJ	A	Number=Plur	51	conj	_	_
+54	che	che	PRON	PR	PronType=Rel	56	nsubj	_	_
+55	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	56	iobj	_	_
+56	ispirano	ispirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
+57	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
+58	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	59	det:poss	_	_
+59	istinti	istinto	NOUN	S	Gender=Masc|Number=Plur	56	obj	_	_
+60	di	di	ADP	E	_	61	case	_	_
+61	perfidia	perfidia	NOUN	S	Gender=Fem|Number=Sing	59	nmod	_	_
+62	e	e	CCONJ	CC	_	64	cc	_	_
+63	di	di	ADP	E	_	64	case	_	_
+64	perversione	perversione	NOUN	S	Gender=Fem|Number=Sing	61	conj	_	SpaceAfter=No
+65	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

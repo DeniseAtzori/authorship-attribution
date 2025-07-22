@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In casa Dogliani tutto era modesto.
+1	In	in	ADP	E	_	2	case	_	_
+2	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	Dogliani	Dogliani	PROPN	SP	_	2	nmod	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	modesto	modesto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Non c'era salotto, nè studio;
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	salotto	salotto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	nè	nè	CCONJ	CC	_	7	cc	_	_
+7	studio	studio	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = quella stanza da pranzo teneva luogo di tutto;
+1	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = era vasta e ben rischiarata da due porte a vetrate che mettevano nel giardino.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	vasta	vasto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	ben	bene	ADV	B	_	5	advmod	_	_
+5	rischiarata	rischiarare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	porte	porta	NOUN	S	Gender=Fem|Number=Plur	5	obl:agent	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	vetrate	vetrata	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	mettevano	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Presso una di quelle porte, che non si apriva mai, c'era un tavolino da lavoro dove la Caterina, ch'era l'unica serva di casa, sedeva la sera a rammendare il bucato, ed a prepararlo per quella stiratora, la quale andava a giornata una volta ogni settimana.
+1	Presso	presso	ADP	E	_	2	case	_	_
+2	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	14	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	porte	porto	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	apriva	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+11	mai	mai	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	dove	dove	ADV	B	_	31	advmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Caterina	Caterina	PROPN	SP	_	31	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	ch'	perché	SCONJ	CS	_	24	mark	_	SpaceAfter=No
+24	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+26	unica	unico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	serva	serva	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	casa	casa	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	21	punct	_	_
+31	sedeva	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	sera	sera	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	rammendare	rammendare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	bucato	bucato	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	41	punct	_	_
+39	ed	e	CCONJ	CC	_	41	cc	_	_
+40	a	a	ADP	E	_	41	mark	_	_
+41-42	prepararlo	_	_	_	_	_	_	_	_
+41	preparar	preparare	VERB	V	VerbForm=Inf	14	conj	_	_
+42	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	obj	_	_
+43	per	per	ADP	E	_	45	case	_	_
+44	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
+45	stiratora	stiratora	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	45	punct	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	quale	quale	PRON	PR	Number=Sing|PronType=Rel	49	nsubj	_	_
+49	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	acl:relcl	_	_
+50	a	a	ADP	E	_	51	case	_	_
+51	giornata	giornare	NOUN	S	Gender=Fem|Number=Sing	49	obl	_	_
+52	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	volta	volta	NOUN	S	Gender=Fem|Number=Sing	49	obl	_	_
+54	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	55	det	_	_
+55	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	49	obl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

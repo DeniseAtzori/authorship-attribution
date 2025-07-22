@@ -1,0 +1,173 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'ultima verità, la suprema di un uomo, si conosce nell'amore corrisposto, nelle ore estreme della passione:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	verità	verità	NOUN	S	Gender=Fem	12	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	suprema	suprema	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:pass	_	_
+12	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13-14	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	corrisposto	corrisposto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18-19	nelle	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	ore	ora	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+21	estreme	estremo	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	passione	passione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 2
+# text = tutto il resto è, o può essere, bugia.
+1	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	o	o	CCONJ	CC	_	10	cc	_	_
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	bugia	bugio	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Questa fu l'illusione che io mi feci e a cui mi afferrai, dandomi all'amore di Nino Stresa.
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	acl:relcl	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+8	feci	feco	ADJ	A	Number=Plur	6	amod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	afferrai	afferere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15-16	dandomi	_	_	_	_	_	_	_	_
+15	dando	dare	VERB	V	VerbForm=Ger	13	advcl	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Nino	Nino	PROPN	SP	_	19	nmod	_	_
+22	Stresa	Stresa	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = O, forse, volli ingannarmi da me stessa, non resistendo più al mio amore per lui, amore nato dai contrasti, dalla curiosità, dalla debolezza, dall'abbandono di tutte le mie forze morali.
+1	O	o	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	forse	forse	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	volli	vollo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	ingannarmi	arma|ingannarme	ADJ	A	Number=Plur	5	amod	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	resistendo	resistere	VERB	V	VerbForm=Ger	5	advcl	_	_
+13	più	più	ADV	B	_	12	advmod	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	amore	amore	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+22	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23-24	dai	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	contrasti	contrasto	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27-28	dalla	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	curiosità	curiosità	NOUN	S	Gender=Fem	22	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31-32	dalla	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	29	punct	_	_
+35-36	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+35	da	da	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+38	di	di	ADP	E	_	42	case	_	_
+39	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	42	det:predet	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+41	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	forze	forza	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+43	morali	morale	ADJ	A	Number=Plur	42	amod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Decidete voi.
+1	Decidete	Decidere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Forse, non speravo veramente nulla e non ero, forse, che semplicemente innamorata, e vergognandomi di tale caduta, trovavo fisime e creavo illusioni.
+1	Forse	forse	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	speravo	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	veramente	veramente	ADV	B	_	6	advmod	_	_
+6	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	ero	essere	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	forse	forse	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	semplicemente	semplicemente	ADV	B	_	15	advmod	_	_
+15	innamorata	innamorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18-19	vergognandomi	_	_	_	_	_	_	_	_
+18	vergognando	vergognare	VERB	V	VerbForm=Ger	15	conj	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	tale	tale	DET	DD	Number=Sing|PronType=Dem	22	det	_	_
+22	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	15	punct	_	_
+24	trovavo	trovavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	conj	_	_
+25	fisime	fisimo	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	creavo	creavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	conj	_	_
+28	illusioni	illusione	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Voi capirete meglio.
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	capirete	capiere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	meglio	meglio	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Esitai due giorni ancora.
+1	Esitai	Esitai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ma la passione, la speranza, la gioia mi gonfiavano talmente il cuore, che mi pareva dovesse scoppiare.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	passione	passione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	gonfiavano	gonfiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	talmente	talmente	ADV	B	_	14	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+19	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	scoppiare	scoppiare	VERB	V	VerbForm=Inf	18	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Tremavo da un momento all'altro di non sapermi frenare, di saltarle al collo e di coprirla di baci, senz'altro preavviso a costo di farmi scacciare come un malcreato.
+1	Tremavo	Tremare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obl	_	_
+8	di	di	ADP	E	_	10	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	sapermi	sapermo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+11	frenare	frenare	VERB	V	VerbForm=Inf	10	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	saltarle	_	_	_	_	_	_	_	_
+14	saltar	saltare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+15	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	collo	collo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21-22	coprirla	_	_	_	_	_	_	_	_
+21	coprir	coprire	VERB	V	VerbForm=Inf	14	conj	_	_
+22	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	baci	baco	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	senz'	senza	ADP	E	_	28	case	_	SpaceAfter=No
+27	altro	altro	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	preavviso	preavviso	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	costo	costo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+33	scacciare	scacciare	VERB	V	VerbForm=Inf	30	acl	_	_
+34	come	come	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	malcreato	malcreato	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Non potevo più vivere così.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	vivere	vivere	VERB	V	VerbForm=Inf	0	root	_	_
+5	così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Bisognava che ella mi amasse, o che me ne andassi per non vederla mai più.
+1	Bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	amasse	amare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	o	o	CCONJ	CC	_	11	cc	_	_
+8	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+9	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	andassi	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+12	per	per	ADP	E	_	14	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14-15	vederla	_	_	_	_	_	_	_	_
+14	veder	vedere	VERB	V	VerbForm=Inf	11	advcl	_	_
+15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	mai	mai	ADV	B	_	14	advmod	_	_
+17	più	più	ADV	B	_	14	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

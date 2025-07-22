@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Creatura di passione, intelligenza vigile, l’Unica alternava a questi abbandoni della fantasia lucidi istanti di ragionamento.
+1	Creatura	Creatura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	passione	passione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+6	vigile	vigile	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	Unica	unica	PROPN	SP	_	10	nsubj	_	_
+10	alternava	alternare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	abbandoni	abbandone	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	lucidi	lucido	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	istanti	istante	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	ragionamento	ragionamento	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Quando si accorgeva che la sua carne e la sua anima soffrivano insieme di intimi flagelli era pur d’uopo che tendesse la mente alle oscure minaccie del futuro.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	accorgeva	accorgevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	12	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	carne	carne	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	anima	anima	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+12	soffrivano	soffrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+13	insieme	insieme	ADV	B	_	16	case	_	_
+14	di	di	ADP	E	_	13	fixed	_	_
+15	intimi	intimo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	flagelli	flagello	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+17	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+18	pur	pure	ADV	B	_	20	advmod	_	_
+19	d’	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	uopo	uopo	NOUN	S	Gender=Masc|Number=Sing	12	advcl	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	tendesse	tendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	mente	mente	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	alle	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	oscure	oscuro	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+28	minaccie	minaccia	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Per quanto luminoso sia un tramonto, per quanta apoteosi di raggi ne circondi il breve arco sul cielo, ella sapeva che lo segue da vicino la notte;
+1	Per	per	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	0	root	_	_
+3	luminoso	luminoso	ADJ	A	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tramonto	tramonto	NOUN	S	Gender=Masc|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	quanta	quanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	10	det	_	_
+10	apoteosi	apoteoso	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	raggi	raggio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	ne	in	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+14	circondi	circondo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	breve	breve	ADJ	A	Number=Sing	17	amod	_	_
+17	arco	arco	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
+24	che	che	SCONJ	CS	_	26	mark	_	_
+25	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+26	segue	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+27	da	da	ADP	E	_	28	case	_	_
+28	vicino	vicino	ADV	B	_	26	advmod	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	notte	notte	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+31	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = e Ariele era così giovane!
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	Ariele	Ariele	PROPN	SP	_	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	giovane	giovane	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

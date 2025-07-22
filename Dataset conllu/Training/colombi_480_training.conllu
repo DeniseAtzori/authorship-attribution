@@ -1,0 +1,149 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se quelle parole le avesse dette per lei stessa!
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	6	obj	_	_
+5	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	dette	dire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Disporre di lui; trasportarlo nella sua solitudine d'Ameno, nella sua villa, piena di ricordi e dei lavori di lui;
+1	Disporre	disporre	VERB	V	VerbForm=Inf	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	5	punct	_	_
+5-6	trasportarlo	_	_	_	_	_	_	_	_
+5	trasportar	trasportare	VERB	V	VerbForm=Inf	1	conj	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	Ameno	ameno	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	villa	villa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nmod	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = in riva al suo lago, su cui aveva tanto vagato solitaria, pensando al suo povero amore ignorato:
+1	in	in	ADP	E	_	2	case	_	_
+2	riva	riva	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	lago	lago	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	tanto	tanto	ADV	B	_	12	advmod	_	_
+12	vagato	vagato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+13	solitaria	solitario	ADJ	A	Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	pensando	pensare	VERB	V	VerbForm=Ger	2	acl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	20	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+19	povero	povero	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+21	ignorato	ignorato	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = vivere a due una stessa vita, colla stessa passione, la stessa arte, un ingegno gemello!...
+1	vivere	vivere	VERB	V	VerbForm=Inf	0	root	_	_
+2	a	a	ADP	E	_	6	case	_	_
+3	due	due	NUM	N	NumType=Card	6	nummod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	passione	passione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	arte	arte	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ingegno	ingegno	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+18	gemello!...	gemello!.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Povera Odda!
+1	Povera	povero	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Odda	Odda	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Fu un momento crudele.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	crudele	crudele	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Quel sogno svanito si ravvivò ancora una volta al suo pensiero, tanto più splendido quanto più isperato.
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	svanito	svanito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	ravvivò	ravvivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ancora	ancora	ADV	B	_	8	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	tanto	tanto	ADV	B	_	16	advmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	splendido	splendido	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+17	quanto	quanto	ADV	B	_	19	advmod	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	isperato	isperato	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Si sentì infelice, sconfortata, sola, miserabile.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	infelice	infelice	ADJ	A	Number=Sing	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	sconfortata	sconfortato	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	miserabile	miserabile	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

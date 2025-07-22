@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La donna disciolse il cerchio delle sue braccia, mutamente e ricadde sul letto.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	disciolse	disciogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	mutamente	muto	ADV	B	_	3	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	ricadde	ricaddere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	letto	letto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Pian piano, nell'ombra egli ne cercò una mano, che giaceva abbandonata sul letto:
+1	Pian	Pian	ADV	B	_	9	advmod	_	_
+2	piano	piano	ADV	B	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+7	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	cercò	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mano	mano	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	giaceva	giacere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	abbandonata	abbandonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	letto	letto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = la strinse, la trovò fredda.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	strinse	strinso	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Allora cadde in ginocchio, avanti a quel letto, col capo nascosto fra le coltri, singhiozzando senza versare una lacrima, gridando, convulso:
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	cadde	caddere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	ginocchio	ginocchio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	avanti	avanti	ADV	B	_	9	advmod	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	letto	letto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11-12	col	_	_	_	_	_	_	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+14	nascosto	nascosto	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	fra	fra	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	coltri	coltro	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	singhiozzando	singhiozzare	VERB	V	VerbForm=Ger	2	advcl	_	_
+20	senza	senza	ADP	E	_	21	mark	_	_
+21	versare	versare	VERB	V	VerbForm=Inf	19	advcl	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	lacrima	lacrima	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	gridando	gridare	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	convulso	convulso	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

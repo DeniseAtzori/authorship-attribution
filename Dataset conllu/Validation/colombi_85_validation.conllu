@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La tempesta era sedata nel mio cuore.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	sedata	sedare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = --Quel giorno badai tranquillamente ai miei affari, poi andai a far qualche visita, poi al caffè, al teatro, e non tornai più da Fulvia.
+1	--Quel	--Quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	badai	badare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	tranquillamente	tranquillo	ADV	B	_	3	advmod	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	affari	affare	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	poi	poi	ADV	B	_	11	advmod	_	_
+11	andai	andai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	far	fare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	visita	visita	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	poi	poi	ADV	B	_	11	advmod	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	caffè	caffè	NOUN	S	Gender=Masc	11	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	tornai	tornare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	conj	_	_
+29	più	più	ADV	B	_	28	advmod	_	_
+30	da	da	ADP	E	_	31	case	_	_
+31	Fulvia	Fulvia	PROPN	SP	_	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Pensavo a lei con quel sentimento di commiserazione che era nato in me gemello al sospetto sul suo passato.
+1	Pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	commiserazione	commiserazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+14	gemello	gemello	NOUN	S	Gender=Masc|Number=Sing	11	xcomp	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	passato	passato	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Provavo per lei la tenerezza e la pietà che avrei provato per una vedova indiana condannata al rogo.
+1	Provavo	Provavo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pietà	pietà	NOUN	S	Gender=Fem	5	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vedova	vedova	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	indiana	indiano	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	condannata	condannare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	rogo	rogo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = --Non mi pareva di conoscerla nè di esserle legato di più.
+1	--Non	--Non	ADP	E	_	3	mark	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	conoscerla	conoscerla	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	nè	né	CCONJ	CC	_	10	cc	_	_
+7	di	di	ADP	E	_	10	mark	_	_
+8-9	esserle	_	_	_	_	_	_	_	_
+8	esser	essere	AUX	VA	VerbForm=Inf	10	aux	_	_
+9	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	iobj	_	_
+10	legato	legato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	più	più	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

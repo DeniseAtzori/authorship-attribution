@@ -1,0 +1,132 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Vedi?
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Vedi	vedere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = il mio amore era più calmo, più ragionevole; inebbriava meno; ma era più durevole del suo.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	calmo	calmo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	ragionevole	ragionevole	ADJ	A	Number=Sing	6	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	11	punct	_	_
+11	inebbriava	inebbriare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+12	meno	meno	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	11	punct	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	durevole	durevole	ADJ	A	Number=Sing	6	conj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 3
+# text = La bestiuccia verde strisciò sul mio stelo, salì sino ai miei petali;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bestiuccia	bestiuccia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	verde	verde	ADJ	A	Number=Sing	2	amod	_	_
+4	strisciò	strisciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	stelo	stelo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	salì	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	sino	sino	ADV	B	_	15	case	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	petali	petale	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = ma appena passò il vento, io mi agitai con esso e la respinsi, perchè amavo te sola.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	appena	appena	ADV	B	_	3	advmod	_	_
+3	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vento	vento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	expl	_	_
+9	agitai	agitare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	respinsi	respinso	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	perchè	perché	SCONJ	CS	_	17	mark	_	_
+17	amavo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+18	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	19	obj	_	_
+19	sola	solo	ADJ	A	Gender=Fem|Number=Sing	17	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Il tempo e lo spazio si frapposero tra noi, e t'amai ancora.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	frapposero	frappodere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	tra	tra	ADP	E	_	9	case	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	t'	ta	PRON	PI	Number=Sing|PronType=Ind	13	obj	_	SpaceAfter=No
+13	amai	amai	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	ancora	ancora	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Mi dimenticasti per il Garofano, e ti amo sempre.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	dimenticasti	dimenticanere	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Garofano	Garofano	PROPN	SP	_	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+9	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	sempre	sempre	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Vuoi che ti perdoni?
+1	Vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+4	perdoni	perdonare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Dimmi che mi ami e ti perdonerò.
+1	Dimmi	Dimmi	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	ami	amare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+7	perdonerò	perdonerare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = —
+1	—	—	PUNCT	FF	_	0	root	_	SpacesAfter=\n
+

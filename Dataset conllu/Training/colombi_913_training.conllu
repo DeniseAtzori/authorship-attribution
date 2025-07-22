@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma non fu che un cenno, a cui le forze non risposero, e, dalla bocca aperta, non uscì alcuna, voce.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	fu	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	23	mark	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cenno	cenno	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	forze	forza	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	risposero	rispodere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17-18	dalla	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+20	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	6	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	uscì	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+24	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	26	det	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	voce	voce	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Tuttavia la respirazione si era fatta quasi regolare, e, dopo circa mezz'ora di cure energiche, Vincenzo aperse gli occhi e fissando le pupille dilatate sul volto di Vicenzino che gli stava dinnanzi, parve riconoscerlo.
+1	Tuttavia	tuttavia	ADV	B	_	6	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	respirazione	respirazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	quasi	quasi	ADV	B	_	8	advmod	_	_
+8	regolare	regolare	ADJ	A	Number=Sing	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	21	punct	_	_
+10	e	e	CCONJ	CC	_	21	cc	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	21	punct	_	_
+12	dopo	dopo	ADP	E	_	15	case	_	_
+13	circa	circa	ADV	B	_	15	advmod	_	_
+14	mezz'	mezzo	ADP	E	_	15	case	_	SpaceAfter=No
+15	ora	ora	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	cure	cura	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+18	energiche	energico	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	Vincenzo	Vincenzo	PROPN	SP	_	21	nsubj	_	_
+21	aperse	aperso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	fissando	fissare	VERB	V	VerbForm=Ger	21	conj	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	pupille	pupilla	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+28	dilatate	dilatare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+29-30	sul	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	volto	volto	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Vicenzino	Vicenzino	PROPN	SP	_	31	nmod	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	iobj	_	_
+36	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	acl:relcl	_	_
+37	dinnanzi	dinnanzi	ADV	B	_	36	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	39	punct	_	_
+39	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+40-41	riconoscerlo	_	_	_	_	_	_	_	SpaceAfter=No
+40	riconoscer	riconoscere	VERB	V	VerbForm=Inf	39	xcomp	_	_
+41	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+42	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

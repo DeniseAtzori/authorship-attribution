@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per questa giornata io fremeva ed impallidiva da due mesi, lavorando, ridendo, vivendo sotto l'imperio dell'idea fissa.
+1	Per	per	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	fremeva	fremere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	impallidiva	impallidire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	lavorando	lavorare	VERB	V	VerbForm=Ger	5	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	ridendo	ridere	VERB	V	VerbForm=Ger	12	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	vivendo	vivere	VERB	V	VerbForm=Ger	14	advcl	_	_
+17	sotto	sotto	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	imperio	imperio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	idea	idea	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	fissa	fisso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Da due mesi ella palpitava come un uccello morente, nel disordine delle sue lettere; da due mesi, noi mentivamo atrocemente alle persone che ci erano state più care.
+1	Da	da	ADP	E	_	3	case	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	palpitava	palpitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	uccello	uccello	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	morente	morente	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	disordine	disordine	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	21	punct	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	due	due	NUM	N	NumType=Card	21	nummod	_	_
+21	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+24	mentivamo	mentire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	_
+25	atrocemente	atrocemente	ADV	B	_	24	advmod	_	_
+26-27	alle	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	persone	persona	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+29	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+30	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	34	iobj	_	_
+31	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	aux	_	_
+32	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	34	cop	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	care	caro	ADJ	A	Gender=Fem|Number=Plur	28	acl:relcl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ogni azione, ogni pensiero, ogni speranza erano concentrate in quella giornata luminosa e ardente.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	azione	azione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	concentrate	concentrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	luminosa	luminoso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	ardente	ardente	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

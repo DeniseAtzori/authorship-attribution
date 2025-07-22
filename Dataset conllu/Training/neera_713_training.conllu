@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non aveva detto qualche cosa di simile pochi giorni prima Moena?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	simile	simile	ADJ	A	Number=Sing	9	amod	_	_
+8	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	prima	prima	ADV	B	_	11	advmod	_	_
+11	Moena	Moena	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ah! sì, Moena.
+1	Ah	ah	INTJ	I	_	3	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	1	punct	_	_
+3	sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	Moena	Moena	PROPN	SP	_	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Doveva trovarsi a Desenzano, ma non era naturale che avesse dimenticato l’incontro a Desenzano?
+1	Doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2-3	trovarsi	_	_	_	_	_	_	_	_
+2	trovar	trovare	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Desenzano	Desenzano	PROPN	SP	_	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	naturale	naturale	ADJ	A	Number=Sing	2	conj	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Desenzano	Desenzano	PROPN	SP	_	13	obl	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Un giovane doveva avere ben altro per il capo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giovane	giovane	NOUN	S	Number=Sing	4	nsubj	_	_
+3	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+5	ben	bene	ADV	B	_	6	advmod	_	_
+6	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	capo	capo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Meglio così, forse.
+1	Meglio	meglio	ADV	B	_	2	advmod	_	_
+2	così	così	ADV	B	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	forse	forse	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Si riversò tutta sulla spalliera del sedile, allentando il velo del cappello, sola nello scomparto e quindi libera e quasi felice.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	riversò	riversare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	2	obl	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	spalliera	spalliera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sedile	sedile	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	allentando	allentare	VERB	V	VerbForm=Ger	2	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	velo	velo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	sola	solo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+19-20	nello	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	scomparto	scomparto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	quindi	quindi	ADV	B	_	24	advmod	_	_
+24	libera	libero	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	quasi	quasi	ADV	B	_	27	advmod	_	_
+27	felice	felice	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

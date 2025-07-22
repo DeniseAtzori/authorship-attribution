@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Una sola cosa mi tormentava durante quegli otto mesi così belli:
+1	—	—	PUNCT	FF	_	6	punct	_	_
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sola	solo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	tormentava	tormentavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	durante	durante	ADP	E	_	10	case	_	_
+8	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+9	otto	otto	NUM	N	NumType=Card	10	nummod	_	_
+10	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	belli	bello	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = la salute di Clelia.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	salute	salute	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Clelia	Clelia	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non era precisamente inferma, ma era tanto gracile e delicatina, che un nulla la faceva ammalare.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	precisamente	precisamente	ADV	B	_	4	advmod	_	_
+4	inferma	infermo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	tanto	tanto	ADV	B	_	9	advmod	_	_
+9	gracile	gracile	ADJ	A	Number=Sing	4	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	delicatina	delicatino	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	_
+16	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+18	ammalare	ammalare	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Parecchie volte al giorno prendeva un cucchiaio di olio di fegato di merluzzo, ed aveva sempre la tosse.
+1	Parecchie	parecchio	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cucchiaio	cucchiaio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	olio	olio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fegato	fegato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	merluzzo	merluzzo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ed	e	CCONJ	CC	_	17	cc	_	_
+17	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+18	sempre	sempre	ADV	B	_	17	advmod	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	tosse	tosse	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ma io pensavo:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = «Non è più tanto giovine, la tisi è la malattia delle giovinette.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	più	più	ADV	B	_	6	advmod	_	_
+5	tanto	tanto	ADV	B	_	6	advmod	_	_
+6	giovine	giovino	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tisi	tisi	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	6	parataxis	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	giovinette	giovinetta	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = »
+1	»	»	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 8
+# text = E scacciavo le idee tristi guardando la serenità dei suoi begli occhi.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	scacciavo	scacciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	idee	idea	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	tristi	triste	ADJ	A	Number=Plur	4	amod	_	_
+6	guardando	guardare	VERB	V	VerbForm=Ger	2	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	serenità	serenità	NOUN	S	Gender=Fem	6	obj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	begli	bello	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	occhi	occhio	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

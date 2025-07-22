@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Appena egli fu uscito, uscii alla mia volta;
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Appena	appena	SCONJ	CS	_	5	mark	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	uscii	uscio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = andai in piazza Castello, entrai in un _omnibus_ che mi conducesse fin in Borgo Nuovo.
+1	andai	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+4	Castello	castello	PROPN	SP	_	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	entrai	entrare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	_omnibus_	ExtraSubj=Yes|_omnibus_	PUNCT	FB	_	12	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	conducesse	conducere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+13	fin	perfino	ADV	B	_	12	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Borgo	Borgo	PROPN	SP	_	12	obl	_	_
+16	Nuovo	nuovo	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Di là mi recai a piedi in via Vanchiglia da una cameriera che m'aveva servita qualche tempo, poi si era maritata a Torino con un operaio.
+1	Di	di	ADP	E	_	2	case	_	_
+2	là	là	ADV	B	_	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	recai	recare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	via	via	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	Vanchiglia	Vanchiglia	PROPN	SP	_	8	nmod	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cameriera	cameriera	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	SpaceAfter=No
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	servita	servire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	poi	poi	ADV	B	_	23	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	maritata	maritare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Torino	Torino	PROPN	SP	_	23	obl	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	operaio	operaio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La pregai di tenermi in casa sua per alcune settimane senza farne parola a nessuno.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pregai	pregaio	NOUN	S	_	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	tenermi	tenermo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+11	senza	senza	ADP	E	_	12	mark	_	_
+12-13	farne	_	_	_	_	_	_	_	_
+12	far	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	12	iobj	_	_
+14	parola	parola	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E vi rimasi più d'un mese.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	vi	vi	ADV	B	_	3	advmod	_	_
+3	rimasi	rimanere	ADV	B	_	4	advmod	_	_
+4	più	più	ADV	B	_	0	root	_	_
+5	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mese	mese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

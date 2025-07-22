@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Preferiva affittare alle donne.
+1	Preferiva	preferiva	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	affittare	affittare	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	donne	donna	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Vergognosa com'era della sua povertà, viveva affatto da sola, non era neppure desiderata in compagnia di certo, dacchè appunto solitudine e miseria ne avevano fatto un essere lamentevolmente ridicolo.
+1	Vergognosa	Vergognoso	ADJ	A	_	0	root	_	_
+2	com'	come	SCONJ	CS	_	3	mark	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	povertà	povertà	NOUN	S	Gender=Fem	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	parataxis	_	_
+10	affatto	affatto	ADV	B	_	9	advmod	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	sola	solo	ADJ	A	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux:pass	_	_
+16	neppure	neppure	ADV	BN	PronType=Neg	17	advmod	_	_
+17	desiderata	desiderare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	certo	certo	ADV	B	_	19	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	dacchè	dacché	CCONJ	CC	_	25	cc	_	_
+24	appunto	appunto	ADV	B	_	25	advmod	_	_
+25	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+26	e	e	CCONJ	CC	_	30	cc	_	_
+27	miseria	miseria	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+28	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	30	iobj	_	_
+29	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+30	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+32	essere	essere	AUX	V	VerbForm=Inf	34	cop	_	_
+33	lamentevolmente	lamentevolmente	ADV	B	_	34	advmod	_	_
+34	ridicolo	ridicolo	ADJ	A	Gender=Masc|Number=Sing	30	xcomp	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Non vedeva altri che i suoi pigionanti, e su loro faceva pesare tutta la socievolezza del suo carattere, e tutta la sua curiosità di vecchia.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	altri	altro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	che	che	SCONJ	CS	_	12	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	pigionanti	pigionante	NOUN	S	Number=Plur	12	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	12	obl	_	_
+12	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+13	pesare	pesare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	socievolezza	socievolezza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	26	punct	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	26	det:predet	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	curiosità	curiosità	NOUN	S	Gender=Fem	16	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

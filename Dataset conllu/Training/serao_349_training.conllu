@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ho inteso che nulla vi avrebbe divisi giammai e che io dovea morire.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	inteso	intendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	iobj	_	_
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	divisi	dividere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	giammai	giammai	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	dovea	doveare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	morire	morire	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = I miei occhi non vi vedranno per la seconda volta insieme.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	6	obj	_	_
+6	vedranno	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	insieme	insieme	ADV	B	_	6	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Qualcuno di noi tre dovrebbe morire, se rivedessi questo spettacolo atroce: e siccome vi amate e vi amerete sempre, sono io che muoio.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	nmod	_	_
+4	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+5	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	morire	morire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	se	se	SCONJ	CS	_	9	mark	_	_
+9	rivedessi	rivedettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	atroce	atroce	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	6	punct	_	_
+14	e	e	CCONJ	CC	_	24	cc	_	_
+15	siccome	siccome	SCONJ	CS	_	17	mark	_	_
+16	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	17	iobj	_	_
+17	amate	amare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	20	iobj	_	_
+20	amerete	ameere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	conj	_	_
+21	sempre	sempre	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	che	che	DET	DQ	PronType=Int	26	det	_	_
+26	muoio	muoio	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Addio dunque, signora Angelica: io amo Francesco Sangiorgio e odio voi.
+1	Addio	Addio	INTJ	I	_	8	discourse	_	_
+2	dunque	dunque	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	signora	signore	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5	Angelica	Angelica	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Francesco	Francesco	PROPN	SP	_	8	obj	_	_
+10	Sangiorgio	Sangiorgio	PROPN	SP	_	9	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	odio	odio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Il resto è silenzio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	resto	resto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	silenzio	silenzio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Invece il quadro della seconda sala era così mal collocato dietro quell'enorme cornicione d'un quadro di battaglia, che lo adombrava tutto...
+1	Invece	invece	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	sala	sala	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+9	così	così	ADV	B	_	11	advmod	_	_
+10	mal	male	ADV	B	_	11	advmod	_	_
+11	collocato	collocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+12	dietro	dietro	ADP	E	_	15	case	_	_
+13	quell'	quello	DET	DD	Number=Sing|PronType=Dem	15	det	_	SpaceAfter=No
+14	enorme	enorme	ADJ	A	Number=Sing	15	amod	_	_
+15	cornicione	cornicione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	d'	di	ADP	E	_	18	case	_	SpaceAfter=No
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+24	adombrava	adombrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+25	tutto...	tutto.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = E così in alto!
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	così	così	ADV	B	_	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	alto	alto	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ne aveva provato un tal dispetto....
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	tal	tal	DET	DD	Number=Sing|PronType=Dem	6	det	_	_
+6	dispetto...	dispetto.	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Fortuna che lo aveva scelto l'Accademia, e dopo l'Esposizione si potrebbe vederlo collocato meglio.
+1	Fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Accademia	Accademia	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	e	e	CCONJ	CC	_	15	cc	_	_
+10	dopo	dopo	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	Esposizione	Esposizione	PROPN	SP	_	15	obl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+14	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15-16	vederlo	_	_	_	_	_	_	_	_
+15	veder	vedere	VERB	V	VerbForm=Inf	1	conj	_	_
+16	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	collocato	collocare	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	meglio	meglio	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = E quel puttino del terzo quadro nella quinta sala!
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	puttino	puttino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
+11	sala	sala	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Quel puttino lo aveva sempre dinanzi; faceva greppo così bene, che nell'allontanarsi ella si era voltata per vedere se non era ancora scoppiato in pianto....
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	puttino	puttino	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	sempre	sempre	ADV	B	_	8	advmod	_	_
+6	dinanzi	dinanzi	ADP	E	_	8	mark	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	8	punct	_	_
+8	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+9	greppo	greppo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	bene	bene	ADJ	A	_	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16-17	allontanarsi	_	_	_	_	_	_	_	_
+16	allontanar	allontanar	VERB	V	VerbForm=Inf	21	obl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	ella	ellare	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	voltata	voltare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	vedere	vedere	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	se	se	SCONJ	CS	_	28	mark	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux:pass	_	_
+27	ancora	ancora	ADV	B	_	28	advmod	_	_
+28	scoppiato	scoppiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	ccomp	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	pianto...	pianto...	NOUN	S	_	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

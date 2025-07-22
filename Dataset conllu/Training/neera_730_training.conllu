@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’orchestrina intanto suonava un notturno.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	orchestrina	orchestrina	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	intanto	intanto	ADV	B	_	4	advmod	_	_
+4	suonava	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	notturno	notturno	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Essi stavano seduti sulla medesima panchina, lontani l’uno dall’altra, e ascoltavano.
+1	Essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	stavano	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	seduti	sedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	medesima	medesimo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+12-13	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	ascoltavano	ascoltare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Il tempo passava; ne passò molto, placido, tranquillo, su quello spianato quasi deserto, dinanzi all’albergo quasi vuoto, in un silenzio che la musica sembrava accompagnare come avrebbe accompagnato una canzone.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	6	punct	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	molto	molto	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	placido	placido	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+15	spianato	spianato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	quasi	quasi	ADV	B	_	17	advmod	_	_
+17	deserto	deserto	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	dinanzi	dinanzi	ADP	E	_	22	case	_	_
+20-21	all’	_	_	_	_	_	_	_	SpaceAfter=No
+20	a	a	ADP	E	_	19	fixed	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+23	quasi	quasi	ADV	B	_	24	advmod	_	_
+24	vuoto	vuoto	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	3	punct	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+29	che	che	PRON	PR	PronType=Rel	32	obj	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	musica	musica	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	_
+32	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	acl:relcl	_	_
+33	accompagnare	accompagnare	VERB	V	VerbForm=Inf	32	xcomp	_	_
+34	come	come	SCONJ	CS	_	36	mark	_	_
+35	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	advcl	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Alfine la signora si sentì in obbligo di rammentargli il desinare.
+1	Alfine	Alfine	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	rammentargli	_	_	_	_	_	_	_	_
+9	rammentar	rammentare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	desinare	desinare	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

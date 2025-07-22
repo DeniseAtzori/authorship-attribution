@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Qualcuna pare, voglio convenirne, aiutata da qualità specialissime, creatura veramente superiore, sforza le linee generali del tipo e si presenta con un’apparenza nebulosa di vedova, dove, a studiarla bene, la tristezza è più profonda, più inconsolabile, più disperata ancora.
+1	Qualcuna	Qualcuna	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	convenirne	_	_	_	_	_	_	_	SpaceAfter=No
+5	convenir	convenire	VERB	V	VerbForm=Inf	2	conj	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	aiutata	aiutare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	qualità	qualità	NOUN	S	Gender=Fem	8	obl:agent	_	_
+11	specialissime	speciale	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+14	veramente	veramente	ADV	B	_	15	advmod	_	_
+15	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	sforza	sforzare	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	linee	linea	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+20	generali	generale	ADJ	A	Number=Plur	19	amod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+26	presenta	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	apparenza	apparenza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+30	nebulosa	nebuloso	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	vedova	vedovo	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	dove	dove	ADV	B	_	45	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37-38	studiarla	_	_	_	_	_	_	_	_
+37	studiar	studiare	VERB	V	VerbForm=Inf	45	csubj	_	_
+38	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
+39	bene	bene	ADV	B	_	37	advmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	37	punct	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	_
+43	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+44	più	più	ADV	B	_	45	advmod	_	_
+45	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	48	punct	_	_
+47	più	più	ADV	B	_	48	advmod	_	_
+48	inconsolabile	inconsolabile	ADJ	A	Number=Sing	45	conj	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	45	punct	_	_
+50	più	più	ADV	B	_	51	advmod	_	_
+51	disperata	disperare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	45	acl	_	_
+52	ancora	ancora	ADV	B	_	51	advmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ed io le amo tutte:
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	iobj	_	_
+4	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	4	obj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = le rassegnate, le ribelli, le martiri, le maligne, le invidiose, le ipocrite, le ridicole, tutte, tutte!
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	rassegnate	rassegnata	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	ribelli	ribelle	NOUN	S	Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	martiri	martire	NOUN	S	Number=Plur	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	maligne	maligna	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	invidiose	invidiosa	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	ipocrite	ipocrita	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	ridicole	ridicola	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	2	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	2	conj	_	SpaceAfter=No
+25	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Le amo perchè queste sono le vere infelici, le derubate, le vittime della società qualunque sia la loro condizione di ricchezza e di coltura.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	2	iobj	_	_
+2	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	perchè	perché	SCONJ	CS	_	7	mark	_	_
+4	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	7	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	vere	vero	NOUN	S	Gender=Fem|Number=Plur	2	advcl	_	_
+8	infelici	infelice	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	derubate	derubate	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	società	società	NOUN	S	Gender=Fem	14	nmod	_	_
+18	qualunque	qualunque	PRON	PI	Number=Sing|PronType=Ind	17	nmod	_	_
+19	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	7	advcl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	ricchezza	ricchezza	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	coltura	coltura	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

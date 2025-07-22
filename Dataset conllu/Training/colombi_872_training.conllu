@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vincenzo aveva voluto bene a quel parente senza conoscerlo, forse per una certa analogia nei loro caratteri.
+1	Vincenzo	Vincenzo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	bene	bene	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	parente	parente	NOUN	S	Number=Sing	3	obl	_	_
+8	senza	senza	ADP	E	_	9	mark	_	_
+9-10	conoscerlo	_	_	_	_	_	_	_	SpaceAfter=No
+9	conoscer	conoscere	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	forse	forse	ADV	B	_	16	advmod	_	_
+13	per	per	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	certa	certo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	analogia	analogia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+17-18	nei	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	loro	loro	DET	AP	Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	caratteri	carattere	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La sua malattia lo distolse alquanto dai pensieri turbolenti che lo agitavano.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	distolse	distolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	alquanto	alquanto	ADV	B	_	5	advmod	_	_
+7-8	dai	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	turbolenti	turbolente	ADJ	A	Number=Plur	9	amod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	agitavano	agitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Aspettava le nuove dell'infermo con ansietà, ed aveva ripreso a scrivere all'amico, per dargli coraggio e dirgli parole di simpatia.
+1	Aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+3	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	infermo	infermo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	ansietà	ansietà	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ed	e	CCONJ	CC	_	12	cc	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	ripreso	riprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	scrivere	scrivere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	amico	amico	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20-21	dargli	_	_	_	_	_	_	_	_
+20	dar	dare	VERB	V	VerbForm=Inf	1	advcl	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24-25	dirgli	_	_	_	_	_	_	_	_
+24	dir	dire	VERB	V	VerbForm=Inf	20	conj	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	parole	parola	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	simpatia	simpatia	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Un giorno ricevette un biglietto brevissimo:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	ricevette	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	brevissimo	breve	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = «Mio padre è morto quasi improvvisamente, quando pareva che cominciasse a star meglio.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	padre	padre	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	quasi	quasi	ADV	B	_	7	advmod	_	_
+7	improvvisamente	improvviso	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	quando	quando	SCONJ	CS	_	10	mark	_	_
+10	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+11	che	che	SCONJ	CS	_	12	mark	_	_
+12	cominciasse	cominciare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	ccomp	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	star	stare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	meglio	meglio	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Sono solo al mondo.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	solo	solo	ADV	B	_	5	advmod	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = »
+1	»	»	PUNCT	FB	_	0	root	_	SpacesAfter=\n
+

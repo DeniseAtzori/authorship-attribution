@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io sono alta e non so piegarmi:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	alta	alto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	piegarmi	arma|piegarme	NOUN	S	Gender=Fem|Number=Plur	6	xcomp	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = e voi siete piccola, voi avete la piccolezza che piace all'amore, poichè l'amore dell'uomo vuol essere anche protezione.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+3	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	18	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+7	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	piccolezza	piccolezza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	amore	amore	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	amore	amore	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+23	essere	essere	AUX	V	VerbForm=Inf	25	cop	_	_
+24	anche	anche	ADV	B	_	25	advmod	_	_
+25	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 3
+# text = Io rido, sempre:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	rido	ridere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sempre	sempre	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = voi sorridete, talvolta.
+1	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	sorridete	sorridere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	talvolta	talvolta	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Io mi nascondo, quando piango, per superbia:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	nascondo	nascondo	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quando	quando	SCONJ	CS	_	6	mark	_	_
+6	piango	piangere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	superbia	superbia	ADV	B	_	3	advmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = quando l'amore vi fa piangere, voi piangete innanzi a lui e Francesco non resiste al pianto di una donna.
+1	quando	quando	SCONJ	CS	_	5	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+6	piangere	piangere	VERB	V	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	9	nsubj	_	_
+9	piangete	piangere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	innanzi	innanzi	ADV	B	_	9	advmod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	Francesco	Francesco	PROPN	SP	_	16	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	resiste	resistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pianto	pianto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	donna	donna	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

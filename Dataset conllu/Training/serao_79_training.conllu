@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Coloro che appartengono a questa seconda categoria, non esistono più, per la donna:
+1	Coloro	coloro	PRON	PE	Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	appartengono	appartenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	categoria	categoria	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	più	più	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 2
+# text = possono essere belli, ricchi, galanti, non serve, sono creature morte, sono larve che l'occhio muliebre non discerne neppure più.
+1	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	3	cop	_	_
+3	belli	bello	ADJ	A	Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	ricchi	ricco	ADJ	A	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	galanti	galante	ADV	B	_	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	creature	creatura	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+14	morte	morto	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	larve	larire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	che	che	SCONJ	CS	_	21	mark	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+21	muliebre	muliebre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23-24	discerne	_	_	_	_	_	_	_	_
+23	discer	discere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	23	iobj	_	_
+25	neppure	neppure	ADV	BN	PronType=Neg	26	advmod	_	_
+26	più	più	ADV	B	_	23	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Massimo Dias appartiene alla prima categoria; vedendolo, si pensa che, in certo tempo, in certe condizioni, forse, se Dio volesse o se volesse il diavolo, lo si amerebbe.
+1	Massimo	Massimo	PROPN	SP	_	3	nsubj	_	_
+2	Dias	Dias	PROPN	SP	_	1	flat:name	_	_
+3	appartiene	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	categoria	categoria	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	9	punct	_	_
+9	vedendolo	vedendolo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	che	che	SCONJ	CS	_	21	mark	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	21	punct	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	certo	certo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	12	ccomp	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	forse	forse	ADV	B	_	27	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	se	se	SCONJ	CS	_	27	mark	_	_
+26	Dio	Dio	PROPN	SP	_	27	nsubj	_	_
+27	volesse	volere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	_
+28	o	o	CCONJ	CC	_	30	cc	_	_
+29	se	se	SCONJ	CS	_	30	mark	_	_
+30	volesse	volere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	advcl	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	diavolo	diavolo	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	30	punct	_	_
+34	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl:impers	_	_
+36	amerebbe	amare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

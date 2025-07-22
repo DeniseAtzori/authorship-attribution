@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E la fioraia, con un moto gentile e svelto, lasciò cadere nelle mani della bimba un manipoletto di garofani.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fioraia	fioraia	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	moto	moto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	gentile	gentile	ADJ	A	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	svelto	svelto	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	lasciò	lasciò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	cadere	cadere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+14-15	nelle	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	mani	mano	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	bimba	bimba	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	manipoletto	manipoletto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	garofani	garofano	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = La bimba sorrise, ficcò un garofano in un bucherello della sua camicia e volle anch’essa vendere i fiori, poiché ne aveva tanti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	sorrise	sorriso	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ficcò	ficcare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	garofano	garofano	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bucherello	bucherello	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	camicia	camicia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+17	anch’	ancho	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+19	vendere	vendere	VERB	V	VerbForm=Inf	16	advcl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	poiché	poiché	SCONJ	CS	_	25	mark	_	_
+24	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	25	iobj	_	_
+25	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+26	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ma da lei la gente non ne comprava.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gente	gente	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	comprava	comprare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Uno studente le disse:
+1	Uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	studente	studente	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = quando sarai più grande, potrai vender fiori.
+1	quando	quando	SCONJ	CS	_	4	mark	_	_
+2	sarai	saere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	4	cop	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	grande	grande	ADJ	A	Number=Sing	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	potrai	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	7	aux	_	_
+7	vender	vendere	VERB	V	VerbForm=Inf	0	root	_	_
+8	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

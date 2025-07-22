@@ -1,0 +1,154 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Chi ne sa nulla! — esclamò Anna con impeto, interrompendola.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Chi	chi	PRON	PQ	PronType=Int	4	nsubj	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	_
+7	—	—	PUNCT	FF	_	5	punct	_	_
+8	esclamò	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+9	Anna	Anna	PROPN	SP	_	8	nsubj	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13-14	interrompendola	_	_	_	_	_	_	_	SpaceAfter=No
+13	interrompendo	interrompere	VERB	V	VerbForm=Ger	8	advcl	_	_
+14	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = — Cos'è la famiglia?
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Cos'	cosa	PRON	PQ	Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Una parola di convenzione.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	parola	parola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	convenzione	convenzione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = L'eredità degli affetti?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	eredità	eredità	NOUN	S	Gender=Fem	0	root	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Un'impostura.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	impostura	impostura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = L'atavismo?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	atavismo	atavismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ah! sì, questo è un bel tema per gli scienziati che lo studiano a tavolino allineando numeri e teorie, ma chi ci dà la verità?
+1	Ah	ah	INTJ	I	_	9	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	1	punct	_	_
+3	sì	sì	INTJ	I	Polarity=Pos	9	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	bel	bello	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	tema	tema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	scienziati	scienziato	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	studiano	studiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18	allineando	allineare	VERB	V	VerbForm=Ger	15	advcl	_	_
+19	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	teorie	teoria	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	ma	ma	CCONJ	CC	_	26	cc	_	_
+24	chi	chi	PRON	PQ	PronType=Int	26	nsubj	_	_
+25	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	26	iobj	_	_
+26	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	verità	verità	NOUN	S	Gender=Fem	26	obj	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Chi osa squarciare questo mistero di carne e di ossa che è l'uomo per vedere realmente come è fatto?
+1	Chi	chi	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	osa	oso	PRON	PI	Number=Sing|PronType=Ind	3	nsubj	_	_
+3	squarciare	squarciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	carne	carne	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	ossa	ossa	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	acl:relcl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	vedere	vedere	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	realmente	realmente	ADV	B	_	16	advmod	_	_
+18	come	come	SCONJ	CS	_	20	mark	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Si risale con dei sistemi il corso dei fiumi, non il segreto delle vite.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	risale	risalire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	corso	corso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	fiumi	fiume	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	vite	vita	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Oh come tutto è tenebra, falsità, menzogna!
+1	Oh	oh	INTJ	I	_	5	punct	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	tenebra	tenebrare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	falsità	falsità	NOUN	S	Gender=Fem	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	menzogna	menzogna	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

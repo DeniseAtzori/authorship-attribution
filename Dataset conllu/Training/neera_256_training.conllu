@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una celebre orizzontale che viveva a Parigi sotto il secondo Impero e che lasciò le proprie memorie, narra il suo primo passo.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	celebre	celebre	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	orizzontale	orizzontale	ADJ	A	Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Parigi	Parigi	PROPN	SP	_	5	obl	_	_
+8	sotto	sotto	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	Impero	impero	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	memorie	memoria	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	narra	narrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+22	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	passo	passo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Era figlia di un pastore protestante;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pastore	pastore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	protestante	protestante	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = aveva in casa pane, istruzione e buon numero di fratelli e sorelle.
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	pane	pano	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	buon	buono	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Un giorno tornando dalla scuola (aveva quattordici anni) incontra un signore che le narra delle storielle...
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+3	tornando	tornare	VERB	V	VerbForm=Ger	2	advcl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+9	quattordici	quattordici	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	8	punct	_	_
+12	incontra	incontrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	signore	signore	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	narra	narra	NOUN	S	Gender=Fem|Number=Sing	14	acl:relcl	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	storielle..	storielle..	NOUN	S	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

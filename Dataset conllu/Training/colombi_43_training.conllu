@@ -1,0 +1,142 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «A quell'idea, provavo quell'estrema disperazione che ci fa urlare come belve, dilaniare le carni, che ci trascina al delitto, al suicidio.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	A	a	ADP	E	_	4	case	_	_
+3	quell'	quello	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+4	idea	idea	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	provavo	provavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	quell'	quello	DET	DD	Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+8	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+12	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	urlare	urlare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	belve	belvo	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	dilaniare	dilaniare	VERB	V	VerbForm=Inf	6	conj	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	carni	carni	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	23	obj	_	_
+23	trascina	trascinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	delitto	delitto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	6	punct	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	suicidio	suicidio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Mi ricordai un tetro caso d'una giovine, che, dopo esser stata sepolta come morta, s'era risvegliata nella fossa;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	ricordai	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	tetro	tetro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	caso	caso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	giovine	giovina	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	21	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	dopo	dopo	SCONJ	CS	_	15	mark	_	_
+13	esser	essere	AUX	VA	VerbForm=Inf	15	aux	_	_
+14	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	sepolta	sepolto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+16	come	come	SCONJ	CS	_	17	mark	_	_
+17	morta	morta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	risvegliata	risvegliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	fossa	fossa	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = ma a lei almeno erano tornate le forze per urlare, per dibattersi, e fu trovata col capo sfracellato contro le pareti della bara; mentre io non potevo nulla per abbreviare il mio supplizio;
+1	ma	ma	CCONJ	CC	_	6	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+4	almeno	almeno	ADV	B	_	6	advmod	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+6	tornate	tornare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	forze	forza	NOUN	S	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	urlare	urlare	VERB	V	VerbForm=Inf	8	acl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	dibattersi	_	_	_	_	_	_	_	SpaceAfter=No
+13	dibatter	dibattere	VERB	V	VerbForm=Inf	10	advcl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	trovata	trovare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+19-20	col	_	_	_	_	_	_	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	capo	capo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	sfracellato	sfracellare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	contro	contro	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	pareti	parete	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	bara	bara	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	34	punct	_	_
+30	mentre	mentre	SCONJ	CS	_	34	mark	_	_
+31	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+32	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+33	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	34	cop	_	_
+34	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	conj	_	_
+35	per	per	ADP	E	_	36	mark	_	_
+36	abbreviare	abbreviare	VERB	V	VerbForm=Inf	34	advcl	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	supplizio	supplizio	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
+40	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = mi bruciavo internamente di furore, mi sentivo impazzire a quelle supposizioni spaventose, e rimanevo tranquillo nella mia solenne immobilità da idolo.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	bruciavo	bruciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	internamente	interno	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	furore	furore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+8	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	impazzire	impazzire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	supposizioni	supposizione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	spaventose	spaventoso	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	rimanevo	rimanere	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+17	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	22	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+20	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+21	solenne	solenne	ADJ	A	Number=Sing	22	amod	_	_
+22	immobilità	immobilità	NOUN	S	Gender=Fem	17	obl	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	idolo	idolo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

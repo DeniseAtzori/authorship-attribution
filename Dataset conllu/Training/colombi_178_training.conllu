@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Non andrò più da Edmondo — pensai.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	andrò	andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Edmondo	Edmondo	PROPN	SP	_	3	obl	_	_
+7	—	—	PUNCT	FF	_	6	punct	_	_
+8	pensai	pensare	NOUN	S	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma prima che mi denunci a mio marito, mi denuncierò da me stessa.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	prima	prima	ADV	B	_	11	mark	_	_
+3	che	che	SCONJ	CS	_	2	fixed	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	denunci	denunco	NUM	N	NumType=Card	11	nummod	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	marito	marito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	expl	_	_
+11	denuncierò	denunciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+14	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Dacchè sono decisa a morire, voglio confessargli tutto, confessarglielo io, che posso pure dirgli qualche cosa per mitigare i miei torti ed attenuare il suo disprezzo.
+1	Dacchè	Dacché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	decisa	decidere	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	morire	morire	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8-9	confessargli	_	_	_	_	_	_	_	_
+8	confessar	confessare	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12-13	confessarglielo	_	_	_	_	_	_	_	_
+12	confessarglie	confessargliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	pure	pure	ADV	B	_	19	advmod	_	_
+19-20	dirgli	_	_	_	_	_	_	_	_
+19	dir	dire	VERB	V	VerbForm=Inf	3	conj	_	_
+20	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+21	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	mitigare	mitigare	VERB	V	VerbForm=Inf	19	advcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	torti	torto	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+28	ed	e	CCONJ	CC	_	29	cc	_	_
+29	attenuare	attenuare	VERB	V	VerbForm=Inf	24	conj	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	disprezzo	disprezzo	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = — Gli rammenterò com'ero sola, lontana da mia madre, da tutti i miei, e povera;
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	rammenterò	rammentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	com'	come	SCONJ	CS	_	6	mark	_	SpaceAfter=No
+5	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	madre	madre	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	povera	povero	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = e che a forza d'andare all'ufficio come gli uomini, e cogli uomini, non vedevo più la sconvenienza di trattarli con dimestichezza, non avevo più soggezione, non arrossivo più.
+1	e	e	CCONJ	CC	_	20	cc	_	_
+2	che	che	SCONJ	CS	_	20	mark	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	forza	forza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+5	d'	di	ADP	E	_	6	mark	_	SpaceAfter=No
+6	andare	andare	VERB	V	VerbForm=Inf	4	acl	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	cogli	_	_	_	_	_	_	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+21	più	più	ADV	B	_	20	advmod	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sconvenienza	sconvenienza	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25-26	trattarli	_	_	_	_	_	_	_	_
+25	trattar	trattare	VERB	V	VerbForm=Inf	23	acl	_	_
+26	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	dimestichezza	dimestichezza	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	20	punct	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	conj	_	_
+32	più	più	ADV	B	_	31	advmod	_	_
+33	soggezione	soggezione	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	20	punct	_	_
+35	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+36	arrossivo	arrossire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	advcl	_	_
+37	più	più	ADV	B	_	36	advmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n
+

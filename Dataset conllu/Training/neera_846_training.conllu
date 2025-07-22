@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A poco a poco fluirono le confidenze:
+1	A	a	ADP	E	_	2	case	_	_
+2	poco	poco	ADV	B	_	5	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	poco	poco	ADV	B	_	5	advmod	_	_
+5	fluirono	fluire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	confidenze	confidenza	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = l’infanzia orfana, la prima gioventù sciupata follemente, i facili amori che non avevano lasciato traccia, la corsa frenetica dietro chimere che svanivano appena tocche e finalmente la sua donazione intera, anima e corpo, all’idea che riassumeva in sè ogni aspirazione d’avvenire:
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	orfana	orfano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	gioventù	gioventù	NOUN	S	Gender=Fem	2	conj	_	_
+8	sciupata	sciupare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	follemente	follemente	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	facili	facile	ADJ	A	Number=Plur	13	amod	_	_
+13	amori	amore	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+22	frenetica	frenetico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	dietro	dietro	ADP	E	_	24	case	_	_
+24	chimere	chimera	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	svanivano	svanire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+27	appena	appena	ADV	B	_	28	advmod	_	_
+28	tocche	tocca	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29	e	e	CCONJ	CC	_	33	cc	_	_
+30	finalmente	finalmente	ADV	B	_	33	advmod	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	donazione	donazione	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+34	intera	intero	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	anima	anima	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	42	punct	_	_
+40-41	all’	_	_	_	_	_	_	_	SpaceAfter=No
+40	a	a	ADP	E	_	42	case	_	_
+41	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+42	idea	idea	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+43	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+44	riassumeva	riassumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	acl:relcl	_	_
+45	in	in	ADP	E	_	46	case	_	_
+46	sè	sè	PRON	PE	Person=3|PronType=Prs	44	obl	_	_
+47	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	48	det	_	_
+48	aspirazione	aspirazione	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	_
+49	d’	di	ADP	E	_	50	mark	_	SpaceAfter=No
+50	avvenire	avvenire	VERB	V	VerbForm=Inf	48	acl	_	SpaceAfter=No
+51	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = la patria libera.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	patria	patria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	libera	libero	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

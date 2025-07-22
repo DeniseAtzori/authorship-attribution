@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lei però deve comprendermi.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	però	però	ADV	B	_	4	advmod	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	comprendermi	_	_	_	_	_	_	_	SpaceAfter=No
+4	comprender	comprendere	VERB	V	VerbForm=Inf	0	root	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Io, per la prima volta in vita mia, ho umiliato la mia fierezza di gentiluomo, ho infranto il voto di non separarmi mai da una sacra reliquia paterna, ho salito le scale del luogo dove i più miserabili vanno a cercare l’obolo per sfamarsi....
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	umiliato	umiliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	fierezza	fierezza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	gentiluomo	gentiluomo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	infranto	infranto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	advcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	voto	voto	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	separarmi	arma|separarme	ADJ	A	Number=Plur	22	amod	_	_
+26	mai	mai	ADV	B	_	30	advmod	_	_
+27	da	da	ADP	E	_	30	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	sacra	sacro	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	reliquia	reliquia	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+31	paterna	paterno	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	salito	salire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	scale	scala	NOUN	S	Gender=Fem|Number=Plur	34	obj	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40	dove	dove	ADV	B	_	44	advmod	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+42	più	più	ADV	B	_	43	advmod	_	_
+43	miserabili	miserabile	ADJ	A	Number=Plur	44	nsubj	_	_
+44	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+45	a	a	ADP	E	_	46	mark	_	_
+46	cercare	cercare	VERB	V	VerbForm=Inf	44	xcomp	_	_
+47	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
+48	obolo	obolo	NOUN	S	Gender=Masc|Number=Sing	46	obj	_	_
+49	per	per	ADP	E	_	50	case	_	_
+50	sfamarsi...	sfamarsi...	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = L’anello che mio padre morendo mi pose al dito, dove per crudele ironia è impresso lo stemma della mia famiglia....
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anello	anello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	padre	padre	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	morendo	morire	VERB	V	VerbForm=Ger	8	advcl	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+8	pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dito	dito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	dove	dove	ADV	B	_	18	advmod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	crudele	crudela	ADJ	A	Number=Sing	16	amod	_	_
+16	ironia	ironio	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	impresso	imprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	stemma	stemma	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	famiglia...	famiglia...	NOUN	S	_	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

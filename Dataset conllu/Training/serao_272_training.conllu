@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che importava, però, il fatto materiale?
+1	Che	che	PRON	PR	PronType=Rel	2	obj	_	_
+2	importava	importavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	però	però	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+8	materiale	materiale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = L'appello vi era stato, l'appello sentimentale di un'anima languente d'amore, l'appello lontano a cui la volontà ardente dell'amore da tanta forza, che l'altra anima lo sente, a traverso il tempo e a traverso lo spazio, come se la persona e la voce fossero presenti.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	appello	appello	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	appello	appello	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+9	sentimentale	sentimentale	ADJ	A	Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	anima	anima	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13	languente	languente	ADJ	A	Number=Sing	12	amod	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	appello	appello	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+19	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	cui	cui	PRON	PR	PronType=Rel	57	obl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	volontà	volontà	NOUN	S	Gender=Fem	57	nsubj	_	_
+24	ardente	ardente	ADJ	A	Number=Sing	23	amod	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	amore	amore	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
+30	forza	forza	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	27	punct	_	_
+32	che	che	PRON	PR	PronType=Rel	37	obj	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+34	altra	altro	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	anima	anima	NOUN	S	Gender=Fem|Number=Sing	37	nsubj	_	_
+36	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+37	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	23	punct	_	_
+39	a	a	ADP	E	_	42	case	_	_
+40	traverso	traverso	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	57	obl	_	_
+43	e	e	CCONJ	CC	_	45	cc	_	_
+44	a	a	ADP	E	_	45	case	_	_
+45	traverso	travergere	NOUN	S	Gender=Masc|Number=Sing	42	conj	_	_
+46	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	57	punct	_	_
+49	come	come	ADV	B	_	57	advmod	_	_
+50	se	se	SCONJ	CS	_	57	mark	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	persona	persona	NOUN	S	Gender=Fem|Number=Sing	57	nsubj	_	_
+53	e	e	CCONJ	CC	_	55	cc	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	voce	voce	NOUN	S	Gender=Fem|Number=Sing	52	conj	_	_
+56	fossero	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	57	cop	_	_
+57	presenti	presente	ADJ	A	Number=Plur	18	acl:relcl	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

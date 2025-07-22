@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Beatrice ha il piede lungo e arcuato nello stivalino alto da bambina.
+1	Beatrice	Beatore	PROPN	SP	_	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	piede	piede	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	arcuato	arcuare	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+8-9	nello	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	stivalino	stivalino	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+11	alto	alto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non si rassomigliano:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	rassomigliano	rassomigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = ma l’una non può andare senza l’altra, e chi vede Beatrice desidera di vedere Laura.
+1	ma	ma	CCONJ	CC	_	6	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+7	senza	senza	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	chi	chi	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+14	Beatrice	Beatore	PROPN	SP	_	13	obj	_	_
+15	desidera	desidera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	vedere	vedere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	Laura	Laura	PROPN	SP	_	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Vestono di rosa — pallido, di azzurro smorto, sempre eguali:
+1	Vestono	Vestono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+4	—	—	PUNCT	FF	_	3	punct	_	_
+5	pallido	pallido	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	azzurro	azzurro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	smorto	smorto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	eguali	eguale	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Laura ha un cerchiolino d’argento al braccio, Beatrice un anelluccio, un rubino al dito.
+1	Laura	Laura	PROPN	SP	_	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cerchiolino	cerchiolino	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	d’	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	argento	argento	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	Beatrice	Beatore	PROPN	SP	_	9	nmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	anelluccio	anelluccio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	rubino	rubino	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	dito	dito	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

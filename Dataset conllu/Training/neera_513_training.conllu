@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli aveva paragonato la fede all'amore?
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	paragonato	paragonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fede	fede	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = ...
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Anna non aveva pensato mai all'amore.
+1	Anna	Anna	PROPN	SP	_	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	mai	mai	ADV	B	_	4	advmod	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Certo non amava sua sorella; tutti gli sforzi che faceva per raggiungere questo scopo non servivano che a dimostrargliene sempre meglio la impossibilità.
+1	Certo	certo	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	3	punct	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	sforzi	sforzo	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	raggiungere	raggiungere	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	servivano	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+18	che	che	SCONJ	CS	_	20	mark	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20-22	dimostrargliene	_	_	_	_	_	_	_	_
+20	dimostrar	dimostrare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+21	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+23	sempre	sempre	ADV	B	_	20	advmod	_	_
+24	meglio	meglio	ADV	B	_	20	advmod	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	impossibilità	impossibilità	NOUN	S	Gender=Fem	20	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Chi avrebbe dunque amato?
+1	Chi	chi	PRON	PQ	PronType=Int	4	nsubj	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	dunque	dunque	ADV	B	_	4	advmod	_	_
+4	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Il ricordo di suo padre la occupava tanto che sembrava non dovesse restare nessun posto per altri.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	padre	padre	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	occupava	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	tanto	tanto	ADV	B	_	7	advmod	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	restare	restare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+14	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
+15	posto	posto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

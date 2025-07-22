@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ricordatevi pure di distruggere di volta in volta le mie lettere;
+1	Ricordatevi	Ricordare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpacesBefore=\s\s
+2	pure	pure	ADV	B	_	1	advmod	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	distruggere	distruggere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	1	punct	_	SpacesAfter=\s\s\s
+
+# sent_id = 2
+# text = io faccio altrettanto colle vostre.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	altrettanto	altrettanto	ADV	B	_	2	advmod	_	_
+4-5	colle	_	_	_	_	_	_	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	vostre	vostre	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Quello che è stato è stato.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	6	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\s\s
+
+# sent_id = 4
+# text = Abbiamo avuto la fortuna fino ad ora di una assoluta impunità.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	fino	fino	ADV	B	_	7	case	_	_
+6	ad	a	ADP	E	_	5	fixed	_	_
+7	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	impunità	impunità	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Non affondiamo le nostre navi in vista del porto.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	SpacesAfter=\s\s\s
+2	affondiamo	affondare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	navi	nave	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	vista	vista	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	porto	porto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

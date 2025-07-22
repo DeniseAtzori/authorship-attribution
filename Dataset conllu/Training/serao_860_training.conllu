@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una brutta gondola passò:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	gondola	gondola	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = le finestrine del _felze_, senza i soliti delicati ornamenti di ferro lucido, erano chiuse coi lucchetti, come una cassa forte.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	finestrine	finestrina	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	_felze_	ExtraSubj=Yes|_felze_	PUNCT	FB	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	senza	senza	ADP	E	_	11	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+9	soliti	solito	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+10	delicati	delicato	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	ornamenti	ornamento	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	lucido	lucido	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	chiuse	chiudere	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+18-19	coi	_	_	_	_	_	_	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	lucchetti	lucchetto	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	come	come	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	cassa	cassa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+25	forte	forte	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = E sulla porticina del _felze_, a guardia, stavano seduti due carabinieri in tenuta di viaggio e coi fucili fra le gambe, immobili, in quell'attitudine seria, pensosa, che dà loro come una nova aureola di rispetto.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2-3	sulla	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	porticina	porticina	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	_felze_	ExtraSubj=Yes|_felze_	PUNCT	FB	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	guardia	guardia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	stavano	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	seduti	sedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	tenuta	tenuta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	coi	_	_	_	_	_	_	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	fucili	fucile	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+24	fra	fra	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	immobili	immobile	NOUN	S	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	13	punct	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	quell'	quello	DET	DD	Number=Sing|PronType=Dem	32	det	_	SpaceAfter=No
+32	attitudine	attitudine	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+33	seria	serio	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	32	punct	_	_
+35	pensosa	pensoso	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	32	punct	_	_
+37	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+38	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+39	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	38	obj	_	_
+40	come	come	ADP	E	_	43	case	_	_
+41	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+42	nova	nova	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+43	aureola	aureolo	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Là, là, le conosco le opinioni del signor Lombroso sulla pretesa inferiorità della donna, ma sono persuasa che in fondo non ci crede neppure lui.
+1	Là	là	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	là	là	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	opinioni	opinione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	signor	signore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	Lombroso	Lombroso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	pretesa	preteso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	inferiorità	inferiorità	NOUN	S	Gender=Fem	11	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	donna	donna	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	ma	ma	CCONJ	CC	_	23	cc	_	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	persuasa	persuadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+24	che	che	SCONJ	CS	_	29	mark	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	29	expl	_	_
+29	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+30	neppure	neppure	ADV	BN	PronType=Neg	29	advmod	_	_
+31	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Come può un naturalista ammettere che servendosi dei medesimi mezzi si mettano al mondo alternativamente esseri superiori ed esseri inferiori?
+1	Come	come	ADV	B	_	4	advmod	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	naturalista	naturalista	NOUN	S	Number=Sing	0	root	_	_
+5	ammettere	ammettere	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	che	che	SCONJ	CS	_	14	mark	_	_
+7-8	servendosi	_	_	_	_	_	_	_	_
+7	servendo	servire	VERB	V	VerbForm=Ger	14	advcl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	medesimi	medesimo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	mettano	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	alternativamente	alternativamente	ADV	B	_	19	advmod	_	_
+19	esseri	essero	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+20	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	19	amod	_	_
+21	ed	e	CCONJ	CC	_	22	cc	_	_
+22	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+23	inferiori	inferiore	ADJ	A	Degree=Cmp|Number=Plur	22	amod	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Si potrebbe crederlo forse se i maschi li facessero gli uomini.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	crederlo	_	_	_	_	_	_	_	_
+3	creder	credere	VERB	V	VerbForm=Inf	0	root	_	_
+4	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	forse	forse	ADV	B	_	10	advmod	_	_
+6	se	se	SCONJ	CS	_	10	mark	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	maschi	maschio	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+10	facessero	fare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

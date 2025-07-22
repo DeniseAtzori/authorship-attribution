@@ -1,0 +1,131 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un argomento dei femministi — vorrei dire fra i più deboli se non mi sembrassero tutti deboli a un modo — è l’obbiezione che non tutte le donne possono essere madri.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	femministi	femminista	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	—	—	PUNCT	FF	_	2	punct	_	_
+7	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+9	fra	fra	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	deboli	debole	ADJ	A	Number=Plur	8	obl	_	_
+13	se	se	SCONJ	CS	_	16	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	sembrassero	sembrare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	_
+17	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	obl	_	_
+18	deboli	debolo	ADJ	A	Number=Plur	16	xcomp	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	modo	modo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	—	—	PUNCT	FF	_	16	punct	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	obbiezione	obbiezione	NOUN	S	Gender=Fem|Number=Sing	8	ccomp	_	_
+26	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+27	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+28	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	30	det:predet	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	donne	donna	NOUN	S	Gender=Fem|Number=Plur	33	nsubj	_	_
+31	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	essere	essere	AUX	V	VerbForm=Inf	33	cop	_	_
+33	madri	madre	ADJ	A	Gender=Masc|Number=Plur	25	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Tutte lo dovrebbero soggiungo io ed ecco che l’abbiezione cade.
+1	Tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	2	det	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	soggiungo	soggiungere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	ecco	ecco	ADV	B	_	5	conj	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	abbiezione	abbiezione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	cade	cada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Perchè alcune donne sono sottratte alla loro missione si dovrà imperniare la società sul caso particolare, diciamo pure sulla disgrazia particolare?
+1	Perchè	perché	ADV	B	_	5	advmod	_	_
+2	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	sottratte	sottrarre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	missione	missione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:pass	_	_
+11	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	_
+12	imperniare	imperniare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	società	società	NOUN	S	Gender=Fem	12	nsubj:pass	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	caso	caso	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	particolare	particolare	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	diciamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+21	pure	pure	ADV	B	_	20	advmod	_	_
+22-23	sulla	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	disgrazia	disgrazia	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+25	particolare	particolare	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Non sarebbe invece meglio riunire gli sforzi perchè ogni donna abbia il suo posto nella via dei secoli?
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	invece	invece	ADV	B	_	5	advmod	_	_
+4	meglio	meglio	ADV	B	_	5	advmod	_	_
+5	riunire	riunire	VERB	V	VerbForm=Inf	0	root	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	sforzi	sforzo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	perchè	perché	SCONJ	CS	_	11	mark	_	_
+9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	posto	posto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	via	via	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Questa è l’idealità, questa la verità — e questo sarebbe il progresso.
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	idealità	idealità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	verità	verità	NOUN	S	Gender=Fem	6	nsubj	_	_
+9	—	—	PUNCT	FF	_	14	punct	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+12	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	progresso	progresso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

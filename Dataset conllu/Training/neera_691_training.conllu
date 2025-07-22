@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Continuando la signora a tacere, l’altra svolse una lunga litania di miserie, di denari perduti, di roba sciupata, di conti da pagare;
+1	Continuando	continuare	VERB	V	VerbForm=Ger	9	advcl	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	tacere	tacere	VERB	V	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	9	nsubj	_	_
+9	svolse	svolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	litania	litania	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	miserie	miseria	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	denari	denaro	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+18	perduti	perduto	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	roba	roba	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+22	sciupata	sciupato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	17	punct	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	conti	conto	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+26	da	da	ADP	E	_	27	mark	_	_
+27	pagare	pagare	VERB	V	VerbForm=Inf	25	acl	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = e ancora il medico, e ancora la chiesa, ancora il funerale; quante torcie?
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	ancora	ancora	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	medico	medico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	ancora	ancora	ADV	B	_	9	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	ancora	ancora	ADV	B	_	13	advmod	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	funerale	funerale	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	4	punct	_	_
+15	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	16	det	_	_
+16	torcie	torcia	NOUN	S	Gender=Fem	4	appos	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = quanti preti?
+1	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	2	det	_	_
+2	preti	prete	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ...
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = E di lei, poveretta, che avverrebbe?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	poveretta	poveretto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	avverrebbe	avverre	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Non aveva da parte neppure un soldo....
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	neppure	neppure	ADV	BN	PronType=Neg	7	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	soldo...	soldo...	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Andò a piedi, piano.
+1	Andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	piano	piano	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = La città, adesso, era molto meno popolata:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	città	città	NOUN	S	Gender=Fem	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	adesso	adesso	ADV	B	_	9	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	meno	meno	ADV	B	_	9	advmod	_	_
+9	popolata	popolato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = tutti erano nei teatri, e nei ritrovi, quelli che facevano ora tarda: e quelli che rientravano presto, erano rientrati.
+1	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3-4	nei	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	teatri	teatro	NOUN	S	Gender=Masc|Number=Plur	25	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ritrovi	ritrovo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	ora	ora	ADV	B	_	16	advmod	_	_
+16	tarda	tardo	ADJ	A	Gender=Fem|Number=Sing	14	xcomp	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	19	punct	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	conj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	rientravano	rientrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	_
+22	presto	presto	ADV	B	_	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux:pass	_	_
+25	rientrati	rientrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 4
+# text = Nella via, a capo basso, egli pensava alla imminente notte di amore che andava a ritrovare, lassù, presso una creatura squisita nel piacere e nell'amore, così bella e così fine:
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	via	via	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	capo	capo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	basso	basso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	imminente	imminente	ADJ	A	Number=Sing	14	amod	_	_
+14	notte	notte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	amore	amore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	ritrovare	ritrovare	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	27	punct	_	_
+22	lassù	lassù	CCONJ	CC	_	27	cc	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	presso	presso	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+27	squisita	squisito	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32-33	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+32	in	in	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	amore	amore	NOUN	S	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	27	punct	_	_
+36	così	così	ADV	B	_	37	advmod	_	_
+37	bella	bello	ADJ	A	Gender=Fem|Number=Sing	27	xcomp	_	_
+38	e	e	CCONJ	CC	_	40	cc	_	_
+39	così	così	ADV	B	_	40	advmod	_	_
+40	fine	fine	ADJ	A	Number=Sing	37	conj	_	SpaceAfter=No
+41	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 5
+# text = così buona nel fondo del suo carattere e così inconscia del male che commetteva.
+1	così	così	ADV	B	_	2	advmod	_	_
+2	buona	buono	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	inconscia	inconsciare	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	male	male	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	commetteva	commettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,137 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A questo punto della sua narrazione il nostro ospite pareva stanco:
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	ospite	ospite	NOUN	S	Number=Sing	11	nsubj	_	_
+11	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	stanco	stanco	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 2
+# text = gli tremava la voce, strascicava lentamente le parole come se gl'increscesse di pronunciarle, ed era evidente che avrebbe voluto sospendere quel racconto cominciato con tanto impeto, e che ora gli faceva ribrezzo.
+1	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	tremava	tremare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	voce	voce	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	strascicava	strascicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+7	lentamente	lentamente	ADV	B	_	6	advmod	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+10	come	come	ADV	B	_	13	advmod	_	_
+11	se	se	SCONJ	CS	_	13	mark	_	_
+12	gl'	igl	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+13	increscesse	increscere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	pronunciarle	_	_	_	_	_	_	_	SpaceAfter=No
+15	pronunciar	pronunciare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+16	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	ed	e	CCONJ	CC	_	20	cc	_	_
+19	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+20	evidente	evidente	ADJ	A	Number=Sing	2	conj	_	_
+21	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+22	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux	_	_
+24	sospendere	sospendere	VERB	V	VerbForm=Inf	20	csubj	_	_
+25	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_
+30	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	36	punct	_	_
+32	e	e	CCONJ	CC	_	36	cc	_	_
+33	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+34	ora	ora	ADV	B	_	36	advmod	_	_
+35	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	iobj	_	_
+36	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+37	ribrezzo	ribrezzo	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma noi lo ascoltavamo tanto avidamente i nostri occhi erano fissi su di lui con tanta ansietà, rimanevamo così ostinatamente muti quand'egli faceva una pausa, per timore di distrarlo dall'argomento, che comprese d'essersi impegnato troppo per retrocedere.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	ascoltavamo	ascoltare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	tanto	tanto	ADV	B	_	6	advmod	_	_
+6	avidamente	avidamente	ADV	B	_	4	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+10	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux:pass	_	_
+11	fissi	figgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	advcl	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
+17	ansietà	ansietà	NOUN	S	Gender=Fem	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	rimanevamo	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	conj	_	_
+20	così	così	ADV	B	_	19	advmod	_	_
+21	ostinatamente	ostinatamente	ADV	B	_	22	advmod	_	_
+22	muti	muto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+23	quand'	quandi	ADP	E	_	24	case	_	SpaceAfter=No
+24	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obl	_	_
+25	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pausa	pausa	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	per	per	ADP	E	_	30	case	_	_
+30	timore	timore	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32-33	distrarlo	_	_	_	_	_	_	_	_
+32	distrar	distrarre	VERB	V	VerbForm=Inf	30	acl	_	_
+33	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+34-35	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+34	da	da	ADP	E	_	36	case	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	27	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+39	comprese	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+40	d'	di	ADP	E	_	43	mark	_	SpaceAfter=No
+41-42	essersi	_	_	_	_	_	_	_	_
+41	esser	essere	AUX	VA	VerbForm=Inf	43	aux	_	_
+42	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	43	expl	_	_
+43	impegnato	impegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	xcomp	_	_
+44	troppo	troppo	ADV	B	_	43	advmod	_	_
+45	per	per	ADP	E	_	46	mark	_	_
+46	retrocedere	retrocedere	VERB	V	VerbForm=Inf	43	advcl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Si asciugò il sudore che gli faceva luccicare il viso, bevve un po' di _cognac_, poi ripigliò:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	asciugò	asciugare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sudore	sudore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+7	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8	luccicare	luccicare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	viso	viso	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	bevve	bevvere	SCONJ	CS	_	19	mark	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	po'	poco	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	_cognac_	_cognac-	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	poi	poi	ADV	B	_	19	advmod	_	_
+19	ripigliò	ripigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

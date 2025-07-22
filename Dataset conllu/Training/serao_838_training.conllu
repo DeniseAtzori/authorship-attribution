@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma fra le pelliccie, gli scialli, le coperte, al caldo, ella si addormentò assai tardi.
+1	Ma	ma	CCONJ	CC	_	18	cc	_	_
+2	fra	fra	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	pelliccie	pelliccia	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	scialli	sciallo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	coperte	coperta	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	addormentò	addormentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	assai	assai	ADV	B	_	20	advmod	_	_
+20	tardi	tardi	ADV	B	_	18	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 2
+# text = Teneva gli occhi chiusi, però, lasciandosi prendere da tutta quella dolcezza dell'amore e delle cose;
+1	Teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	chiusi	chiuso	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	però	però	ADV	B	_	1	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8-9	lasciandosi	_	_	_	_	_	_	_	_
+8	lasciando	lasciare	VERB	V	VerbForm=Ger	1	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	prendere	prendere	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	da	da	ADP	E	_	14	case	_	_
+12	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	14	det:predet	_	_
+13	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = ogni tanto, con un moto adorabile di stanchezza, li schiudeva e trovava gli occhi di Ferrante fissi su lei, così teneri, così amorosi che la magnetizzavano di nuovo, nella dolcezza.
+1	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	tanto	tanto	NOUN	S	Gender=Masc	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	moto	moto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+7	adorabile	adorabile	ADJ	A	Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	schiudeva	schiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Ferrante	Ferrante	PROPN	SP	_	16	nmod	_	_
+19	fissi	figgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20	su	su	ADP	E	_	21	case	_	_
+21	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	così	così	ADV	B	_	24	advmod	_	_
+24	teneri	tenero	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	così	così	ADV	B	_	27	advmod	_	_
+27	amorosi	amoroso	ADJ	A	Gender=Masc|Number=Plur	24	conj	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+30	magnetizzavano	magnetizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	30	punct	_	_
+34-35	nella	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

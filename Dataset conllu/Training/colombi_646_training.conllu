@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Prima di ripartire per Milano, egli domandò la Caterina in isposa;
+1	Prima	prima	ADV	B	_	3	mark	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	ripartire	ripartire	VERB	V	VerbForm=Inf	8	advcl	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	Milano	Milano	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	domandò	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Caterina	Caterina	PROPN	SP	_	8	obj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	isposa	isposo	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = e si combinarono le nozze col consenso di tutti, per la prossima Pasqua.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	combinarono	combinare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+6-7	col	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	consenso	consenso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	per	per	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	Pasqua	Pasqua	PROPN	SP	_	3	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Durante quei mesi, lo sposo faceva frequenti gite a Novara.
+1	Durante	durante	ADP	E	_	3	case	_	_
+2	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sposo	sposo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	frequenti	frequente	ADJ	A	Number=Plur	7	xcomp	_	_
+9	gite	gito	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Novara	Novara	PROPN	SP	_	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Non era nè molto giovane nè molto bello;
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	nè	nè	CCONJ	CC	_	5	cc	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	giovane	giovane	ADJ	A	Number=Sing	0	root	_	_
+6	nè	né	CCONJ	CC	_	8	cc	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	bello	bello	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = aveva una persona colossale, un viso paffuto e colorito, troppo colorito.
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	colossale	colossale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	viso	viso	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+8	paffuto	paffuto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	colorito	colorito	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	troppo	troppo	ADV	B	_	13	advmod	_	_
+13	colorito	colorito	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

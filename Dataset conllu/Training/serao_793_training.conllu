@@ -1,0 +1,136 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Venezia, Venezia!
+1	Venezia	Venezia	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Venezia	Venezia	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Fu il nome amabile, seducente, che videro brillare ogni giorno, ogni ora; innanzi alla loro immaginazione;
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	nome	nome	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	amabile	amabile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	seducente	seducente	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	videro	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+10	brillare	brillare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	ora	ora	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	17	punct	_	_
+17	innanzi	innanzi	ADV	B	_	10	advmod	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = parola magica che fece scomparire tutte le altre;
+1	parola	parola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	magica	magico	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5	scomparire	scomparire	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	5	obj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = sillabe ravvolgenti e incantatrici da cui le loro anime prese, legate, non si potettero svincolare mai più.
+1	sillabe	sillabo	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	ravvolgenti	ravvolgente	ADJ	A	Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	incantatrici	incantatrico	ADJ	A	Number=Plur	2	conj	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	anime	anima	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+10	prese	prese	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	legate	legare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	potettero	potere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+17	svincolare	svincolare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+18	mai	mai	ADV	B	_	17	advmod	_	_
+19	più	più	ADV	B	_	17	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = E man mano le loro lettere andarono perdendo tutto quel carattere d'indefinito, tutta quella vaghezza di contorni, quel continuo agitarsi errabondo dello spirito, quella incoerenza di anime deliranti:
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	man	mano	ADV	B	_	3	advmod	_	_
+3	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	loro	loro	DET	AP	Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+7	andarono	andare	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	perdendo	perdere	VERB	V	VerbForm=Ger	0	root	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	indefinito	indefinito	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	17	det:predet	_	_
+16	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	vaghezza	vaghezza	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	contorni	contorno	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	continuo	continuo	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+23-24	agitarsi	_	_	_	_	_	_	_	_
+23	agitar	agitare	VERB	V	VerbForm=Inf	22	acl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	errabondo	errabondo	NOUN	S	Gender=Masc|Number=Sing	23	xcomp	_	_
+26-27	dello	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+31	incoerenza	incoerenza	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	anime	anima	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
+34	deliranti	delirante	ADJ	A	Number=Plur	33	amod	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 6
+# text = la passione addossata al muro della realtà, era entrata in un periodo positivo, pratico, preciso.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	passione	passione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	addossata	addossare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	muro	muro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	realtà	realtà	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	entrata	entrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	positivo	positivo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	pratico	pratico	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	preciso	preciso	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

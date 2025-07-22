@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Adesso, si era seduta e teneva le mani in grembo:
+1	Adesso	adesso	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	seduta	sedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	mani	mano	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	grembo	grembo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = la beltà di quel dolce volto non parea fosse stata turbata, solo era piena di una pietà grande:
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	beltà	beltà	NOUN	S	Gender=Fem	11	nsubj:pass	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	dolce	dolce	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	volto	volto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	parea	pareo	NOUN	S	Gender=Fem|Number=Sing	6	xcomp	_	_
+9	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	turbata	turbare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	solo	solo	ADV	B	_	15	advmod	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	pietà	pietà	NOUN	S	Gender=Fem	15	obl	_	_
+19	grande	grande	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = pietà non sapiente, forse, non magistrale, non alta, ma umile, ma tenera, ma femminile.
+1	pietà	pietà	NOUN	S	Gender=Fem	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sapiente	sapiente	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	forse	forse	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	magistrale	magistrale	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	alta	alto	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ma	ma	CCONJ	CC	_	14	cc	_	_
+14	umile	umile	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ma	ma	CCONJ	CC	_	17	cc	_	_
+17	tenera	tenerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	ma	ma	CCONJ	CC	_	20	cc	_	_
+20	femminile	femminile	ADJ	A	Number=Sing	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ella non gli chiese conto della notte:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	chiese	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	conto	conto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = ella sentiva che, egli stesso, si pentiva troppo amaramente di quello che aveva fatto.
+1	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	9	punct	_	_
+5	egli	ello	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	pentiva	pentire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+10	troppo	troppo	ADV	B	_	11	advmod	_	_
+11	amaramente	amaramente	ADV	B	_	9	advmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

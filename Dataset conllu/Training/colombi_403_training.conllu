@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io le narrai tutta la storia disgraziata del mio amico;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	narrai	narrare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	storia	storia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	disgraziata	disgraziato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	amico	amico	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = le dissi le sue trepidazioni passate, le sue angoscie presenti, i suoi rimorsi, i suoi timori, il suo immenso amore per lei.
+1	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	dissi	dissi	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	trepidazioni	trepidazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	passate	passato	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	angoscie	angoscia	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+11	presenti	presente	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	rimorsi	rimorso	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	timori	timore	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+22	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+23	immenso	immenso	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+25	per	per	ADP	E	_	26	case	_	_
+26	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = La pregai di perdonargli; mi posi in ginocchio io stesso per Gustavo; evocai, per intenerirla, la memoria della povera Clelia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pregai	pregaio	NOUN	S	_	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	perdonargli	_	_	_	_	_	_	_	SpaceAfter=No
+4	perdonar	perdonare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+6	;	;	PUNCT	FC	_	4	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+8	posi	posare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	advcl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	ginocchio	ginocchio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	Gustavo	Gustavo	PROPN	SP	_	8	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	16	punct	_	_
+16	evocai	evocai	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19-20	intenerirla	_	_	_	_	_	_	_	SpaceAfter=No
+19	intenerir	intenerire	VERB	V	VerbForm=Inf	23	acl	_	_
+20	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	povera	povero	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	Clelia	Clelia	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

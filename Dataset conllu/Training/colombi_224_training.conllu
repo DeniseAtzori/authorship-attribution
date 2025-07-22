@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aveva narrata una storia meravigliosa ed incredibile, secondo la quale sarebbe stato dietro un avviso sopranaturale che avrebbero deciso di introdursi nel cimitero per violare una tomba.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	narrata	narrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	storia	storia	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	meravigliosa	meraviglioso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	incredibile	incredibile	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	secondo	secondo	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	quale	quale	PRON	PR	Number=Sing|PronType=Rel	16	obl	_	_
+12	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+13	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	cop	_	_
+14	dietro	dietro	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+17	sopranaturale	sopranaturale	ADJ	A	Number=Sing	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	introdursi	_	_	_	_	_	_	_	_
+22	introdur	introdurre	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	violare	violare	VERB	V	VerbForm=Inf	22	advcl	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ma non la tomba della vedova Blounty.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vedova	vedova	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	Blounty	Blounty	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Di questa dichiarava di non sapere assolutamente nulla; nè la località, nè le ricchezze che conteneva.
+1	Di	di	ADP	E	_	2	case	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	obl	_	_
+3	dichiarava	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	assolutamente	assolutamente	ADV	B	_	6	advmod	_	_
+8	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	12	punct	_	_
+10	nè	né	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	località	località	NOUN	S	Gender=Fem	3	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	nè	né	CCONJ	CC	_	16	cc	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	ricchezze	ricchezza	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	conteneva	contenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

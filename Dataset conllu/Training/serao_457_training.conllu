@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Niente ci poteva:
+1	Niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	poteva	potere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = si rideva delle sgridate, si rideva del castigo, andava in un angolo, ballava la tarantella e faceva le castagnette con le dita, si buttava per terra, faceva le capriole.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	rideva	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	advcl	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	sgridate	sgridata	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	rideva	ridevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	castigo	castigo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	ballava	ballare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	tarantella	tarantella	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	castagnette	castagnetta	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	dita	dito	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	13	punct	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+30	buttava	buttare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+31	per	per	ADP	E	_	32	case	_	_
+32	terra	terra	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	capriole	capriola	NOUN	S	Gender=Fem|Number=Plur	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Frenarla non era possibile.
+1-2	Frenarla	_	_	_	_	_	_	_	_
+1	Frenar	Frenare	VERB	V	VerbForm=Inf	0	root	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	possibile	possibile	ADJ	A	Number=Sing	1	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = In certi momenti mi veniva da schiaffeggiarla:
+1	In	in	ADP	E	_	3	case	_	_
+2	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7-8	schiaffeggiarla	_	_	_	_	_	_	_	SpaceAfter=No
+7	schiaffeggiar	schiaffeggiare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = in certi altri mi salivano le lagrime agi occhi.
+1	in	in	ADP	E	_	3	case	_	_
+2	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	salivano	salire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	lagrime	lagrimo	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	agi	ago	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ella era indomabile.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	indomabile	indomabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

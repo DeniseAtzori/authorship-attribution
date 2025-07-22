@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ci fu un grande andirivieni in tribunale;
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	grande	grande	ADJ	A	Number=Sing	5	amod	_	_
+5	andirivieni	andirivenere	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = e poi una mattina le due donne vennero da noi, portando qualche cosa nel grembiule.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+8	vennero	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	portando	portare	VERB	V	VerbForm=Ger	8	advcl	_	_
+13	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	grembiule	grembiula	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = La signora Rosa aveva sempre quel sorriso desolato;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Rosa	Rosa	PROPN	SP	_	2	nmod	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	sempre	sempre	ADV	B	_	4	advmod	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	desolato	desolato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = ma la signora Caterina era raggiante di gioia.
+1	ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	Caterina	Caterina	PROPN	SP	_	6	nsubj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	raggiante	raggiante	ADJ	A	Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Nel grembiule aveva tremila lire;
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	grembiule	grembiula	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	tremila	tremila	NUM	N	NumType=Card	6	nummod	_	_
+6	lire	lira	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = il cinquanta per cento ottenuto dal sindaco del fallimento sul loro capitale.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cinquanta	cinquanta	NUM	N	NumType=Card	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	cento	cento	NUM	N	NumType=Card	2	nummod	_	_
+5	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	capitale	capitale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

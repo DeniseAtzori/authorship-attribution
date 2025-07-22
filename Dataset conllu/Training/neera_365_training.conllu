@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questi si alzò, un po' rosso, come se fosse stato colto in fallo, e prese a fare il giro degli altari lentamente.
+1	Questi	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	po'	poco	ADV	B	_	7	advmod	_	_
+7	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	come	come	ADV	B	_	13	advmod	_	_
+10	se	se	SCONJ	CS	_	13	mark	_	_
+11	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+12	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	colto	cogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	fallo	fallo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	fare	fare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	giro	giro	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	degli	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	altari	altario	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	lentamente	lentamente	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = I dipinti lo attiravano in particolar modo e quando scoperse nella navata a destra dell'altar maggiore un piccolo Gesù che predicava ai dottori si fermò a lungo, immobile, la mente piena di visioni.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dipinti	dipinto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	attiravano	attiravare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	particolar	particolare	ADJ	A	Number=Sing	7	amod	_	_
+7	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	29	cc	_	_
+9	quando	quando	SCONJ	CS	_	10	mark	_	_
+10	scoperse	scopergere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	29	advcl	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	navata	navata	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	destra	destra	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	altar	altar	NOUN	S	Gender=Masc	13	nmod	_	_
+19	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	18	amod	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	Gesù	Gesù	PROPN	SP	_	19	nsubj	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	predicava	predicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+25-26	ai	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	dottori	dottore	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	fermò	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	29	punct	_	_
+33	immobile	immobile	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	29	punct	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	mente	mente	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+37	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	visioni	visione	NOUN	S	Gender=Fem|Number=Plur	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Ora viene la storia dello spasimante ricco e nobile.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ora	ora	ADV	B	_	3	advmod	_	_
+3	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	storia	storia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6-7	dello	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	spasimante	spasimante	NOUN	S	Number=Sing	5	nmod	_	_
+9	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	nobile	nobile	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ce n'è sempre almeno uno nella storia delle donne di teatro, ed è sempre stato respinto.
+1	Ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	6	advmod	_	_
+5	almeno	almeno	ADV	B	_	6	advmod	_	_
+6	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	donne	donna	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	ed	e	CCONJ	CC	_	20	cc	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+18	sempre	sempre	ADV	B	_	20	advmod	_	_
+19	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	respinto	respingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Soltanto, il mio, che era più ostinato degli altri, quando vide che non poteva giungere a me per le vie storte, prese quella retta del municipio, e mi domandò in moglie, a condizione che lascerei il teatro sposandolo.
+1	Soltanto	soltanto	ADV	B	_	27	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mio	mio	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	ostinato	ostinato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	quando	quando	SCONJ	CS	_	15	mark	_	_
+15	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	giungere	giungere	VERB	V	VerbForm=Inf	15	ccomp	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	obl	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	vie	via	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+25	storte	storto	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	4	punct	_	_
+27	prese	prendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+28	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+29	retta	retto	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	municipio	municipio	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	36	punct	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	36	obj	_	_
+36	domandò	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	conj	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	27	punct	_	_
+40	a	a	ADP	E	_	41	case	_	_
+41	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+42	che	che	SCONJ	CS	_	43	mark	_	_
+43	lascerei	lascere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	41	acl	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+46-47	sposandolo	_	_	_	_	_	_	_	SpaceAfter=No
+46	sposando	sposare	VERB	V	VerbForm=Ger	43	advcl	_	_
+47	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	obj	_	_
+48	.	.	PUNCT	FS	_	27	punct	_	SpacesAfter=\n
+

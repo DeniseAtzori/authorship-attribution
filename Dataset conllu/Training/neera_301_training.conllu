@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Avremo dunque, oltre che dal lato paterno, anche per parte delle madri questo spaventoso flagello della razza.
+1	Avremo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	dunque	dunque	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	oltre	oltre	ADV	B	_	1	advmod	_	_
+5	che	che	SCONJ	CS	_	4	fixed	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	lato	lato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	paterno	paterno	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	madri	madre	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+18	spaventoso	spaventoso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	flagello	flagello	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	razza	razza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Si sa che l’alcoolismo ha sui figli una azione micidiale.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	alcoolismo	alcoolismo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	azione	azione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+12	micidiale	micidiale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Essa infallibilmente farà crescere il numero dei delinquenti, degli idioti, degli epilettici, dei nevrastenici.
+1	Essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	infallibilmente	infallibilmente	ADV	B	_	3	advmod	_	_
+3	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	crescere	crescere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	numero	numero	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	delinquenti	delinquento	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	idioti	idiota	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	epilettici	epilettico	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	nevrastenici	nevrastenico	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Avremo avvelenate le sorgenti stesse della vita e la natura si vendicherà della violenza che vogliamo imporle, dandoci generazioni sempre più deboli ed infelici.
+1	Avremo	avere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	aux:pass	_	_
+2	avvelenate	avvelenare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	sorgenti	sorgente	NOUN	S	Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+5	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	natura	natura	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	vendicherà	vendicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+18	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19-20	imporle	_	_	_	_	_	_	_	SpaceAfter=No
+19	impor	imporre	VERB	V	VerbForm=Inf	16	acl:relcl	_	_
+20	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22-23	dandoci	_	_	_	_	_	_	_	_
+22	dando	dare	VERB	V	VerbForm=Ger	13	advcl	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	22	expl	_	_
+24	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25	sempre	sempre	ADV	B	_	26	advmod	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	deboli	debole	ADJ	A	Number=Plur	24	amod	_	_
+28	ed	e	CCONJ	CC	_	29	cc	_	_
+29	infelici	infelice	ADJ	A	Number=Plur	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

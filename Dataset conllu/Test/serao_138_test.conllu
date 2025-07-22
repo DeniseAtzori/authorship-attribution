@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il ministro continuò a dire i nomi, e nell'attenzione generale, le voci commosse e le voci tranquille si facevano udire:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	continuò	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10-11	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	in	in	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+13	generale	generale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	voci	voce	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+17	commosse	commosso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	voci	voce	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+21	tranquille	tranquillo	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+24	udire	udire	VERB	V	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ora come sorgenti dalle viscere della terra, ora come discendenti dal lucernario.
+1	ora	ora	ADV	B	_	0	root	_	_
+2	come	come	SCONJ	CS	_	3	mark	_	_
+3	sorgenti	sorgente	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	1	advcl	_	_
+4-5	dalle	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	viscere	viscere	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	terra	terra	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	ora	ora	ADV	B	_	13	advmod	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	discendenti	discendento	NOUN	S	Number=Plur	6	nmod	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	lucernario	lucernario	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = I vecchi parlamentari giuravano, stendendo semplicemente la mano e pronunziando sottovoce la parola:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	parlamentari	parlamentare	NOUN	S	Number=Plur	0	root	_	_
+4	giuravano	giurare	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	stendendo	stendire	VERB	V	VerbForm=Ger	3	advcl	_	_
+7	semplicemente	semplicemente	ADV	B	_	6	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mano	mano	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	pronunziando	pronunziare	VERB	V	VerbForm=Ger	6	conj	_	_
+12	sottovoce	sottovoce	ADV	B	_	11	advmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	parola	parola	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = i deputati radicali, che si erano lungamente preparati a quel passo difficile, giuravano presto presto, come per sbarazzarsi di un peso.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+3	radicali	radicale	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+7	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	lungamente	lungo	ADV	B	_	9	advmod	_	_
+9	preparati	preparare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	passo	passo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	difficile	difficile	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	giuravano	giurare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	presto	presto	ADV	B	_	15	advmod	_	_
+17	presto	presto	ADV	B	_	15	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	come	come	ADP	E	_	21	mark	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21-22	sbarazzarsi	_	_	_	_	_	_	_	_
+21	sbarazzar	sbarazzare	VERB	V	VerbForm=Inf	15	advcl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	peso	peso	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

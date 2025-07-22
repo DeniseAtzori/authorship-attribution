@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Si mandò un garzone del negozio all'albergo a chiamare lo sposo, per non far attendere il parroco più a lungo.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	mandò	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	garzone	garzone	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	chiamare	chiamare	VERB	V	VerbForm=Inf	2	advcl	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sposo	sposo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	per	per	ADP	E	_	18	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	far	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+19	attendere	attendere	VERB	V	VerbForm=Inf	18	ccomp	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	parroco	parroco	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	più	più	ADV	B	_	24	advmod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Lo sposo dormiva saporitamente.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sposo	sposo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	dormiva	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	saporitamente	saporitamente	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Bussa e ribussa, non c'era verso di farsi udire;
+1	Bussa	Butere	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	ribussa	ributere	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	verso	verso	ADP	E	_	10	mark	_	_
+9	di	di	ADP	E	_	8	fixed	_	_
+10-11	farsi	_	_	_	_	_	_	_	_
+10	far	fare	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	udire	udire	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = e l'uscio della camera era chiuso internamente.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	camera	camera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	internamente	interno	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Era un giovane assestato;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giovane	giovane	NOUN	S	Number=Sing	0	root	_	_
+4	assestato	assestato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = aveva con sè il denaro pel viaggio da nozze, aveva dei gioielli, e non s'era fidato, con quel sonno di piombo che benediva le sue notti, a lasciar l'uscio aperto in una pubblica locanda.
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	sè	sè	PRON	PE	Person=3|PronType=Prs	1	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+6-7	pel	_	_	_	_	_	_	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	gioielli	gioiello	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	fidato	fidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	piombo	piombo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	benediva	benedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+31	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	notti	notte	NOUN	S	Gender=Fem|Number=Plur	29	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	1	punct	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	lasciar	lasciare	VERB	V	VerbForm=Inf	1	advcl	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+39	in	in	ADP	E	_	42	case	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+42	locanda	locanda	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

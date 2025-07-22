@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Erano tutti tranquilli.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	obl	_	_
+3	tranquilli	tranquillo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Nessuno si mostrava afflitto per la bimba morta, nessuno era inquieto per la madre, il cui dolore, in mezzo a quella rozza apatia, pareva un caso patologico, un esaltamento.
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	mostrava	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	afflitto	afflitto	ADV	B	_	3	advmod	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	bimba	bimba	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	morta	morto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	inquieto	inquieto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	madre	madre	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	cui	cui	DET	DR	PronType=Rel	19	det:poss	_	_
+19	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	a	a	ADP	E	_	26	case	_	_
+24	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+25	rozza	rozzo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	apatia	apatia	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	caso	caso	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+31	patologico	patologico	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	28	punct	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	esaltamento	esaltamento	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Cercavano anzi di scusarla, mi dicevano che era giovane, che era la prima volta che le moriva una creatura, e che era accaduta la disgrazia quando non ci era ancora preparata.
+1	Cercavano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	anzi	anzi	ADV	B	_	4	advmod	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	scusarla	_	_	_	_	_	_	_	SpaceAfter=No
+4	scusar	scusare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+8	dicevano	dicevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	giovane	giovane	ADJ	A	Number=Sing	8	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	_
+17	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+18	che	che	SCONJ	CS	_	20	mark	_	_
+19	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	moriva	morire	NOUN	S	Gender=Fem|Number=Sing	8	ccomp	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	accaduta	accadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	disgrazia	disgrazia	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+30	quando	quando	SCONJ	CS	_	33	mark	_	_
+31	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+32	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	33	expl	_	_
+33	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	advcl	_	_
+34	ancora	ancora	ADV	B	_	35	advmod	_	_
+35	preparata	preparato	ADJ	A	Gender=Fem|Number=Sing	33	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = E ripetevano come per riabilitarla ai miei occhi:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	ripetevano	ripetere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	come	come	SCONJ	CS	_	5	mark	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-6	riabilitarla	_	_	_	_	_	_	_	_
+5	riabilitar	riabilitare	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Imputata — le disse — voi udite;
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	Imputata	Imputare	PROPN	SP	_	5	nsubj	_	_
+3	—	—	PUNCT	FF	_	2	punct	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	5	iobj	_	_
+5	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+6	—	—	PUNCT	FF	_	8	punct	_	_
+7	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	8	nsubj	_	_
+8	udite	udire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = il vostro complice invoca che venga prodotta la cassetta misteriosa;
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	complice	complice	NOUN	S	Number=Sing	4	nsubj	_	_
+4	invoca	invoco	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cassetta	cassetta	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+10	misteriosa	misterioso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = egli ci crede;
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = se voi pure ci credeste, potreste esitare a dirci dove si trova?
+1	se	se	SCONJ	CS	_	5	mark	_	_
+2	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
+3	pure	pure	ADV	B	_	5	advmod	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+5	credeste	crededere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	potreste	potresta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	esitare	esitare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	dirci	_	_	_	_	_	_	_	_
+10	dir	dire	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	expl	_	_
+12	dove	dove	ADV	B	_	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Potreste lasciar condannare voi ed il vostro complice, senza tentare quest'unico mezzo per provare che, in parte almeno, siete stati in buona fede?
+1	Potreste	Potresta	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	2	nsubj	_	_
+2	lasciar	lasciare	VERB	V	VerbForm=Inf	0	root	_	_
+3	condannare	condannare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	obj	_	_
+5	ed	e	CCONJ	CC	_	8	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	complice	complice	NOUN	S	Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11	tentare	tentare	VERB	V	VerbForm=Inf	2	advcl	_	_
+12	quest'	questo	DET	DD	Number=Sing|PronType=Dem	14	det	_	SpaceAfter=No
+13	unico	unico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	provare	provare	VERB	V	VerbForm=Inf	11	advcl	_	_
+17	che	che	SCONJ	CS	_	27	mark	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	27	punct	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	parte	parte	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+21	almeno	almeno	ADV	B	_	22	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	aux	_	_
+24	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	cop	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	buona	buono	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	fede	fede	NOUN	S	Gender=Fem|Number=Sing	16	ccomp	_	SpaceAfter=No
+28	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

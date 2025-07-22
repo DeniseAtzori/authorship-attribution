@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Non c'è nessun mezzo per far questo?
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	far	fare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Io sono disposta a dare tutto quello che possiedo, ad espormi a qualunque pericolo.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	disposta	disporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	dare	dare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+9	possiedo	possedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	ad	a	ADP	E	_	12	case	_	_
+12	espormi	esporme	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = È l'ultima volontà d'un moribondo, il suo testamento.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volontà	volontà	NOUN	S	Gender=Fem	0	root	_	_
+5	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	moribondo	moribondo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	testamento	testamento	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Io ho trascurato di obbedirlo, ed ora la sua anima è in pena, e forse non avrà più pace finchè non avremo eseguito quel comando.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	trascurato	trascurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	obbedirlo	_	_	_	_	_	_	_	SpaceAfter=No
+5	obbedir	obbedire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	15	punct	_	_
+8	ed	e	CCONJ	CC	_	15	cc	_	_
+9	ora	ora	ADV	B	_	15	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	anima	anima	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	pena	pena	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	forse	forse	ADV	B	_	20	advmod	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+21	più	più	ADV	B	_	20	advmod	_	_
+22	pace	pace	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	finchè	finché	SCONJ	CS	_	26	mark	_	_
+24	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+25	avremo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	26	aux	_	_
+26	eseguito	eseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+27	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+28	comando	comando	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Il suo spirito è venuto a ripeterlo dopo un anno;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	ripeterlo	_	_	_	_	_	_	_	_
+7	ripeter	ripetere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	dopo	dopo	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	anno	anno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = lo abbiamo udito tutti e due.
+1	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	udito	udire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	due	due	NUM	N	NumType=Card	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = È un ordine del Signore.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Signore	signore	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Aiutateci per carità.
+1-2	Aiutateci	_	_	_	_	_	_	_	_
+1	Aiutate	Aiutare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	1	expl	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	carità	carità	NOUN	S	Gender=Fem	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ecco qui — egli sembra dire — vi risparmio la fatica di leggere il libro:
+1	Ecco	ecco	ADV	B	_	2	advmod	_	_
+2	qui	qui	ADV	B	_	9	advmod	_	_
+3	—	—	PUNCT	FF	_	5	punct	_	_
+4	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	—	—	PUNCT	FF	_	9	punct	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	9	iobj	_	_
+9	risparmio	risparmio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	leggere	leggere	VERB	V	VerbForm=Inf	11	acl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	libro	libro	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = _Luisa abbandona la casa paterna_, _per farsi attrice_.
+1	_Luisa	_Luisa	PROPN	SP	_	2	nsubj	_	_
+2	abbandona	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	paterna_	ExtraSubj=Yes|paterna_	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	_per	_pere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8-9	farsi	_	_	_	_	_	_	_	_
+8	far	fare	VERB	V	VerbForm=Inf	2	conj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	attrice_	attrice-	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = _Incontra un ufficiale che le propone di sposarla._ _Ella lo ama ma non vuole;
+1	_Incontra	_Incontrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ufficiale	ufficiale	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	propone	propone	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	sposarla._	ExtraSubj=Yes|sposarla._	ADJ	NO	NumType=Ord	9	amod	_	_
+9	_Ella	_Ella	PROPN	SP	_	6	nmod	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = non si capisce il perchè.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:pass	_	_
+3	capisce	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	perchè	perchè	NOUN	S	Gender=Masc	3	nsubj:pass	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Si pente dopo, ma troppo tardi.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	pente	pente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dopo	dopo	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	troppo	troppo	ADV	B	_	7	advmod	_	_
+7	tardi	tardi	ADV	B	_	2	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Arte ed amore le mancano.
+1	Arte	arte	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	ed	e	CCONJ	CC	_	3	cc	_	_
+3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	mancano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Soggetto non nuovo, come si vede.
+1	Soggetto	soggetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	come	come	SCONJ	CS	_	7	mark	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Lingua discreta ma con qualche francesismo._
+1	Lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	discreta	discreto	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	ma	ma	CCONJ	CC	_	6	cc	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	francesismo._	ExtraSubj=Yes|francesismo._	ADJ	NO	NumType=Ord	1	conj	_	SpacesAfter=\n
+

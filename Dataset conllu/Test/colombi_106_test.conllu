@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Io aveva in mano il fiore di vaniglia che un momento prima era all'occhiello dell'abito del maestro.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	vaniglia	vaniglia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	momento	momento	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+13	prima	prima	ADV	B	_	17	advmod	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	occhiello	occhiello	NOUN	S	Gender=Masc|Number=Sing	7	acl:relcl	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	abito	abito	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Se la direttrice l'avesse veduto, non avrebbe mancato di farne rimprovero non a me sola, ma a lui; anzi a lui solo, perchè quanto a me non potevo che accettare la cortesia d'un superiore.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	direttrice	direttore	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	mancato	mancato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	farne	_	_	_	_	_	_	_	_
+12	far	fare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	12	iobj	_	_
+14	rimprovero	rimprovero	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+18	sola	solo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	ma	ma	CCONJ	CC	_	22	cc	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	conj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	36	punct	_	_
+24	anzi	anzi	ADV	B	_	36	advmod	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obl	_	_
+27	solo	solo	ADV	B	_	36	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	perchè	perché	SCONJ	CS	_	36	mark	_	_
+30	quanto	quanto	ADV	B	_	36	advmod	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	36	obl	_	_
+33	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+34	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	36	aux	_	_
+35	che	che	SCONJ	CS	_	36	mark	_	_
+36	accettare	accettare	VERB	V	VerbForm=Inf	10	conj	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	cortesia	cortesia	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+39	d'	di	ADP	E	_	41	case	_	SpaceAfter=No
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	superiore	superiore	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	36	punct	_	SpacesAfter=\n
+

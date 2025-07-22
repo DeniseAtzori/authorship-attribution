@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Aveva il viso, i capelli, il collo, tutti coperti di sangue, narrava la Cecchina;
+1	--Aveva	--Avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	viso	viso	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	collo	collo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nmod	_	_
+12	coperti	coprire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	narrava	narrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Cecchina	Cecchina	PROPN	SP	_	16	obj	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = e non si capiva neppure dove fosse la ferita.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	capiva	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	neppure	neppure	ADV	BN	PronType=Neg	7	advmod	_	_
+6	dove	dove	ADV	B	_	7	advmod	_	_
+7	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ferita	ferita	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Quando vidi quell'orrore, mi posi a gridare:
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	vidi	videre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+3	quell'	quello	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+4	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	posi	posare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	gridare	gridare	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = «Madonna santa!
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Madonna	Madonna	PROPN	SP	_	0	root	_	_
+3	santa	santo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = com'è stato?»
+1	com'	come	SCONJ	CS	_	3	mark	_	SpaceAfter=No
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	3	punct	_	_
+
+# sent_id = 6
+# text = E gli uomini che lo avevano portato mi risposero:
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	risposero	rispodere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 7
+# text = «È per quella strega bionda di Borgovico.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	strega	strega	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	bionda	biondo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Borgovico	Borgovico	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

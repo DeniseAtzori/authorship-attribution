@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi venne il Medio Evo.
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Medio	Medio	PROPN	SP	_	0	root	_	_
+5	Evo	Evo	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Quelle turbe su cui il cristianesimo aveva soffiato il concetto di una idealità elevata erano preparate all’accettazione del motto che fu per tanti anni la forza di intere nazioni:
+1	Quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	2	nsubj	_	_
+2	turbe	turbe	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	su	su	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	2	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cristianesimo	cristianesimo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	soffiato	soffiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	idealità	idealità	NOUN	S	Gender=Fem	10	nmod	_	_
+14	elevata	elevato	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	preparate	preparare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+17-18	all’	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	accettazione	accettazione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	motto	motto	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+24	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	27	det	_	_
+27	anni	anno	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	forza	forza	NOUN	S	Gender=Fem|Number=Sing	22	acl:relcl	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31	intere	intero	VERB	V	VerbForm=Inf	29	acl	_	_
+32	nazioni	nazione	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = Dio, il re, la donna.
+1	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	re	re	NOUN	S	Gender=Masc	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	donna	donna	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Dal fondo delle borgate, dai tetri castelli, il fiore della gioventù accorse sotto il nobile vessillo.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	borgate	borgata	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8-9	dai	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	tetri	tetro	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+11	castelli	castello	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	gioventù	gioventù	NOUN	S	Gender=Fem	14	nmod	_	_
+18	accorse	accorrere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+19	sotto	sotto	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	nobile	nobile	ADJ	A	Number=Sing	22	amod	_	_
+22	vessillo	vessillo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

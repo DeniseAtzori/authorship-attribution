@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non gli perdonava d'aver avvilita sua madre.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	perdonava	perdonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	d'	di	ADP	E	_	6	mark	_	SpaceAfter=No
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	avvilita	avvilire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	madre	madre	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = E quel povero marito malato, debole, condannato ad una morte immatura, e, per colmo di sventura, tradito, prendeva nel suo cuore generoso il posto del padre che disprezzava.
+1	E	e	CCONJ	CC	_	24	cc	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	povero	povero	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	marito	marito	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+5	malato	malato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	debole	debole	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+10	ad	a	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	morte	morto	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	immatura	immatura	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	colmo	colmo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	sventura	sventura	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	tradito	tradire	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	4	punct	_	_
+24	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+29	generoso	generoso	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	posto	posto	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	padre	padre	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	disprezzava	disprezzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	acl:relcl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 3
+# text = Di tutto questo si era proposto di non lasciar trasparire nulla alla sua povera mamma, e di perdonare, di perdonar tutto, di gettare un velo sul passato, ricordandosi soltanto la sua lunga vita di solitudine e di dolore e di devozione materna.
+1	Di	di	ADP	E	_	3	case	_	_
+2	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	proposto	proporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	lasciar	lasciare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+10	trasparire	trasparire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	16	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	povera	povero	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	perdonare	perdonare	VERB	V	VerbForm=Inf	6	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	perdonar	perdonare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+24	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	gettare	gettare	VERB	V	VerbForm=Inf	23	conj	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	velo	velo	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30-31	sul	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	passato	passato	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	20	punct	_	_
+34-35	ricordandosi	_	_	_	_	_	_	_	_
+34	ricordando	ricordare	VERB	V	VerbForm=Ger	20	advcl	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+36	soltanto	soltanto	ADV	B	_	40	advmod	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+38	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
+39	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	_
+40	vita	vita	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+43	e	e	CCONJ	CC	_	45	cc	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	42	conj	_	_
+46	e	e	CCONJ	CC	_	48	cc	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	devozione	devozione	NOUN	S	Gender=Fem|Number=Sing	42	conj	_	_
+49	materna	materno	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per lungo tempo, l'amore che mi portava Giustino Morelli fu la mia segreta consolazione e il mio segreto orgoglio.
+1	Per	per	ADP	E	_	3	case	_	_
+2	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+10	Giustino	Giustino	PROPN	SP	_	9	obj	_	_
+11	Morelli	Morelli	PROPN	SP	_	10	flat:name	_	_
+12	fu	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	segreta	segreto	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	consolazione	consolazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+20	segreto	segreto	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Io era una donna assolutamente infelice, con mio marito:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	assolutamente	assolutamente	ADV	B	_	6	advmod	_	_
+6	infelice	infelice	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	marito	marito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = una di quelle infelicità coniugali intime e inesauribili che assumono le più tormentose e quotidiane forme, che mettono al cimento la maggior pazienza femminile e che sconvolgono nell'anima più ferma ogni idea di giustizia.
+1	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	infelicità	infelicità	NOUN	S	Gender=Fem	1	nmod	_	_
+5	coniugali	coniugale	ADJ	A	Number=Plur	4	amod	_	_
+6	intime	intimo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	inesauribili	inesauribile	ADJ	A	Number=Plur	6	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	assumono	assumere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	tormentose	tormentoso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	quotidiane	quotidiano	ADJ	A	Gender=Fem|Number=Plur	13	conj	_	_
+16	forme	forma	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	cimento	cimento	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	25	amod	_	_
+25	pazienza	pazienza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+26	femminile	femminile	ADJ	A	Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	sconvolgono	sconvolere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+30-31	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+30	in	in	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	anima	anima	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+35	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	36	det	_	_
+36	idea	idea	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

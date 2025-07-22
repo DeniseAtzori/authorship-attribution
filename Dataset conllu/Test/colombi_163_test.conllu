@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Sempre nella stessa posizione prosaica, nell'atto di inzuccherare il mio caffè, lessi tutta quella lettera.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Sempre	sempre	ADV	B	_	6	advmod	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	prosaica	prosaico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9-10	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	in	in	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	atto	atto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	inzuccherare	inzuccherare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	caffè	caffè	NOUN	S	Gender=Masc	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	lessi	ledere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	advcl	_	_
+19	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	21	det:predet	_	_
+20	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Passai dalla dolce trepidazione della speranza al più profondo abbattimento, senza che il menomo cangiamento si fosse fatto nella mia persona.
+1	Passai	passare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	dolce	dolce	ADJ	A	Number=Sing	5	amod	_	_
+5	trepidazione	trepidazione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	13	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	abbattimento	abbattimento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	senza	senza	ADP	E	_	22	mark	_	_
+16	che	che	SCONJ	CS	_	15	fixed	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	menomo	menomo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	cangiamento	cangiamento	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	obj	_	_
+21	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	persona	persona	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Soltanto sentivo velarmisi gli occhi d'un liquido tremolante, e poi grosse lagrime rigarmi le guancie e cadere nella tazza che avevo dinanzi.
+1	Soltanto	soltanto	ADV	B	_	2	advmod	_	_
+2	sentivo	sentivo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	velarmisi	velarmidere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+6	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	liquido	liquido	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	tremolante	tremolante	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	poi	poi	ADV	B	_	15	advmod	_	_
+13	grosse	grosso	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+14	lagrime	lagrimo	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+15	rigarmi	arma|rigarme	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	guancie	guancia	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	cadere	cadere	VERB	V	VerbForm=Inf	3	conj	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	tazza	tazza	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+24	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+25	dinanzi	dinanzi	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

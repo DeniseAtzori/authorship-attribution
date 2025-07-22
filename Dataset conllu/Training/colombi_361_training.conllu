@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Quando rividi Clelia il giorno dopo, non le parlai più di pigione, di denaro.
+1	—	—	PUNCT	FF	_	11	punct	_	_
+2	Quando	quando	SCONJ	CS	_	3	mark	_	_
+3	rividi	rividere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4	Clelia	Clelia	PROPN	SP	_	3	obj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	dopo	dopo	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	parlai	parlare	NOUN	S	_	0	root	_	_
+12	più	più	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	pigione	pigione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Discorremmo d'arte, di libri, di teatri, di amici lontani, di noi, di tutto.
+1	Discorremmo	discorremmo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	d'	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	arte	arte	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	libri	libro	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	teatri	teatro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	amici	amico	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+13	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ed allora non fu punto impacciata;
+1	Ed	e	CCONJ	CC	_	6	cc	_	_
+2	allora	allora	ADV	B	_	6	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+5	punto	punto	ADV	B	_	6	advmod	_	_
+6	impacciata	impacciato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = le parole non le morivano fra i denti come la sera innanzi;
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	morivano	morire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	fra	fra	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	denti	dente	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	innanzi	innanzi	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = parlava con entusiasmo, e mi guardava negli occhi senza sfrontatezza, ma con un'espressione di curiosità e di simpatia.
+1	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+8-9	negli	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	sfrontatezza	sfrontatezza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	curiosità	curiosità	NOUN	S	Gender=Fem	17	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	simpatia	simpatia	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

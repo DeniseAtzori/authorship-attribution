@@ -1,0 +1,152 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lo vedevo decomporsi, per la collera, per il dolore.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	vedevo	vedere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3-4	decomporsi	_	_	_	_	_	_	_	SpaceAfter=No
+3	decompor	decomporre	VERB	V	VerbForm=Inf	0	root	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	collera	collera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Che m'importava?
+1	Che	che	SCONJ	CS	_	3	advmod	_	_
+2	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+3	importava	importavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Mi aveva avvinta a una catena insopportabile.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	avvinta	avvincere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	catena	catena	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	insopportabile	insopportabile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Tentai spezzarla.
+1	Tentai	Tentai	ADV	B	_	2	advmod	_	_
+2-3	spezzarla	_	_	_	_	_	_	_	SpaceAfter=No
+2	spezzar	spezzare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Impossibile!
+1	Impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Egli sopportava qualunque insulto, ora tranquillo, ora umile, ora amorosissimo, e questo, non per amore, no, io lo intendeva bene, ma per la consuetudine della passione, per il legame oscuro ma saldo con cui la passione serra le persone, per la passione della mia persona, delle mie labbra, delle mie braccia!
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sopportava	sopportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	insulto	insulto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	ora	ora	ADV	B	_	7	advmod	_	_
+7	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+10	umile	umile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	ora	ora	ADV	B	_	13	advmod	_	_
+13	amorosissimo	amorosissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	no	no	INTJ	I	Polarity=Neg	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+26	intendeva	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+27	bene	bene	ADV	B	_	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	ma	ma	CCONJ	CC	_	32	cc	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	consuetudine	consuetudine	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	passione	passione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	26	punct	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	legame	legame	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+40	oscuro	oscuro	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+41	ma	ma	CCONJ	CC	_	42	cc	_	_
+42	saldo	saldo	ADJ	A	Gender=Masc|Number=Sing	40	conj	_	_
+43	con	con	ADP	E	_	44	case	_	_
+44	cui	cui	PRON	PR	PronType=Rel	26	obl	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	passione	passione	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	_
+47	serra	serra	NOUN	S	Gender=Fem|Number=Sing	46	compound	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	persone	persona	NOUN	S	Gender=Fem|Number=Plur	46	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	49	punct	_	_
+51	per	per	ADP	E	_	53	case	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	passione	passione	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+54-55	della	_	_	_	_	_	_	_	_
+54	di	di	ADP	E	_	57	case	_	_
+55	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+56	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	57	det:poss	_	_
+57	persona	persona	NOUN	S	Gender=Fem|Number=Sing	53	nmod	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	62	punct	_	_
+59-60	delle	_	_	_	_	_	_	_	_
+59	di	di	ADP	E	_	62	case	_	_
+60	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	62	det	_	_
+61	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	62	det:poss	_	_
+62	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	53	conj	_	SpaceAfter=No
+63	,	,	PUNCT	FF	_	67	punct	_	_
+64-65	delle	_	_	_	_	_	_	_	_
+64	di	di	ADP	E	_	67	case	_	_
+65	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	67	det	_	_
+66	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	67	det:poss	_	_
+67	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	53	conj	_	SpaceAfter=No
+68	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Furiosamente geloso: di una gelosia così folle che, varie volte, mi dette la illusione di un amore completo e verace.
+1	Furiosamente	Furiosamente	ADV	B	_	2	advmod	_	_
+2	geloso	geloso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	gelosia	gelosia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	così	così	ADV	B	_	8	advmod	_	_
+8	folle	folle	ADJ	A	Number=Sing	6	amod	_	_
+9	che	che	SCONJ	CS	_	15	mark	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	varie	vario	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	volte	volta	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	dette	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	amore	amore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	completo	completo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	verace	verace	ADJ	A	Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

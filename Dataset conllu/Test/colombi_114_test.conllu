@@ -1,0 +1,134 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Il babbo, non meno occupato di lui, potè bene trovar due giorni per accompagnarmi qui, installarmi, vedermi andare in iscena.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	meno	meno	ADV	B	_	7	advmod	_	_
+7	occupato	occupato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	potè	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	bene	bene	ADV	B	_	13	advmod	_	_
+13	trovar	trovare	VERB	V	VerbForm=Inf	0	root	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	accompagnarmi	arma|accompagnarme	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+18	qui	qui	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20-21	installarmi	_	_	_	_	_	_	_	SpaceAfter=No
+20	installar	installare	VERB	V	VerbForm=Inf	13	conj	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23-24	vedermi	_	_	_	_	_	_	_	_
+23	veder	vedere	VERB	V	VerbForm=Inf	20	advcl	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	obj	_	_
+25	andare	andare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	iscena	iscena	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Perchè non avrebbe potuto ottener anche Welfard un permesso come il babbo?
+1	Perchè	perché	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
+5	ottener	ottenere	VERB	V	VerbForm=Inf	0	root	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	Welfard	Welfard	PROPN	SP	_	5	obj	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	permesso	permesso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Quella indifferenza mi fece male, salii in convoglio piangendo.
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	male	male	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	salii	salii	ADJ	NO	Number=Sing|NumType=Ord	10	xcomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	convoglio	convoglio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	piangendo	piangere	VERB	V	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Mi parve d'essere amata a tempo perso, di non essere il primo, ma l'ultimo de' suoi pensieri.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	d'	di	ADP	E	_	5	mark	_	SpaceAfter=No
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	perso	perso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	di	di	ADP	E	_	14	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	essere	essere	AUX	V	VerbForm=Inf	14	cop	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	conj	_	_
+19-20	de'	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Le considerazioni di tempo, di occupazioni, erano messe innanzi a me.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	considerazioni	considerazioni	NOUN	S	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	occupazioni	occupazione	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux:pass	_	_
+10	messe	mettere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11	innanzi	innanzi	ADV	B	_	13	case	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = Tutti i doveri gli erano più sacri che il dovere contratto con me di amarmi e di farmi felice.
+1	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	doveri	dovere	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	sacri	sacro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+11	contratto	contrarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	amarmi	_	_	_	_	_	_	_	_
+15	amar	amare	VERB	V	VerbForm=Inf	10	acl	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	expl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+20	felice	felice	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

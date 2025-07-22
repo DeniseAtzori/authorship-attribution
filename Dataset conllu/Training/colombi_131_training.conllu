@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ebbene, credano a me; non se ne insuperbiscano.
+1	Ebbene	ebbene	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	credano	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	10	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+10	insuperbiscano	insuperbiscare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Si ricordano che trincieramenti di babbi, di mamme, di zii, di prozii, di istitutrici, avevano intorno quando andavano fuori?
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	ricordano	ricordare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	20	mark	_	_
+4	trincieramenti	trincieramento	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	babbi	babbio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	mamme	mamma	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	zii	zio	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	prozii	prozio	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	istitutrici	istitutore	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+21	intorno	intorno	ADV	B	_	20	advmod	_	_
+22	quando	quando	SCONJ	CS	_	23	mark	_	_
+23	andavano	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	advcl	_	_
+24	fuori	fuori	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E nessuna lettera giungeva mai fino a loro senza essere passata sotto gli occhi dei parenti.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	giungeva	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	mai	mai	ADV	B	_	4	advmod	_	_
+6	fino	fino	ADP	E	_	8	case	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+9	senza	senza	ADP	E	_	11	mark	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux	_	_
+11	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+12	sotto	sotto	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	parenti	parente	NOUN	S	Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = E di visite da sole non ne ricevevano.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	visite	visita	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	sole	sole	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	ricevevano	ricevere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Ed alle feste ballavano soltanto con giovani, del cui procedere un comune conoscente si fosse in certo modo reso garante colla presentazione.
+1	Ed	e	CCONJ	CC	_	5	cc	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	feste	festa	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+5	ballavano	ballavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	soltanto	soltanto	ADV	B	_	8	advmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	giovani	giovane	NOUN	S	Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cui	cui	PRON	PR	Number=Sing|PronType=Rel	13	obl	_	_
+13	procedere	procedere	VERB	V	VerbForm=Inf	8	acl:relcl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	comune	comune	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	conoscente	conoscente	ADJ	A	Number=Sing	15	amod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+18	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	certo	certo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	modo	modo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+22	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	garante	garante	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+24	colla	colla	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	presentazione	presentazione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

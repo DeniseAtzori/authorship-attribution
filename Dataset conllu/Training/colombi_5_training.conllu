@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Serviva anche lui alla Pometta, ma allora non era bersagliere.
+1	--Serviva	--Servivo	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Pometta	Pometta	PROPN	SP	_	12	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	ma	ma	CCONJ	CC	_	12	cc	_	_
+9	allora	allora	ADV	B	_	12	advmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	bersagliere	bersagliere	VERB	V	VerbForm=Inf	1	csubj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Abbiamo cominciato a parlarci, dalla finestra della cucina che guardava nell'orto, perchè lui era ortolano.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4-5	parlarci	_	_	_	_	_	_	_	SpaceAfter=No
+4	parlar	parlare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15-16	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	in	in	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	orto	orto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	perchè	perché	SCONJ	CS	_	22	mark	_	_
+20	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+22	ortolano	ortolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E che bel giovine!
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	che	che	DET	DQ	PronType=Int	4	det	_	_
+3	bel	bello	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	giovine	giovina	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Se vedesse signor padrone, alto come lei, e più diritto di lei, perchè quello è giovine, e lei no, pover'uomo!
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	vedesse	vedere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	signor	signore	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+4	padrone	padrone	ADJ	A	_	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	alto	alto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	perchè	perché	SCONJ	CS	_	19	mark	_	_
+17	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	giovine	giovino	ADJ	A	Number=Sing	2	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	19	conj	_	_
+23	no	no	ADV	BN	PronType=Neg	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	pover'	povero	DET	DD	Number=Sing|PronType=Dem	26	det	_	SpaceAfter=No
+26	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+27	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Però noi si sapeva che doveva andare soldato e ci promettemmo di aspettarci finchè lui avesse _finito il suo tempo_.
+1	Però	però	ADV	B	_	4	advmod	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	andare	andare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+8	soldato	soldato	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
+11	promettemmo	promettemmo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	aspettarci	_	_	_	_	_	_	_	_
+13	aspettar	aspettare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	expl	_	_
+15	finchè	finché	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+16	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	_finito	_finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	tempo_	ExtraSubj=Yes|tempo_	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

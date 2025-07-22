@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La poveretta non gli parlava, soltanto gli scriveva:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	poveretta	poveretta	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	soltanto	soltanto	ADV	B	_	9	advmod	_	_
+8	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	scriveva	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = e ogni dieci o dodici lettere di lei, egli rispondeva, per dimostrarle che quell'amore doveva morire.
+1	e	e	CCONJ	CC	_	11	cc	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+3	dieci	dieci	NUM	N	NumType=Card	6	nummod	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	dodici	dodici	NUM	N	NumType=Card	3	conj	_	_
+6	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	dimostrarle	_	_	_	_	_	_	_	_
+14	dimostrar	dimostrare	VERB	V	VerbForm=Inf	11	advcl	_	_
+15	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+16	che	che	SCONJ	CS	_	20	mark	_	_
+17	quell'	quello	DET	DD	Number=Sing|PronType=Dem	18	det	_	SpaceAfter=No
+18	amore	amore	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	morire	morire	VERB	V	VerbForm=Inf	14	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Maria desiderava queste lettere come la benedizione del cielo, ma quando gliene consegnavano una, non osava di aprirla, immaginava tutto il suo straziante contenuto.
+1	Maria	Maria	PROPN	SP	_	2	nsubj	_	_
+2	desiderava	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	benedizione	benedizione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	24	punct	_	_
+12	ma	ma	CCONJ	CC	_	24	cc	_	_
+13	quando	quando	SCONJ	CS	_	19	mark	_	_
+14	gliene	glenere	SCONJ	CS	_	15	mark	_	_
+15	consegnavano	consegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	osava	osare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21-22	aprirla	_	_	_	_	_	_	_	SpaceAfter=No
+21	aprir	aprire	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	immaginava	immaginare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+25	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	28	det:predet	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	straziante	straziante	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+29	contenuto	contenuto	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mario Felice mancava agli appuntamenti: poi, partì.
+1	Mario	Mario	PROPN	SP	_	3	nsubj	_	_
+2	Felice	Felice	PROPN	SP	_	1	flat:name	_	_
+3	mancava	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	agli	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	appuntamenti	appuntamento	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	10	punct	_	_
+8	poi	poi	ADV	B	_	10	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	partì	partì	NOUN	S	Gender=Masc	3	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

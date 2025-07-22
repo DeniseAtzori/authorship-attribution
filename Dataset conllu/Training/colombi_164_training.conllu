@@ -1,0 +1,148 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una sera passeggiavamo lentamente sul Corso.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	passeggiavamo	passeggiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	lentamente	lentamente	ADV	B	_	3	advmod	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Corso	Corso	PROPN	SP	_	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Parlavamo del nostro bambino;
+1	Parlavamo	parlavamo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = del nome che gli s'avrebbe a dare;
+1-2	del	_	_	_	_	_	_	_	_
+1	di	di	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	nome	nome	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	SpaceAfter=No
+7	avrebbe	avere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	dare	dare	VERB	V	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = era una questione che agitavamo da un pezzo.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	agitavamo	agitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Io volevo chiamarlo Marco o Marcella a seconda del sesso; — lui trovava che Marcella era brutto, e preferiva il nome di Mario o Maria.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	chiamarlo	chiamarlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Marco	Marco	PROPN	SP	_	3	obj	_	_
+5	o	o	CCONJ	CC	_	6	cc	_	_
+6	Marcella	Marcella	PROPN	SP	_	4	conj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	seconda	seconda	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	15	punct	_	_
+13	—	—	PUNCT	FF	_	15	punct	_	_
+14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	Marcella	Marcella	PROPN	SP	_	19	nsubj	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	15	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	preferiva	preferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	nome	nome	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Mario	Mario	PROPN	SP	_	24	nmod	_	_
+27	o	o	CCONJ	CC	_	28	cc	_	_
+28	Maria	Maria	PROPN	SP	_	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Era una gara di cortesia e d'affetto, in cui ciascuno di noi voleva far prevalere il nome dell'altro;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gara	gara	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cortesia	cortesia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+12	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	nmod	_	_
+15	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	far	fare	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+17	prevalere	prevalere	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	nome	nome	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nmod	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = poi ci eravamo messi di buon umore, e Marco m'andava proponendo i nomi più strampalati:
+1	poi	poi	ADV	B	_	4	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+3	eravamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	buon	buono	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	umore	umore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	Marco	Marco	PROPN	SP	_	12	nsubj	_	_
+11	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	SpaceAfter=No
+12	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+13	proponendo	proporre	VERB	V	VerbForm=Ger	12	advcl	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	strampalati	strampalato	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = Asdrubale, Melchisedecco, Ariodante....
+1	Asdrubale	Asdrubale	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Melchisedecco	Melchisedecco	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	Ariodante...	Ariodante...	PROPN	SP	_	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = ed io protestavo ridendo.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	protestavo	protestavo	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	ridendo	ridere	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

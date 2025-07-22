@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Innamoratissimo:
+1	Innamoratissimo	Innamoratissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = non con la passione acre e mordente di un uomo che il giorno prima poggiava il suo capo sovra un seno amato e che è stato brutalmente scacciato da questo seno, ma col desiderio languido e lacrimoso di chi tende le braccia a una figura sparente, e le braccia ricadono vuote sul freddo e anelante petto.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	passione	passione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	acre	acre	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	mordente	mordente	ADJ	A	Number=Sing	5	conj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+14	prima	prima	ADV	B	_	15	advmod	_	_
+15	poggiava	poggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	capo	capo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19	sovra	sovrare	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	seno	seno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+22	amato	amato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	e	e	CCONJ	CC	_	28	cc	_	_
+24	che	che	PRON	PR	PronType=Rel	28	nsubj:pass	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+26	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	aux:pass	_	_
+27	brutalmente	brutalmente	ADV	B	_	28	advmod	_	_
+28	scacciato	scacciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
+31	seno	seno	NOUN	S	Gender=Masc|Number=Sing	28	obl:agent	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	36	punct	_	_
+33	ma	ma	CCONJ	CC	_	36	cc	_	_
+34-35	col	_	_	_	_	_	_	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+37	languido	languido	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	lacrimoso	lacrimoso	ADJ	A	Gender=Masc|Number=Sing	37	conj	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	chi	chi	PRON	PR	PronType=Rel	36	nmod	_	_
+42	tende	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	42	obj	_	_
+45	a	a	ADP	E	_	47	case	_	_
+46	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	figura	figura	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+48	sparente	sparente	ADJ	A	Number=Sing	47	amod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	53	punct	_	_
+50	e	e	CCONJ	CC	_	53	cc	_	_
+51	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	52	det	_	_
+52	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	53	nsubj	_	_
+53	ricadono	ricadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+54	vuote	vuotere	NOUN	S	Gender=Fem|Number=Plur	53	obj	_	_
+55-56	sul	_	_	_	_	_	_	_	_
+55	su	su	ADP	E	_	57	case	_	_
+56	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	53	obl	_	_
+58	e	e	CCONJ	CC	_	60	cc	_	_
+59	anelante	anelante	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	60	det	_	_
+60	petto	petto	NOUN	S	Gender=Masc|Number=Sing	57	conj	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --I ragazzi della scuola mettono la scarpa sotto il focolare la notte di Natale, ed il Bambino scende giù dal camino tutto vestito d'oro, con un gran paniere d'oro pieno di strenne.
+1	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	scarpa	scarpa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	sotto	sotto	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	focolare	focolare	VERB	V	VerbForm=Inf	8	obl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	notte	notte	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Natale	Natale	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	ed	e	CCONJ	CC	_	22	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Bambino	Bambino	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	scende	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+23	giù	giù	PRON	PI	PronType=Ind	22	obj	_	_
+24-25	dal	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	camino	camino	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+27	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	28	obl	_	_
+28	vestito	vestire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+29	d'	di	ADP	E	_	30	case	_	SpaceAfter=No
+30	oro	oro	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	8	punct	_	_
+32	con	con	ADP	E	_	35	case	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	gran	grande	ADJ	A	Number=Sing	35	amod	_	_
+35	paniere	paniere	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+36	d'	di	ADP	E	_	37	case	_	SpaceAfter=No
+37	oro	oro	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+38	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	strenne	strenne	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Metteremo anche noi, nevvero, le scarpe sotto il focolare?
+1	Metteremo	Mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	11	punct	_	_
+5	nevvero	nevvero	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	scarpe	scarpa	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+9	sotto	sotto	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	focolare	focolare	VERB	V	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ma soltanto le mie, perchè ai nonni il Bambino non porta nulla.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	soltanto	soltanto	ADV	B	_	4	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	mie	mia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	perchè	poiperché	SCONJ	CS	_	13	mark	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	nonni	nonno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+14	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

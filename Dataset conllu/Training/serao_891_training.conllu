@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cantavano, adesso.
+1	Cantavano	cantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	adesso	adesso	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Era una signora bionda e fine che, in giovinezza, si destinava al teatro e che un felice matrimonio aveva tolta al palcoscenico.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	bionda	biondo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	fine	fine	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+7	che	che	PRON	PR	PronType=Rel	13	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	giovinezza	giovinezza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	destinava	destinavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	e	e	CCONJ	CC	_	23	cc	_	_
+18	che	che	SCONJ	CS	_	23	mark	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	felice	felice	ADJ	A	Number=Sing	21	amod	_	_
+21	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	tolta	tolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	palcoscenico	palcoscenico	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma ella cantava dovunque, sempre, appena le domandavano di cantare, posando il suo manicotto o il suo ombrellino, levando la testolina dal colletto di pelliccia che ornava la sua mantellina, come un uccelletto canoro che vive del suo canto e morrebbe, se non cantasse.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	cantava	cantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	dovunque	dovunque	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	sempre	sempre	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	appena	appena	ADV	B	_	10	advmod	_	_
+9	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	iobj	_	_
+10	domandavano	domandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	cantare	cantare	VERB	V	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	posando	posare	VERB	V	VerbForm=Ger	12	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	manicotto	manicotto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	o	o	CCONJ	CC	_	21	cc	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	ombrellino	ombrellino	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	levando	levare	VERB	V	VerbForm=Ger	3	advcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	testolina	testolina	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	colletto	colletto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	pelliccia	pelliccia	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	ornava	ornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	acl:relcl	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	mantellina	mantellina	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	3	punct	_	_
+37	come	come	ADP	E	_	40	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	uccelletto	uccelletto	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
+40	canoro	canoro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+41	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+42	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	46	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	46	det:poss	_	_
+46	canto	canto	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	morrebbe	morre	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	48	punct	_	_
+50	se	se	SCONJ	CS	_	52	mark	_	_
+51	non	non	ADV	BN	PronType=Neg	52	advmod	_	_
+52	cantasse	cantare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	advcl	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ed era una fanciulla, una semplice ingenua fanciulla che si trovava di fronte a questi crudeli problemi sui quali affaticarono tante intelligenze di filosofi e di moralisti.
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	semplice	semplice	ADJ	A	Number=Sing	9	amod	_	_
+8	ingenua	ingenuo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	fanciulla	fanciullare	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	fronte	fronte	NOUN	S	Number=Sing	12	obl	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	18	det	_	_
+17	crudeli	crudele	ADJ	A	Number=Plur	18	amod	_	_
+18	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+19-20	sui	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	quali	quale	PRON	PR	Number=Plur|PronType=Rel	22	obl	_	_
+22	affaticarono	affaticare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+23	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+24	intelligenze	intelligenza	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	filosofi	filosofo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	moralisti	moralista	NOUN	S	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ella sentì tutta la sua debolezza, tutta la sua meschinità.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	6	det:predet	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	11	det:predet	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	meschinità	meschinità	NOUN	S	Gender=Fem	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Si vide perduta in un paese nemico senza appoggi e senza consigli.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	vide	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	perduta	perdere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	paese	paese	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	6	compound	_	_
+8	senza	senza	ADP	E	_	9	case	_	_
+9	appoggi	appoggio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Sollevando gli occhi alle care pareti dove aveva ricercato tante volte la traccia della serena esistenza de' suoi avi, il velo delle lagrime le impediva di scorgere nulla.
+1	Sollevando	Sollevare	VERB	V	VerbForm=Ger	30	advcl	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	care	caro	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	pareti	parete	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+8	dove	dove	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	ricercato	ricercato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	volte	volta	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+19-20	de'	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	avi	avo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	1	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	velo	velo	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+26-27	delle	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+29	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	iobj	_	_
+30	impediva	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	scorgere	scorgere	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	32	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	30	punct	_	SpacesAfter=\n
+

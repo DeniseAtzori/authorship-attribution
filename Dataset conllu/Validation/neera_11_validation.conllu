@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Il giorno dopo stavo fuori della tenda, non ancora perfettamente snebbiato dai fumi della sera prima ed ero malinconico.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	dopo	dopo	ADV	B	_	3	advmod	_	_
+5	stavo	stavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	fuori	fuori	ADV	B	_	5	advmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tenda	tenda	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	ancora	ancora	ADV	B	_	14	advmod	_	_
+13	perfettamente	perfetto	ADV	B	_	14	advmod	_	_
+14	snebbiato	snebbiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+15-16	dai	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	fumi	fume	NOUN	S	Gender=Masc|Number=Plur	14	obl:agent	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	sera	sera	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	prima	prima	ADV	B	_	24	advmod	_	_
+22	ed	e	CCONJ	CC	_	23	cc	_	_
+23	ero	essere	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+24	malinconico	malinconico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Pensavo a mia madre; mi pareva di vederla nella sua poltrona di velluto verde, così bella ancora e così interessante nel suo pallore di donna delicata, volti il cuore e la mente all'unico figlio che adorava e che si trovava tanto lontano.
+1	Pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	madre	madre	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	7	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	vederla	_	_	_	_	_	_	_	_
+9	veder	vedere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	velluto	velluto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	verde	verde	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	così	così	ADV	B	_	20	advmod	_	_
+20	bella	bello	ADJ	A	Gender=Fem|Number=Sing	9	xcomp	_	_
+21	ancora	ancora	ADV	B	_	24	advmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	così	così	ADV	B	_	24	advmod	_	_
+24	interessante	interessante	ADJ	A	Number=Sing	9	conj	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	pallore	pallore	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	donna	donna	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	24	punct	_	_
+33	volti	volvere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	advcl	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	33	nsubj:pass	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	mente	mente	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	_
+39-40	all'	_	_	_	_	_	_	_	SpaceAfter=No
+39	a	a	ADP	E	_	42	case	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+41	unico	unico	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+42	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+43	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+44	adorava	adorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	acl:relcl	_	_
+45	e	e	CCONJ	CC	_	48	cc	_	_
+46	che	che	PRON	PR	PronType=Rel	48	nsubj	_	_
+47	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	48	expl	_	_
+48	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	conj	_	_
+49	tanto	tanto	ADV	B	_	50	advmod	_	_
+50	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	48	xcomp	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

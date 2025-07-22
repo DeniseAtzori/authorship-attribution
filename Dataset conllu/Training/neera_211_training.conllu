@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A scrivere per sè ogni donna intelligente riesce a meraviglia.
+1	A	a	ADP	E	_	2	mark	_	_
+2	scrivere	scrivere	VERB	V	VerbForm=Inf	8	advcl	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	sè	sè	PRON	PE	Person=3|PronType=Prs	2	obl	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+7	intelligente	intelligente	ADJ	A	Number=Sing	6	amod	_	_
+8	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	meraviglia	meraviglia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Scrivere per il pubblico invece è tutt’altra cosa ed è cosa difficilissima, che non si insegna e non si impara, ed anche quando la si sa è traditrice sirena che troppe volte trascina a naufragare fin sotto i fanali del porto.
+1	Scrivere	scrivere	VERB	V	VerbForm=Inf	9	csubj	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	invece	invece	ADV	B	_	9	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	tutt’	tutto	DET	T	Gender=Fem|Number=Sing	9	det	_	SpaceAfter=No
+8	altra	altro	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	ed	e	CCONJ	CC	_	12	cc	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+13	difficilissima	difficile	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	impara	imparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	31	punct	_	_
+24	ed	e	CCONJ	CC	_	31	cc	_	_
+25	anche	anche	ADV	B	_	29	advmod	_	_
+26	quando	quando	SCONJ	CS	_	29	mark	_	_
+27	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl:impers	_	_
+29	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
+30	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	traditrice	traditrice	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+32	sirena	sirena	SCONJ	CS	_	36	mark	_	_
+33	che	che	SCONJ	CS	_	36	mark	_	_
+34	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	35	det	_	_
+35	volte	volta	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+36	trascina	trascinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
+37	a	a	ADP	E	_	38	mark	_	_
+38	naufragare	naufragare	VERB	V	VerbForm=Inf	36	xcomp	_	_
+39	fin	perfino	ADV	B	_	38	advmod	_	_
+40	sotto	sotto	ADP	E	_	42	case	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	fanali	fanale	NOUN	S	Gender=Masc|Number=Plur	38	obl	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	porto	porto	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\n
+

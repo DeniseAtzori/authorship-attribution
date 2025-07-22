@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Così passarono dieci giorni.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Così	così	ADV	B	_	3	advmod	_	_
+3	passarono	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	dieci	dieci	NUM	N	NumType=Card	5	nummod	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Dieci giorni così belli, così inebbrianti, che darei tutto il sangue delle mie vene per farli rivivere.
+1	Dieci	dieci	NUM	N	NumType=Card	2	nummod	_	_
+2	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	così	così	ADV	B	_	4	advmod	_	_
+4	belli	bello	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	così	così	ADV	B	_	7	advmod	_	_
+7	inebbrianti	inebbriante	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	darei	dare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+11	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	13	det:predet	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	vene	vena	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19-20	farli	_	_	_	_	_	_	_	_
+19	far	fare	VERB	V	VerbForm=Inf	10	advcl	_	_
+20	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+21	rivivere	rivivere	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Amavo quella fanciulla come un pazzo;
+1	Amavo	amavo	PROPN	SP	_	3	nsubj	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	fanciulla	fanciullare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pazzo	pazzo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = e sentivo il bisogno di dirglielo, di dirlo a tutti, di gridarlo sui tetti.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6-7	dirglielo	_	_	_	_	_	_	_	SpaceAfter=No
+6	dirglie	dirgliere	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	nmod	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	conj	_	_
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	dirlo	_	_	_	_	_	_	_	_
+10	dir	dire	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16-17	gridarlo	_	_	_	_	_	_	_	_
+16	gridar	gridare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18-19	sui	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	tetti	tetto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E tuttavia la sapevo così delicata, che temevo d'offenderla.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	tuttavia	tuttavia	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sapevo	sapevo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	così	così	ADV	B	_	6	advmod	_	_
+6	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	temevo	temere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+10	d'	di	ADP	E	_	11	mark	_	SpaceAfter=No
+11-12	offenderla	_	_	_	_	_	_	_	SpaceAfter=No
+11	offender	offendere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

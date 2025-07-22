@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quando non si ama più, non si ama più.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5	più	più	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	più	più	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Mancò ai convegni.
+1	Mancò	Mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	convegni	convegno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Non rispose alle lettere.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non volle capire l'interrogazione disperata degli occhi di Paolo Herz, quando lo incontrava fra le persone:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	capire	capire	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	interrogazione	interrogazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	disperata	disperato	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Paolo	Paolo	PROPN	SP	_	5	nmod	_	_
+12	Herz	Herz	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	quando	quando	SCONJ	CS	_	16	mark	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	incontrava	incontrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+17	fra	fra	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	persone	persona	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = lo sfuggì, per quanto le era possibile, innanzi a una persecuzione ostinata, accanita che egli la faceva.
+1	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	sfuggì	sfuggì	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	2	obl	_	_
+6	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	possibile	possibile	ADJ	A	Number=Sing	5	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	innanzi	innanzi	ADV	B	_	13	case	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	persecuzione	persecuzione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+14	ostinata	ostinato	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	accanita	accanire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Infine, ebbero un colloquio.
+1	Infine	infine	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ebbero	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Fredda muta, ma tranquilla, ella lo sogguardava, con gli occhi limpidi, dallo sguardo nitido e duro.
+1	Fredda	fredda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	muta	muto	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ma	ma	CCONJ	CC	_	5	cc	_	_
+5	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	sogguardava	sogguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+14	limpidi	limpido	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16-17	dallo	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+19	nitido	nitido	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	duro	duro	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

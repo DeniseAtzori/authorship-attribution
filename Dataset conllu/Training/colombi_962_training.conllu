@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vicenzino fece per lei quanto aveva fatto per le altre cugine.
+1	Vicenzino	Vicenzino	PROPN	SP	_	2	nsubj	_	_
+2	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	2	obj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	altre	altro	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	cugine	cugine	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Soltanto, in quei giorni quaresimali, vicino alla Pasqua, colla nuova casa da ordinare, era tanto occupato che di rado poteva passare la sera cogli sposi.
+1	Soltanto	soltanto	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+6	quaresimali	quaresimale	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	vicino	vicino	ADV	B	_	11	case	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Pasqua	Pasqua	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	ordinare	ordinare	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+20	tanto	tanto	ADV	B	_	21	advmod	_	_
+21	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+22	che	che	SCONJ	CS	_	26	mark	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	rado	rado	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+25	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	passare	passare	VERB	V	VerbForm=Inf	21	ccomp	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	sera	sera	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29-30	cogli	_	_	_	_	_	_	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	sposi	sposo	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = E mentre essi deploravano la sua assenza, egli, solo nel suo studio squallido come una cella da frate, si sforzava di leggere o di studiare, ma rimaneva sempre cogli occhi fissi senza veder nulla, mentre le lagrime gli sgorgavano sulle pagine.
+1	E	e	CCONJ	CC	_	24	cc	_	_
+2	mentre	mentre	SCONJ	CS	_	4	mark	_	_
+3	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	deploravano	deplorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	solo	solo	ADV	B	_	15	advmod	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	studio	studio	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+16	squallido	squallidere	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cella	cella	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	frate	frata	NOUN	S	Gender=Masc	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	sforzava	sforzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	leggere	leggere	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	o	o	CCONJ	CC	_	29	cc	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	studiare	studiare	VERB	V	VerbForm=Inf	26	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	ma	ma	CCONJ	CC	_	32	cc	_	_
+32	rimaneva	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	_
+33	sempre	sempre	ADV	B	_	32	advmod	_	_
+34-35	cogli	_	_	_	_	_	_	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+37	fissi	figgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	advcl	_	_
+38	senza	senza	ADP	E	_	39	mark	_	_
+39	veder	vedere	VERB	V	VerbForm=Inf	37	advcl	_	_
+40	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	39	obj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	24	punct	_	_
+42	mentre	mentre	SCONJ	CS	_	46	mark	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	46	nsubj	_	_
+45	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	iobj	_	_
+46	sgorgavano	sgorgare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+47-48	sulle	_	_	_	_	_	_	_	_
+47	su	su	ADP	E	_	49	case	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	46	obl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	24	punct	_	SpacesAfter=\n
+

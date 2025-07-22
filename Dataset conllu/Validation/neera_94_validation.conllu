@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non ero di tale opinione.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	tale	tale	DET	DD	Number=Sing|PronType=Dem	5	det	_	_
+5	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Qualsiasi altro giardino non avrebbe vestito meglio la casa bizzarra alle cui muraglie nere salivano i tralci dei rosai con una violenza di fioritura che nessun artificio frenava.
+1	Qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	vestito	vestire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	meglio	meglio	ADV	B	_	6	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	bizzarra	bizzarrare	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	cui	cui	DET	DR	PronType=Rel	14	det:poss	_	_
+14	muraglie	muraglia	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+15	nere	nero	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	salivano	salire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	tralci	tralce	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	rosai	rosai	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	fioritura	fioritura	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	30	obj	_	_
+28	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	29	det	_	_
+29	artificio	artificio	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+30	frenava	frenavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Era un irrompere di rose di tutti i toni, di tutti i colori, bianche, scarlatte, gialle, che si aggrovigliavano in libera scelta, ottenendo effetti impreveduti di contrasto e sinfonie armoniche che l'arte più sottile non avrebbe neppure immaginato e dietro a queste rose le alte querce si profilavano sulla trasparenza del ciclo, solenni e austere.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	irrompere	irrompera	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	rose	rosa	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	toni	tone	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	colori	colore	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	bianche	bianche	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	scarlatte	scarlatto	ADJ	A	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	gialle	giallo	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	aggrovigliavano	aggrovigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	libera	libero	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	24	punct	_	_
+29	ottenendo	ottenere	VERB	V	VerbForm=Ger	55	advcl	_	_
+30	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+31	impreveduti	impreveduto	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	contrasto	contrasto	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	sinfonie	sinfonia	NOUN	S	Gender=Fem|Number=Plur	33	conj	_	_
+36	armoniche	armonico	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+37	che	che	PRON	PR	PronType=Rel	45	obj	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	arte	arte	NOUN	S	Gender=Fem|Number=Sing	45	nsubj	_	_
+40	più	più	ADV	B	_	41	advmod	_	_
+41	sottile	sottile	ADJ	A	Number=Sing	39	amod	_	_
+42	non	non	ADV	BN	PronType=Neg	45	advmod	_	_
+43	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+44	neppure	neppure	ADV	BN	PronType=Neg	45	advmod	_	_
+45	immaginato	immaginare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl:relcl	_	_
+46	e	e	CCONJ	CC	_	50	cc	_	_
+47	dietro	dietro	ADV	B	_	50	case	_	_
+48	a	a	ADP	E	_	47	fixed	_	_
+49	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	50	det	_	_
+50	rose	rosa	NOUN	S	Gender=Fem|Number=Plur	45	obl	_	_
+51	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+52	alte	alto	ADJ	A	Gender=Fem|Number=Plur	53	amod	_	_
+53	querce	quercia	NOUN	S	Gender=Fem|Number=Plur	45	obj	_	_
+54	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	55	expl	_	_
+55	profilavano	profilare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+56-57	sulla	_	_	_	_	_	_	_	_
+56	su	su	ADP	E	_	58	case	_	_
+57	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	55	obl	_	_
+59-60	del	_	_	_	_	_	_	_	_
+59	di	di	ADP	E	_	61	case	_	_
+60	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	ciclo	ciclo	NOUN	S	Gender=Masc|Number=Sing	58	nmod	_	SpaceAfter=No
+62	,	,	PUNCT	FF	_	63	punct	_	_
+63	solenni	solenne	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+64	e	e	CCONJ	CC	_	65	cc	_	_
+65	austere	austere	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+66	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

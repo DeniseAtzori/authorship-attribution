@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ebbene, anche a queste dico:
+1	Ebbene	ebbene	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	dico	dico	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = Siate madri.
+1	Siate	Siato	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	madri	madre	ADJ	A	Number=Plur	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Se il vostro fianco non ha partorito fra i dolori il figlio delle vostre viscere, concepite moralmente.
+1	Se	se	SCONJ	CS	_	7	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	partorito	partorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	fra	fra	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	vostre	vostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	viscere	viscere	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	concepite	concepire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+19	moralmente	moralmente	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Siate con uno slancio di magnifico altruismo la madre di un orfano;
+1	Siate	Siare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	slancio	slancio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	magnifico	magnifico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	altruismo	altruismo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	madre	madre	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	orfano	orfano	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 5
+# text = e non occorre nemmeno che l’oggetto della vostra dedizione sia orfano.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nemmeno	nemmeno	ADV	BN	PronType=Neg	3	advmod	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	dedizione	dedizione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	orfano	orfare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Fuori della famiglia il fanciullo ha ancora bisogno della donna.
+1	Fuori	fuori	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ancora	ancora	ADV	B	_	7	advmod	_	_
+9	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

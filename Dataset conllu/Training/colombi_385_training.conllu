@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Dopo la commedia un amico mi propose di presentarmi alla signora Vittoria***.
+1	—	—	PUNCT	FF	_	8	punct	_	_
+2	Dopo	dopo	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	commedia	commedia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	amico	amico	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	propose	proporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	presentarmi	_	_	_	_	_	_	_	_
+10	presentar	presentare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	signora	signore	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	Vittoria***	Vittoria***	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Non seppi resistere a quella tentazione:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	seppi	seppo	ADJ	A	Number=Plur	0	root	_	_
+3	resistere	resistere	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	tentazione	tentazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = accettai.
+1	accettai	accettai	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mi pareva che avvicinandomi a quella donna mi ravvicinassi alla povera Clelia; e, cosa strana, il volto gioviale dell'artista, i suoi movimenti rapidi, il suo sguardo ardito, mi rammentavano il volto mesto, il gesto lento, lo sguardo malinconico della mia fidanzata.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4-5	avvicinandomi	_	_	_	_	_	_	_	_
+4	avvicinando	avvicinare	VERB	V	VerbForm=Ger	2	advcl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+10	ravvicinassi	ravvicinassare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	povera	povero	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	Clelia	Clelia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	39	punct	_	_
+16	e	e	CCONJ	CC	_	39	cc	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+19	strana	strano	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	volto	volto	NOUN	S	Gender=Masc|Number=Sing	39	nsubj	_	_
+23	gioviale	gioviale	ADJ	A	Number=Sing	22	amod	_	_
+24-25	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	artista	artista	NOUN	S	Number=Sing	39	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	movimenti	movimento	NOUN	S	Gender=Masc|Number=Plur	39	nsubj	_	_
+31	rapidi	rapido	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	30	appos	_	_
+36	ardito	ardito	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	35	punct	_	_
+38	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	39	iobj	_	_
+39	rammentavano	rammentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	volto	volto	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+42	mesto	mesto	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	39	punct	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	_
+46	lento	lento	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	39	punct	_	_
+48	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+50	malinconico	malinconico	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	_
+51-52	della	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	54	case	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+53	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	54	det:poss	_	_
+54	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	39	punct	_	SpacesAfter=\n
+

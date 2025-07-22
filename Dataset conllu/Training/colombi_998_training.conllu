@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Ma questo secondo divertimento, siccome sciupava molto le scarpe, ci era proibito.
+1	«	«	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	15	cc	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	divertimento	divertimento	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	siccome	siccome	SCONJ	CS	_	8	mark	_	_
+8	sciupava	sciupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
+9	molto	molto	ADV	B	_	8	advmod	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	scarpe	scarpa	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+14	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	proibito	proibire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 2
+# text = Il che non vuol dire però che noi ce ne privassimo;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+6	però	però	ADV	B	_	5	advmod	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	ccomp	_	_
+9	ce	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	privassimo	privassimo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = io specialmente, che andavo a scuola solo, perchè de’ miei fratelli, uno solo andava ad una scuoletta infantile da una donna del vicinato, e l’altro stava ancora in casa.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	specialmente	specialmente	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	solo	solo	ADV	B	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	perchè	perché	SCONJ	CS	_	17	mark	_	_
+11	de’	deo	DET	RD	Definite=Def	13	det	_	_
+12	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	_
+16	solo	solo	ADV	B	_	17	advmod	_	_
+17	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+18	ad	a	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	scuoletta	scuoletta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	infantile	infantile	ADJ	A	Number=Sing	20	amod	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	donna	donna	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	vicinato	vicinato	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	32	punct	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	32	nsubj	_	_
+32	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+33	ancora	ancora	ADV	B	_	32	advmod	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	casa	casa	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

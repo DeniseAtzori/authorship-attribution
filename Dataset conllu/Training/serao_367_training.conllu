@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A qualcuno faceva disgusto, e la scacciava con un gesto di noia.
+1	A	a	ADP	E	_	2	case	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	_
+3	faceva	fare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	disgusto	disgusto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	scacciava	scacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	noia	noia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ella chiedeva prima a voce alta, quasi imperiosa, un soldo per mangiare, non avendo mangiato il giorno prima, nella tortura dello stomaco che si ribellava:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	chiedeva	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	prima	prima	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	voce	voce	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	alta	alto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	quasi	quasi	ADV	B	_	9	advmod	_	_
+9	imperiosa	imperioso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	soldo	soldo	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	mangiare	mangiare	VERB	V	VerbForm=Inf	12	acl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	avendo	avere	AUX	VA	VerbForm=Ger	18	aux	_	_
+18	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	prima	prima	ADV	B	_	18	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+26-27	dello	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+31	ribellava	ribellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	acl:relcl	_	SpaceAfter=No
+32	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = poi la voce si abbassava, diventava supplichevole, ansante, lamentosa, poche e gelide lagrime le scendevano per le guance.
+1	poi	poi	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	abbassava	abbassavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	diventava	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+8	supplichevole	supplichevole	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	ansante	ansante	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	lamentosa	lamentoso	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	gelide	gelidere	ADJ	A	Gender=Fem|Number=Plur	8	conj	_	_
+17	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+18	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+19	scendevano	scendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	guance	guance	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

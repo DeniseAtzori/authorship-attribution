@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Canali seguivano canali:
+1	Canali	canali	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	seguivano	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	canali	canale	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = l'acqua era, dove verdastra, dove bigia, dove semplicemente torbida, dove con un'opaca oscurità di carbone:
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	dove	dove	ADV	B	_	6	advmod	_	_
+6	verdastra	verdastrare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dove	dove	ADV	B	_	6	nsubj	_	_
+9	bigia	bigia	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	dove	dove	ADV	B	_	13	advmod	_	_
+12	semplicemente	semplicemente	ADV	B	_	13	advmod	_	_
+13	torbida	torbido	ADJ	A	Gender=Fem|Number=Sing	9	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	dove	dove	ADV	B	_	13	advmod	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+18	opaca	opaco	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	oscurità	oscurità	NOUN	S	Gender=Fem	15	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	carbone	carbone	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = palazzi seguivano i palazzi, portoni pesanti chiusi come da secoli, gradini corrosi dalla salsedine, alti pilastri piantati nelle acque per legarvi le gondole e che s'inclinavano come se fossero presi da una inguaribile debolezza, finestre senza cristalli, ma le cui imposte verdi sembravano sbarrate per sempre.
+1	palazzi	palazzo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	seguivano	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	palazzi	palazzo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	portoni	portone	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+7	pesanti	pesante	ADJ	A	Number=Plur	6	amod	_	_
+8	chiusi	chiudere	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	gradini	gradine	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+14	corrosi	corroso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15-16	dalla	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	salsedine	salsedine	NOUN	S	Gender=Fem|Number=Sing	14	obl:agent	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	alti	alto	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	pilastri	pilastro	NOUN	S	Gender=Masc|Number=Plur	17	appos	_	_
+21	piantati	piantare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+22-23	nelle	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	acque	acqua	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26-27	legarvi	_	_	_	_	_	_	_	_
+26	legar	legare	VERB	V	VerbForm=Inf	21	advcl	_	_
+27	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	26	iobj	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	gondole	gondola	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31	che	che	SCONJ	CS	_	33	mark	_	_
+32	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	SpaceAfter=No
+33	inclinavano	inclinare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	conj	_	_
+34	come	come	ADV	B	_	37	advmod	_	_
+35	se	se	SCONJ	CS	_	37	mark	_	_
+36	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	37	aux:pass	_	_
+37	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	33	advcl	_	_
+38	da	da	ADP	E	_	41	case	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	inguaribile	inguaribile	ADJ	A	Number=Sing	41	amod	_	_
+41	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	37	obl:agent	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	43	punct	_	_
+43	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	41	conj	_	_
+44	senza	senza	ADP	E	_	45	case	_	_
+45	cristalli	cristallo	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	52	punct	_	_
+47	ma	ma	CCONJ	CC	_	52	cc	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+49	cui	cui	DET	DR	PronType=Rel	50	det:poss	_	_
+50	imposte	imporre	NOUN	S	Gender=Fem|Number=Plur	52	nsubj	_	_
+51	verdi	verde	ADJ	A	Number=Plur	50	amod	_	_
+52	sembravano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+53	sbarrate	sbarrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	52	xcomp	_	_
+54	per	per	ADP	E	_	55	case	_	_
+55	sempre	sempre	ADV	B	_	53	advmod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma un grido li domina tutti:
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	grido	grido	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+5	domina	dominare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = “I nostri figli! i nostri figli!„ Le madri non dicono altro, immobili sulle soglie, il grembiule buttato sulla testa a riparare la furia dell’acquazzone, coll’occhio che non abbandona la strada per la quale devono giungere i fanciulli.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	I	I	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	8	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+10	„	„	PUNCT	FF	_	8	punct	_	_
+11	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	madri	madre	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+15	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	immobili	immobile	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+18-19	sulle	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	soglie	soglia	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	14	punct	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	grembiule	grembiula	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+24	buttato	buttato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25-26	sulla	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	testa	testa	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	riparare	riparare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	furia	furia	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32-33	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+32	di	di	ADP	E	_	34	case	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	acquazzone	acquazzone	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36-37	coll’	_	_	_	_	_	_	_	SpaceAfter=No
+36	co	co	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+37	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+39	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+40	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+41	abbandona	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	strada	strada	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+44	per	per	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	quale	quale	PRON	PR	Number=Sing|PronType=Rel	48	obl	_	_
+47	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
+48	giungere	giungere	VERB	V	VerbForm=Inf	43	acl:relcl	_	_
+49	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	fanciulli	fanciullo	NOUN	S	Gender=Masc|Number=Plur	48	obj	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Il terrore e l’angoscia crescono di minuto in minuto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	crescono	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

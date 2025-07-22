@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Niente altro, diceva.
+1	Niente	niente	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ella non si difendeva mai, nè si accusava:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	difendeva	difendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	mai	mai	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	nè	nè	CCONJ	CC	_	9	cc	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	accusava	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = quando egli l'accusava, gli dava ragione, con un'occhiata, con un triste sorriso, con un cenno espressivo della bella bocca.
+1	quando	quando	SCONJ	CS	_	4	mark	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+4	accusava	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+7	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	occhiata	occhiata	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	triste	trista	ADJ	A	Number=Sing	17	amod	_	_
+17	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	cenno	cenno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+22	espressivo	espressivo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	bella	bello	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Vi era un ritornello, che egli pronunziava sempre, nervosamente, a traverso i suoi racconti scuciti;
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ritornello	ritornello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	pronunziava	pronunziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+9	sempre	sempre	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	nervosamente	nervosamente	ADV	B	_	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	a	a	ADP	E	_	17	case	_	_
+14	traverso	travergere	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	racconti	racconto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+18	scuciti	scucito	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = un ritornello che rivelava l'attossicamento della sua vita, in tutte le sue più pure sorgenti, l'avvelenamento crudele di un sangue giovane e di un'anima, resa inetta a vivere e incapace di morire così.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ritornello	ritornello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	rivelava	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	attossicamento	attossicamento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	in	in	ADP	E	_	18	case	_	_
+13	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	18	det:predet	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+15	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	pure	pure	ADV	B	_	18	advmod	_	_
+18	sorgenti	sorgente	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	2	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	avvelenamento	avvelenamento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+22	crudele	crudele	ADJ	A	Number=Sing	21	amod	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	giovane	giovane	ADJ	A	Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	anima	anima	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	resa	rendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+33	inetta	inetto	ADJ	A	Gender=Fem|Number=Sing	32	xcomp	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	vivere	vivere	VERB	V	VerbForm=Inf	32	xcomp	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	incapace	incapace	ADJ	A	Number=Sing	35	conj	_	_
+38	di	di	ADP	E	_	39	mark	_	_
+39	morire	morire	VERB	V	VerbForm=Inf	37	advcl	_	_
+40	così	così	ADV	B	_	39	advmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Il ritornello:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ritornello	ritornello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

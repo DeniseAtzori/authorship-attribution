@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vicenzino si occupava delle riparazioni indispensabili alla casa, e ci metteva tutto il suo cuore.
+1	Vicenzino	Vicenzino	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	occupava	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	riparazioni	riparazione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	indispensabili	indispensabile	ADJ	A	Number=Plur	6	amod	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+14	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+15	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	18	det:predet	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ogni cosa era modesta anzi disadorna.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	modesta	modesto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	anzi	anzi	ADV	B	_	6	advmod	_	_
+6	disadorna	disadorno	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Le mura erano bianche in tutte le stanze, senz'altro ornamento che pochi quadri sacri.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	mura	muro	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	stanze	stanze	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	senz'	senza	ADP	E	_	12	case	_	SpaceAfter=No
+11	altro	altro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	ornamento	ornamento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+13	che	che	SCONJ	CS	_	15	mark	_	_
+14	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	quadri	quadro	NOUN	S	Gender=Masc|Number=Plur	4	advcl	_	_
+16	sacri	sacro	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La camera destinata al signor Dogliani era la sola in cui ci fosse il pavimento coperto da un tappeto, ed una sedia a bracciuoli.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	camera	camera	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	signor	signore	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	Dogliani	Dogliani	PROPN	SP	_	6	nmod	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+14	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pavimento	pavimento	NOUN	S	Gender=Masc|Number=Sing	10	acl:relcl	_	_
+17	coperto	coprire	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	ed	e	CCONJ	CC	_	24	cc	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	bracciuoli	bracciuolo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

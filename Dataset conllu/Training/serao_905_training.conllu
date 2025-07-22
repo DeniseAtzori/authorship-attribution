@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così camminarono in silenzio verso la casa di Clara.
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	camminarono	camminare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	verso	verso	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Clara	Clara	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ella andava a capo basso, sentendo di avere errato ancora, di avere inutilmente violato la fierezza del proprio cuore, mostrandone il segreto dolore, a un uomo che non poteva avere pietà di lei:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	basso	basso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	sentendo	sentire	VERB	V	VerbForm=Ger	2	advcl	_	_
+8	di	di	ADP	E	_	10	mark	_	_
+9	avere	avere	AUX	VA	VerbForm=Inf	10	aux	_	_
+10	errato	errato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	_
+11	ancora	ancora	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	di	di	ADP	E	_	16	mark	_	_
+14	avere	avere	AUX	VA	VerbForm=Inf	16	aux	_	_
+15	inutilmente	inutilmente	ADV	B	_	16	advmod	_	_
+16	violato	violare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	fierezza	fierezza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	16	punct	_	_
+24-25	mostrandone	_	_	_	_	_	_	_	_
+24	mostrando	mostrare	VERB	V	VerbForm=Ger	16	advcl	_	_
+25	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	24	iobj	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	segreto	segreto	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+33	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+34	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+35	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	aux	_	_
+36	avere	avere	VERB	V	VerbForm=Inf	32	acl:relcl	_	_
+37	pietà	pietà	NOUN	S	Gender=Fem	36	obj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	37	nmod	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = sentendo di avere nuovamente offeso quel cuore che era stato così intieramente suo e che ora non aveva più forza pel desiderio, avendone solo per la dignità.
+1	sentendo	sentire	VERB	V	VerbForm=Ger	0	root	_	_
+2	di	di	ADP	E	_	5	mark	_	_
+3	avere	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+4	nuovamente	nuovamente	ADV	B	_	5	advmod	_	_
+5	offeso	offendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	cop	_	_
+11	così	così	ADV	B	_	18	advmod	_	_
+12	intieramente	intieramente	ADV	B	_	18	advmod	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	ora	ora	ADV	B	_	18	advmod	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+19	più	più	ADV	B	_	18	advmod	_	_
+20	forza	forza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	pel	_	_	_	_	_	_	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	18	punct	_	_
+25-26	avendone	_	_	_	_	_	_	_	_
+25	avendo	avere	VERB	V	VerbForm=Ger	18	advcl	_	_
+26	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	25	iobj	_	_
+27	solo	solo	ADV	B	_	30	advmod	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	dignità	dignità	NOUN	S	Gender=Fem	25	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

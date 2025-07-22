@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Pensavo che presto sarei morto, per rinascere chissà quando e chissà come;
+1	Pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	presto	presto	ADV	B	_	5	advmod	_	_
+4	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	rinascere	rinascere	VERB	V	VerbForm=Inf	5	advcl	_	_
+9	chissà	chissà	ADV	B	_	8	advmod	_	_
+10	quando	quando	SCONJ	CS	_	8	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	chissà	chissà	ADV	B	_	10	conj	_	_
+13	come	come	ADP	E	_	12	case	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = ed olezzavo languidamente negli ultimi sospiri la mia animuccia di fiore quando vidi due scarpine di pelle bronzata, e due calzettine azzurre tese su due gambine rotonde, che si avanzavano rapidamente verso di me, col movimento alternato di due piccoli stantuffi d'una macchina a vapore.
+1	ed	e	CCONJ	CC	_	2	cc	_	_
+2	olezzavo	olezzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	languidamente	languidamente	ADV	B	_	2	advmod	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+7	sospiri	sospiro	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	animuccia	animuccia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	quando	quando	SCONJ	CS	_	14	mark	_	_
+14	vidi	videre	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+15	due	due	NUM	N	NumType=Card	16	nummod	_	_
+16	scarpine	scarpina	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	bronzata	bronzato	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	due	due	NUM	N	NumType=Card	23	nummod	_	_
+23	calzettine	calzettina	NOUN	S	Gender=Fem|Number=Plur	24	nsubj	_	_
+24	azzurre	azzurre	VERB	V	VerbForm=Inf	2	conj	_	_
+25	tese	tesa	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	due	due	NUM	N	NumType=Card	28	nummod	_	_
+28	gambine	gambina	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+29	rotonde	rotondo	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	28	punct	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+33	avanzavano	avanzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	28	acl:relcl	_	_
+34	rapidamente	rapidamente	ADV	B	_	33	advmod	_	_
+35	verso	verso	ADP	E	_	37	case	_	_
+36	di	di	ADP	E	_	35	fixed	_	_
+37	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	33	obl	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	33	punct	_	_
+39-40	col	_	_	_	_	_	_	_	_
+39	con	con	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+42	alternato	alternato	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+43	di	di	ADP	E	_	46	case	_	_
+44	due	due	NUM	N	NumType=Card	46	nummod	_	_
+45	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	46	amod	_	_
+46	stantuffi	stantuffo	NOUN	S	Gender=Masc|Number=Plur	41	nmod	_	_
+47	d'	di	ADP	E	_	49	case	_	SpaceAfter=No
+48	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+50	a	a	ADP	E	_	51	case	_	_
+51	vapore	vapore	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

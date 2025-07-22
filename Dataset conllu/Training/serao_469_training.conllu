@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In mezzo ad essi una bimba, con una gonnelluccia corta e uno scialletto che le avvolge il busto, cava dalla tasca manate di granturco e ne lascia filtrare i grani fra le dita.
+1	In	in	ADP	E	_	2	case	_	_
+2	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+3	ad	a	ADP	E	_	4	case	_	_
+4	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	gonnelluccia	gonnelluccia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+11	corta	corto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	scialletto	scialletto	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+17	avvolge	avvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	busto	busto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	cava	cavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22-23	dalla	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	tasca	tasca	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	manate	manato	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	granturco	granturco	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	30	iobj	_	_
+30	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+31	filtrare	filtrare	VERB	V	VerbForm=Inf	30	xcomp	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	grani	grano	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	_
+34	fra	fra	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	dita	dito	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 2
+# text = I colombi formano intorno a lei un circolo fitto, fitto, pizzicandosi, beccandosi, per arrivare al granturco:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	colombi	colombo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	formano	formare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	intorno	intorno	ADV	B	_	6	case	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	circolo	circolo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+9	fitto	fitto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	fitto	fitto	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13-14	pizzicandosi	_	_	_	_	_	_	_	SpaceAfter=No
+13	pizzicando	pizzicare	VERB	V	VerbForm=Ger	3	advcl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16-17	beccandosi	_	_	_	_	_	_	_	SpaceAfter=No
+16	beccando	beccare	VERB	V	VerbForm=Ger	13	advcl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	arrivare	arrivare	VERB	V	VerbForm=Inf	13	advcl	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	granturco	granturco	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = lei sta nel centro, piccola, con una testolina minuta, con una grossa treccia fulva, mezzo discinta sul collo.
+1	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	centro	centro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	testolina	testolina	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+12	minuta	minuto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	grossa	grosso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	treccia	treccia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+18	fulva	fulvo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	mezzo	mezzo	PRON	PI	Gender=Masc|Number=Sing	21	obj	_	_
+21	discinta	discincere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	collo	collo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

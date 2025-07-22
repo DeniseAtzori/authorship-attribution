@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli venne, al quarto appuntamento, quando ella non lo aspettava più, alle dieci e mezzo, invece che alle nove.
+1	Egli	egli	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	venne	venire	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	quando	quando	SCONJ	CS	_	13	mark	_	_
+10	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+14	più	più	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	dieci	dieci	NUM	N	NumType=Card	13	obl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	invece	invece	ADV	B	_	26	advmod	_	_
+23	che	che	SCONJ	CS	_	22	fixed	_	_
+24-25	alle	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	nove	nove	NUM	N	NumType=Card	13	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Il suo orecchio fine udì il suono timido e debole del campanello, udì la voce bassa con cui egli domandava di lei, in anticamera, e il passo cheto con cui egli si avanzava, a traverso l'appartamento.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	fine	fine	ADJ	A	Number=Sing	3	amod	_	_
+5	udì	udire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	suono	suono	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	timido	timido	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	debole	debole	ADJ	A	Number=Sing	8	conj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	udì	udire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	voce	voce	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+21	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	domandava	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	anticamera	anticamera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	passo	passo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+32	cheto	cheto	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+33	con	con	ADP	E	_	34	case	_	_
+34	cui	cui	PRON	PR	PronType=Rel	37	obl	_	_
+35	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+37	avanzava	avanzavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	acl:relcl	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	37	punct	_	_
+39	a	a	ADP	E	_	42	case	_	_
+40	traverso	traverso	ADP	E	_	42	case	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+42	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Era un buon giovine, di modi aperti, leale, buon patriota;
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	buon	buono	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	giovine	giovina	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	modi	modo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	aperti	aperto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	leale	leale	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	buon	buono	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	patriota	patriota	NOUN	S	Number=Sing	9	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = ma quando entrava a parlare dei grandi scienziati francesi, dei loro studi, delle loro scoperte, non la finiva più.
+1	ma	ma	CCONJ	CC	_	24	cc	_	_
+2	quando	quando	SCONJ	CS	_	3	mark	_	_
+3	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	parlare	parlare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	grandi	grande	ADJ	A	Number=Plur	9	amod	_	_
+9	scienziati	scienziato	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	francesi	francese	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	studi	studio	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	loro	loro	DET	AP	Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	scoperte	scoperta	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+24	finiva	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+25	più	più	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 3
+# text = Nominava Velpéau, Nélaton, Ricord, come fossero stati suoi colleghi.
+1	Nominava	Nominare	PROPN	SP	_	0	root	_	_
+2	Velpéau	Velpéau	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Nélaton	Nélaton	PROPN	SP	_	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Ricord	Ricord	PROPN	SP	_	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	come	come	SCONJ	CS	_	12	mark	_	_
+9	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+10	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	cop	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	1	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Aveva frequentate le lezioni di Claude Bernard, e lo considerava, come era realmente del resto, un luminare della scienza.
+1	Aveva	avere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	frequentate	frequentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Claude	Claude	PROPN	SP	_	4	nmod	_	_
+7	Bernard	Bernard	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	considerava	considerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	come	come	SCONJ	CS	_	15	mark	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	realmente	realmente	ADJ	A	Number=Sing	11	advcl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	resto	resto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	luminare	luminare	NOUN	S	Gender=Masc|Number=Sing	18	appos	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Tutto questo però, e neppure la rivalità in amore, non c'impediva d'essere buoni amici.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+3	però	però	ADV	B	_	14	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	neppure	neppure	ADV	BN	PronType=Neg	8	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	rivalità	rivalità	NOUN	S	Gender=Fem	3	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	impediva	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	d'	di	ADP	E	_	18	mark	_	SpaceAfter=No
+16	essere	essere	AUX	V	VerbForm=Inf	18	cop	_	_
+17	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+18	amici	amico	NOUN	S	Gender=Masc|Number=Plur	14	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

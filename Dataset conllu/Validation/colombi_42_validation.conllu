@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il mio proponimento di fuggire la giovane artista fu completamente dimenticato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	proponimento	proponimento	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	fuggire	fuggire	VERB	V	VerbForm=Inf	3	acl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	giovane	giovane	ADJ	A	Number=Sing	8	amod	_	_
+8	artista	artista	NOUN	S	Number=Sing	5	obj	_	_
+9	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+10	completamente	completamente	ADV	B	_	11	advmod	_	_
+11	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Era evidente che non l'avevo preso se non per provare quanto le rincrescerebbe la mia lontananza.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	evidente	evidente	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	se	se	SCONJ	CS	_	11	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	provare	provare	VERB	V	VerbForm=Inf	7	advcl	_	_
+12	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	11	obj	_	_
+13	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	rincrescerebbe	rincrescare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	lontananza	lontananza	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma poichè non produceva nessun effetto, era necessario ch'io mi facessi amare abbastanza, perchè un'altra volta avesse a desiderarmi.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	poichè	poiché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	produceva	producere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+10	ch'	perché	SCONJ	CS	_	14	mark	_	SpaceAfter=No
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	expl	_	_
+13	facessi	facettere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	amare	amare	VERB	V	VerbForm=Inf	9	advcl	_	_
+15	abbastanza	abbastanza	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	perchè	perché	SCONJ	CS	_	21	mark	_	_
+18	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+19	altra	altro	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	volta	volta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+21	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	desiderarmi	arma|desiderarme	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Questa argomentazione naturalmente non la formulai nè colle parole, nè col pensiero;
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	argomentazione	argomentazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	naturalmente	naturalmente	ADV	B	_	6	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	formulai	formulaio	NOUN	S	_	2	nmod	_	_
+7	nè	nè	CCONJ	CC	_	10	cc	_	_
+8-9	colle	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	nè	né	CCONJ	CC	_	15	cc	_	_
+13-14	col	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = ma mi sentii irresistibilmente trascinato a ravvicinarmi a Fulvia, e da quel giorno le consacrai tutte le ore, tutt'i momenti che la mia professione mi lasciava liberi.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+3	sentii	sentii	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	irresistibilmente	irresistibilmente	ADV	B	_	5	advmod	_	_
+5	trascinato	trascinato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	ravvicinarmi	arma|ravvicinarme	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Fulvia	Fulvia	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	16	punct	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+15	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	consacrai	consacere	NOUN	S	_	7	conj	_	_
+17	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	19	det:predet	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	ore	ora	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	tutt'	tutto	ADP	E	_	23	case	_	SpaceAfter=No
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+24	che	che	SCONJ	CS	_	29	mark	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	professione	professione	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+28	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	iobj	_	_
+29	lasciava	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl	_	_
+30	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	29	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

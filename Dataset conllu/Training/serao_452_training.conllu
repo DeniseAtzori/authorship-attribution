@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Stava zitta zitta, senza voltarsi alle piccole compagne, guardandomi fissamente in volto con certi occhi timidi, come se volesse interpretare la mia volontà.
+1	Stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	zitta	zitto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	zitta	zitta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	senza	senza	ADP	E	_	6	mark	_	_
+6-7	voltarsi	_	_	_	_	_	_	_	_
+6	voltar	voltarre	VERB	V	VerbForm=Inf	3	acl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	compagne	compagna	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13-14	guardandomi	_	_	_	_	_	_	_	_
+13	guardando	guardare	VERB	V	VerbForm=Ger	6	advcl	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15	fissamente	fisso	ADV	B	_	13	advmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	volto	volto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	timidi	timido	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	come	come	ADV	B	_	26	advmod	_	_
+24	se	se	SCONJ	CS	_	26	mark	_	_
+25	volesse	volere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	interpretare	interpretare	VERB	V	VerbForm=Inf	3	advcl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	volontà	volontà	NOUN	S	Gender=Fem	26	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Feci una quantità di tentativi per confonderla, per coglierla in fallo, leggermente irritata di quella bonomia monotona.
+1	Feci	Feci	NUM	N	NumType=Card	3	nummod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	quantità	quantità	NOUN	S	Gender=Fem	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tentativi	tentativo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	confonderla	_	_	_	_	_	_	_	SpaceAfter=No
+7	confonder	confondere	VERB	V	VerbForm=Inf	3	acl	_	_
+8	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	coglierla	_	_	_	_	_	_	_	_
+11	coglier	cogliere	VERB	V	VerbForm=Inf	7	advcl	_	_
+12	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	fallo	fallo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	leggermente	leggermente	ADV	B	_	17	advmod	_	_
+17	irritata	irritato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	bonomia	bonomia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	monotona	monotono	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Mi rispondeva sempre bene, con una lentezza e una umiltà, senza turbarsi mai.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lentezza	lentezza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	umiltà	umiltà	NOUN	S	Gender=Fem	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	senza	senza	ADP	E	_	14	mark	_	_
+14-15	turbarsi	_	_	_	_	_	_	_	_
+14	turbar	turbarre	VERB	V	VerbForm=Inf	2	advcl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	mai	mai	ADV	B	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Così fu che mi vinse:
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	vinse	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = e in un momento in cui Aloe aveva cavata fuori la spugna del calamaio, impiastricciandosi orribilmente d’inchiostro, le gridai:
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+7	Aloe	Aloe	PROPN	SP	_	9	nsubj	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	cavata	cavare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	fuori	fuori	ADV	B	_	9	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	spugna	spugna	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	calamaio	calamaio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17-18	impiastricciandosi	_	_	_	_	_	_	_	_
+17	impiastricciando	impiastricciare	VERB	V	VerbForm=Ger	9	advcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	orribilmente	orribilmente	ADV	B	_	21	advmod	_	_
+20	d’	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	inchiostro	inchiostro	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	4	punct	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	gridai	gridaio	NOUN	S	_	0	root	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	24	punct	_	SpacesAfter=\n
+

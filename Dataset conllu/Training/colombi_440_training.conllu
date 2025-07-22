@@ -1,0 +1,152 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Eppure è facile capirlo, rispose Odda, dacchè il mondo è pieno di zitellone.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Eppure	eppure	CCONJ	CC	_	4	cc	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+5-6	capirlo	_	_	_	_	_	_	_	SpaceAfter=No
+5	capir	capire	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	Odda	Odda	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	dacchè	dacché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	zitellone	zitellone	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ma anche quelle che trovano marito, non lo trovano tutte come avrebbe voluto il babbo, e come vorrei io.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	10	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	marito	marito	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	10	nsubj	_	_
+12	come	come	ADV	B	_	14	advmod	_	_
+13	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	come	come	SCONJ	CS	_	21	mark	_	_
+20	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Allevate nell'idea fissa che debbano maritarsi presto, e che il non maritarsi è una vergogna, le ragazze a vent'anni cominciano ad inquietarsi se non sono ancora spose.
+1	Allevate	Allevare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+2-3	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	idea	idea	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	fissa	fisso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	debbano	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8-9	maritarsi	_	_	_	_	_	_	_	_
+8	maritar	maritare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	presto	presto	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	16	punct	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16-17	maritarsi	_	_	_	_	_	_	_	_
+16	maritar	maritare	VERB	V	VerbForm=Inf	8	conj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advmod	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	vent'	venti	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+26	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+27	cominciano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	ad	a	ADP	E	_	29	mark	_	_
+29-30	inquietarsi	_	_	_	_	_	_	_	_
+29	inquietar	inquietarre	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+31	se	se	SCONJ	CS	_	35	mark	_	_
+32	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+33	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	ancora	ancora	ADV	B	_	35	advmod	_	_
+35	spose	sposo	ADJ	A	Gender=Fem|Number=Plur	29	advcl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 4
+# text = Hanno paura del celibato come dell'inferno.
+1	Hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	paura	paura	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	celibato	celibato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	come	come	ADP	E	_	9	case	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	inferno	inferno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Pensano il giorno e sognano la notte domande di matrimonio.
+1	Pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	sognano	sognare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	domande	domande	ADJ	A	Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ed appena si presenta un partito conveniente, lo accettano, non perchè amino quell'uomo-partito, ma per fuggire il pericolo di rimaner zitellone.
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	appena	appena	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	presenta	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	partito	partito	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	conveniente	conveniente	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	accettano	accettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	perchè	perché	SCONJ	CS	_	14	mark	_	_
+14	amino	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+15	quell'	quello	DET	DD	Number=Sing|PronType=Dem	16	det	_	SpaceAfter=No
+16	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+18	partito	partito	NOUN	S	Gender=Masc|Number=Sing	16	compound	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	ma	ma	CCONJ	CC	_	22	cc	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	fuggire	fuggire	VERB	V	VerbForm=Inf	4	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	rimaner	rimanere	VERB	V	VerbForm=Inf	24	acl	_	_
+27	zitellone	zitellone	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

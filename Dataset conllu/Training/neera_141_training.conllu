@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nè inferiori, nè superiori, nè eguali, ma diversi ed equivalenti.
+1	Nè	nè	ADV	B	_	2	advmod	_	_
+2	inferiori	inferiore	ADJ	A	Degree=Cmp|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	nè	né	CCONJ	CC	_	5	cc	_	_
+5	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	nè	né	CCONJ	CC	_	8	cc	_	_
+8	eguali	eguale	ADJ	A	Number=Plur	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	5	conj	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	equivalenti	equivalente	ADJ	A	Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Essendo questa la mia formula di giudizio relativa ai due sessi, mi domando perchè si debba esigere dalla donna che ella compia oltre la sua anche la parte dell’uomo, mentre non si chiede all’uomo di surrogare la donna negli uffici suoi.
+1	Essendo	essere	AUX	V	VerbForm=Ger	5	cop	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	formula	formula	NOUN	S	Gender=Fem|Number=Sing	15	advcl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	relativa	relativo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	sessi	sesso	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+15	domando	domandare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	perchè	perché	SCONJ	CS	_	19	mark	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl:impers	_	_
+18	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	esigere	esigere	VERB	V	VerbForm=Inf	15	advcl	_	_
+20-21	dalla	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	donna	donna	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	che	che	PRON	PR	PronType=Rel	25	obj	_	_
+24	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	compia	compiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	oltre	oltre	ADP	E	_	31	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+28	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+29	anche	anche	ADV	B	_	31	advmod	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	parte	parte	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+32-33	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+32	di	di	ADP	E	_	34	case	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	15	punct	_	_
+36	mentre	mentre	SCONJ	CS	_	39	mark	_	_
+37	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl:impers	_	_
+39	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+40-41	all’	_	_	_	_	_	_	_	SpaceAfter=No
+40	a	a	ADP	E	_	42	case	_	_
+41	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+42	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	_
+43	di	di	ADP	E	_	44	mark	_	_
+44	surrogare	surrogare	VERB	V	VerbForm=Inf	42	acl	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	donna	donna	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	_
+47-48	negli	_	_	_	_	_	_	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	uffici	ufficio	NOUN	S	Gender=Masc|Number=Plur	44	obl	_	_
+50	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	49	det:poss	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

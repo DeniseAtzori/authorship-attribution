@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non mi opposi e non dissi di sì, indifferente.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+3	opposi	opposo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	dissi	diggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sì	sì	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	indifferente	indifferente	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Orsola andò subito a svegliare Pietro perchè potesse trovare il dottore in casa prima delle sue visite del mattino.
+1	Orsola	Orsola	PROPN	SP	_	2	nsubj	_	_
+2	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	subito	subito	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	svegliare	svegliare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	Pietro	Pietro	PROPN	SP	_	5	obj	_	_
+7	perchè	perché	SCONJ	CS	_	9	mark	_	_
+8	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	trovare	trovare	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dottore	dottore	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	prima	prima	ADV	B	_	18	case	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	14	fixed	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	visite	visita	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Poi tornò al mio capezzale, mi diede da bere, mi baciò due o tre volte le mani con una passione muta e concentrata.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	capezzale	capezzale	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	bere	bere	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	baciò	baciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	due	due	NUM	N	NumType=Card	18	nummod	_	_
+16	o	o	CCONJ	CC	_	17	cc	_	_
+17	tre	tre	NUM	N	NumType=Card	15	conj	_	_
+18	volte	volta	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	mani	mano	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	passione	passione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	muta	muto	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	concentrata	concentrato	ADJ	A	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

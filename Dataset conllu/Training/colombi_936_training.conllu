@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E tuttavia questo mondo esercitava il suo fascino potente sulla sua fantasia;
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	tuttavia	tuttavia	ADV	B	_	5	advmod	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	esercitava	esercitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	potente	potente	ADJ	A	Number=Sing	8	amod	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = ed il povero giovane subiva lotte crudeli, tentazioni di ribellione, che lo impaurivano.
+1	ed	e	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	povero	povero	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	giovane	giovane	ADJ	A	Number=Sing	3	amod	_	_
+5	subiva	subire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	lotte	lotta	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	crudeli	crudele	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	tentazioni	tentazione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	ribellione	ribellione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	impaurivano	impaurire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = E si metteva più accanito allo studio, per consacrare al più presto con un voto solenne, quella risoluzione che la foga della gioventù faceva ancora vacillare.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+3	metteva	mettere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	accanito	accanire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	allo	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	studio	studio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	consacrare	consacrare	VERB	V	VerbForm=Inf	5	advcl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	presto	presto	ADV	B	_	11	obl	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	voto	voto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+19	solenne	solenne	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	5	punct	_	_
+21	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	risoluzione	risoluzione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+23	che	che	SCONJ	CS	_	29	mark	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	foga	foga	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	gioventù	gioventù	NOUN	S	Gender=Fem	25	nmod	_	_
+29	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	advcl	_	_
+30	ancora	ancora	ADV	B	_	29	advmod	_	_
+31	vacillare	vacillare	VERB	V	VerbForm=Inf	29	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

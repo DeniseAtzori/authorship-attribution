@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Venne ad aprirmi lo stesso scrivano del mio notaio, da cui avevo estorto l'invito.
+1	Venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ad	a	ADP	E	_	3	mark	_	_
+3-4	aprirmi	_	_	_	_	_	_	_	_
+3	aprir	aprire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	obj	_	_
+6	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+7	scrivano	scrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	notaio	notaio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	estorto	estorgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	invito	invito	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Servitori punto.
+1	Servitori	Servitore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	punto	punto	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = L'unica lampada dell'anticamera mandava un profumo di petrolio fatale al mio stomaco.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	lampada	lampada	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	anticamera	anticamera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	mandava	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	petrolio	petrolio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	fatale	fatale	ADJ	A	Number=Sing	11	amod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Fui sul punto di tornare indietro.
+1	Fui	essere	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2-3	sul	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	punto	punto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	tornare	tornare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	indietro	indietro	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ma pensai a miss Gemmy, così elegante, così bella, e con un eroismo da innamorato, mi tolsi il soprabito.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	pensai	pensare	ADV	B	_	4	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	miss	miss	NOUN	S	Gender=Masc	0	root	_	_
+5	Gemmy	Gemmy	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	così	così	ADV	B	_	8	advmod	_	_
+8	elegante	elegante	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	bella	bello	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	eroismo	eroismo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	innamorato	innamorare	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+21	tolsi	tolso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	soprabito	soprabito	NOUN	S	Gender=Masc|Number=Sing	21	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

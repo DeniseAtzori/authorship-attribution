@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sull'imbrunire cominciarono a giungere i _landeaux_ ed i _breacks_ senza signore, tutti carichi di giovani eleganti, coi lunghi pastrani di lustrino, che scendevano fin sulle scarpe per coprire le abbigliature da ballo.
+1-2	Sull'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Su	su	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	imbrunire	imbrunire	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	cominciarono	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	giungere	giungere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	_landeaux_	ExtraSubj=Yes|_landeaux_	ADJ	NO	NumType=Ord	6	obj	_	_
+9	ed	e	CCONJ	CC	_	16	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+11	_breacks_	_breacks-	PUNCT	FB	_	13	punct	_	_
+12	senza	senza	ADP	E	_	13	case	_	_
+13	signore	signore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	nmod	_	_
+16	carichi	carico	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	giovani	giovane	NOUN	S	Number=Plur	16	nmod	_	_
+19	eleganti	elegante	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21-22	coi	_	_	_	_	_	_	_	_
+21	con	con	ADP	E	_	24	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	pastrani	pastrano	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	lustrino	lustrino	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	scendevano	scendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+30	fin	perfino	ADV	B	_	29	advmod	_	_
+31-32	sulle	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	scarpe	scarpa	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+34	per	per	ADP	E	_	35	mark	_	_
+35	coprire	coprire	VERB	V	VerbForm=Inf	29	advcl	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	abbigliature	abbigliatura	NOUN	S	Gender=Fem|Number=Plur	35	obj	_	_
+38	da	da	ADP	E	_	39	case	_	_
+39	ballo	ballo	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = La vecchia zia ed il signor Botanico li accoglievano salutandoli dalla gradinata del salotto;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	zia	zia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	ed	e	CCONJ	CC	_	6	cc	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	signor	signore	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7	Botanico	Botanico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	accoglievano	accogliere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10-11	salutandoli	_	_	_	_	_	_	_	_
+10	salutando	salutare	VERB	V	VerbForm=Ger	9	advcl	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	gradinata	gradinata	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = ma Dora non c'era più.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	Dora	Dora	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	più	più	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

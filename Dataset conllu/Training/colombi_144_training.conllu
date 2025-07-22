@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma tuttavia avevo diciotto anni.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	tuttavia	tuttavia	ADV	B	_	4	advmod	_	_
+3	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	diciotto	diciurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = — Due, tre, quattro uomini, dieci, mi sembrarono insolenti e brutali colle loro parole galanti.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Due	due	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tre	tre	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	quattro	quattro	NUM	N	NumType=Card	7	nummod	_	_
+7	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	dieci	dieci	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	sembrarono	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	insolenti	insolente	ADJ	A	Number=Plur	12	xcomp	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	brutali	brutale	ADJ	A	Number=Plur	13	conj	_	_
+16-17	colle	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	parole	parola	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+20	galanti	galante	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Poi ne venne uno che non mi sembrò insolente nè brutale.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+8	sembrò	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+9	insolente	insolente	ADJ	A	Number=Sing	8	xcomp	_	_
+10	nè	né	CCONJ	CC	_	11	cc	_	_
+11	brutale	brutale	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = — Era giovane, serio;
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	giovane	giovane	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	serio	serio	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = per un pezzo mi seguì senza dirmi nulla, mi guardava soltanto;
+1	per	per	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	seguì	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	senza	senza	ADP	E	_	7	mark	_	_
+7-8	dirmi	_	_	_	_	_	_	_	_
+7	dir	dire	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+13	soltanto	soltanto	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = ed io la notte, nella mia stanza solitaria e fredda, rivedevo quello sguardo che la riempiva di calore e di luce.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notte	notte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+10	solitaria	solitario	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	rivedevo	rivedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nmod	_	_
+16	sguardo	sguardo	ADV	B	_	15	advmod	_	_
+17	che	che	SCONJ	CS	_	16	fixed	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	riempiva	riempiva	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	calore	calore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	luce	luce	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

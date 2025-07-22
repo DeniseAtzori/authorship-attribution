@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non risposi ancora.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	risposi	risposare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Lo stesso giovane, che era tornato indietro, era ripassato accanto a mio marito, mi aveva sbirciata rapidamente ed aveva tirato innanzi una cinquantina di passi.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	giovane	giovane	ADJ	A	Number=Sing	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	indietro	indietro	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	ripassato	ripassare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	accanto	accanto	ADV	B	_	15	case	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	marito	marito	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	sbirciata	sbirciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+20	rapidamente	rapidamente	ADV	B	_	19	advmod	_	_
+21	ed	e	CCONJ	CC	_	23	cc	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	tirato	tirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+24	innanzi	innanzi	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	cinquantina	cinquantina	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	passi	passo	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Mentre Marco parlava, io vedevo quel giovane fermarsi un minuto presso la mostra di una bottega, poi voltarsi e venirci incontro daccapo.
+1	Mentre	mentre	SCONJ	CS	_	3	mark	_	_
+2	Marco	Marco	PROPN	SP	_	3	nsubj	_	_
+3	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	giovane	giovane	ADJ	A	Number=Sing	9	amod	_	_
+9-10	fermarsi	_	_	_	_	_	_	_	_
+9	fermar	fermare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	presso	presso	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	bottega	bottega	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	poi	poi	ADV	B	_	21	advmod	_	_
+21-22	voltarsi	_	_	_	_	_	_	_	_
+21	voltar	voltarre	VERB	V	VerbForm=Inf	6	conj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24-25	venirci	_	_	_	_	_	_	_	_
+24	venir	venire	VERB	V	VerbForm=Inf	6	conj	_	_
+25	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	expl	_	_
+26	incontro	incontro	ADP	E	_	27	case	_	_
+27	daccapo	daccapo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

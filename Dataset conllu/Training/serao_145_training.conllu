@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dopo averle aperte tutte tutte, Vicenzella mise il banchetto innanzi alla sua sedia e si pose a sedere.
+1	Dopo	dopo	SCONJ	CS	_	4	mark	_	_
+2-3	averle	_	_	_	_	_	_	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	4	cop	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	aperte	aperta	NOUN	S	Gender=Fem|Number=Plur	9	advcl	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det	_	_
+6	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	Vicenzella	Vicenzella	PROPN	SP	_	9	nsubj	_	_
+9	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	banchetto	banchetto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	innanzi	innanzi	ADV	B	_	16	case	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	sedia	sedio	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	sedere	sedere	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Guardava in su, dalla parte del Gigante, se Ciccillo comparisse.
+1	Guardava	Guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	su	su	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Gigante	gigante	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	se	se	SCONJ	CS	_	14	mark	_	_
+13	Ciccillo	Ciccillo	PROPN	SP	_	14	nsubj	_	_
+14	comparisse	comparire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = La vendita delle noci, sulle prime, andò scarsamente:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vendita	vendita	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	noci	noce	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7-8	sulle	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	11	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	scarsamente	scarso	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 4
+# text = venne una serva del vicinato, ne voleva otto per un soldo e le deprezzò, erano o fradicie o insipide.
+1	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	serva	serva	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	vicinato	vicinato	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	parataxis	_	_
+10	otto	otto	NUM	N	NumType=Card	9	obj	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	soldo	soldo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+16	deprezzò	deprezzò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+19	o	o	CCONJ	CC	_	20	cc	_	_
+20	fradicie	fradicia	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+21	o	o	CCONJ	CC	_	22	cc	_	_
+22	insipide	insipide	ADJ	A	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dacchè aveva conosciuto Vincenzo, il rimpianto per la vecchia rugine di famiglia che lo avviliva in faccia al cugino, era diventato un tormento pel suo cuore.
+1	Dacchè	Dacché	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	obj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	Vincenzo	Vincenzo	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rimpianto	rimpianto	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	rugine	rugine	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	avviliva	avvilire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tormento	tormento	NOUN	S	Gender=Masc|Number=Sing	24	xcomp	_	_
+27-28	pel	_	_	_	_	_	_	_	_
+27	per	per	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Oh, se avesse potuto riparare quel passato!
+1	Oh	oh	INTJ	I	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+6	riparare	riparare	VERB	V	VerbForm=Inf	0	root	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	passato	passato	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Vedersi stendere la mano da quei parenti!
+1-2	Vedersi	_	_	_	_	_	_	_	_
+1	Veder	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	stendere	stendere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	parenti	parente	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Entrare in quella casa!
+1	Entrare	entrare	VERB	V	VerbForm=Inf	0	root	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Se avesse potuto diventare l'amico di Vincenzo!
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4	diventare	diventare	VERB	V	VerbForm=Inf	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	amico	amico	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Vincenzo	Vincenzo	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

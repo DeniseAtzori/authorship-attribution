@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Invecchia, questo volto:
+1	Invecchia	invecchia	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	volto	volgere	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = impallidisce anche più.
+1	impallidisce	impallidire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	più	più	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ella, quindi, sorride facilmente, di tutto, anche quando dice qualche cosa di serio, anche quando dice, spesso, qualche cosa di duro.
+1	Ella	ella	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quindi	quindi	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	facilmente	facilmente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	quando	quando	SCONJ	CS	_	13	mark	_	_
+13	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+14	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	serio	serio	ADJ	A	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	anche	anche	ADV	B	_	21	advmod	_	_
+20	quando	quando	SCONJ	CS	_	21	mark	_	_
+21	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	spesso	spesso	ADV	B	_	21	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	26	det	_	_
+26	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	duro	duro	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = La sua voce è infantile, un po' trillante, un po' roca, un po' interrotta, spesso, da improvvisi languori, da stanchezze brevi:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	infantile	infantile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	po'	poco	ADV	B	_	9	advmod	_	_
+9	trillante	trillante	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	po'	poco	ADV	B	_	13	advmod	_	_
+13	roca	roco	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	po'	poco	ADV	B	_	17	advmod	_	_
+17	interrotta	interrotto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	spesso	spesso	ADV	B	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	improvvisi	improvvidere	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	languori	languori	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	stanchezze	stanchezzo	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+27	brevi	breve	ADJ	A	Number=Plur	26	amod	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = Luisa parla presto, molto, restando talvolta senza fiato, con le labbra schiuse, come un uccellino che abbia allora finito di cantare.
+1	Luisa	Luisa	PROPN	SP	_	2	nsubj	_	_
+2	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	presto	presto	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	molto	molto	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	restando	restare	VERB	V	VerbForm=Ger	2	advcl	_	_
+8	talvolta	talvolta	ADV	B	_	7	advmod	_	_
+9	senza	senza	ADP	E	_	10	case	_	_
+10	fiato	fiato	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+15	schiuse	schiuso	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	uccellino	uccellino	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	allora	allora	ADV	B	_	23	advmod	_	_
+23	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	cantare	cantare	VERB	V	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

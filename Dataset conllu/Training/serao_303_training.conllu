@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Appena una linea di goletto, dritto, in tela bianca: e spesso per quello stringimento, le saliva il sangue alla testa, il viso si faceva scarlatto e il naso cremisi.
+1	Appena	appena	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	linea	linea	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	goletto	goletto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	dritto	dritto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	tela	tela	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	spesso	spesso	ADV	B	_	16	advmod	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	nsubj	_	_
+17	stringimento	stringimento	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	20	iobj	_	_
+20	saliva	saliva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	testa	testa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	viso	viso	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+30	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
+31	scarlatto	scarlatto	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	naso	naso	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+35	cremisi	cremisi	NOUN	S	Number=Plur	31	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 2
+# text = Pei cappelli, era un affar serio; piccoli, erano ridicoli; grandi, ridicolissimi:
+1	Pei	Peo	NUM	N	NumType=Card	2	nummod	_	_
+2	cappelli	cappelle	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	affar	affar	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	serio	serio	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	9	punct	_	_
+9	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	ridicoli	ridicolo	ADJ	A	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	14	punct	_	_
+14	grandi	grande	ADJ	A	Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	ridicolissimi	ridicolo	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = non si trovava una forma che le andasse, senza sfigurarla troppo.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forma	forma	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	andasse	andare	NOUN	S	Gender=Fem|Number=Plur	5	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11-12	sfigurarla	_	_	_	_	_	_	_	_
+11	sfigurar	sfigurare	VERB	V	VerbForm=Inf	8	advcl	_	_
+12	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	troppo	troppo	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

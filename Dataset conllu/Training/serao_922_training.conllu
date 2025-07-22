@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella sapeva bene di fare uno sforzo su sè stessa, per reprimere gli impeti del suo temperamento bizzarro e per essere assolutamente dolce:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	nmod	_	_
+10	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	reprimere	reprimere	VERB	V	VerbForm=Inf	2	advcl	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	impeti	impeto	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	temperamento	temperamento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+20	bizzarro	bizzarro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	per	per	ADP	E	_	25	mark	_	_
+23	essere	essere	AUX	V	VerbForm=Inf	25	cop	_	_
+24	assolutamente	assolutamente	ADV	B	_	25	advmod	_	_
+25	dolce	dolce	ADJ	A	Number=Sing	13	conj	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = ma sperava di poter continuare così, sempre che lo volesse seriamente.
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	sperava	sperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	poter	potere	AUX	VM	VerbForm=Inf	5	aux	_	_
+5	continuare	continuare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	così	così	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	sempre	sempre	ADV	B	_	11	advmod	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	volesse	volere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+12	seriamente	seriamente	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E come lui credeva di aver innanzi una creatura trasfigurata, che gli avrebbe dato le fredde, tranquille e ultime tenerezze senz'amore, ma tenerezze sicure di un'amicizia muliebre, così ella si lusingava di poter essere questa amica gelida, affettuosa e quieta.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+4	credeva	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	aver	avere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	innanzi	innanzi	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	trasfigurata	trasfigurato	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+14	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	fredde	fredda	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	tranquille	tranquillo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	ultime	ultimo	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+22	tenerezze	tenerezza	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+23	senz'	senza	ADP	E	_	24	case	_	SpaceAfter=No
+24	amore	amore	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	ma	ma	CCONJ	CC	_	27	cc	_	_
+27	tenerezze	tenerezza	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	_
+28	sicure	sicuro	CCONJ	CC	_	31	cc	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+32	muliebre	muliebre	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	31	punct	_	_
+34	così	così	ADV	B	_	35	advmod	_	_
+35	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+37	lusingava	lusingare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	conj	_	_
+38	di	di	ADP	E	_	42	mark	_	_
+39	poter	potere	AUX	VM	VerbForm=Inf	42	aux	_	_
+40	essere	essere	AUX	V	VerbForm=Inf	42	cop	_	_
+41	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	42	det	_	_
+42	amica	amico	NOUN	S	Gender=Fem|Number=Sing	37	xcomp	_	_
+43	gelida	gelido	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	45	punct	_	_
+45	affettuosa	affettuoso	ADJ	A	Gender=Fem|Number=Sing	43	conj	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	quieta	quieto	ADJ	A	Gender=Fem|Number=Sing	43	conj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

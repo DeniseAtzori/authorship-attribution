@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A un tratto, l'idea di parlare con Chérie, di dirle qualche cosa, gli fu insopportabile;
+1	A	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	idea	idea	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	parlare	parlare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	Chérie	Chérie	PROPN	SP	_	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	dirle	_	_	_	_	_	_	_	_
+13	dir	dire	VERB	V	VerbForm=Inf	8	conj	_	_
+14	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+15	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+19	fu	fu	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+20	insopportabile	insopportabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	20	punct	_	_
+
+# sent_id = 2
+# text = fissava con occhio attento quella bocca bella socchiusa, da cui sarebbero uscite, forse fra un minuto, le parole di saluto, di interrogazione, a cui avrebbe dovuto rispondere ed ebbe un moto di orrore.
+1	fissava	fissare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	attento	attento	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+7	bella	bello	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	socchiusa	socchiudere	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+12	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	uscite	uscire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	forse	forse	ADV	B	_	18	advmod	_	_
+16	fra	fra	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	interrogazione	interrogazione	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	21	punct	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	cui	cui	PRON	PR	PronType=Rel	32	obl	_	_
+30	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	aux	_	_
+32	rispondere	rispondere	VERB	V	VerbForm=Inf	21	acl:relcl	_	_
+33	ed	e	CCONJ	CC	_	34	cc	_	_
+34	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	conj	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	moto	moto	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Facendo uno sforzo supremo, si voltò, per andarsene, ma urtò in un mobile, qualche cosa tintinnò, Chérie si risvegliò, subito, levando la testa:
+1	Facendo	fare	VERB	V	VerbForm=Ger	7	advcl	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	supremo	supremo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	voltò	volte	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-12	andarsene	_	_	_	_	_	_	_	SpaceAfter=No
+10	andar	andare	VERB	V	VerbForm=Inf	26	advcl	_	_
+11	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	urtò	urtare	ADV	B	_	10	advmod	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mobile	mobile	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	21	det	_	_
+21	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	tintinnò	tintinnò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	10	punct	_	_
+24	Chérie	Chérie	PROPN	SP	_	26	nsubj	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+26	risvegliò	risvegliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	subito	subito	ADV	B	_	26	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	26	punct	_	_
+30	levando	levare	VERB	V	VerbForm=Ger	26	advcl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	testa	testa	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	7	punct	_	SpacesAfter=\n
+

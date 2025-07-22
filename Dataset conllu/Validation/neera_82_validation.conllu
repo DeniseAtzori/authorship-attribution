@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Voi avete la casa moderna coi servitori antichi;
+1	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+3	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+4	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	coi	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	servitori	servitore	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+11	antichi	antico	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = io ho la mia vecchia bicocca con questi due giovani merli a custodirla.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+5	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	bicocca	bicocca	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	giovani	giovane	NOUN	S	Number=Plur	2	obl	_	_
+11-12	merli	_	_	_	_	_	_	_	_
+11	mer	mere	ADP	E	_	12	case	_	_
+12	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14-15	custodirla	_	_	_	_	_	_	_	SpaceAfter=No
+14	custodir	custodire	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Come si fa!
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = La cameriera di mia madre che ci stava da ventidue anni è morta subito dopo la sua padrona e io dovetti prendere quello che potei trovare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cameriera	cameriera	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	madre	madre	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	iobj	_	_
+8	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	ventidue	ventidue	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	subito	subito	ADV	B	_	18	advmod	_	_
+15	dopo	dopo	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	dovetti	doveggere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	conj	_	_
+22	prendere	prendere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+23	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	obj	_	_
+24	che	che	PRON	PR	PronType=Rel	25	obj	_	_
+25	potei	pote	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	trovare	trovare	VERB	V	VerbForm=Inf	25	csubj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

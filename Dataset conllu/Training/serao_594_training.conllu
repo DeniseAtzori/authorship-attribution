@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Alla sera, come l'ora avanzava, solo, desolato, disperato, Paolo Herz andò alla casa di Luisa Cima affrontando tutti i rischi di questa visita in un'ora insolita.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ora	ora	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+8	avanzava	avanzavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	solo	solo	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	desolato	desolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	Paolo	Paolo	PROPN	SP	_	18	nsubj	_	_
+17	Herz	Herz	PROPN	SP	_	16	flat:name	_	_
+18	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	casa	casa	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Luisa	Luisa	PROPN	SP	_	21	nmod	_	_
+24	Cima	cima	PROPN	SP	_	23	flat:name	_	_
+25	affrontando	affrontare	VERB	V	VerbForm=Ger	18	advcl	_	_
+26	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	28	det:predet	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+31	visita	visita	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	ora	ora	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+35	insolita	insolito	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Per fortuna, ella era sola, leggeva, bevendo una tazza di the.
+1	Per	per	ADP	E	_	2	case	_	_
+2	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	leggeva	leggere	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	bevendo	bevere	VERB	V	VerbForm=Ger	6	advcl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tazza	tazza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Il suo viso era sereno, nè avevano traccie di lacrime i suoi occhi:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	viso	viso	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	sereno	sereno	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	nè	né	CCONJ	CC	_	8	cc	_	_
+8	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+9	traccie	traccia	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = già egli non l'aveva mai vista piangere.
+1	già	già	ADV	B	_	5	advmod	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+5	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+8	piangere	piangere	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

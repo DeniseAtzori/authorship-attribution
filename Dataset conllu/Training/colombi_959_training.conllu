@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = No, non ancora.
+1	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	ancora	ancora	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Il babbo ti dirà..., disse l'Elena mettendogli una sedia accanto alla poltrona del signor Dogliani.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+4	dirà...	dirà.	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Elena	Elena	PROPN	SP	_	6	obj	_	_
+9-10	mettendogli	_	_	_	_	_	_	_	_
+9	mettendo	mettere	VERB	V	VerbForm=Ger	6	advcl	_	_
+10	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	accanto	accanto	ADV	B	_	16	case	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	13	fixed	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	signor	signore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	Dogliani	Dogliani	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Poi se ne andò al pianoforte che era aperto, e si mise a suonare un minuetto, con dei _pianissimo_ che sfumavano come un profumo lieve di viola, e degli _andante_ che parevano scoppi di risa.
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pianoforte	pianoforte	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	aperto	aperto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	suonare	suonare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	minuetto	minuetto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	con	con	ADP	E	_	23	case	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	20	fixed	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	_pianissimo_	ExtraSubj=Yes|_pianissimo_	PUNCT	FB	_	25	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	sfumavano	sfumare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+26	come	come	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	lieve	lieve	ADJ	A	Number=Sing	28	amod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	viola	viola	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	38	punct	_	_
+33	e	e	CCONJ	CC	_	38	cc	_	_
+34-35	degli	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	38	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+36	_andante_	_andante-	PUNCT	FB	_	38	punct	_	_
+37	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+38	parevano	parere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	conj	_	_
+39	scoppi	scoppio	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	risa	ridere	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma l’accordo non si stabilì.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	stabilì	stabilire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = La signora avvertì subito negli occhi di Moena un pensiero al quale ella era estranea.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	avvertì	avvertire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	subito	subito	ADV	B	_	3	advmod	_	_
+5-6	negli	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Moena	Moena	PROPN	SP	_	7	nmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	quale	quale	PRON	PR	Number=Sing|PronType=Rel	17	obl	_	_
+15	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	estranea	estraneo	ADJ	A	Gender=Fem|Number=Sing	11	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Si aspettava di trovarlo più tenero, più ardente, desolato della loro separazione.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	trovarlo	_	_	_	_	_	_	_	_
+4	trovar	trovare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	tenero	tenero	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	ardente	ardente	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	desolato	desolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	separazione	separazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il dubbio che la sua condiscendenza della sera prima ne avesse intiepidito l’affetto la indurì, suggerendole parole fredde e altere.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	13	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	condiscendenza	condiscendenza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+12	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	intiepidito	intiepidire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	indurì	indurì	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19-20	suggerendole	_	_	_	_	_	_	_	_
+19	suggerendo	suggerire	VERB	V	VerbForm=Ger	13	advcl	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	parole	parola	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	fredde	freddo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	altere	altero	ADJ	A	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

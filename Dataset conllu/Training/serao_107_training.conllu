@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nella grande e strana dolcezza di quell'aprile, tutto il vasto parco era fiorito, fra la collina e il mare:
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	6	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+3	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	strana	strano	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	_
+6	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	quell'	quello	DET	DD	Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+9	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	14	det:predet	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	vasto	vasto	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	parco	parco	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	fiorito	fiorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	fra	fra	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	collina	collina	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mare	mare	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 2
+# text = i larghi viali dalle quercie austere, dai platani austeri, sotto l'arco verde oscuro dei loro rami, eran tutti biondeggianti di sottili raggi di sole, eran biondeggianti di piccoli e scherzosi occhi di sole.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	larghi	largo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	viali	viale	ADJ	A	Number=Plur	2	amod	_	_
+4-5	dalle	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	quercie	quercia	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+7	austere	austero	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9-10	dai	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	platani	platano	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+12	austeri	austero	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	sotto	sotto	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	arco	arco	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+17	verde	verde	ADJ	A	Number=Sing	16	amod	_	_
+18	oscuro	oscuro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	rami	ramo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	16	punct	_	_
+24	eran	eran	NOUN	S	Gender=Masc	16	appos	_	_
+25	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	nmod	_	_
+26	biondeggianti	biondeggiante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	compound	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	sottili	sottile	ADJ	A	Number=Plur	29	amod	_	_
+29	raggi	raggio	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	sole	sole	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_	_
+33	eran	eran	NOUN	S	Gender=Masc	31	conj	_	_
+34	biondeggianti	biondeggiante	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+35	di	di	ADP	E	_	39	case	_	_
+36	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	39	amod	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	scherzosi	scherzoso	ADJ	A	Gender=Masc|Number=Plur	36	conj	_	_
+39	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	sole	sole	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

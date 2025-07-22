@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era stupefacente che quel suo desiderio fosse diventato la preoccupazione generale.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	stupefacente	stupefacente	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	8	xcomp	_	_
+11	generale	generale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Che persino le macchine si tormentassero con quella questione.
+1	Che	che	SCONJ	CS	_	6	mark	_	_
+2	persino	persino	ADV	B	_	6	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	tormentassero	tormentasdere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	questione	questione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Alla lunga, però, capì che la macchina non aveva pensieri suoi da esprimere;
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	capì	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+13	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+15	da	da	ADP	E	_	16	mark	_	_
+16	esprimere	esprimere	VERB	V	VerbForm=Inf	14	advcl	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = che ripeteva soltanto quanto le avevano detto.
+1	che	che	SCONJ	CS	_	2	mark	_	_
+2	ripeteva	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	soltanto	soltanto	ADV	B	_	4	advmod	_	_
+4	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	2	obj	_	_
+5	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ripeteva tutto;
+1	Ripeteva	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = colla stessa voce, colle stesse intonazioni!
+1	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5-6	colle	_	_	_	_	_	_	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	intonazioni	intonazione	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Una macchina che parlava!
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

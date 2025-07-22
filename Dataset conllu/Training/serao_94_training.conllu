@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vi erano dei periodi in cui sembrava che egli mi sfuggisse intieramente:
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	periodi	periodo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+8	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+12	sfuggisse	sfuggire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+13	intieramente	intieramente	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = neri periodi di desolazione, di disperazione:
+1	neri	nero	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	periodi	periodo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	desolazione	desolazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = e, forse, forse, in quei tempi egli più mi amava, e io non intendeva l'enigma.
+1	e	e	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	13	punct	_	_
+3	forse	forse	ADV	B	_	13	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	forse	forse	ADV	B	_	13	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	più	più	ADV	B	_	13	advmod	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	intendeva	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	enigma	enigma	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Tanto che, a poco a poco, tutta la mia esistenza morale e materiale appartenne al mio amante:
+1	Tanto	tanto	ADV	B	_	16	advmod	_	_
+2	che	che	SCONJ	CS	_	16	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	12	punct	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	poco	poco	ADV	B	_	12	advmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	poco	poco	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	12	det:predet	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+13	morale	morale	ADJ	A	Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+16	appartenne	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	amante	amante	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 5
+# text = io sentii assolutamente che solo il suo amore mi rendeva importante e cara la vita, e che egli era il _solo_ uomo che io potevo amare.
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sentii	sentii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	assolutamente	assolutamente	ADV	B	_	10	mark	_	_
+4	che	che	SCONJ	CS	_	3	fixed	_	_
+5	solo	solo	ADV	B	_	8	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	rendeva	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+11	importante	importante	ADJ	A	Number=Sing	10	xcomp	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	cara	carare	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	23	punct	_	_
+17	e	e	CCONJ	CC	_	23	cc	_	_
+18	che	che	SCONJ	CS	_	23	mark	_	_
+19	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	_solo_	ExtraSubj=Yes|_solo_	ADJ	NO	NumType=Ord	23	amod	_	_
+23	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+24	che	che	PRON	PR	PronType=Rel	27	obj	_	_
+25	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+26	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	amare	amare	VERB	V	VerbForm=Inf	23	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	23	punct	_	SpacesAfter=\n
+

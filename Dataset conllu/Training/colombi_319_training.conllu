@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per fortuna — allora dissi per fortuna, — una bestiolina verde, un bruco, venne a strisciare sugli orli del mio vaso.
+1	Per	per	ADP	E	_	2	case	_	_
+2	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+3	—	—	PUNCT	FF	_	2	punct	_	_
+4	allora	allora	ADV	B	_	5	advmod	_	_
+5	dissi	diggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	—	—	PUNCT	FF	_	2	punct	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	bestiolina	bestiolina	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+12	verde	verde	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bruco	bruco	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	strisciare	strisciare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20-21	sugli	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22-23	orli	_	_	_	_	_	_	_	_
+22	or	or	NOUN	S	Gender=Masc	19	obl	_	_
+23	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	vaso	vaso	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2
+# text = Sebbene fosse bruttina, la vista di quella bestiola mi divertì.
+1	Sebbene	sebbene	SCONJ	CS	_	3	mark	_	_
+2	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	bruttina	bruttino	ADJ	A	Gender=Fem|Number=Sing	11	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vista	vista	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	bestiola	bestiola	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	divertì	divertire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Mi piaceva la flessibilità delle sue movenze, la facilità con cui si raccoglieva in un gruppo o si stendeva, modificando il portamento a seconda delle esigenze del cammino.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piaceva	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	flessibilità	flessibilità	NOUN	S	Gender=Fem	2	obj	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	movenze	movenza	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	facilità	facilità	NOUN	S	Gender=Fem	2	obl	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	raccoglieva	raccogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	o	o	CCONJ	CC	_	21	cc	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+21	stendeva	stendevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	modificando	modificare	VERB	V	VerbForm=Ger	2	advcl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	portamento	portamento	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	seconda	seconda	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	cammino	cammino	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ella mi disse:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,128 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Nulla: si ricorda che lei mi aveva chiesto il primo ballo per star seduti vicini, a veder le tolette?
+1	--Nulla	--Nulla	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	ballo	ballo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	star	stare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	seduti	seduta	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	xcomp	_	_
+16	vicini	vicino	ADJ	A	Gender=Masc|Number=Plur	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	veder	vedere	VERB	V	VerbForm=Inf	16	advcl	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	tolette	toletta	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Allora Giorgio andò ad invitare un'altra signora, e volle spiegare ai miei occhi tutte le sue grazie.
+1	Allora	allora	ADV	B	_	3	advmod	_	_
+2	Giorgio	Giorgio	PROPN	SP	_	3	nsubj	_	_
+3	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5	invitare	invitare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	altra	altro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	signora	signore	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	spiegare	spiegare	VERB	V	VerbForm=Inf	11	advcl	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+17	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	20	det:predet	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	grazie	grazia	NOUN	S	_	12	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Mio Dio!
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non l'avesse mai fatto!
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+3	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Non ha mai osservato come è ridicolo un uomo serio nella danza?
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	osservato	osservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	come	come	SCONJ	CS	_	7	mark	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ridicolo	ridicolare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	serio	serio	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	danza	danza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = E per colmo di sciagura, ballava bene!
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	colmo	colmo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sciagura	sciagura	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	ballava	ballavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	bene	bene	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Che orrore!
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Era così volgare, così volgare...
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	volgare	volgare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	così	così	ADV	B	_	3	advmod	_	_
+6	volgare...	volgare.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = mi fece un'impressione terribile...
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	terribile..	terribile..	NOUN	S	_	4	compound	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Mi fece ridere.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ridere	ridere	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Pensai (pulivo nel frattempo la faccia di Alessio) che quando egli nacque suo padre era a Parigi, secondo il solito;
+1	Pensai	Pensai	ADV	B	_	3	advmod	_	_
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	pulivo	pulivo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Alessio	Alessio	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	3	punct	_	_
+12	che	che	SCONJ	CS	_	20	mark	_	_
+13	quando	quando	SCONJ	CS	_	15	mark	_	_
+14	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	nacque	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	advcl	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	padre	padre	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+18	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Parigi	Parigi	PROPN	SP	_	0	root	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	secondo	secondo	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	solito	solito	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	20	punct	_	_
+
+# sent_id = 2
+# text = che alle mie ardenti preghiere di ritorno aveva risposto che gli affari lo trattenevano--quali affari, mio Dio?
+1	che	che	SCONJ	CS	_	10	mark	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	ardenti	ardento	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+6	preghiere	preghiere	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	che	che	SCONJ	CS	_	15	mark	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	affari	affare	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	trattenevano	trattenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+18	quali	quale	DET	DQ	Number=Plur|PronType=Int	19	det	_	_
+19	affari	affare	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = --che poi aveva visto una sola volta suo figlio e che da due mesi mancavo di sue notizie.
+1	--che	--co	ADV	B	_	4	advmod	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sola	solo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	che	che	PRON	PR	PronType=Rel	14	case	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	due	due	NUM	N	NumType=Card	14	nummod	_	_
+14	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+15	mancavo	mancavo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

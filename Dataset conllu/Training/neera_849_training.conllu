@@ -1,0 +1,156 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Sì, ma non è il momento di parlarne.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	ma	ma	CCONJ	CC	_	8	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	parlarne	_	_	_	_	_	_	_	SpaceAfter=No
+10	parlar	parlare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Parliamo invece del nostro dolce e così recente passato.
+1	Parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	invece	invece	ADV	B	_	1	advmod	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	dolce	dolce	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	così	così	ADV	B	_	10	advmod	_	_
+9	recente	recente	ADJ	A	Number=Sing	10	amod	_	_
+10	passato	passato	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ricorda l’incontro sulla strada?
+1	Ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	strada	strada	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Che cosa speravo io allora, che cosa volevo?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+3	speravo	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	allora	allora	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	che	che	DET	DQ	PronType=Int	8	det	_	_
+8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	_
+9	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Lo ignoro.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ignoro	ignoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Forse non l’amavo ancora:
+1	Forse	forse	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+4	amavo	amavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	ancora	ancora	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = chi può dire quando incomincia l’amore!
+1	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+4	quando	quando	SCONJ	CS	_	5	mark	_	_
+5	incomincia	incominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Ma fui tanto felice, quella sera, sulla panchina, al suono della musica che per quanto uscita da istrumenti comuni sembrava a me un concento di paradiso;
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	tanto	tanto	ADV	B	_	4	advmod	_	_
+4	felice	felice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	suono	suono	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	musica	musica	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	26	obl	_	_
+22	uscita	uscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	istrumenti	istrumento	NOUN	S	Gender=Masc|Number=Plur	22	obl:agent	_	_
+25	comuni	comune	ADJ	A	Number=Plur	24	amod	_	_
+26	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nmod	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	concento	concento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	paradiso	Paradiso	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 9
+# text = e le lampadine elettriche chiarivano appena la spianata solitaria, e il suo velo bianco mi portava a tratti sul volto il suo respiro....
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	lampadine	lampadina	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	elettriche	elettrico	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	chiarivano	chiarire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	appena	appena	ADV	B	_	8	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	spianata	spianata	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	solitaria	solitario	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	17	punct	_	_
+11	e	e	CCONJ	CC	_	17	cc	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	velo	velo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+15	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+17	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+20-21	sul	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	volto	volto	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	respiro....	respiro....	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+
+# sent_id = 10
+# text = ricorda?
+1	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

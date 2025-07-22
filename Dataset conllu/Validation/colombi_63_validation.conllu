@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma Fulvia ed io ridevamo non di allegria, di gioia;
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	Fulvia	Fulvia	PROPN	SP	_	5	nsubj	_	_
+3	ed	e	CCONJ	CC	_	4	cc	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	conj	_	_
+5	ridevamo	ridere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	allegria	allegria	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = perchè omai una fase nuova era cominciata per noi; perchè sentivamo d'amarci e d'esserci rivelato a vicenda il nostro amore.
+1	perchè	perché	SCONJ	CS	_	2	mark	_	_
+2	omai	omai	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fase	fase	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	cominciata	cominciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	12	punct	_	_
+11	perchè	perché	SCONJ	CS	_	12	mark	_	_
+12	sentivamo	sentire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+13	d'	di	ADP	E	_	14	mark	_	SpaceAfter=No
+14-15	amarci	_	_	_	_	_	_	_	_
+14	amar	amare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	d'	di	ADP	E	_	20	mark	_	SpaceAfter=No
+18-19	esserci	_	_	_	_	_	_	_	_
+18	esser	essere	AUX	VA	VerbForm=Inf	20	aux	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	20	expl	_	_
+20	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	amore	amore	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Le nostre mani si stringevano con passione, si isolavano dalla conversazione, parlavano tra loro, si davano del tu.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	mani	mano	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	stringevano	stringere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	isolavano	isolavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	conversazione	conversazione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	parlavano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+16	tra	tra	ADP	E	_	17	case	_	_
+17	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Quella di Fulvia diceva:
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Fulvia	Fulvia	PROPN	SP	_	1	nmod	_	_
+4	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	SpacesAfter=\n
+

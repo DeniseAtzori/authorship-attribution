@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per qualche tempo non potei discernere altro che una luce fosca intercettata da una specie di nebbia;
+1	Per	per	ADP	E	_	3	case	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	potei	poteo	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	discernere	discernere	VERB	V	VerbForm=Inf	5	advcl	_	_
+7	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	_
+8	che	che	SCONJ	CS	_	7	fixed	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	luce	luce	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+11	fosca	fosca	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	intercettata	esintercetere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	specie	specie	NOUN	S	Gender=Fem	12	obl:agent	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = ma a poco a poco, esercitando meglio la vista, mi accorsi che quella che mitigava la luce intorno a me non era punto nebbia;
+1	ma	ma	CCONJ	CC	_	7	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	poco	poco	ADV	B	_	7	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	poco	poco	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	esercitando	esercitare	VERB	V	VerbForm=Ger	13	advcl	_	_
+8	meglio	meglio	ADV	B	_	7	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vista	vista	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+13	accorsi	accorrere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	che	che	SCONJ	CS	_	25	mark	_	_
+15	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	25	nsubj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	mitigava	mitigare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	luce	luce	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	intorno	intorno	ADV	B	_	22	case	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	obl	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+25	punto	punto	NOUN	S	Gender=Masc|Number=Sing	13	ccomp	_	_
+26	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	25	compound	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 3
+# text = era una parete, che dalla curva che avevo dinanzi, e di cui non vedevo il termine, argomentai essere di forma circolare.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	parete	parete	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	curva	curva	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+10	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+11	dinanzi	dinanzi	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	termine	termine	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	8	punct	_	_
+21	argomentai	argomentai	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+22	essere	essere	AUX	V	VerbForm=Inf	24	cop	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	forma	forma	NOUN	S	Gender=Fem|Number=Sing	3	acl:relcl	_	_
+25	circolare	circolare	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Essa non era nè abbastanza trasparente da lasciarmi distinguere gli oggetti esterni, nè abbastanza opaca da privarmi di luce.
+1	Essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	nè	nè	CCONJ	CC	_	6	cc	_	_
+5	abbastanza	abbastanza	ADV	B	_	6	advmod	_	_
+6	trasparente	trasparente	ADJ	A	Number=Sing	0	root	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	lasciarmi	arma|lasciarme	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+9	distinguere	distinguere	VERB	V	VerbForm=Inf	8	acl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	oggetti	oggetto	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	esterni	esterno	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	nè	nè	CCONJ	CC	_	16	cc	_	_
+15	abbastanza	abbastanza	ADV	B	_	16	advmod	_	_
+16	opaca	opaco	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	privarmi	arma|privarme	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	luce	luce	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

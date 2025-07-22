@@ -1,0 +1,139 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Non sarà nulla certamente„, pensava sprofondando le pupille nel vuoto oscuro.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+4	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+5	certamente	certamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	„	„	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	sprofondando	sprofondando	SCONJ	CS	_	11	mark	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	pupille	pupilla	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	oscuro	oscuro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = “Un po' di stanchezza, l'afa di oggi, la commozione....
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	afa	afa	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	oggi	oggi	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	commozione...	commozione...	NOUN	S	_	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Era vera commozione?
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	vera	vero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	commozione	commozione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ma perchè?
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	perchè	perché	ADV	B	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Lo aveva ella amato fin da piccino?
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	ella	ellare	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	fin	fino	ADV	B	_	7	advmod	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	piccino	piccino	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Lo aveva protetto quando gli altri lo deridevano?
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	protetto	protettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	quando	quando	SCONJ	CS	_	8	mark	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	deridevano	deridere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Aveva ascoltate le prime voci di quell'anima così tenera e così sensibile?
+1	Aveva	avere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	ascoltate	ascoltare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	5	amod	_	_
+5	voci	voce	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	quell'	quello	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+8	anima	anima	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	così	così	ADV	B	_	10	advmod	_	_
+10	tenera	tenero	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	così	così	ADV	B	_	13	advmod	_	_
+13	sensibile	sensibile	ADJ	A	Number=Sing	10	conj	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Si era fatta il suo pensiero e la sua coscienza?
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 9
+# text = ...
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = O non lo aveva invece sempre deriso e disprezzato?
+1	O	o	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	invece	invece	ADV	B	_	4	advmod	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	deriso	deriso	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	disprezzato	disprezzato	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Perchè dunque sarebbe commossa lei?
+1	Perchè	perché	ADV	B	_	4	advmod	_	_
+2	dunque	dunque	ADV	B	_	4	advmod	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	commossa	commuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Perchè?„
+1	Perchè	perché	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	„	„	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era vestita di flanella rossa, calda calda, con un grembiule bianco ricamato, con le calzette di lana rossa:
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	flanella	flanella	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	grembiule	grembiula	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+13	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	ricamato	ricamato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	calzette	calzetta	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	lana	lana	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = aveva un panierino elegante per la colazione.
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	panierino	panierino	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	elegante	elegante	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	3	acl	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	colazione	colazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Passava il tempo a guardarsi le braccia, a guardarsi le mani, a guardarsi i piedi, a guardarsi le pieghe del grembiule, sorridente e rotondetta, gonfiando il bocchino, non capendo nulla, attirando i baci per quell’aspetto di pallottolina bianca, rossa e pulituccia.
+1	Passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	guardarsi	_	_	_	_	_	_	_	_
+5	guardar	guardare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11-12	guardarsi	_	_	_	_	_	_	_	_
+11	guardar	guardare	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	mani	mano	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17-18	guardarsi	_	_	_	_	_	_	_	_
+17	guardar	guardare	VERB	V	VerbForm=Inf	11	advcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23-24	guardarsi	_	_	_	_	_	_	_	_
+23	guardar	guardare	VERB	V	VerbForm=Inf	17	advcl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	pieghe	piega	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	grembiule	grembiula	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	sorridente	sorridente	ADJ	A	Number=Sing	29	amod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	rotondetta	rotondetto	ADJ	A	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	1	punct	_	_
+35	gonfiando	gonfiare	VERB	V	VerbForm=Ger	1	advcl	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	bocchino	bocchino	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+40	capendo	capire	VERB	V	VerbForm=Ger	35	conj	_	_
+41	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	40	obj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	1	punct	_	_
+43	attirando	attirare	VERB	V	VerbForm=Ger	1	advcl	_	_
+44	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	baci	baco	NOUN	S	Gender=Masc|Number=Plur	43	obj	_	_
+46	per	per	ADP	E	_	47	case	_	_
+47-48	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+47	qui	qui	ADV	B	_	43	advmod	_	_
+48	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	49	det	_	_
+49	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	pallottolina	pallottolina	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+52	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	51	amod	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	54	punct	_	_
+54	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	52	conj	_	_
+55	e	e	CCONJ	CC	_	56	cc	_	_
+56	pulituccia	pulituccia	ADJ	A	Gender=Fem|Number=Sing	52	conj	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

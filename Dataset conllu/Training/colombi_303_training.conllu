@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Avevo passata la mattina a scriverle in ottava rima, le angoscie e le smanie del mio cuore innamorato.
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	scriverle	_	_	_	_	_	_	_	_
+6	scriver	scrivere	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	ottava	ottavo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	rima	rima	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	angoscie	angoscia	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	smanie	smania	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	innamorato	innamorato	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Bisognava che ad ogni modo le dessi quel biglietto, anche a costo di far nascere uno scandolo.
+1	Bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	ad	a	ADP	E	_	5	case	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	dessi	dettere	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+8	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	costo	costo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	far	fare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	nascere	nascere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	obj	_	_
+18-19	scandolo	_	_	_	_	_	_	_	SpaceAfter=No
+18	scando	scando	VERB	V	VerbForm=Ger	16	advcl	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Che m'importava di suo padre, de' miei parenti, di tutto il mondo?
+1	Che	che	SCONJ	CS	_	3	mark	_	_
+2	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	SpaceAfter=No
+3	importava	importavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	padre	padre	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8-9	de'	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	parenti	parente	NOUN	S	Number=Plur	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Io lo sfidavo il mondo nella foga del mio amore.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	sfidavo	sfidare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	foga	foga	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

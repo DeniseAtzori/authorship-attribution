@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Così amo io evocarla, magnificamente bella e soave, in una lunga veste di broccato d’oro dalle ampie maniche foderate di ermellini o di vaî, cinto il collo, adorna la fronte di gemme che pur scintillano meno dell’oro della sua chioma.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Così	così	ADV	B	_	3	advmod	_	_
+3	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5-6	evocarla	_	_	_	_	_	_	_	SpaceAfter=No
+5	evocar	evocare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	magnificamente	magnificamente	ADV	B	_	9	advmod	_	_
+9	bella	bello	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	soave	soave	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	veste	veste	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	broccato	broccato	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	d’	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	oro	oro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21-22	dalle	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	24	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	ampie	ampio	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+24	maniche	manica	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+25	foderate	foderato	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	ermellini	ermellino	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+28	o	o	CCONJ	CC	_	30	cc	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	vaî	vaio	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	3	punct	_	_
+32	cinto	cingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	collo	collo	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	adorna	adornare	ADV	B	_	38	advmod	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	fronte	fronte	NOUN	S	Number=Sing	34	nmod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	gemme	gemma	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+41	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+42	pur	pure	ADV	B	_	43	advmod	_	_
+43	scintillano	scintillare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+44	meno	meno	ADV	B	_	43	advmod	_	_
+45-46	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+45	di	di	ADP	E	_	47	case	_	_
+46	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
+47	oro	oro	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	_
+48-49	della	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	51	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+50	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	51	det:poss	_	_
+51	chioma	chioma	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Intorno a lei tutta la società del Rinascimento;
+1	Intorno	intorno	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod	_	_
+4	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	società	società	NOUN	S	Gender=Fem	0	root	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Rinascimento	Rinascimento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = bellissime dame e damigelle, adolescenti dalle lunghe chiome, cavalieri serrati nelle cotte di velluto, di zendado o di ermesino, scintillanti d’armi damaschinate.
+1	bellissime	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	2	amod	_	_
+2	dame	dama	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	damigelle	damigella	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	adolescenti	adolescere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	2	acl	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	chiome	chiome	NOUN	S	Gender=Fem	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	cavalieri	cavaliere	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+13	serrati	serrato	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14-15	nelle	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	cotte	cotta	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	velluto	velluto	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	zendado	zendado	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+22	o	o	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	ermesino	ermesino	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	scintillanti	scintillante	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+27	d’	di	ADP	E	_	28	case	_	SpaceAfter=No
+28	armi	arma	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+29	damaschinate	damaschinato	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un senso di puntura nella nuca avvertì la signora che c’era un vetro rotto alla finestra;
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senso	senso	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	puntura	puntura	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	nuca	nuca	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+8	avvertì	avvertire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	signora	signore	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	SpaceAfter=No
+13	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	vetro	vetro	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	rotto	rotto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = la cortina stessa, strappata dalla verga di ferro, penzolava con una non lontana somiglianza di impiccagione, gonfia nel ventre dei pappagalli che vi erano disseminati, opaca per la molta polvere raccolta e grigia sotto antiche traccie di amido che vi facevano delle placche qua e là.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cortina	cortina	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	strappata	strappare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	verga	verga	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	penzolava	penzolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	con	con	ADP	E	_	17	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	somiglianza	somiglianza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	impiccagione	impiccagione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	gonfia	gonfiare	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ventre	ventre	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	pappagalli	pappagallo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+28	che	che	PRON	PR	PronType=Rel	31	nsubj:pass	_	_
+29	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	31	expl	_	_
+30	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	31	aux:pass	_	_
+31	disseminati	disseminare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	acl:relcl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	21	punct	_	_
+33	opaca	opacare	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	molta	molto	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+37	polvere	polvere	AUX	VA	VerbForm=Inf	38	aux	_	_
+38	raccolta	raccolto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	advcl	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	grigia	grigio	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	_
+41	sotto	sotto	ADP	E	_	43	case	_	_
+42	antiche	antico	ADJ	A	Gender=Fem|Number=Plur	43	amod	_	_
+43	traccie	traccia	NOUN	S	Gender=Fem|Number=Plur	40	obl	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	amido	amido	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+46	che	che	PRON	PR	PronType=Rel	48	nsubj	_	_
+47	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	48	expl	_	_
+48	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	45	acl:relcl	_	_
+49-50	delle	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
+51	placche	placca	NOUN	S	Gender=Fem|Number=Plur	48	obl	_	_
+52	qua	quo	ADV	B	_	51	advmod	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	là	là	ADV	B	_	52	conj	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

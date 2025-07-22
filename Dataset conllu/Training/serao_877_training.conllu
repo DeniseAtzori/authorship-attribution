@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nel grande salone-terrazza, non un'anima;
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	grande	grande	ADJ	A	Number=Sing	4	amod	_	_
+4	salone	salone	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	terrazza	terrazza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	anima	anima	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = solo il custode sonnecchiava nel suo casotto, malgrado il cattivo tempo.
+1	solo	solo	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	custode	custode	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	sonnecchiava	sonnecchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	casotto	casotto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	malgrado	malgrado	SCONJ	CS	_	13	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Grazia e Ferrante andarono ad appoggiarsi alla ringhiera, guardando quel grande mare burrascoso che li aspergeva di minute stille gelide.
+1	Grazia	grazia	PROPN	SP	_	4	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Ferrante	Ferrante	PROPN	SP	_	1	conj	_	_
+4	andarono	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ad	a	ADP	E	_	6	mark	_	_
+6-7	appoggiarsi	_	_	_	_	_	_	_	_
+6	appoggiar	appoggiare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ringhiera	ringhiera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	guardando	guardare	VERB	V	VerbForm=Ger	4	advcl	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	grande	grande	ADJ	A	Number=Sing	15	amod	_	_
+15	mare	mare	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16	burrascoso	burrascoso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+19	aspergeva	aspergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	minute	minuto	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+22	stille	stilla	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	gelide	gelido	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = A un tratto una voce amica li riscosse dalla triste contemplazione:
+1	A	a	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	voce	voce	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	amica	amico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+8	riscosse	riscosso	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	triste	triste	ADJ	A	Number=Sing	12	amod	_	_
+12	contemplazione	contemplazione	NOUN	S	Gender=Fem|Number=Sing	8	obl:agent	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = un altro solitario era, colà, un amico di entrambi, un gentiluomo meridionale, cuore profondo sotto apparenze un po' leggiere, un po' scettiche.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	solitario	solitario	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	colà	colà	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	amico	amico	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	gentiluomo	gentiluomo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+15	meridionale	meridionale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+18	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	sotto	sotto	ADP	E	_	20	case	_	_
+20	apparenze	apparenza	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	po'	poco	ADV	B	_	23	advmod	_	_
+23	leggiere	leggiere	VERB	V	VerbForm=Inf	17	acl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	po'	poco	ADV	B	_	27	advmod	_	_
+27	scettiche	scettico	ADJ	A	Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

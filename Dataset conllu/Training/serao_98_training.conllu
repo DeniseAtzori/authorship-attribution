@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'ambiente del suo amore perdurava, intorno a me.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	perdurava	perduravo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	intorno	intorno	ADV	B	_	11	case	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Egli continuava ad apparire, dovunque potesse credere che io andassi, e dovetti, man mano, quasi chiudermi in casa, o uscire per vie deserte e lontane, abbandonando tutti i comuni ritrovi.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	continuava	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	ad	a	ADP	E	_	4	mark	_	_
+4	apparire	apparire	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	dovunque	dovunque	SCONJ	CS	_	8	mark	_	_
+7	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	credere	credere	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	andassi	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	dovetti	dovetto	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	man	mano	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	mano	mano	NOUN	S	Gender=Fem|Number=Sing	16	compound	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	quasi	quasi	ADV	B	_	20	advmod	_	_
+20-21	chiudermi	_	_	_	_	_	_	_	_
+20	chiuder	chiudere	VERB	V	VerbForm=Inf	11	advcl	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	casa	casa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	o	o	CCONJ	CC	_	26	cc	_	_
+26	uscire	uscire	VERB	V	VerbForm=Inf	11	conj	_	_
+27	per	per	ADP	E	_	28	case	_	_
+28	vie	via	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	_
+29	deserte	deserto	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	lontane	lontano	ADJ	A	Gender=Fem|Number=Plur	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	26	punct	_	_
+33	abbandonando	abbandonare	VERB	V	VerbForm=Ger	26	advcl	_	_
+34	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	36	det:predet	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	comuni	comune	NOUN	S	Gender=Masc|Number=Plur	33	obj	_	_
+37	ritrovi	ritrovo	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Egli continuava a scrivermi e io non aveva modo d'impedirglielo, mentre m'imponevo delle pene atroci per non aprire le sue lettere che erano intatte in un cassetto.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	continuava	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	scrivermi	scrivermo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+9	modo	modo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11-12	impedirglielo	_	_	_	_	_	_	_	SpaceAfter=No
+11	impedirglie	impedirgliere	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	nmod	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	conj	_	_
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	mentre	mentre	SCONJ	CS	_	33	mark	_	_
+15	m'	m'	DET	DD	Number=Sing|PronType=Dem	16	det	_	SpaceAfter=No
+16	imponevo	imponevo	NOUN	S	Gender=Masc|Number=Sing	33	nsubj	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	pene	pena	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	atroci	atroce	ADJ	A	Number=Plur	19	amod	_	_
+21	per	per	ADP	E	_	23	mark	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	aprire	aprire	VERB	V	VerbForm=Inf	19	advcl	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj:pass	_	_
+28	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	aux:pass	_	_
+29	intatte	intatto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	cassetto	cassetto	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

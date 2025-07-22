@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A che cosa credere?
+1	A	a	ADP	E	_	3	case	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obl	_	_
+4	credere	credere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = All’estasi che dei giorni trascorsi aveva fatto un soave incanto o alla oscura minaccia che la nuova attitudine di Moena le veniva suscitando?
+1-2	All’	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3-4	estasi	_	_	_	_	_	_	_	_
+3	esta	esta	NOUN	S	Number=Sing	19	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+9	trascorsi	trascorso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	soave	soave	ADJ	A	Number=Sing	14	amod	_	_
+14	incanto	incanto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	o	o	CCONJ	CC	_	18	cc	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	oscura	oscuro	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+19	minaccia	minaccia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	che	che	SCONJ	CS	_	28	mark	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	attitudine	attitudine	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Moena	Moena	PROPN	SP	_	23	nmod	_	_
+26	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	28	obj	_	_
+27	veniva	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	suscitando	suscitare	VERB	V	VerbForm=Ger	19	ccomp	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 3
+# text = C’era stato veramente quel sovrumano incontro delle anime che fa pensare a un intervento della divinità o non era stata che una illusione di più, una illusione aggiunta alle tante altre di cui aveva disseminata la vita?
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	veramente	veramente	ADV	B	_	5	advmod	_	_
+5	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+6	sovrumano	sovrumano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	anime	anima	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	pensare	pensare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	divinità	divinità	NOUN	S	Gender=Fem	16	nmod	_	_
+20	o	o	CCONJ	CC	_	26	cc	_	_
+21	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+23	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	cop	_	_
+24	che	che	SCONJ	CS	_	26	advmod	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	più	più	ADV	B	_	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	26	punct	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	26	appos	_	_
+32	aggiunta	aggiungere	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+33-34	alle	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	tante	tanto	NOUN	S	Number=Sing	32	obl	_	_
+36	altre	altro	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	cui	cui	PRON	PR	PronType=Rel	40	obl	_	_
+39	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	aux	_	_
+40	disseminata	disseminare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	35	acl:relcl	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	vita	vita	NOUN	S	Gender=Fem|Number=Sing	40	nsubj	_	SpaceAfter=No
+43	?	?	PUNCT	FS	_	26	punct	_	SpacesAfter=\n
+

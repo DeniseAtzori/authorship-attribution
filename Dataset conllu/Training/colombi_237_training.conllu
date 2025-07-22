@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il _clergyman_ Jeoffrey Treden, giovane magro ed austero, di trent'anni appena, dichiara egli pure di non aver udite le parole del moribondo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	_clergyman_	ExtraSubj=Yes|_clergyman_	ADJ	NO	NumType=Ord	3	amod	_	_
+3	Jeoffrey	Jeoffrey	PROPN	SP	_	16	nsubj	_	_
+4	Treden	Treden	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	giovane	giovane	NOUN	S	Number=Sing	3	nmod	_	_
+7	magro	magro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	ed	e	CCONJ	CC	_	9	cc	_	_
+9	austero	austero	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	trent'	trenta	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+14	appena	appena	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	dichiara	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	pure	pure	ADV	B	_	22	advmod	_	_
+19	di	di	ADP	E	_	22	mark	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	aver	avere	AUX	VA	VerbForm=Inf	22	aux	_	_
+22	udite	udire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	parole	parola	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	moribondo	moribondo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = Questi aveva cessato appunto di parlare quando il teste s'era presentato alla soglia della camera per confortarlo negli ultimi momenti.
+1	Questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	cessato	cessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	appunto	appunto	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	parlare	parlare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	quando	quando	SCONJ	CS	_	12	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	teste	testa	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+10	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	SpaceAfter=No
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	camera	camera	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20-21	confortarlo	_	_	_	_	_	_	_	_
+20	confortar	confortare	VERB	V	VerbForm=Inf	12	advcl	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22-23	negli	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+25	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Era giunto al letto del malato nel tempo stesso in cui vi giungeva il medico, ed aveva udita la Bess domandargli se non credeva che quella raccomandazione fosse effetto di delirio.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	letto	letto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	malato	malato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	16	iobj	_	_
+16	giungeva	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	medico	medico	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	ed	e	CCONJ	CC	_	22	cc	_	_
+21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	udita	udire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Bess	Bess	PROPN	SP	_	22	nsubj	_	_
+25-26	domandargli	_	_	_	_	_	_	_	_
+25	domandar	domandare	VERB	V	VerbForm=Inf	22	advcl	_	_
+26	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
+27	se	se	SCONJ	CS	_	29	mark	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	credeva	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	ccomp	_	_
+30	che	che	SCONJ	CS	_	34	mark	_	_
+31	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
+32	raccomandazione	raccomandazione	NOUN	S	Gender=Fem|Number=Sing	34	nsubj	_	_
+33	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	cop	_	_
+34	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	29	ccomp	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

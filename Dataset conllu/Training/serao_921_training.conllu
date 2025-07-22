@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli s'indugiò a metterle questo mantello ed ella sentì il suo respiro, sulla sua nuca: ma Giovanni non le dette il bacio.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+3	indugiò	indugiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	metterle	_	_	_	_	_	_	_	_
+5	metter	mettere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	mantello	mantello	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	ed	e	CCONJ	CC	_	11	cc	_	_
+10	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16-17	sulla	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	nuca	nuca	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	3	punct	_	_
+21	ma	ma	CCONJ	CC	_	25	cc	_	_
+22	Giovanni	Giovanni	PROPN	SP	_	25	nsubj	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
+25	dette	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = E come Clara aveva nascosto la sua subitanea ambiziosa idea, così nascose la sua pronta delusione.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	Clara	Clara	PROPN	SP	_	5	obl	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	nascosto	nascondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+8	subitanea	subitaneo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+9	ambiziosa	ambizioso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	idea	idea	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	così	così	ADV	B	_	13	advmod	_	_
+13	nascose	nascoso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Nè fu una delusione fortissima.
+1	Nè	né	CCONJ	CC	_	4	cc	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	fortissima	forte	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La dolcezza di quella serata, aveva ingannato anche lei.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	serata	serata	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	ingannato	ingannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

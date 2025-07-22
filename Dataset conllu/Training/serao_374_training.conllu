@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non vedeva niente, annullata fra la gente;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	niente	niente	PRON	PI	Number=Sing|PronType=Ind	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	annullata	annullare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+6	fra	fra	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = aveva caldo, stava bene.
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ogni tanto vedeva passare nell’aria un mazzetto di fiori, poi un altro, poi una pioggia di fiori:
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	tanto	tanto	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	passare	passare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5-6	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	aria	aria	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mazzetto	mazzetto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	19	punct	_	_
+13	poi	poi	ADV	B	_	19	advmod	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+15	altro	altro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	poi	poi	ADV	B	_	19	advmod	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = ogni tanto la folla si gettava da parte, per lasciar passare un equipaggio, dentro una signora bellissima, seduta in mezzo alle stoffe e ai fiori:
+1	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	folla	folla	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	gettava	gettavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	lasciar	lasciare	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	passare	passare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	equipaggio	equipaggio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	dentro	dentro	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	signora	signore	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+19	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	seduta	sedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24-25	alle	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	stoffe	stoffa	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28-29	ai	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 5
+# text = visioni rapide, fuggevoli, fulgide, che quasi sgomentavano la bambina.
+1	visioni	visione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	rapide	rapido	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	fuggevoli	fuggevole	ADJ	A	Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	fulgide	fulgido	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	quasi	quasi	ADV	B	_	10	advmod	_	_
+10	sgomentavano	sgomentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

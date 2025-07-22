@@ -1,0 +1,131 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma i contadini non ne facevano caso.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Le donne erano sedute sui rispettivi usci coi bambini in collo;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	sedute	sedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	sui	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	rispettivi	rispettivo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	usci	ure	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9-10	coi	_	_	_	_	_	_	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	collo	collo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = i fanciulletti ruzzolavano in terra nel sudiciume, mangiucchiando un resto di zuppa, fatta con pane dì granturco e brodo di acqua e lardo.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	fanciulletti	fanciulletto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	ruzzolavano	ruzzolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	terra	terra	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sudiciume	sudiciuma	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	mangiucchiando	mangiucchiare	VERB	V	VerbForm=Ger	3	advcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	resto	resto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	zuppa	zuppa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	pane	pane	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	dì	dì	NOUN	S	Gender=Masc	18	compound	_	_
+20	granturco	granturco	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	brodo	brodo	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	lardo	lardo	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = E gli uomini, che avevano finito quel banchetto, s'occupavano, chi a rassettare la canapa, chi a frenare col badile certi rigagnolotti nerastri e viscidi, che sfuggivano dalla base dei letamai, ricchezze disperse, che s'infiltravano nel suolo infecondo del cortile e delle stanze terrene.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	banchetto	banchetto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	SpaceAfter=No
+12	occupavano	occupare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	chi	chi	PRON	PR	Number=Sing|PronType=Rel	12	nsubj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	rassettare	rassettare	VERB	V	VerbForm=Inf	20	acl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	canapa	canapa	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	chi	chi	PRON	PR	Number=Sing|PronType=Rel	14	acl:relcl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	frenare	frenare	VERB	V	VerbForm=Inf	20	acl	_	_
+23-24	col	_	_	_	_	_	_	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	badile	badile	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	27	det	_	_
+27	rigagnolotti	rigagnolotto	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+28	nerastri	nerastro	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	viscidi	viscidio	ADJ	A	Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	27	punct	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	sfuggivano	sfuggire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+34-35	dalla	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	base	base	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+37-38	dei	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	letamai	letamaio	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	41	punct	_	_
+41	ricchezze	ricchezza	NOUN	S	Gender=Fem|Number=Plur	39	conj	_	_
+42	disperse	disperso	ADJ	A	Gender=Fem|Number=Plur	41	amod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	41	punct	_	_
+44	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+45	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	46	expl	_	SpaceAfter=No
+46	infiltravano	infiltrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	41	acl:relcl	_	_
+47-48	nel	_	_	_	_	_	_	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+50	infecondo	infecondo	ADJ	A	Number=Sing	49	amod	_	_
+51-52	del	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	53	case	_	_
+52	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	cortile	cortile	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	_
+54	e	e	CCONJ	CC	_	57	cc	_	_
+55-56	delle	_	_	_	_	_	_	_	_
+55	di	di	ADP	E	_	57	case	_	_
+56	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+57	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	53	conj	_	_
+58	terrene	terrena	ADJ	A	Gender=Fem|Number=Plur	57	amod	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

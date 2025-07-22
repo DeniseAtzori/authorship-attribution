@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Niuno aveva mai osato guardarmi come egli mi guardava, niuno mi aveva mai detto quello che egli mi diceva!
+1	Niuno	Niuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	osato	osare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	guardarmi	_	_	_	_	_	_	_	_
+5	guardar	guardare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+10	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	niuno	niuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+15	mai	mai	ADV	B	_	14	advmod	_	_
+16	detto	dire	ADP	E	_	17	case	_	_
+17	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+19	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+21	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Invano, io mi armavo di freddezza e di alterigia; egli persisteva, ostinatamente, umiliandosi e allontanandosi, talvolta, ma ritornando sempre, più innamorato, più audace, più desideroso.
+1	Invano	invano	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	armavo	armare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	freddezza	freddezza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	alterigia	alterigia	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	13	punct	_	_
+12	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	persisteva	persistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	ostinatamente	ostinatamente	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17-18	umiliandosi	_	_	_	_	_	_	_	_
+17	umiliando	umiliare	VERB	V	VerbForm=Ger	13	advcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20-21	allontanandosi	_	_	_	_	_	_	_	SpaceAfter=No
+20	allontanando	allontanare	VERB	V	VerbForm=Ger	17	conj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	talvolta	talvolta	ADV	B	_	20	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	13	punct	_	_
+25	ma	ma	CCONJ	CC	_	26	cc	_	_
+26	ritornando	ritornare	VERB	V	VerbForm=Ger	13	advcl	_	_
+27	sempre	sempre	ADV	B	_	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	più	più	ADV	B	_	30	advmod	_	_
+30	innamorato	innamorato	ADJ	A	Gender=Masc|Number=Sing	26	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	più	più	ADV	B	_	33	advmod	_	_
+33	audace	audace	ADJ	A	Number=Sing	30	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	36	punct	_	_
+35	più	più	ADV	B	_	36	advmod	_	_
+36	desideroso	desideroso	ADJ	A	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Vi erano dei minuti in cui io lo odiava, assolutamente, per questa sua insistenza amorosa e per la monotonia di quello che egli provava.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	odiava	odiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	assolutamente	assolutamente	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	insistenza	insistenza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+18	amorosa	amoroso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	monotonia	monotonia	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	nmod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	obj	_	_
+26	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	provava	provavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

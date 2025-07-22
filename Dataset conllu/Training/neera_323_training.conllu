@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il _surmenage_ intellettuale quasi come l’alcool avvelena il sangue della donna.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	_surmenage_	ExtraSubj=Yes|_surmenage_	ADJ	NO	NumType=Ord	8	nsubj	_	_
+3	intellettuale	intellettuale	ADJ	A	Number=Sing	2	amod	_	_
+4	quasi	quasi	ADV	B	_	7	advmod	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	alcool	alcool	NOUN	S	Gender=Masc	2	obl	_	_
+8	avvelena	avvelenare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Avremmo dunque in basso e in alto della scala sociale i più formidabili nemici della umanità:
+1	Avremmo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	dunque	dunque	ADV	B	_	1	advmod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	basso	basso	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	alto	alto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	scala	scala	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	sociale	sociale	ADJ	A	Number=Sing	10	amod	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	formidabili	formidabile	ADJ	A	Number=Plur	15	amod	_	_
+15	nemici	nemico	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	umanità	umanità	NOUN	S	Gender=Fem	15	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = l’alcoolismo a cui verrà tratta la donna operaia e la nevrastenia che aspetta le laureate.
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	alcoolismo	alcoolismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+5	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+9	operaia	operaio	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	nevrastenia	nevrastenia	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	laureate	laureata	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Quella qualsiasi percentuale di casi che abbiamo ora in ambedue le malattie diventerebbe a regime femminista insiediato una spaventosa generalità.
+1	Quella	quello	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	casi	caso	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+7	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	ora	ora	ADV	B	_	7	advmod	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	ambedue	ambedue	DET	T	Number=Plur|PronType=Tot	12	det:predet	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+13	diventerebbe	diventare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	regime	regime	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	femminista	femministo	ADJ	A	Number=Sing	15	amod	_	_
+17	insiediato	insiediare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	spaventosa	spaventoso	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	generalità	generalità	NOUN	S	Gender=Fem	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

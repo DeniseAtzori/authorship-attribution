@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lettera incoerente e puerile, balbettìo talvolta bizzarro, talvolta monotono di frasi stravaganti che si ripetevano, si accavallavano, si confondevano, si affannavano sulla carta, come nell'anima malata di chi le scriveva.
+1	Lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+2	incoerente	incoerente	ADJ	A	Number=Sing	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	puerile	puerile	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	balbettìo	balbettìo	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+7	talvolta	talvolta	ADV	B	_	8	advmod	_	_
+8	bizzarro	bizzarro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	talvolta	talvolta	ADV	B	_	11	advmod	_	_
+11	monotono	monotere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+14	stravaganti	stravagante	ADJ	A	Number=Plur	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	ripetevano	ripetere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	accavallavano	accavallare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	confondevano	confondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+26	affannavano	affannare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
+27-28	sulla	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	carta	carta	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	come	come	ADV	B	_	34	advmod	_	_
+32-33	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+32	in	in	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	anima	anima	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+35	malata	malato	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	chi	chi	PRON	PR	PronType=Rel	34	nmod	_	_
+38	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	iobj	_	_
+39	scriveva	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	acl:relcl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 2
+# text = Eppure egli non era nè un fanciullo, nè un pazzo, nè un infermo;
+1	Eppure	eppure	ADV	B	_	7	advmod	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+5	nè	né	CCONJ	CC	_	7	cc	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	nè	né	CCONJ	CC	_	11	cc	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pazzo	pazzo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	nè	né	CCONJ	CC	_	15	cc	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	infermo	infermo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = era un uomo di trent'anni, vigoroso, completo nella sua manifestazione morale, che aveva saputo vivere, amare, soffrire.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	trent'	trenta	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	vigoroso	vigoroso	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	completo	completo	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	morale	morale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20	vivere	vivere	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	amare	amare	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	soffrire	soffrire	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

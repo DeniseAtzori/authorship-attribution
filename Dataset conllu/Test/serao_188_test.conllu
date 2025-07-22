@@ -1,0 +1,139 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La sora Virginia invece gliene aveva narrata molta parte, della sua storia:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sora	sora	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	Virginia	Virginia	PROPN	SP	_	2	nmod	_	_
+4	invece	invece	ADV	B	_	7	advmod	_	_
+5	gliene	glenere	ADV	B	_	4	advmod	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	narrata	narrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	storia	storia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = ma che era questa moglie che leggeva romanzi, mentre il marito cucinava gli gnocchi, in cucina?
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+8	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	mentre	mentre	SCONJ	CS	_	13	mark	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	marito	marito	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	cucinava	cucinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	gnocchi	gnocco	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = E dall'abbattimento egli risorgeva, a grado a grado, con una curiosità crescente per tutti questi enigmi femminili:
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2-3	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+2	da	da	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	abbattimento	abbattimento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	risorgeva	risorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	grado	grado	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	grado	grado	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	curiosità	curiosità	NOUN	S	Gender=Fem	6	obl	_	_
+16	crescente	crescere	ADJ	A	Number=Sing	15	amod	_	_
+17	per	per	ADP	E	_	20	case	_	_
+18	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	20	det:predet	_	_
+19	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
+20	enigmi	enigma	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+21	femminili	femminile	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = la visione della signora russa, il mistero di quella figura mistica, in Via Capo le Case:
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	visione	visione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	signora	signore	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	russa	russo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	figura	figura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	mistica	mistico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Via	via	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	Capo	capo	PROPN	SP	_	16	nmod	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	Case	case	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = la visitatrice di Via del Gambero e il suo segreto:
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	visitatrice	visitatore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Via	via	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Gambero	gambero	PROPN	SP	_	4	nmod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = il passato della portinaia:
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	passato	passato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	portinaia	portinaio	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = lo strano intreccio che appariva e scompariva nella loquacità della sora Virginia.
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	strano	strano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	intreccio	intreccio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	appariva	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	scompariva	scomparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	loquacità	loquacità	NOUN	S	Gender=Fem	7	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sora	sora	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	Virginia	Virginia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

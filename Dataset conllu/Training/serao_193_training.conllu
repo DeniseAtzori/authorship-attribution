@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E lessero anche l'altro libro giapponese di Loti: _Madame Crysanthème_, una storia di amore lontano, fine e malinconico, di una malinconia così sottile e così penetrante che Luisa e Paolo vollero rileggerlo, la seconda volta.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	lessero	lesdere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	altro	altro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	libro	libro	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	giapponese	giapponese	ADJ	A	Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Loti	Loto	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+11	_Madame	_Madame	PROPN	SP	_	6	nmod	_	_
+12	Crysanthème_	Crysanthème-	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	fine	fine	ADJ	A	Number=Sing	18	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	malinconico	malinconico	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+27	così	così	ADV	B	_	28	advmod	_	_
+28	sottile	sottile	ADJ	A	Number=Sing	26	amod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	così	così	ADV	B	_	26	conj	_	_
+31	penetrante	penetrare	ADP	E	_	36	mark	_	_
+32	che	che	SCONJ	CS	_	31	fixed	_	_
+33	Luisa	Luisa	PROPN	SP	_	36	nsubj	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	Paolo	Paolo	PROPN	SP	_	33	conj	_	_
+36	vollero	vollero	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+37-38	rileggerlo	_	_	_	_	_	_	_	SpaceAfter=No
+37	rilegger	rileggere	VERB	V	VerbForm=Inf	36	xcomp	_	_
+38	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
+39	,	,	PUNCT	FF	_	42	punct	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	42	amod	_	_
+42	volta	volta	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = E subito, vedendo che molti nomi di donnine giapponesi corrispondono a dei fiori, Luisa Cima trovò subito il suo:
+1	E	e	CCONJ	CC	_	19	cc	_	_
+2	subito	subito	ADV	B	_	19	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	vedendo	vedere	VERB	V	VerbForm=Ger	19	advcl	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	donnine	donnina	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	giapponesi	giapponese	ADJ	A	Number=Plur	9	amod	_	_
+11	corrispondono	corrispondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	Luisa	Luisa	PROPN	SP	_	19	nsubj	_	_
+18	Cima	cima	PROPN	SP	_	17	flat:name	_	_
+19	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	subito	subito	ADV	B	_	19	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	obj	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 3
+# text = _madame Héliotrope_.
+1	_madame	_madama	ADP	E	_	2	case	_	_
+2	Héliotrope_	Héliotrope-	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

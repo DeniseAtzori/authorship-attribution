@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Prese commiato, con quel suo fare rispettoso ma distratto, con quella attitudine di uomo che, assorbito da un'idea, non perde mai l'equilibrio della gentilezza.
+1	Prese	prendere	ADJ	A	Number=Sing	2	amod	_	_
+2	commiato	commiare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	2	nmod	_	_
+8	rispettoso	rispettoso	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	distratto	distratto	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	attitudine	attitudine	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	25	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	assorbito	assorbire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	idea	idea	NOUN	S	Gender=Fem|Number=Sing	19	obl:agent	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	perde	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+26	mai	mai	ADV	B	_	25	advmod	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	gentilezza	gentilezza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Un amico che andava via, anche lui, lo voleva condurre a teatro:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	amico	amico	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	via	via	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	condurre	condurre	VERB	V	VerbForm=Inf	0	root	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 3
+# text = si rifiutò di andarci.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	rifiutò	rifiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	andarci	_	_	_	_	_	_	_	SpaceAfter=No
+4	andar	andare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Si separarono sul portone, in piazza Vittoria.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	separarono	separarere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	portone	portone	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+9	Vittoria	vittoria	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = L'amico risalì per la via di Chiaia:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	risalì	risalire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	via	via	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Chiaia	Chiaio	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = Paolo se ne andò per via Caracciolo, camminando piano.
+1	Paolo	Paolo	PROPN	SP	_	4	nsubj	_	_
+2	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	via	via	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	Caracciolo	Caracciolo	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	camminando	camminare	VERB	V	VerbForm=Ger	4	advcl	_	_
+10	piano	piano	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

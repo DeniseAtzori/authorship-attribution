@@ -1,0 +1,133 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La comparsa degli imputati ai dibattimenti fu una sorpresa pel pubblico, che s'aspettava di vederli truci ed arditi come due audaci malfattori.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comparsa	comparsa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	imputati	imputato	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	dibattimenti	dibattimento	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+9	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12-13	pel	_	_	_	_	_	_	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	SpaceAfter=No
+18	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	vederli	_	_	_	_	_	_	_	_
+20	veder	vedere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+22	truci	truce	NOUN	S	Gender=Masc|Number=Plur	20	xcomp	_	_
+23	ed	e	CCONJ	CC	_	24	cc	_	_
+24	arditi	ardere	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+25	come	come	ADP	E	_	28	case	_	_
+26	due	due	NUM	N	NumType=Card	28	nummod	_	_
+27	audaci	audaco	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+28	malfattori	malfattore	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Sono invece due figure affatto insignificanti.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	invece	invece	ADV	B	_	4	advmod	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	figure	figura	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	affatto	affatto	ADV	B	_	6	advmod	_	_
+6	insignificanti	insignificante	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = L'uomo, che fu chiamato prima, ha una corporatura erculea, spalle da atleta, proprio le spalle che si richiedono per aver potuto sollevare il coperchio di marmo del sarcofago.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj:pass	_	_
+5	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	prima	prima	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	corporatura	corporatura	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	erculea	erculeo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	11	appos	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	atleta	atleta	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	proprio	proprio	ADV	B	_	20	advmod	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	richiedono	richiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	per	per	ADP	E	_	27	mark	_	_
+25	aver	avere	AUX	VA	VerbForm=Inf	27	aux	_	_
+26	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux	_	_
+27	sollevare	sollevare	VERB	V	VerbForm=Inf	23	advcl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	coperchio	coperchio	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	marmo	marmo	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	sarcofago	sarcofago	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Ma il suo viso è bonario e sciocco.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	viso	viso	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	bonario	bonario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	sciocco	sciocco	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ripetè quanto aveva detto nelle prime deposizioni, senza contraddirsi mai, ma facendosi strappare le parole con fatica, e rispondendo a monosillabi.
+1	Ripetè	ripetere	INTJ	I	_	4	discourse	_	_
+2	quanto	quanto	ADV	B	_	4	advmod	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	8	amod	_	_
+8	deposizioni	deposizione	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11-12	contraddirsi	_	_	_	_	_	_	_	_
+11	contraddir	contraddire	VERB	V	VerbForm=Inf	4	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	mai	mai	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16-17	facendosi	_	_	_	_	_	_	_	_
+16	facendo	fare	VERB	V	VerbForm=Ger	18	advcl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	strappare	strappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	parole	parola	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	rispondendo	rispondere	VERB	V	VerbForm=Ger	4	conj	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	monosillabi	monosillabo	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

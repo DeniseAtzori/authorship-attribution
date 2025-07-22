@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In tutti, la persona perde ogni grazia, ogni decoro di contegno.
+1	In	in	ADP	E	_	2	case	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	persona	persona	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	perde	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	decoro	decoro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	contegno	contegno	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = L'uomo aristocratico, l'artista dalle grandi ispirazioni, il contadino ignorante sono tutti uguali là dentro come nel campo santo.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	aristocratico	aristocratico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	artista	artista	NOUN	S	Number=Sing	2	appos	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	grandi	grande	ADJ	A	Number=Plur	10	amod	_	_
+10	ispirazioni	ispirazione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	contadino	contadino	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+14	ignorante	ignorante	ADJ	A	Number=Sing	13	amod	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	17	obl	_	_
+17	uguali	uguale	ADJ	A	Number=Plur	0	root	_	_
+18	là	là	ADV	B	_	19	advmod	_	_
+19	dentro	dentro	ADV	B	_	23	advmod	_	_
+20	come	come	ADV	B	_	23	advmod	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	campo	campo	NOUN	S	Gender=Masc|Number=Sing	17	advcl	_	_
+24	santo	santo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Tutti camminano, gestiscono, si muovono colla medesima trivialità.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	camminano	camminare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	gestiscono	gestire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:pass	_	_
+7	muovono	muovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	colla	colla	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+9	medesima	medesimo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	trivialità	trivialità	NOUN	S	Gender=Fem	7	nsubj:pass	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Quelli che per una manìa di grandezza vogliono serbare un contegno dignitoso, lo esagerano e fanno da caricature:
+1	Quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	15	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	manìa	manìa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	grandezza	grandezza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	serbare	serbare	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	contegno	contegno	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	dignitoso	dignitoso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	esagerano	esagerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	caricature	caricatura	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 5
+# text = About-Hassan nel palazzo del Califfo.
+1	About-Hassan	About-Hassan	PROPN	SP	_	0	root	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Califfo	Califfo	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

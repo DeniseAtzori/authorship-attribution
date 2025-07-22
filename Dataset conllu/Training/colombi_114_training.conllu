@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi la mattina, appena alzata, ogni ragazza prendeva una pianella e la gettava in alto.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	appena	appena	ADV	B	_	6	advmod	_	_
+6	alzata	alzare	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	pianella	pianella	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	gettava	gettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	alto	alto	ADJ	A	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Se andava a cadere colla punta verso l'uscio, era certo che la signorina sarebbe uscita da casa nell'annata per andare a marito;
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	cadere	cadere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	colla	colla	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	punta	puntare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	certo	certo	ADV	B	_	6	advmod	_	_
+13	che	che	SCONJ	CS	_	17	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	signorina	signorina	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	uscita	uscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20-21	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	annata	annata	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	andare	andare	VERB	V	VerbForm=Inf	17	advcl	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	marito	marito	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = altrimenti c'era un altro anno da aspettare, un'altra pianella da buttare in aria, e chissà poi quanti anni e quante pianelle!
+1	altrimenti	altrimenti	ADV	B	_	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	altro	altro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	aspettare	aspettare	VERB	V	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+11	altra	altro	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	pianella	pianella	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+13	da	da	ADP	E	_	14	mark	_	_
+14	buttare	buttare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	aria	aria	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	22	punct	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	chissà	chissà	ADV	B	_	22	advmod	_	_
+20	poi	poi	ADV	B	_	22	advmod	_	_
+21	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	22	det	_	_
+22	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	25	det	_	_
+25	pianelle	pianella	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+26	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

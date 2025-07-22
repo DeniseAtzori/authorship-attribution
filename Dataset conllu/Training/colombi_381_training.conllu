@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — L'arte mi era divenuta più cara;
+1	—	—	PUNCT	FF	_	6	punct	_	_
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	arte	arte	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	divenuta	divenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	cara	caro	ADJ	A	Gender=Fem|Number=Sing	6	xcomp	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = era l'unica passione che avessi avuta comune con lei.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	unica	unico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	passione	passione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	avuta	avere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	comune	comune	ADJ	A	Number=Sing	7	xcomp	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ed ormai i miei quadri si vendevano;
+1	Ed	e	CCONJ	CC	_	7	cc	_	_
+2	ormai	ormai	ADV	B	_	7	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	quadri	quadro	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	vendevano	vendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = andavo guadagnando nome ed agiatezza, ora che non avevo più quella cara per cui avevo desiderato l'uno e l'altra;
+1	andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	guadagnando	guadagnare	VERB	V	VerbForm=Ger	1	advcl	_	_
+3	nome	nome	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	ed	e	CCONJ	CC	_	5	cc	_	_
+5	agiatezza	agiatezza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	ora	ora	ADV	B	_	10	mark	_	_
+8	che	che	SCONJ	CS	_	7	fixed	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+11	più	più	ADV	B	_	10	advmod	_	_
+12	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	cara	cara	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+16	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	desiderato	desiderare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obj	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	19	conj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = ed in quell'isolamento il mio dolore si andava facendo ogni giorno più intenso.
+1	ed	e	CCONJ	CC	_	9	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	quell'	quello	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+4	isolamento	isolamento	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	facendo	fare	VERB	V	VerbForm=Ger	9	advcl	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	intenso	intenso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

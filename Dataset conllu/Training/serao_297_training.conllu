@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Miss Geraldina era ricca, possedendo per sè sola ottantamila lire di rendita;
+1	Miss	Miss	PROPN	SP	_	4	nsubj	_	_
+2	Geraldina	Geraldino	PROPN	SP	_	1	flat:name	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	possedendo	possedere	VERB	V	VerbForm=Ger	4	advcl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	sè	sè	PRON	PE	Person=3|PronType=Prs	6	obl	_	_
+9	sola	solo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+10	ottantamila	ottantamila	NUM	N	NumType=Card	11	nummod	_	_
+11	lire	lira	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	rendita	rendita	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = era senza fratelli, senza sorelle, senza parenti poveri che la seccassero, e a ventotto anni, era perfettamente libera di andare, venire, viaggiare, dove le paresse e piacesse.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	senza	senza	ADP	E	_	3	case	_	_
+3	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	senza	senza	ADP	E	_	6	case	_	_
+6	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	senza	senza	ADP	E	_	9	case	_	_
+9	parenti	parente	NOUN	S	Number=Plur	3	conj	_	_
+10	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	seccassero	seccare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	ventotto	ventotto	NUM	N	NumType=Card	18	nummod	_	_
+18	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+21	perfettamente	perfettamente	ADV	B	_	22	advmod	_	_
+22	libera	libero	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	andare	andare	VERB	V	VerbForm=Inf	22	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	venire	venire	VERB	V	VerbForm=Inf	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	viaggiare	viaggiare	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	dove	dove	ADV	B	_	28	advmod	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	paresse	paressa	NOUN	S	Gender=Fem|Number=Plur	30	nsubj	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	piacesse	piacessa	NOUN	S	Gender=Fem|Number=Plur	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Miss Geraldina conosceva e parlava cinque lingue;
+1	Miss	Miss	PROPN	SP	_	3	nsubj	_	_
+2	Geraldina	Geraldino	PROPN	SP	_	1	flat:name	_	_
+3	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+6	cinque	cinque	NUM	N	NumType=Card	7	nummod	_	_
+7	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = aveva studiato il canto, il pianoforte e l'arpa; era un'acquarellista molto abile;
+1	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	canto	canto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pianoforte	pianoforte	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	arpa	arpa	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	14	punct	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	acquarellista	acquarellista	NOUN	S	Number=Sing	2	conj	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	abile	abile	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = aveva molto spirito e lo manifestava in tutte le forme:
+1	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	spirito	spirito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	manifestava	manifestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	forme	forma	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = dallo spirito secco e caustico allo spirito placido e bonario.
+1-2	dallo	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	secco	secco	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	caustico	caustico	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+7-8	allo	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	placido	placido	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	bonario	bonario	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Miss Geraldina aveva delle idee.
+1	Miss	Miss	PROPN	SP	_	3	nsubj	_	_
+2	Geraldina	Geraldino	PROPN	SP	_	1	flat:name	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	idee	idea	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Miss Geraldina pensava.
+1	Miss	Miss	PROPN	SP	_	3	nsubj	_	_
+2	Geraldina	Geraldino	PROPN	SP	_	1	flat:name	_	_
+3	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

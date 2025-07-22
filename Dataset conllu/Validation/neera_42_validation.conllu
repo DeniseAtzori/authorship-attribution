@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una grande gioia calma e serena mi innondava il cuore.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	A	Number=Sing	3	amod	_	_
+3	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	calma	calmo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	innondava	innondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Quale oscuro destino o quale Dio veggente mi inviava la consolazione?
+1	Quale	quale	DET	DQ	Number=Sing|PronType=Int	3	det	_	_
+2	oscuro	oscuro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	destino	destino	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	quale	quale	DET	DQ	Number=Sing|PronType=Int	6	det	_	_
+6	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7	veggente	veggente	ADJ	A	Number=Sing	6	amod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	inviava	inviare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	consolazione	consolazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Perchè veramente ciò che provavo era questo:
+1	Perchè	perché	ADV	B	_	7	advmod	_	_
+2	veramente	veramente	ADV	B	_	3	advmod	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+5	provavo	provavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = una consolazione.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	consolazione	consolazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Sorgeva in me lentamente un'altra me stessa, una parte di me che avevo dimenticata e che veniva a completarmi, quasi una persona creduta morta che ci gridasse un giorno aalle spalle:
+1	Sorgeva	Sorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	obl	_	_
+4	lentamente	lentamente	ADV	B	_	1	advmod	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	altra	altro	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	me	ma	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+8	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+15	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	dimenticata	dimenticare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21-22	completarmi	_	_	_	_	_	_	_	SpaceAfter=No
+21	completar	completare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+23	,	,	PUNCT	FF	_	1	punct	_	_
+24	quasi	quasi	ADV	B	_	26	advmod	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	persona	persona	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+27	creduta	credere	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	morta	morta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+29	che	che	SCONJ	CS	_	31	mark	_	_
+30	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	31	expl	_	_
+31	gridasse	gridare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	ccomp	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	31	nsubj	_	_
+34	aalle	aallo	ADJ	A	Number=Sing	33	amod	_	_
+35	spalle	spallo	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = sono qui.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	qui	qui	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

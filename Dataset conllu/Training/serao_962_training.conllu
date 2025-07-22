@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Ma perchè combattete questa lotta inutile e inefficace, Giovanni, contro me, contro voi stesso?
+1	--Ma	--mare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	perchè	perché	SCONJ	CS	_	3	mark	_	_
+3	combattete	combattere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	inutile	inutile	ADJ	A	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	inefficace	inefficace	ADJ	A	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	Giovanni	Giovanni	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	contro	contro	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	contro	contro	ADP	E	_	16	case	_	_
+16	voi	vo	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Perchè mi negate il permesso di volervi bene, quando ciò non vi costa nulla e quando ciò può anche piacervi?
+1	Perchè	perché	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	negate	negare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	permesso	permesso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	volervi	volervo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	bene	bene	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	quando	quando	SCONJ	CS	_	14	mark	_	_
+11	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	14	iobj	_	_
+14	costa	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+15	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17	quando	quando	SCONJ	CS	_	21	advmod	_	_
+18	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
+19	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	anche	anche	ADV	B	_	21	advmod	_	_
+21	piacervi	piacervare	ADV	B	_	14	advmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Perchè rinunziate, quando non vi si domanda altro che di lasciarvi amare, Giovanni?
+1	Perchè	perché	ADV	B	_	2	advmod	_	_
+2	rinunziate	rinunziare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quando	quando	SCONJ	CS	_	8	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	domanda	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+9	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	lasciarvi	_	_	_	_	_	_	_	_
+12	lasciar	lasciare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+13	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	12	expl	_	_
+14	amare	amare	VERB	V	VerbForm=Inf	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	Giovanni	Giovanni	PROPN	SP	_	14	obj	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Che vi fa?
+1	Che	che	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Perchè dite di no, quando nessuno vi chiede di dir sì?
+1	Perchè	perché	ADV	B	_	2	advmod	_	_
+2	dite	dire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	no	no	ADV	BN	PronType=Neg	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	quando	quando	SCONJ	CS	_	9	mark	_	_
+7	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	dir	dire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	sì	sì	ADV	B	_	11	obj	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Lasciatevi amare, lasciatevi amare, è una cosa tanto confortante, tanto consolante, credetelo!
+1	Lasciatevi	Lasciatevo	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	amare	amare	VERB	V	VerbForm=Inf	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	lasciatevi	lasciare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	amare	amare	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+10	tanto	tanto	ADV	B	_	11	advmod	_	_
+11	confortante	confortante	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	tanto	tanto	ADV	B	_	16	advmod	_	_
+14	consolante	consolante	ADP	E	_	16	case	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	credetelo	credetelo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

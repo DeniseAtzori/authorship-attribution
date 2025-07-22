@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un momento la sua parte di debolezza umana le ricordò che il giorno innanzi coi suoi ventotto anni ella aveva potuto eclissare la cugina.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	momento	momento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	debolezza	debolezza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	umana	umano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+10	ricordò	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	che	che	SCONJ	CS	_	23	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+14	innanzi	innanzi	ADV	B	_	23	advmod	_	_
+15-16	coi	_	_	_	_	_	_	_	_
+15	con	con	ADP	E	_	19	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+17	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+18	ventotto	ventotto	NUM	N	NumType=Card	19	nummod	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+20	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+22	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux	_	_
+23	eclissare	eclissare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	cugina	cugina	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Si ricordò la propria figura riflessa nello specchio;
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	ricordò	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	figura	figura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	riflessa	riflettere	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	nello	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = era nobile e bella.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	nobile	nobile	ADJ	A	Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	bella	bello	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Leoni, l'uomo delle avventure galanti, malgrado la sua lunga esperienza, era caduto ai suoi piedi.
+1	Leoni	Leoni	PROPN	SP	_	17	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	avventure	avventura	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	galanti	galante	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	malgrado	malgrado	ADP	E	_	14	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux:pass	_	_
+17	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18-19	ai	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono già due o tre volte che suo padre se lo abbraccia strettamente, e baciandolo, gli dice sottovoce di essere buono, di non dare dispiaceri alla mamma:
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	già	già	ADV	B	_	6	advmod	_	_
+3	due	due	NUM	N	NumType=Card	6	nummod	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	tre	tre	NUM	N	NumType=Card	3	conj	_	_
+6	volte	volta	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	padre	padre	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	abbraccia	abbracciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+13	strettamente	stretto	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16-17	baciandolo	_	_	_	_	_	_	_	SpaceAfter=No
+16	baciando	baciare	VERB	V	VerbForm=Ger	12	conj	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+20	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	sottovoce	sottovoce	ADV	B	_	20	advmod	_	_
+22	di	di	ADP	E	_	24	mark	_	_
+23	essere	essere	AUX	V	VerbForm=Inf	24	cop	_	_
+24	buono	buono	ADJ	A	Gender=Masc|Number=Sing	20	ccomp	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	di	di	ADP	E	_	28	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	dare	dare	VERB	V	VerbForm=Inf	24	conj	_	_
+29	dispiaceri	dispiacere	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	20	punct	_	_
+
+# sent_id = 2
+# text = e una di queste volte il papà è tornato a casa, disteso in una carrozza, svenuto, insanguinato, col braccio trapassato da una palla.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	9	conj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	volte	volta	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	papà	papà	NOUN	S	Gender=Masc	9	nsubj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	disteso	distendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	svenuto	svenuto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	insanguinato	insanguinato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	9	punct	_	_
+22-23	col	_	_	_	_	_	_	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+25	trapassato	trapassare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	palla	palla	NOUN	S	Gender=Fem|Number=Sing	25	obl:agent	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

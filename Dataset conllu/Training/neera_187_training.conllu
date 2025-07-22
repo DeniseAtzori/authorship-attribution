@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Allora vi raccomandate all’editore perchè faccia parlare i giornali.
+1	Allora	allora	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	expl	_	_
+3	raccomandate	raccomandare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	all’	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	editore	editore	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	perchè	perché	SCONJ	CS	_	8	mark	_	_
+8	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	parlare	parlare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = È bello il vostro libro;
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	libro	libro	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = ci avete messo la parte migliore di voi stessi;
+1	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	voi	voi	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = quando lo avranno letto dovranno ammirarlo per forza!
+1	quando	quando	SCONJ	CS	_	4	mark	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	avranno	avere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	letto	letto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+5	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6-7	ammirarlo	_	_	_	_	_	_	_	_
+6	ammirar	ammirare	VERB	V	VerbForm=Inf	0	root	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	forza	forza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = L’editore risponde che vende i libri che gli vengono chiesti e che ne mandò cento copie ai giornali.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	editore	editore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	vende	vendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	libri	libro	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj:pass	_	_
+9	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+10	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	chiesti	chiedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+15	mandò	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+16	cento	cento	NUM	N	NumType=Card	17	nummod	_	_
+17	copie	copia	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18-19	ai	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Cento copie!
+1	Cento	cento	NUM	N	NumType=Card	2	nummod	_	_
+2	copie	copia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ve ne partite confortati.
+1	Ve	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	partite	partire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	confortati	confortato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Spiai il ragazzo le poche volte che usciva per qualche commissione;
+1	Spiai	Spiai	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	usciva	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = con buone parole, con carezze, mi parve di vedere l’animo suo ad aprirsi.
+1	con	con	ADP	E	_	3	case	_	_
+2	buone	buono	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	carezze	carezzo	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	vedere	vedere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	animo	animo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	ad	a	ADP	E	_	16	mark	_	_
+16-17	aprirsi	_	_	_	_	_	_	_	SpaceAfter=No
+16	aprir	aprire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Non mi fu possibile parlargli a lungo mai;
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+5-6	parlargli	_	_	_	_	_	_	_	_
+5	parlar	parlare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	5	obl	_	_
+9	mai	mai	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = ma sentendo in me un’amica mi guardava con lunghi sguardi riconoscenti e rispondeva con un bacio innocente alle mie carezze.
+1	ma	ma	CCONJ	CC	_	8	cc	_	_
+2	sentendo	sentire	VERB	V	VerbForm=Ger	8	advcl	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	amica	amico	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	riconoscenti	riconoscente	ADJ	A	Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	innocente	innocente	ADJ	A	Number=Sing	17	amod	_	_
+19-20	alle	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	carezze	carezza	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

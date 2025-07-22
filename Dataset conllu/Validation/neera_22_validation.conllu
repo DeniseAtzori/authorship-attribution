@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tornata a casa la giornata non mi sembrò più splendente come prima.
+1	Tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+8	sembrò	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	splendente	splendente	ADJ	A	Number=Sing	8	xcomp	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	prima	prima	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Forse il sole si era nascosto;
+1	Forse	forse	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sole	sole	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	nascosto	nascondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = le cortine rosse del mio salotto non ardevano di quel dolce colore di fiamma che gli dànno l'aspetto di un tempio preparato per misteriosi riti.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cortine	cortina	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3	rosse	rosso	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	ardevano	ardere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+12	dolce	dolce	ADJ	A	Number=Sing	13	amod	_	_
+13	colore	colore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	fiamma	fiamma	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+18	dànno	dàre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tempio	tempio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	preparato	preparato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	misteriosi	misterioso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	27	det	_	_
+27	riti	rito	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Anche qualche altra cosa mancava al mio salotto.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+3	altra	altro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	mancava	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Io solevo passare le domeniche d'inverno giuocando con Alessio, chiacchierando con Orsola e con Pietro finchè non fosse giunta la stagione di raddrizzare i rosai e di preparare le sementi nuove; ma quella domenica mi parve interminabile.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	solevo	solere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	passare	passare	VERB	V	VerbForm=Inf	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	domeniche	domenica	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	giuocando	giuocare	VERB	V	VerbForm=Ger	3	advcl	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	Alessio	Alessio	PROPN	SP	_	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	chiacchierando	chiacchierare	VERB	V	VerbForm=Ger	8	advcl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	Orsola	Orsola	PROPN	SP	_	12	obl	_	_
+15	e	e	CCONJ	CC	_	21	cc	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	Pietro	Pietro	PROPN	SP	_	21	obl	_	_
+18	finchè	finché	CCONJ	CC	_	21	cc	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	giunta	giungere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	raddrizzare	raddrizzare	VERB	V	VerbForm=Inf	23	acl	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	rosai	rosai	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	preparare	preparare	VERB	V	VerbForm=Inf	25	conj	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	sementi	semento	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+33	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	SpaceAfter=No
+34	;	;	PUNCT	FC	_	39	punct	_	_
+35	ma	ma	CCONJ	CC	_	39	cc	_	_
+36	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	37	det	_	_
+37	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	39	nsubj	_	_
+38	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	39	iobj	_	_
+39	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+40	interminabile	interminabile	ADJ	A	Number=Sing	39	xcomp	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

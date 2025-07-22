@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Ma piove, gridò il cameriere;
+1	--Ma	--mare	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
+2	piove	piove	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	gridò	gridare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cameriere	cameriera	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = non sentite che la pioggia bagna?
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	sentite	sentire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	bagna	bagno	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E diede uno spintone all'asino per cacciarlo più contro il muro e mettersi lui al riparo sotto la grondaia mentre lo operava.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	spintone	spintone	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	asino	asino	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9-10	cacciarlo	_	_	_	_	_	_	_	_
+9	cacciar	cacciare	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	più	più	ADV	B	_	14	advmod	_	_
+12	contro	contro	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	muro	muro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16-17	mettersi	_	_	_	_	_	_	_	_
+16	metter	mettere	VERB	V	VerbForm=Inf	9	conj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	riparo	riparo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+22	sotto	sotto	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	grondaia	grondaia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	mentre	mentre	SCONJ	CS	_	27	mark	_	_
+26	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+27	operava	operare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Gli altri non badavano a quella pioggerella minuta, e strinsero il cerchio per veder a tagliare e ad uscire il sangue.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	badavano	badare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	pioggerella	pioggerella	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	minuta	minuto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	strinsero	strindere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	veder	vedere	VERB	V	VerbForm=Inf	11	advcl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	tagliare	tagliare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	ad	a	ADP	E	_	20	mark	_	_
+20	uscire	uscire	VERB	V	VerbForm=Inf	17	conj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

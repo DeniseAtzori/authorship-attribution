@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il viaggio della corazzata dove era imbarcato Paolo Collemagno durò più di quello che egli credesse:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	corazzata	corazzata	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	dove	dove	ADV	B	_	8	advmod	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	imbarcato	imbarcare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	Paolo	Paolo	PROPN	SP	_	8	nsubj	_	_
+10	Collemagno	Collemagno	PROPN	SP	_	9	flat:name	_	_
+11	durò	duere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	più	più	ADV	B	_	14	case	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+16	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	credesse	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 2
+# text = ma in tutte le ore di pace, in tutte le ore di raccoglimento, egli pensava alla diletta donna, lasciata nella patria.
+1	ma	ma	CCONJ	CC	_	17	cc	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	ore	ora	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	pace	pace	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	ore	ora	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	raccoglimento	raccoglimento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	diletta	diletta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	donna	donna	NOUN	S	Gender=Fem|Number=Sing	20	compound	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	lasciata	lasciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	patria	patria	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Il viaggio si prolungò, molto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	prolungò	prolunge	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	molto	molto	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Che importa?
+1	Che	che	PRON	PR	PronType=Rel	2	nsubj	_	_
+2	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = L'uomo era innamorato e fedele e il patto non poteva sussistere.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	innamorato	innamorato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	fedele	fedele	ADJ	A	Number=Sing	4	conj	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	patto	patto	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	sussistere	sussistere	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

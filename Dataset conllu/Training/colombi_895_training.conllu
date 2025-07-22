@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vincenzo invece, appena cessato l'eccitamento della battaglia, aveva pensato con raccapriccio al ritorno in seminario, ove doveva ricevere gli ordini maggiori alla fine d'agosto, dopo pochi giorni soltanto:
+1	Vincenzo	Vincenzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	invece	invece	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	appena	appena	ADV	B	_	5	advmod	_	_
+5	cessato	cessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	eccitamento	eccitamento	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	raccapriccio	raccapriccio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	seminario	seminario	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	ove	ove	SCONJ	CS	_	24	mark	_	_
+23	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	ricevere	ricevere	VERB	V	VerbForm=Inf	13	advcl	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	ordini	ordine	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	26	amod	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	fine	fine	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+31	d'	di	ADP	E	_	32	case	_	SpaceAfter=No
+32	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	13	punct	_	_
+34	dopo	dopo	ADP	E	_	36	case	_	_
+35	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	36	det	_	_
+36	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+37	soltanto	soltanto	ADV	B	_	36	advmod	_	SpaceAfter=No
+38	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = gli ordini maggiori che lo consacravano prete, che lo obbligavano a rinunciare per sempre ai sogni inebrianti della sua gioventù.
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	ordini	ordine	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	consacravano	consacrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+7	prete	prete	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	obbligavano	obbligare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	rinunciare	rinunciare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	sempre	sempre	ADV	B	_	13	advmod	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+19	inebrianti	inebrianti	ADJ	A	Number=Plur	18	amod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	gioventù	gioventù	NOUN	S	Gender=Fem	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E si era fatto cupo, silenzioso, scoraggiato, e tratto tratto un impeto d'ira gli faceva salire il sangue al volto, o la profonda disperazione gli strappava le lagrime.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	cupo	cupo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	silenzioso	silenzioso	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	scoraggiato	scoraggiato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	tratto	trarre	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux	_	_
+13	tratto	trarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	ira	ira	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+19	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+20	salire	salire	VERB	V	VerbForm=Inf	19	ccomp	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	volto	volto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	32	punct	_	_
+27	o	o	CCONJ	CC	_	32	cc	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	_
+31	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	iobj	_	_
+32	strappava	strappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

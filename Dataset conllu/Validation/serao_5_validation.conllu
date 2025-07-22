@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli pensò fosse il freddo che gl'impediva di dormire.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	gl'	igl	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
+8	impediva	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	dormire	dormire	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Assuefatto alla mitezza delle notti meridionali, non avendo l'abitudine di viaggiare, era partito con un semplice e leggiero soprabito, senza coperta, senza sciallo, con una piccola valigia e un baule che lo seguiva, al bagagliaio.
+1	Assuefatto	Assuefatto	ADV	B	_	11	advmod	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mitezza	mitezza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	notti	notte	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	meridionali	meridionale	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	avendo	avere	VERB	V	VerbForm=Ger	18	advcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	abitudine	abitudine	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	viaggiare	viaggiare	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	con	con	ADP	E	_	24	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+21	semplice	semplice	ADJ	A	Number=Sing	24	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	leggiero	leggiero	ADJ	A	Gender=Masc|Number=Sing	21	conj	_	_
+24	soprabito	soprabito	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	18	punct	_	_
+26	senza	senza	ADP	E	_	27	case	_	_
+27	coperta	coperta	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	18	punct	_	_
+29	senza	senza	ADP	E	_	30	case	_	_
+30	sciallo	sciallo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	18	punct	_	_
+32	con	con	ADP	E	_	35	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	valigia	valigia	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	baule	baule	NOUN	S	Gender=Masc|Number=Sing	35	conj	_	_
+39	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+40	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	obj	_	_
+41	seguiva	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	18	punct	_	_
+43-44	al	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	bagagliaio	bagagliaio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 3
+# text = L'importante, per lui, non erano le vesti, nè le carte, nè i libri, nè la biancheria:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	importante	importante	ADJ	A	Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	vesti	veste	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	nè	né	CCONJ	CC	_	14	cc	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	carte	carta	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	nè	né	CCONJ	CC	_	18	cc	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	libri	libro	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	nè	né	CCONJ	CC	_	22	cc	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	biancheria	biancheria	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 4
+# text = era quella medaglina d'oro, prezioso amuleto, che gli pendeva dalla catenella dell'orologio.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	medaglina	medaglino	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	oro	oro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	prezioso	prezioso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	amuleto	amuleto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+12	pendeva	pendevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	catenella	catenella	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

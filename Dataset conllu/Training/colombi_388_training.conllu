@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Avevo diciotto anni, quando mio padre, che era notaio, morì lasciando mia madre con due figliole, di cui ero la maggiore, senz'altro avere che il suo studio.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	diciotto	diciotto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	quando	quando	SCONJ	CS	_	8	mark	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	padre	padre	NOUN	S	Gender=Masc|Number=Sing	3	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	notaio	notaio	NOUN	S	Gender=Masc|Number=Sing	8	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	morì	morire	CCONJ	CC	_	12	advcl	_	_
+15	lasciando	lasciare	VERB	V	VerbForm=Ger	14	advcl	_	_
+16	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	madre	madre	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	due	due	NUM	N	NumType=Card	20	nummod	_	_
+20	figliole	figliola	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	26	obl	_	_
+24	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	26	cop	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	20	acl:relcl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	senz'	senza	ADP	E	_	29	case	_	SpaceAfter=No
+29	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	30	obl	_	_
+30	avere	avere	VERB	V	VerbForm=Inf	26	advcl	_	_
+31	che	che	SCONJ	CS	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	studio	studio	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Questo si dovette vendere, e dopo molte noie di conti, di minutari, di dare, d'avere e che so io, si trovò che ci restava appena appena da vivere malamente.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	dovette	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	vendere	vendere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	dopo	dopo	ADP	E	_	9	case	_	_
+8	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	noie	noia	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	conti	conto	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	minutari	minutario	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	dare	dare	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	d'	da	ADP	E	_	20	mark	_	SpaceAfter=No
+20	avere	avere	VERB	V	VerbForm=Inf	17	conj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+23	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+24	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	23	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	4	punct	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl:impers	_	_
+27	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+28	che	che	SCONJ	CS	_	30	mark	_	_
+29	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	30	expl	_	_
+30	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	ccomp	_	_
+31	appena	appena	ADV	B	_	34	advmod	_	_
+32	appena	appena	ADV	B	_	34	advmod	_	_
+33	da	da	ADP	E	_	34	mark	_	_
+34	vivere	vivere	VERB	V	VerbForm=Inf	30	xcomp	_	_
+35	malamente	malo	ADV	B	_	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Io avevo recitato parecchio da dilettante, in campagna, nelle serate di beneficenza, e mi pareva di fare benino.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	recitato	recitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	parecchio	parecchio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	dilettante	dilettante	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11-12	nelle	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	serate	serata	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	beneficenza	beneficenza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	fare	fare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	benino	benino	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ad ogni modo ci avevo passione, e dissi alla mamma che mi lasciasse far carriera da attrice per aiutare un poco la nostra povera famigliola.
+1	Ad	a	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	dissi	diggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	lasciasse	lasciare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+16	far	fare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	aiutare	aiutare	VERB	V	VerbForm=Inf	16	advcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	poco	poco	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+26	povera	povero	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	famigliola	famigliola	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

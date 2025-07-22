@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella lo ricercò, dopo soli tre giorni:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	ricercò	ricerce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dopo	dopo	ADP	E	_	8	case	_	_
+6	soli	solo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ed egli che l'aveva fuggita per quattro o cinque anni, da quando Clara, dopo un lungo viaggio, era ritornata in patria, egli si lasciò ricercare e tenne l'invito.
+1	ed	e	CCONJ	CC	_	15	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	conj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	fuggita	fuggire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	per	per	ADP	E	_	11	case	_	_
+8	quattro	quattro	NUM	N	NumType=Card	11	nummod	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	cinque	cinque	NUM	N	NumType=Card	8	conj	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	quando	quando	SCONJ	CS	_	13	fixed	_	_
+15	Clara	Clara	PROPN	SP	_	23	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	dopo	dopo	ADP	E	_	20	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	ritornata	ritornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	advcl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	patria	patria	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+30	ricercare	ricercare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	tenne	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	conj	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	invito	invito	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 3
+# text = Fatalmente, Clara era troppo sola e troppo libera, adesso.
+1	Fatalmente	fatalmente	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Clara	Clara	PROPN	SP	_	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	troppo	troppo	ADV	B	_	6	advmod	_	_
+6	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	troppo	troppo	ADV	B	_	9	advmod	_	_
+9	libera	libero	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	adesso	adesso	ADV	B	_	6	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Gli aveva scritto un biglietto fra il malinconico e scherzoso, per dirgli che la sera istessa sarebbe andata al vecchio teatro Argentina, dove cantavano una vecchia musica, l'_Armida_, di Glück.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	fra	fra	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	malinconico	malinconico	ADJ	A	Gender=Masc|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	scherzoso	scherzoso	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	dirgli	_	_	_	_	_	_	_	_
+13	dir	dire	VERB	V	VerbForm=Inf	5	acl	_	_
+14	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+15	che	che	SCONJ	CS	_	20	mark	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sera	sera	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+18	istessa	istesso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+25	Argentina	Argentina	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	dove	dove	ADV	B	_	28	advmod	_	_
+28	cantavano	cantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+31	musica	musica	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	28	punct	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	_Armida_	_armida_	PROPN	SP	_	28	obj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	Glück	Glück	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

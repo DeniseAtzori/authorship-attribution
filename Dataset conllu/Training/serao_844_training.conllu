@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma le stanze erano tanto grandi che parevano vuote, sempre;
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	tanto	tanto	ADV	B	_	6	advmod	_	_
+6	grandi	grande	ADJ	A	Number=Plur	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	parevano	parere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+9	vuote	vuotere	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	sempre	sempre	ADV	B	_	8	conj	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = le finestre, i balconi erano così piccoli che la luce vi entrava scarsamente, anche nelle più limpide giornate;
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	balconi	balcone	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+6	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	così	così	ADV	B	_	8	advmod	_	_
+8	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+9	che	che	SCONJ	CS	_	13	mark	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	luce	luce	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+14	scarsamente	scarso	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	anche	anche	ADV	B	_	21	advmod	_	_
+17-18	nelle	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	21	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	limpide	limpido	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 3
+# text = e malgrado i fiori di cui Grazia riempiva tutte le stanze, tutti gli angoli, tutti i tavolini, i saloni non si rianimavano, restavano freddi e muti come se fosse impossibile farvi risuscitare anche una finzione di vita.
+1	e	e	CCONJ	CC	_	27	cc	_	_
+2	malgrado	malgrado	SCONJ	CS	_	27	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	27	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+7	Grazia	grazia	PROPN	SP	_	8	nsubj	_	_
+8	riempiva	riempire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+9	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	angoli	angolo	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	19	det:predet	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	tavolini	tavolino	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	saloni	salone	NOUN	S	Gender=Masc|Number=Plur	25	nsubj	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	rianimavano	rianimare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	restavano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+28	freddi	freddo	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	muti	mere	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	_
+31	come	come	ADV	B	_	34	advmod	_	_
+32	se	se	SCONJ	CS	_	34	mark	_	_
+33	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	cop	_	_
+34	impossibile	impossibile	ADJ	A	Number=Sing	27	advcl	_	_
+35-36	farvi	_	_	_	_	_	_	_	_
+35	far	fare	VERB	V	VerbForm=Inf	34	csubj	_	_
+36	vi	vi	ADV	B	_	35	advmod	_	_
+37	risuscitare	risuscitare	VERB	V	VerbForm=Inf	35	ccomp	_	_
+38	anche	anche	ADV	B	_	40	advmod	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	finzione	finzione	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	vita	vita	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	27	punct	_	SpacesAfter=\n
+

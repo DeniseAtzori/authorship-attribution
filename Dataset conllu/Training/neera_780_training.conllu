@@ -1,0 +1,145 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Di comune accordo non vollero visitare il castello profanato da soldatesca straniera.
+1	Di	di	ADP	E	_	3	case	_	_
+2	comune	comune	ADJ	A	Number=Sing	3	amod	_	_
+3	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	vollero	vollero	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	visitare	visitare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	castello	castello	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	profanato	profanare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	soldatesca	soldatesca	NOUN	S	Gender=Fem|Number=Sing	9	obl:agent	_	_
+12	straniera	straniero	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Volsero invece i loro passi verso l’Adige, verso quella antichissima chiesa di Sant’Apollinare, culla e tomba della vecchia Trento, che sorge così romita e vaga ai piedi del Dos.
+1	Volsero	Voldere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	invece	invece	ADV	B	_	1	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	loro	loro	DET	AP	Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	passi	passo	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+6	verso	verso	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Adige	Adige	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	verso	verso	ADP	E	_	13	case	_	_
+11	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+12	antichissima	anticho	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	13	amod	_	_
+13	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Sant’	Santo	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	Apollinare	Apollinare	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	culla	culla	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	Trento	Trento	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	sorge	sorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+28	così	così	ADV	B	_	29	advmod	_	_
+29	romita	romita	ADJ	A	Gender=Fem|Number=Sing	27	xcomp	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	vaga	vagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+32-33	ai	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Dos	Dos	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = L’arco verde dei monti serrava l’orizzonte dietro a una coppa di smeraldo dagli orli imporporati nell’ultima luce del tramonto, la fasciava l’Adige con una striscia d’argento e sull’alta cupola del cielo sorgeva, tenue falce appena disegnata, la luna.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	arco	arco	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	verde	verde	ADJ	A	Number=Sing	2	amod	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	monti	monte	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	serrava	serrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	orizzonte	orizzonte	NOUN	S	Number=Sing	7	obj	_	_
+10	dietro	dietro	ADV	B	_	13	case	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	coppa	coppa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	smeraldo	smeraldo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	dagli	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18-19	orli	_	_	_	_	_	_	_	_
+18	or	or	NOUN	S	Gender=Masc	13	nmod	_	_
+19	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+20	imporporati	imporporare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+21-22	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+21	in	in	ADP	E	_	24	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+23	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	luce	luce	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	tramonto	tramonto	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+30	fasciava	fasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	Adige	Adige	PROPN	SP	_	30	nsubj	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	striscia	striscia	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+36	d’	di	ADP	E	_	37	case	_	SpaceAfter=No
+37	argento	argento	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+38	e	e	CCONJ	CC	_	42	cc	_	_
+39-40	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+39	su	su	ADP	E	_	42	case	_	_
+40	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+41	alta	alto	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+42	cupola	cupola	NOUN	S	Gender=Fem|Number=Sing	46	obl	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	_
+46	sorgeva	sorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	49	punct	_	_
+48	tenue	tenue	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	falce	falce	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+50	appena	appena	ADV	B	_	51	advmod	_	_
+51	disegnata	disegnato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	49	acl	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	54	punct	_	_
+53	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	luna	luna	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Irresistibilmente i versi del poeta tridentino corsero sulle loro labbra:
+1	Irresistibilmente	Irresistibilmente	ADV	B	_	8	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	versi	verso	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	tridentino	tridentino	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	corsero	cordere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	sulle	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	8	punct	_	SpacesAfter=\n
+

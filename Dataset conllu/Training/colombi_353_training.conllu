@@ -1,0 +1,140 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli mi prese il braccio, continuò a salire, e lasciandosi dietro Premeno, mi trasse sopra un'altura in un piccolo spianato sassoso e disuguale, che si chiama col nome pomposo di _Piazza Garibaldi_.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	continuò	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	salire	salire	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12-13	lasciandosi	_	_	_	_	_	_	_	_
+12	lasciando	lasciare	VERB	V	VerbForm=Ger	9	conj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	dietro	dietro	ADP	E	_	15	case	_	_
+15	Premeno	Premeno	PROPN	SP	_	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	trasse	trarre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+19	sopra	sopra	ADV	B	_	18	advmod	_	_
+20	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	altura	altura	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	spianato	spianato	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	sassoso	sassoso	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	disuguale	disuguale	ADJ	A	Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	21	punct	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+33-34	col	_	_	_	_	_	_	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	nome	nome	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+36	pomposo	pomposo	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	_Piazza	_Piazza	PROPN	SP	_	35	nmod	_	_
+39	Garibaldi_	Garibaldi-	PROPN	SP	_	38	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Vi trovammo alcune panche e delle tavole di sasso.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	trovammo	trovare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	panche	panca	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	tavole	tavola	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sasso	sasso	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sedemmo sotto una specie di grondaia per ripararci dalla pioggia che cominciava a cadere.
+1	Sedemmo	Sedemmo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	sotto	sotto	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	specie	specie	NOUN	S	Gender=Fem	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	grondaia	grondaia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8-9	ripararci	_	_	_	_	_	_	_	_
+8	riparar	riparare	VERB	V	VerbForm=Inf	1	advcl	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	cominciava	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	cadere	cadere	VERB	V	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Gustavo prese alcuni sassolini sulla tavola che aveva dinanzi, li agitò un poco in silenzio, poi prese a parlare rapidamente, sempre baloccandosi con quei sassi per darsi un'aria disinvolta, mentre invece la sua voce tradiva l'agitazione dell'animo.
+1	Gustavo	Gustavo	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	sassolini	sassolino	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tavola	tavola|tavolo	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	dinanzi	dinanzi	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+13	agitò	agitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	poco	poco	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	poi	poi	ADV	B	_	20	advmod	_	_
+20	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	parlare	parlare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	rapidamente	rapidamente	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	sempre	sempre	ADV	B	_	26	advmod	_	_
+26-27	baloccandosi	_	_	_	_	_	_	_	_
+26	baloccando	baloccare	VERB	V	VerbForm=Ger	2	advcl	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	30	det	_	_
+30	sassi	sasso	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+31	per	per	ADP	E	_	32	mark	_	_
+32-33	darsi	_	_	_	_	_	_	_	_
+32	dar	dare	VERB	V	VerbForm=Inf	26	advcl	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+34	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+35	aria	aria	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+36	disinvolta	disinvolto	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	2	punct	_	_
+38	mentre	mentre	SCONJ	CS	_	43	mark	_	_
+39	invece	invece	ADV	B	_	43	advmod	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	voce	voce	NOUN	S	Gender=Fem|Number=Sing	43	nsubj	_	_
+43	tradiva	tradire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+45	agitazione	agitazione	NOUN	S	Gender=Fem|Number=Sing	43	obj	_	_
+46-47	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+46	di	di	ADP	E	_	48	case	_	_
+47	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	animo	animo	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

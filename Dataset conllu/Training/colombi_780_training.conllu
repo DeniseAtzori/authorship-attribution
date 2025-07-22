@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quel giorno il desinare fu corto.
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	desinare	desinare	VERB	V	VerbForm=Inf	6	nsubj	_	_
+5	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	corto	corto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Tutti erano impazienti di dar fuoco alle legna.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	impazienti	impaziere	ADJ	A	Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	dar	dare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	legna	legna	NOUN	S	Gender=Fem	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = E la sera nessuno ebbe sonno, nessuno si tinse le mani, la signora Cavalletti non ebbe nulla da fare col fuoco, che crepitava allegro fra rami e ceppi solidamente sorretti dagli alari.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+5	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	tinse	tingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	mani	mano	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	signora	signore	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+16	Cavalletti	Cavalletti	PROPN	SP	_	15	nmod	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+19	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	18	obj	_	_
+20	da	da	ADP	E	_	21	mark	_	_
+21	fare	fare	VERB	V	VerbForm=Inf	18	advcl	_	_
+22-23	col	_	_	_	_	_	_	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	crepitava	crepitavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+28	allegro	allegro	ADV	B	_	27	advmod	_	_
+29	fra	fra	ADP	E	_	30	case	_	_
+30	rami	ramo	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	ceppi	ceppo	NOUN	S	Gender=Masc|Number=Plur	30	conj	_	_
+33	solidamente	solido	ADV	B	_	34	advmod	_	_
+34	sorretti	sorreggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	acl	_	_
+35-36	dagli	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	alari	alare	NOUN	S	Gender=Masc|Number=Plur	34	obl:agent	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Tutta la famiglia, raccolta intorno al camino, apprezzava la nuova agiatezza che s'era procurata, e ne godeva.
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	raccolta	raccolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	intorno	intorno	ADV	B	_	9	case	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	camino	camino	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	apprezzava	apprezzavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	agiatezza	agiatezza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	SpaceAfter=No
+17	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	procurata	procurare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+22	godeva	godere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

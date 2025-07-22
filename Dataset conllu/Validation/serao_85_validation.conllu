@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che gli facevano a lui tutte le memorie del passato, tutti quei ricordi ingombranti?
+1	Che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+2	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	memorie	memoria	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	passato	passato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+14	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
+15	ricordi	ricordo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+16	ingombranti	ingombrante	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Chi se ne curava del passato?
+1	Chi	chi	PRON	PQ	PronType=Int	4	nsubj	_	_
+2	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	curava	curare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	passato	passato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Egli apparteneva al presente, molto moderno, innamorato del suo tempo innamorato della vita, che deve giungere, non di quella che è fuggita, capace di lotta quotidiana, capace dei più forti sforzi per conquistare l'avvenire.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	apparteneva	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	presente	presente	ADJ	A	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	moderno	moderno	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	innamorato	innamorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	innamorato	innamorato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vita	vita	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	giungere	giungere	VERB	V	VerbForm=Inf	26	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	conj	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj:pass	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
+29	fuggita	fuggire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	capace	capace	ADJ	A	Number=Sing	29	xcomp	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+34	quotidiana	quotidiano	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	capace	capace	ADJ	A	Number=Sing	31	conj	_	_
+37-38	dei	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	40	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	più	più	ADV	B	_	40	advmod	_	_
+40	forti	forte	ADJ	A	Number=Plur	36	obl	_	_
+41	sforzi	sforzo	ADV	B	_	43	advmod	_	_
+42	per	per	ADP	E	_	43	mark	_	_
+43	conquistare	conquistare	VERB	V	VerbForm=Inf	40	advcl	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+45	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

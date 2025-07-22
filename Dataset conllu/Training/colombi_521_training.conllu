@@ -1,0 +1,131 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Due giorni dopo giunse alla farmacia una lettera dalla posta coi bolli di Milano.
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+3	dopo	dopo	ADV	B	_	2	advmod	_	_
+4	giunse	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	farmacia	farmacia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	posta	posta	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13-14	coi	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	bolli	bollo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Milano	Milano	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Era diretta a Maria; ma, naturalmente, la ricevette e la lesse il babbo, poi la comunicò alla mamma, al nonno;
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	diretta	diretta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Maria	Maria	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	11	punct	_	_
+6	ma	ma	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	naturalmente	naturalmente	ADV	B	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	ricevette	ricevetta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	lesse	lessa	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	poi	poi	ADV	B	_	20	advmod	_	_
+19	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	comunicò	comunicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = li consultò tutti e due, si fece un gran discutere se convenisse o no di parlarne a Maria; e finalmente considerato l'aspetto sofferente e la malinconia della ragazza, ed i buoni propositi dichiarati nella lettera, fu deciso alla unanimità di comunicare a Maria quell'epistola.
+1	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+2	consultò	consultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	due	due	NUM	N	NumType=Card	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	gran	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	discutere	discutere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+12	se	se	SCONJ	CS	_	13	mark	_	_
+13	convenisse	convenire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	_
+14	o	o	CCONJ	CC	_	15	cc	_	_
+15	no	no	ADV	BN	PronType=Neg	13	conj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	parlarne	_	_	_	_	_	_	_	_
+17	parlar	parlare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	17	iobj	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Maria	Maria	PROPN	SP	_	17	obl	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	45	punct	_	_
+22	e	e	CCONJ	CC	_	45	cc	_	_
+23	finalmente	finalmente	ADV	B	_	24	advmod	_	_
+24	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	advcl	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	sofferente	sofferente	ADJ	A	Number=Sing	26	amod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	38	punct	_	_
+35	ed	e	CCONJ	CC	_	38	cc	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+37	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	_
+38	propositi	proposito	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	_
+39	dichiarati	dichiarare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	38	acl	_	_
+40-41	nella	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	24	punct	_	_
+44	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	aux:pass	_	_
+45	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+46-47	alla	_	_	_	_	_	_	_	_
+46	a	a	ADP	E	_	48	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	unanimità	unanimità	NOUN	S	Gender=Fem	45	obl	_	_
+49	di	di	ADP	E	_	50	mark	_	_
+50	comunicare	comunicare	VERB	V	VerbForm=Inf	48	acl	_	_
+51	a	a	ADP	E	_	52	case	_	_
+52	Maria	Maria	PROPN	SP	_	50	obl	_	_
+53	quell'	quello	DET	DD	Number=Sing|PronType=Dem	54	det	_	SpaceAfter=No
+54	epistola	epistola	NOUN	S	Gender=Fem|Number=Sing	50	obj	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Era di Roberto e diceva così:
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Roberto	Roberto	PROPN	SP	_	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+6	così	così	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	SpacesAfter=\n
+

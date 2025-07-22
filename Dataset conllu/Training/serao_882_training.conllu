@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Sentite--disse.
+1	--Sentite	--Sentito	PROPN	SP	_	4	obl	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = --Io ho conosciuta quella soave donna a Livorno, quattro anni fa.
+1	--Io	--Io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	conosciuta	conoscere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	soave	soave	ADJ	A	Number=Sing	6	amod	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Livorno	Livorno	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	quattro	quattro	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+12	fa	fa	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Era una polacca; si chiamava Anna;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	polacca	polacca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	3	punct	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+7	Anna	Anna	PROPN	SP	_	6	xcomp	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = aveva un marito brutale, e che ne era molto, molto geloso.
+1	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	marito	marito	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	brutale	brutale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+10	molto	molto	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	geloso	geloso	ADJ	A	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ella era piccola, delicata, con certi lunghi e folti capelli fulvi e una salute così delicata, che il più piccolo soffio di vento la faceva tossire.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	certi	certo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+9	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	folti	folto	ADJ	A	Gender=Masc|Number=Plur	9	conj	_	_
+12	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	fulvi	fulvo	ADJ	A	Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	salute	salute	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+17	così	così	ADV	B	_	18	advmod	_	_
+18	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	che	che	SCONJ	CS	_	28	mark	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	soffio	soffio	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	vento	vento	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+28	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+29	tossire	tossire	VERB	V	VerbForm=Inf	28	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Così leggiadra e così debole, io l'ho amata più di tutte le donne opulente, trionfali, maestose, l'ho amata più di qualunque donna abbia mai incontrata, più di qualunque donna potrò mai incontrare sul mio cammino....
+1	Così	così	ADV	B	_	10	advmod	_	_
+2	leggiadra	leggiadro	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	debole	debole	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	più	più	ADV	B	_	15	advmod	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+16	opulente	opulente	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	trionfali	trionfale	ADJ	A	Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	maestose	maestoso	ADJ	A	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+23	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+25	più	più	ADV	B	_	28	advmod	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	28	det	_	_
+28	donna	donna	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+29	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+30	mai	mai	ADV	B	_	31	advmod	_	_
+31	incontrata	incontrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	più	più	ADV	B	_	36	case	_	_
+34	di	di	ADP	E	_	33	fixed	_	_
+35	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	36	det	_	_
+36	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+37	potrò	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	39	aux	_	_
+38	mai	mai	ADV	B	_	39	advmod	_	_
+39	incontrare	incontrare	VERB	V	VerbForm=Inf	10	conj	_	_
+40-41	sul	_	_	_	_	_	_	_	_
+40	su	su	ADP	E	_	43	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	43	det:poss	_	_
+43	cammino...	cammino...	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

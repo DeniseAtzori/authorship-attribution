@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I bimbi circondarono il banchetto di Vicenzella, strillando, pestando i piedi, mentre ella cercava di quietarli, fermando le loro mani impazienti:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bimbi	bimbio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	circondarono	circondare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	banchetto	banchetto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Vicenzella	Vicenzella	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	strillando	strillare	VERB	V	VerbForm=Ger	3	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	pestando	pestare	VERB	V	VerbForm=Ger	9	advcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	mentre	mentre	SCONJ	CS	_	17	mark	_	_
+16	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19-20	quietarli	_	_	_	_	_	_	_	SpaceAfter=No
+19	quietar	quietare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	fermando	fermare	VERB	V	VerbForm=Ger	3	advcl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	loro	loro	DET	AP	Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	mani	mano	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+26	impazienti	impaziente	ADJ	A	Number=Plur	25	amod	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = uno specialmente, voleva due centesimi di noci, voleva a forza quattro noci, piangeva, singhiozzando, stringendo convulsamente il due centesimino.
+1	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+2	specialmente	specialmente	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	centesimi	centesimo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	noci	noce	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	forza	forza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	quattro	quattro	NUM	N	NumType=Card	14	nummod	_	_
+14	noci	noce	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	piangeva	piangere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	singhiozzando	singhiozzare	VERB	V	VerbForm=Ger	16	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	stringendo	stringere	VERB	V	VerbForm=Ger	18	advcl	_	_
+21	convulsamente	convulso	ADV	B	_	20	advmod	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	due	due	NUM	N	NumType=Card	24	nummod	_	_
+24	centesimino	centesimino	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Essa gliele dette, egli se ne andò, saltando.
+1	Essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gliele	gliele	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dette	dire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	saltando	saltare	VERB	V	VerbForm=Ger	8	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Già una striscia di ombra si allungava sulla via di Santa Lucia, e la gente vi s'infittiva:
+1	Già	già	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	striscia	striscia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	allungava	allungare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	via	via	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Santa	Santa	PROPN	SP	_	10	nmod	_	_
+13	Lucia	Lucia	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	20	punct	_	_
+15	e	e	CCONJ	CC	_	20	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	gente	gente	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+18	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	20	iobj	_	_
+19	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	SpaceAfter=No
+20	infittiva	infittire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 5
+# text = una lieve ombra si distendeva anche sulla faccia di Vicenzella.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	lieve	lieve	ADJ	A	Number=Sing	3	amod	_	_
+3	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	distendeva	distendevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	9	advmod	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Vicenzella	Vicenzella	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

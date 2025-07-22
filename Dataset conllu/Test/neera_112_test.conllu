@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Allora rimasi a lungo ritta nel mezzo della stanza, colle dita intrecciate dietro il dorso, immobile.
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	rimasi	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	2	obl	_	_
+5	ritta	ritta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13-14	colle	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	dita	dito	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+16	intrecciate	intrecciato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+17	dietro	dietro	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	dorso	dorso	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	5	punct	_	_
+21	immobile	immobile	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non so se mi parve solamente o se davvero qualche cosa di lieve battè intanto contro i vetri.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	solamente	solamente	ADV	B	_	5	advmod	_	_
+7	o	o	CCONJ	CC	_	14	cc	_	_
+8	se	se	SCONJ	CS	_	14	mark	_	_
+9	davvero	davvero	ADV	B	_	14	advmod	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	lieve	lieve	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	battè	battè	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+15	intanto	intanto	ADV	B	_	14	advmod	_	_
+16	contro	contro	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	vetri	vetro	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mi avvicinai alla finestra e l'apersi.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	avvicinai	avvicinare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	apersi	aperso	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il tempo era sempre minaccioso;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	minaccioso	minaccioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = mi sporsi fuori sul davanzale guardando giù nel giardino.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2-3	sporsi	_	_	_	_	_	_	_	_
+2	spor	sporre	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	fuori	fuori	ADV	B	_	7	case	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	4	fixed	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	davanzale	davanzale	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	guardando	guardare	VERB	V	VerbForm=Ger	2	advcl	_	_
+9	giù	giù	ADV	B	_	8	advmod	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Dovessi vivere mille anni non dimenticherò mai più la voce che intesi:
+1	Dovessi	Dovesso	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	vivere	vivere	VERB	V	VerbForm=Inf	0	root	_	_
+3	mille	mille	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	dimenticherò	dimenticare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	advcl	_	_
+7	mai	mai	ADV	B	_	6	advmod	_	_
+8	più	più	ADV	B	_	6	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	voce	voce	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+12	intesi	intendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

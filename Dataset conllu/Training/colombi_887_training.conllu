@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quei due anni, dal sessantaquattro al sessantasei, furono due anni di tortura per lui.
+1	Quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sessantaquattro	sessantaquattro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sessantasei	sessantasei	NUM	N	NumType=Card	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	furono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	due	due	NUM	N	NumType=Card	14	nummod	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = La sua veste nera gli era divenuta addirittura odiosa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	veste	veste	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	nera	nero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	divenuta	divenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	addirittura	addirittura	ADV	B	_	9	advmod	_	_
+9	odiosa	odioso	ADJ	A	Gender=Fem|Number=Sing	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Non osava confidare a Vicenzino le angoscie segrete che lo agitavano;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	osava	osare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	confidare	confidare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Vicenzino	Vicenzino	PROPN	SP	_	3	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	angoscie	angoscia	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+8	segrete	segreto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	agitavano	agitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = si vedeva preso inesorabilmente nella fatale alternativa di essere un cattivo prete o un figlio crudele, troppo debole per accettare il sacrificio, troppo buono per liberarsene ad ogni costo.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	vedeva	vedere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	inesorabilmente	inesorabilmente	ADV	B	_	3	advmod	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	fatale	fatale	ADJ	A	Number=Sing	8	amod	_	_
+8	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	di	di	ADP	E	_	13	mark	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	13	cop	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	prete	prete	NOUN	S	Gender=Masc|Number=Sing	3	advcl	_	_
+14	o	o	CCONJ	CC	_	16	cc	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+17	crudele	crudele	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	troppo	troppo	ADV	B	_	20	advmod	_	_
+20	debole	debole	ADJ	A	Number=Sing	16	amod	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	accettare	accettare	VERB	V	VerbForm=Inf	20	advcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	sacrificio	sacrificio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	troppo	troppo	ADV	B	_	27	advmod	_	_
+27	buono	buono	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29-31	liberarsene	_	_	_	_	_	_	_	_
+29	liberar	liberare	VERB	V	VerbForm=Inf	27	advcl	_	_
+30	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+31	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	29	iobj	_	_
+32	ad	a	ADP	E	_	34	case	_	_
+33	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	34	det	_	_
+34	costo	costo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

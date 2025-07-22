@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io venivo frattanto a conoscere sempre più la inenarrabile malinconia delle cose.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	venivo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	frattanto	frattanto	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	conoscere	conoscere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	sempre	sempre	ADV	B	_	5	advmod	_	_
+7	più	più	ADV	B	_	5	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	inenarrabile	inenarrabile	ADJ	A	Number=Sing	10	amod	_	_
+10	malinconia	malinconia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Somigliava il mio salotto a un cimitero sparso di croci;
+1	Somigliava	Somigliavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8	sparso	sparso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	croci	croce	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = vi piangevo nel vano della finestra le illusioni fuggite sui fili azzurri e rosei delle mie sete da ricamo e accanto al cembalo le note appassionate della canzone che non avevo più avuto il coraggio di cantare.
+1	vi	vi	ADV	B	_	2	advmod	_	_
+2	piangevo	piangere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vano	re	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	obl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	illusioni	illusione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+11	fuggite	fuggire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	sui	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	fili	filo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	azzurri	azzurro	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	rosei	roseo	ADJ	A	Gender=Masc|Number=Plur	15	conj	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	sete	sete	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+22	da	da	ADP	E	_	23	case	_	_
+23	ricamo	ricamo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	accanto	accanto	ADV	B	_	28	case	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	25	fixed	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	cembalo	cembalo	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	note	nota	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+31	appassionate	appassionato	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+35	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+36	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+37	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	39	aux	_	_
+38	più	più	ADV	B	_	39	advmod	_	_
+39	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl:relcl	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+42	di	di	ADP	E	_	43	mark	_	_
+43	cantare	cantare	VERB	V	VerbForm=Inf	41	acl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

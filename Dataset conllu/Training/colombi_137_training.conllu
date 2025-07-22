@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lascio stare il tempo di studio, poi il primo impiego da _giornaliera_.
+1	Lascio	lascio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	stare	stare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	studio	studio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	poi	poi	ADV	B	_	11	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	_giornaliera_	_giornaliera-	PUNCT	FB	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ero chiamata quando il lavoro era eccessivo, ed in quei casi avevo due lire al giorno.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux:pass	_	_
+2	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	quando	quando	SCONJ	CS	_	7	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	eccessivo	eccessivo	ADJ	A	Gender=Masc|Number=Sing	2	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	ed	e	CCONJ	CC	_	13	cc	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	casi	caso	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+13	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	conj	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	lire	lira	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Se non c'era lavoro di troppo, non ero chiamata, e non avevo nulla.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	troppo	troppo	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	conj	_	_
+16	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Ma non importa.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Vivevo colla zia.
+1	Vivevo	Vivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	colla	collare	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	zia	zia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = A lei una tazza d'acqua di più nella pentola per aumentare d'una porzione la minestra, e quel poco di più ch'io potevo mangiare costava poco, e lo dava volentieri.
+1	A	a	ADP	E	_	2	case	_	_
+2	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tazza	tazza	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	più	più	ADV	B	_	6	advmod	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pentola	pentola	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	aumentare	aumentare	VERB	V	VerbForm=Inf	29	advcl	_	_
+14	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	porzione	porzione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	minestra	minestra	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	29	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	29	punct	_	_
+20	e	e	CCONJ	CC	_	29	cc	_	_
+21	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	29	nsubj	_	_
+22	poco	poco	ADV	B	_	28	mark	_	_
+23	di	di	ADP	E	_	22	fixed	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	ch'	che	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+26	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+27	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	mangiare	mangiare	VERB	V	VerbForm=Inf	21	advcl	_	_
+29	costava	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+30	poco	poco	ADV	B	_	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+34	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	conj	_	_
+35	volentieri	volentieri	ADV	B	_	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	29	punct	_	SpacesAfter=\n
+

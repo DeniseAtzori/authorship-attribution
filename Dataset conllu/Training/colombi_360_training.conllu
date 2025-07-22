@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Così non mi feci neppur un momento l'illusione di rimanere con quella fanciulla nei prosaici rapporti di padrona di casa ed inquilino, e nemmeno in quelli paradossali dell'amicizia.
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	Così	così	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	feci	feco	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+6	neppur	neppure	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	rimanere	rimanere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	nei	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	prosaici	prosaico	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	casa	casa	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	ed	e	CCONJ	CC	_	25	cc	_	_
+25	inquilino	inquilino	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	nemmeno	nemmeno	ADV	BN	PronType=Neg	30	advmod	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	conj	_	_
+31	paradossali	paradossale	ADJ	A	Number=Plur	30	amod	_	_
+32-33	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+32	di	di	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = L'amore non mi venne addosso inavvertito.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+5	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+6	addosso	addosso	ADV	B	_	7	advmod	_	_
+7	inavvertito	inavvertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Da quel primo giorno, da quella prima ora, sentii che avrei amata Clelia con tutto l'ardore di cui era capace il mio cuore.
+1	Da	da	ADP	E	_	4	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	ora	ora	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	sentii	sentio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	acl	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	amata	amare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+15	Clelia	Clelia	PROPN	SP	_	14	obj	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	19	det:predet	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	cui	cui	PRON	PR	PronType=Rel	23	obl	_	_
+22	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+23	capace	capace	ADJ	A	Number=Sing	19	acl:relcl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ma non pensai menomamente di fuggire, di sottrarmi a quel fascino:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	pensai	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	menomamente	menomamente	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	fuggire	fuggire	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sottrarmi	arma|sottrarme	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = lo guardavo venire con delizia, come si guarda in aprile rinverdir la natura, gonfiarsi le gemme, sbocciare le rose.
+1	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	guardavo	guardavo	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	venire	venire	VERB	V	VerbForm=Inf	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	delizia	delizia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	come	come	SCONJ	CS	_	9	mark	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	rinverdir	rinverdire	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	natura	natura	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16-17	gonfiarsi	_	_	_	_	_	_	_	_
+16	gonfiar	gonfiare	VERB	V	VerbForm=Inf	9	conj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	gemme	gemma	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	sbocciare	sbocciare	VERB	V	VerbForm=Inf	3	conj	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	rose	rosa	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

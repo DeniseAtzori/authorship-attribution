@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ah! signorina, ammirare è difficile, credere è più difficile ancora.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Ah	ah	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+4	signorina	signorina	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	ammirare	ammirare	VERB	V	VerbForm=Inf	8	csubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	difficile	difficile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	credere	credere	VERB	V	VerbForm=Inf	13	csubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	difficile	difficile	ADJ	A	Number=Sing	8	conj	_	_
+14	ancora	ancora	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = La fede sta in alto al pari dell'amore;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fede	fede	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	alto	alto	ADV	B	_	3	advmod	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pari	pari	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = molti si illudono di potervi giungere perchè tenendo i piedi nella mota gridano:
+1	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	illudono	illudere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	7	mark	_	_
+5-6	potervi	_	_	_	_	_	_	_	_
+5	poter	potere	AUX	VM	VerbForm=Inf	7	aux	_	_
+6	vi	vi	ADV	B	_	7	advmod	_	_
+7	giungere	giungere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	perchè	perché	SCONJ	CS	_	9	mark	_	_
+9	tenendo	tenere	VERB	V	VerbForm=Ger	7	advcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mota	mota	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	gridano	gridare	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = “Ti vedo!
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+3	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ti vedo!„ ma la loro voce non è che un suono vano.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+4	„	„	PUNCT	FF	_	10	punct	_	_
+5	ma	ma	CCONJ	CC	_	10	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	voce	voce	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	suono	suono	NOUN	S	Gender=Masc|Number=Sing	10	ccomp	_	_
+14	vano	re	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Quanto a me vorrei credere e non posso, no, non posso!
+1	Quanto	quanto	ADV	B	_	5	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	obl	_	_
+4	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	credere	credere	VERB	V	VerbForm=Inf	0	root	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	posso	potere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	no	no	INTJ	I	Polarity=Neg	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	posso	potere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

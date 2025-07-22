@@ -1,0 +1,151 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non insisteva mai sui discorsi, quando cominciavano a prendere una piega galante;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	insisteva	insistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	mai	mai	ADV	B	_	2	advmod	_	_
+4-5	sui	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	quando	quando	SCONJ	CS	_	9	mark	_	_
+9	cominciavano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	prendere	prendere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	piega	piega	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	galante	galante	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = li lasciava cadere, salvo ad intavolarne altri che seguiva fino allo stesso punto, per piantarli lì daccapo.
+1	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+2	lasciava	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	cadere	cadere	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	salvo	salvo	ADJ	A	Number=Sing	7	mark	_	_
+6	ad	a	ADP	E	_	5	fixed	_	_
+7-8	intavolarne	_	_	_	_	_	_	_	_
+7	intavolar	intavolare	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+9	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	seguiva	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+12	fino	fino	ADV	B	_	16	case	_	_
+13-14	allo	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	punto	punto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19-20	piantarli	_	_	_	_	_	_	_	_
+19	piantar	piantare	VERB	V	VerbForm=Inf	22	acl	_	_
+20	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+21	lì	lì	ADV	B	_	19	advmod	_	_
+22	daccapo	daccapo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = È un gioco che piace molto alle belle donnine;
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	molto	molto	ADV	B	_	5	advmod	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	belle	bello	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	donnine	donnina	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = un gioco pericoloso.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = È come quella mezza ebbrezza che procura l'oppio, quell'esaltamento lieve che si attinge in un bicchiere di Sciampagna, un'ebbrezza, un esaltamento innocenti, ma terribilmente arrischiati.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+4	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	ebbrezza	ebbrezza	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	procura	procurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	oppio	oppio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	quell'	quello	DET	DD	Number=Sing|PronType=Dem	12	det	_	SpaceAfter=No
+12	esaltamento	esaltamento	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+13	lieve	lieve	ADJ	A	Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	attinge	attingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	bicchiere	bicchiere	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Sciampagna	Sciampagna	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	ebbrezza	ebbrezza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	esaltamento	esaltamento	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+28	innocenti	innocente	ADJ	A	Number=Plur	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	ma	ma	CCONJ	CC	_	32	cc	_	_
+31	terribilmente	terribilmente	ADV	B	_	32	advmod	_	_
+32	arrischiati	arrischiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Un altro bicchiere di Sciampagna, un grano d'oppio di più, possono trascinare all'ubbriachezza e magari alla morte.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	bicchiere	bicchiera	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Sciampagna	Sciampagna	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	grano	grano	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	oppio	oppio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	più	più	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	trascinare	trascinare	VERB	V	VerbForm=Inf	0	root	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	ubbriachezza	ubbriachezza	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20	magari	magari	ADV	B	_	23	advmod	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	morte	morte	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 7
+# text = Vi sono tante esistenze oneste che pericolano a questo gioco.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	esistenze	esistenza	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	oneste	onesto	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	pericolano	pericolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

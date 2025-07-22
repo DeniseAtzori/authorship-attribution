@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La bestiolina verde, irritata da quel rifiuto, si diede a suggere l'umore vitale alla mia radice.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bestiolina	bestiolina	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	verde	verde	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	irritata	irritare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	rifiuto	rifiuto	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	suggere	suggere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	umore	umore	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	vitale	vitale	ADJ	A	Number=Sing	15	amod	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	radice	radice	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Mi sentivo indebolire, ma non sapevo il perchè;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	indebolire	indebolire	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	perchè	perchè	NOUN	S	Gender=Masc	7	obj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = e tra il sole che mi ardeva, tra l'avidità della mia falsa amica, mi andavo lentamente struggendo.
+1	e	e	CCONJ	CC	_	19	cc	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sole	sole	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	ardeva	ardere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	tra	tra	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	avidità	avidità	NOUN	S	Gender=Fem	7	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	16	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	falsa	falso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	amica	amico	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+20	lentamente	lentamente	ADV	B	_	19	advmod	_	_
+21	struggendo	struggere	VERB	V	VerbForm=Ger	19	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 4
+# text = La bella signora che aveva riposto in ceppi il Tulipano, vedendomi in quello stato disse:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	bella	bello	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	riposto	riporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	ceppi	ceppo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Tulipano	Tulipano	PROPN	SP	_	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12-13	vedendomi	_	_	_	_	_	_	_	_
+12	vedendo	vedere	VERB	V	VerbForm=Ger	17	advcl	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	expl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	obl	_	_
+16	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+17	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	17	punct	_	SpacesAfter=\n
+

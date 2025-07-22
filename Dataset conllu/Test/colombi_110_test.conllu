@@ -1,0 +1,136 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Ma tutti i sogni d'amore tempestoso che avevo vagheggiati quando ero in collegio, non si realizzarono mai.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	5	cc	_	_
+3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	tempestoso	tempestoso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+10	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	vagheggiati	vagheggiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+12	quando	quando	SCONJ	CS	_	19	mark	_	_
+13	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	19	aux	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	collegio	collegio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	realizzarono	realizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	_
+20	mai	mai	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Non mi accadde mai di vedere Welfard irrompere in casa mia improvvisamente.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	accadde	accaddere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mai	mai	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	vedere	vedere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	Welfard	Welfard	PROPN	SP	_	6	obj	_	_
+8	irrompere	irrompere	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+12	improvvisamente	improvvisamente	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Mai non mi propose di uscire una sera con me, quando il babbo mi accompagnava a passeggio.
+1	Mai	mai	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	propose	proporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	uscire	uscire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	quando	quando	SCONJ	CS	_	16	mark	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+16	accompagnava	accompagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	passeggio	passeggio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Mai non interruppe una lezione in un impeto d'affetto per stringermi al suo cuore.
+1	Mai	mai	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	interruppe	interrompere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	stringermi	stringermo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Veniva ogni giorno alla stessa ora; mai un minuto prima.
+1	Veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	ora	ora	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	11	punct	_	_
+9	mai	mai	ADV	B	_	11	advmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+12	prima	prima	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Partiva ogni giorno alla stess'ora; mai un minuto dopo.
+1	Partiva	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	stess'	stess'	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+7	ora	ora	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	11	punct	_	_
+9	mai	mai	ADV	B	_	11	advmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+12	dopo	dopo	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Mai una parola appassionata;
+1	Mai	mai	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	parola	parola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	appassionata	appassionato	ADJ	A	_	3	amod	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = mai un impeto di gelosia.
+1	mai	mai	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	impeto	impeto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	gelosia	gelosia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

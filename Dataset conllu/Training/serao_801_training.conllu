@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sarebbe partita da Napoli per Roma alle due e cinquantacinque, col treno più celere, tutta sola nel suo compartimento;
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	Napoli	Napoli	PROPN	SP	_	2	obl	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	Roma	Roma	PROPN	SP	_	2	obl	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	due	due	NUM	N	NumType=Card	2	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	cinquantacinque	cinquantacinque	NUM	N	NumType=Card	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13-14	col	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	treno	treno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	celere	celere	VERB	V	VerbForm=Inf	15	acl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	20	det	_	_
+20	sola	solo	ADJ	A	Gender=Fem|Number=Sing	2	advcl	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	compartimento	compartimento	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = sarebbe giunta a Roma alle otte e trentacinque della sera;
+1	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	giunta	giungere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Roma	Roma	PROPN	SP	_	2	obl	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	otte	otta	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	trentacinque	trentacinque	NUM	N	_	7	conj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sera	sera	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = alla stazione avrebbe ritrovato Ferrante e dopo un'ora e mezzo, in cui non sarebbero neppure entrati in Roma, sarebbero ripartiti, via Firenze e Bologna, per Venezia, insieme.
+1-2	alla	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ritrovato	ritrovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	Ferrante	Ferrante	PROPN	SP	_	5	nsubj	_	_
+7	e	e	CCONJ	CC	_	24	cc	_	_
+8	dopo	dopo	ADP	E	_	10	case	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	ora	ora	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	neppure	neppure	ADV	BN	PronType=Neg	19	advmod	_	_
+19	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Roma	Roma	PROPN	SP	_	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	10	punct	_	_
+23	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	ripartiti	ripartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+26	via	via	ADP	E	_	27	case	_	_
+27	Firenze	Firenze	PROPN	SP	_	5	obl	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	Bologna	Bologna	PROPN	SP	_	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	5	punct	_	_
+31	per	per	ADP	E	_	32	case	_	_
+32	Venezia	Venezia	PROPN	SP	_	5	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	insieme	insieme	ADV	B	_	5	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

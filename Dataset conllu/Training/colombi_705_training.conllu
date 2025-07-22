@@ -1,0 +1,134 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il pellagroso rivolse a lui la faccia grondante di quel luridume, coi denti stretti, ed i pugni serrati e tremanti in atto minaccioso.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pellagroso	pellagroso	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	rivolse	rivolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+8	grondante	grondante	ADJ	A	Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	luridume	luridume	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13-14	coi	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	denti	dente	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+16	stretti	stretto	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	ed	e	CCONJ	CC	_	20	cc	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+21	serrati	serrato	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	tremanti	tremante	ADJ	A	Number=Plur	21	conj	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	atto	atto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+26	minaccioso	minaccioso	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il guattero continuò a ridere, ed a contraffarlo;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	guattero	guattero	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	continuò	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	ridere	ridere	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ed	e	CCONJ	CC	_	9	cc	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	contraffarlo	contraffarlo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = e Pietro più rabbiosamente gli scoteva contro i pugni irrigiditi, e si faceva più rosso negli occhi e più livido nel viso.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	Pietro	Pietro	PROPN	SP	_	6	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	rabbiosamente	rabbiosamente	ADV	B	_	6	advmod	_	_
+5	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	scoteva	scotere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	contro	contro	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	irrigiditi	irrigidito	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	14	xcomp	_	_
+17-18	negli	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	livido	livido	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	viso	viso	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Poi cominciò a ridere, a ridere forte con un suono opprimente di rantolo;
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	ridere	ridere	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	ridere	ridere	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	forte	forte	ADJ	A	Number=Sing	7	xcomp	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	suono	suono	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	opprimente	opprimente	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	rantolo	rantolo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = e ad un tratto, coi pugni alti e senza cessar di ridere, parve che si spingesse innanzi come se si avventasse contro il guattero, e piombò dal carro.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	ad	a	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6-7	coi	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	alti	alto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	senza	senza	ADP	E	_	12	mark	_	_
+12	cessar	cessare	VERB	V	VerbForm=Inf	8	conj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	ridere	ridere	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	che	che	SCONJ	CS	_	19	mark	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	spingesse	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+20	innanzi	innanzi	ADV	B	_	19	advmod	_	_
+21	come	come	SCONJ	CS	_	30	mark	_	_
+22	se	se	SCONJ	CS	_	24	mark	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	avventasse	avventarre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	advcl	_	_
+25	contro	contro	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	guattero	guattero	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	piombò	piombare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	_
+31-32	dal	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	carro	carro	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

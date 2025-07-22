@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La signora Icchese, con una figura affatto differente, alta, bionda, fresca come un fiore, aveva gli stessi modi schietti e signorili, era altrettanto attraente, e più bella.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+3	Icchese	Icchese	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	figura	figura	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+8	affatto	affatto	ADV	B	_	9	advmod	_	_
+9	differente	differente	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	alta	alto	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	bionda	biondo	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	fresca	fruscire	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fiore	fiore	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	7	punct	_	_
+20	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	modi	modo	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+24	schietti	schietto	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	signorili	signorile	ADJ	A	Number=Plur	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
+29	altrettanto	altrettanto	ADV	B	_	30	advmod	_	_
+30	attraente	attraente	ADJ	A	Number=Sing	20	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	bella	bello	ADJ	A	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 2
+# text = S'erano scontrate parecchie volte in visita nelle stesse case, avevano scambiato qualche parola, e, senza conoscersi altrimenti che di nome, si erano trovate simpatiche a vicenda.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+2	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	scontrate	scontrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	parecchie	parecchio	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	visita	visita	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	case	casa	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	scambiato	scambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+15	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	parola	parola	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	senza	senza	ADP	E	_	21	mark	_	_
+21	conoscersi	conoscerso	VERB	V	VerbForm=Inf	3	conj	_	_
+22	altrimenti	altrimenti	ADV	B	_	21	advmod	_	_
+23	che	che	SCONJ	CS	_	29	mark	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	nome	nome	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+28	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	trovate	trovare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	_
+30	simpatiche	simpatica	ADV	B	_	32	advmod	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

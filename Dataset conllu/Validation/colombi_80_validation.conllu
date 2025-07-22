@@ -1,0 +1,143 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Non è vero che Fulvia sia promessa ad un altro.
+1	--Non	--Non	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	Fulvia	Fulvia	PROPN	SP	_	7	nsubj	_	_
+6	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	promessa	promettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	ad	a	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = È uno stratagemma per farmi svelare le mie intenzioni, ed indurmi possibilmente a sposarla;
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	stratagemma	stratagemma	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	svelare	svelare	VERB	V	VerbForm=Inf	3	csubj	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	indurmi	indurmo	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+13	possibilmente	possibilmente	ADV	B	_	12	advmod	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15-16	sposarla	_	_	_	_	_	_	_	SpaceAfter=No
+15	sposar	sposare	VERB	V	VerbForm=Inf	12	acl	_	_
+16	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = non è che una commedia, ed anche, d'una volgarità...
+1	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	che	che	SCONJ	CS	_	5	advmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	commedia	commedia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	12	punct	_	_
+7	ed	e	CCONJ	CC	_	12	cc	_	_
+8	anche	anche	ADV	B	_	12	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	d'	da	ADP	E	_	12	case	_	SpaceAfter=No
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	volgarità..	volgarità..	NOUN	S	_	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Non avrei che ad offrirmi di soppiantare il mio rivale, e tosto ella lo lascierebbe dileguarsi come un vile.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avrei	avre	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5-6	offrirmi	_	_	_	_	_	_	_	_
+5	offrir	offrire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	soppiantare	soppiantare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	rivale	rivale	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	tosto	tondere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+15	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	lascierebbe	lasciare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+18-19	dileguarsi	_	_	_	_	_	_	_	_
+18	dileguar	dileguare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	vile	vile	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = --Tuttavia quest'idea,--che trattandosi d'un altra donna, in pari circostanze, sarebbe già stata una certezza per me,--era ancora un po' dubbia dinanzi alla schiettezza di Fulvia.
+1	--Tuttavia	--Tuttavia	ADV	B	_	26	advmod	_	_
+2	quest'	questo	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+7	che	che	SCONJ	CS	_	23	mark	_	_
+8-9	trattandosi	_	_	_	_	_	_	_	_
+8	trattando	trattare	VERB	V	VerbForm=Ger	23	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	altra	altro	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	pari	pari	ADJ	A	_	17	amod	_	_
+17	circostanze	circostanza	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+20	già	già	ADV	B	_	23	advmod	_	_
+21	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	cop	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	me,	me,	X	X	_	23	nmod	_	SpaceAfter=No
+26	--era	--erare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+27	ancora	ancora	ADV	B	_	29	advmod	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	po'	poco	ADV	B	_	26	advmod	_	_
+30	dubbia	dubbia	ADV	B	_	29	advmod	_	_
+31	dinanzi	dinanzi	ADP	E	_	34	case	_	_
+32-33	alla	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	31	fixed	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	schiettezza	schiettezza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	Fulvia	Fulvia	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 6
+# text = Volli accertarmene, e le dissi col mio accento più passionato:
+1	Volli	Volli	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	2	obj	_	_
+2-4	accertarmene	_	_	_	_	_	_	_	SpaceAfter=No
+2	accertar	accertare	VERB	V	VerbForm=Inf	0	root	_	_
+3	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	dissi	dissi	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+9-10	col	_	_	_	_	_	_	_	_
+9	con	con	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	accento	accento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	passionato	passionato	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Avete voi solamente un concetto dei diritti dell'uomo, del suo posto di fronte all'esistenza?
+1	--Avete	--Avere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	1	obj	_	_
+3	solamente	solo	ADV	B	_	1	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	posto	posto	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	fronte	fronte	NOUN	S	Number=Sing	16	nmod	_	_
+19-20	all'	_	_	_	_	_	_	_	SpaceAfter=No
+19	a	a	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sapete di quali lotte, di quali combattimenti noi abbiamo bisogno?
+1	Sapete	sapete	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	quali	quale	DET	DQ	Number=Plur|PronType=Int	4	det	_	_
+4	lotte	lotta	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	quali	quale	DET	DQ	Number=Plur|PronType=Int	8	det	_	_
+8	combattimenti	combattimente	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+11	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sapete che ardente focolare d'amore sia il nostro cuore?
+1	Sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	ardente	ardente	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	1	ccomp	_	_
+4	focolare	focolare	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	sia	sia	CCONJ	CC	_	10	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ...
+1	...	.	PUNCT	FF	_	0	root	_	_
+
+# sent_id = 5
+# text = Oh! non interrompetemi.
+1	Oh	oh	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4-5	interrompetemi	_	_	_	_	_	_	_	SpaceAfter=No
+4	interrompete	interrompere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Non mi parlate dei vostri amori di femminuccia fatti di lagrime e di rinuncie.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	parlate	parlare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	amori	amore	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	femminuccia	femminuccia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	rinuncie	rinuncia	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

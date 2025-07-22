@@ -1,0 +1,140 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quella memoria sarebbe sempre fra noi per farci vergognare l'uno dell'altra.
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	sempre	sempre	ADV	B	_	6	advmod	_	_
+5	fra	fra	ADP	E	_	6	case	_	_
+6	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	0	root	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8-9	farci	_	_	_	_	_	_	_	_
+8	far	fare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	iobj	_	_
+10	vergognare	vergognare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Non voglio che mi cerchiate, non voglio che mi vediate più.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	cerchiate	cerchiare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	expl	_	_
+11	vediate	vediare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	ccomp	_	_
+12	più	più	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Lo ripeto:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	ripeto	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ho la viltà di amarvi;
+1	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	viltà	viltà	NOUN	S	Gender=Fem	1	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	amarvi	_	_	_	_	_	_	_	SpaceAfter=No
+5	amar	amare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	expl	_	_
+7	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = avrei quella di perdonarvi tutto.
+1	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	perdonarvi	_	_	_	_	_	_	_	_
+4	perdonar	perdonare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = È per questo che ho fatto preparare nei giorni della vostra lontananza uno stromento di tatuaggio come ne vidi nell'India; e vi ho fatto dormire con un po' d'oppio nel vino.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	preparare	preparare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	lontananza	lontananza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	stromento	stromento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	tatuaggio	tatuaggio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	come	come	ADP	E	_	21	mark	_	_
+20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	_
+21	vidi	videre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+22-23	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	in	in	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	India	India	PROPN	SP	_	21	obl	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	29	punct	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	29	iobj	_	_
+28	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+30	dormire	dormire	VERB	V	VerbForm=Inf	29	ccomp	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	po'	poco	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34	d'	di	ADP	E	_	35	case	_	SpaceAfter=No
+35	oppio	oppio	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36-37	nel	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	vino	vino	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Ho voluto porvi sulla mano un'immagine tale che v'impedisca di stenderla mai più in cerca di me.»
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	porvi	porvo	ADV	B	_	2	advmod	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+9	tale	tale	ADJ	A	Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	v'	ve	ADV	B	_	12	advmod	_	SpaceAfter=No
+12	impedisca	impedire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	stenderla	_	_	_	_	_	_	_	_
+14	stender	stendere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	mai	mai	ADV	B	_	17	advmod	_	_
+17	più	più	ADV	B	_	14	advmod	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	cerca	cerca	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	me.	me.	NOUN	S	Gender=Masc	19	nmod	_	SpaceAfter=No
+22	»	»	PUNCT	FB	_	2	punct	_	SpacesAfter=\n
+

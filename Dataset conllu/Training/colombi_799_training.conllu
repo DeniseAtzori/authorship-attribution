@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In tutto questo c'è la bellezza della semplicità, della natura.
+1	In	in	ADP	E	_	3	case	_	_
+2	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	semplicità	semplicità	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	natura	natura	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = I contadini godono il meglio della creazione:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	godono	godere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	meglio	meglio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	creazione	creazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = vivono una vita primitiva, che è la vera vita, naturale, senza artifizi, e crescono più forti di noi, ed hanno meno impegni e meno crucci; e non hanno il cuore avvelenato dai nostri dubbi e dal nostro scetticismo, e conservano gli affetti vergini e forti.
+1	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	primitiva	primitivo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	vera	vero	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	naturale	naturale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	senza	senza	ADP	E	_	15	case	_	_
+15	artifizi	artifizio	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	crescono	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	forti	forte	ADJ	A	Number=Plur	18	xcomp	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	ed	e	CCONJ	CC	_	25	cc	_	_
+25	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+26	meno	meno	ADV	B	_	27	advmod	_	_
+27	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	meno	meno	ADV	B	_	30	advmod	_	_
+30	crucci	cruccio	ADJ	A	Number=Plur	27	conj	_	SpaceAfter=No
+31	;	;	PUNCT	FC	_	34	punct	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+34	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	avvelenato	avvelenato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
+38-39	dai	_	_	_	_	_	_	_	_
+38	da	da	ADP	E	_	41	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+40	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	37	obl:agent	_	_
+42	e	e	CCONJ	CC	_	46	cc	_	_
+43-44	dal	_	_	_	_	_	_	_	_
+43	da	da	ADP	E	_	46	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	46	det:poss	_	_
+46	scetticismo	scetticismo	NOUN	S	Gender=Masc|Number=Sing	41	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	49	punct	_	_
+48	e	e	CCONJ	CC	_	49	cc	_	_
+49	conservano	conservare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+50	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+51	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	49	obj	_	_
+52	vergini	vergino	ADJ	A	Number=Plur	51	amod	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	forti	forte	ADJ	A	Number=Plur	52	conj	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Oh, la pace serena delle campagne!....
+1	Oh	oh	INTJ	I	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pace	pace	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+5	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	campagne	campagna	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	!....	!....	PUNCT	FF	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il signor Cantinelli stette un momento esitante tra il parlare ancora e l'andarsene.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	signor	signore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Cantinelli	Cantinelli	PROPN	SP	_	2	nmod	_	_
+4	stette	stere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	esitante	esitante	ADJ	A	Number=Sing	6	amod	_	_
+8	tra	tra	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	parlare	parlare	VERB	V	VerbForm=Inf	7	obl	_	_
+11	ancora	ancora	ADV	B	_	10	advmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14-16	andarsene	_	_	_	_	_	_	_	SpaceAfter=No
+14	andar	andar	VERB	V	VerbForm=Inf	10	conj	_	_
+15	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Aveva detto quanto doveva dire; la nuova ufficiale del suo secondo matrimonio.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	quanto	quanto	SCONJ	CS	_	5	mark	_	_
+4	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	ufficiale	ufficiale	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	14	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma quel silenzio, quella freddezza delle sue figliole, lo lasciavano scontento.
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	freddezza	freddezza	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	figliole	figliola	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	lasciavano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	scontento	scontento	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Era buono;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	buono	buono	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = avrebbe voluto vedere tutti soddisfatti.
+1	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	obj	_	_
+5	soddisfatti	soddisfatto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = E d'altra parte, non poteva nè voleva rinunciare alle seconde nozze.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+3	altra	altro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+8	nè	né	CCONJ	CC	_	10	cc	_	_
+9	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	rinunciare	rinunciare	VERB	V	VerbForm=Inf	0	root	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	seconde	secondo	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+14	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Cercò di strappare una parola d'approvazione alle ragazze dicendo:
+1	Cercò	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	strappare	strappare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parola	parola	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	approvazione	approvazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	dicendo	dire	VERB	V	VerbForm=Ger	1	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — E se sapesse come l'amavo, e che vita miserabile ho fatta in questo tempo.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	E	e	CCONJ	CC	_	4	cc	_	_
+3	se	se	SCONJ	CS	_	4	mark	_	_
+4	sapesse	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	amavo	amavo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	e	e	CCONJ	CC	_	14	cc	_	_
+10	che	che	SCONJ	CS	_	14	mark	_	_
+11	vita	vita	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	miserabile	miserabile	ADJ	A	Number=Sing	11	amod	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = L'aspettavo sempre, mi pareva di vederlo entrare, gettarmisi in ginocchio davanti;
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aspettavo	aspettavo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	sempre	sempre	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	vederlo	_	_	_	_	_	_	_	_
+8	veder	vedere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	entrare	entrare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	gettarmisi	gettarmisi	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	ginocchio	ginocchio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	davanti	davanti	ADV	B	_	6	conj	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = e di stendergli le braccia, e di piangere insieme.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	stendergli	_	_	_	_	_	_	_	_
+3	stender	stendere	VERB	V	VerbForm=Inf	0	root	_	_
+4	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	piangere	piangere	VERB	V	VerbForm=Inf	3	conj	_	_
+11	insieme	insieme	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Era il colpo di scena che aspettavo.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	scena	scena	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	aspettavo	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non ero che una commediante;
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	che	che	SCONJ	CS	_	5	advmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	commediante	commediante	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = che Dio disperda tutti i teatri del mondo!
+1	che	che	SCONJ	CS	_	3	mark	_	_
+2	Dio	Dio	PROPN	SP	_	3	nsubj	_	_
+3	disperda	disperdare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	teatri	teatro	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

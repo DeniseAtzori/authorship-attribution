@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le gronde ai tetti, foggiate in forma di draghi che vuotavano a torrentelli nella strada le pioggie raccolte, erano scomparse solamente in seguito al divieto formale del municipio, non senza aver tentato qualche resistenza.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	gronde	gronda	NOUN	S	Gender=Fem|Number=Plur	24	nsubj:pass	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	tetti	tetto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	foggiate	foggiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	forma	forma	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	draghi	drago	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	vuotavano	vuotare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	torrentelli	torrentello	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	strada	strada	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	pioggie	pioggia	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+21	raccolte	raccogliere	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux:pass	_	_
+24	scomparse	scomparire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+25	solamente	solo	ADV	B	_	24	advmod	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31	formale	formale	ADJ	A	Number=Sing	30	amod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	municipio	municipio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	24	punct	_	_
+36	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+37	senza	senza	ADP	E	_	39	mark	_	_
+38	aver	avere	AUX	VA	VerbForm=Inf	39	aux	_	_
+39	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+40	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	41	det	_	_
+41	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 2
+# text = Sembrava che tutta la casa, tutto ciò che vi apparteneva, fosse tenuto insieme da un legame invisibile ma tenace che non voleva cedere alla invasione dei tempi nuovi.
+1	Sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	14	mark	_	_
+3	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	apparteneva	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:pass	_	_
+14	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+15	insieme	insieme	ADV	B	_	14	advmod	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	legame	legame	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	invisibile	invisibile	ADJ	A	Number=Sing	18	amod	_	_
+20	ma	ma	CCONJ	CC	_	21	cc	_	_
+21	tenace	tenace	ADJ	A	Number=Sing	19	conj	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+25	cedere	cedere	VERB	V	VerbForm=Inf	18	acl:relcl	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	invasione	invasione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+32	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

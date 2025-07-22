@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Si trattenne a lungo.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	trattenne	trattenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Passò tutta la sera con me.
+1	Passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	4	det:predet	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sera	sera	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Si parlava sempre del passato.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	passato	passato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E v'erano momenti in cui la sua bella voce mesta mi commoveva.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	v'	ve	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	bella	bello	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	voce	voce	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	mesta	mesto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	commoveva	commovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ed allora riprendevo a parlare di Max, ed esageravo il mio amore per lui con espressioni da romanzo.
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	allora	allora	ADV	B	_	3	advmod	_	_
+3	riprendevo	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	parlare	parlare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Max	Max	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	esageravo	esagerare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	espressioni	espressione	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ero così indisposta contro di me, mi giudicavo così severamente, che quell'emozione involontaria alla voce di Giorgio mi sembrava una colpa.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	indisposta	indisposto	ADJ	A	Gender=Fem|Number=Sing	9	advcl	_	_
+4	contro	contro	ADP	E	_	6	case	_	_
+5	di	di	ADP	E	_	4	fixed	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	expl	_	_
+9	giudicavo	giudicare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	così	così	ADV	B	_	9	advmod	_	_
+11	severamente	severo	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	che	che	SCONJ	CS	_	23	mark	_	_
+14	quell'	quello	DET	DD	Number=Sing|PronType=Dem	15	det	_	SpaceAfter=No
+15	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+16	involontaria	involontario	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	voce	voce	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Giorgio	Giorgio	PROPN	SP	_	19	nmod	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+23	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	23	xcomp	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

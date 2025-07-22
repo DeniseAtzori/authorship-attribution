@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Aveva cominciato a ricevere queste lettere, un bel giorno:
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	ricevere	ricevere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	bel	bello	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = venivano dalla posta: una, due per settimana:
+1	venivano	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	posta	posta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	una	uno	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	due	due	NUM	N	NumType=Card	4	nummod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = talvolta, quindici giorni senza venirne: talvolta, due di seguito, un giorno dietro l'altro.
+1	talvolta	talvolta	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quindici	quindici	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	senza	senza	ADP	E	_	6	mark	_	_
+6-7	venirne	_	_	_	_	_	_	_	SpaceAfter=No
+6	venir	venire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+8	:	:	PUNCT	FC	_	4	punct	_	_
+9	talvolta	talvolta	ADV	B	_	4	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	due	due	NUM	N	NumType=Card	4	nummod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+17	dietro	dietro	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La donna si manteneva in incognito, nè faceva nulla per esser conosciuta:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	manteneva	mantenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	incognito	incognito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	nè	né	CCONJ	CC	_	9	cc	_	_
+9	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+10	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	_
+11	per	per	ADP	E	_	13	mark	_	_
+12	esser	essere	AUX	VA	VerbForm=Inf	13	aux	_	_
+13	conosciuta	conoscere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = ma si comprendeva che fosse giovane e bella e che non fosse libera.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	comprendeva	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	giovane	giovane	ADJ	A	Number=Sing	3	ccomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	bella	bello	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	libera	libero	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

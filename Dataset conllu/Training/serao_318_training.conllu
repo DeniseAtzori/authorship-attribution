@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non una lagrima saliva agli occhi riarsi di quel figlio, non un singulto lacerava il petto di quel figlio.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lagrima	lagrima	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	saliva	salire	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	agli	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8-9	riarsi	_	_	_	_	_	_	_	_
+8	riar	riare	VERB	V	VerbForm=Inf	0	root	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	singulto	singulto	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	lacerava	laceravare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	petto	petto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Era stupefatto.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	stupefatto	stupefatto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Egli viveva, quasi pietrificato, in quella stanza, andando, venendo, porgendo le medicine, porgendo da bere, accomodando i cuscini, aiutandola a sollevarsi.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quasi	quasi	ADV	B	_	5	advmod	_	_
+5	pietrificato	pietrificato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	andando	andare	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	venendo	venire	VERB	V	VerbForm=Ger	11	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	porgendo	porgere	VERB	V	VerbForm=Ger	13	advcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	medicine	medicina	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	porgendo	porgire	VERB	V	VerbForm=Ger	15	advcl	_	_
+20	da	da	ADP	E	_	21	mark	_	_
+21	bere	bere	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	accomodando	accomodare	VERB	V	VerbForm=Ger	19	advcl	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	cuscini	cuscino	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	2	punct	_	_
+27	aiutandola	aiutandolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29-30	sollevarsi	_	_	_	_	_	_	_	SpaceAfter=No
+29	sollevar	sollevare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Viveva come un sonnambulo, con gli occhi spalancati e fissi, prestando tutte le cure più affettuose e più umili, lentamente ma carezzevolmente, meglio di una donna, senza parlare.
+1	Viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sonnambulo	sonnambulo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+9	spalancati	spalancato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	fissi	fisso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	prestando	prestare	VERB	V	VerbForm=Ger	1	advcl	_	_
+14	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	cure	cura	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	affettuose	affettuoso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	umili	umile	ADJ	A	Number=Plur	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23	lentamente	lentamente	ADV	B	_	1	advmod	_	_
+24	ma	ma	CCONJ	CC	_	25	cc	_	_
+25	carezzevolmente	carezzevolmente	ADV	B	_	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	1	punct	_	_
+27	meglio	meglio	ADV	B	_	30	advmod	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	donna	donna	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	1	punct	_	_
+32	senza	senza	ADP	E	_	33	mark	_	_
+33	parlare	parlare	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

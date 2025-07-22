@@ -1,0 +1,140 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che dirà, che dirà?
+1	Che	che	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	dirà	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	dirà	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = --si andava domandando, mentre girava intorno alla stazione, senza ritrovare l'ufficio telegrafico.
+1	--si	--so	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	domandando	domandare	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	mentre	mentre	SCONJ	CS	_	6	mark	_	_
+6	girava	girare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+7	intorno	intorno	ADV	B	_	10	case	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	senza	senza	ADP	E	_	13	mark	_	_
+13	ritrovare	ritrovare	VERB	V	VerbForm=Inf	6	advcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	telegrafico	telegrafico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Alla fine lo trovò.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = E allora non seppe dove indirizzare il telegramma;
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	allora	allora	ADV	B	_	4	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	seppe	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	dove	dove	ADV	B	_	6	advmod	_	_
+6	indirizzare	indirizzare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	telegramma	telegramma	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = non seppe che cosa dire, si sentiva così irritata e umiliata, con sè stessa, col caso, che lacerò i fogli, senza riescire.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	seppe	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	8	nsubj	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+9	così	così	ADV	B	_	10	advmod	_	_
+10	irritata	irritato	ADJ	A	Gender=Fem|Number=Sing	8	xcomp	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	umiliata	umiliato	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	sè	sè	PRON	PE	Person=3|PronType=Prs	8	obl	_	_
+16	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18-19	col	_	_	_	_	_	_	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	caso	caso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	lacerò	laciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	fogli	foglio	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	senza	senza	ADP	E	_	28	mark	_	_
+28	riescire	riescire	VERB	V	VerbForm=Inf	23	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Alla fine, mettendo l'indirizzo della stazione di Roma gli telegrafò, così confusamente, che le riesciva impossibile partire prima delle dieci e quarantacinque, senza aggiungere le ragioni di questo _impossibile_ e soggiunse, umilmente:
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	mettendo	mettere	VERB	V	VerbForm=Ger	14	advcl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Roma	Roma	PROPN	SP	_	10	nmod	_	_
+13	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	telegrafò	telegrafò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	così	così	ADV	B	_	17	advmod	_	_
+17	confusamente	confuso	ADV	B	_	14	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	riesciva	riescire	NOUN	S	Gender=Fem|Number=Sing	14	ccomp	_	_
+22	impossibile	impossibile	ADJ	A	Number=Sing	21	amod	_	_
+23	partire	partire	VERB	V	VerbForm=Inf	22	advcl	_	_
+24	prima	prima	ADV	B	_	27	case	_	_
+25-26	delle	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	24	fixed	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	dieci	dieci	NUM	N	NumType=Card	23	nummod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	quarantacinque	quarantacinque	NUM	N	NumType=Card	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	23	punct	_	_
+31	senza	senza	ADP	E	_	32	mark	_	_
+32	aggiungere	aggiungere	VERB	V	VerbForm=Inf	23	advcl	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	37	det	_	_
+37	_impossibile_	ExtraSubj=Yes|_impossibile_	ADJ	NO	NumType=Ord	34	amod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	soggiunse	soggiunso	ADJ	A	Number=Sing	37	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	37	punct	_	_
+41	umilmente	umilmente	ADV	B	_	37	advmod	_	SpaceAfter=No
+42	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 7
+# text = _perdonami_.
+1	_perdonami_	_perdonami-	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

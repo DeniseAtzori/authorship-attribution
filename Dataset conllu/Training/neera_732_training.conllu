@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il giorno seguente fu speso a visitare il paese, il bosco, i dintorni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	seguente	seguente	ADJ	A	Number=Sing	2	amod	_	_
+4	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	speso	spendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	visitare	visitare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bosco	bosco	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	dintorni	dintorni	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = La signora affrancandosi a poco a poco dai suoi scrupoli andava in cerca di argomenti nuovi per intrattenere l’ospite;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3-4	affrancandosi	_	_	_	_	_	_	_	_
+3	affrancando	affrancare	VERB	V	VerbForm=Ger	13	advcl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	a	a	ADP	E	_	12	case	_	_
+6	poco	poco	ADV	B	_	5	fixed	_	_
+7	a	a	ADP	E	_	5	fixed	_	_
+8	poco	poco	ADV	B	_	12	advmod	_	_
+9-10	dai	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	scrupoli	scrupolo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+13	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	cerca	cerca	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	argomenti	argomente	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	intrattenere	intrattenere	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	ospite	ospite	NOUN	S	Number=Sing	20	obj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 3
+# text = ma le frasi non erano mai molto lunghe ed avevano sempre da una parte e dall’altra quella ritenutezza di scandaglio che li teneva entrambi in uno stato specialissimo nel quale la commozione della scoperta si avanzava senza scosse, lentamente e morbidamente come un’onda.
+1	ma	ma	CCONJ	CC	_	8	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+6	mai	mai	ADV	B	_	8	advmod	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+11	sempre	sempre	ADV	B	_	10	advmod	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+16	da	da	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	14	conj	_	_
+19	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	ritenutezza	ritenutezza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	scandaglio	scandaglio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+25	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+26	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	25	obl	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	stato	stato	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+30	specialissimo	speciale	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	29	amod	_	_
+31-32	nel	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	quale	quale	PRON	PR	Number=Sing|PronType=Rel	40	obl	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	commozione	commozione	NOUN	S	Gender=Fem|Number=Sing	40	nsubj	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+39	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	40	expl	_	_
+40	avanzava	avanzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	_
+41	senza	senza	ADP	E	_	42	case	_	_
+42	scosse	scosso	NOUN	S	Gender=Fem|Number=Sing	40	obl	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	lentamente	lentamente	ADV	B	_	8	conj	_	_
+45	e	e	CCONJ	CC	_	49	cc	_	_
+46	morbidamente	morbidamente	ADV	B	_	49	advmod	_	_
+47	come	come	ADP	E	_	49	case	_	_
+48	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	SpaceAfter=No
+49	onda	onda	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

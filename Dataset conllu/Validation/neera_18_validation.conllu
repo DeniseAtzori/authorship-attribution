@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Ebbene no, no, no!
+1	--Ebbene	--Ebbene	CCONJ	CC	_	2	cc	_	_
+2	no	no	ADV	BN	PronType=Neg	4	conj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	no	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	no	no	ADV	BN	PronType=Neg	4	conj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Comprendo, badate, comprendo benissimo che la devozione, la bontà, la tolleranza possano essere il maggior risultato nei rapporti tra servitori e padroni;
+1	Comprendo	comprendo	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	badate	badato	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	comprendo	comprendere	VERB	V	VerbForm=Ger	1	advcl	_	_
+6	benissimo	bene	ADV	B	Degree=Abs	5	advmod	_	_
+7	che	che	SCONJ	CS	_	20	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	devozione	devozione	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	bontà	bontà	NOUN	S	Gender=Fem	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tolleranza	tolleranza	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+16	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+17	essere	essere	AUX	V	VerbForm=Inf	20	cop	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	20	amod	_	_
+20	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	_
+21-22	nei	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	tra	tra	ADP	E	_	25	case	_	_
+25	servitori	servitore	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	padroni	padrone	NOUN	S	Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = che ad ogni modo questi ultimi debbano apprezzarli assai, ma io chiedo ben altro al sentimento che riunisce due esseri eguali, senza scopo di lucro nè di interesse.
+1	che	che	SCONJ	CS	_	8	mark	_	_
+2	ad	a	ADP	E	_	4	case	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	modo	modo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+7	debbano	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8-9	apprezzarli	_	_	_	_	_	_	_	_
+8	apprezzar	apprezzarre	VERB	V	VerbForm=Inf	0	root	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	assai	assai	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	ben	bene	ADV	B	_	16	advmod	_	_
+16	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	riunisce	riunire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	due	due	NUM	N	NumType=Card	23	nummod	_	_
+23	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+24	eguali	eguale	ADJ	A	Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	8	punct	_	_
+26	senza	senza	ADP	E	_	27	case	_	_
+27	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	lucro	lucro	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	nè	né	CCONJ	CC	_	32	cc	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

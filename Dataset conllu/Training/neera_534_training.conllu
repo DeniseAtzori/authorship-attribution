@@ -1,0 +1,153 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — La mia gloria futura!
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	gloria	gloria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	futura	futuro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = — esclamò Flavio scuotendo il capo — essa, se mai verrà, si umilia fin d'ora a' suoi ginocchi.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	esclamò	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Flavio	Flavio	PROPN	SP	_	2	obj	_	_
+4	scuotendo	scuotere	VERB	V	VerbForm=Ger	2	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	capo	capo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	—	—	PUNCT	FF	_	8	punct	_	_
+8	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	se	se	SCONJ	CS	_	12	mark	_	_
+11	mai	mai	ADV	B	_	12	advmod	_	_
+12	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	umilia	umiliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	fin	perfino	ADV	B	_	15	advmod	_	_
+17	d'	da	ADP	E	_	18	case	_	SpaceAfter=No
+18	ora	ora	ADV	B	_	15	advmod	_	_
+19	a	a	ADP	E	_	22	case	_	SpaceAfter=No
+20	'	'	PUNCT	FB	_	22	punct	_	_
+21	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	ginocchi	ginocco	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mi ascolti, che non ho mai parlato tanto seriamente.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	ascolti	ascolgere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	mai	mai	ADV	B	_	8	advmod	_	_
+8	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+9	tanto	tanto	ADV	B	_	10	advmod	_	_
+10	seriamente	seriamente	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Le giuro che tutto ciò che sono, tutto ciò che potrò diventare è opera sua, è merito suo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	giuro	giuro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+4	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+12	potrò	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	13	aux	_	_
+13	diventare	diventare	VERB	V	VerbForm=Inf	10	acl:relcl	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	opera	opera	NOUN	S	Gender=Fem|Number=Sing	5	acl:relcl	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	merito	merito	NOUN	S	Gender=Masc|Number=Sing	2	acl:relcl	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Qualunque posto mi riserbi la fortuna, il mio posto preferito sarà sempre qui, come ora.
+1	Qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	posto	posto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	riserbi	riserbo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	posto	posto	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+11	preferito	preferito	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	cop	_	_
+13	sempre	sempre	ADV	B	_	14	advmod	_	_
+14	qui	qui	ADV	B	_	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	come	come	ADP	E	_	17	case	_	_
+17	ora	ora	ADV	B	_	14	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = Mi guardi, dove sono cambiato?
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	guardi	guardare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dove	dove	ADV	B	_	6	advmod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Nel volto?
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	volto	volto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Mi guardi bene, no.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	guardi	guardare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	no	no	ADV	BN	PronType=Neg	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Nel cuore?
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = No, no, no.
+1	No	no	INTJ	I	Polarity=Neg	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	no	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	no	no	ADV	BN	PronType=Neg	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Non lo vede che sono ancora il suo _poverino_?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	ancora	ancora	ADV	B	_	9	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	_poverino_	ExtraSubj=Yes|_poverino_	PUNCT	FB	_	3	ccomp	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

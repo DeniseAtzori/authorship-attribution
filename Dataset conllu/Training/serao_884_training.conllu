@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Tanto che--soggiunse Giorgio, preso dall'amarezza eccitante della sua narrazione--tanto che qualche cosa fu detta al marito;
+1	--Tanto	--Tanto	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	23	mark	_	SpaceAfter=No
+3	-	-	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	-soggiunse	-soggiungere	NOUN	S	Number=Sing	23	obl	_	_
+5	Giorgio	Giorgio	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+8-9	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	eccitante	eccitante	ADJ	A	Number=Sing	10	amod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+18	tanto	tanto	ADV	B	_	23	advmod	_	_
+19	che	che	SCONJ	CS	_	23	mark	_	_
+20	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	21	det	_	_
+21	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+22	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	marito	marito	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = e da un giorno all'altro egli decise di partire.
+1	e	e	CCONJ	CC	_	9	cc	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	_
+8	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	decise	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	partire	partire	VERB	V	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Oh quella notte!
+1	Oh	oh	INTJ	I	_	0	root	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Coi piedi nudi nelle pianelle, ravvolta in uno scialle, tremando di freddo e di paura, Anna ebbe il coraggio di lasciare la sua stanza, senza svegliare suo marito e di venire da me, disperata, soffocando i singhiozzi.
+1-2	Coi	_	_	_	_	_	_	_	_
+1	Con	con	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+4	nudi	nudo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	pianelle	pianella	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	ravvolta	ravvolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	_
+12	scialle	scialla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	tremando	tremare	VERB	V	VerbForm=Ger	12	advcl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	paura	paura	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	Anna	Anna	PROPN	SP	_	22	nsubj	_	_
+22	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	lasciare	lasciare	VERB	V	VerbForm=Inf	24	acl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	senza	senza	ADP	E	_	32	mark	_	_
+32	svegliare	svegliare	VERB	V	VerbForm=Inf	26	advcl	_	_
+33	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	marito	marito	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+35	e	e	CCONJ	CC	_	37	cc	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	venire	venire	VERB	V	VerbForm=Inf	32	conj	_	_
+38	da	da	ADP	E	_	39	case	_	_
+39	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	37	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	37	punct	_	_
+41	disperata	disperare	ADJ	A	Gender=Fem|Number=Sing	37	xcomp	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	22	punct	_	_
+43	soffocando	soffocare	VERB	V	VerbForm=Ger	22	advcl	_	_
+44	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	singhiozzi	singhiozzo	NOUN	S	Gender=Masc|Number=Plur	43	obj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+

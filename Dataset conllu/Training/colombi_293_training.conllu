@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ed il cavaliere scende ardimentoso tra le fiere inferocite, prende il guanto, risale fra il plauso e lo stupore della folla.
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cavaliere	cavaliere	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	scende	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ardimentoso	ardimentoso	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	_
+6	tra	tra	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	fiere	fiera	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	inferocite	inferocito	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	guanto	guanto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	risale	risalire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	fra	fra	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	plauso	plauso	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	stupore	stupore	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	folla	folla	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ma fattosi incontro alla nobile donzella che gli sorrideva, orgogliosa di quella impresa compiuta per amor suo, invece d'inginocchiarsi a' suoi piedi implorando il premio del suo coraggio, le getta sdegnosamente in faccia il piccolo guanto ricamato, e le dice:
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	fattosi	fattoso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	incontro	incontro	ADV	B	_	2	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nobile	nobile	ADJ	A	Number=Sing	7	amod	_	_
+7	donzella	donzella	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+10	sorrideva	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	orgogliosa	orgoglioso	PRON	PI	Number=Sing|PronType=Ind	2	nsubj:pass	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	compiuta	compiere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	amor	amore	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	invece	invece	ADV	B	_	23	mark	_	_
+22	d'	di	ADP	E	_	21	fixed	_	SpaceAfter=No
+23-24	inginocchiarsi	_	_	_	_	_	_	_	_
+23	inginocchiar	inginocchiare	VERB	V	VerbForm=Inf	2	advcl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	a	a	ADP	E	_	28	case	_	SpaceAfter=No
+26	'	'	PUNCT	FB	_	28	punct	_	_
+27	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+29	implorando	implorare	VERB	V	VerbForm=Ger	23	advcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	premio	premio	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	2	punct	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	getta	getta	NOUN	S	Gender=Fem|Number=Sing	49	nsubj	_	_
+39	sdegnosamente	sdegnosamente	ADV	B	_	49	advmod	_	_
+40	in	in	ADP	E	_	41	case	_	_
+41	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	44	fixed	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+43	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	_
+44	guanto	guanto	NOUN	S	Gender=Masc|Number=Sing	49	obl	_	_
+45	ricamato	ricamato	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	49	punct	_	_
+47	e	e	CCONJ	CC	_	49	cc	_	_
+48	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	49	obj	_	_
+49	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+50	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

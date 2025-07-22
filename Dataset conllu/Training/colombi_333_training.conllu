@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Oh Dio, no!
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Oh	oh	INTJ	I	_	3	discourse	_	_
+3	Dio	dio	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	no	no	INTJ	I	Polarity=Neg	3	appos	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = «Prendendo moglie si fa giudizio».
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Prendendo	prendere	VERB	V	VerbForm=Ger	5	advcl	_	_
+3	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ma anche il sapere che ha trattato così da giovanotto, gli fa torto.
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sapere	sapera	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	trattato	trattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	così	così	ADV	B	_	7	advmod	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	giovanotto	giovanotto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+13	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	torto	torto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Pensi se gli toccasse un giorno o l'altro di imparentarsi con una sua amica, ed essere presentato a lei dinanzi alla moglie.
+1	Pensi	pensare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	toccasse	toccare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	conj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	imparentarsi	_	_	_	_	_	_	_	_
+11	imparentar	imparentare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	amica	amico	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	ed	e	CCONJ	CC	_	20	cc	_	_
+19	essere	essere	AUX	VA	VerbForm=Inf	20	aux:pass	_	_
+20	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+23	dinanzi	dinanzi	ADP	E	_	26	case	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Che figura ci farebbe lui.
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	figura	figura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+4	farebbe	fare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = E che scena!
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	scena	scenare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — La mia padrona di casa era una signorina.
+1	—	—	PUNCT	FF	_	9	punct	_	_
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	signorina	signorina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Si chiamava Clelia Moris, ed aveva ventiquattro anni.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	Clelia	Clelia	PROPN	SP	_	2	xcomp	_	_
+4	Moris	Moris	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+8	ventiquattro	ventiquattro	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Era una natura eletta, aristocratica, delicata, fatta per vivere in un ambiente di poesia;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	natura	natura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	eletta	eletto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	aristocratica	aristocratica	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	vivere	vivere	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = le cure materiali dell'esistenza la urtavano penosamente.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cure	cura	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+3	materiali	materiale	ADJ	A	Number=Plur	2	amod	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	urtavano	urtare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	penosamente	penosamente	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Quando le domandai il prezzo del mio nuovo alloggio, me lo disse rapidamente, senza guardarmi, a bassa voce, ed arrossì fin sulla fronte.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	3	iobj	_	_
+3	domandai	domandaio	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	10	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	rapidamente	rapidamente	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	senza	senza	ADP	E	_	18	mark	_	_
+18-19	guardarmi	_	_	_	_	_	_	_	SpaceAfter=No
+18	guardar	guardare	VERB	V	VerbForm=Inf	14	advcl	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	voce	voce	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	ed	e	CCONJ	CC	_	26	cc	_	_
+26	arrossì	arrossì	ADV	B	_	14	conj	_	_
+27	fin	fin	ADV	B	_	30	advmod	_	_
+28-29	sulla	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	fronte	fronte	NOUN	S	Number=Sing	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

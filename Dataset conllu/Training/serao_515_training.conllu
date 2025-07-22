@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In certe epoche un terremoto di feste scuote la casa:
+1	In	in	ADP	E	_	3	case	_	_
+2	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	epoche	epoca	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	terremoto	terremoto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	feste	festa	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	scuote	scuotere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = sarte, sarti, camerieri, balli, fiori, porte sbattute;
+1	sarte	sarte	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	sarti	sarto	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	camerieri	cameriere	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	balli	balle	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	porte	porta	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+12	sbattute	sbattuto	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = non si pranza più, non si dorme più:
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	pranza	pranzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	dorme	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	più	più	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = poi la signora si abbandona a un riposo assoluto, non vede nessuno, è nervosa, pare mezzo pazza.
+1	poi	poi	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	abbandona	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	nervosa	nervoso	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+19	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Il padre è fuor di casa tutto il giorno, talvolta tutta la notte.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fuor	fuorre	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+7	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	9	det:predet	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	talvolta	talvolta	ADV	B	_	14	advmod	_	_
+12	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	14	det:predet	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	notte	notte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

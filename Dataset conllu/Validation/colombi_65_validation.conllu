@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma il terrazzo non cadde, nè i miei buoni amici con esso.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	terrazzo	terrazzo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	cadde	caddo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	nè	né	CCONJ	CC	_	11	cc	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+9	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il tempo passava, ed io non pensava punto punto a spiccarmi di là.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	ed	e	CCONJ	CC	_	8	cc	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+9	punto	punto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+10	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12-13	spiccarmi	_	_	_	_	_	_	_	_
+12	spiccar	spiccarre	VERB	V	VerbForm=Inf	10	acl	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	là	là	ADV	B	_	12	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ivi era la felicità;
+1	Ivi	ivi	ADV	B	_	2	advmod	_	_
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	felicità	felicità	NOUN	S	Gender=Fem	2	nsubj	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = non avrei osato fare un movimento per timore di metterla in fuga.
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	osato	osare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	timore	timore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	metterla	_	_	_	_	_	_	_	_
+10	metter	mettere	VERB	V	VerbForm=Inf	8	acl	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Fulvia mi strinse la mano ancora una volta, poi sciolse il suo braccio dal mio, e rientrò nella camera;
+1	Fulvia	Fulvia	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	strinse	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	ancora	ancora	ADV	B	_	8	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	poi	poi	ADV	B	_	11	advmod	_	_
+11	sciolse	sciogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	rientrò	rientrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	camera	camera	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = i miei amici la seguirono.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amici	amico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	seguirono	seguirono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

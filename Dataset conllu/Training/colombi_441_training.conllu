@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Precisamente, affermò Odda.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Precisamente	precisamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	affermò	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Odda	Odda	PROPN	SP	_	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = L'amore ci dev'essere.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+4	dev'	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+5	essere	essere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = È la sola guarentigia di felicità che abbiano gli sposi.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sola	solo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	guarentigia	guarentigia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	felicità	felicità	NOUN	S	Gender=Fem	4	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	abbiano	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	sposi	sposo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Due persone che si uniscono senza amore, può darsi che si amino vivendo insieme;
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	uniscono	unire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10-11	darsi	_	_	_	_	_	_	_	_
+10	dar	dare	VERB	V	VerbForm=Inf	0	root	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:pass	_	_
+14	amino	amare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	vivendo	vivere	VERB	V	VerbForm=Ger	14	advcl	_	_
+16	insieme	insieme	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 5
+# text = ma può anche darsi che non si amino;
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4-5	darsi	_	_	_	_	_	_	_	_
+4	dar	dare	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	amino	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = e mi pare troppo ardito tentare la prova.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	troppo	troppo	ADV	B	_	5	advmod	_	_
+5	ardito	ardito	ADV	B	_	6	advmod	_	_
+6	tentare	tentare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	prova	prova	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Bisogna amarsi per sposarsi, e non sposarsi per amarsi.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	amarsi	_	_	_	_	_	_	_	_
+2	amar	amare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-6	sposarsi	_	_	_	_	_	_	_	SpaceAfter=No
+5	sposar	sposare	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10-11	sposarsi	_	_	_	_	_	_	_	_
+10	sposar	sposare	VERB	V	VerbForm=Inf	2	conj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	obj	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	amarsi	_	_	_	_	_	_	_	SpaceAfter=No
+13	amar	amare	VERB	V	VerbForm=Inf	10	advcl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

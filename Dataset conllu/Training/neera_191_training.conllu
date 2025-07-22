@@ -1,0 +1,141 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vi sentite soffocare, siete tentati di gridare:
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	sentite	sentire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	soffocare	soffocare	VERB	V	VerbForm=Inf	6	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	tentati	tentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	gridare	gridare	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = Al ladro!
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ladro	ladro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = No, non è permesso manomettere così la roba degli altri.
+1	No	no	INTJ	I	Polarity=Neg	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	manomettere	manomettere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	così	così	ADV	B	_	6	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	roba	roba	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Piangete, o bestemmiate, o gridate, o ve ne state muti e frementi per l’indignazione, o chiedete sul serio:
+1	Piangete	piangere	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	o	o	CCONJ	CC	_	4	cc	_	_
+4	bestemmiate	bestemmiare	ADJ	A	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	gridate	gridare	ADJ	A	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	o	o	CCONJ	CC	_	13	cc	_	_
+10	ve	vere	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	iobj	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+12	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	muti	muto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	frementi	fremente	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	indignazione	indignazione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	o	o	CCONJ	CC	_	21	cc	_	_
+21	chiedete	chiedere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	serio	serio	ADJ	A	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Perchè quel signore ha trattato tanto male il mio libro?
+1	Perchè	perché	ADV	B	_	5	advmod	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	signore	signore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	trattato	trattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	tanto	tanto	ADV	B	_	5	advmod	_	_
+7	male	male	ADV	B	_	6	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	libro	libro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = — e vi sentite rispondere placidamente:
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	vi	vi	ADV	B	_	4	advmod	_	_
+4	sentite	sentire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	rispondere	rispondere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	placidamente	placidamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = Male?
+1	Male	male	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Non mi pare.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ha detto che la lingua è discreta.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	discreta	discretare	ADJ	A	Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Capirà, con tutti i libri che ingombrano i tavolini di redazione il povero giornalista diventerebbe matto se dovesse leggerli.
+1	Capirà	Capiere	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	libri	libro	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	ingombrano	ingombrere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	tavolini	tavolino	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	redazione	redazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	povero	povero	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	giornalista	giornalista	NOUN	S	Number=Sing	16	nsubj	_	_
+16	diventerebbe	diventare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	matto	matto	ADV	B	_	16	advmod	_	_
+18	se	se	SCONJ	CS	_	20	mark	_	_
+19	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20-21	leggerli	_	_	_	_	_	_	_	SpaceAfter=No
+20	legger	leggere	VERB	V	VerbForm=Inf	16	advcl	_	_
+21	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

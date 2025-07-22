@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lunga, sottile, svelta...
+1	Lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	sottile	sottile	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	svelta...	svelta.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = se fossi a Milano, direi come la guglia del Duomo.
+1	se	se	SCONJ	CS	_	2	mark	_	_
+2	fossi	fuovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Milano	Milano	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	come	come	SCONJ	CS	_	13	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	guglia	guglia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Duomo	Duomo	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ma vi potrebbe esser qualcuno che non l'ha veduta.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	vi	vi	ADV	B	_	4	advmod	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	esser	essere	VERB	V	VerbForm=Inf	0	root	_	_
+5	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	veduta	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Mettiamo, svelta come un palo del telegrafo;
+1	Mettiamo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	svelta	svegliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	palo	palo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	telegrafo	telegrafo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = un po' di linea e di buon garbo ce l'aggiunga lei, signora lettrice, con quella parte d'immaginazione che il suo cattivo genio le ha data.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	po'	poco	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	linea	linea	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	buon	buono	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	garbo	garbo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+9	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+10	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+11	aggiunga	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	11	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	signora	signore	NOUN	S	Gender=Fem|Number=Sing	12	appos	_	_
+15	lettrice	lettrice	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+20	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	che	che	SCONJ	CS	_	29	mark	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+25	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	genio	genio	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+27	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	29	obj	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

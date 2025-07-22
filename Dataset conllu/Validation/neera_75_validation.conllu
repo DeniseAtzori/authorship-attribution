@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non rispose subito.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	subito	subito	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Io sentivo un bisogno ardente di attingere alla sua anima e nello stesso tempo una paura di turbarla, come se una mossa imprudente potesse distruggere il miraggio luminoso che la circondava.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	ardente	ardente	ADJ	A	Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	attingere	attingere	VERB	V	VerbForm=Inf	4	acl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	anima	anima	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13-14	nello	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	paura	paura	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	turbarla	turbarla	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	7	punct	_	_
+22	come	come	ADV	B	_	28	mark	_	_
+23	se	se	SCONJ	CS	_	22	fixed	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	mossa	mossa	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+26	imprudente	imprudente	ADJ	A	Number=Sing	25	amod	_	_
+27	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	distruggere	distruggere	VERB	V	VerbForm=Inf	7	advcl	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	miraggio	miraggio	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	luminoso	luminoso	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+32	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+33	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+34	circondava	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sentivo che quegli istanti erano unici e solenni, che cadevano di secondo in secondo nella eternità e che io li perdevo.
+1	Sentivo	sentivo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	istanti	istante	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	unici	unico	ADJ	A	Gender=Masc|Number=Plur	1	ccomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	solenni	solenne	ADJ	A	Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	cadevano	cadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	obl	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	eternità	eternità	NOUN	S	Gender=Fem	15	obl	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+21	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+23	perdevo	perdere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Non vedevo quasi più mio cugino.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedevo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	quasi	quasi	ADV	B	_	4	advmod	_	_
+4	più	più	ADV	B	_	2	advmod	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

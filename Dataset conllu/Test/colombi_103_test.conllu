@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Poi lo sentii voltarsi verso il piano, tentare qualche accordo incerto;
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Poi	poi	ADV	B	_	5	advmod	_	_
+3	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	sentii	sentio	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	voltarsi	_	_	_	_	_	_	_	_
+5	voltar	voltare	VERB	V	VerbForm=Inf	0	root	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	piano	piano	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	tentare	tentare	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	incerto	incerto	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = rimanere pensoso come in cerca d'un pezzo di cui il lungo abbandono gli avesse fatte dimenticare le note;
+1	rimanere	rimanere	VERB	V	VerbForm=Inf	0	root	_	_
+2	pensoso	pensodere	ADJ	A	Gender=Masc|Number=Sing	1	xcomp	_	_
+3	come	come	ADV	B	_	5	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cerca	cerca	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	abbandono	abbandire	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+15	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+17	dimenticare	dimenticare	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	note	nota	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = e finalmente cominciare con esitazione, e quindi procedere con sicurezza la grande aria del soprano nella _Sonnambula_, poi il duetto tra soprano e tenore nella _Lucia_, e chiudere quel piccolo concerto coll'aria del tenore ed il duetto d'amore della _Jone_.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	finalmente	finalmente	ADV	B	_	3	advmod	_	_
+3	cominciare	cominciare	VERB	V	VerbForm=Inf	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	esitazione	esitazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	quindi	quindi	ADV	B	_	9	advmod	_	_
+9	procedere	procedere	VERB	V	VerbForm=Inf	3	conj	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	grande	grande	ADJ	A	Number=Sing	14	amod	_	_
+14	aria	aria	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	soprano	soprano	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	_Sonnambula_	_sonnambula_	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	poi	poi	ADV	B	_	24	advmod	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	duetto	duetto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+25	tra	tra	ADP	E	_	26	case	_	_
+26	soprano	soprano	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	tenore	tenore	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	_
+29-30	nella	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	_Lucia_	_lucia_	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	chiudere	chiudere	VERB	V	VerbForm=Inf	3	conj	_	_
+35	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	37	det	_	_
+36	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+37	concerto	concerto	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+38	coll'	collo	DET	RI	Definite=Ind|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	aria	aria	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	tenore	tenore	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43	ed	e	CCONJ	CC	_	45	cc	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	duetto	duetto	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	_
+46	d'	di	ADP	E	_	47	case	_	SpaceAfter=No
+47	amore	amore	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+48-49	della	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	_Jone_	_jone_	PROPN	SP	_	45	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Tutta musica affatto contraria ai suoi gusti.
+1	Tutta	tutto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	musica	musica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	affatto	affatto	ADV	B	_	4	advmod	_	_
+4	contraria	contrario	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

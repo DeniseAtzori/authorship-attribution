@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'amore sgorgava da l'animo di quell'uomo così e sempre, che egli non si affidò che a questo, per avermi sua.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sgorgava	sgorgare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	animo	animo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	quell'	quello	DET	DD	Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	così	così	ADV	B	_	9	advmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	sempre	sempre	ADV	B	_	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	che	che	SCONJ	CS	_	18	mark	_	_
+15	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+18	affidò	affidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+19	che	che	SCONJ	CS	_	24	mark	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	avermi	avermo	NOUN	S	Gender=Masc|Number=Plur	18	ccomp	_	_
+25	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Chi ama, chi molto ama, chi ama bene, possiede il motto d'ordine della conquista:
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	chi	chi	PRON	PR	PronType=Rel	2	obj	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	chi	chi	PRON	PR	PronType=Rel	6	nsubj	_	_
+9	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	bene	bene	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	possiede	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	motto	motto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	conquista	conquista	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = è come colui che possiede la fede e che arriva alla grazia:
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	colui	colui	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	possiede	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fede	fede	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = è come il mistico che a furia di evocazione e di ardore, ottiene la visione del suo Dio.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mistico	mistico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	furia	furia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	evocazione	evocazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	ottiene	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	visione	visione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

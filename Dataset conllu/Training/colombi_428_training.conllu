@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Da via Pio Quinto andai in via Vanchiglia, poi in via Plana, poi in Dora Grossa, poi d'un balzo fino in Borgo Nuovo.
+1	Da	da	ADP	E	_	2	case	_	_
+2	via	via	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	Pio	Pio	PROPN	SP	_	5	obl	_	_
+4	Quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+5	andai	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	acl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	via	via	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	Vanchiglia	Vanchiglia	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	poi	poi	ADV	B	_	12	advmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	via	via	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+13	Plana	Plana	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	poi	poi	ADV	B	_	17	advmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Dora	Dora	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+18	Grossa	grosso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	poi	poi	ADV	B	_	23	advmod	_	_
+21	d'	di	ADP	E	_	23	case	_	SpaceAfter=No
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	balzo	balzo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+24	fino	fino	ADV	B	_	26	case	_	_
+25	in	in	ADP	E	_	24	fixed	_	_
+26	Borgo	Borgo	PROPN	SP	_	23	nmod	_	_
+27	Nuovo	nuovo	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ero perfettamente padrone di fare a mio modo.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	perfettamente	perfettamente	ADV	B	_	3	advmod	_	_
+3	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	modo	modo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Non avevo bisogno neppure di scriverlo alla mamma, perchè aveva cominciato a mandarmi la prima lettera ferma in posta aspettando il mio indirizzo, ed aveva poi continuato sempre cosí.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	neppure	neppure	ADV	BN	PronType=Neg	6	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	scriverlo	_	_	_	_	_	_	_	_
+6	scriver	scrivere	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	perchè	perché	SCONJ	CS	_	14	mark	_	_
+13	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	mandarmi	_	_	_	_	_	_	_	_
+16	mandar	mandare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+21	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	posta	posta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	aspettando	aspettare	VERB	V	VerbForm=Ger	21	advcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	32	punct	_	_
+29	ed	e	CCONJ	CC	_	32	cc	_	_
+30	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+31	poi	poi	ADV	B	_	32	advmod	_	_
+32	continuato	continuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+33	sempre	sempre	ADV	B	_	32	advmod	_	_
+34	cosí	cosí	PROPN	SP	_	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,124 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Forse, preferiva quelli che la burlavano apertamente, che la guardavano con aria ironica, che la squadravano fra loro, additandosela e soffocando le risate.
+1	Forse	forse	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	preferiva	preferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	burlavano	burlavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8	apertamente	aperto	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	guardavano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	aria	aria	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	ironica	ironica	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+19	squadravano	squadravare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+20	fra	fra	ADP	E	_	21	case	_	_
+21	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	additandosela	additandoselare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	soffocando	soffocare	VERB	V	VerbForm=Ger	23	conj	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	risate	risata	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Mai miss Geraldina si sarebbe maritata.
+1	Mai	mai	ADV	B	_	6	advmod	_	_
+2	miss	miss	PROPN	SW	Foreign=Yes	6	nsubj	_	_
+3	Geraldina	Geraldino	PROPN	SP	_	2	flat:name	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	maritata	maritare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = A farle la corte, non pensava nessuno.
+1	A	a	ADP	E	_	2	mark	_	_
+2-3	farle	_	_	_	_	_	_	_	_
+2	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	2	iobj	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	corte	corte	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+9	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = In verità era troppo enorme perchè si potesse concepirla maritata.
+1	In	in	ADP	E	_	2	case	_	_
+2	verità	verità	NOUN	S	Gender=Fem	5	obl	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	troppo	troppo	ADV	B	_	5	advmod	_	_
+5	enorme	enorme	ADJ	A	Number=Sing	0	root	_	_
+6	perchè	perché	SCONJ	CS	_	9	mark	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:pass	_	_
+8	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9-10	concepirla	_	_	_	_	_	_	_	_
+9	concepir	concepire	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	maritata	maritata	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = La cieca ispira una gentile pietà, la gobba ha lo spirito e la malignità per sè, la zoppa può dissimulare il suo difetto, tutto può essere nascosto o attenuato, ma l'esagerazione del grasso non si nasconde, non si attenua.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cieca	cieca	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	ispira	ispirare	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	gentile	gentile	ADJ	A	Number=Sing	6	amod	_	_
+6	pietà	pietà	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	gobba	gobba	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	malignità	malignità	NOUN	S	Gender=Fem	12	conj	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	sè	sè	PRON	PE	Person=3|PronType=Prs	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	zoppa	zoppa	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+21	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	dissimulare	dissimulare	VERB	V	VerbForm=Inf	10	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	difetto	difetto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	30	nsubj:pass	_	_
+28	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	essere	essere	AUX	VA	VerbForm=Inf	30	aux:pass	_	_
+30	nascosto	nascondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+31	o	o	CCONJ	CC	_	32	cc	_	_
+32	attenuato	attenuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	42	punct	_	_
+34	ma	ma	CCONJ	CC	_	42	cc	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	esagerazione	esagerazione	NOUN	S	Gender=Fem|Number=Sing	42	nsubj	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+41	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl:impers	_	_
+42	nasconde	nascondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	parataxis	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	42	punct	_	_
+44	non	non	ADV	BN	PronType=Neg	46	advmod	_	_
+45	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	46	expl:impers	_	_
+46	attenua	attenuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

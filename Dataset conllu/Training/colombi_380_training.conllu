@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Passai il resto della giornata accanto a lei.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Passai	passare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	resto	resto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	accanto	accanto	ADV	B	_	10	case	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ogni tanto tossiva, tossiva a lungo da rimanerne quasi soffocata.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+2	tanto	tanto	ADV	B	_	3	advmod	_	_
+3	tossiva	tossivo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tossiva	tossivo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	5	obl	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9-10	rimanerne	_	_	_	_	_	_	_	_
+9	rimaner	rimanere	VERB	V	VerbForm=Inf	7	acl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+11	quasi	quasi	ADV	B	_	12	advmod	_	_
+12	soffocata	soffocato	ADJ	A	Gender=Fem|Number=Sing	9	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ed io soffrivo, avrei dati dei pugni contro il cielo.
+1	Ed	e	CCONJ	CC	_	2	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	soffrivo	soffrivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dati	dare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	contro	contro	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ma poi quell'accesso passava;
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	poi	poi	ADV	B	_	5	advmod	_	_
+3	quell'	quello	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+4	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	passava	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = Clelia riprendeva a discorrere del nostro avvenire; era serena, felice.
+1	Clelia	Clelia	PROPN	SP	_	2	nsubj	_	_
+2	riprendeva	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	discorrere	discorrere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	11	punct	_	_
+10	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	felice	felice	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ed io pensavo che la tosse della tisi è breve, asciutta.
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	11	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tosse	tosse	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tisi	tisi	NOUN	S	Gender=Fem	6	nmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	breve	breve	ADJ	A	Number=Sing	3	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	asciutta	asciutta	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Che quella tosse violenta non poteva essere che un'infreddatura.
+1	Che	che	SCONJ	CS	_	3	mark	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	tosse	tosse	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+4	violenta	violento	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	essere	essere	VERB	V	VerbForm=Inf	0	root	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	infreddatura	infreddatura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Non conoscevo quella malattia inesorabile se non dai romanzi, e mi facevo illusione.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	conoscevo	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	inesorabile	inesorabile	ADJ	A	Number=Sing	4	amod	_	_
+6	se	se	SCONJ	CS	_	10	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8-9	dai	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	expl	_	_
+14	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj	_	_
+15	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tutti costoro lavoravano a preparare quel miserabile pranzo a due lire, ed anche a meno.
+1	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
+2	costoro	costoro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	lavoravano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	preparare	preparare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	miserabile	miserabile	ADJ	A	Number=Sing	8	amod	_	_
+8	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	lire	lira	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ed	e	CCONJ	CC	_	16	cc	_	_
+14	anche	anche	ADV	B	_	16	advmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	meno	meno	ADV	B	_	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Poi i camerieri, i guatteri, quanti servivano all'osteria, mangiavano gli avanzi dei poveri spostati.
+1	Poi	poi	ADV	B	_	9	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	camerieri	cameriere	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	guatteri	guattero	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	quanti	quanto	PRON	PR	Gender=Masc|Number=Plur|PronType=Rel	9	nsubj	_	_
+9	servivano	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	osteria	osteria	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	mangiavano	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	avanzi	avanzo	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	spostati	spostato	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = E gli altri tornavano alle loro case e si nutrivano d'una minestra condita col lardo, o d'un po' di polenta non condita affatto.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+4	tornavano	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	case	casa	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	nutrivano	nutrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+12	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	minestra	minestra	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	condita	condire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	col	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lardo	lardo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	o	o	CCONJ	CC	_	23	cc	_	_
+21	d'	da	ADP	E	_	23	case	_	SpaceAfter=No
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	po'	poco	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	polenta	polento	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	condita	condire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+28	affatto	affatto	ADV	B	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

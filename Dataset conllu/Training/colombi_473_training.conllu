@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sapeva che il signor Fulvio aveva esposto tre quadri di genere ed una marina.
+1	Sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	signor	signore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	Fulvio	Fulvio	PROPN	SP	_	4	nmod	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	esposto	esporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	tre	tre	NUM	N	NumType=Card	9	nummod	_	_
+9	quadri	quadro	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	genere	genere	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	ed	e	CCONJ	CC	_	14	cc	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	marina	marina	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Il quadro della prima sala era collocato bene, in luce;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	sala	sala	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	collocato	collocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	bene	bene	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	luce	luce	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 3
+# text = otteneva tutto il suo effetto.
+1	otteneva	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	5	det:predet	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Che effetto!
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Peccato che lo avesse comperato il signor Flidgeby (fin il nome inglese sapeva!) Peccato!
+1	Peccato	peccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	comperato	comperare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	signor	signore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+8	Flidgeby	Flidgeby	PROPN	SP	_	7	nmod	_	_
+9	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10	fin	fino	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	nome	nome	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+13	inglese	inglese	ADJ	A	Number=Sing	12	amod	_	_
+14	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	14	punct	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	14	punct	_	_
+17	Peccato	peccare	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = con quel nome là, il meno lontano che poteva portarlo era a Londra.
+1	con	con	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	nome	nome	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	là	là	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	meno	meno	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+8	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11-12	portarlo	_	_	_	_	_	_	_	_
+11	portar	portare	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Londra	Londra	PROPN	SP	_	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

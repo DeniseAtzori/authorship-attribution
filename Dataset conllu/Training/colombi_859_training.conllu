@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vicenzino fu puntuale come un innamorato, e da quel giorno i due fanciulli furono inseparabili.
+1	Vicenzino	Vicenzino	ADV	B	_	3	advmod	_	_
+2	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	puntuale	puntuale	ADJ	A	Number=Sing	0	root	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	innamorato	innamorato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	16	punct	_	_
+8	e	e	CCONJ	CC	_	16	cc	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	due	due	NUM	N	NumType=Card	14	nummod	_	_
+14	fanciulli	fanciullo	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+15	furono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+16	inseparabili	inseparabile	ADJ	A	Number=Plur	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Vincenzo inventava ogni sorta di chiassate per quegli ultimi mesi che gli rimanevano di libertà, si ubbriacava d'allegria, di rumori, di giochi;
+1	Vincenzo	Vincenzo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	inventava	inventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	chiassate	chiassata	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+9	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+13	rimanevano	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	libertà	libertà	NOUN	S	Gender=Fem	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	ubbriacava	ubbriacare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+19	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	allegria	allegria	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	rumori	rumore	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	giochi	gioco	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = correva fino a perdere il fiato, faceva salti da rompersi il collo, metteva grida da schiantarsi il petto, ed era felice.
+1	correva	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	fino	fino	ADV	B	_	4	mark	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	perdere	perdere	VERB	V	VerbForm=Inf	1	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fiato	fiato	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+9	salti	salto	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11-12	rompersi	_	_	_	_	_	_	_	_
+11	romper	rompere	VERB	V	VerbForm=Inf	8	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	collo	collo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+17	grida	gridare	ADJ	A	Gender=Fem|Number=Sing	16	xcomp	_	_
+18	da	da	ADP	E	_	19	mark	_	_
+19-20	schiantarsi	_	_	_	_	_	_	_	_
+19	schiantar	schiantare	VERB	V	VerbForm=Inf	16	advcl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	petto	petto	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	ed	e	CCONJ	CC	_	26	cc	_	_
+25	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
+26	felice	felice	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

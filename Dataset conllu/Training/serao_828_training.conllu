@@ -1,0 +1,149 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Restarono così:
+1	Restarono	Restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	così	così	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = il lumicino ad olio del vagone tremava, pareva dovesse spegnersi ogni momento.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lumicino	lumicino	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	ad	a	ADP	E	_	4	case	_	_
+4	olio	olio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vagone	vagone	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	tremava	tremavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	pareva	parere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12-13	spegnersi	_	_	_	_	_	_	_	_
+12	spegner	spegnere	VERB	V	VerbForm=Inf	8	conj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	momento	momento	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Bizzarre ombre danzavano.
+1	Bizzarre	Bizzarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+2	ombre	ombra	VERB	V	VerbForm=Inf	3	xcomp	_	_
+3	danzavano	danzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = sui divani: tenendola stretta a sè, bimba spaurita, Ferrante sentiva che Grazia affannava un poco.
+1-2	sui	_	_	_	_	_	_	_	_
+1	su	su	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	divani	divano	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5-6	tenendola	_	_	_	_	_	_	_	_
+5	tenendo	tenere	VERB	V	VerbForm=Ger	15	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	stretta	stretta	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	sè	sè	PRON	PE	Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+12	spaurita	spaurito	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	Ferrante	Ferrante	PROPN	SP	_	15	nsubj	_	_
+15	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	che	che	SCONJ	CS	_	18	mark	_	_
+17	Grazia	grazia	PROPN	SP	_	18	nsubj	_	_
+18	affannava	affannare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	ccomp	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	poco	poco	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = L'aria si era raffreddata.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aria	aria	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	raffreddata	raffreddare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Una angoscia li opprimeva, entrambi, angoscia ignota, angoscia di chi ha intravvisto il negro problema dell'infinito.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+4	opprimeva	opprimere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+9	ignota	ignoto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	angoscia	angosciare	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	chi	chi	PRON	PR	Number=Sing|PronType=Rel	11	nmod	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	intravvisto	intravvedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	negro	negro	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	problema	problema	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	infinito	infinito	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Due o tre volte egli volle muovere una mano per carezzarle i bruni capelli:
+1	Due	due	NUM	N	NumType=Card	4	nummod	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	tre	tre	NUM	N	NumType=Card	1	conj	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	muovere	muovere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mano	mano	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11-12	carezzarle	_	_	_	_	_	_	_	_
+11	carezzar	carezzar	NOUN	S	Gender=Fem	7	obl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	bruni	bruno	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+15	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 8
+# text = ma ella temendo che Ferrante la lasciasse, rabbrividì di paura.
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	temendo	temere	VERB	V	VerbForm=Ger	2	advcl	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	Ferrante	Ferrante	PROPN	SP	_	3	obj	_	_
+6	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lasciasse	lasciare	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	rabbrividì	rabbrividì	NOUN	S	Gender=Masc	7	appos	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	paura	paura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Due o tre volte egli disse, sottovoce, come un soffio amoroso:
+1	Due	due	NUM	N	NumType=Card	4	nummod	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	tre	tre	NUM	N	NumType=Card	1	conj	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	sottovoce	sottovoce	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	soffio	soffio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	amoroso	amoroso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	6	punct	_	SpacesAfter=\n
+

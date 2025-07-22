@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Era quello, rispose la Rosa.
+1	--Era	--Ero	ADP	E	_	2	case	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Rosa	Rosa	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Lo avevano chiamato Vincenzo, come te, dal nome di vostro nonno.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	Vincenzo	Vincenzo	PROPN	SP	_	3	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nome	nome	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Come fu, come non fu, un bel giorno capitarono qui il signor Teodoro e la moglie, che non ci venivano mai, e presero il padrone alle strette, là nella stanza da pranzo, e gli fecero una scenata, che li sentivo esclamare e piangere fin fuori dall'uscio chiuso.
+1	Come	come	ADV	B	_	11	advmod	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	11	punct	_	_
+4	come	come	SCONJ	CS	_	11	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+6	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	bel	bello	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+11	capitarono	capitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	qui	qui	ADV	B	_	11	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	signor	signore	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+15	Teodoro	Teodoro	PROPN	SP	_	14	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	23	expl	_	_
+23	venivano	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+24	mai	mai	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	presero	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30-31	alle	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	strette	stretta	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	11	punct	_	_
+34	là	là	ADV	B	_	37	advmod	_	_
+35-36	nella	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+38	da	da	ADP	E	_	39	case	_	_
+39	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	43	punct	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	iobj	_	_
+43	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+44	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	scenata	scenata	NOUN	S	Gender=Fem|Number=Sing	43	obj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	45	punct	_	_
+47	che	che	PRON	PR	PronType=Rel	49	nsubj	_	_
+48	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	49	obj	_	_
+49	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	45	acl:relcl	_	_
+50	esclamare	esclamare	VERB	V	VerbForm=Inf	49	xcomp	_	_
+51	e	e	CCONJ	CC	_	52	cc	_	_
+52	piangere	piangere	VERB	V	VerbForm=Inf	50	conj	_	_
+53	fin	fino	ADV	B	_	57	advmod	_	_
+54	fuori	fuori	ADV	B	_	53	fixed	_	_
+55-56	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+55	da	da	ADP	E	_	53	fixed	_	_
+56	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	57	det	_	_
+57	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	52	obl	_	_
+58	chiuso	chiuso	ADJ	A	Gender=Masc|Number=Sing	57	amod	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

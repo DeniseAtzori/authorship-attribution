@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era tardi, quando uscì da quella casa, folle di gioia.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+2	tardi	tardi	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quando	quando	SCONJ	CS	_	5	mark	_	_
+5	uscì	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	folle	folle	ADJ	A	Number=Sing	0	root	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Il cielo stellato brillava sul suo capo;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	stellato	stellato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	brillava	brillare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	capo	capo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = i sentori della primavera olezzavano intorno a lui; la terra pareva elastica, sotto il suo passo:
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	sentori	sentore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	primavera	primavera	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	olezzavano	olezzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	intorno	intorno	ADV	B	_	9	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	13	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	terra	terra	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+14	elastica	elastico	ADJ	A	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	sotto	sotto	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	passo	passo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 4
+# text = e a un tratto, il cielo gli parve funebre, un odore di morte gli salì al cervello e la terra roteò sotto di lui, ed egli intese che era perduto, si sentì perduto, perduto.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	parve	parva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+10	funebre	funebre	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	odore	odore	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	morte	morte	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+17	salì	salì	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	terra	terra	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+24	roteò	roteare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	advcl	_	_
+25	sotto	sotto	ADP	E	_	27	case	_	_
+26	di	di	ADP	E	_	25	fixed	_	_
+27	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	ed	e	CCONJ	CC	_	31	cc	_	_
+30	egli	egli	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	31	det	_	_
+31	intese	intendere	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	_
+32	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+33	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	aux	_	_
+34	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl:relcl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+37	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
+38	perduto	perduto	ADJ	A	Gender=Masc|Number=Sing	37	xcomp	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	40	punct	_	_
+40	perduto	perduto	ADJ	A	Gender=Masc|Number=Sing	38	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

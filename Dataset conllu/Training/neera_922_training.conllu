@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una coppa ricolma d’acqua era a portata della sua mano.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coppa	coppa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	ricolma	ricolmare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	d’	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	portata	portata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = In quella coppa ella ed Ariele avevano tante volte estinta la sete insieme, trepidi di desiderio, e il ricordo dolcissimo la indusse ad accostarvi le labbra.
+1	In	in	ADP	E	_	3	case	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	coppa	coppa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	ed	e	CCONJ	CC	_	6	cc	_	_
+6	Ariele	Ariele	PROPN	SP	_	4	conj	_	_
+7	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	volte	volta	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+10	estinta	estincere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sete	sete	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	insieme	insieme	ADV	B	_	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	trepidi	trepidio	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+22	dolcissimo	dolce	ADV	B	Degree=Abs	24	advmod	_	_
+23	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	indusse	indurre	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+25	ad	a	ADP	E	_	26	mark	_	_
+26-27	accostarvi	_	_	_	_	_	_	_	_
+26	accostar	accostare	VERB	V	VerbForm=Inf	24	acl	_	_
+27	vi	vi	ADV	B	_	26	advmod	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Poi tornò a colmarla, sì che non vi era più spazio per una sol goccia.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	colmarla	colmarlare	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	sì	sì	ADV	B	_	10	mark	_	_
+7	che	che	SCONJ	CS	_	6	fixed	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+11	più	più	ADV	B	_	10	advmod	_	_
+12	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+13	per	per	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sol	solo	ADJ	A	_	16	amod	_	_
+16	goccia	goccia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = — Il filosofo — pensò — vi porrebbe una foglia di rosa....
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	filosofo	filosofo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	—	—	PUNCT	FF	_	5	punct	_	_
+5	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	—	—	PUNCT	FF	_	8	punct	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+8	porrebbe	porre	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	foglia	foglia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	rosa...	rosa...	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = ma io, io che cosa posso aggiungere ancora?
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	che	che	DET	DQ	PronType=Int	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+7	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	aggiungere	aggiungere	VERB	V	VerbForm=Inf	0	root	_	_
+9	ancora	ancora	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Che c’è oltre l’amore se non la morte?
+1	Che	che	PRON	PR	PronType=Rel	3	obl	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	oltre	oltre	ADV	B	_	6	advmod	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+7	se	se	SCONJ	CS	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	morte	morte	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

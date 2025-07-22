@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Alessio allora andò in cucina dove l'Orsola stava preparando certe conserve di suo gusto ed io mi posi al cembalo.
+1	Alessio	Alessio	PROPN	SP	_	3	nsubj	_	_
+2	allora	allora	ADV	B	_	3	advmod	_	_
+3	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	dove	dove	ADV	B	_	10	advmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Orsola	Orsola	PROPN	SP	_	10	nsubj	_	_
+9	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	preparando	preparare	VERB	V	VerbForm=Ger	5	acl:relcl	_	_
+11	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	conserve	conserva	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	ed	e	CCONJ	CC	_	19	cc	_	_
+17	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	expl	_	_
+19	posi	posare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	cembalo	cembalo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Da quanto tempo non me ne occupavo più!
+1	Da	da	ADP	E	_	3	case	_	_
+2	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	occupavo	occupare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	più	più	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Le cartelle di musica si trovavano in un grande disordine.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cartelle	cartella	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	musica	musica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	trovavano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	grande	grande	ADJ	A	Number=Sing	10	amod	_	_
+10	disordine	disordine	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Non sono mai stata una esecutrice di molto valore, avendo piuttosto disposizione per il canto che per la musica, ma conoscevo abbastanza bene gli spartiti di Porpora e di Scarlatti.
+1	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	mai	mai	ADV	B	_	6	advmod	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	esecutrice	esecutore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	valore	valore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	avendo	avere	VERB	V	VerbForm=Ger	6	advcl	_	_
+12	piuttosto	piuttosto	ADP	E	_	13	case	_	_
+13	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	canto	canto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	musica	musica	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	ma	ma	CCONJ	CC	_	23	cc	_	_
+23	conoscevo	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+24	abbastanza	abbastanza	ADV	B	_	23	advmod	_	_
+25	bene	bene	ADV	B	_	23	advmod	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	spartiti	spartito	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Porpora	porpora	PROPN	SP	_	27	nmod	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Scarlatti	Scarlatti	PROPN	SP	_	29	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

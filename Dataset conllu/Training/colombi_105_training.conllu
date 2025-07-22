@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non era punto grasso, come le era parso alla prima.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	come	come	SCONJ	CS	_	9	mark	_	_
+7	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	9	expl	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	parso	parere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Era robusto.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	robusto	robusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Teneva il cappello in mano facendosi aria, ed i suoi capelli grigi, ritti sul capo, foltissimi, facevano una bella cornice al volto fresco.
+1	Teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6-7	facendosi	_	_	_	_	_	_	_	_
+6	facendo	fare	VERB	V	VerbForm=Ger	1	advcl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	aria	aria	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ed	e	CCONJ	CC	_	13	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+14	grigi	grigio	NOUN	S	Gender=Masc|Number=Plur	13	compound	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	ritti	rivere	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	capo	capo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	foltissimi	folto	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	bella	bello	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	cornice	cornice	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	volto	volto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+30	fresco	fresco	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Aveva le sopraciglia ed i baffi castani, appena brizzolati di qualche filo d'argento.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	sopraciglia	sopraciglia	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	ed	e	CCONJ	CC	_	6	cc	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	baffi	baffe	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+7	castani	castano	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	appena	appena	ADV	B	_	10	advmod	_	_
+10	brizzolati	brizzolato	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	filo	filo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	argento	argento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = E camminava leggero, svelto.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	camminava	camminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	leggero	leggero	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	svelto	svelto	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Da lontano le accennò se volesse bere, ed i suoi occhi neri brillarono come due fiamme.
+1	Da	da	ADP	E	_	2	case	_	_
+2	lontano	lontano	ADV	B	_	4	advmod	_	_
+3	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	iobj	_	_
+4	accennò	accennò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	volesse	volere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	bere	bere	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ed	e	CCONJ	CC	_	12	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+13	neri	nero	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	brillarono	brillare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	due	due	NUM	N	NumType=Card	17	nummod	_	_
+17	fiamme	fiamma	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

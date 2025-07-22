@@ -1,0 +1,148 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ah! non posso ricordare senza fremere certe sere d’estate.
+1	Ah	ah	INTJ	I	_	5	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ricordare	ricordare	VERB	V	VerbForm=Inf	0	root	_	_
+6	senza	senza	ADP	E	_	7	mark	_	_
+7	fremere	fremere	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	sere	sera	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	estate	estate	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Le mie finestre davano sopra un giardino e al di là del giardino il bugigattolo del portinaio nereggiava all’ombra, fatto vivo dalla lucernetta a petrolio; e nel silenzio degli alberi, del cielo stellato, veniva a volte un rumore secco che io non comprendevo:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	sopra	sopra	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	là	là	ADV	B	_	4	conj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	bugigattolo	bugigattolo	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	portinaio	portinaio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	nereggiava	nereggiavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+22-23	all’	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+27	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	26	xcomp	_	_
+28-29	dalla	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	lucernetta	lucernetta	NOUN	S	Gender=Fem|Number=Sing	26	obl:agent	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	petrolio	petrolio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	;	;	PUNCT	FC	_	37	punct	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35-36	nel	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+38-39	degli	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+45	stellato	stellato	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	47	punct	_	_
+47	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+48	a	a	ADP	E	_	49	case	_	_
+49	volte	volte	NOUN	S	Gender=Fem|Number=Plur	47	obl	_	_
+50	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	47	obj	_	_
+52	secco	secco	ADJ	A	Gender=Masc|Number=Sing	51	amod	_	_
+53	che	che	PRON	PR	PronType=Rel	56	obj	_	_
+54	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	56	nsubj	_	_
+55	non	non	ADV	BN	PronType=Neg	56	advmod	_	_
+56	comprendevo	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	51	acl:relcl	_	SpaceAfter=No
+57	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = Sarà il vento!
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vento	vento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = — dicevo a me stessa.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	dicevo	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ma nelle sere afose di luglio in cui non tremava foglia il rumore si faceva udire ancora, lontano, come soffocato:
+1	Ma	ma	CCONJ	CC	_	16	cc	_	_
+2-3	nelle	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	sere	sera	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+5	afose	afoso	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	tremava	tremare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+12	foglia	fogliare	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	udire	udire	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	ancora	ancora	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	lontano	lontano	ADV	B	_	17	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	come	come	ADP	E	_	23	case	_	_
+23	soffocato	soffocare	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 6
+# text = Sarà qualche telaio!...
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	telaio!...	telaio!...	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 7
+# text = Mai, mi si era affacciata la terribile realtà.
+1	Mai	mai	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	affacciata	affacciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	terribile	terribile	ADJ	A	Number=Sing	9	amod	_	_
+9	realtà	realtà	NOUN	S	Gender=Fem	6	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

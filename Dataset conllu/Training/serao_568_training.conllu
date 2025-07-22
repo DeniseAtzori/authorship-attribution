@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Chérie non è più tanto giovane, ha circa trent'anni.
+1	Chérie	Chérie	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	più	più	ADV	B	_	6	advmod	_	_
+5	tanto	tanto	ADV	B	_	6	advmod	_	_
+6	giovane	giovane	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	circa	circa	ADV	B	_	10	advmod	_	_
+10	trent'	trenta	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ma come a venti anni, ella ha sempre la medesima foresta arruffata di capelli biondi, dove, qua e là, una scintilla di oro si accende;
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	come	come	ADV	B	_	8	advmod	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	venti	venti	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	sempre	sempre	ADV	B	_	8	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	medesima	medesimo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	foresta	foresta	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+13	arruffata	arruffato	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	biondi	biondo	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	dove	dove	ADV	B	_	29	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	qua	qua	ADV	B	_	29	advmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	là	là	ADV	B	_	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	scintilla	scintilla	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	oro	oro	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	accende	accendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+30	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 3
+# text = nei suoi begli occhi glauchi frangiati di biondo, è sempre un perenne riso di giovinezza, e la bocca tagliata classicamente, simile a quella di una olimpiaca Diana, ha una freschezza umida incantevole.
+1-2	nei	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	begli	bello	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+5	occhi	occhio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	glauchi	glauco	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	frangiati	frangiato	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	biondo	biondo	ADJ	A	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	sempre	sempre	ADV	B	_	15	advmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	perenne	perenne	ADJ	A	Number=Sing	15	amod	_	_
+15	riso	riso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	giovinezza	giovinezza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+22	tagliata	tagliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	classicamente	classico	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	simile	simile	ADJ	A	Number=Sing	15	conj	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	25	obl	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	olimpiaca	olimpiaca	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	Diana	Diana	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_	_
+33	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	freschezza	freschezza	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+36	umida	umido	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+37	incantevole	incantevole	ADJ	A	Number=Sing	35	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
+

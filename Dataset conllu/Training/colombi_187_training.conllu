@@ -1,0 +1,133 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La gioventù ha bisogno di guida.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gioventù	gioventù	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	guida	guida	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = L'amore è un sentimento naturale, un istinto.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	naturale	naturale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Posta nell'occasione è certo che se non oggi, domani, una fanciulla s'innamora.
+1	Posta	porre	ADV	B	_	6	advmod	_	_
+2-3	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	in	in	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	certo	certo	ADV	B	_	0	root	_	_
+7	che	che	SCONJ	CS	_	17	mark	_	_
+8	se	se	SCONJ	CS	_	17	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	oggi	oggi	ADV	B	_	17	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	17	punct	_	_
+12	domani	domani	ADV	B	_	17	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	SpaceAfter=No
+17	innamora	innamorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Se è sola, libera, se non ha accanto una tutela che la trattenga a tempo, la passione la domina.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sola	solo	ADJ	A	Gender=Fem|Number=Sing	20	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	libera	libero	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	se	se	SCONJ	CS	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	accanto	accanto	ADV	B	_	9	advmod	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	trattenga	trattenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	passione	passione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	domina	domina	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 5
+# text = Negli animi gentili, il pudore stesso può essere una tutela sufficiente.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	animi	animo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+4	gentili	gentile	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pudore	pudore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+13	sufficiente	sufficiente	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Ma quando una ragazza s'è avvezza a trattare gli uomini come compagni d'ufficio, a non arrossire dinanzi a loro, il primo pudore istintivo è già vinto, — e la caduta è più facile.
+1	Ma	ma	CCONJ	CC	_	30	cc	_	_
+2	quando	quando	SCONJ	CS	_	7	mark	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	SpaceAfter=No
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avvezza	avvezzare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	trattare	trattare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	a	a	ADP	E	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	arrossire	arrossire	VERB	V	VerbForm=Inf	9	advcl	_	_
+20	dinanzi	dinanzi	ADV	B	_	22	case	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	7	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	26	amod	_	_
+26	pudore	pudore	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+27	istintivo	istintivo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	già	già	ADV	B	_	30	advmod	_	_
+30	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	—	—	PUNCT	FF	_	30	conj	_	_
+33	e	e	CCONJ	CC	_	38	cc	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	38	nsubj	_	_
+36	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+37	più	più	ADV	B	_	38	advmod	_	_
+38	facile	facile	ADJ	A	Number=Sing	30	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	30	punct	_	SpacesAfter=\n
+

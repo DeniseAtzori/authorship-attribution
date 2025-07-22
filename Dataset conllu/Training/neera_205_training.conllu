@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Guardateli bene, sono i vostri peggiori nemici!
+1-2	Guardateli	_	_	_	_	_	_	_	_
+1	Guardate	Guardare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
+3	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	peggiori	peggiore	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+9	nemici	nemico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Forse, con stupore, riconoscerete volti lontanamente noti, mani che un tempo si erano tese fraternamente a voi, quando essi avevano la generosità della giovinezza che si sente ricca e che dà.
+1	Forse	forse	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	stupore	stupore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	riconoscerete	riconosceere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	volti	volto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	lontanamente	lontano	ADV	B	_	7	advmod	_	_
+9	noti	noto	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	mani	mani	NOUN	S	Gender=Fem|Number=Plur	7	appos	_	_
+12	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+16	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	tese	tendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+18	fraternamente	fraternamente	ADV	B	_	17	advmod	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	quando	quando	SCONJ	CS	_	24	mark	_	_
+23	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	generosità	generosità	NOUN	S	Gender=Fem	24	obj	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	giovinezza	giovinezza	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	32	xcomp	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ma quei tempi sono passati e la vostra stessa qualità di donna che allora facilitava la dispensa della lode, inasprisce i loro disinganni.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	qualità	qualità	NOUN	S	Gender=Fem	5	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	allora	allora	ADV	B	_	15	advmod	_	_
+15	facilitava	facilitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	dispensa	dispensa	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	lode	lode	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	inasprisce	inasprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	loro	loro	DET	AP	Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	disinganni	disinganno	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

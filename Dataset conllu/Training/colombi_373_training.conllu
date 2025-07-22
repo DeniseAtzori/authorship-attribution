@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Ero contento di me, del mondo, di tutti.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Quegli otto mesi di amore virtuoso, di vita casalinga, mi avevano ritemprata la salute.
+1	Quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	otto	otto	NUM	N	NumType=Card	3	nummod	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	virtuoso	virtuoso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	casalinga	casalingo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+13	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	ritemprata	ritemprare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	salute	salute	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Il sangue mi scorreva caldo e robusto nelle vene.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	scorreva	scorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	robusto	robusto	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	vene	vena	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La natura mi rifulgeva intorno splendida e giovine come nel giorno della creazione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	natura	natura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	rifulgeva	rifulgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	intorno	intorno	ADV	B	_	6	advmod	_	_
+6	splendida	splendido	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	giovine	giovino	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+9	come	come	ADV	B	_	12	advmod	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	creazione	creazione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ed io pure ero giovine e felice come Adamo.
+1	Ed	e	CCONJ	CC	_	5	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	pure	pure	ADV	B	_	5	advmod	_	_
+4	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	giovine	giovino	ADJ	A	Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	felice	felice	ADJ	A	Number=Sing	5	conj	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	Adamo	Adamo	PROPN	SP	_	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ma per me pure c'era un frutto proibito;
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+4	pure	pure	ADV	B	_	6	advmod	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	proibito	proibito	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 7
+# text = ed io pure trovai l'Eva che me lo porse.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	pure	pure	ADV	B	_	4	advmod	_	_
+4	trovai	trovare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Eva	Eva	PROPN	SP	_	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	me	me	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	porse	porsa	NOUN	S	Gender=Masc	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

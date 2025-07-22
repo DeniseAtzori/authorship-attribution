@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non vorrei pronunciare qui la parola virtù perchè è stata sciupata dalle religioni che dividono gli uomini in due categorie:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	pronunciare	pronunciare	VERB	V	VerbForm=Inf	0	root	_	_
+4	qui	qui	ADV	B	_	3	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	parola	parola	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	virtù	virtù	ADV	B	_	11	advmod	_	_
+8	perchè	perché	SCONJ	CS	_	11	mark	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	sciupata	sciupare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+12-13	dalle	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	religioni	religione	NOUN	S	Gender=Fem|Number=Plur	11	obl:agent	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	dividono	dividere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	due	due	NUM	N	NumType=Card	21	nummod	_	_
+21	categorie	categoria	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = i credenti e i non credenti.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	credenti	credento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	credenti	credente	ADJ	A	Number=Plur	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma questo parmi anche l’errore di certi sociologhi i quali vogliono giustificare ogni bruttura, ogni vizio della classe povera, quasi la classe che ha denari e coltura e che dovrebbe perciò essere modello di perfezione, non ripetesse sotto altre forme le stesse brutture, gli stessi vizii.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	parmi	arma|parme	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	errore	errore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	sociologhi	sociologo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	quali	quale	PRON	PR	Number=Plur|PronType=Rel	13	nsubj	_	_
+12	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	giustificare	giustificare	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	bruttura	bruttura	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	vizio	vizio	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	classe	classe	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	povera	povero	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	quasi	quasi	ADV	B	_	26	advmod	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	classe	classe	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	denari	denaro	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	coltura	coltura	NOUN	S	Gender=Fem|Number=Sing	29	conj	_	_
+32	e	e	CCONJ	CC	_	37	cc	_	_
+33	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+34	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+35	perciò	perciò	ADV	B	_	37	advmod	_	_
+36	essere	essere	AUX	V	VerbForm=Inf	37	cop	_	_
+37	modello	modello	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	perfezione	perfezione	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	39	punct	_	_
+41	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+42	ripetesse	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	conj	_	_
+43	sotto	sotto	ADP	E	_	45	case	_	_
+44	altre	altro	ADJ	A	Gender=Fem|Number=Plur	45	amod	_	_
+45	forme	forma	NOUN	S	Gender=Fem|Number=Plur	42	obl	_	_
+46	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+47	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	48	amod	_	_
+48	brutture	bruttura	NOUN	S	Gender=Fem|Number=Plur	42	obj	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	52	punct	_	_
+50	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+51	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	52	amod	_	_
+52	vizii	vizio	NOUN	S	Gender=Masc|Number=Plur	48	conj	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

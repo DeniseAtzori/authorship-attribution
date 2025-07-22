@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io non credevo, perchè era tanto giovane e, dalla tosse in fuori, non pareva malata;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	credevo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	perchè	perché	SCONJ	CS	_	8	mark	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	tanto	tanto	ADV	B	_	8	advmod	_	_
+8	giovane	giovane	ADJ	A	Number=Sing	3	advcl	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tosse	tosse	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	fuori	fuori	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+19	malata	malato	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = era più stanca che altro;
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	stanca	stanco	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = con un po' di riposo avrebbe ripreso colore e sarebbe tornata come prima; ne ero sicura.
+1	con	con	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ripreso	riprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	colore	colore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	prima	prima	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	17	punct	_	_
+15	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	17	iobj	_	_
+16	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Quello che mi crucciava era Michele, che se ne andava via fin in capo al mondo, dove c'erano i briganti.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	crucciava	crucciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	Michele	Michele	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+12	via	via	ADV	B	_	11	advmod	_	_
+13	fin	fino	ADP	E	_	15	case	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	capo	capo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20	dove	dove	ADV	B	_	22	advmod	_	_
+21	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	SpaceAfter=No
+22	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	briganti	brigante	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

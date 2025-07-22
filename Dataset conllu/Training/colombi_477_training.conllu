@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Odda andò a sedere in disparte, e ripensò la sua arte, il successo del suo quadro, i suoi lavori finiti, i disegni audaci d'altri lavori.
+1	Odda	Odda	PROPN	SP	_	2	nsubj	_	_
+2	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	sedere	sedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	disparte	disparte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	ripensò	ripensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	arte	arte	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	successo	successo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+24	finiti	finire	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	disegni	disegno	NOUN	S	Gender=Masc|Number=Plur	23	appos	_	_
+28	audaci	audaco	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	d'	di	ADP	E	_	31	case	_	SpaceAfter=No
+30	altri	altro	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+31	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ma tutto questo lo ripensò senza passione, perchè ormai le mancava il sentimento entusiasta che le aveva dato coraggio, ambizione, fermezza.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	ripensò	ripensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	perchè	perché	SCONJ	CS	_	12	mark	_	_
+10	ormai	ormai	ADV	B	_	12	advmod	_	_
+11	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	iobj	_	_
+12	mancava	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	entusiasta	entusiasta	ADJ	A	Number=Sing	14	amod	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	ambizione	ambizione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	fermezza	fermezza	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Pure non si lasciò abbattere.
+1	Pure	pure	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	abbattere	abbattere	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Era quello o non mai il momento di sentire il vantaggio d'un'altra passione che non fosse l'amore.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	o	o	CCONJ	CC	_	7	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	mai	mai	ADV	B	_	7	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	sentire	sentire	VERB	V	VerbForm=Inf	7	acl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+13	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	altra	altro	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	passione	passione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	amore	amore	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Voi avete sedotta la mia povera sorella, l'avete disonorata ed uccisa.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+3	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sedotta	sedurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	povera	povero	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+11	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	disonorata	disonorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+13	ed	e	CCONJ	CC	_	14	cc	_	_
+14	uccisa	uccidere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Foste egoista, sleale con lei.
+1	Foste	Fosta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	egoista	egoista	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	sleale	sleale	ADJ	A	Number=Sing	1	amod	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Poi avete ingannata me, e foste con me pure egoista e sleale.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ingannata	ingannare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	foste	forre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	pure	pure	ADV	B	_	11	advmod	_	_
+11	egoista	egoista	ADJ	A	Number=Sing	7	xcomp	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	sleale	sleale	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Io vi amavo, e vi amo ancora tanto, che se non fuggissi vi perdonerei.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	expl	_	_
+3	amavo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	vi	vi	ADV	B	_	7	advmod	_	_
+7	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	ancora	ancora	ADV	B	_	7	advmod	_	_
+9	tanto	tanto	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	che	che	SCONJ	CS	PronType=Rel	14	mark	_	_
+12	se	se	SCONJ	CS	_	14	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	fuggissi	fuggiggere	ADJ	A	Gender=Masc|Number=Plur	7	ccomp	_	_
+15	vi	vi	ADV	B	_	16	advmod	_	_
+16	perdonerei	perdonere	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ma sarebbe una cosa infame, che per appagare una passione mia, sposassi l'uomo che ha sedotta ed uccisa l'unica parente che mi sia rimasta fedele.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	infame	infame	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	appagare	appagare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	passione	passione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	sposassi	sposasso	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	sedotta	sedurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	ed	e	CCONJ	CC	_	21	cc	_	_
+21	uccisa	uccidere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+23	unica	unico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	parente	parente	NOUN	S	Number=Sing	21	nsubj:pass	_	_
+25	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+26	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	iobj	_	_
+27	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+29	fedele	fedele	ADJ	A	Number=Sing	28	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

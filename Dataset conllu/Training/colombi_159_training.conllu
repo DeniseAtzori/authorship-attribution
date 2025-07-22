@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quella sera non fummo soli un momento.
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	fummo	fure	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	soli	solo	ADJ	A	Gender=Masc|Number=Plur	4	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = La mattina, quando venne a prendermi, ero vestita da sposa e circondata da parenti ed amici.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quando	quando	SCONJ	CS	_	5	mark	_	_
+5	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	prendermi	_	_	_	_	_	_	_	SpaceAfter=No
+7	prender	prendere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	11	obl:agent	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	circondata	circondare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	parenti	parente	NOUN	S	Number=Plur	15	obl:agent	_	_
+18	ed	e	CCONJ	CC	_	19	cc	_	_
+19	amici	amico	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = S'andò subito al Municipio, poi in chiesa.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	SpaceAfter=No
+2	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	subito	subito	ADV	B	_	2	advmod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Municipio	municipio	PROPN	SP	_	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	poi	poi	ADV	B	_	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Anche volendolo, non avrei potuto ritentare la mia confessione.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	volendolo	volendolo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
+7	ritentare	ritentare	VERB	V	VerbForm=Inf	2	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ma non volevo più.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	volevo	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Avevo veduto troppo davvicino il pericolo di perderlo, la gioia immensa di ritrovarlo, per espormi un'altra volta a quel rischio.
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	veduto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	troppo	troppo	ADV	B	_	2	advmod	_	_
+4	davvicino	davviciare	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	perderlo	_	_	_	_	_	_	_	SpaceAfter=No
+8	perder	perdere	VERB	V	VerbForm=Inf	6	acl	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+13	immensa	immenso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	ritrovarlo	_	_	_	_	_	_	_	SpaceAfter=No
+15	ritrovar	ritrovare	VERB	V	VerbForm=Inf	12	acl	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	espormi	espormare	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+20	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+21	altra	altro	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	volta	volta	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

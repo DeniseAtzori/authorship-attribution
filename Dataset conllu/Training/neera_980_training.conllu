@@ -1,0 +1,133 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Eccoli finalmente!
+1	Eccoli	Eccolo	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	finalmente	finalmente	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Una macchia bruna appare in alto sul declivio del monte.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	macchia	macchia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	bruna	bruno	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	alto	alto	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	declivio	declivio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	monte	monte	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Si muove, si snoda;
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	snoda	snodare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = un punto rosso emerge.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	punto	punto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	emerge	emergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = “È lei, è Maria!„ esclama una donna.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	Maria	Maria	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+8	„	„	PUNCT	FF	_	9	punct	_	_
+9	esclama	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Un fremito di gioia corre in tutti i cuori.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fremito	fremito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cuori	cuore	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Le vecchie dicono: “Sia ringraziato il Signore!„
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	vecchie	vecchio	ADJ	A	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	Sia	sia	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ringraziato	ringraziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Signore	signore	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+11	„	„	PUNCT	FF	_	3	punct	_	_
+
+# sent_id = 8
+# text = La furia dell’uragano è calmata;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	furia	furia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	uragano	uragano	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	calmata	calmare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 9
+# text = piove ancora, ma già il cielo si chiarisce attraversato dall’arcobaleno:
+1	piove	piovere	ADV	B	_	9	advmod	_	_
+2	ancora	ancora	ADV	B	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	9	punct	_	_
+4	ma	ma	CCONJ	CC	_	9	cc	_	_
+5	già	già	ADV	B	_	9	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	chiarisce	chiarire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	attraversato	attraversare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+11	da	da	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	arcobaleno	arcobaleno	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 10
+# text = “Sia ringraziato il Signore!
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sia	sia	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ringraziato	ringraziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Signore	signore	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Sia ringraziato il Signore!„
+1	Sia	sia	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ringraziato	ringraziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Signore	signore	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+6	„	„	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Obbligò?
+1	Obbligò	Obbligò	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Fu lui che, contrito, compunto, persuaso di aver maltrattato un angelo bianco e piccino, convinto di essere il più ingiusto e il più villano fra gli uomini, s'inginocchiò innanzi a Luisa per impetrare la sua grazia.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	contrito	contrire	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	compunto	compunto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	persuaso	persuaso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	aver	avere	AUX	VA	VerbForm=Inf	12	aux	_	_
+12	maltrattato	maltrattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	xcomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	angelo	angelo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	piccino	piccino	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+20	di	di	ADP	E	_	24	mark	_	_
+21	essere	essere	AUX	VA	VerbForm=Inf	24	cop	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	ingiusto	ingiusto	ADJ	A	Gender=Masc|Number=Sing	19	advcl	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	villano	villano	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+29	fra	fra	ADP	E	_	31	case	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	SpaceAfter=No
+34	inginocchiò	inginocchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+35	innanzi	innanzi	ADV	B	_	34	advmod	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	Luisa	Luisa	PROPN	SP	_	34	obl	_	_
+38	per	per	ADP	E	_	39	mark	_	_
+39	impetrare	impetrare	VERB	V	VerbForm=Inf	34	advcl	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Con quale stento gli fu accordata, come cadde dall'alto, come parve proprio una degnazione sovrana!
+1	Con	con	ADP	E	_	3	case	_	_
+2	quale	quale	DET	DQ	Number=Sing|PronType=Int	3	det	_	_
+3	stento	stento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	accordata	accordare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	cadde	cadda	NOUN	S	Number=Sing	6	obl	_	_
+10-11	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+10	da	da	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	alto	alto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	come	come	SCONJ	CS	_	15	mark	_	_
+15	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+16	proprio	proprio	ADV	B	_	15	advmod	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	degnazione	degnazione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+19	sovrana	sovrano	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ma la ottenne.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	ottenne	ottenne	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quando, ogni tanto, le prendono questi impeti di maternità, ella vuole con sè suo figlio, dalla mattina alla sera:
+1	Quando	quando	SCONJ	CS	_	7	mark	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	7	punct	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	7	iobj	_	_
+7	prendono	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	impeti	impeto	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	maternità	maternità	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	sè	sè	PRON	PE	Person=3|PronType=Prs	14	obl	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20-21	dalla	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	sera	sera	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 2
+# text = il bimbo vede la madre che si dipinge gli occhi, che si sparge di polvere le braccia e il collo, che si distende delicatamente il rossetto sulle guance.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	madre	madre	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	dipinge	dipingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	sparge	spargere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	polvere	polvere	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	collo	collo	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	distende	distendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	delicatamente	delicato	ADV	B	_	25	advmod	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	rossetto	rossetto	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+29-30	sulle	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	guance	guance	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Talvolta, per ischerzo, la mamma _fa il viso_ al bimbo, che ride, solleticato, turbato da quei profumi.
+1	Talvolta	talvolta	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	ischerzo	ischerzo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	_fa	_fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	viso_	ExtraSubj=Yes|viso_	PUNCT	FB	_	8	punct	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	ride	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	solleticato	solleticato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	turbato	turbare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
+23	profumi	profume	NOUN	S	Gender=Masc|Number=Plur	20	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nel ricordare quell'atroce suplizio, il professor Navaro fremeva tutto.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ricordare	ricordare	VERB	V	VerbForm=Inf	11	obl	_	_
+4	quell'	quello	DET	DD	Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
+5	atroce	atroce	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	suplizio	suplizio	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	professor	professore	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	Navaro	Navaro	PROPN	SP	_	9	nmod	_	_
+11	fremeva	fremere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Non poteva più star fermo;
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	star	stare	VERB	V	VerbForm=Inf	0	root	_	_
+5	fermo	fermo	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = passeggiava per la stanza, agitato, nervoso, asciugandosi il sudore, e gesticolando rabbiosamente.
+1	passeggiava	passeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	agitato	agitato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	nervoso	nervoso	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10-11	asciugandosi	_	_	_	_	_	_	_	_
+10	asciugando	asciugare	VERB	V	VerbForm=Ger	1	advcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sudore	sudore	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	gesticolando	gesticolare	VERB	V	VerbForm=Ger	1	conj	_	_
+17	rabbiosamente	rabbiosamente	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Pareva che lottasse ancora contro quell'orribile impotenza.
+1	Pareva	Parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	lottasse	lottare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	contro	contro	ADP	E	_	8	case	_	_
+6	quell'	quello	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+7	orribile	orribile	ADJ	A	Number=Sing	8	amod	_	_
+8	impotenza	impotenza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Noi gli tenevamo dietro ansiosamente cogli sguardi interrogatori, smaniosi d'udire la fine di quel caso meraviglioso e tremendo.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	tenevamo	tenere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	dietro	dietro	ADV	B	_	3	advmod	_	_
+5	ansiosamente	ansiosamente	ADV	B	_	3	advmod	_	_
+6-7	cogli	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	sguardi	sguardo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+9	interrogatori	interrogatorio	NOUN	S	Gender=Masc|Number=Plur	8	compound	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	smaniosi	smanioso	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+12	d'	di	ADP	E	_	13	mark	_	SpaceAfter=No
+13	udire	udire	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fine	fine	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	caso	caso	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	tremendo	tremendo	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Egli respirò due o tre volte forte, s'appoggiò alle spalle d'un suo collega come per sentire qualche cosa di caldo e di vivo accanto a sè, e ripigliò quella storia di morte:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	respirò	respirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	due	due	NUM	N	NumType=Card	6	nummod	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	volte	volta	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	forte	forte	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	SpaceAfter=No
+10	appoggiò	appoggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	collega	collega	NOUN	S	Number=Sing	13	nmod	_	_
+18	come	come	ADP	E	_	20	mark	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	sentire	sentire	VERB	V	VerbForm=Inf	17	advcl	_	_
+21	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	24	conj	_	_
+28	accanto	accanto	ADV	B	_	30	case	_	_
+29	a	a	ADP	E	_	28	fixed	_	_
+30	sè	sè	PRON	PE	Person=3|PronType=Prs	22	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	ripigliò	ripigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+34	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	35	det	_	_
+35	storia	storia	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	morte	morte	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

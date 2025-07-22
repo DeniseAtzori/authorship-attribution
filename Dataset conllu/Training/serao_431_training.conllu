@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella ha una intelligenza squisita e gentile, che impara presto le cose dove l’intuizione vale più del ragionamento e dove il gusto predomina sulla dimostrazione:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	squisita	squisito	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	gentile	gentile	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	impara	imparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	presto	presto	ADV	B	_	10	advmod	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+14	dove	dove	ADV	B	_	17	advmod	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	intuizione	intuizione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+17	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	più	più	ADV	B	_	17	advmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ragionamento	ragionamento	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	dove	dove	ADV	B	_	25	advmod	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+26	predomina	predominare	ADV	B	_	29	advmod	_	_
+27-28	sulla	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	dimostrazione	dimostrazione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = e spesso questa gentilezza è attraversata da una corrente d’ingenuità, quell’impensato meraviglioso dell’infanzia.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	spesso	spesso	ADV	B	_	6	advmod	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	gentilezza	gentilezza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	attraversata	attraversare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	corrente	corrente	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	ingenuità	ingenuità	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13-14	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+13	qui	qui	ADV	B	_	15	advmod	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	impensato	impensato	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+16	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Infine ella è una creatura semplice, un po’ timida, raccolta in sè, serena, tutta spirituale.
+1	Infine	infine	ADV	B	_	5	advmod	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	semplice	semplice	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po’	poco	ADV	B	_	10	advmod	_	_
+10	timida	timido	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	raccolta	raccolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	sè	sè	PRON	PE	Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	serena	serenare	ADJ	A	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	19	det	_	_
+19	spirituale	spirituale	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

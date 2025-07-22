@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Sentite — m'aveva detto.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Sentite	sentire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	—	—	PUNCT	FF	_	6	punct	_	_
+4	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	SpaceAfter=No
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = — Se volete ch'io vi rispetti, dovete essermi indulgente.
+1	—	—	PUNCT	FF	_	11	punct	_	_
+2	Se	se	SCONJ	CS	_	7	mark	_	_
+3	volete	volere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	ch'	perché	ADV	B	_	5	advmod	_	SpaceAfter=No
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	vi	vi	ADV	B	_	7	advmod	_	_
+7	rispetti	rispeggere	ADJ	A	Gender=Masc|Number=Plur	11	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	dovete	dovete	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	essermi	essermo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	indulgente	indulgente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Io vi adoro, sono pazzo;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	vi	vi	ADV	B	_	3	advmod	_	_
+3	adoro	adoro	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	pazzo	pazzo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = abbiate pietà di me.
+1	abbiate	avere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	pietà	pietà	NOUN	S	Gender=Fem	1	xcomp	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Venite qui ogni volta ch'io vi chiamerò, ed io m'accontenterò d'adorarvi come la Madonna sull'altare;
+1	Venite	Venire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	qui	qui	ADV	B	_	1	advmod	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	ch'	perché	SCONJ	CS	_	8	mark	_	SpaceAfter=No
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+8	chiamerò	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ed	e	CCONJ	CC	_	13	cc	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	SpaceAfter=No
+13	accontenterò	accontentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+14	d'	di	ADP	E	_	15	mark	_	SpaceAfter=No
+15-16	adorarvi	_	_	_	_	_	_	_	_
+15	adorar	adorare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	15	expl	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Madonna	Madonna	PROPN	SP	_	15	obl	_	_
+20-21	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+20	su	su	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	altare	altare	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = ed ogni volta che verrete vi renderò una delle vostre lettere.
+1	ed	e	CCONJ	CC	_	7	cc	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	verrete	verrete	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	7	advcl	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	iobj	_	_
+7	renderò	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	7	obj	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	vostre	vostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Quando non ce ne saranno più non verrete più; lo so; ed allora sarà di me quello che Dio vorrà.
+1	Quando	quando	SCONJ	CS	_	8	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+3	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+5	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	_
+6	più	più	ADV	B	_	8	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	verrete	verere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	12	advcl	_	_
+9	più	più	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	9	punct	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	16	punct	_	_
+14	ed	e	CCONJ	CC	_	16	cc	_	_
+15	allora	allora	ADV	B	_	16	advmod	_	_
+16	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	16	obl	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	_	_
+20	che	che	PRON	PR	PronType=Rel	22	obj	_	_
+21	Dio	dio	PROPN	SP	_	22	nsubj	_	_
+22	vorrà	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

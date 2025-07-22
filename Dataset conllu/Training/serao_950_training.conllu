@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tre volte Giovanni Serra mancò alla sua promessa.
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+3	Giovanni	Giovanni	PROPN	SP	_	2	nmod	_	_
+4	Serra	serra	PROPN	SP	_	3	flat:name	_	_
+5	mancò	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Le diceva: verrò domani sera, alle nove.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	4	punct	_	_
+4	verrò	verrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	advcl	_	_
+5	domani	domani	ADV	B	_	4	advmod	_	_
+6	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	nove	nove	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Clara lo aspettava in preda a una emozione nervosa, a cui la sua fantasia dava un carattere passionale.
+1	Clara	Clara	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	preda	preda	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	nervosa	nervoso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	passionale	passionale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ella dal pomeriggio dava ordine che nessun altro venisse introdotto e ripeteva le sue raccomandazioni, alla cameriera, con insistenza:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2-3	dal	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	venisse	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	ripeteva	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	raccomandazioni	raccomandazione	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	cameriera	cameriera	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	insistenza	insistenza	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = quando l'ora si appressava, per frenare la sua torbida impazienza, ella si metteva a riordinare delle carte, prendeva un libro, forzandosi a intendere ciò che leggeva.
+1	quando	quando	SCONJ	CS	_	5	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	appressava	appressare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	frenare	frenare	VERB	V	VerbForm=Inf	5	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	torbida	torbido	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	impazienza	impazienza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	riordinare	riordinare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	carte	carta	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	libro	libro	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27-28	forzandosi	_	_	_	_	_	_	_	_
+27	forzando	forzare	VERB	V	VerbForm=Ger	23	advcl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30	intendere	intendere	VERB	V	VerbForm=Inf	27	xcomp	_	_
+31	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	30	obj	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	leggeva	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+

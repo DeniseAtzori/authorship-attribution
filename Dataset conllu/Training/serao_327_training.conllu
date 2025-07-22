@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella viveva ancora.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Si pigliavano per mano:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	pigliavano	pigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = Pietro le parlava sottovoce, come un bambino, pieno di carezze nella intonazione, dicendole che l'amava, che le voleva bene, che l'adorava, che la idolatrava, che era la sua mamma cara, unica, immensa.
+1	Pietro	Pietro	ADP	E	_	4	case	_	_
+2	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	parlava	parlare	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	sottovoce	sottovoce	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	carezze	carezza	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	intonazione	intonazione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17-18	dicendole	_	_	_	_	_	_	_	_
+17	dicendo	dire	VERB	V	VerbForm=Ger	4	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+21	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+25	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+26	bene	bene	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	30	obj	_	SpaceAfter=No
+30	adorava	adorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+33	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+34	idolatrava	idolatrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	acl:relcl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+37	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	cop	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	43	conj	_	_
+41	cara	caro	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	40	punct	_	_
+43	unica	unico	ADJ	A	Gender=Fem|Number=Sing	25	xcomp	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	45	punct	_	_
+45	immensa	immenso	ADJ	A	Gender=Fem|Number=Sing	43	conj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ella stava a sentire, come rianimata da quella voce tutto amore, respirava meglio, la mano non bruciava più tanto, la fronte non aveva più quei sudori gelati.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	advcl	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	sentire	sentire	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	SCONJ	CS	_	7	mark	_	_
+7	rianimata	rianimare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	voce	voce	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	12	det	_	_
+12	amore	amore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	respirava	respirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+15	meglio	meglio	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mano	mano	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	bruciava	bruciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+21	più	più	ADV	B	_	20	advmod	_	_
+22	tanto	tanto	ADV	B	_	20	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	fronte	fronte	NOUN	S	Number=Sing	20	obj	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
+28	più	più	ADV	B	_	27	advmod	_	_
+29	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	30	det	_	_
+30	sudori	sudore	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+31	gelati	gelato	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n
+

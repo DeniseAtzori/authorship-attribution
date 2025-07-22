@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era l'alba, ma grigia.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	alba	alba	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ma	ma	CCONJ	CC	_	6	cc	_	_
+6	grigia	grigio	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Forse il sole non sarebbe uscito, forse essa non sarebbe venuta.
+1	Forse	forse	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sole	sole	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	forse	forse	ADV	B	_	12	advmod	_	_
+9	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Anzi era certo che non veniva.
+1	Anzi	anzi	ADV	B	_	3	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	certo	certo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Aspettavo per scrupolo di coscienza, quasi per dovere.
+1	Aspettavo	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	scrupolo	scrupolo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	quasi	quasi	ADV	B	_	9	advmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Avrei potuto andarmene, perchè non veniva.
+1	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3-5	andarmene	_	_	_	_	_	_	_	SpaceAfter=No
+3	andar	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	perchè	perché	SCONJ	CS	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = D'un tratto odo un debole fischio, un suono di campanella, mi precipito fuori, in tempo per vedere un treno nero, bagnato d'umidità.
+1	D'	da	ADP	E	_	3	case	_	SpaceAfter=No
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+4	odo	odo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	debole	debole	ADJ	A	Number=Sing	7	amod	_	_
+7	fischio	fischio	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	suono	suono	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	campanella	campanella	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	expl	_	_
+15	precipito	precipire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	fuori	fuori	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	vedere	vedere	VERB	V	VerbForm=Inf	15	advcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	treno	treno	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	nero	nero	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	bagnato	bagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+27	d'	di	ADP	E	_	28	case	_	SpaceAfter=No
+28	umidità	umidità	NOUN	S	Gender=Fem	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 7
+# text = Il sangue, mi va al cuore, ma oso domandare:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	oso	oso	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	domandare	domandare	VERB	V	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	5	punct	_	SpacesAfter=\n
+

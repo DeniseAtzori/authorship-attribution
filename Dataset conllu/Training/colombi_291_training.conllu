@@ -1,0 +1,145 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Avrei dato l'anima mia per poterle dire quanto l'amavo;
+1	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	anima	anima	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+6	per	per	ADP	E	_	9	mark	_	_
+7-8	poterle	_	_	_	_	_	_	_	_
+7	poter	potere	AUX	VM	VerbForm=Inf	9	aux	_	_
+8	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	iobj	_	_
+9	dire	dire	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	quanto	quanto	ADV	B	_	9	advmod	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	amavo	amavo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = ma non le ero stato presentato, non ci conoscevamo.
+1	ma	ma	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	iobj	_	_
+4	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	expl	_	_
+10	conoscevamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Dovevo contentarmi di guardarla, di divorarla cogli occhi.
+1	Dovevo	Dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2-3	contentarmi	_	_	_	_	_	_	_	_
+2	contentar	contentarre	VERB	V	VerbForm=Inf	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	guardarla	guardarla	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	divorarla	_	_	_	_	_	_	_	_
+8	divorar	divorare	VERB	V	VerbForm=Inf	2	conj	_	_
+9	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10-11	cogli	_	_	_	_	_	_	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Tutta la settimana rivedevo la sua manina;
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	rivedevo	rivedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	manina	manina	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = mi pareva di spogliarla del guanto che le dava una rigidezza e una levigatura gelida; di sentirla tepida, e liscia; di baciarla; di coprirmene il volto, per susurrarci dentro la mia confessione appassionata, per nasconderci le mie lagrime.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	spogliarla	_	_	_	_	_	_	_	_
+4	spogliar	spogliare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	guanto	guanto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+11	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	rigidezza	rigidezza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	levigatura	levigatura	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+17	gelida	gelido	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	2	punct	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	sentirla	_	_	_	_	_	_	_	_
+20	sentir	sentire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	tepida	tepida	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	liscia	liscio	ADV	B	_	20	conj	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	20	punct	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28-29	baciarla	_	_	_	_	_	_	_	SpaceAfter=No
+28	baciar	baciare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+29	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	;	;	PUNCT	FC	_	32	punct	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32-34	coprirmene	_	_	_	_	_	_	_	_
+32	coprir	coprire	VERB	V	VerbForm=Inf	28	xcomp	_	_
+33	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	32	expl	_	_
+34	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	32	iobj	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	volto	volto	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	32	punct	_	_
+38	per	per	ADP	E	_	39	mark	_	_
+39-40	susurrarci	_	_	_	_	_	_	_	_
+39	susurrar	susurrare	VERB	V	VerbForm=Inf	32	advcl	_	_
+40	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	39	expl	_	_
+41	dentro	dentro	ADP	E	_	44	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+43	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	44	det:poss	_	_
+44	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+45	appassionata	appassionato	ADJ	A	_	44	amod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	39	punct	_	_
+47	per	per	ADP	E	_	48	mark	_	_
+48-49	nasconderci	_	_	_	_	_	_	_	_
+48	nasconder	nascondere	VERB	V	VerbForm=Inf	39	advcl	_	_
+49	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	48	expl	_	_
+50	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	52	det	_	_
+51	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	52	det:poss	_	_
+52	lagrime	lagrima	NOUN	S	Gender=Fem|Number=Plur	48	obj	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sospiravo un'occasione per poterle parlare, per fare qualche cosa per lei.
+1	Sospiravo	Sospirare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	per	per	ADP	E	_	7	mark	_	_
+5-6	poterle	_	_	_	_	_	_	_	_
+5	poter	potere	AUX	VM	VerbForm=Inf	7	aux	_	_
+6	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+7	parlare	parlare	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

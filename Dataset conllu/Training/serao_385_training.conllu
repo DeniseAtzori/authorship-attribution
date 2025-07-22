@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Agli otto bambini di casa — da sei a dodici — se ne univano altri sette od otto, piccoli parenti e piccoli amici, che arrivavano condotti dalle serve.
+1-2	Agli	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	otto	otto	NUM	N	NumType=Card	4	nummod	_	_
+4	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	—	—	PUNCT	FF	_	9	punct	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	sei	sei	NUM	N	NumType=Card	15	nummod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	dodici	dodici	NUM	N	NumType=Card	9	nummod	_	_
+12	—	—	PUNCT	FF	_	9	punct	_	_
+13	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+15	univano	unire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	altri	altro	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+17	sette	sette	NUM	N	NumType=Card	16	nummod	_	_
+18	od	o	CCONJ	CC	_	19	cc	_	_
+19	otto	otto	NUM	N	NumType=Card	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+22	parenti	parente	NOUN	S	Number=Plur	15	obj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+25	amici	amico	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	arrivavano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+29	condotti	condotto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	xcomp	_	_
+30-31	dalle	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	serve	serva	NOUN	S	Gender=Fem|Number=Plur	29	obl:agent	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 2
+# text = Diventavamo un piccolo popolo di creature bionde o brune, insolenti di salute, dalle gambe grassotte, e nude, dalle guance dure e colorite, dai polmoni fortissimi.
+1	Diventavamo	Diventare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	creature	creatura	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	bionde	biondo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	brune	brune	ADJ	A	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	insolenti	insolente	ADJ	A	Number=Plur	4	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	salute	salute	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15-16	dalle	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+18	grassotte	grassotto	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	nude	nudo	ADJ	A	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23-24	dalle	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	guance	guance	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+26	dure	duro	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	colorite	colorito	ADJ	A	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	1	punct	_	_
+30-31	dai	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	polmoni	polmone	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+33	fortissimi	forte	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

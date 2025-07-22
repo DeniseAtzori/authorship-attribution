@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Veramente i miei avversari di ragioni ne espongono parecchie.
+1	Veramente	vero	ADV	B	_	4	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	avversari	avversario	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	espongono	esporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	parecchie	parecchia	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Troppe io direi e spesso contradditorie; ma quelle che maggiormente si impongono sono tre:
+1	Troppe	troppo	PROPN	SP	_	0	root	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	spesso	spesso	ADV	B	_	6	advmod	_	_
+6	contradditorie	contradditorio	ADJ	A	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	15	punct	_	_
+8	ma	ma	CCONJ	CC	_	15	cc	_	_
+9	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	15	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+11	maggiormente	maggiormente	ADV	B	_	13	advmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:pass	_	_
+13	impongono	imporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	tre	tre	NUM	N	NumType=Card	1	conj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Per rendersi economicamente indipendenti.
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	rendersi	_	_	_	_	_	_	_	_
+2	render	rendere	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	obj	_	_
+4	economicamente	economico	ADV	B	_	5	advmod	_	_
+5	indipendenti	indipendente	ADJ	A	Number=Plur	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Per rivendicare il diritto all’uguaglianza.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	rivendicare	rivendicare	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	uguaglianza	uguaglianza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Per essere felici fuori della famiglia e del matrimonio.
+1	Per	per	ADP	E	_	3	mark	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	3	cop	_	_
+3	felici	felice	ADJ	A	Number=Plur	0	root	_	_
+4	fuori	fuori	ADV	B	_	7	case	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	4	fixed	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Chi non vede che quest’ultima le riassume tutte ed è forse la sola che a loro preme?
+1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	case	_	_
+5	quest’	questo	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+6	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	riassume	riassume	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+9	tutte	tutto	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	ed	e	CCONJ	CC	_	14	cc	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	forse	forse	ADV	B	_	14	advmod	_	_
+13	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sola	solo	ADJ	A	Gender=Fem|Number=Sing	9	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	18	obl	_	_
+18	preme	preme	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ma procediamo con ordine.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	procediamo	procedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «No.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non soffrivo punto;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	soffrivo	soffrivo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = ma avevo una gran pena a dirlo.
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	gran	grande	ADJ	A	Number=Sing	5	amod	_	_
+5	pena	pena	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
+7	dir	dire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Pareva che la sede della mia voce fosse scesa in fondo in fondo al petto;
+1	Pareva	Parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	10	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sede	sede	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	voce	voce	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:pass	_	_
+10	scesa	scendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	petto	petto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = l'azione della gola era insufficiente per attingerla.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	azione	azione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gola	gola	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	insufficiente	insufficiente	ADJ	A	Number=Sing	0	root	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9-10	attingerla	_	_	_	_	_	_	_	SpaceAfter=No
+9	attinger	attingere	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Risposi una volta o due con accento fioco, poi la voce non venne più.
+1	Risposi	Risposare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	due	due	NUM	N	NumType=Card	3	conj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	accento	accento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8	fioco	fioco	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	poi	poi	ADV	B	_	15	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	voce	voce	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	più	più	ADV	B	_	1	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 7
+# text = Movevo le labbra ma non usciva nessun suono.
+1	Movevo	Movere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	ma	ma	CCONJ	CC	_	6	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	usciva	uscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	suono	suono	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Intorno dicevano:
+1	Intorno	intorno	ADV	B	_	2	advmod	_	_
+2	dicevano	dicevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

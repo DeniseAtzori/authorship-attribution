@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — E l’Adele?
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	E	e	CCONJ	CC	_	4	cc	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Adele	Adele	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ricordi il suo disperato amore per un uomo che aveva vent’anni più di lei, le sue lettere roventi, i versi che gli scriveva, il proposito di farsi rapire?
+1	Ricordi	ricordare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	amore	amore	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+11	vent’	venti	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	più	più	ADV	B	_	12	advmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+20	roventi	rovente	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	1	punct	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	versi	verso	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	iobj	_	_
+26	scriveva	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	1	punct	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	33	nsubj	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31-32	farsi	_	_	_	_	_	_	_	_
+31	far	fare	VERB	V	VerbForm=Inf	29	acl	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+33	rapire	rapire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+34	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = S’è poi monacata come ne ebbe l’intenzione?
+1	S’	s’	PROPN	SP	_	4	nsubj:pass	_	SpaceAfter=No
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	poi	poi	ADV	B	_	4	advmod	_	_
+4	monacata	monacare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	come	come	ADP	E	_	7	mark	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non ne seppi più nulla.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	seppi	seppo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = A noi ora tali follie non sembrano possibili, vero?
+1	A	a	ADP	E	_	2	case	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	obl	_	_
+3	ora	ora	ADV	B	_	7	advmod	_	_
+4	tali	tale	DET	DD	Number=Plur|PronType=Dem	5	det	_	_
+5	follie	follia	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	possibili	possibile	ADJ	A	Number=Plur	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	vero	vero	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Ci vogliono proprio i quindici e i vent’anni per simili ubriacature.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	proprio	proprio	ADV	B	_	2	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	quindici	quindici	NUM	N	NumType=Card	9	nummod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	vent’	venti	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	simili	simile	ADJ	A	Number=Plur	12	amod	_	_
+12	ubriacature	ubriacatura	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

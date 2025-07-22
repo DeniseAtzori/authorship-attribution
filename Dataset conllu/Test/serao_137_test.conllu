@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I vecchi patrioti giuravano militarmente, mettendo la mano nuda sul petto;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	patrioti	patriota	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	giuravano	giurare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	militarmente	militarmente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	mettendo	mettere	VERB	V	VerbForm=Ger	4	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mano	mano	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	nuda	nudo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	petto	petto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = la loro fede era provata:
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	fede	fede	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	provata	provato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = gli avvocati giuravano con una voce sottile e un tono acuto.
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	avvocati	avvocato	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	giuravano	giurare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	voce	voce	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	sottile	sottile	ADJ	A	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tono	tono	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+11	acuto	acuto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Quando arrivò al proprio nome, Depretis cavò la mano destra di sotto l'uniforme ministeriale, la stese e giurò:
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	nome	nome	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Depretis	Depretis	PROPN	SP	_	9	nsubj	_	_
+9	cavò	cavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mano	mano	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	destra	destro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	sotto	sotto	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	uniforme	uniforma	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+17	ministeriale	ministeriale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	stese	stesa	ADJ	A	Gender=Fem|Number=Plur	9	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	giurò	giurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 5
+# text = l'assemblea rise del vecchio astuto che la dominava.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	assemblea	assemblea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	rise	riso	ADJ	A	Number=Sing	2	amod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	astuto	astuto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	dominava	dominare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

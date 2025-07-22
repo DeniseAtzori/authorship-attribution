@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Chi sa quanto tempo rimasi là, sola!
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	4	det	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	rimasi	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	_
+6	là	là	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	sola	solo	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La candela si accorciava a poco a poco e le ombre crescevano nella stanza disegnando sul pavimento delle lunghe striscie mobili che mi facevano trasalire.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	candela	candelare	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	accorciava	accorciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	poco	poco	ADV	B	_	4	advmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	poco	poco	ADV	B	_	4	advmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	ombre	ombra	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+12	crescevano	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	disegnando	disegnare	VERB	V	VerbForm=Ger	15	advcl	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pavimento	pavimento	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+23	striscie	striscia	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+24	mobili	mobile	ADJ	A	Number=Plur	23	amod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+27	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	_
+28	trasalire	trasalire	VERB	V	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Un gran freddo che mi prese prima alle braccia e poi in tutto il corpo mi ricondusse nel mio letto, dove appena giunta spensi il lume e mi gettai colla faccia in giù, sprofondata, annientata.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	gran	grande	ADJ	A	Number=Sing	3	amod	_	_
+3	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7	prima	prima	ADV	B	_	6	advmod	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+11	e	e	CCONJ	CC	_	18	cc	_	_
+12	poi	poi	ADV	B	_	18	advmod	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	ricondusse	ricondurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	letto	letto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	dove	dove	ADV	B	_	27	advmod	_	_
+25	appena	appena	ADV	B	_	26	advmod	_	_
+26	giunta	giungere	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+27	spensi	spenso	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	lume	lume	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	32	iobj	_	_
+32	gettai	gettare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	conj	_	_
+33	colla	collo	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+34	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	giù	giù	ADV	B	_	32	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	32	punct	_	_
+38	sprofondata	sprofondare	ADJ	A	Gender=Fem|Number=Sing	32	xcomp	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	40	punct	_	_
+40	annientata	annientare	ADJ	A	Gender=Fem|Number=Sing	38	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

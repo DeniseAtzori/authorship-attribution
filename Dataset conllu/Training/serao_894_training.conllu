@@ -1,0 +1,133 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Come, perchè?
+1	Come	come	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	perchè	perché	SCONJ	CS	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Avrebbe forse preferito che Giovanni Serra le avesse parlato del passato, scherzando, come qualunque altro uomo avrebbe fatto, violando, nella realtà del presente e dell'oblio, tutta la sentimentalità di un grande e violento amore?
+1	Avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	forse	forse	ADV	B	_	3	advmod	_	_
+3	preferito	preferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	Giovanni	Giovanni	PROPN	SP	_	9	nsubj	_	_
+6	Serra	serra	PROPN	SP	_	5	flat:name	_	_
+7	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	9	iobj	_	_
+8	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	passato	passato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	scherzando	scherzare	VERB	V	VerbForm=Ger	9	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	come	come	ADP	E	_	19	case	_	_
+17	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+18	altro	altro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+20	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	violando	violare	VERB	V	VerbForm=Ger	21	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	realtà	realtà	NOUN	S	Gender=Fem	23	obl	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	presente	presente	ADJ	A	Number=Sing	27	nmod	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32-33	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+32	di	di	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	oblio	oblio	NOUN	S	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	23	punct	_	_
+36	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	38	det:predet	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	sentimentalità	sentimentalità	NOUN	S	Gender=Fem	23	obj	_	_
+39	di	di	ADP	E	_	44	case	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+41	grande	grande	ADJ	A	Number=Sing	44	amod	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	violento	violento	ADJ	A	Gender=Masc|Number=Sing	41	conj	_	_
+44	amore	amore	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+45	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = No, lo scherzo l'avrebbe offesa intimamente, dandole una delusione.
+1	No	no	INTJ	I	Polarity=Neg	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	scherzo	scherzo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	offesa	offendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	intimamente	intimo	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	dandole	dandole	ADJ	A	Number=Sing	12	amod	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Avrebbe ella preferito che Giovanni Serra, l'uomo che ella avea ragione di stimare come il più leale che avesse incontrato mai, fingesse, innanzi a lei, un rimpianto che non sentiva?
+1	Avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	ella	ellare	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	preferito	preferito	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	Giovanni	Giovanni	PROPN	SP	_	3	obj	_	_
+6	Serra	serra	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+10	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+11	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	avea	aveare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	stimare	stimare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	come	come	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	leale	leale	ADJ	A	Number=Sing	15	obl	_	_
+20	che	che	SCONJ	CS	_	22	mark	_	_
+21	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	_	_
+23	mai	mai	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	fingesse	fingettere	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	innanzi	innanzi	ADV	B	_	29	case	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	22	punct	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	rimpianto	rimpianto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+35	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	acl:relcl	_	SpaceAfter=No
+36	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = No, ella avrebbe inteso l'ipocrisia e ne sarebbe stata tristemente delusa.
+1	No	no	INTJ	I	Polarity=Neg	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	inteso	intendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ipocrisia	ipocrisia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	13	cc	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+10	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+12	tristemente	tristemente	ADV	B	_	13	advmod	_	_
+13	delusa	deluso	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

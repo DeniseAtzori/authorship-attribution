@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non le scriveva, perchè ella non aveva voluto;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	scriveva	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	perchè	perché	SCONJ	CS	_	9	mark	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = ma l'amava, con tutta l'anima.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	8	det:predet	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	anima	anima	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Non aveva sue notizie, giacchè ella non voleva dargliene:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	giacchè	giacché	CCONJ	CC	_	10	cc	_	_
+7	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10-12	dargliene	_	_	_	_	_	_	_	SpaceAfter=No
+10	dar	dare	VERB	V	VerbForm=Inf	2	conj	_	_
+11	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	iobj	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = ma l'avrebbe ritrovata al ritorno!
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ritrovata	ritrovare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Pure, fu un viaggio così lungo!
+1	Pure	pure	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	così	così	ADV	B	_	7	advmod	_	_
+7	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = A San Paolo, egli ebbe notizie.
+1	A	a	ADP	E	_	2	case	_	_
+2	San	San	PROPN	SP	_	6	obl	_	_
+3	Paolo	Paolo	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = La letterina, scritta da una mano morente, sovra tenace carta giapponese, diceva:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	letterina	letterina	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	morente	morente	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	sovra	sovrare	ADP	E	_	12	case	_	_
+11	tenace	tenace	ADJ	A	Number=Sing	12	amod	_	_
+12	carta	carta	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+13	giapponese	giapponese	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 8
+# text = _Cher Paul, cher Paul, cette pauvre madame Héliotrope se meurt de vous...._
+1	_Cher	_Cher	ADP	E	_	2	case	_	_
+2	Paul	Paul	PROPN	SP	_	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	cher	chere	ADP	E	_	5	case	_	_
+5	Paul	Paul	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	cette	cettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	pauvre	pauvre	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	madame	madama	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+10	Héliotrope	Héliotrope	PROPN	SP	_	9	nmod	_	_
+11	se	se	SCONJ	CS	_	12	case	_	_
+12	meurt	meurt	X	SW	Foreign=Yes	8	obl	_	_
+13	de	de	X	SW	Foreign=Yes	12	flat:foreign	_	_
+14	vous...._	vous....-	PUNCT	FB	_	12	punct	_	SpacesAfter=\n
+

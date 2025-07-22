@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Perchè non si fanno più calze è forse cessato il lavoro femminile in casa?
+1	Perchè	perché	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5	più	più	ADV	B	_	4	advmod	_	_
+6	calze	calza	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	forse	forse	ADV	B	_	9	advmod	_	_
+9	cessato	cessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	femminile	femminile	ADJ	A	Number=Sing	11	amod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Consideriamo le esigenze della moda al giorno d’oggi, la frequente mutabilità, la spesa grandissima della mano d’opera da una parte;
+1	Consideriamo	considerare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	moda	moda	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	oggi	oggi	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	frequente	frequente	ADJ	A	Number=Sing	15	amod	_	_
+15	mutabilità	mutabilità	NOUN	S	Gender=Fem	1	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+19	grandissima	grande	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	18	amod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mano	mano	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	d’	di	ADP	E	_	24	case	_	SpaceAfter=No
+24	opera	opera	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = dall’altra il basso prezzo delle stoffe e la poca durata di esse, e sarà facile concludere che se le donne si applicassero a fabbricarsi da se una parte del loro abbigliamento realizzerebbero con un lavoro tranquillo e casalingo ben maggiori economie che non a correre le strade in cerca di guadagno.
+1-2	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+1	da	da	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	basso	basso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	stoffe	stoffe	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	poca	poco	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	durata	durata	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	cop	_	_
+19	facile	facile	ADJ	A	Number=Sing	3	conj	_	_
+20	concludere	concludere	VERB	V	VerbForm=Inf	19	csubj	_	_
+21	che	che	SCONJ	CS	_	38	mark	_	_
+22	se	se	SCONJ	CS	_	26	mark	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	donne	donna	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+26	applicassero	applicare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	38	advcl	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28-29	fabbricarsi	_	_	_	_	_	_	_	_
+28	fabbricar	fabbricare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+30	da	da	ADP	E	_	33	case	_	_
+31	se	se	SCONJ	CS	_	30	fixed	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	parte	parte	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	37	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	loro	loro	DET	AP	Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	abbigliamento	abbigliamento	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+38	realizzerebbero	realizzare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+39	con	con	ADP	E	_	41	case	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+42	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+43	e	e	CCONJ	CC	_	44	cc	_	_
+44	casalingo	casalinire	ADJ	A	Gender=Masc|Number=Sing	42	conj	_	_
+45	ben	bene	ADV	B	_	46	advmod	_	_
+46	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	47	amod	_	_
+47	economie	economia	NOUN	S	Gender=Fem|Number=Plur	41	obj	_	_
+48	che	che	PRON	PR	PronType=Rel	51	nsubj	_	_
+49	non	non	ADV	BN	PronType=Neg	51	advmod	_	_
+50	a	a	ADP	E	_	51	mark	_	_
+51	correre	correre	VERB	V	VerbForm=Inf	47	acl:relcl	_	_
+52	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	strade	strada	NOUN	S	Gender=Fem|Number=Plur	51	obj	_	_
+54	in	in	ADP	E	_	55	case	_	_
+55	cerca	cerca	NOUN	S	Gender=Fem|Number=Sing	51	obl	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	guadagno	guadagno	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

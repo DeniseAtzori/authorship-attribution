@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E più il suo spirito spasimava per la battaglia che sosteneva, più ella prodigava a Giovanni Serra i tesori della più squisita affezione.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	più	più	ADV	B	_	6	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	spasimava	spasimare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	sosteneva	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	più	più	ADV	B	_	15	advmod	_	_
+14	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	prodigava	prodigare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Giovanni	Giovanni	PROPN	SP	_	15	obl	_	_
+18	Serra	serra	PROPN	SP	_	17	flat:name	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	tesori	tesore	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	25	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	squisita	squisito	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	affezione	affezione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Egli, talvolta, ne restava avvilito.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	talvolta	talvolta	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	avvilito	avvilito	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ora, non le diceva più di non crederle;
+1	Ora	ora	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	più	più	ADV	B	_	9	advmod	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9-10	crederle	_	_	_	_	_	_	_	SpaceAfter=No
+9	creder	credere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = nè, d'altra parte, la fiducia nasceva in lui, bensì uno stupore malinconico.
+1	nè	né	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+4	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	nasceva	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	bensì	bensì	CCONJ	CC	_	15	cc	_	_
+14	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	stupore	stupore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+16	malinconico	malinconico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Quando ella gli dava qualche novella pruova, non chiesta, di amore, egli restava confuso e rammaricato:
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	novella	novella	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	pruova	pruovo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	chiesta	chiedere	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	restava	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	confuso	confuso	ADJ	A	Gender=Masc|Number=Sing	16	xcomp	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	rammaricato	rammaricato	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	16	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Guerra di sesso!
+1	Guerra	Guerra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Chi avrebbe creduto che si doveva arrivare a questo?
+1	Chi	chi	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+6	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	arrivare	arrivare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Eppure ci siamo, e mentre laggiù, nella tranquilla Olanda, i rappresentanti delle nazioni civili si riunivano in un congresso per la pace degli uomini, le donne pensano esse a suscitare una guerra di nuovo genere che per essere incruenta non è meno micidiale, anzi sarà la sola che avrà il potere di distruggere l’umanità, se date le premesse, è lecito spingere le conseguenze fino alla loro logica estrema come vedremo.
+1	Eppure	eppure	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	34	punct	_	_
+5	e	e	CCONJ	CC	_	34	cc	_	_
+6	mentre	mentre	SCONJ	CS	_	21	mark	_	_
+7	laggiù	laggiù	ADV	B	_	21	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	Olanda	Olanda	PROPN	SP	_	21	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	rappresentanti	rappresentante	NOUN	S	Number=Plur	21	nsubj	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	nazioni	nazione	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	civili	civile	ADJ	A	Number=Plur	18	amod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	riunivano	riunire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	advcl	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	congresso	congresso	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pace	pace	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+28-29	degli	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	21	punct	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	donne	donna	NOUN	S	Gender=Fem|Number=Plur	34	nsubj	_	_
+34	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+35	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	34	obj	_	_
+36	a	a	ADP	E	_	37	mark	_	_
+37	suscitare	suscitare	VERB	V	VerbForm=Inf	34	xcomp	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+42	genere	genere	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43	che	che	PRON	PR	PronType=Rel	46	nsubj:pass	_	_
+44	per	per	ADP	E	_	46	mark	_	_
+45	essere	essere	AUX	VA	VerbForm=Inf	46	aux:pass	_	_
+46	incruenta	incruentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	39	acl:relcl	_	_
+47	non	non	ADV	BN	PronType=Neg	50	advmod	_	_
+48	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
+49	meno	meno	ADV	B	_	50	advmod	_	_
+50	micidiale	micidiale	ADJ	A	Number=Sing	46	xcomp	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	53	punct	_	_
+52	anzi	anzi	ADV	B	_	53	advmod	_	_
+53	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	50	conj	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	sola	solo	NOUN	S	Gender=Fem|Number=Sing	53	obj	_	_
+56	che	che	PRON	PR	PronType=Rel	57	nsubj	_	_
+57	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	55	acl:relcl	_	_
+58	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	potere	potere	NOUN	S	Gender=Masc|Number=Sing	57	obj	_	_
+60	di	di	ADP	E	_	61	mark	_	_
+61	distruggere	distruggere	VERB	V	VerbForm=Inf	59	acl	_	_
+62	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	63	det	_	SpaceAfter=No
+63	umanità	umanità	NOUN	S	Gender=Fem	61	obj	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	57	punct	_	_
+65	se	se	SCONJ	CS	_	66	mark	_	_
+66	date	dare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	71	advcl	_	_
+67	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	68	det	_	_
+68	premesse	premessa	NOUN	S	Gender=Fem|Number=Plur	71	nsubj	_	SpaceAfter=No
+69	,	,	PUNCT	FF	_	68	punct	_	_
+70	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	cop	_	_
+71	lecito	lecire	NOUN	S	Gender=Masc|Number=Sing	57	appos	_	_
+72	spingere	spingere	VERB	V	VerbForm=Inf	71	acl	_	_
+73	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	74	det	_	_
+74	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	72	obj	_	_
+75	fino	fino	ADV	B	_	79	case	_	_
+76-77	alla	_	_	_	_	_	_	_	_
+76	a	a	ADP	E	_	75	fixed	_	_
+77	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	79	det	_	_
+78	loro	loro	DET	AP	Poss=Yes|PronType=Prs	79	det:poss	_	_
+79	logica	logica	NOUN	S	Gender=Fem|Number=Sing	72	obl	_	_
+80	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	79	amod	_	_
+81	come	come	ADP	E	_	82	mark	_	_
+82	vedremo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	72	advcl	_	SpaceAfter=No
+83	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

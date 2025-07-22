@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Sorella mia!
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Sorella	sorella	PROPN	SP	_	0	root	_	_
+3	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = — disse prendendo una mano di Anna con tale rispettosa dolcezza che parve a lei si compisse un rito solenne.
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	prendendo	prendere	VERB	V	VerbForm=Ger	17	advcl	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Anna	Anna	PROPN	SP	_	5	nmod	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	tale	tale	DET	DD	Number=Sing|PronType=Dem	11	det	_	_
+10	rispettosa	rispettoso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	dolcezza	dolcezza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	compisse	compivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	rito	rito	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	solenne	solenne	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ella assentì, religiosamente, voltata ancora la testa a guardare l'orizzonte in modo che Flavio ne scorgeva la linea del profilo purissima sullo sfondo del cielo, rinnovantegli la sensazione di ansia dolce e tormentosa, come di bene inafferrabile, che aveva provato tante volte accanto a quella donna.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	assentì	assentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	religiosamente	religioso	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	voltata	esvolere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+7	ancora	ancora	ADV	B	_	6	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	testa	testa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	guardare	guardare	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	orizzonte	orizzonte	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	modo	modo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	Flavio	Flavio	PROPN	SP	_	19	nsubj	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+19	scorgeva	scorgevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	linea	linea	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	purissima	pure	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	24	amod	_	_
+26-27	sullo	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sfondo	sfondo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	19	punct	_	_
+33-34	rinnovantegli	_	_	_	_	_	_	_	_
+33	rinnovante	rinnovare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	19	advcl	_	_
+34	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	iobj	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+39	dolce	dolce	ADJ	A	Number=Sing	38	amod	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	tormentosa	tormentoso	ADJ	A	Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	19	punct	_	_
+43	come	come	ADP	E	_	45	case	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	bene	bene	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+46	inafferrabile	inafferrabile	ADJ	A	Number=Sing	45	amod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	2	punct	_	_
+48	che	che	PRON	PR	PronType=Rel	50	nsubj	_	_
+49	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	50	aux	_	_
+50	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+51	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	52	det	_	_
+52	volte	volta	NOUN	S	Gender=Fem|Number=Plur	50	obl	_	_
+53	accanto	accanto	ADV	B	_	56	case	_	_
+54	a	a	ADP	E	_	53	fixed	_	_
+55	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	56	det	_	_
+56	donna	donna	NOUN	S	Gender=Fem|Number=Sing	50	obl	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

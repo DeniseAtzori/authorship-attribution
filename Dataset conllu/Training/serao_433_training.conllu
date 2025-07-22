@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo piccoletto ha la pelle bruna, di un bruno caldo e fiorente, i capelli piantati rudemente sulla fronte, le sopracciglia nere e sottili, la bocca rossa e viva come un garofano:
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	piccoletto	piccoletto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	bruna	bruna	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bruno	bruno	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+11	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	fiorente	fiorente	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+17	piantati	piantare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+18	rudemente	rudemente	ADV	B	_	17	advmod	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fronte	fronte	NOUN	S	Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	sopracciglia	sopracciglia	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+25	nere	nero	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	sottili	sottile	ADJ	A	Number=Plur	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+31	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	31	conj	_	_
+34	come	come	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	garofano	garofano	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = bruno il collo libero nel colletto alla marinara, brune le gambe nude e nervose.
+1	bruno	bruno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	collo	collo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	libero	libero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	colletto	colletto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	marinara	marinara	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	brune	brune	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	nude	nudo	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	nervose	nervoso	ADJ	A	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ma il viso delicatamente ovale è divorato da quegli occhioni singolari che vi turbano, tanto sono dotati di fascino.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	viso	viso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+4	delicatamente	delicato	ADV	B	_	5	advmod	_	_
+5	ovale	ovale	ADJ	A	Number=Sing	3	amod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	divorato	divorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	occhioni	occhione	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+11	singolari	singolare	ADJ	A	Number=Plur	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	turbano	turbano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	tanto	tanto	ADV	B	_	18	advmod	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	dotati	dotare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

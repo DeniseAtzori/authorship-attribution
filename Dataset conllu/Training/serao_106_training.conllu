@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E a lungo, a lungo, Beatrice Albano pianse su quel ricordo così vivace e così fremente nel suo cuore.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Beatrice	Beatore	PROPN	SP	_	10	nsubj	_	_
+9	Albano	Albano	PROPN	SP	_	8	flat:name	_	_
+10	pianse	piangere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	così	così	ADV	B	_	15	advmod	_	_
+15	vivace	vivace	ADJ	A	Number=Sing	10	xcomp	_	_
+16	e	e	CCONJ	CC	_	22	cc	_	_
+17	così	così	ADV	B	_	18	advmod	_	_
+18	fremente	fremente	ADV	B	_	22	advmod	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Piano piano Maddalena Herz le rasciugava le lacrime, senza dirle nulla, con una piccola carezza muta.
+1	Piano	Piare	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	piano	piano	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Maddalena	Maddalena	PROPN	SP	_	2	nmod	_	_
+4	Herz	Herz	PROPN	SP	_	3	flat:name	_	_
+5	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	6	iobj	_	_
+6	rasciugava	rasciugare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11-12	dirle	_	_	_	_	_	_	_	_
+11	dir	dire	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	carezza	carezza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+19	muta	muto	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Alla fine, le lacrime s'inaridirono;
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+7	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
+8	inaridirono	inaridire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 4
+# text = ma la donna dolente rimase immobile, con le mani incrociate sulle ginocchia, guardando nel vuoto.
+1	ma	ma	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	dolente	dolente	ADJ	A	Number=Sing	3	amod	_	_
+5	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	immobile	immobile	ADJ	A	Number=Sing	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	mani	mano	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+11	incrociate	incrociato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	sulle	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	ginocchia	ginocchio	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	guardando	guardare	VERB	V	VerbForm=Ger	5	advcl	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

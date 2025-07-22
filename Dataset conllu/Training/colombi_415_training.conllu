@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I romanzieri ed i poeti dipingono la pazzia in un modo malinconico e bello:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	romanzieri	romanziere	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	ed	e	CCONJ	CC	_	5	cc	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	poeti	poeta	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+6	dipingono	dipingere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pazzia	pazzia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	modo	modo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12	malinconico	malinconico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	bello	bello	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = la pazzia d'Amleto e d'Ofelia.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pazzia	pazzia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	Amleto	Amleto	PROPN	SP	_	2	nmod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	Ofelia	Ofelia	PROPN	SP	_	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma la realtà non è così.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	realtà	realtà	NOUN	S	Gender=Fem	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	così	così	ADV	B	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Sembra che in quegli esseri privi di ragione la macchina umana si sfasci.
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	13	mark	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+6	privi	privo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	umana	umano	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	sfasci	sfare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = I loro abiti sono mal messi e cadenti, spesso anche sudici;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	mal	male	ADV	B	_	6	advmod	_	_
+6	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	cadenti	cadere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	spesso	spesso	ADV	B	_	8	advmod	_	_
+11	anche	anche	ADV	B	_	12	advmod	_	_
+12	sudici	sudico	ADJ	A	Gender=Masc|Number=Plur	8	xcomp	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 6
+# text = una gran parte ha la manía delle nudità indecenti.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	gran	gran	ADJ	A	Number=Sing	3	amod	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	manía	manía	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	nudità	nudità	NOUN	S	Gender=Fem	6	nmod	_	_
+10	indecenti	indecente	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quello parlava a monosillabi, e bisognava strapparglieli con una serie di domande.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	monosillabi	monosillabo	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+8-10	strapparglieli	_	_	_	_	_	_	_	_
+8	strappar	strappare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	iobj	_	_
+10	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	serie	serie	NOUN	S	Gender=Fem	8	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = S'accontentava di starsene zitto contemplando il fratello, pel quale aveva una grande venerazione, e cogliendo il momento opportuno per impadronirsi delle molle che l'altro si teneva amorosamente tra le ginocchia, per picchiare un poco alla sua volta i tizzoni.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	SpaceAfter=No
+2	accontentava	accontentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-6	starsene	_	_	_	_	_	_	_	_
+4	star	stare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+7	zitto	ziggere	ADV	B	_	4	advmod	_	_
+8	contemplando	contemplare	VERB	V	VerbForm=Ger	4	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	pel	_	_	_	_	_	_	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	quale	quale	PRON	PR	Number=Sing|PronType=Rel	15	obl	_	_
+15	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	grande	grande	ADJ	A	Number=Sing	18	amod	_	_
+18	venerazione	venerazione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	cogliendo	cogliere	VERB	V	VerbForm=Ger	15	conj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	momento	momento	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	opportuno	opportuno	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26-27	impadronirsi	_	_	_	_	_	_	_	_
+26	impadronir	impadronire	VERB	V	VerbForm=Inf	21	advcl	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	molle	molla	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	_
+31	che	che	PRON	PR	PronType=Rel	35	obj	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	35	nsubj	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+35	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
+36	amorosamente	amorosamente	ADV	B	_	35	advmod	_	_
+37	tra	tra	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	ginocchia	ginocchio	NOUN	S	Gender=Fem|Number=Plur	35	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	26	punct	_	_
+41	per	per	ADP	E	_	42	mark	_	_
+42	picchiare	picchiare	VERB	V	VerbForm=Inf	50	acl	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	poco	poco	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	_
+45-46	alla	_	_	_	_	_	_	_	_
+45	a	a	ADP	E	_	48	case	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+47	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	volta	volta	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+49	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	tizzoni	tizzone	NOUN	S	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

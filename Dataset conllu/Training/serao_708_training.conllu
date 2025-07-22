@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dietro le mie spalle, inerpicato sulla collina, il paesello dormiva.
+1	Dietro	dietro	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	inerpicato	inerpicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	collina	collina	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	paesello	paesello	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+13	dormiva	dormivo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = La profonda pace della notte era intorno a me.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	profonda	profondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	pace	pace	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	notte	notte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8	intorno	intorno	ADV	B	_	10	case	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Io solo vegliavo, inquieto, febbricitante, esaltato, passeggiando su e giù, mentre la mia ombra si allungava, si accorciava, scompariva, mentre nulla poteva calmarmi.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+2	solo	solo	ADV	B	_	3	advmod	_	_
+3	vegliavo	vegliavo	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	inquieto	inquieto	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	febbricitante	febbricitante	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	esaltato	esaltato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	passeggiando	passeggiare	VERB	V	VerbForm=Ger	9	advcl	_	_
+12	su	su	ADV	B	_	11	advmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	giù	giù	ADV	B	_	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	mentre	mentre	SCONJ	CS	_	21	mark	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	allungava	allungare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	accorciava	accorciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	scompariva	scomparire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	mentre	mentre	SCONJ	CS	_	31	mark	_	_
+29	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	31	nsubj	_	_
+30	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+31-32	calmarmi	_	_	_	_	_	_	_	SpaceAfter=No
+31	calmar	calmare	VERB	V	VerbForm=Inf	26	advcl	_	_
+32	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	31	obj	_	_
+33	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 4
+# text = Io aspettava lei.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Da tre giorni io l'aspettava nell'unico albergo, in quella piccola stagione intermedia, che niuno conosce.
+1	Da	da	ADP	E	_	3	case	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+6	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7-8	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	in	in	ADP	E	_	10	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+9	unico	unico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+14	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+16	intermedia	intermedio	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+19	niuno	niuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	nsubj	_	_
+20	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Ella doveva venire, passare con me una giornata e partirsene.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	venire	venire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	passare	passare	VERB	V	VerbForm=Inf	3	conj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11-13	partirsene	_	_	_	_	_	_	_	SpaceAfter=No
+11	partir	partire	VERB	V	VerbForm=Inf	5	conj	_	_
+12	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Io l'aspettava.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+3	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

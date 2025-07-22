@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era un addio disperato, tragico, alla sua sposa.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	addio	addio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	tragico	tragico	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Non doveva vederla più, ed esser forte.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3-4	vederla	_	_	_	_	_	_	_	_
+3	veder	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	più	più	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ed	e	CCONJ	CC	_	9	cc	_	_
+8	esser	essere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	forte	forte	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = La sua coscienza glielo comandava;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4-5	glielo	_	_	_	_	_	_	_	_
+4	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	comandava	comandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = voleva obbedire coraggiosamente, pel bene di lei.
+1	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	obbedire	obbedire	VERB	V	VerbForm=Inf	0	root	_	_
+3	coraggiosamente	coraggiosamente	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	pel	_	_	_	_	_	_	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bene	bene	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Poi cominciava a dirgliene la ragione.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	cominciava	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4-6	dirgliene	_	_	_	_	_	_	_	_
+4	dir	dire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	iobj	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = E si fermava a piangere su quelle morti immature, su quelle tombe, e s'inteneriva, e s'abbandonava a ricordare i suoi sogni di felicità svaniti per sempre, a fare grandi proteste d'amore e di devozione malgrado tutto, fino alla morte, alla sua morte solitaria...
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	fermava	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	piangere	piangere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	5	obl	_	_
+8	morti	morto	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	immature	immatura	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
+13	tombe	tomba	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	SpaceAfter=No
+17	inteneriva	intenerire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+21	abbandonava	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	ricordare	ricordare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	felicità	felicità	NOUN	S	Gender=Fem	26	nmod	_	_
+29	svaniti	svanire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+30	per	per	ADP	E	_	31	case	_	_
+31	sempre	sempre	ADV	B	_	29	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	29	punct	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34	fare	fare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+35	grandi	grande	ADJ	A	Number=Plur	36	amod	_	_
+36	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	34	obj	_	_
+37	d'	di	ADP	E	_	38	case	_	SpaceAfter=No
+38	amore	amore	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+39	e	e	CCONJ	CC	_	41	cc	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	devozione	devozione	NOUN	S	Gender=Fem|Number=Sing	38	conj	_	_
+42	malgrado	malgrado	ADP	E	_	43	case	_	_
+43	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	34	punct	_	_
+45	fino	fino	ADP	E	_	48	case	_	_
+46-47	alla	_	_	_	_	_	_	_	_
+46	a	a	ADP	E	_	45	fixed	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	morte	morte	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	53	punct	_	_
+50-51	alla	_	_	_	_	_	_	_	_
+50	a	a	ADP	E	_	53	case	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+52	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	53	det:poss	_	_
+53	morte	morte	NOUN	S	Gender=Fem|Number=Sing	48	conj	_	_
+54	solitaria...	solitaria.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

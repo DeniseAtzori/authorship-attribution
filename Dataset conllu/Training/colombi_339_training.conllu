@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era un uomo estremamente alto e dritto, forte, magro, col volto color del legno di noce, e talmente rugoso che sembrava una collaretta arroccettata.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	estremamente	estremamente	ADV	B	_	5	advmod	_	_
+5	alto	alto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	dritto	dritto	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	forte	forte	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	magro	magro	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13-14	col	_	_	_	_	_	_	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	volto	volto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+16	color	colore	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	legno	legno	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	noce	noce	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	talmente	talmente	ADV	B	_	25	advmod	_	_
+25	rugoso	rugoso	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+26	che	che	SCONJ	CS	_	27	mark	_	_
+27	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	collaretta	collaretta	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	arroccettata	arroccettato	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Portava una folta parrucca bionda, sebbene nessuno si ricordasse d'averlo mai visto biondo.
+1	Portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	folta	folto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	parrucca	parrucca	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+5	bionda	biondo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	sebbene	sebbene	SCONJ	CS	_	10	mark	_	_
+8	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	ricordasse	ricordare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+11	d'	di	ADP	E	_	12	mark	_	SpaceAfter=No
+12-13	averlo	_	_	_	_	_	_	_	_
+12	aver	avere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	mai	mai	ADV	B	_	15	advmod	_	_
+15	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+16	biondo	biondo	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Egli stesso non ne aveva idea.
+1	Egli	i	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	idea	idea	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Quando gli domandavamo com'erano stati i suoi capelli, ci rifletteva un pochino colla sua bontà condiscendente, poi rispondeva:
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	domandavamo	domandare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+4	com'	come	SCONJ	CS	_	9	mark	_	SpaceAfter=No
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+6	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	cop	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	3	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+12	rifletteva	riflettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pochino	pochino	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	bontà	bontà	NOUN	S	Gender=Fem	15	obj	_	_
+18	condiscendente	condiscendente	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	poi	poi	ADV	B	_	21	advmod	_	_
+21	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	12	punct	_	SpacesAfter=\n
+

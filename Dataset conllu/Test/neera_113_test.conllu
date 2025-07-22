@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Accesi un lume e discesi.
+1	Accesi	accendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lume	lume	NOUN	S	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	discesi	discese	NOUN	S	Number=Plur	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Nello schiudere la porta un soffio di vento mi spense la candela così che non potei frenare un piccolo grido.
+1-2	Nello	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	schiudere	schiudere	VERB	V	VerbForm=Inf	11	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	porta	porta	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	soffio	soffio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	vento	vento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	spense	spengere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	candela	candela	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	così	così	ADV	B	_	11	advcl	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	potei	poteo	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+18	frenare	frenare	VERB	V	VerbForm=Inf	17	csubj	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	grido	grido	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Egli tirò il catenaccio perchè l'imposta non sbattesse e prendendomi la mano mi trasse sulla scala semibuia senza pronunciare una sola parola, guidandosi al raggio della lucerna che usciva dal salotto.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tirò	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	catenaccio	catenaccio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	perchè	perché	SCONJ	CS	_	9	mark	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	imposta	imposta	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	sbattesse	sbattettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11-12	prendendomi	_	_	_	_	_	_	_	_
+11	prendendo	prendere	VERB	V	VerbForm=Ger	9	conj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mano	mano	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+16	trasse	trarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+17-18	sulla	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	scala	scala	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	semibuia	semibuiare	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	senza	senza	ADP	E	_	22	mark	_	_
+22	pronunciare	pronunciare	VERB	V	VerbForm=Inf	16	advcl	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sola	solo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	parola	parola	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	11	punct	_	_
+27-28	guidandosi	_	_	_	_	_	_	_	_
+27	guidando	guidare	VERB	V	VerbForm=Ger	11	advcl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	raggio	raggio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	lucerna	lucerna	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	usciva	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	acl:relcl	_	_
+37-38	dal	_	_	_	_	_	_	_	_
+37	da	da	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non avevo paura, non potevo aver paura di Lui e tuttavia tremavo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	aver	avere	VERB	V	VerbForm=Inf	2	conj	_	_
+8	paura	paura	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Lui	lui	PROPN	SP	_	8	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	tuttavia	tuttavia	ADV	B	_	13	advmod	_	_
+13	tremavo	tremavo	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Appena giunti nel salotto mi lasciai cadere sopra una sedia e gli chiesi angosciosamente:
+1	Appena	appena	ADV	B	_	2	advmod	_	_
+2	giunti	giungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	lasciai	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	cadere	cadere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	sopra	sopra	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	chiesi	chiesi	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+15	angosciosamente	angosciosamente	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	7	punct	_	SpacesAfter=\n
+

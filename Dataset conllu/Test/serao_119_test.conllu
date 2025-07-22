@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma era veramente una cosa seria, la passione della politica?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	veramente	veramente	ADV	B	_	5	advmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	seria	serio	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	politica	politica	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = — E l'onorevole Scalìa, un po' infastidito da quel rapido vaniloquio, cercava di provare alla signora che la politica poteva sembrare un scherzo a chi non la prendeva sul serio, ma che era una nobile passione:
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	E	e	CCONJ	CC	_	4	cc	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	onorevole	onorevole	NOUN	S	Number=Sing	15	nsubj	_	_
+5	Scalìa	Scalìa	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	po'	poco	ADV	B	_	9	advmod	_	_
+9	infastidito	infastidito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+12	rapido	rapido	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	vaniloquio	vaniloquio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	provare	provare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	signora	signore	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	che	che	SCONJ	CS	_	25	mark	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	politica	politica	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+25	sembrare	sembrare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	scherzo	scherzo	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	chi	chi	PRON	PR	Number=Sing|PronType=Rel	27	nmod	_	_
+30	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+31	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+32	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	_
+33-34	sul	_	_	_	_	_	_	_	_
+33	su	su	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	serio	serio	ADJ	A	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	42	punct	_	_
+37	ma	ma	CCONJ	CC	_	42	cc	_	_
+38	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+39	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	cop	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	nobile	nobile	ADJ	A	Number=Sing	42	amod	_	_
+42	passione	passione	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+43	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 3
+# text = ella scoteva il capo, non convinta, ridendo del suo bel riso frivolo, e l'onorevole Scalìa mostrava sul viso una disattenzione crescente, si stancava di quel cicaleccio, guardando l'aula, trattenendosi ancora, per cortesia.
+1	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	scoteva	scotere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	convinta	convincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	ridendo	ridere	VERB	V	VerbForm=Ger	2	advcl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	14	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	bel	bello	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	riso	riso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+15	frivolo	frivolo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	onorevole	onorevole	NOUN	S	Number=Sing	21	nsubj	_	_
+20	Scalìa	Scalìa	PROPN	SP	_	19	nmod	_	_
+21	mostrava	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	viso	viso	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	disattenzione	disattenzione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+27	crescente	crescere	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+30	stancava	stancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
+33	cicaleccio	cicaleccio	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	2	punct	_	_
+35	guardando	guardare	VERB	V	VerbForm=Ger	2	advcl	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	aula	aula	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	35	punct	_	_
+39-40	trattenendosi	_	_	_	_	_	_	_	_
+39	trattenendo	trattenere	VERB	V	VerbForm=Ger	35	advcl	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+41	ancora	ancora	ADV	B	_	44	advmod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	44	punct	_	_
+43	per	per	ADP	E	_	44	case	_	_
+44	cortesia	cortesia	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

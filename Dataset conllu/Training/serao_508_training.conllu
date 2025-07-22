@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marito e moglie abitano la stessa casa, per convenienza, ma sono divisi.
+1	Marito	marito	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+4	abitano	abitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	convenienza	convenienza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	divisi	dividere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = La moglie abita a terreno, il marito il primo piano, il bambino al secondo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	abita	abitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	marito	marito	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	piano	piano	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Pranzano tutti tre insieme, ma la signora legge un libro e il signore legge un giornale:
+1	Pranzano	Pranzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nsubj	_	_
+3	tre	tre	NUM	N	NumType=Card	1	nummod	_	_
+4	insieme	insieme	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	signora	signore	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	libro	libro	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	signore	signore	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = il bimbo sta in mezzo, guarda ora la mamma, ora il papà, coi grandi occhi meravigliati, e pranza silenziosamente.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	ora	ora	ADV	B	_	7	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ora	ora	ADV	B	_	14	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	papà	papà	NOUN	S	Gender=Masc	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16-17	coi	_	_	_	_	_	_	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	grandi	grande	ADJ	A	Number=Plur	19	amod	_	_
+19	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+20	meravigliati	meravigliato	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	pranza	pranza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+24	silenziosamente	silenzioso	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi era cresciuta nella compagnia dei cantanti, attori, giornalisti, ufficiali, che occupavano le stanze mobiliate.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	cresciuta	crescere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cantanti	cantante	NOUN	S	Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	attori	attore	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	occupavano	occupare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+21	mobiliate	mobiliato	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Quei signori l'avevano vezzeggiata da bambina, e corteggiata appena s'era fatta adolescente.
+1	Quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	signori	signore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	vezzeggiata	vezzeggiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	bambina	bambina	ADJ	A	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	corteggiata	corteggiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+11	appena	appena	ADV	B	_	14	advmod	_	_
+12	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	SpaceAfter=No
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+15	adolescente	adolescente	NOUN	S	Number=Sing	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Un giovane tenente, che aveva passato più di sei mesi a Milano, le aveva insegnato un po' di francese, usando per libri di testo i romanzi di _Dumas père_.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	giovane	giovane	ADJ	A	Number=Sing	3	amod	_	_
+3	tenente	tenente	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	più	più	ADV	B	_	11	advmod	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	sei	sei	NUM	N	NumType=Card	11	nummod	_	_
+11	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Milano	Milano	PROPN	SP	_	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	17	iobj	_	_
+16	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	po'	poco	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	francese	francese	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	usando	usare	VERB	V	VerbForm=Ger	17	advcl	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	libri	libro	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	testo	testo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	_Dumas	_Dumas	PROPN	SP	_	29	nmod	_	_
+32	père_	père-	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

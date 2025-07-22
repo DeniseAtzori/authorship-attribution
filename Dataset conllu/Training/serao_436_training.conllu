@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ogni tanto si degna benignamente di spiegarvi qualche particolare—perchè l’orco, _alle volte_, è buono—perchè quella era _proprio_ una buona ragazza—e continua, allargando i confini del racconto, inventando, fantasticando, come se creasse.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	tanto	tanto	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	degna	degnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	benignamente	benignamente	ADV	B	_	4	advmod	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	spiegarvi	_	_	_	_	_	_	_	_
+7	spiegar	spiegare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	iobj	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	—	—	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+12	perchè	perché	SCONJ	CS	_	20	mark	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	orco	orco	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	_alle	_allo	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+17	volte_	volte-	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	buono	buono	ADJ	A	Gender=Masc|Number=Sing	7	advcl	_	SpaceAfter=No
+21	—	—	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+22	perchè	perché	SCONJ	CS	_	25	mark	_	_
+23	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	25	nsubj	_	_
+24	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+25	_proprio_	_proprio-	ADJ	NO	NumType=Ord	20	advcl	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	buona	buono	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+28	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+29	—	—	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	allargando	allargare	VERB	V	VerbForm=Ger	31	advcl	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	confini	confine	NOUN	S	Gender=Masc|Number=Plur	33	obj	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	31	punct	_	_
+40	inventando	inventare	VERB	V	VerbForm=Ger	31	advcl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	fantasticando	fantasticare	VERB	V	VerbForm=Ger	40	advcl	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	42	punct	_	_
+44	come	come	ADV	B	_	46	advmod	_	_
+45	se	se	SCONJ	CS	_	46	mark	_	_
+46	creasse	creare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	advcl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Se lo interrompete, si turba, vi dà un’occhiata fra il diffidente e il severo:
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	interrompete	interrompere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	turba	turbare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	occhiata	occhiata	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	fra	fra	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	diffidente	diffidente	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	severo	severo	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = ricomincia, senza badare a quello che gli avete chiesto.
+1	ricomincia	ricominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	senza	senza	ADP	E	_	4	mark	_	_
+4	badare	badare	VERB	V	VerbForm=Inf	1	advcl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+8	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+9	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

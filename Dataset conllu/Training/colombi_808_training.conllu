@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ero tormentata dal pensiero di quella donna abbandonata a sè stessa, con quel gran dolore, in un luogo solitario.
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	tormentata	estormenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	abbandonata	abbandonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	sè	sè	PRON	PE	Person=3|PronType=Prs	9	obl	_	_
+12	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	gran	grande	ADJ	A	Number=Sing	17	amod	_	_
+17	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+22	solitario	solitario	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Pensavo ad alcune mie amiche inconsolabili, che, dopo molti anni, piangono ancora amaramente i figlioletti perduti, e soffrono al vedere un bambino di quell'età.
+1	Pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ad	a	ADP	E	_	5	case	_	_
+3	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+4	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	amiche	amico	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+6	inconsolabili	inconsolabile	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	14	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	dopo	dopo	ADP	E	_	12	case	_	_
+11	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	piangono	piangere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+15	ancora	ancora	ADV	B	_	14	advmod	_	_
+16	amaramente	amaramente	ADV	B	_	14	advmod	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	figlioletti	figlioletto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+19	perduti	perduto	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	soffrono	soffrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vedere	vedere	VERB	V	VerbForm=Inf	22	obl	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	quell'	quello	DET	DD	Number=Sing|PronType=Dem	30	det	_	SpaceAfter=No
+30	età	età	NOUN	S	Gender=Fem	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Pensavo di che compianto, di che doglianze, di che venerazione noi circondiamo quel santo dolore di madre, senza che ci riesca tuttavia di mitigarlo.
+1	Pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	che	che	DET	DQ	PronType=Int	4	det	_	_
+4	compianto	compianto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	che	che	DET	DQ	PronType=Int	8	det	_	_
+8	doglianze	doglianza	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	che	che	DET	DQ	PronType=Int	12	det	_	_
+12	venerazione	venerazione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+13	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	circondiamo	circondare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+15	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	santo	santo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	madre	madre	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	senza	senza	ADP	E	_	24	mark	_	_
+22	che	che	SCONJ	CS	_	21	fixed	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	expl	_	_
+24	riesca	riuscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+25	tuttavia	tuttavia	ADV	B	_	24	advmod	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27-28	mitigarlo	_	_	_	_	_	_	_	SpaceAfter=No
+27	mitigar	mitigare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+28	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

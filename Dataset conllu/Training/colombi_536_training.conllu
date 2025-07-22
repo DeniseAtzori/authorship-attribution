@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Non si sa mai quel che può accadere, suggeriva la mia impazienza.
+1	—	—	PUNCT	FF	_	4	punct	_	_
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mai	mai	ADV	B	_	4	advmod	_	_
+6	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	accadere	accadere	VERB	V	VerbForm=Inf	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	suggeriva	suggerire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	impazienza	impazienza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Potrebbe scrivermi di mettermi in relazione con Tizio, che mi facesse conoscere a Sempronio, che mi presentasse a Caio, che mi conducesse da Martino, il quale fosse incaricato di offrirsi d'introdurmi presso la signora vedova e la miss.
+1	Potrebbe	potere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	scrivermi	scrivermo	NOUN	S	Gender=Masc|Number=Plur	1	xcomp	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	mettermi	mettermo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Tizio	tizio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+12	facesse	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+13	conoscere	conoscere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Sempronio	Sempronio	PROPN	SP	_	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
+19	presentasse	presentare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Caio	caio	PROPN	SP	_	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	6	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+25	conducesse	conducere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	Martino	Martino	PROPN	SP	_	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	6	punct	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	quale	quale	PRON	PR	Number=Sing|PronType=Rel	32	nsubj	_	_
+31	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	incaricato	incaricare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34-35	offrirsi	_	_	_	_	_	_	_	_
+34	offrir	offrire	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+36	d'	di	ADP	E	_	37	case	_	SpaceAfter=No
+37	introdurmi	introdurmo	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+38	presso	presso	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	signora	signore	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+41	vedova	vedovo	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	_
+42	e	e	CCONJ	CC	_	44	cc	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	miss	miss	NOUN	S	Gender=Fem	40	conj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Supposto che tutti quei personaggi avessero qualche altro affare oltre la mia presentazione, ci vorrebbe del tempo a trovarli ed a farli agire;
+1	Supposto	Supporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	avessero	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+7	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+8	altro	altro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	affare	affare	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	oltre	oltre	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	presentazione	presentazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	16	expl	_	_
+16	vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21-22	trovarli	_	_	_	_	_	_	_	_
+21	trovar	trovare	VERB	V	VerbForm=Inf	16	advcl	_	_
+22	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+23	ed	e	CCONJ	CC	_	25	cc	_	_
+24	a	a	ADP	E	_	25	mark	_	_
+25-26	farli	_	_	_	_	_	_	_	_
+25	far	fare	VERB	V	VerbForm=Inf	21	conj	_	_
+26	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+27	agire	agire	VERB	V	VerbForm=Inf	25	ccomp	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 4
+# text = infine è meglio tenersi pronto ad ogni evento.
+1	infine	infine	ADV	B	_	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	meglio	meglio	ADV	B	_	4	advmod	_	_
+4-5	tenersi	_	_	_	_	_	_	_	_
+4	tener	tenere	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	_
+7	ad	a	ADP	E	_	9	case	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	evento	evento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

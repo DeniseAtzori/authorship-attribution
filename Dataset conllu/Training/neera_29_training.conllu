@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All’anima, all’anima volgano le loro cure le donne!
+1-2	All’	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	anima	anima	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	anima	anima	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+8	volgano	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	cure	cura	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = È questa l’ammalata, è questa la povera, è questa la pericolante.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	14	nsubj	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ammalata	ammalato	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	14	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	povera	povera	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	14	nsubj	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	pericolante	pericolante	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Ma l’anima non sta in un diploma conquistato, nè in un gruzzolo di denari contesi all’uomo.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	anima	anima	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	diploma	diploma	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	conquistato	conquistato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	nè	né	CCONJ	CC	_	14	cc	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	gruzzolo	gruzzolo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	denari	denaro	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	contesi	conteso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+18-19	all’	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Poichè, da quando il mondo ebbe una storia, sempre vi furono donne meravigliose di saggezza, non è da ritrovare in escogitazioni nuove il segreto di ciò.
+1	Poichè	Poiché	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	da	da	ADP	E	_	7	mark	_	_
+4	quando	quando	SCONJ	CS	_	3	fixed	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	storia	storia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	sempre	sempre	ADV	B	_	13	advmod	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	furono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	donne	donna	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+15	meravigliose	meraviglioso	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	saggezza	saggezza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+21	da	da	ADP	E	_	22	mark	_	_
+22	ritrovare	ritrovare	VERB	V	VerbForm=Inf	20	ccomp	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	escogitazioni	escogitazione	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+25	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Le donne hanno smarrito la loro via; tornino indietro e la cerchino.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	smarrito	smarrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	via	via	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	9	punct	_	_
+9	tornino	tornare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	indietro	indietro	ADV	B	_	9	advmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	cerchino	cerchino	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

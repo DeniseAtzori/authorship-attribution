@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io direi piuttosto che tutti gli uomini sono eguali in qualunque condizioni si trovino e ciò è, nonchè giusto, chiaro.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	piuttosto	piuttosto	ADV	B	_	7	case	_	_
+4	che	che	ADP	E	_	3	fixed	_	_
+5	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	eguali	eguale	ADJ	A	Number=Plur	2	ccomp	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	trovino	trovare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+15	e	e	CCONJ	CC	_	20	cc	_	_
+16	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	nsubj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	nonchè	nonché	CCONJ	CC	_	20	cc	_	_
+20	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Eguali cioè nella dignità e nella libertà d’uomo.
+1	Eguali	eguale	ADJ	A	Number=Plur	0	root	_	_
+2	cioè	cioè	ADV	B	_	5	advmod	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	dignità	dignità	NOUN	S	Gender=Fem	1	obl	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	libertà	libertà	NOUN	S	Gender=Fem	1	conj	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = A tale riguardo la donna di servizio ha diritto allo stesso rispetto ed alla stessa considerazione della signora ed anche di più se ella è onesta e la signora no.
+1	A	a	ADP	E	_	3	case	_	_
+2	tale	tale	DET	DD	Number=Sing|PronType=Dem	3	det	_	_
+3	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	donna	donna	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+10-11	allo	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	ed	e	CCONJ	CC	_	18	cc	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	signora	signore	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	ed	e	CCONJ	CC	_	29	cc	_	_
+23	anche	anche	ADV	B	_	25	advmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	più	più	ADV	B	_	29	advmod	_	_
+26	se	se	SCONJ	CS	_	29	mark	_	_
+27	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj:pass	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
+29	onesta	onesto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	signora	signore	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+33	no	no	ADV	BN	PronType=Neg	32	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

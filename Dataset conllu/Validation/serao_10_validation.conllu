@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nè avrebbe mai vinto, il giovane presuntuoso, nato troppo tardi, com'egli diceva, per poter fare la patria;
+1	Nè	né	CCONJ	CC	_	4	cc	_	_
+2	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	giovane	giovane	NOUN	S	Number=Sing	4	nsubj	_	_
+8	presuntuoso	presuntuoso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+11	troppo	troppo	ADV	B	_	12	advmod	_	_
+12	tardi	tardi	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	com'	come	SCONJ	CS	_	16	mark	_	SpaceAfter=No
+15	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	per	per	ADP	E	_	20	mark	_	_
+19	poter	potere	AUX	VM	VerbForm=Inf	20	aux	_	_
+20	fare	fare	VERB	V	VerbForm=Inf	10	advcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	patria	patria	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = ma la morte, compiacente alleata, gli aveva procurata facile e piena la vittoria:
+1	ma	ma	CCONJ	CC	_	10	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	morte	morte	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	compiacente	compiacente	ADJ	A	Number=Sing	6	amod	_	_
+6	alleata	alleato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	procurata	procurare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	facile	facile	ADJ	A	Number=Sing	15	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 3
+# text = egli avea trionfato, rendendo omaggio al vecchio patriota defunto.
+1	egli	i	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	avea	avea	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	trionfato	trionfato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	rendendo	rendere	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	patriota	patriota	NOUN	S	Number=Sing	5	obl	_	_
+11	defunto	defunto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E passando presso al camposanto, non provò nel cuore nè pietà, nè invidia pel vecchio milite stanco, che era disceso nella grande serenità della morte.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	passando	passare	VERB	V	VerbForm=Ger	9	advcl	_	_
+3	presso	presso	ADV	B	_	6	advmod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	camposanto	camposanto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	provò	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	nè	nè	CCONJ	CC	_	14	cc	_	_
+14	pietà	pietà	NOUN	S	Gender=Fem	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	nè	né	CCONJ	CC	_	17	cc	_	_
+17	invidia	invidiare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+18-19	pel	_	_	_	_	_	_	_	_
+18	per	per	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	milite	milite	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+22	stanco	stanco	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj:pass	_	_
+25	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux:pass	_	_
+26	disceso	discendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+27-28	nella	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	grande	grande	ADJ	A	Number=Sing	30	amod	_	_
+30	serenità	serenità	NOUN	S	Gender=Fem	26	obl	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	morte	morte	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

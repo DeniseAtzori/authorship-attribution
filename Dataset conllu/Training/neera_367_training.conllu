@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Uno dei sepolcri, collocato a altezza d'uomo, mascherava tutto il corpo di un santo lasciando scoperti i soli piedi, e quei piedi mozzati lo impressionavano come se fossero stati vivi.
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	sepolcri	sepolcro	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	collocato	collocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	mascherava	mascherare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	15	det:predet	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	santo	santo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	lasciando	lasciare	VERB	V	VerbForm=Ger	12	advcl	_	_
+20	scoperti	scoprire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	xcomp	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	soli	solo	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	30	punct	_	_
+25	e	e	CCONJ	CC	_	30	cc	_	_
+26	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	27	det	_	_
+27	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	_
+28	mozzati	mozzato	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+30	impressionavano	impressionare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
+31	come	come	ADV	B	_	35	mark	_	_
+32	se	se	SCONJ	CS	_	31	fixed	_	_
+33	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+34	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	35	cop	_	_
+35	vivi	vivare	ADJ	A	Gender=Masc|Number=Plur	30	advcl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Era strano che gli sembrassero veramente piedi e non pitture di piedi;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	strano	strano	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	sembrassero	sembrare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+6	veramente	veramente	ADV	B	_	7	advmod	_	_
+7	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	pitture	pitture	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = ma le sue sensazioni erano sempre così, profonde e violente.
+1	ma	ma	CCONJ	CC	_	7	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	sensazioni	sensazione	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	così	così	ADV	B	_	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	profonde	profondo	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	violente	violento	ADJ	A	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

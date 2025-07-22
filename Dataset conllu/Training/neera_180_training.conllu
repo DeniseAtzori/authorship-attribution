@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma non è che un delirio.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Le anime, al pari delle umane spoglie, si incontrano, non si fondono, e cessato l’attimo misterioso ognuna di esse si riprende, ritorna sola.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	anime	anima	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pari	pari	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	umane	umano	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	spoglie	spoglia	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	incontrano	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	fondono	fondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	cessato	cessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	misterioso	misterioso	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	ognuna	ognuna	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	22	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	24	nmod	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl:impers	_	_
+28	riprende	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	ritorna	ritornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+31	sola	solo	ADJ	A	Gender=Fem|Number=Sing	30	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Tale fenomeno della psiche è, io credo, il punto di partenza per un volo di sogni e di sensazioni che i giovani facilmente possono scambiare per una divina chiamata.
+1	Tale	tale	DET	DD	Number=Sing|PronType=Dem	2	det	_	_
+2	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	psiche	psica	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	volo	volo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	sogni	sogno	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	sensazioni	sensazione	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+23	che	che	PRON	PR	PronType=Rel	28	obj	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	giovani	giovane	NOUN	S	Number=Plur	28	nsubj	_	_
+26	facilmente	facilmente	ADV	B	_	28	advmod	_	_
+27	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	scambiare	scambiare	VERB	V	VerbForm=Inf	22	acl:relcl	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	divina	divino	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+32	chiamata	chiamata	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

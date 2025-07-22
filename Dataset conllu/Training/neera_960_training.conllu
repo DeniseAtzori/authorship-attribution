@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Morire, morire, morire!
+1	Morire	morire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	morire	morire	VERB	V	VerbForm=Inf	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	morire	morire	VERB	V	VerbForm=Inf	1	conj	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Con questa parola terminava ogni suo soliloquio;
+1	Con	con	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	parola	parola	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	terminava	terminavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	soliloquio	soliloquio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = era diventata la sua ossessione, il suo incubo.
+1	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	ossessione	ossessione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	incubo	incubo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Rimpiangeva continuamente l’ora di passione profonda durante la quale aveva tenuto Ariele sfinito in grembo, suo, tutto suo, in suo pieno dominio, con quelle labbra gelide dove ella aveva soffiata la propria vita, dove avrebbe potuto accostare la morte e morire con lui e sparire per sempre nel vortice oscuro dell’al di là, insieme.
+1	Rimpiangeva	Rimpiangere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	continuamente	continuo	ADV	B	_	1	advmod	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	passione	passione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	durante	durante	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	quale	quale	PRON	PR	Number=Sing|PronType=Rel	12	obl	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+13	Ariele	Ariele	PROPN	SP	_	12	obj	_	_
+14	sfinito	sfinire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	grembo	grembo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	1	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	conj	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+25	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	dominio	dominio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	30	det	_	_
+30	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+31	gelide	gelide	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+32	dove	dove	ADV	B	_	35	advmod	_	_
+33	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+35	soffiata	soffiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	38	det:poss	_	_
+38	vita	vita	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	dove	dove	ADV	B	_	43	advmod	_	_
+41	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+42	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	aux	_	_
+43	accostare	accostare	VERB	V	VerbForm=Inf	38	acl:relcl	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	morte	morte	NOUN	S	Gender=Fem|Number=Sing	43	obj	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	morire	morire	VERB	V	VerbForm=Inf	43	conj	_	_
+48	con	con	ADP	E	_	49	case	_	_
+49	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	obl	_	_
+50	e	e	CCONJ	CC	_	51	cc	_	_
+51	sparire	sparire	VERB	V	VerbForm=Inf	47	conj	_	_
+52	per	per	ADP	E	_	53	case	_	_
+53	sempre	sempre	ADV	B	_	51	advmod	_	_
+54-55	nel	_	_	_	_	_	_	_	_
+54	in	in	ADP	E	_	56	case	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	vortice	vortice	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	_
+57	oscuro	oscuro	ADJ	A	Gender=Masc|Number=Sing	56	amod	_	_
+58-59	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+58	di	di	ADP	E	_	63	case	_	_
+59	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	63	det	_	_
+60-61	al	_	_	_	_	_	_	_	_
+60	a	a	ADP	E	_	63	case	_	_
+61	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+62	di	di	ADP	E	_	63	case	_	_
+63	là	là	ADV	B	_	56	nmod	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	51	punct	_	_
+65	insieme	insieme	ADV	B	_	35	advmod	_	SpaceAfter=No
+66	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

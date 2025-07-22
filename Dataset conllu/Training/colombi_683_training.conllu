@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dio!
+1	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = se ho dovuto udirne, e farne, delle esclamazioni su quel miserrimo caso!
+1	se	se	SCONJ	CS	_	4	mark	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4-5	udirne	_	_	_	_	_	_	_	SpaceAfter=No
+4	udir	udire	VERB	V	VerbForm=Inf	0	root	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8-9	farne	_	_	_	_	_	_	_	SpaceAfter=No
+8	far	fare	VERB	V	VerbForm=Inf	4	conj	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	esclamazioni	esclamazione	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+14	su	su	ADP	E	_	17	case	_	_
+15	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	miserrimo	miserrimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	_
+17	caso	caso	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = E se n'ho ascoltate delle ammirazioni per quel giovane coraggioso, che s'accontentava di quella condizione finchè non gli capitasse di meglio!
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ascoltate	ascoltare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	ammirazioni	ammirazioni	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	giovane	giovane	NOUN	S	Number=Sing	8	nmod	_	_
+12	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	SpaceAfter=No
+16	accontentava	accontentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	finchè	finché	SCONJ	CS	_	23	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+23	capitasse	capitare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	meglio	meglio	ADV	B	_	23	advmod	_	SpaceAfter=No
+26	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = La contessa pietosa gli aveva offerta una cameruccia con pochi mobili in una sua casa che affittava ad operai, tanto per risparmiargli la spesa della pigione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	contessa	contessa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	pietosa	pietoso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	offerta	offrire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cameruccia	cameruccia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	mobili	mobile	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	affittava	affittare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+18	ad	a	ADP	E	_	19	case	_	_
+19	operai	operaio	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	6	punct	_	_
+21	tanto	tanto	ADV	B	_	23	advmod	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23-24	risparmiargli	_	_	_	_	_	_	_	_
+23	risparmiar	risparmiare	VERB	V	VerbForm=Inf	6	advcl	_	_
+24	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	pigione	pigione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

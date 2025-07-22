@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La prima che conobbi diceva d'appartenere ad una famiglia patrizia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	conobbi	conobbo	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+5	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+6	d'	di	ADP	E	_	7	mark	_	SpaceAfter=No
+7	appartenere	appartenere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	ad	a	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	patrizia	patrizio	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non ho mai cercato dì verificare la sua nobiltà, ma avrebbe potuto essere autentica, perchè non è raro il caso di nobili decadute che sbarcano magramente i loro ultimi lunari, facendo l'affittacamere.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	dì	dì	CCONJ	CC	_	6	cc	_	_
+6	verificare	verificare	VERB	V	VerbForm=Inf	4	conj	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	nobiltà	nobiltà	NOUN	S	Gender=Fem	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ma	ma	CCONJ	CC	_	15	cc	_	_
+12	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux	_	_
+14	essere	essere	AUX	V	VerbForm=Inf	15	cop	_	_
+15	autentica	autentico	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	perchè	perché	SCONJ	CS	_	20	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	raro	raro	ADJ	A	Gender=Masc|Number=Sing	6	advcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	caso	caso	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	nobili	nobile	ADJ	A	Number=Plur	25	amod	_	_
+25	decadute	decaduta	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	sbarcano	sbarcare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	magramente	magro	ADV	B	_	27	advmod	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+30	loro	loro	DET	AP	Poss=Yes|PronType=Prs	32	det:poss	_	_
+31	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+32	lunari	lunario	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	6	punct	_	_
+34	facendo	fare	VERB	V	VerbForm=Ger	6	advcl	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	affittacamere	affittacamera	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ad ogni modo però, il sangue azzurro doveva averlo avuto soltanto dalla madre, dacchè si chiamava borghesemente signora Giuditta, e viveva d'una piccola pensione che le pagava il governo come figlia d'impiegato governativo, sebbene ai tempi remoti di suo padre, Milano fosse ancora sotto il governo austriaco.
+1	Ad	a	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4	però	però	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8	azzurro	azzurro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+10-11	averlo	_	_	_	_	_	_	_	_
+10	aver	avere	AUX	VA	VerbForm=Inf	12	aux	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	soltanto	soltanto	ADV	B	_	16	advmod	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	madre	madre	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	12	punct	_	_
+18	dacchè	dacché	SCONJ	CS	_	20	mark	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+21	borghesemente	borghesemente	ADV	B	_	22	advmod	_	_
+22	signora	signore	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+23	Giuditta	Giuditto	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+27	d'	di	ADP	E	_	30	case	_	SpaceAfter=No
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+33	pagava	pagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	governo	governo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+36	come	come	ADP	E	_	37	case	_	_
+37	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+38	d'	di	ADP	E	_	39	case	_	SpaceAfter=No
+39	impiegato	impiegato	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40	governativo	governativo	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	56	punct	_	_
+42	sebbene	sebbene	CCONJ	CC	_	56	cc	_	_
+43-44	ai	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	45	case	_	_
+44	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	56	obl	_	_
+46	remoti	remoto	ADJ	A	Gender=Masc|Number=Plur	45	amod	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	padre	padre	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	45	punct	_	_
+51	Milano	Milano	PROPN	SP	_	56	nsubj	_	_
+52	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	56	cop	_	_
+53	ancora	ancora	ADV	B	_	56	advmod	_	_
+54	sotto	sotto	ADP	E	_	56	case	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	governo	governo	NOUN	S	Gender=Masc|Number=Sing	40	conj	_	_
+57	austriaco	austriaco	ADJ	A	Gender=Masc|Number=Sing	56	amod	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

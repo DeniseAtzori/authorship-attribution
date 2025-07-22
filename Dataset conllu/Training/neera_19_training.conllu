@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È come se si spezzassero le stelle per farne dei fanali;
+1	È	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	SCONJ	CS	_	5	mark	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+5	spezzassero	spezzare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9-10	farne	_	_	_	_	_	_	_	_
+9	far	fare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	fanali	fanale	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = le case degli uomini non ne sarebbero abbastanza illuminate e mancherebbe al cielo il suo splendore.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	case	casa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+8	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	abbastanza	abbastanza	ADV	B	_	10	advmod	_	_
+10	illuminate	illuminascere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	mancherebbe	manchare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	splendore	splendore	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non è pertanto giusto incolpare unicamente il sesso che una volta dicevasi gentile e che aspira a farsi chiamare forte, di una malattia che è generale.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	pertanto	pertanto	ADV	B	_	4	advmod	_	_
+4	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	incolpare	incolpare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	_
+6	unicamente	unico	ADV	B	_	5	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	dicevasi	dicevaso	ADV	B	_	13	advmod	_	_
+13	gentile	gentile	ADJ	A	Number=Sing	11	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	aspira	aspirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18-19	farsi	_	_	_	_	_	_	_	_
+18	far	fare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20	chiamare	chiamare	VERB	V	VerbForm=Inf	18	ccomp	_	_
+21	forte	forte	ADJ	A	Number=Sing	20	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	generale	generale	ADJ	A	Number=Sing	25	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

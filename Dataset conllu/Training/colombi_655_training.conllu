@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dopo d'allora erano passati molti anni.
+1	Dopo	dopo	ADV	B	_	5	advmod	_	_
+2	d'	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	allora	allora	ADV	B	_	5	advmod	_	_
+4	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il padre era morto, lasciando gli affari del negozio in cattivo stato;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	lasciando	lasciare	VERB	V	VerbForm=Ger	4	advcl	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	affari	affare	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	stato	stato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = e le due sorelle, invecchiate, s'erano trovate povere colla madre cieca, e s'erano ritirate nella casa del prete, dove, per dodici anni, avevano fatto la stessa vita di lavoro e di reclusione solitaria.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	invecchiate	invecchiare	NOUN	S	Gender=Fem|Number=Plur	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	SpaceAfter=No
+9	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	trovate	trovare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11	povere	povero	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+12	colla	colla	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	madre	madre	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+14	cieca	cieco	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	SpaceAfter=No
+18	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	ritirate	ritirare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	casa	casa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	prete	prete	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	dove	dove	ADV	B	_	34	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	dodici	dodici	NUM	N	NumType=Card	31	nummod	_	_
+31	anni	anno	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	aux	_	_
+34	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+37	vita	vita	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40	e	e	CCONJ	CC	_	42	cc	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	reclusione	reclusione	NOUN	S	Gender=Fem|Number=Sing	39	conj	_	_
+43	solitaria	solitario	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

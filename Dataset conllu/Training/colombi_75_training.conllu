@@ -1,0 +1,139 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi vennero i discorsi musicali.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	vennero	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	musicali	musicale	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La Contessa era nervosa; voleva che le opere si musicassero su libretti in prosa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Contessa	Contessa	PROPN	SP	_	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	nervosa	nervoso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	6	punct	_	_
+6	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	opere	opera	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	musicassero	musicare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+12	su	su	ADP	E	_	13	case	_	_
+13	libretti	libretto	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	prosa	prosa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = La poesia era una puerilità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	puerilità	puerilità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Perchè misurare il pensiero sopra un metro, contarci le parole, fissarci le cadenze?
+1	Perchè	perché	ADV	B	_	2	advmod	_	_
+2	misurare	misurare	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	sopra	sopra	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	metro	metro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9-10	contarci	_	_	_	_	_	_	_	_
+9	contar	contare	VERB	V	VerbForm=Inf	2	conj	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	iobj	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	parole	parola	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14-15	fissarci	_	_	_	_	_	_	_	_
+14	fissar	fissare	VERB	V	VerbForm=Inf	2	conj	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	iobj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	cadenze	cadenza	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Questo era ufficio della musica.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	musica	musica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ed anche essa doveva essere semplice, naturale, senz'artificio;
+1	Ed	e	CCONJ	CC	_	6	cc	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+6	semplice	semplice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	naturale	naturale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	senz'	senza	ADP	E	_	11	case	_	SpaceAfter=No
+11	artificio	artificio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 7
+# text = un lungo recitativo, filato, drammatico.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	recitativo	recitativo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	filato	filato	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Lì sui due piedi, ridusse in prosa da parodia, la CELESTE AIDA ed il CIEL O MAR! della Gioconda, e volle che Fausto cantasse le sue arie così.
+1	Lì	lì	ADV	B	_	7	advmod	_	_
+2-3	sui	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	ridusse	ridurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	prosa	prosa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	parodia	parodia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	CELESTE	celesta	ADJ	A	Number=Sing	15	amod	_	_
+15	AIDA	AIDA	PROPN	SP	_	7	obj	_	_
+16	ed	e	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	CIEL	CIEL	PROPN	SP	_	15	conj	_	_
+19	O	o	PROPN	SP	_	18	flat:name	_	_
+20	MAR	Mar	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+21	!	!	PUNCT	FS	_	18	punct	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Gioconda	Gioconda	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+28	che	che	SCONJ	CS	_	30	mark	_	_
+29	Fausto	Fausto	PROPN	SP	_	30	nsubj	_	_
+30	cantasse	cantare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	ccomp	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+32	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	arie	aria	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+34	così	così	ADV	B	_	30	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

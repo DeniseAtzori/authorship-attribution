@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ebbene, a traverso a questa dedizione della mia persona, dei miei pensieri, dei miei sentimenti, io ho scorto, in un cantuccio del mio spirito, un pensiero solitario, talvolta latente, ma costante:
+1	Ebbene	ebbene	ADV	B	_	25	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	traverso	traverso	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	obl	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	dedizione	dedizione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	persona	persona	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	sentimenti	sentimento	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	4	punct	_	_
+23	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	scorto	scorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cantuccio	cantuccio	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	25	punct	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+37	solitario	solitario	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	36	punct	_	_
+39	talvolta	talvolta	ADV	B	_	40	advmod	_	_
+40	latente	latente	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	43	punct	_	_
+42	ma	ma	CCONJ	CC	_	43	cc	_	_
+43	costante	costante	ADJ	A	Number=Sing	40	conj	_	SpaceAfter=No
+44	:	:	PUNCT	FC	_	36	punct	_	_
+
+# sent_id = 2
+# text = il pensiero di voi.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non già che vi amassi, mentre ne amavo un'altra.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	già	già	ADV	B	_	5	advmod	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	vi	vi	ADV	B	_	5	advmod	_	_
+5	amassi	amare	ADJ	A	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	mentre	mentre	CCONJ	CC	_	9	cc	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	amavo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = No.
+1	No	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ma mi occupavo di voi, ma vi seguivo in tutte le evoluzioni della vostra vita, ma nulla di quello che facevate voi, mi era indifferente.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	occupavo	occupare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	vi	vi	ADV	B	_	9	advmod	_	_
+9	seguivo	seguire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	13	det:predet	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	evoluzioni	evoluzione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	29	punct	_	_
+19	ma	ma	CCONJ	CC	_	29	cc	_	_
+20	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	29	nsubj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+24	facevate	facevare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	24	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	20	punct	_	_
+27	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	iobj	_	_
+28	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+29	indifferente	indifferente	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

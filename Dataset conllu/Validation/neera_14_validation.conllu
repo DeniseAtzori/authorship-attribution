@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "La prima persona che lesse l'anonima storia raccolta in questi fogli fu mia madre.
+1	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	persona	persona	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	lesse	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	anonima	anonimo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	raccolta	raccolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	fogli	foglio	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	madre	madre	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = Io la posi sul suo grembo il giorno del mio ritorno ed ella mi disse poi che ne era rimasta molto colpita e commossa.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	posi	posi	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	grembo	grembo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	ed	e	CCONJ	CC	_	17	cc	_	_
+15	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+18	poi	poi	ADV	B	_	17	advmod	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+23	molto	molto	ADV	B	_	24	advmod	_	_
+24	colpita	colpito	ADJ	A	Gender=Fem|Number=Sing	22	xcomp	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	commossa	commossa	ADJ	A	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Si fecero insieme delle induzioni, ma senza poter stabilire precisamente nulla, nè sulle persone, nè sui luoghi, nè sul tempo.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	insieme	insieme	ADV	B	_	2	advmod	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	induzioni	induzione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	senza	senza	ADP	E	_	11	mark	_	_
+10	poter	potere	AUX	VM	VerbForm=Inf	11	aux	_	_
+11	stabilire	stabilire	VERB	V	VerbForm=Inf	2	conj	_	_
+12	precisamente	preciso	ADV	B	_	11	advmod	_	_
+13	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	nè	né	CCONJ	CC	_	18	cc	_	_
+16-17	sulle	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	persone	persona	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	nè	né	CCONJ	CC	_	23	cc	_	_
+21-22	sui	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	28	punct	_	_
+25	nè	né	CCONJ	CC	_	28	cc	_	_
+26-27	sul	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Dopo tutto il vecchio aveva ragione.
+1	Dopo	dopo	ADP	E	_	4	case	_	_
+2	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	4	det:predet	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Che cosa importa?"
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	SpacesAfter=\n
+

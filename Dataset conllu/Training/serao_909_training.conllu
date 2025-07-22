@@ -1,0 +1,143 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ah, quale sussulto, lo scosse!
+1	Ah	ah	INTJ	I	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quale	quale	DET	DQ	Number=Sing|PronType=Int	4	det	_	_
+4	sussulto	sussugliere	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	scosse	scosso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ella che aveva sempre trovato antipatico, brutto, volgare il suo nome di battesimo, tanto che egli aveva finito per odiarlo, ella lo pronunciava adesso, dopo dieci anni, con tanta soavità!
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	antipatico	antipatico	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	volgare	volgare	VERB	V	VerbForm=Inf	28	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	nome	nome	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	battesimo	battesimo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	tanto	tanto	ADV	B	_	10	advmod	_	_
+18	che	che	SCONJ	CS	_	21	mark	_	_
+19	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23-24	odiarlo	_	_	_	_	_	_	_	SpaceAfter=No
+23	odiar	odiare	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	,	,	PUNCT	FF	_	10	punct	_	_
+26	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+28	pronunciava	pronunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	adesso	adesso	ADV	B	_	28	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	28	punct	_	_
+31	dopo	dopo	ADP	E	_	33	case	_	_
+32	dieci	dieci	NUM	N	NumType=Card	33	nummod	_	_
+33	anni	anno	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	28	punct	_	_
+35	con	con	ADP	E	_	37	case	_	_
+36	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	37	det	_	_
+37	soavità	soavità	NOUN	S	Gender=Fem	28	obl	_	SpaceAfter=No
+38	!	!	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 3
+# text = Egli s'inchinò e le baciò la mano, leggermente.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+3	inchinò	inchinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	iobj	_	_
+6	baciò	baciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mano	mano	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	leggermente	leggermente	ADV	B	_	6	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Si guardarono: ella volse le spalle;
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	guardarono	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	volse	vogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = pian piano entrò nel portone, cominciò a salire le scale.
+1	pian	pian	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	piano	piano	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	portone	portone	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	salire	salire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	scale	scala	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Non era forse incerto il passo della donna, salendo per quelle scale, alla sua casa deserta?
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	forse	forse	ADV	B	_	4	advmod	_	_
+4	incerto	incrire	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	passo	passo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	salendo	salire	VERB	V	VerbForm=Ger	4	advcl	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+14	scale	scale	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+20	deserta	deserto	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Il passo dell'uomo era incerto, andando alla sua casa deserta.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	passo	passo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	incerto	incerto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	andando	andare	VERB	V	VerbForm=Ger	7	advcl	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	deserta	deserto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

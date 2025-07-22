@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tanto che giunto verso piazza del Popolo, fu preso, nella mitezza sentimentale della sua debole natura, da un furore di morte.
+1	Tanto	tanto	ADV	B	_	3	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+4	verso	verso	ADP	E	_	5	case	_	_
+5	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Popolo	Popolo	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mitezza	mitezza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	sentimentale	sentimentale	ADJ	A	Number=Sing	15	amod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	21	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+20	debole	debole	ADJ	A	Number=Sing	21	amod	_	_
+21	natura	natura	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	11	punct	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	furore	furore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	morte	morte	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Andò contro un pesante _omnibus_ di albergo che correva, per farsi arrotare: ma il cocchiere lo schivò bestemmiando, gridando.
+1	Andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	contro	contro	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pesante	pesante	NOUN	S	Number=Sing	1	obl	_	_
+5	_omnibus_	ExtraSubj=Yes|_omnibus_	PUNCT	FB	_	1	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	correva	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	farsi	_	_	_	_	_	_	_	_
+12	far	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	arrotare	arrotare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	1	punct	_	_
+16	ma	ma	CCONJ	CC	_	20	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cocchiere	cocchiere	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	schivò	schivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+21	bestemmiando	bestemmiare	VERB	V	VerbForm=Ger	20	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	gridando	gridare	VERB	V	VerbForm=Ger	21	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = A quell'ora, in quella giornata umida e triste di marzo, fuori porta del Popolo non vi era quasi nessuno:
+1	A	a	ADP	E	_	3	case	_	_
+2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+8	umida	umido	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	triste	triste	ADJ	A	Number=Sing	8	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	fuori	fuori	ADV	B	_	15	advmod	_	_
+15	porta	porta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Popolo	Popolo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
+21	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+22	quasi	quasi	ADV	B	_	23	advmod	_	_
+23	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 4
+# text = e quella crescente solitudine lo calmò un poco, mentre si metteva per il fangoso marciapiede che per la via Flaminia, lungo i colli Parioli, porta a Ponte Molle.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	crescente	crescente	ADJ	A	Number=Sing	4	amod	_	_
+4	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	calmò	calmare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	poco	poco	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	mentre	mentre	SCONJ	CS	_	12	mark	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fangoso	fangoso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	marciapiede	marciapiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	via	via	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	Flaminia	Flaminia	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	lungo	lungo	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	colli	colle	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+26	Parioli	Parioli	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	20	punct	_	_
+28	porta	porta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	Ponte	Ponte	PROPN	SP	_	28	obl	_	_
+31	Molle	Molle	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

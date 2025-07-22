@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il signor Pompeo sospese di parlare per gettare un'occhiatina di sbieco sopra alcuni foglietti che l'altro s'era levati di tasca e che stava riempiendo di note.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	signor	signore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Pompeo	Pompeo	PROPN	SP	_	2	nmod	_	_
+4	sospese	sospese	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	parlare	parlare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	gettare	gettare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	occhiatina	occhiatina	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	sbieco	sbieco	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	sopra	sopra	ADP	E	_	15	case	_	_
+14	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	foglietti	foglietto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	_
+19	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	levati	levare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	tasca	tasca	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	riempiendo	riempire	VERB	V	VerbForm=Ger	21	conj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	note	nota	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Il signor Pompeo lo conosceva benissimo, perchè era stato suo scolaro e lo aveva bocciato parecchie volte, ma ora essendosi messo a fare il critico d'arte gli incuteva una specie di soggezione dietro la quale stava pure l'ansia di vedersi quando che sia citato su per le gazzette.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	signor	signore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Pompeo	Pompeo	PROPN	SP	_	2	nmod	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	benissimo	bene	ADV	B	Degree=Abs	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	perchè	perché	SCONJ	CS	_	12	mark	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	scolaro	scolaro	NOUN	S	Gender=Masc|Number=Sing	5	advcl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	bocciato	bocciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+17	parecchie	parecchio	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+18	volte	volta	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	32	punct	_	_
+20	ma	ma	CCONJ	CC	_	32	cc	_	_
+21	ora	ora	ADV	B	_	24	advmod	_	_
+22-23	essendosi	_	_	_	_	_	_	_	_
+22	essendo	essere	AUX	V	VerbForm=Ger	24	aux	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	advcl	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	fare	fare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	critico	critico	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	d'	di	ADP	E	_	30	case	_	SpaceAfter=No
+30	arte	arte	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	iobj	_	_
+32	incuteva	incutere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	specie	specie	NOUN	S	Gender=Fem	32	obj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	soggezione	soggezione	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+37	dietro	dietro	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	quale	quale	PRON	PR	Number=Sing|PronType=Rel	40	obl	_	_
+40	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	acl:relcl	_	_
+41	pure	pure	ADV	B	_	40	advmod	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
+43	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	40	obj	_	_
+44	di	di	ADP	E	_	45	mark	_	_
+45-46	vedersi	_	_	_	_	_	_	_	_
+45	veder	vedere	VERB	V	VerbForm=Inf	43	acl	_	_
+46	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	45	expl	_	_
+47	quando	quando	SCONJ	CS	_	50	mark	_	_
+48	che	che	SCONJ	CS	_	50	mark	_	_
+49	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux:pass	_	_
+50	citato	citare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	advcl	_	_
+51	su	su	ADV	B	_	50	advmod	_	_
+52	per	per	ADP	E	_	54	case	_	_
+53	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
+54	gazzette	gazzetta	NOUN	S	Gender=Fem|Number=Plur	50	obl	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tuttavia i genitori, cui sapevano male che venisse proprio su _il signor nessuno_, ed avrebbero voluto udirlo chiamare il signor avvocato o il signor dottore, battevano e ribattevano il chiodo dello studio.
+1	Tuttavia	tuttavia	ADV	B	_	30	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	cui	cui	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	sapevano	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	male	male	ADV	B	_	6	advmod	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	venisse	venire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+10	proprio	proprio	ADV	B	_	9	advmod	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	_il	_il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	signor	signore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	nessuno_	nessuno-	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	ed	e	CCONJ	CC	_	19	cc	_	_
+17	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	aux	_	_
+19-20	udirlo	_	_	_	_	_	_	_	_
+19	udir	udire	VERB	V	VerbForm=Inf	9	conj	_	_
+20	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	chiamare	chiamare	VERB	V	VerbForm=Inf	19	advcl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	signor	signore	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	23	compound	_	_
+25	o	o	CCONJ	CC	_	27	cc	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	signor	signore	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+28	dottore	dottore	NOUN	S	Gender=Masc|Number=Sing	27	compound	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	3	punct	_	_
+30	battevano	battere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	ribattevano	ribattere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	conj	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	chiodo	chiodo	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+35-36	dello	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	studio	studio	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 2
+# text = Allora Leonardo, che aveva ormai diciotto anni, ed era dotato d'una volontà energica, accampò il Codice che gli dava diritto ad essere emancipato.
+1	Allora	allora	ADV	B	_	2	advmod	_	_
+2	Leonardo	Leonardo	PROPN	SP	_	18	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	ormai	ormai	ADV	B	_	5	advmod	_	_
+7	diciotto	diciotto	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ed	e	CCONJ	CC	_	12	cc	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	dotato	dotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+13	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	volontà	volontà	NOUN	S	Gender=Fem	12	obl	_	_
+16	energica	energico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	accampò	accampare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Codice	Codice	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+23	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+24	diritto	diritto	ADV	B	_	23	advmod	_	_
+25	ad	a	ADP	E	_	27	mark	_	_
+26	essere	essere	AUX	VA	VerbForm=Inf	27	aux:pass	_	_
+27	emancipato	emancipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

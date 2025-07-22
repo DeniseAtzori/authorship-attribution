@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Allontanai di là il mio povero amico;
+1	Allontanai	Allontanai	ADV	B	_	7	advmod	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	là	là	ADV	B	_	1	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	povero	povero	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	amico	amico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = lo ricondussi ad Intra; cercai di distrarlo; ma fu inutile.
+1	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	ricondussi	ricondutere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	ad	a	ADP	E	_	4	case	_	_
+4	Intra	Intra	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	6	punct	_	_
+6	cercai	cercare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	distrarlo	_	_	_	_	_	_	_	SpaceAfter=No
+8	distrar	distrarre	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	;	;	PUNCT	FC	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	inutile	inutile	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Teneva sempre gli occhi fissi su quella mano tatuata e stava zitto delle ore guardandola.
+1	Teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	B	_	1	advmod	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	fissi	figgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	mano	mano	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	tatuata	tatuare	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	zitto	zitto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	ore	ora	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16	guardandola	guardandolo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Lo indussi a venire con me a fare un giro artistico in Isvizzera sperando che quella natura pittoresca, ridestando in lui le inspirazioni dell'arte, mitigasse l'intensità del suo dolore.
+1	Lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	indussi	indusso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	venire	venire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giro	giro	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	artistico	artistico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Isvizzera	Isvizzera	PROPN	SP	_	10	nmod	_	_
+14	sperando	sperare	VERB	V	VerbForm=Ger	8	advcl	_	_
+15	che	che	SCONJ	CS	_	29	mark	_	_
+16	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	natura	natura	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+18	pittoresca	pittoresco	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	ridestando	ridestare	VERB	V	VerbForm=Ger	29	advcl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	inspirazioni	inspirazione	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	arte	arte	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	20	punct	_	_
+29	mitigasse	mitigare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	ccomp	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	intensità	intensità	NOUN	S	Gender=Fem	29	obj	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bisognò chiamare il medico, il vecchio medico di sua sorella Rosa, che era sempre in cura pel suo fegato.
+1	Bisognò	Bisognò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	chiamare	chiamare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	medico	medico	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	medico	medico	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	Rosa	Rosa	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+16	sempre	sempre	ADV	B	_	18	advmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	cura	cura	NOUN	S	Gender=Fem|Number=Sing	8	acl:relcl	_	_
+19-20	pel	_	_	_	_	_	_	_	_
+19	per	per	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	fegato	fegato	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Per disgrazia, appunto quel giorno il medico era a letto con un'infreddatura.
+1	Per	per	ADP	E	_	2	case	_	_
+2	disgrazia	disgrazia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	appunto	appunto	ADV	B	_	6	advmod	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	medico	medico	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	letto	letto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	infreddatura	infreddatura	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Gli altri erano tutti in giro per le visite mattutine;
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	giro	giro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	visite	visita	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	mattutine	mattutino	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = e nè in casa nè alle farmacie si potevano trovare.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	nè	né	CCONJ	CC	_	4	cc	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+5	nè	né	CCONJ	CC	_	8	cc	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	farmacie	farmacia	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	trovare	trovare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Intanto la ragazza dava in ismanie, pareva che impazzisse.
+1	Intanto	intanto	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	ismanie	ismania	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	impazzisse	impazzire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

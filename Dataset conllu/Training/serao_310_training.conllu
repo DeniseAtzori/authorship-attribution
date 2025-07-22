@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E neppure gli uomini amava miss Geraldina.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	neppure	neppure	ADV	BN	PronType=Neg	5	advmod	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	miss	miss	PROPN	SW	Foreign=Yes	5	obj	_	_
+7	Geraldina	Geraldino	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Sfuggiva la loro compagnia, sempre, dovunque;
+1	Sfuggiva	Sfuggire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	sempre	sempre	ADV	B	_	1	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	dovunque	dovunque	ADV	B	_	1	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = sfuggiva le presentazioni, le nuove conoscenze.
+1	sfuggiva	sfuggire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	presentazioni	presentazione	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	conoscenze	conoscenza	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Essa non credeva alla loro bontà, quando le si mostravano premurosi e cortesi:
+1	Essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	credeva	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	bontà	bontà	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	quando	quando	SCONJ	CS	_	13	mark	_	_
+10	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	mostravano	mostrare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	premurosi	premuroso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	cortesi	corteso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	conj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 5
+# text = pensava che lo facessero per interesse e li disprezzava;
+1	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	facessero	fare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	disprezzava	disprezzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = pensava che lo facessero per pietà e ne aveva sdegno.
+1	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	facessero	fare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	pietà	pietà	NOUN	S	Gender=Fem	4	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+10	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma i deputati nuovi erano i più turbati:
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+4	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	turbati	turbato	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = quell'apparato reale e parlamentare, quel pubblico femminile e maschile, quel messaggio del re, il giuramento degli altri deputati, tutto questo ne scoteva i nervi.
+1	quell'	quello	DET	DD	Number=Sing|PronType=Dem	2	det	_	SpaceAfter=No
+2	apparato	apparato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	reale	reale	ADJ	A	Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	parlamentare	parlamentare	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	femminile	femminile	ADJ	A	Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	maschile	maschile	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	re	re	NOUN	S	Gender=Masc	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	giuramento	giuramento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+21-22	degli	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	altri	altro	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	deputati	deputato	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	29	punct	_	_
+26	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+27	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	29	nsubj	_	_
+28	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	29	iobj	_	_
+29	scoteva	scotere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	nervi	nervo	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E coloro che si erano preparati a farla da persone spiritose, a giurar come se nulla fosse, tremavano d'impazienza, mentre il loro nome si approssimava, e poi cavavano un fil di voce che faceva, sorridere il vicino e che la folla non arrivava a udire.
+1	E	e	CCONJ	CC	_	21	cc	_	_
+2	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	21	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	preparati	preparare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8-9	farla	_	_	_	_	_	_	_	_
+8	far	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	persone	persona	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	spiritose	spiritoso	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	giurar	giurare	VERB	V	VerbForm=Inf	8	conj	_	_
+16	come	come	ADV	B	_	19	advmod	_	_
+17	se	se	SCONJ	CS	_	19	mark	_	_
+18	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	19	nsubj	_	_
+19	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	tremavano	tremare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+22	d'	di	ADP	E	_	23	case	_	SpaceAfter=No
+23	impazienza	impazienza	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	mentre	mentre	SCONJ	CS	_	30	mark	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	loro	loro	DET	AP	Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	nome	nome	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+30	approssimava	approssimare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	poi	poi	ADV	B	_	34	advmod	_	_
+34	cavavano	cavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	conj	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	fil	fil	NOUN	S	Gender=Masc	34	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	voce	voce	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+39	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+40	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	acl:relcl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	42	punct	_	_
+42	sorridere	sorridere	VERB	V	VerbForm=Inf	40	conj	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	vicino	vicino	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	_
+45	e	e	CCONJ	CC	_	50	cc	_	_
+46	che	che	SCONJ	CS	_	50	mark	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	folla	folla	NOUN	S	Gender=Fem|Number=Sing	50	nsubj	_	_
+49	non	non	ADV	BN	PronType=Neg	50	advmod	_	_
+50	arrivava	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	conj	_	_
+51	a	a	ADP	E	_	52	mark	_	_
+52	udire	udire	VERB	V	VerbForm=Inf	50	xcomp	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La mattina si alzò dal letto scoraggiata, disillusa, ma calma come una donna ragionevole.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	letto	letto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	scoraggiata	scoraggiato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	disillusa	disilluso	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	calma	calmare	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	donna	donna	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	ragionevole	ragionevole	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Le faceva male di rinunciare a quell'ultima illusione.
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	male	male	ADV	B	_	5	mark	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	rinunciare	rinunciare	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	quell'	quello	DET	DD	Number=Sing|PronType=Dem	9	det	_	SpaceAfter=No
+8	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Era l'ultima.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Aveva già creduto di non poter averne più.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	già	già	ADV	B	_	3	advmod	_	_
+3	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	poter	potere	AUX	VM	VerbForm=Inf	7	aux	_	_
+7-8	averne	_	_	_	_	_	_	_	_
+7	aver	avere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+9	più	più	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Poi sul suo orizzonte grigio di madre, di vedova, era apparsa quell'ultima striscia rosea di crepuscolo, quell'ultimo bagliore di luce, quell'ultimo saluto di sole.
+1	Poi	poi	ADV	B	_	14	advmod	_	_
+2-3	sul	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	orizzonte	orizzonte	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+6	grigio	grigio	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	madre	madre	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	vedova	vedova	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	apparsa	apparire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	quell'	quello	DET	DD	Number=Sing|PronType=Dem	17	det	_	SpaceAfter=No
+16	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	striscia	striscia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+18	rosea	roseo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	crepuscolo	crepuscolo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	quell'	quello	DET	DD	Number=Sing|PronType=Dem	24	det	_	SpaceAfter=No
+23	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	24	amod	_	_
+24	bagliore	bagliore	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	luce	luce	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	14	punct	_	_
+28	quell'	quello	DET	DD	Number=Sing|PronType=Dem	30	det	_	SpaceAfter=No
+29	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	30	amod	_	_
+30	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	sole	sole	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

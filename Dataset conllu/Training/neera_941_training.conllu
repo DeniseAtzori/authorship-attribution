@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quante occasioni mancate!
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2	occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	mancate	mancare	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Che struggimento del bene perduto!
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	struggimento	struggimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bene	bene	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	perduto	perduto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Finalmente una notte in cui la fantasia eccitata e i nervi tesi gli rendono più che mai imperioso il bisogno della felicità, passando da una via sconosciuta, si trova dinanzi ad una impalcatura che sembra un muro bianco segnato da una porta verde.
+1	Finalmente	finalmente	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+8	eccitata	eccitato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	nervi	nervo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+12	tesi	tesi	ADJ	A	Number=Plur	11	amod	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	che	che	ADP	E	_	18	case	_	_
+17	mai	mai	ADV	B	_	18	advmod	_	_
+18	imperioso	imperiodere	ADJ	A	Gender=Masc|Number=Sing	14	obl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	felicità	felicità	NOUN	S	Gender=Fem	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	3	punct	_	_
+25	passando	passare	VERB	V	VerbForm=Ger	32	advcl	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	via	via	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	sconosciuta	sconosciuto	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	25	punct	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+33	dinanzi	dinanzi	ADV	B	_	36	case	_	_
+34	ad	a	ADP	E	_	33	fixed	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	impalcatura	impalcatura	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+37	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+38	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	muro	muro	NOUN	S	Gender=Masc|Number=Sing	38	xcomp	_	_
+41	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
+42	segnato	segnato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
+43	da	da	ADP	E	_	45	case	_	_
+44	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	porta	porta	NOUN	S	Gender=Fem|Number=Sing	42	obl:agent	_	_
+46	verde	verde	ADJ	A	Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 4
+# text = Col cuore che gli palpita si accosta, apre, fa alcuni passi e cade da un’altezza di trenta piedi.
+1-2	Col	_	_	_	_	_	_	_	_
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	palpita	palpita	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	accosta	accostare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	apre	apre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	passi	passo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	cade	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	trenta	trenta	NUM	N	NumType=Card	22	nummod	_	_
+22	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = _Egli aveva creduto_....„.
+1	_Egli	_Egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	creduto_....	creduto_....	NOUN	S	_	2	obj	_	SpaceAfter=No
+4	„	„	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le altre stanze erano oscurissime.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	altre	altro	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	stanze	stanze	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	oscurissime	oscuro	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Non le aveva visitate, preso e vinto dall'attesa.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	visitate	visitare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+9-10	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+9	da	da	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ora, non levava gli occhi verso esse, come se racchiudessero paurose e terribilissime cose.
+1	Ora	ora	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	levava	levare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	verso	verso	ADP	E	_	8	case	_	_
+8	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	come	come	ADV	B	_	12	advmod	_	_
+11	se	se	SCONJ	CS	_	12	mark	_	_
+12	racchiudessero	racchiudere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+13	paurose	pauroso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	terribilissime	terribile	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	13	conj	_	_
+16	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Volle provare a parlare, per dar della vita a quella stanza oramai tetra e taciturna:
+1	Volle	volle	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	provare	provare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	parlare	parlare	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	dar	dar	VERB	V	VerbForm=Inf	1	advcl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+14	oramai	oramai	ADV	B	_	15	advmod	_	_
+15	tetra	tetro	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	taciturna	taciturno	ADJ	A	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = ma la voce non gli uscì dalle labbra.
+1	ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	uscì	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

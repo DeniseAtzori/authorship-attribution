@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Andai allo specchio e rifeci toletta;
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Andai	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	allo	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	rifeci	rifece	NUM	N	_	8	nummod	_	_
+8	toletta	toletto	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = mi ravviai i capelli, rilavai le mani, ecc.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	ravviai	ravviare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	rilavai	rilavai	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	mani	mano	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	ecc	eccetera	ADV	B	_	6	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Finalmente sentii il primo tocco delle otto.
+1	Finalmente	finalmente	ADV	B	_	2	advmod	_	_
+2	sentii	sentii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	tocco	tocco	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	otto	otto	NUM	N	NumType=Card	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Era come se Max avesse bussato.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	come	come	ADV	B	_	6	advmod	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	Max	Max	PROPN	SP	_	6	nsubj	_	_
+5	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	bussato	bussare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Gettai alla rinfusa tutti gli oggetti da toletta nella scatola senza prendere un minuto per ordinarli; e prima che l'ottava ora fosse suonata, corsi a sedermi sul sofà, come se me ne restasse appena il tempo.
+1	Gettai	Gettai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	rinfusa	rinfusa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	oggetti	oggetto	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	toletta	toletta	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	scatola	scatola	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13	senza	senza	ADP	E	_	14	mark	_	_
+14	prendere	prendere	VERB	V	VerbForm=Inf	1	advcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18-19	ordinarli	_	_	_	_	_	_	_	SpaceAfter=No
+18	ordinar	ordinare	VERB	V	VerbForm=Inf	14	advcl	_	_
+19	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+20	;	;	PUNCT	FC	_	30	punct	_	_
+21	e	e	CCONJ	CC	_	30	cc	_	_
+22	prima	prima	ADV	B	_	28	mark	_	_
+23	che	che	SCONJ	CS	_	22	fixed	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+25	ottava	ottavo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	26	amod	_	_
+26	ora	ora	NOUN	S	Gender=Fem|Number=Sing	28	nsubj:pass	_	_
+27	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux:pass	_	_
+28	suonata	suonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	corsi	corso	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32-33	sedermi	_	_	_	_	_	_	_	_
+32	seder	sedere	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	32	obj	_	_
+34-35	sul	_	_	_	_	_	_	_	_
+34	su	su	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	sofà	sofà	NOUN	S	Gender=Masc	32	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	30	punct	_	_
+38	come	come	ADV	B	_	42	advmod	_	_
+39	se	se	SCONJ	CS	_	42	mark	_	_
+40	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	42	expl	_	_
+41	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	42	iobj	_	_
+42	restasse	restare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	advcl	_	_
+43	appena	appena	ADV	B	_	45	advmod	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

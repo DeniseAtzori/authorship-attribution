@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = S'era già fatto un gran vuoto intorno a lui.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	SpaceAfter=No
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	gran	gran	ADJ	A	Number=Sing	7	amod	_	_
+7	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	intorno	intorno	ADV	B	_	10	case	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Non c'erano più in classe che sei o sette scolari di poca vaglia, assai lontani l'uno dall'altro.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	classe	classe	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	sei	sei	NUM	N	NumType=Card	11	nummod	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	sette	sette	NUM	N	NumType=Card	8	conj	_	_
+11	scolari	scolare	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	poca	poco	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
+14	vaglia	vaglia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	assai	assai	ADV	B	_	17	advmod	_	_
+17	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	_
+20-21	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+20	da	da	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ora che la vigilanza dell'assistente cominciava a stancarsi e sarebbe stato più facile eluderla, Vincenzo non poteva più domandare aiuto a nessuno, perchè i suoi vicini erano tutti usciti, ed era solo nel banco.
+1	Ora	ora	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vigilanza	vigilanza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	assistente	assistente	NOUN	S	Number=Sing	4	nmod	_	_
+8	cominciava	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	stancarsi	_	_	_	_	_	_	_	_
+10	stancar	stancare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	cop	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	facile	facile	ADJ	A	Number=Sing	8	conj	_	_
+17-18	eluderla	_	_	_	_	_	_	_	SpaceAfter=No
+17	eluder	eluder	VERB	V	VerbForm=Inf	16	csubj	_	_
+18	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	Vincenzo	Vincenzo	PROPN	SP	_	24	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+22	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	domandare	domandare	VERB	V	VerbForm=Inf	17	conj	_	_
+25	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	24	punct	_	_
+29	perchè	perché	SCONJ	CS	_	35	mark	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	vicini	vicino	NOUN	S	Gender=Masc|Number=Plur	35	nsubj:pass	_	_
+33	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	aux:pass	_	_
+34	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	35	obl	_	_
+35	usciti	uscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	advcl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	42	punct	_	_
+37	ed	e	CCONJ	CC	_	42	cc	_	_
+38	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	cop	_	_
+39	solo	solo	ADV	B	_	42	advmod	_	_
+40-41	nel	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	banco	banco	NOUN	S	Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

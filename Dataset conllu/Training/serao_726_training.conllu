@@ -1,0 +1,153 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma non dormivo, no.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	dormivo	dormivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	no	no	ADV	BN	PronType=Neg	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La boccettina del cloralio era quasi vuota sulla mia tavola.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	boccettina	boccettina	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cloralio	cloralio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	quasi	quasi	ADV	B	_	8	advmod	_	_
+8	vuota	vuotare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	tavola	tavola|tavolo	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = La vuotai.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vuotai	vuotaio	NOUN	S	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mi distesi sul letto per dormire.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	distesi	distendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	letto	letto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	dormire	dormire	VERB	V	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Non dormivo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	dormivo	dormivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Presi un libro:
+1	Presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	libro	libro	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = le _Massime_ di Larochefoucauld.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	_Massime_	_massime_	PROPN	SP	_	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Larochefoucauld	Larochefoucauld	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Tristi massime, ironiche massime, piene di realtà.
+1	Tristi	trista	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	massime	massimo	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ironiche	ironiche	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	massime	massimo	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	piene	pieno	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	realtà	realtà	NOUN	S	Gender=Fem	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Ma la passione è fuori della vita reale.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	passione	passione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	fuori	fuori	ADV	B	_	8	case	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	5	fixed	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	reale	reale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Mi conturbarono.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	conturbarono	conturbare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Fumai di nuovo.
+1	Fumai	Fumai	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Avevo la gola secca, le fauci riarse, le guaucie mi bruciavano.
+1	Avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gola	gola	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	secca	secco	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	fauci	fauce	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+8	riarse	riarso	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	guaucie	guaucia	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	bruciavano	bruciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Prendevo le sue lettere, profumate, fresche, e me le metteva sul volto, sperando averne qualche refrigerio.
+1	Prendevo	Prendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	profumate	profumata	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	fresche	fresco	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+12	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+13	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	volto	volto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	sperando	sperare	VERB	V	VerbForm=Ger	13	advcl	_	_
+19-20	averne	_	_	_	_	_	_	_	_
+19	aver	avere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+21	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	refrigerio	refrigerio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

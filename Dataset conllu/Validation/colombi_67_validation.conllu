@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fui uno sciocco a lusingarmi per una stretta di mano...
+1	Fui	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sciocco	sciocco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	lusingarmi	arma|lusingarme	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stretta	stretta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	mano...	mano...	NOUN	S	Gender=Masc	8	nmod	_	_
+
+# sent_id = 2
+# text = Oh! una stretta di mano!
+1	Oh	oh	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	1	punct	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	stretta	stretta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Furono molte strette, e furtive!
+1	Furono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	strette	stretto	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	furtive	furtivo	ADV	B	_	3	conj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = È ben altra cosa.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	ben	bene	ADV	B	_	4	advmod	_	_
+3	altra	altro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = No; senza un grande e prepotente amore, una donna non può far violenza al proprio ritegno fino a stringere furtivamente la mano d'un giovane, che non sa ancora se l'ami.
+1	No	no	INTJ	I	Polarity=Neg	14	discourse	_	SpaceAfter=No
+2	;	;	PUNCT	FC	_	1	punct	_	_
+3	senza	senza	ADP	E	_	8	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	prepotente	prepotente	ADJ	A	Number=Sing	5	conj	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	donna	donna	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+15	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	ritegno	ritegno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+20	fino	fino	ADV	B	_	22	mark	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	stringere	stringere	VERB	V	VerbForm=Inf	14	advcl	_	_
+23	furtivamente	furtivamente	ADV	B	_	22	advmod	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	mano	mano	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+26	d'	di	ADP	E	_	28	case	_	SpaceAfter=No
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	giovane	giovane	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	25	punct	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+32	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+33	ancora	ancora	ADV	B	_	32	advmod	_	_
+34	se	se	SCONJ	CS	_	36	mark	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	ami	amo	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

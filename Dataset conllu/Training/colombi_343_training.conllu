@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dio, com'erano noiose quelle sere d'inverno!
+1	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	com'	come	SCONJ	CS	_	5	mark	_	SpaceAfter=No
+4	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	noiose	noioso	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	1	advcl	_	_
+6	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	5	nsubj	_	_
+7	sere	sere	VERB	V	VerbForm=Inf	6	advcl	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Sempre i due vecchi accanto al fuoco;
+1	Sempre	sempre	ADV	B	_	4	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	vecchi	vecchio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	accanto	accanto	ADV	B	_	8	case	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = sempre lo stesso tavolino un po' più indietro, colla stessa lampada, e le stesse zie cogli stessi lavori.
+1	sempre	sempre	ADV	B	_	4	advmod	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	po'	poco	ADV	B	_	7	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	indietro	indietro	ADV	B	_	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	lampada	lampada	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+17	zie	zia	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+18-19	cogli	_	_	_	_	_	_	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+21	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Sempre mio fratello, imbronciato di non poter uscire a fare il giovinotto, che tirava certi sbadigli da destare un morto.
+1	Sempre	sempre	ADV	B	_	3	advmod	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	imbronciato	imbronciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	di	di	ADP	E	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	poter	potere	AUX	VM	VerbForm=Inf	9	aux	_	_
+9	uscire	uscire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giovinotto	giovinotto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	tirava	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+17	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	sbadigli	sbadiglio	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	da	da	ADP	E	_	20	mark	_	_
+20	destare	destare	VERB	V	VerbForm=Inf	16	advcl	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	morto	morto	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ed io e mia sorella, sempre occupate a ricamare fiori improbabili ed animali mostruosi, con tutta la precisione possibile, su qualche inezia elegante.
+1	Ed	e	CCONJ	CC	_	2	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	sempre	sempre	ADV	B	_	8	advmod	_	_
+8	occupate	occupare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	ricamare	ricamare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	improbabili	improbabili	ADJ	A	Number=Plur	11	amod	_	_
+13	ed	e	CCONJ	CC	_	14	cc	_	_
+14	animali	animale	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+15	mostruosi	mostruoso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	20	det:predet	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	precisione	precisione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+21	possibile	possibile	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	10	punct	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	25	det	_	_
+25	inezia	inezia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+26	elegante	elegante	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

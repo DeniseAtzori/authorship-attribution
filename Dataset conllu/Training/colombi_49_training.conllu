@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Sporsi querela contro di lui per omicidio.
+1-2	--Sporsi	_	_	_	_	_	_	_	_
+1	--spor	--sporre	NOUN	S	Gender=Masc	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	querela	querelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	contro	contro	ADP	E	_	6	case	_	_
+5	di	di	ADP	E	_	4	fixed	_	_
+6	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ci fu un principio d'istruzione.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	principio	principio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Turiddo dichiarò d'avergli tenuto un lungo discorso sugli effetti del _curare_, e sulla possibilità di salvare chi ne fosse avvelenato;
+1	Turiddo	Turiddo	PROPN	SP	_	2	nsubj	_	_
+2	dichiarò	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	d'	di	ADP	E	_	6	mark	_	SpaceAfter=No
+4-5	avergli	_	_	_	_	_	_	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+5	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10-11	sugli	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	_curare_	ExtraSubj=Yes|_curare_	PUNCT	FB	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	possibilità	possibilità	NOUN	S	Gender=Fem	12	conj	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	salvare	salvare	VERB	V	VerbForm=Inf	20	acl	_	_
+23	chi	chi	PRON	PR	Number=Sing|PronType=Rel	22	obj	_	_
+24	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	26	iobj	_	_
+25	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux:pass	_	_
+26	avvelenato	avvelenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	SpaceAfter=No
+27	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = io deposi le parole che aveva dette a me quando giacevo come morto;
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	deposi	deposare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	parole	parola	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	dette	dire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	quando	quando	SCONJ	CS	_	11	mark	_	_
+11	giacevo	giacere	NOUN	S	Gender=Masc|Number=Sing	7	advcl	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	morto	morto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = ma egli negò tutto.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	negò	negare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ho già detto che aveva delle alte protezioni.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	già	già	ADV	B	_	3	advmod	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	alte	alto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	protezioni	protezione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

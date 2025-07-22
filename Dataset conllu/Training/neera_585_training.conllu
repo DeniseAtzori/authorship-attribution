@@ -1,0 +1,151 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un cuore si schiantava intanto.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	schiantava	schiantavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	intanto	intanto	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Anna, che era sopraggiunta sul limitare del terrazzo durante la violenta apostrofe di Flavio, tenevasi nascosta nell'ombra delle piante.
+1	Anna	Anna	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj:pass	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	sopraggiunta	sopraggiungere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	limitare	limitare	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	terrazzo	terrazzo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	durante	durante	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	violenta	violento	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	apostrofe	apostrofe	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Flavio	Flavio	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	tenevasi	tenevaso	ADV	B	_	20	advmod	_	_
+20	nascosta	nascosto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+21-22	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	in	in	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	piante	pianta	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Dal suo posto non le sfuggì nessuna inflessione della replica di Elvira, anzi, come avviene di una musica che si percepisce meglio a qualche distanza, ebbe campo di notarne le stonature, i passaggi stridenti, l'urto dell'istrumento inetto a rendere i suoni che il virtuoso avrebbe voluto trarne.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	7	iobj	_	_
+7	sfuggì	sfuggire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	inflessione	inflessione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	replica	replica	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Elvira	Elvira	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	anzi	anzi	ADV	B	_	7	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	come	come	SCONJ	CS	_	19	mark	_	_
+19	avviene	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	musica	musica	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	percepisce	percepire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	meglio	meglio	ADV	B	_	25	advmod	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+29	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	7	punct	_	_
+31	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+32	campo	campo	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34-35	notarne	_	_	_	_	_	_	_	_
+34	notar	notare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+35	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	34	iobj	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	stonature	stonatura	NOUN	S	Gender=Fem|Number=Plur	34	obj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	passaggi	passaggio	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	_
+41	stridenti	stridente	ADJ	A	Number=Plur	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	44	punct	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+44	urto	urto	NOUN	S	Gender=Masc|Number=Sing	37	conj	_	_
+45-46	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+45	di	di	ADP	E	_	47	case	_	_
+46	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
+47	istrumento	istrumento	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+48	inetto	inetto	ADJ	A	Gender=Masc|Number=Sing	47	amod	_	_
+49	a	a	ADP	E	_	50	mark	_	_
+50	rendere	rendere	VERB	V	VerbForm=Inf	34	advcl	_	_
+51	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	suoni	suono	NOUN	S	Gender=Masc|Number=Plur	50	obj	_	_
+53	che	che	PRON	PR	PronType=Rel	58	obj	_	_
+54	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	virtuoso	virtuoso	NOUN	S	Gender=Masc|Number=Sing	58	nsubj	_	_
+56	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	aux	_	_
+57	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	58	aux	_	_
+58-59	trarne	_	_	_	_	_	_	_	SpaceAfter=No
+58	trar	trarre	VERB	V	VerbForm=Inf	52	acl:relcl	_	_
+59	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	58	iobj	_	_
+60	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Ma sentiva pure che mentre a lei, spettatrice, la verità intima delle cose si disvelava, era tra quei due un ondeggiante mistero complice che la riempiva d'ignoto terrore.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	advcl	_	_
+3	pure	pure	ADV	B	_	2	advmod	_	_
+4	che	che	SCONJ	CS	_	18	mark	_	_
+5	mentre	mentre	SCONJ	CS	_	9	mark	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	spettatrice	spettatore	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	verità	verità	NOUN	S	Gender=Fem	18	nsubj	_	_
+13	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	disvelava	disvelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+21	tra	tra	ADP	E	_	23	case	_	_
+22	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
+23	due	due	NUM	N	NumType=Card	27	obl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	ondeggiante	ondeggiante	ADJ	A	Number=Sing	26	amod	_	_
+26	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+27	complice	complice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	che	che	SCONJ	CS	_	30	mark	_	_
+29	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	riempiva	riempire	NOUN	S	Gender=Fem|Number=Sing	27	ccomp	_	_
+31	d'	di	ADP	E	_	33	case	_	SpaceAfter=No
+32	ignoto	ignoto	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	27	punct	_	SpacesAfter=\n
+

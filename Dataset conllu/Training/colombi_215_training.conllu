@@ -1,0 +1,136 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Circa un anno fa, poco prima della morte del Reed, era morta qui una ricchissima vedova senza figli.
+1	Circa	circa	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+4	fa	fa	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	poco	poco	ADV	B	_	10	advmod	_	_
+7	prima	prima	ADV	B	_	10	case	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	morte	morte	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Reed	Reed	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	morta	morire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	qui	qui	ADV	B	_	16	advmod	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	ricchissima	riccho	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	20	amod	_	_
+20	vedova	vedovo	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+21	senza	senza	ADP	E	_	22	case	_	_
+22	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = Aveva dei parenti, che, come al solito, avevano fatto grande assegnamento sulla sua eredità.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	parenti	parente	NOUN	S	Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	14	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	come	come	ADP	E	_	11	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	solito	solito	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+15	grande	grande	ADJ	A	Number=Sing	16	amod	_	_
+16	assegnamento	assegnamento	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	sulla	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	eredità	eredità	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ma all'apertura del testamento, si era trovata una clausola stravagante, che diminuiva il patrimonio di più di un terzo.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	testamento	testamento	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	trovata	trovare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	clausola	clausola	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+14	stravagante	stravagante	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	diminuiva	diminuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	più	più	ADV	B	_	24	advmod	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Ella chiamava eredi universali de' suoi beni mobili ed immobili, ecc., i suoi due fratelli Abele e Nathan Blounty; ma faceva un'eccezione riguardo a' suoi gioielli, i quali dovevano essere tutti sepolti con lei, _nessuno eccettuato_.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	eredi	erede	NOUN	S	Number=Plur	2	obj	_	_
+4	universali	universale	ADJ	A	Number=Plur	3	amod	_	_
+5-6	de'	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	beni	bene	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+9	mobili	mobile	ADJ	A	Number=Plur	8	amod	_	_
+10	ed	e	CCONJ	CC	_	11	cc	_	_
+11	immobili	immobile	ADJ	A	Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	ecc.	eccetera	ADV	B	_	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+16	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+19	Abele	Abele	PROPN	SP	_	18	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	Nathan	Nathan	PROPN	SP	_	19	conj	_	_
+22	Blounty	Blounty	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	25	punct	_	_
+24	ma	ma	CCONJ	CC	_	25	cc	_	_
+25	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+26	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	riguardo	riguardo	ADV	B	_	32	case	_	_
+29	a	a	ADP	E	_	28	fixed	_	SpaceAfter=No
+30	'	'	PUNCT	FB	_	32	punct	_	_
+31	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	gioielli	gioiello	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	quali	quale	PRON	PR	Number=Plur|PronType=Rel	39	nsubj	_	_
+36	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	39	aux	_	_
+37	essere	essere	AUX	VA	VerbForm=Inf	39	cop	_	_
+38	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	39	nsubj	_	_
+39	sepolti	sepolvere	ADJ	A	Gender=Masc|Number=Plur	32	acl:relcl	_	_
+40	con	con	ADP	E	_	41	case	_	_
+41	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	39	obl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	43	punct	_	_
+43	_nessuno	_nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	39	conj	_	_
+44	eccettuato_	eccettuato-	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

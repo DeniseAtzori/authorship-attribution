@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo incidente senza sèguito non produsse nessuna modificazione nell'impiego del mio tempo;
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	senza	senza	ADP	E	_	4	case	_	_
+4	sèguito	sèguito	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	produsse	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	modificazione	modificazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	in	in	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = sicchè, quando tornai in città, riportai tutta la mia carta candida come il velo d'una sposa, e le mie penne asciutte come la borsa d'uno studente.
+1	sicchè	sicché	INTJ	I	_	8	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quando	quando	SCONJ	CS	_	4	mark	_	_
+4	tornai	tornare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	advcl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	città	città	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	riportai	riportare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	12	det:predet	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	carta	carta	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+13	candida	candido	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	velo	velo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	penne	penne	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+25	asciutte	asciutto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
+26	come	come	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	d'	di	ADP	E	_	31	case	_	SpaceAfter=No
+30	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	studente	studente	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Colla vita cittadina avevo ritrovato però il proposito del lavoro, e mi affrettai a scrivere al direttore dalle lettere gialle, promettendogli di fare subito qualche cosuccia per lui.
+1	Colla	collo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	cittadina	cittadino	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	ritrovato	ritrovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	però	però	ADV	B	_	5	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	expl	_	_
+15	affrettai	affrettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	scrivere	scrivere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	dalle	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+24	gialle	giallo	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+26-27	promettendogli	_	_	_	_	_	_	_	_
+26	promettendo	promettere	VERB	V	VerbForm=Ger	5	advcl	_	_
+27	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	iobj	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	fare	fare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+30	subito	subito	ADV	B	_	29	advmod	_	_
+31	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	32	det	_	_
+32	cosuccia	cosuccia	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+33	per	per	ADP	E	_	34	case	_	_
+34	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

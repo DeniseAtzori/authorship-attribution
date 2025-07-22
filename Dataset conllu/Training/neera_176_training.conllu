@@ -1,0 +1,137 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma c’è pur stato A. B....
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pur	pure	ADV	B	_	3	advmod	_	_
+5	stato	essere	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	A.	A.	PROPN	SP	_	5	nmod	_	_
+7	B...	B...	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = — Dio mio, sì!
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	sì	sì	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = l’eccezione, la solita, fatale eccezione:
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+5	solita	solita	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	fatale	fatale	ADJ	A	Number=Sing	8	amod	_	_
+8	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = _Di quanto mal fu matre_ il successo di un paio di volumi in dieci anni!
+1	_Di	_Di	ADP	E	_	3	case	_	_
+2	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	3	det	_	_
+3	mal	male	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	matre_	matre-	PUNCT	FB	_	7	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	successo	successo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	paio	paio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	volumi	volume	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	dieci	dieci	NUM	N	NumType=Card	15	nummod	_	_
+15	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Pensate; un paio di volumi in dieci anni; e saranno chi sa quanti scrittori!
+1	Pensate	pensare	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	;	;	PUNCT	FC	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	paio	paio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	volumi	volume	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	dieci	dieci	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	cop	_	_
+13	chi	chi	PRON	PR	Number=Sing|PronType=Rel	1	conj	_	_
+14	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+15	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	16	det	_	_
+16	scrittori	scrittore	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = In Germania s’è fatto il calcolo;
+1	In	in	ADP	E	_	2	case	_	_
+2	Germania	Germania	PROPN	SP	_	5	obl	_	_
+3	s’	so	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	iobj	_	SpaceAfter=No
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = sono ventiduemila.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ventiduemila	ventiduemila	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Da noi poco ci mancherà.
+1	Da	da	ADP	E	_	2	case	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+3	poco	poco	ADV	B	_	5	advmod	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+5	mancherà	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = È serio parlare di guadagni sopra queste basi?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	serio	serio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	guadagni	guadagno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	sopra	sopra	ADP	E	_	8	case	_	_
+7	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	basi	base	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = La sola persona che disgraziatamente prende sul serio il guadagno degli scrittori in Italia è l’Esattore fiscale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	disgraziatamente	disgraziatamente	ADV	B	_	6	advmod	_	_
+6	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	serio	serio	ADJ	A	Gender=Masc|Number=Sing	6	obl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	guadagno	guadagno	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	scrittori	scrittore	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Italia	Italia	PROPN	SP	_	14	nmod	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	Esattore	Esattore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+20	fiscale	fiscale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n
+

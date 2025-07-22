@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma pareva che una maledizione ingiusta la condannasse a vivere solitaria e senza affetti;
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	maledizione	maledizione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	ingiusta	ingiusto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	condannasse	condannassa	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	vivere	vivere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	solitaria	solitario	ADJ	A	Gender=Fem|Number=Sing	10	xcomp	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	senza	senza	ADP	E	_	14	case	_	_
+14	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = anche la buona azione era rimasta infeconda, per non procurarle una gioia.
+1	anche	anche	ADV	B	_	6	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	buona	buono	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	azione	azione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	infeconda	infecondo	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	per	per	ADP	E	_	11	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11-12	procurarle	_	_	_	_	_	_	_	_
+11	procurar	procurare	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ed il vecchio era morto solo; ed il bimbo errava solo nelle gelide notti d'inverno;
+1	Ed	e	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	solo	solo	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	11	punct	_	_
+8	ed	e	CCONJ	CC	_	11	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	errava	errare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+12	solo	solo	ADV	B	_	16	advmod	_	_
+13-14	nelle	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	gelide	gelido	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	notti	notte	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+17	d'	di	ADP	E	_	18	case	_	SpaceAfter=No
+18	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = e la suora generosa e buona, era sola fra due letti d'ospedale.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	suora	suora	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	generosa	generoso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	buona	buono	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+10	fra	fra	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	letti	letto	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma un nuovo argomento si impone e terribile.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	impone	imporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	terribile	terribile	ADJ	A	Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Quando la donna fosse pareggiata all’uomo nell’intero sistema di vita e cioè, sdegnando le occupazioni casalinghe, tutta concedesse la propria attività al lavoro pubblico, per inevitabile logica dovrebbe acquistare le abitudini ed i vizi che ora sono più propriamente dell’altro sesso, fra cui primissimo l’alcoolismo.
+1	Quando	quando	SCONJ	CS	_	5	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	pareggiata	pareggiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+6-7	all’	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+9-10	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+9	in	in	ADP	E	_	12	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+11	intero	intero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	cioè	cioè	ADV	B	_	18	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	sdegnando	sdegnare	VERB	V	VerbForm=Ger	24	advcl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	occupazioni	occupazione	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+21	casalinghe	casalingo	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	24	nsubj	_	_
+24	concedesse	concedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	attività	attività	NOUN	S	Gender=Fem	24	obj	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+31	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	24	punct	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	inevitabile	inevitabile	ADJ	A	Number=Sing	35	amod	_	_
+35	logica	logica	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+36	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	acquistare	acquistare	VERB	V	VerbForm=Inf	24	conj	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	abitudini	abitudine	NOUN	S	Gender=Fem|Number=Plur	37	obj	_	_
+40	ed	e	CCONJ	CC	_	42	cc	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	vizi	vizo	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	_
+43	che	che	PRON	PR	PronType=Rel	47	nsubj	_	_
+44	ora	ora	ADV	B	_	47	advmod	_	_
+45	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+46	più	più	ADV	B	_	47	advmod	_	_
+47	propriamente	proprio	ADV	B	_	42	advmod	_	_
+48-49	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+48	di	di	ADP	E	_	51	case	_	_
+49	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
+50	altro	altro	ADJ	A	Gender=Masc|Number=Sing	51	amod	_	_
+51	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	47	obl	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	51	punct	_	_
+53	fra	fra	ADP	E	_	54	case	_	_
+54	cui	cui	PRON	PR	PronType=Rel	57	nmod	_	_
+55	primissimo	primo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	57	amod	_	_
+56	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	57	det	_	SpaceAfter=No
+57	alcoolismo	alcoolismo	NOUN	S	Gender=Masc|Number=Sing	51	acl:relcl	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	24	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma non potevo comprendere che quella freddezza fosse stata solamente in me.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	comprendere	comprendere	VERB	V	VerbForm=Inf	0	root	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	freddezza	freddezza	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+8	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+10	solamente	solo	ADV	B	_	12	advmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Mi pareva che fossimo stati moralmente disgiunti, ed ora ci riunissimo;
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	fossimo	essere	AUX	V	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+5	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+6	moralmente	moralmente	ADV	B	_	7	advmod	_	_
+7	disgiunti	disgiunto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ed	e	CCONJ	CC	_	12	cc	_	_
+10	ora	ora	ADV	B	_	12	advmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+12	riunissimo	riunissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = sentivo il bisogno di essere assicurato ch'ella mi amava ancora.
+1	sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	assicurato	assicurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+7	ch'	perché	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+8	ella	ella	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+10	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+11	ancora	ancora	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ella, che me l'aveva detto la sera innanzi, ella che aveva scritto tutta la notte per me!
+1	Ella	ella	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+5	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sera	sera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	innanzi	innanzi	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	ella	ella	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	1	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+16	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	18	det:predet	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	notte	notte	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
+21	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

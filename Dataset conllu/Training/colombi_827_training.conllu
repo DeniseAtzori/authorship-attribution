@@ -1,0 +1,124 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --È un imbroglio da negozianti che non mi riesce di spiegarvi.
+1	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	imbroglio	imbroglio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	negozianti	negoziante	NOUN	S	Number=Plur	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	spiegarvi	_	_	_	_	_	_	_	SpaceAfter=No
+13	spiegar	spiegare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	13	iobj	_	_
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Tanto non capireste.
+1	Tanto	tanto	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	capireste	capiredere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma di certo non è una cosa buona, tutt'altro.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	certo	certo	ADV	B	_	7	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	buona	buono	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	tutt'	tutto	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+11	altro	altro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = E qui il padrone strepitava «che non avesse ad accadere quella vergogna, che anche lui ne avrebbe patito nella riputazione, che un galantuomo non deve fallire.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	qui	qui	ADV	B	_	5	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	strepitava	strepitavo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11	accadere	accadere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+16	anche	anche	ADV	B	_	20	advmod	_	_
+17	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+19	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	patito	patire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	riputazione	riputazione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	galantuomo	galantuomo	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	fallire.	fallire.	NOUN	S	_	13	acl:relcl	_	SpaceAfter=No
+
+# sent_id = 5
+# text = ...»
+1	..	..	PUNCT	FF	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	»	»	PUNCT	FB	_	1	punct	_	_
+
+# sent_id = 6
+# text = Poi quando quell'altro parlò chiaro e domandò il denaro a lui, ventimila lire che gli occorrevano entro pochi giorni, il vostro babbo si consultò con la signora, buon'anima, e poi rispose:
+1	Poi	poi	ADV	B	_	27	advmod	_	_
+2	quando	quando	SCONJ	CS	_	5	mark	_	_
+3	quell'	quello	DET	DD	Number=Sing|PronType=Dem	4	det	_	SpaceAfter=No
+4	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+5	parlò	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	advcl	_	_
+6	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	domandò	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	ventimila	ventimila	NUM	N	NumType=Card	15	nummod	_	_
+15	lire	lira	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+18	occorrevano	occorrere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+19	entro	entro	ADP	E	_	21	case	_	_
+20	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	5	punct	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	consultò	consultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	signora	signore	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	buon'	buono	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+33	anima	anima	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	37	punct	_	_
+35	e	e	CCONJ	CC	_	37	cc	_	_
+36	poi	poi	ADV	B	_	37	advmod	_	_
+37	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	conj	_	SpaceAfter=No
+38	:	:	PUNCT	FC	_	27	punct	_	SpacesAfter=\n
+

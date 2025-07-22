@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E prostrato, con le braccia buttate sul letto, stringendo nervosamente quella mano che si era fatta gelida, con la bocca contro la stoffa della coltre, egli continuò a gemere, a gridare, confusamente, il suo ignoto dolore.
+1	E	e	CCONJ	CC	_	33	cc	_	_
+2	prostrato	prostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	buttate	buttato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	letto	letto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	stringendo	stringere	VERB	V	VerbForm=Ger	2	advcl	_	_
+13	nervosamente	nervosamente	ADV	B	_	12	advmod	_	_
+14	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	mano	mano	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+18	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+20	gelida	gelido	ADJ	A	Gender=Fem|Number=Sing	19	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+25	contro	contro	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	coltre	coltro	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	2	punct	_	_
+32	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	continuò	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	gemere	gemere	VERB	V	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	a	a	ADP	E	_	38	mark	_	_
+38	gridare	gridare	VERB	V	VerbForm=Inf	35	xcomp	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	confusamente	confuso	ADV	B	_	38	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	38	punct	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+43	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+44	ignoto	ignoto	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	_
+45	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	33	punct	_	_
+
+# sent_id = 2
+# text = Ella non gli disse nulla:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = aveva distesa l'altra mano e gli carezzava i capelli, così, come a un bimbo che gridi per un male, a cui non vi è rimedio.
+1	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	distesa	distendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	altra	altro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	carezzava	carezzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	così	così	ADV	B	_	2	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	come	come	ADP	E	_	17	case	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	gridi	gridare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	male	male	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	28	obl	_	_
+26	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+27	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	28	expl	_	_
+28	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+29	rimedio	rimedio	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

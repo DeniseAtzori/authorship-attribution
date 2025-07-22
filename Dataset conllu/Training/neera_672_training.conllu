@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Alcuni uomini dalle attigue sale si fecero sulla soglia del gran salotto ascoltando.
+1	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3-4	dalle	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	6	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	attigue	attigue	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	sale	sale	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	gran	grande	ADJ	A	Number=Sing	15	amod	_	_
+15	salotto	salotto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	ascoltando	ascoltare	VERB	V	VerbForm=Ger	8	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = La padrona di casa che aveva preso l’attitudine della lettrice scandolezzata citava abbondantemente per giustificare la propria indignazione;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	attitudine	attitudine	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lettrice	lettore	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	scandolezzata	scandolezzato	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	citava	citare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	abbondantemente	abbondantemente	ADV	B	_	14	advmod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	giustificare	giustificare	VERB	V	VerbForm=Inf	14	advcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	indignazione	indignazione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 3
+# text = il suo competitore citava anche di più, citava passi di libri antichi, di libri celebri che non erano stati processati, invocando i diritti della natura, la libertà del pensiero, l’arte....
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	competitore	competitore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	citava	citare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	più	più	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	citava	citare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+10	passi	passo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	libri	libro	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	antichi	antico	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	libri	libro	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+17	celebri	celebre	ADJ	A	Number=Plur	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj:pass	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+21	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	processati	processare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	4	punct	_	_
+24	invocando	invocare	VERB	V	VerbForm=Ger	4	advcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	natura	natura	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	libertà	libertà	NOUN	S	Gender=Fem	26	conj	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	arte...	arte...	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Negli angolucci remoti, dietro paralumi color di rosa, grosse parole cadevano in piccole orecchie.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	angolucci	angoluccio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+4	remoti	remoto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	dietro	dietro	ADP	E	_	7	case	_	_
+7	paralumi	paralume	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+8	color	colore	NOUN	S	Gender=Masc	7	compound	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	grosse	grosso	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	parole	parola	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+14	cadevano	cadevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+17	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

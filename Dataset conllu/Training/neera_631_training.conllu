@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non era più il braccio rigoglioso che sfuggendo al guanto sembrava sfidare la luce nella procace sicurezza della sua nudità;
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	più	più	ADV	B	_	5	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	rigoglioso	rigoglioso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+8	sfuggendo	sfuggire	VERB	V	VerbForm=Ger	12	advcl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	guanto	guanto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+13	sfidare	sfidare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	luce	luce	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	procace	procace	ADJ	A	Number=Sing	19	amod	_	_
+19	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	nudità	nudità	NOUN	S	Gender=Fem	19	nmod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = era un povero braccio scarno, madido di sudore:
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	povero	povero	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	scarno	scarno	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	madido	madido	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sudore	sudore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = Anna guardandolo lo confrontò macchinalmente colle proprie braccia.
+1	Anna	Anna	PROPN	SP	_	2	nsubj	_	_
+2-3	guardandolo	_	_	_	_	_	_	_	_
+2	guardando	guardare	VERB	V	VerbForm=Ger	5	advcl	_	_
+3	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	confrontò	confronte	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	macchinalmente	macchinalmente	ADV	B	_	5	advmod	_	_
+7-8	colle	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = E tornò a sentire il ribrezzo di quella carne nuda, perseguitata dall'odore straniero che emanava e da quell'altro odore preferito da Elvira, l'odore molle e scipito d'eliotropio che trovavasi in tutte le sue biancherie e che nell'ambiente chiuso, tra la fuga sottile degli eteri schierati sul tavolino, metteva una nota bassa leggermente nauseabonda.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	sentire	sentire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ribrezzo	ribrezzo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	carne	carne	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	nuda	nudo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	perseguitata	perseguitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+13-14	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+13	da	da	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	odore	odore	NOUN	S	Gender=Masc|Number=Sing	12	obl:agent	_	_
+16	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	emanava	emanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20	da	da	ADP	E	_	23	case	_	_
+21	quell'	quello	DET	DD	Number=Sing|PronType=Dem	23	det	_	SpaceAfter=No
+22	altro	altro	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	odore	odore	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+24	preferito	preferire	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	Elvira	Elvira	PROPN	SP	_	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	odore	odore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+30	molle	molle	ADJ	A	Number=Sing	29	amod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	scipito	scipito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	_
+33	d'	di	ADP	E	_	34	case	_	SpaceAfter=No
+34	eliotropio	eliotropio	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	trovavasi	trovavanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	34	acl:relcl	_	_
+37	in	in	ADP	E	_	41	case	_	_
+38	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	41	det:predet	_	_
+39	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+40	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	biancherie	biancheria	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+42	e	e	CCONJ	CC	_	61	cc	_	_
+43	che	che	PRON	PR	PronType=Rel	61	nsubj	_	_
+44-45	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+44	in	in	ADP	E	_	46	case	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	_
+46	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	61	obl	_	_
+47	chiuso	chiuso	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	46	punct	_	_
+49	tra	tra	ADP	E	_	51	case	_	_
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+52	sottile	sottile	ADJ	A	Number=Sing	51	amod	_	_
+53-54	degli	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
+55	eteri	etero	NOUN	S	Gender=Masc|Number=Plur	51	nmod	_	_
+56	schierati	schierare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	55	acl	_	_
+57-58	sul	_	_	_	_	_	_	_	_
+57	su	su	ADP	E	_	59	case	_	_
+58	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	56	obl	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	46	punct	_	_
+61	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	conj	_	_
+62	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	nota	nota	NOUN	S	Gender=Fem|Number=Sing	61	obj	_	_
+64	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	63	amod	_	_
+65	leggermente	leggermente	ADV	B	_	66	advmod	_	_
+66	nauseabonda	nauseabondo	ADJ	A	Gender=Fem|Number=Sing	63	amod	_	SpaceAfter=No
+67	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

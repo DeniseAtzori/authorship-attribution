@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma non si lasciarono subito.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	lasciarono	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	subito	subito	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Parea che si dovessero dire qualche altra cosa.
+1	Parea	Parea	PROPN	SP	_	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	dovessero	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+7	altra	altro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Parea che ambedue sapessero di non doversi veder più e che una qualche cosa, più intima, più misteriosa, si dovessero dire.
+1	Parea	Pareare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ambedue	ambedue	PRON	PI	Number=Plur|PronType=Ind	4	nsubj	_	_
+4	sapessero	sapere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+5	di	di	ADP	E	_	9	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7-8	doversi	_	_	_	_	_	_	_	_
+7	dover	dovere	AUX	VM	VerbForm=Inf	9	aux	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	veder	vedere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+10	più	più	ADV	B	_	9	advmod	_	_
+11	e	e	CCONJ	CC	_	25	cc	_	_
+12	che	che	SCONJ	CS	_	25	mark	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	misteriosa	misterioso	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl:impers	_	_
+24	dovessero	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+25	dire	dire	VERB	V	VerbForm=Inf	9	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ella gli stese la mano:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	stese	stendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = egli la rattenne un poco fra le sue, ma senza stringerla.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	rattenne	rattenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	poco	poco	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+6	fra	fra	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	senza	senza	ADP	E	_	12	mark	_	_
+12-13	stringerla	_	_	_	_	_	_	_	SpaceAfter=No
+12	stringer	stringere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+13	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ambedue sedavano a stento il tumulto delle loro anime.
+1	Ambedue	ambedue	PRON	PI	Number=Plur|PronType=Ind	2	nsubj	_	_
+2	sedavano	sedare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	stento	stento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tumulto	tumulto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	anime	anima	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Poi, a un tratto, egli le domandò una cosa strana, impensata:
+1	Poi	poi	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	domandò	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	strana	strano	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	impensata	impensare	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	9	punct	_	SpacesAfter=\n
+

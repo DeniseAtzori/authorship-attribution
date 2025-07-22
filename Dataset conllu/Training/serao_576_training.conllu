@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Chérie è, relativamente, onesta.
+1	Chérie	Chérie	PROPN	SP	_	6	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	relativamente	relativamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	onesta	onesta	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Non ha mai due amanti, nello stesso tempo;
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	mai	mai	ADV	B	_	5	advmod	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	amanti	amante	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	nello	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = non ha mai preso, solo per il denaro, un amante brutto, vecchio o ladro;
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	solo	solo	ADV	B	_	9	advmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	amante	amante	NOUN	S	Number=Sing	4	nmod	_	_
+13	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	13	conj	_	_
+16	o	o	CCONJ	CC	_	17	cc	_	_
+17	ladro	ladro	ADJ	A	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = odia i banchieri e gli ebrei; e se le è capitato che il suo amante fosse egualmente ricco, giovane e bello, ella gli ha dato uno o due anni di amore, gli è stata fedele, gli ha fatto spendere una quantità di denaro, lo ha lasciato solo quando costui ha voluto esser lasciato e ha tenuto sempre due o tre mesi di lutto.
+1	odia	odiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	banchieri	banchiere	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	12	punct	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	se	se	SCONJ	CS	_	12	mark	_	_
+10	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	12	iobj	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	capitato	capitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	advcl	_	_
+13	che	che	SCONJ	CS	_	19	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	amante	amante	NOUN	S	Number=Sing	19	nsubj	_	_
+17	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+18	egualmente	egualmente	ADV	B	_	19	advmod	_	_
+19	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	12	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	giovane	giovane	ADJ	A	Number=Sing	19	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	bello	bello	ADJ	A	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	19	punct	_	_
+25	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+29	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	28	obj	_	_
+30	o	o	CCONJ	CC	_	32	cc	_	_
+31	due	due	NUM	N	NumType=Card	32	nummod	_	_
+32	anni	anno	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	amore	amore	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	12	punct	_	_
+36	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	iobj	_	_
+37	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+38	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	39	cop	_	_
+39	fedele	fedele	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	43	punct	_	_
+41	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	iobj	_	_
+42	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+44	spendere	spendere	VERB	V	VerbForm=Inf	43	ccomp	_	_
+45	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	quantità	quantità	NOUN	S	Gender=Fem	44	obj	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	46	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	52	punct	_	_
+50	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	obj	_	_
+51	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	aux	_	_
+52	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+53	solo	solo	ADV	B	_	59	advmod	_	_
+54	quando	quando	SCONJ	CS	_	59	mark	_	_
+55	costui	costui	PRON	PE	Number=Sing|Person=3|PronType=Prs	59	nsubj	_	_
+56	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	aux	_	_
+57	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	59	aux	_	_
+58	esser	essere	AUX	VA	VerbForm=Inf	59	aux	_	_
+59	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	advcl	_	_
+60	e	e	CCONJ	CC	_	62	cc	_	_
+61	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	aux	_	_
+62	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	59	conj	_	_
+63	sempre	sempre	ADV	B	_	62	advmod	_	_
+64	due	due	NUM	N	NumType=Card	67	nummod	_	_
+65	o	o	CCONJ	CC	_	66	cc	_	_
+66	tre	tre	NUM	N	NumType=Card	64	conj	_	_
+67	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	62	obj	_	_
+68	di	di	ADP	E	_	69	case	_	_
+69	lutto	lutto	NOUN	S	Gender=Masc|Number=Sing	67	nmod	_	SpaceAfter=No
+70	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

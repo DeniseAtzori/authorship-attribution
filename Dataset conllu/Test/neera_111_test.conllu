@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era veramente ancora presto, non avevo sonno.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+2	veramente	veramente	ADV	B	_	7	advmod	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	presto	presto	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Pensai di finire la serata leggendo quietamente, ma non trovai subito il libro che cercavo e mi indugiai un poco intorno alla musica, decisa tuttavia a non suonare per non svegliare Alessio.
+1	Pensai	Pensai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	finire	finire	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	serata	serata	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	leggendo	leggere	VERB	V	VerbForm=Ger	3	advcl	_	_
+7	quietamente	quietamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	trovai	trovare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+12	subito	subito	ADV	B	_	11	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	libro	libro	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	cercavo	cercare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	indugiai	indugiare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	conj	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	poco	poco	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	intorno	intorno	ADV	B	_	25	case	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	22	fixed	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	musica	musica	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	1	punct	_	_
+27	decisa	decidere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+28	tuttavia	tuttavia	ADV	B	_	27	advmod	_	_
+29	a	a	ADP	E	_	31	mark	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	suonare	suonare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+32	per	per	ADP	E	_	34	mark	_	_
+33	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+34	svegliare	svegliare	VERB	V	VerbForm=Inf	31	advcl	_	_
+35	Alessio	Alessio	PROPN	SP	_	34	obj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Volli continuare il mio ricamo ma sul gomitolo non c'era quasi più seta.
+1	Volli	Volli	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+2	continuare	continuare	VERB	V	VerbForm=Inf	1	acl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	ricamo	ricamo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	ma	ma	CCONJ	CC	_	12	cc	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	gomitolo	gomitolo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+12	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+13	quasi	quasi	ADV	B	_	14	advmod	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	seta	seto	ADJ	A	Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

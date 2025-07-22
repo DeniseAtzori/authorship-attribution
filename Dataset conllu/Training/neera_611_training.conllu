@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La curiosità del premio e le polemiche che lo avevano preceduto attiravano quel giorno alla Esposizione una folla grandissima.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	curiosità	curiosità	NOUN	S	Gender=Fem	13	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	premio	premio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	preceduto	precedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13	attiravano	attirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Esposizione	Esposizione	PROPN	SP	_	13	obl	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	folla	folla	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+21	grandissima	grandissimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Per le sale, dove si circolava a stento, il caldo era insopportabile.
+1	Per	per	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	sale	sala	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dove	dove	ADV	B	_	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	circolava	circolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	stento	stento	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	insopportabile	insopportabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Un'afa impregnata di migliaia di esalazioni, corrotta da microbi invisibili, nauseabonda nel suo odore fondamentale che inutilmente veniva a tratti a tratti interrotto dalla presenza di qualche profumata signora, gravava su tutte quelle persone raccolte.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	afa	afa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	impregnata	impregnare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	esalazioni	esalazione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	corrotta	corrottare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	microbi	microbo	NOUN	S	Gender=Masc|Number=Plur	9	obl:agent	_	_
+12	invisibili	invisibile	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	nauseabonda	nauseabondo	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	odore	odore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	fondamentale	fondamentale	ADJ	A	Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	inutilmente	inutilmente	ADV	B	_	22	advmod	_	_
+22	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	interrotto	interrompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+28-29	dalla	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	34	det	_	_
+33	profumata	profumato	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+34	signora	signore	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	22	punct	_	_
+36	gravava	gravare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	_	_
+37	su	su	ADP	E	_	40	case	_	_
+38	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	40	det:predet	_	_
+39	quelle	quelle	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	40	det	_	_
+40	persone	persona	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+41	raccolte	raccogliere	ADJ	A	Gender=Fem|Number=Plur	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

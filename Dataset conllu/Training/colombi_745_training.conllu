@@ -1,0 +1,126 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ormai non era più possibile negare che l'unico figlio ed erede del professore Trestelle, filosofo materialista, aveva un'ombra scura intorno al labbro superiore.
+1	Ormai	ormai	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+6	negare	negare	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	che	che	SCONJ	CS	_	21	mark	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	unico	unico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	erede	erede	NOUN	S	Number=Sing	10	conj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	professore	professore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	Trestelle	Trestelle	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	filosofo	filosofo	NOUN	S	Gender=Masc|Number=Sing	10	appos	_	_
+19	materialista	materialista	NOUN	S	Number=Sing	18	compound	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+22	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	scura	scuro	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	intorno	intorno	ADV	B	_	28	case	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	25	fixed	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	labbro	labbro	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+29	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = E, dacchè questa verità era stata riconosciuta, le esigenze del signorino avevano rotto ogni freno.
+1	E	e	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	8	punct	_	_
+3	dacchè	dacché	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	verità	verità	NOUN	S	Gender=Fem	8	nsubj:pass	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	riconosciuta	riconoscere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	signorino	signorino	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	rotto	rompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	freno	freno	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = Le sue scarpe non erano mai lucide a sufficenza;
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	scarpe	scarpe	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	lucide	lucidere	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	sufficenza	sufficenza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = ed i colori e la finezza delle calze erano argomento di lunghe e minute istruzioni, e di altrettante lagnanze;
+1	ed	e	CCONJ	CC	_	6	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	colori	colore	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	finezza	finezza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	calze	calza	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	lunghe	lungo	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	minute	minuto	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	istruzioni	istruzione	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	altrettante	altrettante	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	21	det	_	_
+21	lagnanze	lagnanza	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 5
+# text = i solini riescivano sempre o troppo o poco insaldati, e nessuna tavolozza possedeva la tinta precisa di turchino che avrebbero dovuto avere.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	solini	solino	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	riescivano	riescire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	_
+5	o	o	CCONJ	CC	_	9	cc	_	_
+6	troppo	troppo	ADV	B	_	9	advmod	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	poco	poco	ADV	B	_	9	advmod	_	_
+9	insaldati	insaldato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
+13	tavolozza	tavolozza	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	possedeva	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	tinta	tinta	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	precisa	preciso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	turchino	turchino	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux	_	_
+23	avere	avere	VERB	V	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

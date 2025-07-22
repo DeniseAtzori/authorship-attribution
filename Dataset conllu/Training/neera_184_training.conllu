@@ -1,0 +1,140 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = si scarta di un centimetro per lasciarci passare.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	scarta	scartare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	centimetro	centimetro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	lasciarci	_	_	_	_	_	_	_	_
+7	lasciar	lasciare	VERB	V	VerbForm=Inf	2	advcl	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+9	passare	passare	VERB	V	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Siamo ancora ai confini, non conoscono le nostre intenzioni.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	ancora	ancora	ADV	B	_	5	advmod	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	confini	confine	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Ma se facciamo tanto di sforzare le file sempre più compatte quanto già ci avviciniamo al centro, sentiremo che gomitate, che pugni nelle reni, che resistenza granitica!
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tanto	tanto	ADV	B	_	6	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	sforzare	sforzare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	file	fila	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	sempre	sempre	ADV	B	_	10	advmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	compatte	compatto	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+12	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	11	obl	_	_
+13	già	già	ADV	B	_	15	advmod	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	expl	_	_
+15	avviciniamo	avvicinare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	centro	centro	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	sentiremo	sentire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	12	acl:relcl	_	_
+21	che	che	SCONJ	CS	_	22	mark	_	_
+22	gomitate	gomitare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	31	case	_	_
+25	pugni	pugno	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+26-27	nelle	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	reni	reni	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	25	punct	_	_
+30	che	che	PRON	PR	PronType=Rel	31	case	_	_
+31	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+32	granitica	granitico	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = È allora proprio che si riconoscono tutti fratelli, cioè tutti uguali nel difendere il possesso.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	allora	allora	ADV	B	_	6	advmod	_	_
+3	proprio	proprio	ADV	B	_	6	advmod	_	_
+4	che	che	SCONJ	CS	_	3	fixed	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	riconoscono	riconoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	cioè	cioè	CCONJ	CC	_	11	cc	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	obl	_	_
+12	uguali	uguale	ADJ	A	Number=Plur	8	amod	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	difendere	difendere	VERB	V	VerbForm=Inf	12	obl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	possesso	possesso	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Guai ai toraci tisicucci fra quelle strette!
+1	Guai	guaio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	toraci	toraco	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	tisicucci	tisicuccio	ADJ	A	Number=Plur	4	amod	_	_
+6	fra	fra	ADP	E	_	7	case	_	_
+7	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	1	nmod	_	_
+8	strette	stretto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Non è il primo passo il più difficile quando si tratta di una lotta perpetua, la lotta di uno contro tutti, sempre rinnovati, sempre forti di fresche reclute.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	difficile	difficile	ADJ	A	Number=Sing	5	amod	_	_
+9	quando	quando	SCONJ	CS	_	11	mark	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	perpetua	perpetuo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	nmod	_	_
+21	contro	contro	ADP	E	_	22	case	_	_
+22	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	sempre	sempre	ADV	B	_	25	advmod	_	_
+25	rinnovati	rinnovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	sempre	sempre	ADV	B	_	28	advmod	_	_
+28	forti	forte	ADJ	A	Number=Plur	18	amod	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	fresche	fresco	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	_
+31	reclute	recluta	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

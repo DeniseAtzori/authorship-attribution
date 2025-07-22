@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La figlia maggiore, Ernesta, era vecchia, anemica, un po' calva;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	Ernesta	Ernesta	PROPN	SP	_	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	anemica	anemico	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	po'	poco	ADV	B	_	14	advmod	_	_
+14	calva	calvo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = le mancavano parecchi denti, ed aveva il lobo d'un orecchio spaccato.
+1	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	mancavano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	denti	dente	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lobo	lobo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	spaccato	spaccato	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Da un gran pezzo aveva lasciato il mestiere di modista, e teneva in ordine la biancheria delle camere e degli inquilini.
+1	Da	da	ADP	E	_	4	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	gran	grande	ADJ	A	Number=Sing	4	amod	_	_
+4	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mestiere	mestiere	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	modista	modista	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	biancheria	biancheria	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	camere	camera	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	degli	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	inquilini	inquilino	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Era sempre in moto, sempre affaccendata;
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	sempre	sempre	ADV	B	_	4	advmod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	moto	moto	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	affaccendata	affaccendare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = si pettinava a metà del giorno, qualche volta la sera;
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	pettinava	pettinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	metà	metà	NOUN	S	Gender=Fem	2	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sera	sera	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = se il lavoro era soverchio non si pettinava affatto.
+1	se	se	SCONJ	CS	_	5	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	soverchio	soverchio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	pettinava	pettinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	affatto	affatto	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

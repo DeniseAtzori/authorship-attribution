@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il nonno era stato farmacista in una piccola città della Lombardia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	farmacista	farmacedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	città	città	NOUN	S	Gender=Fem	5	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Lombardia	Lombardia	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Sua figlia, il cui marito era succeduto a lui nell'esercizio della sua professione, come egli stesso tanti anni innanzi era succeduto al suo babbo, sua figlia aveva obbedito fedelmente al precetto delle sacre scritture, che dice alla sposa:
+1	Sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	cui	cui	DET	DR	PronType=Rel	6	det:poss	_	_
+6	marito	marito	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	succeduto	succedire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11-12	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	in	in	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	professione	professione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	egli	ello	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	_
+21	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+23	anni	anno	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+24	innanzi	innanzi	ADV	B	_	26	advmod	_	_
+25	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux:pass	_	_
+26	succeduto	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	35	nsubj	_	_
+34	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+35	obbedito	obbedire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+36	fedelmente	fedelmente	ADV	B	_	35	advmod	_	_
+37-38	al	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	precetto	precetto	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+40-41	delle	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	43	case	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+42	sacre	sacre	ADJ	A	Gender=Fem|Number=Plur	43	amod	_	_
+43	scritture	scritture	NOUN	S	Gender=Fem|Number=Plur	39	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+46	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	acl:relcl	_	_
+47-48	alla	_	_	_	_	_	_	_	_
+47	a	a	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	46	obl	_	SpaceAfter=No
+50	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 3
+# text = «Sarai feconda come una vite...
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sarai	Saere	PROPN	SP	_	3	nsubj	_	_
+3	feconda	fecondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vite..	vite..	NOUN	S	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = senza crittogama».
+1	senza	senza	ADP	E	_	2	case	_	_
+2	crittogama	crittogama	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

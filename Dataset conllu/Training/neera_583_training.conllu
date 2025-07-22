@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E ancora:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	ancora	ancora	ADV	B	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = artisti mancati che ebbero dalla natura il dono di sentire ma non quello di rendere, eterni Tantali cui morde la sete del bello ma che non giungono a tuffarvi le labbra riarse, che legati invincibilmente alla terra aspirano l'alto con uno spasimo di desiderio da cui germogliano le mille vipere della gelosia.
+1	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	mancati	mancato	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	ebbero	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	natura	natura	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dono	dono	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	sentire	sentire	VERB	V	VerbForm=Inf	9	acl	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	conj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	rendere	rendere	VERB	V	VerbForm=Inf	14	acl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	eterni	eterni	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	Tantali	Tantale	ADJ	A	Number=Plur	18	amod	_	_
+20	cui	cui	PRON	PR	PronType=Rel	21	obl	_	_
+21	morde	mordere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sete	sete	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	bello	bello	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	ma	ma	CCONJ	CC	_	30	cc	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	giungono	giungere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32-33	tuffarvi	_	_	_	_	_	_	_	_
+32	tuffar	tuffare	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	vi	vi	ADV	B	_	32	advmod	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+36	riarse	riarso	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	35	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+39	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	44	advcl	_	_
+40	invincibilmente	invincibilmente	ADV	B	_	39	advmod	_	_
+41-42	alla	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	terra	terra	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+44	aspirano	aspirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	alto	alto	NOUN	S	Gender=Masc|Number=Sing	44	obj	_	_
+47	con	con	ADP	E	_	49	case	_	_
+48	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	spasimo	spasimo	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	_
+52	da	da	ADP	E	_	53	case	_	_
+53	cui	cui	PRON	PR	PronType=Rel	54	obl	_	_
+54	germogliano	germogliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	acl:relcl	_	_
+55	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+56	mille	mille	NUM	N	NumType=Card	57	nummod	_	_
+57	vipere	vipera	NOUN	S	Gender=Fem|Number=Plur	54	nsubj	_	_
+58-59	della	_	_	_	_	_	_	_	_
+58	di	di	ADP	E	_	60	case	_	_
+59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	gelosia	gelosia	NOUN	S	Gender=Fem|Number=Sing	57	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

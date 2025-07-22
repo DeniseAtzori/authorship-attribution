@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — Se ci fossi stato io!
+1	—	—	PUNCT	FF	_	5	punct	_	_
+2	Se	se	SCONJ	CS	_	5	mark	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	fossi	essere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Avrei traversate le fiamme;
+1	Avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	traversate	traversare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	fiamme	fiamma	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = no il fumo non mi avrebbe soffocato.
+1	no	no	ADV	BN	PronType=Neg	7	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+6	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	soffocato	soffocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Io so stare sott'acqua venti secondi;
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	stare	stare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	sott'	sotto	ADP	E	_	5	case	_	SpaceAfter=No
+5	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	venti	vente	NUM	N	NumType=Card	7	nummod	_	_
+7	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = sarei stato altrettanto nel fumo.
+1	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+3	altrettanto	altrettanto	ADV	B	_	6	advmod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = E se si fosse rotta la trave sotto i miei piedi, avrei spiccato un salto, mi sarei aggrappato ad un cornicione, ad un chiodo, alla sporgenza più tenue;
+1	E	e	CCONJ	CC	_	14	cc	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+4	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	rotta	rottare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	trave	trave	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8	sotto	sotto	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	spiccato	spiccato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	salto	salto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+19	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	aggrappato	aggrappare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+21	ad	a	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cornicione	cornicione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	14	punct	_	_
+25	ad	a	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	chiodo	chiodo	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	14	punct	_	_
+29-30	alla	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	sporgenza	sporgenza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+32	più	più	ADV	B	_	33	advmod	_	_
+33	tenue	tenuo	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
+34	;	;	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 7
+# text = ma nessuno sarebbe perito se ci fossi stato io.
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	perito	perire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	se	se	SCONJ	CS	_	8	mark	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+7	fossi	essere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

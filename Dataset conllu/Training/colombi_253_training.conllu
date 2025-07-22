@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma più tardi la coscienza aveva cominciato a rimproverarle quell'ommissione.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	tardi	tardi	ADV	B	_	7	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	rimproverarle	_	_	_	_	_	_	_	_
+9	rimproverar	rimproverare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	9	iobj	_	_
+11	quell'	qui	DET	DD	Number=Sing|PronType=Dem	12	det	_	SpaceAfter=No
+12	ommissione	ommissione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = S'era fissata su quel pensiero, e man mano s'era esaltata fino al delirio.
+1	S'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	fissata	fissare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	13	punct	_	_
+8	e	e	CCONJ	CC	_	13	cc	_	_
+9	man	mano	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	mano	mano	NOUN	S	Gender=Fem|Number=Sing	9	compound	_	_
+11	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	SpaceAfter=No
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	esaltata	esesalere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+14	fino	fino	ADV	B	_	17	case	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Rivedendo un oggetto, che aveva ricevuto in deposito dal marito defunto, l'esaltazione del suo spirito era aumentata fino a credere di udire il morto ripetere l'ordine in quella cassa il comando che lei aveva trasgredito.
+1	Rivedendo	Rivedere	VERB	V	VerbForm=Ger	22	advcl	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	deposito	deposito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	marito	marito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13	defunto	defunto	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	esaltazione	esaltazione	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	aumentata	aumentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	fino	fino	ADV	B	_	25	mark	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	credere	credere	VERB	V	VerbForm=Inf	22	xcomp	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	udire	udire	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	morto	morto	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	ripetere	ripetere	VERB	V	VerbForm=Inf	27	xcomp	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	35	det	_	_
+35	cassa	cassare	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	comando	comando	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+38	che	che	PRON	PR	PronType=Rel	41	obj	_	_
+39	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+40	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+41	trasgredito	trasgredire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl:relcl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+

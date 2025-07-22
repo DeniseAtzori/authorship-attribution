@@ -1,0 +1,129 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sentì che erano a chiocciola, e per non correre il rischio di rompersi il collo, accese un fiammifero.
+1	Sentì	Sentì	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	chiocciola	chiocciola	NOUN	S	Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	per	per	ADP	E	_	10	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	correre	correre	VERB	V	VerbForm=Inf	1	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	rompersi	_	_	_	_	_	_	_	_
+14	romper	romper	VERB	V	VerbForm=Inf	12	acl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	collo	collo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	accese	accendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	fiammifero	fiammifero	NOUN	S	Gender=Masc|Number=Sing	19	nsubj:pass	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ma al primo piano un po' di luce si fece:
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	piano	piano	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	po'	poco	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	luce	luce	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 3
+# text = al secondo ci si vedeva, quasi.
+1-2	al	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	quasi	quasi	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Su quel pianerottolo davano tre porte e sopra quella di mezzo, era attaccato, con due spilli piegati, un sudicio biglietto da visita che portava un nome e un cognome: _Alessandro Bertocchini_.
+1	Su	su	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	pianerottolo	pianerottolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	porte	porta	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	sopra	sopra	ADP	E	_	9	case	_	_
+9	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:pass	_	_
+14	attaccato	attaccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	spilli	spille	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+19	piegati	piegare	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	sudicio	sudicio	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	visita	visita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	nome	nome	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	cognome	cognome	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	23	punct	_	_
+34	_Alessandro	_Alessandro	PROPN	SP	_	23	nmod	_	_
+35	Bertocchini_	Bertocchini-	PROPN	SP	_	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Sangiorgio consultò il pezzetto di carta che gli aveva dato il sensale delle case:
+1	Sangiorgio	Sangiorgio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	consultò	consultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pezzetto	pezzetto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	carta	carta	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+9	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sensale	sensala	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	case	casa	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = era proprio quel nome.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	proprio	proprio	ADV	B	_	4	advmod	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	nome	nome	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Picchiò.
+1	Picchiò	Picchiò	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

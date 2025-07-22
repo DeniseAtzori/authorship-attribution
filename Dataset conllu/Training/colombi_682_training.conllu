@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una contessa ne conosceva uno che era figlio di un ricchissimo possidente.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	contessa	contessa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	5	acl:relcl	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	ricchissimo	ricchissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	12	amod	_	_
+12	possidente	possidente	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Soltanto pochi anni prima la sua famiglia era due volte millenaria; aveva carrozza, non se ne parla nemmanco, e servitù, ed una mensa ospitale;
+1	Soltanto	soltanto	ADV	B	_	3	advmod	_	_
+2	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+4	prima	prima	ADV	B	_	10	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+11	millenaria	millenario	ADJ	A	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	amod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	3	punct	_	_
+13	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl:impers	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+19	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+20	nemmanco	nemmanco	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	servitù	servitù	NOUN	S	Gender=Fem	13	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	ed	e	CCONJ	CC	_	27	cc	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	mensa	mensa	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+28	ospitale	ospitale	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 3
+# text = sempre gente a pranzo, sempre invitati a villeggiare nella sua bella campagna, e per lui maestri di lingue, maestri di musica, di scherma, d'equitazione, e che bei cavalli da sella!
+1	sempre	sempre	ADV	B	_	2	advmod	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	invitati	invitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	villeggiare	villeggiare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	14	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	bella	bello	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nmod	_	_
+19	maestri	maestro	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	maestri	maestro	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	musica	musica	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	scherma	scherma	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	d'	di	ADP	E	_	31	case	_	SpaceAfter=No
+31	equitazione	equitazione	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	36	punct	_	_
+33	e	e	CCONJ	CC	_	36	cc	_	_
+34	che	che	SCONJ	CS	_	36	case	_	_
+35	bei	bello	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+36	cavalli	cavallo	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+37	da	da	ADP	E	_	38	case	_	_
+38	sella	sella	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E l'aveva goduta fino a ventun anno questa cuccagna.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	goduta	godere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	fino	fino	ADV	B	_	8	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	ventun	ventuno	NUM	N	NumType=Card	8	nummod	_	_
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	cuccagna	cuccagna	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

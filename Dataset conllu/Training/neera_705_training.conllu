@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’ardore del giovane contenuto in una giusta padronanza di gesti e di voce trovava nelle più nobili fibre della donna un’eco già pronta.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ardore	ardore	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	giovane	giovane	ADJ	A	Number=Sing	6	amod	_	_
+6	contenuto	contenere	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	padronanza	padronanza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	gesti	gesto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	voce	voce	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+16	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17-18	nelle	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	21	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	nobili	nobile	ADJ	A	Number=Plur	21	amod	_	_
+21	fibre	fibra	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	donna	donna	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	eco	eco	NOUN	S	Gender=Fem	16	obj	_	_
+27	già	già	ADV	B	_	28	advmod	_	_
+28	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = Ella non ebbe bisogno di molte parole per affermarsi.
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9-10	affermarsi	_	_	_	_	_	_	_	SpaceAfter=No
+9	affermar	affermare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Dal suo sguardo, da quel tutto insieme misterioso e profondo per cui traluce il pensiero, Moena dovette sentirsi compreso.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obl	_	_
+9	insieme	insieme	ADV	B	_	10	advmod	_	_
+10	misterioso	misterioso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+15	traluce	tralurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	Moena	Moena	PROPN	SP	_	21	nsubj	_	_
+20	dovette	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
+21-22	sentirsi	_	_	_	_	_	_	_	_
+21	sentir	sentire	VERB	V	VerbForm=Inf	15	csubj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Soggiunse senza guardare la signora, già perduto nella visione dell’avvenire:
+1	Soggiunse	Soggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	senza	senza	ADP	E	_	3	mark	_	_
+3	guardare	guardare	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	signora	signore	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	visione	visione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+

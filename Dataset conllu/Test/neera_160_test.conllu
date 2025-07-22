@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma il contegno di mio cugino doveva mutare ancora.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contegno	contegno	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	mutare	mutare	VERB	V	VerbForm=Inf	0	root	_	_
+9	ancora	ancora	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Non più iroso nè sdegnoso, non più l'intenzione visibile di offendermi che era pure un modo di occuparsi di me;
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	iroso	iroso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+4	nè	né	CCONJ	CC	_	5	cc	_	_
+5	sdegnoso	sdegnoso	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	più	più	ADV	B	_	10	advmod	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	visibile	visibile	ADJ	A	Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	offendermi	_	_	_	_	_	_	_	_
+13	offender	offendere	VERB	V	VerbForm=Inf	10	acl	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+17	pure	pure	ADV	B	_	19	advmod	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	acl:relcl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21-22	occuparsi	_	_	_	_	_	_	_	_
+21	occupar	occupare	VERB	V	VerbForm=Inf	19	acl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	21	obl	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 3
+# text = egli trovò un sistema di spensieratezza, di giocondità impudente che mi feriva molto di più e che mi disorientava.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	spensieratezza	spensieratezza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	giocondità	giocondità	NOUN	S	Gender=Fem	4	nmod	_	_
+10	impudente	impudente	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+13	feriva	ferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+14	molto	molto	ADV	B	_	16	advmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	più	più	ADV	B	_	13	advmod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
+20	disorientava	disorientare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = C'era in esso questo sottinteso:
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	sottinteso	sottintendere	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = Povera donnicciuola che ti lusingasti per un istante di avermi allettato colla tua giovinezza appassita, la tua triste casa, il tuo piccolo cuore--vedi il volo della mia forte gioventù e fatti da parte.
+1	Povera	povero	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	donnicciuola	donnicciuola	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+5	lusingasti	lusinganere	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	istante	istante	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	avermi	avermo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	allettato	allettato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	giovinezza	giovinezza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	appassita	appassito	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+18	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+19	triste	triste	ADJ	A	Number=Sing	20	amod	_	_
+20	casa	casa	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+23	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+24	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+26	-	-	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	-	-	PUNCT	FF	_	28	punct	_	SpaceAfter=No
+28	vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	volo	volo	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	35	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+33	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+34	forte	forte	ADJ	A	Number=Sing	35	amod	_	_
+35	gioventù	gioventù	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	fatti	fatto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	35	conj	_	_
+38	da	da	ADP	E	_	39	case	_	_
+39	parte	parte	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Nulla abbiamo di comune, io non mi curo di te.
+1	Nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	2	obj	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	comune	comune	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+9	curo	curare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

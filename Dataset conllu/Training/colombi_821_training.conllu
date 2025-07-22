@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Sì; il vostro babbo aveva un fratello, disse la Rosa;
+1	--Sì	--sì	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	;	;	PUNCT	FC	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	babbo	babbo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	parataxis	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Rosa	Rosa	PROPN	SP	_	10	obj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = ed erano venuti su insieme come voialtri, e, da uomini fatti, vivevano ancora uniti.
+1	ed	e	CCONJ	CC	_	3	cc	_	_
+2	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
+3	venuti	venire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	su	su	ADP	E	_	5	case	_	_
+5	insieme	insieme	ADV	B	_	3	advmod	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	voialtri	voialtro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+13	fatti	fatto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	vivevano	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+16	ancora	ancora	ADV	B	_	17	advmod	_	_
+17	uniti	unito	ADJ	A	Gender=Masc|Number=Plur	15	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Possedevano questa casa in Santhià, ed un po' di terreno che non bastava a farli vivere.
+1	Possedevano	Possedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Santhià	Santhià	PROPN	SP	_	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	ed	e	CCONJ	CC	_	11	cc	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po'	poco	ADV	B	_	11	advmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	bastava	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	farli	_	_	_	_	_	_	_	_
+16	far	fare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	vivere	vivere	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Quell'altro, il signor Teodoro, faceva dei grandi affittamenti di prati e risaie; e vostro padre dirigeva i lavori, teneva i conti, badava al raccolto, alle vendite.
+1	Quell'	quello	DET	DI	Number=Sing|PronType=Ind	2	det	_	SpaceAfter=No
+2	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	signor	signore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	Teodoro	Teodoro	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	grandi	grande	ADJ	A	Number=Plur	12	amod	_	_
+12	affittamenti	affittamento	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	prati	prato	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	risaie	risaia	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	21	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	padre	padre	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+21	dirigeva	dirigere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	conti	conto	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	badava	badare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	raccolto	raccolto	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	29	punct	_	_
+34-35	alle	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	vendite	vendita	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

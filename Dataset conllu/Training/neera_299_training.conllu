@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In condizioni più basse ancora vedo la moglie che va alla fabbrica sempre allo stesso scopo di vantaggiare il bilancio domestico;
+1	In	in	ADP	E	_	2	case	_	_
+2	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	basse	basso	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fabbrica	fabbrica	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	sempre	sempre	ADV	B	_	10	advmod	_	_
+15-16	allo	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	vantaggiare	vantaggiare	VERB	V	VerbForm=Inf	18	acl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	bilancio	bilancio	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	domestico	domestico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = ma, oltre all’inevitabile abbandono dei figli, deve spendere denaro per aggiustature d’abiti, lavature, ecc.; e lei stessa ha bisogno di maggior spesa per il suo vestiario;
+1	ma	ma	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	13	punct	_	_
+3	oltre	oltre	ADV	B	_	7	case	_	_
+4-5	all’	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	3	fixed	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	inevitabile	inevitabile	ADJ	A	Number=Sing	7	amod	_	_
+7	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	spendere	spendere	VERB	V	VerbForm=Inf	0	root	_	_
+14	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	aggiustature	aggiustatura	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17	d’	di	ADP	E	_	18	case	_	SpaceAfter=No
+18	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	lavature	lavatura	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	ecc.	ecc.	NOUN	S	_	16	conj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	27	punct	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+26	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+28	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	31	amod	_	_
+31	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	per	per	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	vestiario	vestiario	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 3
+# text = tanto che l’economia se ne va per altra parte trascinando seco la sequela di guai che provengono dai figli cresciuti lungi dalla madre.
+1	tanto	tanto	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	economia	economia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	trascinando	trascinare	VERB	V	VerbForm=Ger	7	advcl	_	_
+12	seco	seco	ADV	B	_	11	advmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sequela	sequela	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	guai	guaio	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	provengono	provenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19-20	dai	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	cresciuti	crescere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23	lungi	lungi	ADV	B	_	22	advmod	_	_
+24-25	dalla	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	madre	madre	NOUN	S	Gender=Fem|Number=Sing	22	obl:agent	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

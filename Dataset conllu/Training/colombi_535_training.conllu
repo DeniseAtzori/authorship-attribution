@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Dal primo giorno che la vidi dal pasticciere mi ha divorato il cuore col suo _croque en bouche_.
+1	«	«	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+2-3	Dal	_	_	_	_	_	_	_	_
+2	Da	da	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	vidi	vidio	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pasticciere	pasticciere	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	divorato	divorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+17-18	col	_	_	_	_	_	_	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	_croque	_croque	X	SW	Foreign=Yes	14	obl	_	_
+21	en	en	X	SW	Foreign=Yes	20	flat:foreign	_	_
+22	bouche_	bouche-	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Sono gentiluomo; patrimonio discreto, abitudini tranquille, carattere uguale, trentanove anni e undici mesi;
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	gentiluomo	gentiluomo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	4	punct	_	_
+4	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	discreto	discreto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	abitudini	abitudine	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	tranquille	tranquillo	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+11	uguale	uguale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	trentanove	trentanove	NUM	N	NumType=Card	14	nummod	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	undici	undici	NUM	N	NumType=Card	17	nummod	_	_
+17	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = un po' avariato nelle funzioni digestive.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	po'	poco	ADV	B	_	3	advmod	_	_
+3	avariato	avariare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	funzioni	funzione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	digestive	digestivo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Questa confessione le provi la mia lealtà.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	iobj	_	_
+4	provi	provo	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	lealtà	lealtà	NOUN	S	Gender=Fem	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Quanto all'aspetto può giudicarlo da sè, e se potessi sperare di ottenere le sue simpatie, sarei felice di offrirle la mia mano, e di domandarle in ginocchio la sua».
+1	Quanto	quanto	ADV	B	_	6	mark	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	1	fixed	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6-7	giudicarlo	_	_	_	_	_	_	_	_
+6	giudicar	giudicare	VERB	V	VerbForm=Inf	22	advcl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	sè	sè	PRON	PE	Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	se	se	SCONJ	CS	_	14	mark	_	_
+13	potessi	potesso	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	sperare	sperare	VERB	V	VerbForm=Inf	6	conj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	ottenere	ottenere	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	simpatie	simpatia	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	6	punct	_	_
+21	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24-25	offrirle	_	_	_	_	_	_	_	_
+24	offrir	offrire	VERB	V	VerbForm=Inf	22	advcl	_	_
+25	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	mano	mano	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32-33	domandarle	_	_	_	_	_	_	_	_
+32	domandar	domandare	VERB	V	VerbForm=Inf	22	conj	_	_
+33	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	iobj	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	ginocchio	ginocchio	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	obj	_	SpaceAfter=No
+38	»	»	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+

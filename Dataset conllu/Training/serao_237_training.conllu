@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tre volte, egli ebbe la illusione che gli occhi di Maria gli fossero riapparsi:
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Maria	Maria	PROPN	SP	_	10	nmod	_	_
+13	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+14	fossero	essere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15-16	riapparsi	_	_	_	_	_	_	_	SpaceAfter=No
+15	riappar	riappare	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = e alla terza volta, nel salone dove si conversava, dopo il pranzo, lo scintillìo di quello sguardo fu così teneramente dolce e così vividamente malizioso, che egli non resistette e attraversò la sala, per raggiungere l'amabile donna che l'ospitava, non sapendo bene quello che le avrebbe detto, nell'intimo turbamento che lo aveva invaso.
+1	e	e	CCONJ	CC	_	26	cc	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	salone	salone	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+10	dove	dove	ADV	B	_	12	advmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	conversava	conversare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	dopo	dopo	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	scintillìo	scintillìo	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nmod	_	_
+22	sguardo	sguardo	ADV	B	_	26	advmod	_	_
+23	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
+24	così	così	ADV	B	_	26	advmod	_	_
+25	teneramente	tenero	ADV	B	_	26	advmod	_	_
+26	dolce	dolce	ADJ	A	Number=Sing	0	root	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	così	così	ADV	B	_	30	advmod	_	_
+29	vividamente	vivido	ADV	B	_	30	advmod	_	_
+30	malizioso	malizioso	ADJ	A	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	che	che	SCONJ	CS	_	35	mark	_	_
+33	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+35	resistette	resistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	ccomp	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	attraversò	attraversare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	conj	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	sala	sala	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	26	punct	_	_
+41	per	per	ADP	E	_	42	mark	_	_
+42	raggiungere	raggiungere	VERB	V	VerbForm=Inf	26	advcl	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+44	amabile	amabile	ADJ	A	Number=Sing	45	amod	_	_
+45	donna	donna	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+46	che	che	PRON	PR	PronType=Rel	48	nsubj	_	_
+47	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	48	obj	_	SpaceAfter=No
+48	ospitava	ospitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	acl:relcl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	45	punct	_	_
+50	non	non	ADV	BN	PronType=Neg	51	advmod	_	_
+51	sapendo	sapere	VERB	V	VerbForm=Ger	26	advcl	_	_
+52	bene	bene	ADV	B	_	51	advmod	_	_
+53	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	51	obj	_	_
+54	che	che	PRON	PR	PronType=Rel	57	nsubj	_	_
+55	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	57	iobj	_	_
+56	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	_
+57	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	acl:relcl	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	26	punct	_	_
+59-60	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+59	in	in	ADP	E	_	62	case	_	_
+60	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	62	det	_	_
+61	intimo	intimo	ADJ	A	Gender=Masc|Number=Sing	62	amod	_	_
+62	turbamento	turbamento	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+63	che	che	PRON	PR	PronType=Rel	66	nsubj	_	_
+64	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	66	obj	_	_
+65	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	66	aux	_	_
+66	invaso	invaso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	62	acl:relcl	_	SpaceAfter=No
+67	.	.	PUNCT	FS	_	26	punct	_	SpacesAfter=\n
+

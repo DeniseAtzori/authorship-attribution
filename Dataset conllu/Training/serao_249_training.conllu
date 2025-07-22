@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Pensò, disperatamente, se non fosse meglio tentare di tradire sè stesso e il suo postumo amore, cercando una donna presso cui finire la serata, Chérie, la ridente Chérie.
+1	Pensò	pensare	ADV	B	_	29	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	disperatamente	disperatamente	ADV	B	_	29	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	se	se	SCONJ	CS	_	9	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	meglio	meglio	ADV	B	_	9	advmod	_	_
+9	tentare	tentare	VERB	V	VerbForm=Inf	29	advcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	tradire	tradire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	sè	sè	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+17	postumo	postumo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	amore	amore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20	cercando	cercare	VERB	V	VerbForm=Ger	9	advcl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	donna	donna	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	presso	presso	ADP	E	_	24	case	_	_
+24	cui	cui	PRON	PR	PronType=Rel	25	obl	_	_
+25	finire	finire	VERB	V	VerbForm=Inf	22	acl:relcl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	serata	serata	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	9	punct	_	_
+29	Chérie	Chérie	PROPN	SP	_	0	root	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	ridente	ridente	NOUN	S	Number=Sing	29	appos	_	_
+33	Chérie	Chérie	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 2
+# text = Ma gli tornò in mente tutto l'orrore del primo tradimento che egli aveva tentato, con Chérie, per cercar di guarire, per un giorno o per sempre, della sua inutile e inefficace passione per Maria che non lo amava più.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mente	mente	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	8	det:predet	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	tradimento	tradimento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+14	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	Chérie	Chérie	PROPN	SP	_	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	3	punct	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	cercar	cercare	VERB	V	VerbForm=Inf	3	advcl	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	guarire	guarire	VERB	V	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+29	o	o	CCONJ	CC	_	31	cc	_	_
+30	per	per	ADP	E	_	31	case	_	_
+31	sempre	sempre	ADV	B	_	28	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	24	punct	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	39	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+35	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+36	inutile	inutile	ADJ	A	Number=Sing	39	amod	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	inefficace	inefficace	ADJ	A	Number=Sing	36	conj	_	_
+39	passione	passione	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+40	per	per	ADP	E	_	41	case	_	_
+41	Maria	Maria	PROPN	SP	_	39	nmod	_	_
+42	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+43	non	non	ADV	BN	PronType=Neg	45	advmod	_	_
+44	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	obj	_	_
+45	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	acl:relcl	_	_
+46	più	più	ADV	B	_	45	advmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

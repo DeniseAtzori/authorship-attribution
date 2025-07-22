@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In quel mese, però, Ciccotto era diventato così grasso e grosso, che non si poteva più menarlo a pascolare molto lontano:
+1	In	in	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	mese	mese	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	però	però	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	Ciccotto	Ciccotto	PROPN	SP	_	9	nsubj	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	grasso	grasso	ADJ	A	Gender=Masc|Number=Sing	9	xcomp	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	20	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+18	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20-21	menarlo	_	_	_	_	_	_	_	_
+20	menar	menare	VERB	V	VerbForm=Inf	9	conj	_	_
+21	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	pascolare	pascolare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+24	molto	molto	ADV	B	_	25	advmod	_	_
+25	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	23	xcomp	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 2
+# text = passeggiava gravemente.
+1	passeggiava	passeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	gravemente	gravemente	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Invano Canituccia lo chiamava:
+1	Invano	invano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+2	Canituccia	Canituccia	PROPN	SP	_	1	obj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = esso non aveva più forza.
+1	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	forza	forza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = La prima volta che lo lasciò per andare alla montagna a far legna, Canituccia nel bosco gli raccolse una quantità di ghiande e gliele portò in uno strofinaccio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	advcl	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	andare	andare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	far	fare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+14	legna	legna	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	Canituccia	Canituccia	PROPN	SP	_	21	nsubj	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	bosco	bosco	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+20	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
+21	raccolse	raccogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	quantità	quantità	NOUN	S	Gender=Fem	21	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	ghiande	ghianda	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	gliele	gliele	NOUN	S	Gender=Fem|Number=Plur	25	conj	_	_
+28	portò	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	strofinaccio	strofinaccio	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
+

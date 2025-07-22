@@ -1,0 +1,127 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Miss Geraldina a diciotto anni pesava novantacinque chilogrammi, a ventidue ne pesava cento, a ventotto ne pesava centoquindici.
+1	Miss	Miss	PROPN	SP	_	6	nsubj	_	_
+2	Geraldina	Geraldinare	PROPN	SP	_	1	flat:name	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	diciotto	diciotto	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6	pesava	pesare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	novantacinque	novantacinque	NUM	N	NumType=Card	8	nummod	_	_
+8	chilogrammi	chilogrammo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	ventidue	ventidue	PRON	PI	Number=Plur|PronType=Ind	13	obl	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+13	pesava	pesare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+14	cento	cento	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	ventotto	ventotto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+19	pesava	pesare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+20	centoquindici	centoquindici	NUM	N	NumType=Card	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = A centoquindici si era fermata da un anno e pareva che non ingrassasse più.
+1	A	a	ADP	E	_	2	case	_	_
+2	centoquindici	centoquindici	NUM	N	NumType=Card	5	nummod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	fermata	fermare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	pareva	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	ingrassasse	ingrassare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	ccomp	_	_
+14	più	più	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Era naturalmente e mostruosamente grassa.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+2	naturalmente	naturalmente	ADV	B	_	5	advmod	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	mostruosamente	mostruoso	ADV	B	_	5	advmod	_	_
+5	grassa	grasso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Aveva la diffusione eguale e permanente della grassezza, per tutta la persona;
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	eguale	eguale	ADJ	A	Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	permanente	permanente	ADJ	A	Number=Sing	4	conj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	grassezza	grassezza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	14	det:predet	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	persona	persona	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = l'uniformità del grasso;
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uniformità	uniformità	NOUN	S	Gender=Fem	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = era un grasso coscienzioso ed onesto che si allargava dapertutto, senza parzialità.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	coscienzioso	coscienzioso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	ed	e	CCONJ	CC	_	6	cc	_	_
+6	onesto	onesto	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	allargava	allargare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+10	dapertutto	dapertutto	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	senza	senza	ADP	E	_	13	case	_	_
+13	parzialità	parzialità	NOUN	S	Gender=Fem	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Grasse le braccia, come le spalle;
+1	Grasse	grarre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 8
+# text = grasse le mani come i piedi, grasse le guancie come il collo.
+1	grasse	grarre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	mani	mano	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	grasse	grarre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	guancie	guancia	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	collo	collo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nei tre giorni avevo visitato il paesello, la sua chiesa gotica, la sua manifattura di lana sopra un fiumicello là, presso:
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	visitato	visitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	paesello	paesello	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+13	gotica	gotico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	manifattura	manifattura	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	lana	lana	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	sopra	sopra	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	fiumicello	fiumicello	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+23	là	là	ADV	B	_	25	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	presso	presso	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = ma i paesani che si volgevano a guardare questo viaggiatore tranquillo ed attento, non sapevano niente della lotta spaventosa che mi rodeva.
+1	ma	ma	CCONJ	CC	_	16	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	paesani	paesano	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	volgevano	volgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	guardare	guardare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	viaggiatore	viaggiatore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	attento	attento	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	sapevano	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	spaventosa	spaventoso	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
+24	rodeva	rodere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = Con un vetturino facevo lunghe passeggiate in carrozza e mi lasciavo narrare i suoi guai, tutte le vicende della sua vita.
+1	Con	con	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vetturino	vetturino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	facevo	facevo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+6	passeggiate	passeggiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	expl	_	_
+11	lasciavo	lasciare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	narrare	narrare	VERB	V	VerbForm=Inf	3	conj	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	guai	guaio	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	19	det:predet	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	vicende	vicenda	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

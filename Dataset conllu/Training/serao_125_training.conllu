@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella si chinava, lo forzava a guardarla negli occhi, furente di collera che tentava invano di reprimere;
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	chinava	chinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	forzava	forzavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	guardarla	guardarla	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9-10	negli	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	furente	furente	ADJ	A	Number=Sing	6	xcomp	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	collera	collera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	tentava	tentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+18	invano	invano	ADV	B	_	17	advmod	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	reprimere	reprimere	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = Mario Felice taceva.
+1	Mario	Mario	PROPN	SP	_	3	nsubj	_	_
+2	Felice	Felice	PROPN	SP	_	1	flat:name	_	_
+3	taceva	tacevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Poi, quando i rossori del tramonto si cangiavano in ombre violacee, egli guardava di cielo limpido, i cespugli degli oleandri, e i mazzi fitti di fiori rosei: e pronunziava la gran parola:
+1	Poi	poi	ADV	B	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quando	quando	SCONJ	CS	_	10	mark	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	rossori	rossore	NOUN	S	Number=Plur	10	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tramonto	tramonto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	cangiavano	cangiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	ombre	ombra	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+13	violacee	violaceo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	limpido	limpido	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	cespugli	cespuglio	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+23-24	degli	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	oleandri	oleandro	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	mazzi	mazzo	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+30	fitti	fitto	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+33	rosei	roseo	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+34	:	:	PUNCT	FC	_	22	punct	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	pronunziava	pronunziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	gran	grande	ADJ	A	Number=Sing	39	amod	_	_
+39	parola	parola	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	16	punct	_	SpacesAfter=\n
+

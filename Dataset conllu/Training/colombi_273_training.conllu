@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = — È evidente che si attribuisce agli imputati l'astuzia d'essersi serviti di un fonografo per dar colore di verità alle loro affermazioni sorprendenti.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	evidente	evidente	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	attribuisce	attribuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+7-8	agli	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	imputati	imputato	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	astuzia	astuzia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+12	d'	di	ADP	E	_	15	mark	_	SpaceAfter=No
+13-14	essersi	_	_	_	_	_	_	_	_
+13	esser	essere	AUX	VA	VerbForm=Inf	15	aux	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	serviti	servire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fonografo	fonografo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	dar	dare	VERB	V	VerbForm=Inf	15	advcl	_	_
+21	colore	colore	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	verità	verità	NOUN	S	Gender=Fem	21	nmod	_	_
+24-25	alle	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	27	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+26	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	affermazioni	affermazione	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+28	sorprendenti	sorprendente	ADJ	A	Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma io vorrei che fosse chiamato il rappresentante del signor Edison, perchè esamini la macchina, e riconosca, se è possibile, da quanto tempo la lastra di stagnola ha ricevute le impressioni.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	vorrei	volere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+6	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rappresentante	rappresentante	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	signor	signore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	Edison	Edison	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	perchè	perché	SCONJ	CS	_	15	mark	_	_
+15	esamini	esamino	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	riconosca	riconoscere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	se	se	SCONJ	CS	_	24	mark	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	possibile	possibile	ADJ	A	Number=Sing	20	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	quanto	quanto	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	lastra	lastra	NOUN	S	Gender=Fem|Number=Sing	34	nsubj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	stagnola	stagnola	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	ricevute	ricevere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	impressioni	impressione	NOUN	S	Gender=Fem|Number=Plur	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

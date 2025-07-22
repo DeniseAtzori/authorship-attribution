@@ -1,0 +1,142 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una mattina di febbraio mi alzai ed apersi le imposte un po' più presto del solito.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	alzai	alzare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	ed	e	CCONJ	CC	_	8	cc	_	_
+8	apersi	apergere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	imposte	imposta	NOUN	S	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	po'	poco	ADV	B	_	13	advmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	presto	presto	ADV	B	_	10	advmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	solito	solito	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Il ciuchino era solo al suo posto:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ciuchino	ciuchino	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	solo	solo	ADV	B	_	8	advmod	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = ma non aveva il muso legato nel sacco:
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	muso	muso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sacco	sacco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = era troppo malato.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	troppo	troppo	ADV	B	_	3	advmod	_	_
+3	malato	malato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Aveva un largo tumore in fondo al dorso sopra la coda, e teneva, le orecchie basse, e tratto tratto rabbrividiva tutto.
+1	Aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	largo	largo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	tumore	tumore	ADJ	A	Number=Sing	3	amod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dorso	dorso	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+10	sopra	sopra	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	coda	coda	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+19	basse	basso	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	tratto	trarre	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux	_	_
+23	tratto	tratto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+24	rabbrividiva	rabbrividivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	advcl	_	_
+25	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Pioveva da tutto il giorno innanzi, da tutta la notte:
+1	Pioveva	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	5	case	_	_
+3	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	innanzi	innanzi	ADV	B	_	1	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	11	det:predet	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	notte	notte	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = una pioggia fitta, incessante, diaccia.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	fitta	fitto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	incessante	incessante	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	diaccia	diaccia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Il cielo era grigio come di piombo, l'aria rigida, un fanghiccio nerognolo copriva il cortile e la pioggia cadeva, cadeva.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	grigio	grigio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	piombo	piombo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	aria	aria	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+11	rigida	rigido	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	fanghiccio	fanghiccio	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	nerognolo	nerognolo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	copriva	coprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cortile	cortile	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+22	cadeva	cadevare	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	cadeva	cadevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

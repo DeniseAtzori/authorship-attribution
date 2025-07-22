@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Meglio.
+1	Meglio	meglio	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Datemi presto notizie della vostra salute che desidero e vi auguro buona sotto tutti i rapporti;
+1-2	Datemi	_	_	_	_	_	_	_	_
+1	Date	dare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	presto	presto	ADV	B	_	1	advmod	_	_
+4	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	salute	salute	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpacesAfter=\s\s\s
+9	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+10	desidero	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	13	iobj	_	_
+13	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	buona	buono	ADJ	A	Gender=Fem|Number=Sing	13	xcomp	_	_
+15	sotto	sotto	ADP	E	_	18	case	_	_
+16	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	18	det:predet	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = ma siate calma.
+1	ma	ma	CCONJ	CC	_	2	cc	_	_
+2	siate	siare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpacesAfter=\s\s\s
+3	calma	calma	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non avete mai temuto i sospetti, eppure essi potrebbero nascere quandochessia da un contegno imprudente.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	temuto	temere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	sospetti	sospetto	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	eppure	eppure	CCONJ	CC	_	11	cc	_	_
+9	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+10	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpacesAfter=\s\s\s
+11	nascere	nascere	VERB	V	VerbForm=Inf	4	conj	_	_
+12	quandochessia	quandochessia	CCONJ	CC	_	15	cc	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	contegno	contegno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	imprudente	imprudente	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Siate cauta.
+1	Siate	Siato	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	cauta	cauta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Come vedete sorveglio anche da lontano la vostra felicità;
+1	Come	come	SCONJ	CS	_	2	mark	_	SpacesAfter=\s\s\s
+2	vedete	vedere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sorveglio	sorveglio	ADV	B	_	2	advmod	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	lontano	lontano	ADV	B	_	9	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	felicità	felicità	NOUN	S	Gender=Fem	2	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = essa non può fondarsi, specialmente per la donna, che in una grande normalità di condotta e di ambiente.
+1	essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpacesAfter=\s\s\s
+4-5	fondarsi	_	_	_	_	_	_	_	SpaceAfter=No
+4	fondar	fondare	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	specialmente	specialmente	ADV	B	_	10	advmod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	16	case	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	grande	grande	ADJ	A	Number=Sing	16	amod	_	_
+16	normalità	normalità	NOUN	S	Gender=Fem	4	obl	_	_
+17	di	di	ADP	E	_	18	case	_	SpacesAfter=\s\s\s
+18	condotta	condotta	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

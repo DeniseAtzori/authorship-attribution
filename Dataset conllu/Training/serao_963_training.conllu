@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Vedrete, amico mio, vedrete che questo mio amore, mentre sarà il segreto della mia esistenza, non turberà la vostra.
+1	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+3	Vedrete	vedere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	vedrete	vedere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	3	conj	_	_
+9	che	che	SCONJ	CS	_	24	mark	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	amore	amore	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	mentre	mentre	SCONJ	CS	_	17	mark	_	_
+15	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	cop	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	24	advcl	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	turberà	turbare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	ccomp	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	vostra	vostra	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Fidate in me.
+1	Fidate	Fidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Io vi saprò amare così bene, che non ne avrete nè preoccupazione, nè noia.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	saprò	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	amare	amare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	così	così	ADV	B	_	4	advmod	_	_
+6	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	avrete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	_
+12	nè	nè	CCONJ	CC	_	13	cc	_	_
+13	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	nè	nè	CCONJ	CC	_	16	cc	_	_
+16	noia	noia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Verrete a vedermi, quando vorrete.
+1	Verrete	Verere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3-4	vedermi	_	_	_	_	_	_	_	SpaceAfter=No
+3	veder	vedere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	quando	quando	SCONJ	CS	_	7	mark	_	_
+7	vorrete	vorere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Io non vi darò le mie ore:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+4	darò	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	ore	ora	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 6
+# text = vi aspetterò, sempre.
+1	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+2	aspetterò	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sempre	sempre	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

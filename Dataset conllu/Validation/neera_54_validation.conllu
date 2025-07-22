@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In quei giorni ricevetti una lettera di mio marito.
+1	In	in	ADP	E	_	3	case	_	_
+2	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	ricevetti	riceveggere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	marito	marito	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Pietro nel consegnarmela, disse:
+1	Pietro	Pietro	ADV	B	_	6	advmod	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	consegnarmela	consegnarmela	NOUN	S	Gender=Masc	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 3
+# text = Oggi la signora sarà contenta.
+1	Oggi	oggi	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	signora	signore	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
+5	contenta	contentire	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Io ero difatti contenta quando mi giungeva una di queste lettere perchè speravo ogni volta di trovarvi l'annuncio della felicità.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	difatti	difatti	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	contenta	contentire	ADJ	A	Gender=Fem|Number=Sing	3	xcomp	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	giungeva	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+8	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	7	obj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+11	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	perchè	perché	SCONJ	CS	_	13	mark	_	_
+13	speravo	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	advcl	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	volta	volta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	trovarvi	_	_	_	_	_	_	_	_
+17	trovar	trovare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	17	iobj	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	felicità	felicità	NOUN	S	Gender=Fem	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Questa volta invece rimasi fredda;
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	invece	invece	ADV	B	_	5	advmod	_	_
+4	rimasi	rimanere	ADJ	A	Number=Sing	5	amod	_	_
+5	fredda	freddo	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = capii perfettamente che mio marito era uno straniero, uno straniero passato attraverso la mia casa, attraverso il mio cuore.
+1	capii	capio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	perfettamente	perfetto	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	marito	marito	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	straniero	straniero	NOUN	S	Gender=Masc|Number=Sing	1	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	straniero	straniero	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	passato	passato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13	attraverso	attraverso	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	casa	casa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	attraverso	attraverso	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Un sentimento nuovo di dignità mi faceva vergognare di essermi data con tanta leggerezza a un uomo che non conoscevo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	dignità	dignità	NOUN	S	Gender=Fem	2	nmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	vergognare	vergognare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	essermi	essermo	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
+14	leggerezza	leggerezza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	conoscevo	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non potea nè leggere, nè fumare, nè ubbriacarsi di cognac, per più di mezz'ora, e non erano che le undici e mezzo e non aveva sonno.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	potea	poteo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nè	né	CCONJ	CC	_	4	cc	_	_
+4	leggere	leggero	VERB	V	VerbForm=Inf	2	csubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	nè	né	CCONJ	CC	_	7	cc	_	_
+7	fumare	fumare	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	nè	nè	CCONJ	CC	_	10	cc	_	_
+10-11	ubbriacarsi	_	_	_	_	_	_	_	_
+10	ubbriacar	ubbriacare	VERB	V	VerbForm=Inf	4	conj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cognac	cognac	NOUN	S	Gender=Fem	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	più	più	ADV	B	_	19	advmod	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	mezz'	mezzo	DET	DD	Number=Sing|PronType=Dem	19	det	_	SpaceAfter=No
+19	ora	ora	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+24	che	che	SCONJ	CS	_	31	mark	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	undici	undici	NUM	N	NumType=Card	31	nsubj	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	26	conj	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	ccomp	_	_
+32	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Sdraiato sulla lunga poltrona, abbandonato sui cuscini che aveva ammucchiato sotto le sue spalle e sotto la sua testa, egli si mise a guardare un orologetto di bronzo antico, delicatamente cesellato, posato sovra una mensoletta, presso a lui.
+1	Sdraiato	Sdraiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+2-3	sulla	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	abbandonato	abbandonato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8-9	sui	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	cuscini	cuscino	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	ammucchiato	ammucchiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	sotto	sotto	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	sotto	sotto	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	testa	testa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	1	punct	_	_
+24	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+26	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	guardare	guardare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	orologetto	orologetto	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	bronzo	bronzo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	antico	antico	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	30	punct	_	_
+35	delicatamente	delicato	ADV	B	_	36	advmod	_	_
+36	cesellato	cesellare	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	30	punct	_	_
+38	posato	posare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+39	sovra	sovrare	ADP	E	_	41	case	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	mensoletta	mensoletta	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	41	punct	_	_
+43	presso	presso	ADP	E	_	45	case	_	_
+44	a	a	ADP	E	_	43	fixed	_	_
+45	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	26	punct	_	SpacesAfter=\n
+

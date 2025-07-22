@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E si guardò intorno, con occhi fuori, come se qualcuno gli impedisse, gli contrastasse questo amore e che egli fremesse di dichiararlo a tutti quanti.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	intorno	intorno	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	fuori	fuori	ADV	B	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	come	come	ADV	B	_	14	advmod	_	_
+11	se	se	SCONJ	CS	_	14	mark	_	_
+12	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	impedisse	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+17	contrastasse	contrastare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+18	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	amore	amore	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	che	che	SCONJ	CS	_	23	mark	_	_
+22	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	fremesse	fremere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25-26	dichiararlo	_	_	_	_	_	_	_	_
+25	dichiarar	dichiarare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	25	obl	_	_
+29	quanti	quanto	PRON	PR	Gender=Masc|Number=Plur|PronType=Rel	23	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Invece, Chérie lo guardò, con occhi pieni di una grande pietà, una pietà non profonda, forse, ma grande, una pietà che taceva molte cose, ma che per questo era una grande pietà.
+1	Invece	invece	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Chérie	Chérie	PROPN	SP	_	5	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	grande	grande	ADJ	A	Number=Sing	13	amod	_	_
+13	pietà	pietà	NOUN	S	Gender=Fem	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pietà	pietà	NOUN	S	Gender=Fem	5	obj	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	5	punct	_	_
+20	forse	forse	ADV	B	_	5	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	ma	ma	CCONJ	CC	_	26	cc	_	_
+23	grande	grande	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	pietà	pietà	NOUN	S	Gender=Fem	20	conj	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	taceva	tacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	_
+29	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
+30	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	28	punct	_	_
+32	ma	ma	CCONJ	CC	_	39	cc	_	_
+33	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+34	per	per	ADP	E	_	35	case	_	_
+35	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	39	obl	_	_
+36	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	cop	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	grande	grande	ADJ	A	Number=Sing	39	amod	_	_
+39	pietà	pietà	NOUN	S	Gender=Fem	28	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

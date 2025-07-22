@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Era Anna che aveva risposto a Flavio.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	Anna	Anna	PROPN	SP	_	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Flavio	Flavio	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Era sempre lei che raccoglieva le rare osservazioni del fanciullo, come già un tempo aveva fatto suo padre.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	sempre	sempre	ADV	B	_	3	advmod	_	_
+3	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	raccoglieva	raccogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	rare	raro	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	osservazioni	osservazione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	come	come	SCONJ	CS	_	18	mark	_	_
+14	già	già	ADV	B	_	18	advmod	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	padre	padre	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ciò accadeva spontaneamente per un intimo accordo di sensazioni, ma vi si abbandonava anche volentieri pensando di continuare un lavoro di riabilitazione e di giustizia.
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	accadeva	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	spontaneamente	spontaneo	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	intimo	intimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sensazioni	sensazione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	vi	vi	ADV	B	_	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	abbandonava	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	volentieri	volentieri	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	pensando	pensare	VERB	V	VerbForm=Ger	14	advcl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	continuare	continuare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	riabilitazione	riabilitazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

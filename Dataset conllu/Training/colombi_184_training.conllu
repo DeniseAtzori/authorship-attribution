@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non rispose, ma mi prese una mano come per farmi coraggio.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	ma	ma	CCONJ	CC	_	6	cc	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	prese	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mano	mano	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	come	come	ADP	E	_	12	case	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	farmi	arma|farme	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+12	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Io mi lasciai scivolare pian piano dalla poltrona, e rimasi in ginocchio dinnanzi a lui che mi si era seduto accanto.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	lasciai	lasciare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	scivolare	scivolare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	pian	pian	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	piano	piare	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	rimasi	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	ginocchio	ginocchio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+15	dinnanzi	dinnanzi	ADP	E	_	17	case	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	iobj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	seduto	sedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+23	accanto	accanto	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma fu tutt'altro che la genuflessione drammatica che avevo progettata;
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	tutt'	tutto	ADV	B	_	4	advmod	_	SpaceAfter=No
+4	altro	altro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	genuflessione	genuflessione	NOUN	S	Gender=Fem|Number=Sing	4	csubj	_	_
+8	drammatica	drammatico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+10	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	progettata	progettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = feci quell'atto senza slancio, come per vezzo;
+1	feci	feci	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	atto	atto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	senza	senza	ADP	E	_	5	case	_	_
+5	slancio	slancio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	vezzo	vezzo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = poi nascosi il volto sulle sue ginocchia, e gli dissi:
+1	poi	poi	ADV	B	_	2	advmod	_	_
+2	nascosi	nascoso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	volto	volto	NOUN	S	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+5-6	sulle	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	ginocchia	ginocchio	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	dissi	dissi	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+

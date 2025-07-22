@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = --Tutto questo mi prova, le risposi con un'enfasi di cui allora non mi rendevo ragione, che per ora lei non è innamorata.
+1	--Tutto	--Tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	prova	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	risposi	risposare	NOUN	S	Gender=Fem	4	obj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	enfasi	enfasi	NOUN	S	Gender=Fem	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+13	allora	allora	ADV	B	_	16	advmod	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	expl	_	_
+16	rendevo	rendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+17	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	25	obj	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	ora	ora	ADV	B	_	22	advmod	_	_
+22	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	innamorata	innamorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = L'amore ha leggi fatali che tutti siamo costretti a subire.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+5	fatali	fatale	ADJ	A	Number=Plur	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	9	cc	_	_
+7	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nsubj:pass	_	_
+8	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	subire	subire	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ammetto che possa finire, anzi in tesi generale è certo che finisce.
+1	Ammetto	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	finire	finire	VERB	V	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	anzi	anzi	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	tesi	tesi	NOUN	S	Gender=Fem	4	obl	_	_
+9	generale	generale	ADJ	A	Number=Sing	8	amod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	certo	certo	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	_
+12	che	che	SCONJ	CS	_	13	mark	_	_
+13	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ma nessun innamorato ha il coraggio di dirlo e neppur di pensarlo.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	innamorato	innamorato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	dirlo	_	_	_	_	_	_	_	_
+8	dir	dire	VERB	V	VerbForm=Inf	6	acl	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	neppur	neppur	ADV	B	_	13	advmod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	pensarlo	_	_	_	_	_	_	_	SpaceAfter=No
+13	pensar	pensare	VERB	V	VerbForm=Inf	8	conj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

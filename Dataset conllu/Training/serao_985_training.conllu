@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella, infine, lo amava, è vero, come poteva e come sapeva, con un senso immensamente egoistico che aveva sempre dominato in quell'anima:
+1	Ella	ella	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	infine	infine	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	vero	vero	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	come	come	SCONJ	CS	_	15	mark	_	_
+12	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	come	come	SCONJ	CS	_	15	mark	_	_
+15	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	senso	senso	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	immensamente	immenso	ADV	B	_	21	advmod	_	_
+21	egoistico	egoistico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+24	sempre	sempre	ADV	B	_	25	advmod	_	_
+25	dominato	dominare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	quell'	quello	DET	DD	Number=Sing|PronType=Dem	28	det	_	SpaceAfter=No
+28	anima	anima	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = lo amava, perchè le faceva piacere di amare, perchè il suo stato migliore era l'amore, perchè ella non sentiva la vita che quando era innamorata:
+1	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	perchè	perché	SCONJ	CS	_	6	mark	_	_
+5	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	iobj	_	_
+6	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+7	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	amare	amare	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	perchè	perché	SCONJ	CS	_	18	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	stato	stato	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+15	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	14	amod	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	amore	amore	NOUN	S	Gender=Masc|Number=Sing	9	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	perchè	perché	SCONJ	CS	_	23	mark	_	_
+21	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	che	che	SCONJ	CS	_	29	mark	_	_
+27	quando	quando	SCONJ	CS	_	29	mark	_	_
+28	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+29	innamorata	innamorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = l'amava perchè così aveva voluto ed ora la sua volontà era più forte di lei.
+1	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	perchè	perché	SCONJ	CS	_	6	mark	_	_
+4	così	così	ADV	B	_	6	advmod	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+7	ed	e	CCONJ	CC	_	14	cc	_	_
+8	ora	ora	ADV	B	_	14	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	volontà	volontà	NOUN	S	Gender=Fem	14	nsubj	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	forte	forte	ADJ	A	Number=Sing	6	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

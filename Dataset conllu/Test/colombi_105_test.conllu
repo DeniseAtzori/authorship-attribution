@@ -1,0 +1,132 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Non sapevo che dire, e presi il partito di non rispondere, di non alzare il capo.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	partito	partito	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	13	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	rispondere	rispondere	VERB	V	VerbForm=Inf	10	acl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	di	di	ADP	E	_	17	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	alzare	alzare	VERB	V	VerbForm=Inf	13	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	capo	capo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ma la sua voce mi parve meno brutta.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	voce	voce	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	parve	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	meno	meno	ADV	B	_	8	advmod	_	_
+8	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = In quella, da lontano, nel silenzio delle classi deserte,--perchè a quell'ora, tutte le compagne erano in giardino alla ricreazione,--si udì battere un uscio.
+1	In	in	ADP	E	_	2	case	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	35	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	lontano	lontano	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	classi	classe	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	deserte	deserto	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	33	punct	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	27	punct	_	SpaceAfter=No
+17	perchè	poiperché	SCONJ	CS	_	27	mark	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	quell'	quello	DET	DD	Number=Sing|PronType=Dem	20	det	_	SpaceAfter=No
+20	ora	ora	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	24	det:predet	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	compagne	compagna	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	_
+25	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	giardino	giardino	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	ricreazione	ricreazione	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	27	punct	_	SpaceAfter=No
+32	-	-	PUNCT	FF	_	27	punct	_	SpaceAfter=No
+33	-si	-so	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+34	udì	udì	INTJ	I	Polarity=Pos	35	aux	_	_
+35	battere	battere	VERB	V	VerbForm=Inf	0	root	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	uscio	uscio	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 4
+# text = La direttrice veniva abitualmente ad assistere alle lezioni di musica, e certo doveva esser lei.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	direttrice	direttore	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	abitualmente	abitualmente	ADV	B	_	3	advmod	_	_
+5	ad	a	ADP	E	_	6	mark	_	_
+6	assistere	assistere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	musica	musica	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	certo	certo	ADV	B	_	16	advmod	_	_
+15	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	esser	essere	VERB	V	VerbForm=Inf	3	conj	_	_
+17	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Io sentii con terrore la sconvenienza della mia posizione, il maestro pure la sentì perchè riprese curvandosi verso di me:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sentii	sentio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	advcl	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sconvenienza	sconvenienza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+14	pure	pure	ADV	B	_	16	advmod	_	_
+15	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	perchè	perché	SCONJ	CS	_	18	mark	_	_
+18	riprese	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+19-20	curvandosi	_	_	_	_	_	_	_	_
+19	curvando	curvare	VERB	V	VerbForm=Ger	18	advcl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	verso	verso	ADP	E	_	23	case	_	_
+22	di	di	ADP	E	_	21	fixed	_	_
+23	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	obl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	16	punct	_	SpacesAfter=\n
+

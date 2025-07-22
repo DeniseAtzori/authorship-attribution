@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Flavio intanto cercava il posto favorevole per il suo quadro, alzandolo, abbassandolo, finchè trovasse la luce opportuna.
+1	Flavio	Flavio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	intanto	intanto	ADV	B	_	3	advmod	_	_
+3	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	favorevole	favorevole	ADJ	A	Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12-13	alzandolo	_	_	_	_	_	_	_	SpaceAfter=No
+12	alzando	alzare	VERB	V	VerbForm=Ger	3	advcl	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15-16	abbassandolo	_	_	_	_	_	_	_	SpaceAfter=No
+15	abbassando	abbassare	VERB	V	VerbForm=Ger	12	advcl	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	finchè	finché	CCONJ	CC	_	19	cc	_	_
+19	trovasse	trovare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	luce	luce	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	opportuna	opportuna	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Diceva qualche parola ad Anna, ma mentre si voltava per ringraziarla urtò Elvira.
+1	Diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	parola	parola	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	Anna	Anna	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ma	ma	CCONJ	CC	_	14	cc	_	_
+8	mentre	mentre	SCONJ	CS	_	14	mark	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	voltava	voltavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	ringraziarla	_	_	_	_	_	_	_	_
+12	ringraziar	ringraziare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	urtò	urtò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+15	Elvira	Elvira	PROPN	SP	_	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Le chiese perdono, confondendosi un poco, colpito anche lui improvvisamente dall'abito chiaro che la modellava con un vago accenno di statua.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	chiese	chiese	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	confondendosi	_	_	_	_	_	_	_	_
+5	confondendo	confondere	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	poco	poco	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	anche	anche	ADV	B	_	12	advmod	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+13	improvvisamente	improvvisamente	ADV	B	_	12	advmod	_	_
+14-15	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+14	da	da	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	abito	abito	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	_
+17	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	modellava	modellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+21	con	con	ADP	E	_	24	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	vago	vago	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	accenno	accenno	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	statua	statua	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

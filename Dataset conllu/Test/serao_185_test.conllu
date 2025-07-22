@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non si poteva figurare la faccia di quella dama russa:
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+3	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	figurare	figurare	VERB	V	VerbForm=Inf	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	dama	dama	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	russa	russo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = e al posto vuoto che la immaginazione non sapeva riempire ritrovava sempre l'ovale pallido, quella carnagione di avorio della signora, su cui scendevano le onde molli dei capelli castagni.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	vuoto	vuoto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+11	riempire	riempire	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	ritrovava	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	_
+13	sempre	sempre	ADV	B	_	12	advmod	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ovale	ovale	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16	pallido	pallido	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	carnagione	carnagione	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	avorio	avorio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	signora	signore	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	su	su	ADP	E	_	27	case	_	_
+27	cui	cui	PRON	PR	PronType=Rel	28	obl	_	_
+28	scendevano	scendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	onde	onda	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	_
+31	molli	mollo	ADJ	A	Number=Plur	30	amod	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+35	castagni	castagno	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Involontariamente, era entrato nel Caffè Aragno, nell'ultima stanza stretta e solitaria e si era fatto servire un _cognac_ per scuotere quella depressione.
+1	Involontariamente	involontariamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	entrato	entrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Caffè	caffè	PROPN	SP	_	4	obl	_	_
+8	Aragno	Aragno	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10-11	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	in	in	ADP	E	_	13	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+14	stretta	stretto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	solitaria	solitario	ADJ	A	Gender=Fem|Number=Sing	14	conj	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+19	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+21	servire	servire	VERB	V	VerbForm=Inf	20	advcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	_cognac_	ExtraSubj=Yes|_cognac_	PUNCT	FB	_	21	punct	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	scuotere	scuotere	VERB	V	VerbForm=Inf	21	advcl	_	_
+26	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+27	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

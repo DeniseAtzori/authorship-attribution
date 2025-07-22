@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anna era troppo seria e troppo coscienziosa per appigliarsi ad una scappatoia che la liberasse da qualsiasi responsabilità.
+1	Anna	Anna	PROPN	SP	_	4	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	troppo	troppo	ADV	B	_	4	advmod	_	_
+4	seria	serio	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	troppo	troppo	ADV	B	_	7	advmod	_	_
+7	coscienziosa	coscienzioso	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9-10	appigliarsi	_	_	_	_	_	_	_	_
+9	appigliar	appigliare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	ad	a	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scappatoia	scappatoia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	liberasse	liberare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	responsabilità	responsabilità	NOUN	S	Gender=Fem	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Riconobbe per sè sola il dovere di decidere accettandone le conseguenze, e una volta ferma su questo punto non esitò che un brevissimo istante fra leggere la lettera o distruggerla intatta.
+1	Riconobbe	Riconoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	sè	sè	PRON	PE	Person=3|PronType=Prs	1	obl	_	_
+4	sola	solo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	decidere	decidere	VERB	V	VerbForm=Inf	6	acl	_	_
+9-10	accettandone	_	_	_	_	_	_	_	_
+9	accettando	accettare	VERB	V	VerbForm=Ger	8	advcl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	22	punct	_	_
+14	e	e	CCONJ	CC	_	22	cc	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	volta	volta	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+17	ferma	fermare	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	punto	punto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	esitò	esitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+23	che	che	SCONJ	CS	_	26	mark	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	brevissimo	breve	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	26	amod	_	_
+26	istante	istante	NOUN	S	Number=Sing	22	obl	_	_
+27	fra	fra	ADP	E	_	28	mark	_	_
+28	leggere	leggere	VERB	V	VerbForm=Inf	26	acl	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	o	o	CCONJ	CC	_	34	cc	_	_
+32-33	distruggerla	_	_	_	_	_	_	_	_
+32	distrugger	distruggere	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	intatta	intatta	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Se la morte ha dei diritti ne ha pur anche la vita.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	morte	morte	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	pur	pur	ADV	B	_	13	advmod	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vita	vita	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

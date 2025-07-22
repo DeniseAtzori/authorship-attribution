@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La signora dette un’occhiata in giro.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	dette	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	occhiata	occhiata	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	giro	giro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Da molti anni non veniva più in quella casa;
+1	Da	da	ADP	E	_	3	case	_	_
+2	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	più	più	ADV	B	_	5	advmod	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = le parve misera più che non fosse mai stata;
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parve	parva	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	misera	misero	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	3	advmod	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	mai	mai	ADV	B	_	9	advmod	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = una fredda casa di zitellona provinciale dove ogni suppellettile era muta e stantia, pervasa da un odore di muffa e di mandorle amare, con una poltrona sotto la finestra incavata come una tinozza.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	zitellona	zitellona	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	provinciale	provinciale	ADJ	A	Number=Sing	5	amod	_	_
+7	dove	dove	ADV	B	_	11	advmod	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	suppellettile	suppellettile	ADJ	A	Number=Sing	11	nsubj	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	muta	mutare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	stantia	stantiare	ADV	B	_	15	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	pervasa	pervadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	odore	odore	NOUN	S	Gender=Masc|Number=Sing	15	obl:agent	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	muffa	muffa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23-24	mandorle	_	_	_	_	_	_	_	_
+23	mandor	mandor	VERB	V	VerbForm=Inf	11	conj	_	_
+24	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	amare	amare	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	3	punct	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+30	sotto	sotto	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	incavata	incavare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+34	come	come	ADP	E	_	36	case	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	tinozza	tinozza	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = — Ecco, — pensò — ha vissuto qui....
+1	—	—	PUNCT	FF	_	2	punct	_	_
+2	Ecco	ecco	INTJ	I	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	—	—	PUNCT	FF	_	8	punct	_	_
+5	pensò	pensare	ADV	B	_	8	advmod	_	_
+6	—	—	PUNCT	FF	_	5	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	qui...	qui.	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = dalla poltrona alla finestra, per anni ed anni!...
+1-2	dalla	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+10	ed	e	CCONJ	CC	_	11	cc	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	!..	!..	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

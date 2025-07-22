@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Suo padre era morto, ed egli era tornato libero e ricco per sposarmi.
+1	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ed	e	CCONJ	CC	_	9	cc	_	_
+7	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+10	libero	libero	ADJ	A	Gender=Masc|Number=Sing	9	xcomp	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	sposarmi	arma|sposarme	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Non gli era riescito di trovarmi:
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	riescito	riescire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	trovarmi	arma|trovarme	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = erano molti giorni che mi andava cercando affannosamente, ed il suo amore s'accresceva in quelle ansietà.
+1	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	cercando	cercare	VERB	V	VerbForm=Ger	6	advcl	_	_
+8	affannosamente	affannosamente	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	ed	e	CCONJ	CC	_	15	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	amore	amore	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	SpaceAfter=No
+15	accresceva	accresre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	ansietà	ansietà	NOUN	S	Gender=Fem	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Finalmente m'aveva scoperta, ed al tempo stesso aveva scoperto che l'avevo dimenticato, che avevo sposato un altro.
+1	Finalmente	finalmente	ADV	B	_	4	advmod	_	_
+2	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	scoperta	scoprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	12	punct	_	_
+6	ed	e	CCONJ	CC	_	12	cc	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	scoperto	scoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+13	che	che	SCONJ	CS	_	15	mark	_	_
+14	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	avevo	avere	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+16	dimenticato	dimenticare	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	sposato	sposare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

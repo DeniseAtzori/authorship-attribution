@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parlai allora con persone pie insistendo sulla necessità di togliere il fanciullo a quelle torture e mi risposero che non si poteva, che i genitori sono arbitri dei figli e che senza gravi motivi non è permesso ledere la paterna potestà.
+1	Parlai	Parlai	ADV	B	_	6	advmod	_	_
+2	allora	allora	ADV	B	_	1	advmod	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	pie	pio	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	insistendo	insistere	VERB	V	VerbForm=Ger	0	root	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	necessità	necessità	NOUN	S	Gender=Fem	6	obl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	togliere	togliere	VERB	V	VerbForm=Inf	9	acl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fanciullo	fanciullo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	16	det	_	_
+16	torture	tortura	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	risposero	rispodere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+20	che	che	SCONJ	CS	_	29	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl:impers	_	_
+23	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	29	punct	_	_
+25	che	che	SCONJ	CS	_	29	mark	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	29	nsubj	_	_
+28	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	arbitri	arbitro	NOUN	S	Gender=Masc|Number=Plur	19	ccomp	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+33	e	e	CCONJ	CC	_	40	cc	_	_
+34	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+35	senza	senza	ADP	E	_	37	case	_	_
+36	gravi	grave	ADJ	A	Number=Plur	37	amod	_	_
+37	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	40	obl	_	_
+38	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+39	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl:relcl	_	_
+41	ledere	ledere	VERB	V	VerbForm=Inf	40	xcomp	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+43	paterna	paterno	ADJ	A	Gender=Fem|Number=Sing	44	amod	_	_
+44	potestà	potestà	NOUN	S	Gender=Fem	41	obj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 2
+# text = Chi sa, secondo loro, che cosa dovrebbero essere i gravi motivi!
+1	Chi	chi	PRON	PQ	PronType=Int	0	root	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	che	che	DET	DQ	PronType=Int	8	det	_	_
+8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+9	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	13	cop	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	gravi	grave	ADJ	A	Number=Plur	13	amod	_	_
+13	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Il padrone di casa, al quale mi rivolsi pure, obbiettò che quel portinaio gli faceva comodo, che non aveva nessun appunto da muovergli sul servizio e che la sua vita privata non lo riguardava.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padrone	padrone	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	quale	quale	PRON	PR	Number=Sing|PronType=Rel	10	obl	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	rivolsi	rivolso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+11	pure	pure	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	obbiettò	obbiettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	che	che	SCONJ	CS	_	18	mark	_	_
+15	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	portinaio	portinaio	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+18	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	_	_
+19	comodo	comodo	ADJ	A	Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+24	nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	25	det	_	_
+25	appunto	appunto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	da	da	ADP	E	_	27	mark	_	_
+27-28	muovergli	_	_	_	_	_	_	_	_
+27	muover	muovere	VERB	V	VerbForm=Inf	23	acl	_	_
+28	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+29-30	sul	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+32	e	e	CCONJ	CC	_	40	cc	_	_
+33	che	che	SCONJ	CS	_	40	mark	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	vita	vita	NOUN	S	Gender=Fem|Number=Sing	40	nsubj	_	_
+37	privata	privato	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+38	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+39	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+40	riguardava	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

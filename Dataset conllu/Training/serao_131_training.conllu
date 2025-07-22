@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ella cadde gravemente inferma:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	cadde	caddere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gravemente	gravemente	ADV	B	_	2	advmod	_	_
+4	inferma	inferma	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = egli ritornò, ma non potette assisterla, non gli era permesso di andare in casa di lei.
+1	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ritornò	ritornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	7	punct	_	_
+4	ma	ma	CCONJ	CC	_	7	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	potette	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+7-8	assisterla	_	_	_	_	_	_	_	SpaceAfter=No
+7	assister	assistere	VERB	V	VerbForm=Inf	2	conj	_	_
+8	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	andare	andare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Le mandava un comune amico, che non ignorava il loro segreto:
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	2	iobj	_	_
+2	mandava	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	comune	comune	ADJ	A	Number=Sing	5	amod	_	_
+5	amico	amico	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	ignorava	ignorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = e questo amico le diceva quelle vaghe parole di consolazione, che dovrebbero confortare chi ha fatto una perdita irreparabile.
+1	e	e	CCONJ	CC	_	5	cc	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	amico	amico	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	5	iobj	_	_
+5	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	5	obl	_	_
+7	vaghe	vago	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	consolazione	consolazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	confortare	confortare	VERB	V	VerbForm=Inf	8	acl:relcl	_	_
+15	chi	chi	PRON	PR	Number=Sing|PronType=Rel	14	obj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	irreparabile	irreparabile	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

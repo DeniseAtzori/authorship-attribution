@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «L'avviso era superfluo.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	superfluo	superfluo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Pensavo tanto a lui come all'imperatore della Cina.
+1	Pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	tanto	tanto	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+5	come	come	ADP	E	_	8	case	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	5	fixed	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	imperatore	imperatore	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Cina	Cina	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = L'avevo sposato unicamente nell'idea fissa di mostrare alla gente che mi aveva disprezzata, che si può essere una attrice, ed essere onesta come un'altra fanciulla, e fare un bel matrimonio, e rimanere una buona artista diventando una gran dama, ed una buona moglie.
+1	L'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	avevo	avere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	sposato	sposare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	unicamente	unico	ADV	B	_	3	advmod	_	_
+5-6	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	idea	idea	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	fissa	fisso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	mostrare	mostrare	VERB	V	VerbForm=Inf	7	acl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gente	gente	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+16	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	disprezzata	disprezzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl:impers	_	_
+21	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	essere	essere	AUX	V	VerbForm=Inf	24	cop	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	ed	e	CCONJ	CC	_	28	cc	_	_
+27	essere	essere	AUX	VA	VerbForm=Inf	28	aux:pass	_	_
+28	onesta	onestare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+29	come	come	ADP	E	_	32	case	_	_
+30	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+31	altra	altro	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+32	fanciulla	fanciulla	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	fare	fare	VERB	V	VerbForm=Inf	2	conj	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	bel	bello	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+38	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	41	punct	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	rimanere	rimanere	VERB	V	VerbForm=Inf	2	conj	_	_
+42	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+43	buona	buono	ADJ	A	Gender=Fem|Number=Sing	44	amod	_	_
+44	artista	artista	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+45	diventando	diventare	VERB	V	VerbForm=Ger	41	advcl	_	_
+46	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+47	gran	grande	ADJ	A	Number=Sing	48	amod	_	_
+48	dama	dama	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	53	punct	_	_
+50	ed	e	CCONJ	CC	_	53	cc	_	_
+51	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+52	buona	buono	ADJ	A	Gender=Fem|Number=Sing	53	amod	_	_
+53	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Era stata un'illusione.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+2	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Dovetti rassegnarmi a vivere divisa dal marito.
+1	Dovetti	Doveggere	NOUN	S	Gender=Masc	2	nsubj	_	_
+2	rassegnarmi	arma|rassegnarme	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	vivere	vivere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	divisa	dividere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	marito	marito	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

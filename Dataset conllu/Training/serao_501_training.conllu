@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Durante la malattia, niente pranzetti, niente scarrozzate, niente teatri:
+1	Durante	durante	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+6	pranzetti	pranzeggere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	niente	niente	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	_
+9	scarrozzate	scarrozzare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	_
+12	teatri	teatrare	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nsubj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = ma una miseria crescente, i creditori feroci, la madre sfinita, il padre torbido e rabbioso.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	miseria	miseria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	crescente	crescere	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	creditori	creditore	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+8	feroci	feroco	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	madre	madre	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+12	sfinita	sfinito	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	padre	padre	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+16	torbido	torbido	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	rabbioso	rabbioso	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Questo bambino, in fine, sa che suo padre è scettico e ha udito una quantità di discorsi ironici sull’amore, sulla patria e sulla virtù—e mi ha detto, un giorno, seriamente:
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	fine	fine	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	padre	padre	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	scettico	scettico	ADJ	A	Gender=Masc|Number=Sing	7	ccomp	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	udito	udire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	quantità	quantità	NOUN	S	Gender=Fem	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	ironici	ironico	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21-22	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+21	su	su	ADP	E	_	23	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	amore	amore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25-26	sulla	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	patria	patria	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29-30	sulla	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	virtù	virtù	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+32	—	—	PUNCT	FF	_	36	punct	_	SpaceAfter=No
+33	e	e	CCONJ	CC	_	36	cc	_	_
+34	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	36	iobj	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	36	punct	_	_
+41	seriamente	seriamente	ADV	B	_	36	advmod	_	SpaceAfter=No
+42	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = Tutto sta in un buon colpo di rivoltella.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	buon	buono	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	rivoltella	rivoltella	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

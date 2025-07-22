@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quella dentiera era causa di episodi spaventosi.
+1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	dentiera	dentiera	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	causa	causa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	spaventosi	spaventoso	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Sovente, a mezzo d'uno degli interminabili discorsi sconclusionati della signora Giuditta, le si vedevano tutti i denti irrompere terribilmente fuori dalla bocca;
+1	Sovente	Sovente	ADV	B	_	19	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nmod	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	interminabili	interminabili	ADJ	A	Number=Plur	10	amod	_	_
+10	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	sconclusionati	sconclusionato	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	signora	signore	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	Giuditta	Giuditto	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	19	iobj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	vedevano	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+20	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	22	det:predet	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	denti	dente	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+23	irrompere	irrompere	VERB	V	VerbForm=Inf	22	acl	_	_
+24	terribilmente	terribilmente	ADV	B	_	23	advmod	_	_
+25	fuori	fuori	ADV	B	_	28	case	_	_
+26-27	dalla	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	25	fixed	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 3
+# text = ed ella s'affrettava con ambe le mani a respingerli dentro, e li rimetteva a posto a bocca chiusa, con un rumore d'ossame che dava i brividi.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+4	affrettava	affrettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	ambe	ambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	mani	mano	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	respingerli	_	_	_	_	_	_	_	_
+10	respinger	respingere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+11	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	dentro	dentro	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+16	rimetteva	rimettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	posto	posto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	4	punct	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+26	d'	di	ADP	E	_	27	case	_	SpaceAfter=No
+27	ossame	ossame	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	brividi	brividio	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

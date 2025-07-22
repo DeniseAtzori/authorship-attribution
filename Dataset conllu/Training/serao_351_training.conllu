@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = _Tale l’intenzione d’arte, vivificata da un sentimento tutto femminile di simpatia.
+1	_Tale	_Tale	ADV	B	_	3	advmod	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	d’	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	arte	arte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	vivificata	vivificare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	tutto	tutto	ADV	B	_	12	advmod	_	_
+12	femminile	femminile	ADJ	A	Number=Sing	10	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	simpatia	simpatia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Da coloro cui l’astrazione dell’ideale politico intorbida la serenità del giudizio, fu intesa male o non fu voluta intendere:
+1	Da	da	ADP	E	_	2	case	_	_
+2	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	18	obl	_	_
+3	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	astrazione	astrazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+6-7	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ideale	ideale	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	politico	politico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	intorbida	intorbidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	serenità	serenità	NOUN	S	Gender=Fem	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	intesa	intendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	male	male	ADV	B	_	18	advmod	_	_
+20	o	o	CCONJ	CC	_	23	cc	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	voluta	volere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
+24	intendere	intendere	VERB	V	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 3
+# text = fu detta adulazione, cortigianeria, servilismo, e furono usate altre parole consimili, a cui la volgarità del corso ha tolto ogni valore.
+1	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	adulazione	adulazione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	cortigianeria	cortigianeria	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	servilismo	servilismo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	usate	usare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+12	altre	altro	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	parole	parola	NOUN	S	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+14	consimili	consimile	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	volgarità	volgarità	NOUN	S	Gender=Fem	24	nsubj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	corso	corso	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	tolto	togliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+25	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	26	det	_	_
+26	valore	valore	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Invano io volli chiarire la mia intenzione, invano io volli stabilire una divisione fra la politica e l’arte, fra le teorie umanitarie e l’arte.
+1	Invano	invano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	volli	vollo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	1	obj	_	_
+4	chiarire	chiarire	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	invano	invare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+11	volli	vollo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	9	obj	_	_
+12	stabilire	stabilire	VERB	V	VerbForm=Inf	9	advcl	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	fra	fra	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	politica	politica	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	arte	arte	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	fra	fra	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	teorie	teoria	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+25	umanitarie	umanitario	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	arte	arte	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Come in tutte le polemiche d’idee, senza fatti, ognuno rimase del proprio parere_.
+1	Come	come	ADV	B	_	13	advmod	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+6	d’	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	idee	idea	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	senza	senza	ADP	E	_	10	case	_	_
+10	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+13	rimase	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	parere_	parere-	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

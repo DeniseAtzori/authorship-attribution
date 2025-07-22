@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E quei foglietti si abbandonano sopra un mobile, sul marmo del caminetto, sul tappeto, in un paniere da lavoro...
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	foglietti	foglietto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	abbandonano	abbandonare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sopra	sopra	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mobile	mobile	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	marmo	marmo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	caminetto	caminetto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	5	punct	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	paniere	paniere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	lavoro..	lavoro..	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Si lasciano andare dispersi per la casa.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	lasciano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	dispersi	disperso	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E chi deve fare un dono li trova, e, nella misura de' suoi mezzi può fare una scelta, colla certezza di offrire una cosa desiderata.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	nsubj	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dono	dono	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+8	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	20	punct	_	_
+10	e	e	CCONJ	CC	_	20	cc	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	misura	misura	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+15-16	de'	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+19	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	fare	fare	VERB	V	VerbForm=Inf	4	conj	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	4	punct	_	_
+24	colla	colla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+25	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	offrire	offrire	VERB	V	VerbForm=Inf	25	acl	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	desiderata	desiderare	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

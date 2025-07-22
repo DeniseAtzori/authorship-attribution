@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I giorni passarono, venne il gennaio, cominciarono le feste del carnevale, e Marco continuava a stare in casa come un convalescente.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	passarono	passarono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	cominciarono	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	feste	feste	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	carnevale	carnevale	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	Marco	Marco	PROPN	SP	_	18	nsubj	_	_
+18	continuava	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	stare	stare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	casa	casa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	come	come	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	convalescente	convalescente	NOUN	S	Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Quando gli dicevano di uscire rispondeva che faceva freddo, che il tempo era umido, e rimaneva per lunghe ore immobile nella poltrona, e guardava fuori dalla finestra con certi occhi da moribondo che saluta la luce, che faceva veramente pietà.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	dicevano	dicevare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	uscire	uscire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+9	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	che	che	SCONJ	CS	_	15	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	umido	umido	ADJ	A	Gender=Masc|Number=Sing	8	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	rimaneva	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	ore	ora	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+22	immobile	immobile	ADJ	A	Number=Plur	21	amod	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+29	fuori	fuori	ADV	B	_	28	advmod	_	_
+30-31	dalla	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	35	det	_	_
+35	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+36	da	da	ADP	E	_	37	case	_	_
+37	moribondo	moribondo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+38	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+39	saluta	salutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	luce	luce	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	44	punct	_	_
+43	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+44	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	conj	_	_
+45	veramente	veramente	ADV	B	_	44	advmod	_	_
+46	pietà	pietà	NOUN	S	Gender=Fem	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

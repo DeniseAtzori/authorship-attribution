@@ -1,0 +1,135 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli la guardava con tanta tenerezza, che, senza parlare, le diceva di averle perdonato.
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	14	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11	parlare	parlare	VERB	V	VerbForm=Inf	14	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+15	di	di	ADP	E	_	18	mark	_	_
+16-17	averle	_	_	_	_	_	_	_	_
+16	aver	avere	AUX	VA	VerbForm=Inf	18	cop	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	perdonato	perdonato	NOUN	N	Gender=Masc|Number=Sing	14	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Quando egli si meravigliava che ella avesse potuto essere così atroce, essa gli diceva di esserne stupita, di stupirsene, lei stessa:
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	meravigliava	meravigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+7	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+8	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux	_	_
+9	essere	essere	AUX	V	VerbForm=Inf	11	cop	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	atroce	atroce	ADJ	A	Number=Sing	4	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+15	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	di	di	ADP	E	_	19	mark	_	_
+17-18	esserne	_	_	_	_	_	_	_	_
+17	esser	essere	AUX	VA	VerbForm=Inf	19	aux	_	_
+18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+19	stupita	stupire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-24	stupirsene	_	_	_	_	_	_	_	SpaceAfter=No
+22	stupir	stupire	VERB	V	VerbForm=Inf	19	advcl	_	_
+23	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+25	,	,	PUNCT	FF	_	22	punct	_	_
+26	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+27	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	26	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 3
+# text = e ciò come se si parlasse di una donna assente, di cui si compatissero gli errori.
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	come	come	ADV	B	_	6	advmod	_	_
+4	se	se	SCONJ	CS	_	6	mark	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	parlasse	parlare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	assente	assente	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:pass	_	_
+15	compatissero	compatire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	errori	errore	NOUN	S	Gender=Masc|Number=Plur	15	nsubj:pass	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E quando egli giungeva a narrare certe ore terribili in cui avrebbe voluto morire, pure di strapparsi dal petto questo amore, ella aveva una frase di pietà profonda, intima, raumiliata, la frase del carnefice pentito innanzi alla sua vittima:
+1	E	e	CCONJ	CC	_	27	cc	_	_
+2	quando	quando	SCONJ	CS	_	4	mark	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	giungeva	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	advcl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	narrare	narrare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	ore	ora	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	terribili	terribili	ADJ	A	Number=Plur	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+12	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
+14	morire	morire	VERB	V	VerbForm=Inf	8	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	pure	pure	ADV	B	_	18	advmod	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18-19	strapparsi	_	_	_	_	_	_	_	_
+18	strappar	strappare	VERB	V	VerbForm=Inf	14	advcl	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	petto	petto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+23	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
+24	amore	amore	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	4	punct	_	_
+26	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	frase	frase	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	pietà	pietà	NOUN	S	Gender=Fem	29	nmod	_	_
+32	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	intima	intimo	ADJ	A	Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	27	punct	_	_
+36	raumiliata	raumiliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	27	punct	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	frase	frase	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	carnefice	carnefice	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43	pentito	pentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl	_	_
+44	innanzi	innanzi	ADV	B	_	48	case	_	_
+45-46	alla	_	_	_	_	_	_	_	_
+45	a	a	ADP	E	_	44	fixed	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+47	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	43	obl	_	SpaceAfter=No
+49	:	:	PUNCT	FC	_	27	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ora la fame riappariva feroce, mettendole un fuoco nel petto, straziandola.
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fame	fame	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	riappariva	riapparivo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	feroce	feroce	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7-8	mettendole	_	_	_	_	_	_	_	_
+7	mettendo	mettere	VERB	V	VerbForm=Ger	3	acl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	petto	petto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	straziandola	straziandolo	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Si trovava presso la _Boulangerie française_, donde usciva un odore di pane e di pasticcini che la faceva svenire.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	presso	presso	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	_Boulangerie	_Boulangerie	PROPN	SP	_	2	obl	_	_
+6	française_	ExtraSubj=Yes|française_	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	donde	donde	SCONJ	CS	_	9	mark	_	_
+9	usciva	uscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	odore	odore	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	pane	pane	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	pasticcini	pasticcino	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+19	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+20	svenire	svenire	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Offriva i suoi fiori macchinalmente, senza poter più parlare, con un singhiozzo lento che le sollevava il petto.
+1	Offriva	Offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	macchinalmente	macchinalmente	ADV	B	_	1	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	senza	senza	ADP	E	_	10	mark	_	_
+8	poter	potere	AUX	VM	VerbForm=Inf	10	aux	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	parlare	parlare	VERB	V	VerbForm=Inf	1	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	singhiozzo	singhiozzo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	lento	lento	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	iobj	_	_
+18	sollevava	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	petto	petto	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Un soldato passò e comprò un garofano:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	soldato	soldato	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	passò	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	comprò	comprare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	garofano	garofano	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = dette un soldo.
+1	dette	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	soldo	soldo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

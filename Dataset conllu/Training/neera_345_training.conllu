@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che ne sanno essi delle loro scolare quando hanno abbandonato i banchi?
+1	Che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	scolare	scolare	VERB	V	VerbForm=Inf	4	nmod	_	_
+9	quando	quando	SCONJ	CS	_	11	mark	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	abbandonato	abbandonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Perchè le vedono a passeggio con una balia tenente un pargoletto basterà questo a dichiararle mogli e madri _migliori?
+1	Perchè	perché	ADV	B	_	3	advmod	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	passeggio	passeggio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	balia	balia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	tenente	tenente	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	8	acl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pargoletto	pargoletto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	basterà	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	xcomp	_	_
+13	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	obj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15-16	dichiararle	_	_	_	_	_	_	_	_
+15	dichiarar	dichiarare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	mogli	moglie	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	madri	madre	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+20	_migliori	_migliore	ADJ	A	Degree=Cmp|Number=Plur	19	amod	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = _ È il superlativo migliore che io contrasto, badiamo, e sostengo come donna, cioè con autorità superiore a quella dei professori di Università, che qualsiasi studio non collegato alle nozioni morali e fisiche della maternità può forse _suo malgrado_ lasciar sviluppare i buoni istinti naturali in una donna razionalmente conformata, ma non aiuterà mai nessuna a diventare moglie e madre migliore.
+1	_	-	PUNCT	FB	_	5	punct	_	_
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	superlativo	superlativo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	contrasto	contrarre	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	badiamo	badare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	sostengo	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	donna	donna	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	cioè	cioè	CCONJ	CC	_	19	cc	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	autorità	autorità	NOUN	S	Gender=Fem	15	conj	_	_
+20	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	19	amod	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	20	obl	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	professori	professore	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Università	università	NOUN	S	Gender=Fem	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+30	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	31	det	_	_
+31	studio	studio	NOUN	S	Gender=Masc|Number=Sing	45	nsubj	_	_
+32	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+33	collegato	collegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+34-35	alle	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	nozioni	nozione	NOUN	S	Gender=Fem|Number=Plur	33	obl	_	_
+37	morali	morale	ADJ	A	Number=Plur	36	amod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	fisiche	fisico	ADJ	A	Gender=Fem|Number=Plur	37	conj	_	_
+40-41	della	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	maternità	maternità	NOUN	S	Gender=Fem	36	nmod	_	_
+43	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+44	forse	forse	ADV	B	_	45	advmod	_	_
+45	_suo	_suo	ADJ	A	Gender=Masc|Number=Sing	25	acl:relcl	_	_
+46	malgrado_	malgrado-	PUNCT	FB	_	47	punct	_	_
+47	lasciar	lasciare	VERB	V	VerbForm=Inf	45	advcl	_	_
+48	sviluppare	sviluppare	VERB	V	VerbForm=Inf	47	ccomp	_	_
+49	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+50	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	51	amod	_	_
+51	istinti	istinto	NOUN	S	Gender=Masc|Number=Plur	48	obj	_	_
+52	naturali	naturale	ADJ	A	Number=Plur	51	amod	_	_
+53	in	in	ADP	E	_	55	case	_	_
+54	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	donna	donna	NOUN	S	Gender=Fem|Number=Sing	48	obl	_	_
+56	razionalmente	razionalmente	ADV	B	_	57	advmod	_	_
+57	conformata	conformato	ADJ	A	Gender=Fem|Number=Sing	55	amod	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	61	punct	_	_
+59	ma	ma	CCONJ	CC	_	61	cc	_	_
+60	non	non	ADV	BN	PronType=Neg	61	advmod	_	_
+61	aiuterà	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	47	conj	_	_
+62	mai	mai	ADV	B	_	61	advmod	_	_
+63	nessuna	nessuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	61	obj	_	_
+64	a	a	ADP	E	_	65	mark	_	_
+65	diventare	diventare	VERB	V	VerbForm=Inf	61	advcl	_	_
+66	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	65	xcomp	_	_
+67	e	e	CCONJ	CC	_	68	cc	_	_
+68	madre	madra	NOUN	S	Gender=Fem|Number=Sing	66	conj	_	_
+69	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	68	amod	_	SpaceAfter=No
+70	.	.	PUNCT	FS	_	45	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Del resto, il curioso signore apre assai raramente i due musei dell'amore;
+1-2	Del	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	curioso	curioso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	signore	signore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	assai	assai	ADV	B	_	10	advmod	_	_
+10	raramente	raramente	ADV	B	_	8	advmod	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	due	due	NUM	N	NumType=Card	13	nummod	_	_
+13	musei	museo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	amore	amore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = bisogna che egli si trovi in una di quelle lunghe giornate di pioggia autunnale, senza voglia di fare nulla di bene o male, senza desiderio di vivere:
+1	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	trovi	trovare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	5	obl	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+10	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	autunnale	autunnale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	senza	senza	ADP	E	_	17	case	_	_
+17	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	19	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	bene	bene	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	male	male	ADV	B	_	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	senza	senza	ADP	E	_	27	case	_	_
+27	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	vivere	vivere	VERB	V	VerbForm=Inf	27	acl	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = o in una di quelle dolci notti solitarie e insonni, fervide di fantasmi nell'anima:
+1	o	o	CCONJ	CC	_	3	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	12	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	3	nmod	_	_
+6	dolci	dolce	ADJ	A	Number=Plur	7	amod	_	_
+7	notti	notte	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	solitarie	solitario	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	insonni	insonne	ADJ	A	Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	fervide	fervidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	fantasmi	fantasma	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+15-16	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	in	in	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	anima	anima	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 4
+# text = o in qualche minuto di convulsione spirituale, in cui tutto nel presente può dare la disperazione e solo il passato può dare la calma.
+1	o	o	CCONJ	CC	_	4	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	convulsione	convulsione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	spirituale	spirituale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+11	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	nsubj	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	presente	presente	ADJ	A	Number=Sing	16	obl	_	_
+15	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	dare	dare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	e	e	CCONJ	CC	_	24	cc	_	_
+20	solo	solo	ADV	B	_	24	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	passato	passato	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+23	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	dare	dare	VERB	V	VerbForm=Inf	16	conj	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	calma	calma	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

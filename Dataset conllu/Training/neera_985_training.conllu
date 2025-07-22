@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ariele tardava a scrivere, nè ella per fierezza sollecitava le sue lettere.
+1	Ariele	Ariele	PROPN	SP	_	2	nsubj	_	_
+2	tardava	tardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	scrivere	scrivere	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	nè	nè	CCONJ	CC	_	7	cc	_	_
+7	ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	conj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	fierezza	fierezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	sollecitava	sollecitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Era forse la fine?
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	forse	forse	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fine	fine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = la fine sempre temuta, pur se qualche volta implorata, liberatrice finchè lontana, spaventosa nei rantoli dell’agonia?
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fine	fine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	temuta	temuto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	pur	pure	ADV	B	_	14	advmod	_	_
+7	se	se	SCONJ	CS	_	14	mark	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+10	implorata	implorato	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	liberatrice	liberatore	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	_
+13	finchè	finchè	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	spaventosa	spaventoso	ADJ	A	Gender=Fem|Number=Sing	14	conj	_	_
+17-18	nei	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	rantoli	rantolo	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+20-21	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	agonia	agonia	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = la fine gelida e volgare che non lascia nulla dietro a sè, la fine dell’avventura comune?
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fine	fine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	gelida	gelido	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	volgare	volgare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	8	obj	_	_
+10	dietro	dietro	ADV	B	_	12	case	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	sè	sè	PRON	PE	Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fine	fine	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+16-17	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	comune	comune	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Era questo che la aspettava dopo tanto slancio ideale, dopo tanta intima, profonda, appassionata intesa?
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	slancio	slancio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	ideale	ideale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	dopo	dopo	ADP	E	_	13	case	_	_
+12	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
+13	intima	intima	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	appassionata	appassionato	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	intesa	intesa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Era questo che meritava l’anima sua?
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	meritava	meritare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	anima	anima	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un segno rosso sul margine attrasse particolarmente l'attenzione di Anna:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segno	segno	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	margine	margine	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	attrasse	attrarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	particolarmente	particolarmente	ADV	B	_	7	advmod	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Anna	Anna	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = suo padre doveva averlo tracciato nella estrema attività del pensiero, poche ore prima di morire.
+1	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+4-5	averlo	_	_	_	_	_	_	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	tracciato	tracciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	attività	attività	NOUN	S	Gender=Fem	6	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	ore	ora	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+17	prima	prima	ADV	B	_	19	mark	_	_
+18	di	di	ADP	E	_	17	fixed	_	_
+19	morire	morire	VERB	V	VerbForm=Inf	16	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Questa certezza le fece chinare il capo ansiosamente sul volume.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	chinare	chinare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	capo	capo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	ansiosamente	ansiosamente	ADV	B	_	7	advmod	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	volume	volume	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Lesse:
+1	Lesse	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = “Io non amo inzaccherarmi le vesti col fango delle vie.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	inzaccherarmi	arma|inzaccherarme	ADJ	A	Number=Plur	4	xcomp	_	_
+6	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	vesti	vedere	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+8-9	col	_	_	_	_	_	_	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fango	fanire	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	vie	via	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Io voglio in puri abiti di festa attendere il giorno dell'avvenire„.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	puri	puro	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	abiti	abito	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	festa	festa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	attendere	attendere	VERB	V	VerbForm=Inf	5	csubj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	avvenire	avvenire	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	„	„	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

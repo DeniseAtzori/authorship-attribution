@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mio cugino mi sorprese un mattino della seconda metà di aprile inginocchiata nel mezzo di una aiuola, con un grembiale bianco, le mani coperte di vecchi guanti, intenta a spogliare i rosai dai bruchi che minacciavano di devastarli.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	sorprese	sorprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	metà	metà	NOUN	S	Gender=Fem	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	inginocchiata	inginocchiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	aiuola	aiuola	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	grembiale	grembiale	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+24	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	4	punct	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	mani	mano	NOUN	S	Gender=Fem|Number=Plur	4	appos	_	_
+28	coperte	coperto	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+31	guanti	guanto	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	27	punct	_	_
+33	intenta	intentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	spogliare	spogliare	VERB	V	VerbForm=Inf	33	xcomp	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	rosai	rosai	NOUN	S	Gender=Masc|Number=Plur	35	obj	_	_
+38-39	dai	_	_	_	_	_	_	_	_
+38	da	da	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	bruchi	bruco	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+41	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+42	minacciavano	minacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	40	acl:relcl	_	_
+43	di	di	ADP	E	_	44	mark	_	_
+44-45	devastarli	_	_	_	_	_	_	_	SpaceAfter=No
+44	devastar	devastarre	VERB	V	VerbForm=Inf	42	xcomp	_	_
+45	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	44	obj	_	_
+46	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Diventai molto rossa quando lo vidi e sorgendo lesta in piedi volli scusarmi per la volgarità di quella occupazione.
+1	Diventai	Diventare	ADV	B	_	3	advmod	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	quando	quando	SCONJ	CS	_	6	mark	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	vidi	videre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	sorgendo	sorgere	VERB	V	VerbForm=Ger	6	conj	_	_
+9	lesta	lesta	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+12	volli	vollo	ADJ	A	Number=Plur	13	amod	_	_
+13	scusarmi	arma|scusarme	NOUN	S	Gender=Masc|Number=Plur	8	xcomp	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	volgarità	volgarità	NOUN	S	Gender=Fem	13	nmod	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli aveva obbedito, schiavo di tutte le volontà della delicata e pallida donna:
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	obbedito	obbedire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	schiavo	schiavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	volontà	volontà	NOUN	S	Gender=Fem	5	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	15	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+12	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	pallida	pallido	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+15	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = e il loro nido era posto in un qualunque volgare ambiente, circondato, sopra e sotto, da volgare gente.
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	nido	nido	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+6	posto	porre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	qualunque	qualunque	ADJ	A	Number=Sing	10	amod	_	_
+10	volgare	volgare	VERB	V	VerbForm=Inf	6	obl	_	_
+11	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	circondato	circondare	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	sopra	sopra	ADV	B	_	11	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	sotto	sotto	ADV	B	_	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	da	da	ADP	E	_	20	mark	_	_
+20	volgare	volgare	VERB	V	VerbForm=Inf	10	acl	_	_
+21	gente	gente	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Soltanto che Paolo vi aveva profuso internamente, non il lusso, ma la gentile poesia di un'anima presa e che non vive che per le feste dell'amore.
+1	Soltanto	soltanto	ADV	B	_	6	advmod	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	Paolo	Paolo	PROPN	SP	_	6	nsubj	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	6	iobj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	profuso	profondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	internamente	interno	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lusso	lusso	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	gentile	gentile	ADJ	A	Number=Sing	16	amod	_	_
+16	poesia	poesia	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+19	anima	anima	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	presa	prendere	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+25	che	che	SCONJ	CS	_	28	advmod	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	feste	festa	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+29-30	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+29	di	di	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	amore	amore	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

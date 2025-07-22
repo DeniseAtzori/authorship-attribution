@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le nozze, il viaggio, quelle prime sorprese della felicità, assorbirono talmente Marco, che non ebbe testa di pensare a nulla.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	5	nmod	_	_
+8	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	9	amod	_	_
+9	sorprese	sorpresa	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	felicità	felicità	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	assorbirono	assorbire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	talmente	talmente	ADV	B	_	16	advmod	_	_
+16	Marco	Marco	PROPN	SP	_	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+21	testa	testa	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	pensare	pensare	VERB	V	VerbForm=Inf	20	acl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Mandò due telegrammi a Nervi, nei quali non faceva che dare nuove ottime di sè e della sposa, e sfogare la sua gioia.
+1	Mandò	Mandò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	telegrammi	telegrammo	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Nervi	Nervi	PROPN	SP	_	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	nei	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	quali	quale	PRON	PR	Number=Plur|PronType=Rel	11	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+12	che	che	SCONJ	CS	_	13	mark	_	_
+13	dare	dare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+14	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	ottime	ottime	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	sè	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	nmod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sposa	sposo	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	sfogare	sfogare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Fu soltanto al ritorno, coll'animo più tranquillo, che cominciò ad avvedersi d'un grande riserbo nelle lettere di sua madre.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+2	soltanto	soltanto	ADV	B	_	5	advmod	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	coll'	collo	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	animo	animo	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+14	ad	a	ADP	E	_	15	mark	_	_
+15-16	avvedersi	_	_	_	_	_	_	_	_
+15	avveder	avvedere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	grande	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	riserbo	riserbo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+21-22	nelle	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	madre	madre	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

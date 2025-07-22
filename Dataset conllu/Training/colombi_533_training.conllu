@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Egli chinò più volte il capo in segno affermativo ammiccandomi degli occhi...
+1	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	chinò	chinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	segno	segno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	affermativo	affermativo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	ammiccandomi	_	_	_	_	_	_	_	_
+10	ammiccando	ammiccare	VERB	V	VerbForm=Ger	2	advcl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	occhi..	occhi..	NOUN	S	_	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Anche quella conoscenza era buona.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	buona	buono	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Un servitore può essere un alleato;
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	servitore	servitore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	alleato	alleato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = ed io ne avevo bisogno, perchè avevo la velleità romanzesca di voler conoscere la signorina, ed assicurarmi d'essere amato prima di presentarmi ufficialmente come pretendente.
+1	ed	e	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	perchè	perché	SCONJ	CS	_	8	mark	_	_
+8	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	velleità	velleità	NOUN	S	Gender=Fem	8	obj	_	_
+11	romanzesca	romanzesco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	14	mark	_	_
+13	voler	volere	AUX	VM	VerbForm=Inf	14	aux	_	_
+14	conoscere	conoscere	VERB	V	VerbForm=Inf	10	acl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	signorina	signorina	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	ed	e	CCONJ	CC	_	19	cc	_	_
+19	assicurarmi	arma|assicurarme	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	d'	di	ADP	E	_	22	mark	_	SpaceAfter=No
+21	essere	essere	AUX	VA	VerbForm=Inf	22	aux	_	_
+22	amato	amare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	xcomp	_	_
+23	prima	prima	ADV	B	_	25	mark	_	_
+24	di	di	ADP	E	_	23	fixed	_	_
+25-26	presentarmi	_	_	_	_	_	_	_	_
+25	presentar	presentare	VERB	V	VerbForm=Inf	22	advcl	_	_
+26	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	25	obj	_	_
+27	ufficialmente	ufficialmente	ADV	B	_	25	advmod	_	_
+28	come	come	ADP	E	_	29	case	_	_
+29	pretendente	pretendente	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Per una inglese questo era nelle regole.
+1	Per	per	ADP	E	_	3	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	inglese	inglese	NOUN	S	Number=Sing	5	obl	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	nelle	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	regole	regola	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

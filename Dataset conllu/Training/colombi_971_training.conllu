@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ora invece, se non si può movere la famiglia, si cerca, e si trova una pensione, economica relativamente, ma sempre gravosa per le piccole rendite e per la gente che vive del proprio lavoro;
+1	Ora	ora	ADV	B	_	13	advmod	_	_
+2	invece	invece	ADV	B	_	13	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	se	se	SCONJ	CS	_	8	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:pass	_	_
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	movere	movere	VERB	V	VerbForm=Inf	13	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	economica	economico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+22	relativamente	relativo	ADV	B	_	19	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24	ma	ma	CCONJ	CC	_	26	cc	_	_
+25	sempre	sempre	ADV	B	_	26	advmod	_	_
+26	gravosa	gravoso	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	_
+27	per	per	ADP	E	_	30	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+29	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+30	rendite	rendita	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	gente	gente	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	40	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+41	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 2
+# text = ma il ragazzo non è mai privato della cura che si richiede per la sua salute.
+1	ma	ma	CCONJ	CC	_	7	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	privato	privare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cura	cura	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	salute	salute	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

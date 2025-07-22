@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A mala pena trovarono un posto sopra uno dei divani collocati nel mezzo delle sale.
+1	A	a	ADP	E	_	3	case	_	_
+2	mala	malo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	pena	pena	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	trovarono	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	posto	posto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	sopra	sopra	ADP	E	_	8	case	_	_
+8	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	divani	divano	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	collocati	collocare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	sale	sala	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Intorno ad esse sedevano alcune persone della buona società, fra cui una signora di quelle che i giornali letterari e gli autori nelle prefazioni dei loro libri chiamano intellettuali.
+1	Intorno	intorno	ADV	B	_	3	case	_	_
+2	ad	a	ADP	E	_	1	fixed	_	_
+3	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+4	sedevano	sedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	buona	buono	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	società	società	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	fra	fra	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	signora	signore	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	15	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	32	obj	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	32	nsubj	_	_
+21	letterari	letterario	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	autori	autore	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+25-26	nelle	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	prefazioni	prefazione	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	loro	loro	DET	AP	Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	libri	libro	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+32	chiamano	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+33	intellettuali	intellettuale	NOUN	S	Number=Plur	32	xcomp	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ella stava appunto concludendo un discorsetto sulla pittura:
+1	Ella	ella	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	appunto	appunto	ADV	B	_	4	advmod	_	_
+4	concludendo	concludere	VERB	V	VerbForm=Ger	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	discorsetto	discorsetto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	pittura	pittura	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	SpacesAfter=\n
+
