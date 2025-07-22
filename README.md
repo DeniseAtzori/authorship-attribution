@@ -11,7 +11,6 @@ La cartella contiene:
     - Risoluzione del task con SVM e word-embeddings per l'italiano a 128 dimensioni (6). Nel file 6.1, il codice per la conversione dei word-embeddings da .sqlite a .txt
     - Risoluzione del task con Bert base italian uncased (7)
 - Il file profilingud.csv, con le features estratte dal tool di annotazione e nel file dizionario_features.json il dizionario delle stesse
-- La cartella "Notebook html", con le esportazioni in html dei notebook dei quattro task, per una consultazione più comoda dei risultati
 - La cartella "Testi Progetto", con i testi originali del progetto scaricati dal Progetto Gutemberg e le versioni normalizzate degli stessi
 - La cartella "Dataset", con i file creati estraendo dai testi solo i paragrafi di lunghezza compresa tra 50 e 100 token, uno per file
 - Il file dizionario_paragrafi.json, ovvero il dizionario dei paragrafi estratti 
